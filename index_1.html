@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Dynasty HQ — NCAA Online Dynasty</title>
+<style>
+  :root{
+    color-scheme: light;
+    --plane:#f9f9f7; --surface:#fcfcfb; --surface-2:#f1f1ee;
+    --ink:#0b0b0b; --ink-2:#52514e; --muted:#898781;
+    --grid:#e1e0d9; --axis:#c3c2b7; --border:rgba(11,11,11,0.10);
+    --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a;
+    --s1-soft:rgba(42,120,214,0.12); --s2-soft:rgba(235,104,52,0.12); --s3-soft:rgba(27,175,122,0.12);
+    --good:#006300;
+    --shadow:0 1px 2px rgba(11,11,11,.06),0 6px 20px rgba(11,11,11,.06);
+    --radius:14px;
+  }
+  :root[data-theme="dark"]{
+    color-scheme: dark;
+    --plane:#0d0d0d; --surface:#1a1a19; --surface-2:#232322;
+    --ink:#ffffff; --ink-2:#c3c2b7; --muted:#898781;
+    --grid:#2c2c2a; --axis:#383835; --border:rgba(255,255,255,0.10);
+    --s1:#3987e5; --s2:#d95926; --s3:#199e70;
+    --s1-soft:rgba(57,135,229,0.16); --s2-soft:rgba(217,89,38,0.16); --s3-soft:rgba(25,158,112,0.16);
+    --good:#0ca30c;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 26px rgba(0,0,0,.5);
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--plane); color:var(--ink);
+    font-family: system-ui,-apple-system,"Segoe UI",sans-serif;
+    -webkit-font-smoothing:antialiased; line-height:1.45;
+  }
+  .wrap{max-width:1180px;margin:0 auto;padding:22px 20px 80px}
+  .tnum{font-variant-numeric:tabular-nums}
+
+  /* Header */
+  header.top{display:flex;flex-wrap:wrap;align-items:flex-end;gap:16px;justify-content:space-between;margin-bottom:6px}
+  .brand h1{font-size:26px;font-weight:800;letter-spacing:-.02em;margin:0}
+  .brand .sub{color:var(--ink-2);font-size:13.5px;margin-top:3px}
+  .brand .sub b{color:var(--ink);font-weight:600}
+  .tools{display:flex;gap:8px;align-items:center}
+  .icobtn{background:var(--surface);border:1px solid var(--border);color:var(--ink-2);
+    border-radius:10px;padding:8px 12px;font-size:13px;cursor:pointer;font-weight:600}
+  .icobtn:hover{color:var(--ink);border-color:var(--axis)}
+
+  /* Tabs */
+  .tabs{display:flex;gap:4px;margin:18px 0 14px;background:var(--surface-2);
+    padding:4px;border-radius:12px;border:1px solid var(--border);width:fit-content}
+  .tab{border:0;background:transparent;color:var(--ink-2);font-weight:650;font-size:14px;
+    padding:9px 18px;border-radius:9px;cursor:pointer}
+  .tab.active{background:var(--surface);color:var(--ink);box-shadow:var(--shadow)}
+
+  /* Controls row */
+  .controls{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;margin-bottom:16px}
+  .seg{display:inline-flex;background:var(--surface-2);border:1px solid var(--border);border-radius:10px;padding:3px;gap:2px}
+  .seg button{border:0;background:transparent;color:var(--ink-2);font-weight:600;font-size:13px;
+    padding:7px 13px;border-radius:8px;cursor:pointer;font-variant-numeric:tabular-nums}
+  .seg button.on{background:var(--surface);color:var(--ink);box-shadow:var(--shadow)}
+  .ctl-label{font-size:12px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.04em;margin-right:2px}
+  select.pick{background:var(--surface);border:1px solid var(--border);color:var(--ink);
+    border-radius:10px;padding:8px 30px 8px 12px;font-size:13.5px;font-weight:600;cursor:pointer;
+    appearance:none;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23898781' stroke-width='3'><path d='M6 9l6 6 6-6'/></svg>");
+    background-repeat:no-repeat;background-position:right 10px center}
+
+  /* Cards */
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
+    box-shadow:var(--shadow);padding:18px}
+  .card h2{font-size:15px;font-weight:750;margin:0 0 2px}
+  .card .hint{font-size:12.5px;color:var(--muted);margin:0 0 14px}
+
+  /* Team cards */
+  .teamgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:16px}
+  .team{position:relative;overflow:hidden}
+  .team .accent{position:absolute;left:0;top:0;bottom:0;width:5px}
+  .team .who{display:flex;align-items:baseline;gap:8px;margin-bottom:2px}
+  .team .who .name{font-size:19px;font-weight:800;letter-spacing:-.01em}
+  .team .who .school{font-size:12.5px;color:var(--muted);font-weight:600}
+  .team .rec{font-size:30px;font-weight:800;letter-spacing:-.02em;font-variant-numeric:tabular-nums;margin:6px 0 2px}
+  .team .wl{font-size:12.5px;color:var(--ink-2);font-weight:600}
+  .team .mini{display:grid;grid-template-columns:1fr 1fr;gap:8px 10px;margin-top:14px;padding-top:14px;border-top:1px solid var(--border)}
+  .team .mini .k{font-size:11.5px;color:var(--muted);font-weight:600}
+  .team .mini .v{font-size:16px;font-weight:750;font-variant-numeric:tabular-nums}
+  .rankpill{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:750;
+    padding:2px 8px;border-radius:20px;background:var(--surface-2);color:var(--ink-2);margin-left:auto}
+
+  /* Leaderboard table */
+  table.lead{width:100%;border-collapse:collapse;font-size:13.5px}
+  table.lead th,table.lead td{text-align:right;padding:8px 10px;border-bottom:1px solid var(--grid)}
+  table.lead th:first-child,table.lead td:first-child{text-align:left}
+  table.lead thead th{font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);font-weight:700;border-bottom:1px solid var(--axis)}
+  table.lead td.val{font-variant-numeric:tabular-nums;font-weight:650}
+  table.lead .sec{font-size:10.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;
+    font-weight:700;padding-top:14px}
+  .lead-lead{position:relative}
+  .dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:baseline}
+  .best{font-weight:800}
+  .best .crown{color:var(--good);font-weight:800;margin-left:5px;font-size:11px}
+
+  /* Chart area */
+  .chartwrap{width:100%;overflow:visible}
+  svg{display:block;width:100%;height:auto;overflow:visible}
+  .axislabel{fill:var(--muted);font-size:11px;font-variant-numeric:tabular-nums}
+  .gridline{stroke:var(--grid);stroke-width:1}
+  .baseline{stroke:var(--axis);stroke-width:1.5}
+  .barlabel{fill:var(--ink);font-size:13px;font-weight:750;font-variant-numeric:tabular-nums}
+  .barname{fill:var(--ink-2);font-size:12.5px;font-weight:650}
+  .serieslabel{font-size:12px;font-weight:750;font-variant-numeric:tabular-nums}
+
+  .legend{display:flex;flex-wrap:wrap;gap:14px;margin:2px 0 14px}
+  .legend .item{display:flex;align-items:center;gap:7px;font-size:13px;color:var(--ink-2);font-weight:650}
+  .legend .swatch{width:12px;height:12px;border-radius:3px}
+
+  .two{display:grid;grid-template-columns:1.15fr .85fr;gap:16px}
+  @media(max-width:900px){.two{grid-template-columns:1fr}.teamgrid{grid-template-columns:1fr}}
+
+  /* ---- phone ---- */
+  @media(max-width:640px){
+    .wrap{padding:16px 13px 60px}
+    .brand h1{font-size:22px}
+    .brand .sub{font-size:12.5px}
+    .tabs{width:100%}
+    .tab{flex:1;padding:9px 8px;text-align:center}
+    .seg{flex-wrap:wrap}
+    .seg button{padding:7px 11px}
+    .card{padding:15px;border-radius:12px}
+    select.pick{flex:1;min-width:0}
+    .controls{gap:8px 10px}
+    /* leaderboard: keep it inside the screen; scroll internally only if truly needed */
+    #leadtable{overflow-x:auto;-webkit-overflow-scrolling:touch}
+    table.lead{font-size:12px}
+    table.lead th,table.lead td{padding:7px 6px}
+    table.lead thead th:first-child,table.lead td:first-child{position:sticky;left:0;background:var(--surface);z-index:1}
+    .team .rec{font-size:27px}
+    .legend{gap:10px 12px}
+    .legend .item{font-size:12px}
+  }
+
+  /* Tooltip */
+  .tt{position:fixed;pointer-events:none;z-index:50;background:var(--surface);border:1px solid var(--border);
+    box-shadow:var(--shadow);border-radius:10px;padding:9px 11px;font-size:12.5px;opacity:0;transform:translateY(-4px);
+    transition:opacity .08s;min-width:120px}
+  .tt .tt-h{font-weight:750;margin-bottom:5px;font-size:12.5px}
+  .tt .tt-r{display:flex;align-items:center;gap:7px;justify-content:space-between}
+  .tt .tt-r .l{display:flex;align-items:center;gap:6px;color:var(--ink-2)}
+  .tt .tt-r .v{font-weight:750;font-variant-numeric:tabular-nums}
+  .tt .sw{width:9px;height:9px;border-radius:2px;display:inline-block}
+
+  .foot{margin-top:22px;font-size:12px;color:var(--muted);text-align:center;line-height:1.6}
+  .tablebtn{font-size:12px;color:var(--ink-2);background:transparent;border:1px solid var(--border);
+    border-radius:8px;padding:5px 10px;cursor:pointer;font-weight:600}
+  .tablebtn:hover{color:var(--ink)}
+  .hidden{display:none!important}
+  .sectionwrap{margin-bottom:16px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <h1>Dynasty HQ</h1>
+      <div class="sub">NCAA Online Dynasty &middot; <b id="who-line"></b> &middot; Seasons <b id="season-line"></b></div>
+    </div>
+    <div class="tools">
+      <button class="icobtn" id="themeBtn">◐ Theme</button>
+    </div>
+  </header>
+
+  <div class="tabs" id="tabs">
+    <button class="tab active" data-view="standings">Standings</button>
+    <button class="tab" data-view="compare">Head-to-Head</button>
+    <button class="tab" data-view="trends">Trends</button>
+  </div>
+
+  <!-- STANDINGS -->
+  <section id="view-standings">
+    <div class="controls">
+      <span class="ctl-label">Period</span>
+      <div class="seg" id="seg-standings"></div>
+    </div>
+    <div class="teamgrid" id="teamcards"></div>
+    <div class="card">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:10px">
+        <div><h2>League leaderboard</h2><p class="hint" id="lead-hint"></p></div>
+        <div class="seg" id="seg-leadscope"></div>
+      </div>
+      <div id="leadtable"></div>
+    </div>
+  </section>
+
+  <!-- COMPARE -->
+  <section id="view-compare" class="hidden">
+    <div class="controls">
+      <span class="ctl-label">Period</span>
+      <div class="seg" id="seg-compare"></div>
+      <span class="ctl-label" style="margin-left:8px">Stat</span>
+      <select class="pick" id="statpick"></select>
+    </div>
+    <div class="two">
+      <div class="card">
+        <h2 id="cmp-title"></h2>
+        <p class="hint" id="cmp-hint"></p>
+        <div class="legend" id="cmp-legend"></div>
+        <div class="chartwrap" id="cmp-bars"></div>
+        <div style="text-align:right;margin-top:8px"><button class="tablebtn" data-table="cmp">Table view</button></div>
+        <div id="cmp-tablebox" class="hidden" style="margin-top:12px"></div>
+      </div>
+      <div class="card">
+        <h2>Team profile</h2>
+        <p class="hint">Eight core metrics, each scaled to the field leader for this period. A bigger shape = a more complete team.</p>
+        <div class="legend" id="radar-legend"></div>
+        <div class="chartwrap" id="radar"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRENDS -->
+  <section id="view-trends" class="hidden">
+    <div class="controls">
+      <span class="ctl-label">Stat</span>
+      <select class="pick" id="trendpick"></select>
+    </div>
+    <div class="card">
+      <h2 id="trend-title"></h2>
+      <p class="hint" id="trend-hint"></p>
+      <div class="legend" id="trend-legend"></div>
+      <div class="chartwrap" id="trend-chart"></div>
+      <div style="text-align:right;margin-top:8px"><button class="tablebtn" data-table="trend">Table view</button></div>
+      <div id="trend-tablebox" class="hidden" style="margin-top:12px"></div>
+    </div>
+  </section>
+
+  <div class="foot" id="foot"></div>
+</div>
+<div class="tt" id="tt"></div>
+
+<script>
+const DATA = {"players": ["Alex", "Blake", "Nick"], "schools": {"Alex": "UMass", "Blake": "Army", "Nick": "UConn"}, "colors": {"Alex": "1", "Blake": "2", "Nick": "3"}, "seasons": ["2024", "2026", "2027", "2028"], "periods": ["Total", "2024", "2026", "2027", "2028"], "stats": [{"label": "Pythagorean Wins", "section": "Overall", "fmt": "num1", "higherBetter": true, "values": {"Total": {"Alex": 37.87067237, "Blake": 24.26211125, "Nick": 40.21123145}, "2024": {"Alex": 8.591840242, "Blake": 2.387047051, "Nick": 9.059471087}, "2026": {"Alex": 9.331445033, "Blake": 6.705095223, "Nick": 9.362601801}, "2027": {"Alex": 10.03560994, "Blake": 5.648929584, "Nick": 11.43269871}, "2028": {"Alex": 9.614387012, "Blake": 9.249428687, "Nick": 10.03853191}}}, {"label": "Season Rating", "section": "Overall", "fmt": "num1", "higherBetter": true, "values": {"Total": {"Alex": 883.9270806, "Blake": 578.6011732, "Nick": 768.6942495}, "2024": {"Alex": 78.78909178, "Blake": 47.84456026, "Nick": 78.76748734}, "2026": {"Alex": 936.1355771, "Blake": 687.7697274, "Nick": 780.4113697}, "2027": {"Alex": null, "Blake": null, "Nick": null}, "2028": {"Alex": null, "Blake": null, "Nick": null}}}, {"label": "Strength of Schedule", "section": "Overall", "fmt": "pct", "higherBetter": null, "values": {"Total": {"Alex": 0.4950844083, "Blake": 0.4930750884, "Nick": 0.4888331558}, "2024": {"Alex": 0.4274401118, "Blake": 0.442363129, "Nick": 0.4137306978}, "2026": {"Alex": 0.4874614198, "Blake": 0.5304783951, "Nick": 0.4809027778}, "2027": {"Alex": 0.3586206897, "Blake": 0.3402298851, "Nick": 0.3694267516}, "2028": {"Alex": 0.5413406364, "Blake": 0.4976851852, "Nick": 0.5186156436}}}, {"label": "Margin of Victory", "section": "Overall", "fmt": "num1", "higherBetter": true, "values": {"Total": {"Alex": 20.20833333, "Blake": 0.2083333333, "Nick": 17.55102041}, "2024": {"Alex": 11.33333333, "Blake": -12.33333333, "Nick": 10.58333333}, "2026": {"Alex": 21.16666667, "Blake": 1.833333333, "Nick": 16.66666667}, "2027": {"Alex": 24.91666667, "Blake": -1.25, "Nick": 22.92307692}, "2028": {"Alex": 23.41666667, "Blake": 12.58333333, "Nick": 19.58333333}}}, {"label": "SRS", "section": "Overall", "fmt": "num1", "higherBetter": true, "values": {"Total": {"Alex": 10.35170887, "Blake": 0.3507042109, "Nick": 9.019926782}, "2024": {"Alex": 5.880386723, "Blake": -5.945485102, "Nick": 5.498532016}, "2026": {"Alex": 10.82706404, "Blake": 1.181905864, "Nick": 8.573784722}, "2027": {"Alex": 12.63764368, "Blake": -0.4548850575, "Nick": 11.64625184}, "2028": {"Alex": 11.97900365, "Blake": 6.540509259, "Nick": 10.05097449}}}, {"label": "Wins", "section": "Overall", "fmt": "int", "higherBetter": true, "values": {"Total": {"Alex": 41, "Blake": 28, "Nick": 45}, "2024": {"Alex": 9.0, "Blake": 4.0, "Nick": 11.0}, "2026": {"Alex": 10.0, "Blake": 8.0, "Nick": 12.0}, "2027": {"Alex": 11.0, "Blake": 7.0, "Nick": 12.0}, "2028": {"Alex": 11.0, "Blake": 9.0, "Nick": 10.0}}}, {"label": "Losses", "section": "Overall", "fmt": "int", "higherBetter": false, "values": {"Total": {"Alex": 7, "Blake": 20, "Nick": 4}, "2024": {"Alex": 3.0, "Blake": 8.0, "Nick": 1.0}, "2026": {"Alex": 2.0, "Blake": 4.0, "Nick": 0.0}, "2027": {"Alex": 1.0, "Blake": 5.0, "Nick": 1.0}, "2028": {"Alex": 1.0, "Blake": 3.0, "Nick": 2.0}}}, {"label": "Record", "section": "Overall", "fmt": "record", "higherBetter": null, "values": {"Total": {"Alex": "41 - 7", "Blake": "28 - 20", "Nick": "45 - 4"}, "2024": {"Alex": "9 - 3", "Blake": "4 - 8", "Nick": "11 - 1"}, "2026": {"Alex": "10 - 2", "Blake": "8 - 4", "Nick": "12 - 0"}, "2027": {"Alex": "11 - 1", "Blake": "7 - 5", "Nick": "12 - 1"}, "2028": {"Alex": "11 - 1", "Blake": "9 - 3", "Nick": "10 - 2"}}}, {"label": "Win %", "section": "Overall", "fmt": "pct", "higherBetter": true, "values": {"Total": {"Alex": 0.8541666667, "Blake": 0.5833333333, "Nick": 0.9183673469}, "2024": {"Alex": 0.75, "Blake": 0.3333333333, "Nick": 0.9166666667}, "2026": {"Alex": 0.8333333333, "Blake": 0.6666666667, "Nick": 1}, "2027": {"Alex": 0.9166666667, "Blake": 0.5833333333, "Nick": 0.9230769231}, "2028": {"Alex": 0.9166666667, "Blake": 0.75, "Nick": 0.8333333333}}}, {"label": "Opponent Record", "section": "Overall", "fmt": "record", "higherBetter": null, "values": {"Total": {"Alex": "291 - 289", "Blake": "289 - 290", "Nick": "285 - 305"}, "2024": {"Alex": "65 - 82", "Blake": "66 - 80", "Nick": "59 - 86"}, "2026": {"Alex": "68 - 76", "Blake": "79 - 65", "Nick": "66 - 78"}, "2027": {"Alex": "78 - 67", "Blake": "74 - 71", "Nick": "87 - 70"}, "2028": {"Alex": "80 - 64", "Blake": "70 - 74", "Nick": "73 - 71"}}}, {"label": "Opponent Win %", "section": "Overall", "fmt": "pct", "higherBetter": null, "values": {"Total": {"Alex": 0.5017241379, "Blake": 0.4991364421, "Nick": 0.4830508475}, "2024": {"Alex": 0.4421768707, "Blake": 0.4520547945, "Nick": 0.4068965517}, "2026": {"Alex": 0.4722222222, "Blake": 0.5486111111, "Nick": 0.4583333333}, "2027": {"Alex": 0.5379310345, "Blake": 0.5103448276, "Nick": 0.5541401274}, "2028": {"Alex": 0.5555555556, "Blake": 0.4861111111, "Nick": 0.5069444444}}}, {"label": "Total Yards", "section": "Offense", "fmt": "int", "higherBetter": true, "values": {"Total": {"Alex": 12972, "Blake": 6971.5, "Nick": 10272.5}, "2024": {"Alex": 5440, "Blake": 2855, "Nick": 4595}, "2026": {"Alex": 6800, "Blake": 3048, "Nick": 5499}, "2027": {"Alex": 6964, "Blake": 3935, "Nick": 5532}, "2028": {"Alex": 6740, "Blake": 4105, "Nick": 4919}}}, {"label": "Yards / Game", "section": "Offense", "fmt": "num1", "higherBetter": true, "values": {"Total": {"Alex": 270.25, "Blake": 145.2395833, "Nick": 209.6428571}, "2024": {"Alex": 453.3333333, "Blake": 237.9166667, "Nick": 382.9166667}, "2026": {"Alex": 566.6666667, "Blake": 254, "Nick": 458.25}, "2027": {"Alex": 580.3333333, "Blake": 327.9166667, "Nick": 425.5384615}, "2028": {"Alex": 561.6666667, "Blake": 342.0833333, "Nick": 409.9166667}}}, {"label": "Yards / Play", "section": "Offense", "fmt": "num1", "higherBetter": true, "values": {"Total": {"Alex": 11.64452424, "Blake": 7.946238602, "Nick": 9.526275116}, "2024": {"Alex": 6.160815402, "Blake": 4.22962963, "Nick": 5.883482714}, "2026": {"Alex": 8.212560386, "Blake": 5.105527638, "Nick": 6.349884527}, "2027": {"Alex": 8.241420118, "Blake": 5.645624103, "Nick": 6.729927007}, "2028": {"Alex": 8.575063613, "Blake": 6.191553544, "Nick": 6.421671018}}}, {"label": "Rushing Yards", "section": "Offense", "fmt": "int", "higherBetter": true, "values": {"Total": {"Alex": 6435, "Blake": 8780, "Nick": 8756}, "2024": {"Alex": 1916.0, "Blake": 1477.0, "Nick": 2253.0}, "2026": {"Alex": 1643.0, "Blake": 2121.0, "Nick": 2196.0}, "2027": {"Alex": 1398.0, "Blake": 2423.0, "Nick": 2173.0}, "2028": {"Alex": 1478.0, "Blake": 2759.0, "Nick": 2134.0}}}, {"label": "Rush Yards / Game", "section": "Offense", "fmt": "num1", "higherBetter": true, "values": {"Total": {"Alex": 134.0625, "Blake": 182.9166667, "Nick": 178.6938776}, "2024": {"Alex": 159.6666667, "Blake": 123.0833333, "Nick": 187.75}, "2026": {"Alex": 136.9166667, "Blake": 176.75, "Nick": 183}, "2027": {"Alex": 116.5, "Blake": 201.9166667, "Nick": 167.1538462}, "2028": {"Alex": 123.1666667, "Blake": 229.9166667, "Nick": 177.8333333}}}, {"label": "Yards / Carry", "section": "Offense", "fmt": "num1", "higherBetter": true, "values": {"Total": {"Alex": 4.5703125, "Blake": 4.960451977, "Nick": 4.867148416}, "2024": {"Alex": 4.344671202, "Blake": 3.434883721, "Nick": 4.908496732}, "2026": {"Alex": 4.654390935, "Blake": 5.038004751, "Nick": 4.5}, "2027": {"Alex": 4.568627451, "Blake": 5.432735426, "Nick": 5.065268065}, "2028": {"Alex": 4.798701299, "Blake": 5.832980973, "Nick": 5.044917258}}}, {"label": "Rushing TDs", "section": "Offense", "fmt": "int", "higherBetter": true, "values": {"Total": {"Alex": 107, "Blake": 107, "Nick": 109}, "2024": {"Alex": 29.0, "Blake": 13.0, "Nick": 18.0}, "2026": {"Alex": 28.0, "Blake": 28.0, "Nick": 35.0}, "2027": {"Alex": 25.0, "Blake": 33.0, "Nick": 27.0}, "2028": {"Alex": 25.0, "Blake": 33.0, "Nick": 29.0}}}, {"label": "Passing Yards", "section": "Offense", "fmt": "int", "higherBetter": true, "values": {"Total": {"Alex": 19509, "Blake": 5163, "Nick": 11789}, "2024": {"Alex": 3524.0, "Blake": 1378.0, "Nick": 2342.0}, "2026": {"Alex": 5157.0, "Blake": 927.0, "Nick": 3303.0}, "2027": {"Alex": 5566.0, "Blake": 1512.0, "Nick": 3359.0}, "2028": {"Alex": 5262.0, "Blake": 1346.0, "Nick": 2785.0}}}, {"label": "NFL Passer Rating", "section": "Offense", "fmt": "num1", "higherBetter": true, "values": {"Total": {"Alex": 117.8641356, "Blake": 52.76214128, "Nick": 110.0256309}, "2024": {"Alex": 82.31003359, "Blake": 46.27764613, "Nick": 100.4918981}, "2026": {"Alex": 124.970726, "Blake": 56.06540084, "Nick": 114.5344575}, "2027": {"Alex": 127.7282756, "Blake": 45.91049383, "Nick": 125.8333333}, "2028": {"Alex": 125.2131783, "Blake": 66.44607843, "Nick": 93.42403628}}}, {"label": "NCAA Passer Rating", "section": "Offense", "fmt": "num1", "higherBetter": true, "values": {"Total": {"Alex": 184.5476218, "Blake": 104.9128477, "Nick": 168.815142}, "2024": {"Alex": 144.3617128, "Blake": 101.0199052, "Nick": 152.5791667}, "2026": {"Alex": 196.1798595, "Blake": 100.4860759, "Nick": 175.1178886}, "2027": {"Alex": 192.004888, "Blake": 95.60555556, "Nick": 189.1466667}, "2028": {"Alex": 201.5832558, "Blake": 125.6847059, "Nick": 153.5510204}}}, {"label": "Pass Yards / Game", "section": "Offense", "fmt": "num1", "higherBetter": true, "values": {"Total": {"Alex": 406.4375, "Blake": 107.5625, "Nick": 240.5918367}, "2024": {"Alex": 293.6666667, "Blake": 114.8333333, "Nick": 195.1666667}, "2026": {"Alex": 429.75, "Blake": 77.25, "Nick": 275.25}, "2027": {"Alex": 463.8333333, "Blake": 126, "Nick": 258.3846154}, "2028": {"Alex": 438.5, "Blake": 112.1666667, "Nick": 232.0833333}}}, {"label": "Completions", "section": "Offense", "fmt": "int", "higherBetter": true, "values": {"Total": {"Alex": 1126, "Blake": 384, "Nick": 929}, "2024": {"Alex": 248.0, "Blake": 111.0, "Nick": 202.0}, "2026": {"Alex": 259.0, "Blake": 89.0, "Nick": 254.0}, "2027": {"Alex": 331.0, "Blake": 93.0, "Nick": 275.0}, "2028": {"Alex": 288.0, "Blake": 91.0, "Nick": 198.0}}}, {"label": "Pass Attempts", "section": "Offense", "fmt": "int", "higherBetter": null, "values": {"Total": {"Alex": 1745, "Blake": 755, "Nick": 1268}, "2024": {"Alex": 397.0, "Blake": 211.0, "Nick": 288.0}, "2026": {"Alex": 427.0, "Blake": 158.0, "Nick": 341.0}, "2027": {"Alex": 491.0, "Blake": 216.0, "Nick": 345.0}, "2028": {"Alex": 430.0, "Blake": 170.0, "Nick": 294.0}}}, {"label": "Completion %", "section": "Offense", "fmt": "pct", "higherBetter": true, "values": {"Total": {"Alex": 0.6452722063, "Blake": 0.5086092715, "Nick": 0.7326498423}, "2024": {"Alex": 0.6246851385, "Blake": 0.5260663507, "Nick": 0.7013888889}, "2026": {"Alex": 0.606557377, "Blake": 0.5632911392, "Nick": 0.7448680352}, "2027": {"Alex": 0.6741344196, "Blake": 0.4305555556, "Nick": 0.7971014493}, "2028": {"Alex": 0.6697674419, "Blake": 0.5352941176, "Nick": 0.6734693878}}}, {"label": "Yards / Attempt", "section": "Offense", "fmt": "num1", "higherBetter": true, "values": {"Total": {"Alex": 11.17994269, "Blake": 6.838410596, "Nick": 9.297318612}, "2024": {"Alex": 8.876574307, "Blake": 6.530805687, "Nick": 8.131944444}, "2026": {"Alex": 12.07728337, "Blake": 5.867088608, "Nick": 9.686217009}, "2027": {"Alex": 11.33604888, "Blake": 7, "Nick": 9.736231884}, "2028": {"Alex": 12.2372093, "Blake": 7.917647059, "Nick": 9.472789116}}}, {"label": "Passing TDs", "section": "Offense", "fmt": "int", "higherBetter": true, "values": {"Total": {"Alex": 192, "Blake": 28, "Nick": 101}, "2024": {"Alex": 27.0, "Blake": 8.0, "Nick": 19.0}, "2026": {"Alex": 55.0, "Blake": 3.0, "Nick": 29.0}, "2027": {"Alex": 54.0, "Blake": 5.0, "Nick": 38.0}, "2028": {"Alex": 56.0, "Blake": 12.0, "Nick": 15.0}}}, {"label": "Interceptions Thrown", "section": "Offense", "fmt": "int", "higherBetter": false, "values": {"Total": {"Alex": 89, "Blake": 59, "Nick": 56}, "2024": {"Alex": 30.0, "Blake": 20.0, "Nick": 11.0}, "2026": {"Alex": 18.0, "Blake": 9.0, "Nick": 15.0}, "2027": {"Alex": 17.0, "Blake": 15.0, "Nick": 15.0}, "2028": {"Alex": 24.0, "Blake": 15.0, "Nick": 15.0}}}, {"label": "Points Scored", "section": "Offense", "fmt": "int", "higherBetter": true, "values": {"Total": {"Alex": 2273, "Blake": 1090, "Nick": 1816}, "2024": {"Alex": 421.0, "Blake": 185.0, "Nick": 336.0}, "2026": {"Alex": 619.0, "Blake": 232.0, "Nick": 483.0}, "2027": {"Alex": 601.0, "Blake": 296.0, "Nick": 525.0}, "2028": {"Alex": 632.0, "Blake": 377.0, "Nick": 472.0}}}, {"label": "Point Differential", "section": "Offense", "fmt": "int", "higherBetter": true, "values": {"Total": {"Alex": 970, "Blake": 10, "Nick": 860}, "2024": {"Alex": 136, "Blake": -148, "Nick": 127}, "2026": {"Alex": 254, "Blake": 22, "Nick": 200}, "2027": {"Alex": 299, "Blake": -15, "Nick": 298}, "2028": {"Alex": 281, "Blake": 151, "Nick": 235}}}, {"label": "Points / Game", "section": "Offense", "fmt": "num1", "higherBetter": true, "values": {"Total": {"Alex": 47.35416667, "Blake": 22.70833333, "Nick": 37.06122449}, "2024": {"Alex": 35.08333333, "Blake": 15.41666667, "Nick": 28}, "2026": {"Alex": 51.58333333, "Blake": 19.33333333, "Nick": 40.25}, "2027": {"Alex": 50.08333333, "Blake": 24.66666667, "Nick": 40.38461538}, "2028": {"Alex": 52.66666667, "Blake": 31.41666667, "Nick": 39.33333333}}}, {"label": "Total TDs", "section": "Offense", "fmt": "int", "higherBetter": true, "values": {"Total": {"Alex": 299, "Blake": 135, "Nick": 210}, "2024": {"Alex": 56, "Blake": 21, "Nick": 37}, "2026": {"Alex": 83, "Blake": 31, "Nick": 64}, "2027": {"Alex": 79, "Blake": 38, "Nick": 65}, "2028": {"Alex": 81, "Blake": 45, "Nick": 44}}}, {"label": "Sacks Allowed", "section": "Offense", "fmt": "int", "higherBetter": false, "values": {"Total": {"Alex": 189, "Blake": 107, "Nick": 168}, "2024": {"Alex": 45.0, "Blake": 34.0, "Nick": 34.0}, "2026": {"Alex": 48.0, "Blake": 18.0, "Nick": 37.0}, "2027": {"Alex": 48.0, "Blake": 35.0, "Nick": 48.0}, "2028": {"Alex": 48.0, "Blake": 20.0, "Nick": 49.0}}}, {"label": "First Downs", "section": "Offense", "fmt": "int", "higherBetter": true, "values": {"Total": {"Alex": 1317, "Blake": 816, "Nick": 1148}, "2024": {"Alex": 319.0, "Blake": 166.0, "Nick": 263.0}, "2026": {"Alex": 324.0, "Blake": 195.0, "Nick": 304.0}, "2027": {"Alex": 353.0, "Blake": 219.0, "Nick": 312.0}, "2028": {"Alex": 321.0, "Blake": 236.0, "Nick": 269.0}}}, {"label": "3rd Down %", "section": "Offense", "fmt": "pct", "higherBetter": true, "values": {"Total": {"Alex": 0.5154639175, "Blake": 0.4227005871, "Nick": 0.5698113208}, "2024": {"Alex": 0.4892086331, "Blake": 0.3897058824, "Nick": 0.5531914894}, "2026": {"Alex": 0.564516129, "Blake": 0.4632352941, "Nick": 0.664}, "2027": {"Alex": 0.5289256198, "Blake": 0.3953488372, "Nick": 0.5407407407}, "2028": {"Alex": 0.4752475248, "Blake": 0.4454545455, "Nick": 0.5271317829}}}, {"label": "4th Down %", "section": "Offense", "fmt": "pct", "higherBetter": true, "values": {"Total": {"Alex": 0.6265060241, "Blake": 0.6283185841, "Nick": 0.7547169811}, "2024": {"Alex": 0.6129032258, "Blake": 0.5161290323, "Nick": 0.9090909091}, "2026": {"Alex": 0.6470588235, "Blake": 0.65625, "Nick": 0.75}, "2027": {"Alex": 0.6363636364, "Blake": 0.6428571429, "Nick": 0.7857142857}, "2028": {"Alex": 0.6153846154, "Blake": 0.7272727273, "Nick": 0.625}}}, {"label": "Total Yards Allowed", "section": "Defense", "fmt": "int", "higherBetter": false, "values": {"Total": {"Alex": 16870, "Blake": 13125, "Nick": 14870}, "2024": {"Alex": 3763.0, "Blake": 3636.0, "Nick": 3070.0}, "2026": {"Alex": 4857.0, "Blake": 2589.0, "Nick": 4181.0}, "2027": {"Alex": 4154.0, "Blake": 3758.0, "Nick": 3700.0}, "2028": {"Alex": 4096.0, "Blake": 3142.0, "Nick": 3919.0}}}, {"label": "Yards / Game Allowed", "section": "Defense", "fmt": "num1", "higherBetter": false, "values": {"Total": {"Alex": 351.4583333, "Blake": 273.4375, "Nick": 303.4693878}, "2024": {"Alex": 313.5833333, "Blake": 303, "Nick": 255.8333333}, "2026": {"Alex": 404.75, "Blake": 215.75, "Nick": 348.4166667}, "2027": {"Alex": 346.1666667, "Blake": 313.1666667, "Nick": 284.6153846}, "2028": {"Alex": 341.3333333, "Blake": 261.8333333, "Nick": 326.5833333}}}, {"label": "Rush Yards Allowed", "section": "Defense", "fmt": "int", "higherBetter": false, "values": {"Total": {"Alex": 4879, "Blake": 4687, "Nick": 4255}, "2024": {"Alex": 1418.0, "Blake": 1595.0, "Nick": 1328.0}, "2026": {"Alex": 1389.0, "Blake": 1295.0, "Nick": 1166.0}, "2027": {"Alex": 1156.0, "Blake": 1192.0, "Nick": 968.0}, "2028": {"Alex": 916.0, "Blake": 605.0, "Nick": 793.0}}}, {"label": "Rush Yards / Game Allowed", "section": "Defense", "fmt": "num1", "higherBetter": false, "values": {"Total": {"Alex": 101.6458333, "Blake": 97.64583333, "Nick": 86.83673469}, "2024": {"Alex": 118.1666667, "Blake": 132.9166667, "Nick": 110.6666667}, "2026": {"Alex": 115.75, "Blake": 107.9166667, "Nick": 97.16666667}, "2027": {"Alex": 96.33333333, "Blake": 99.33333333, "Nick": 74.46153846}, "2028": {"Alex": 76.33333333, "Blake": 50.41666667, "Nick": 66.08333333}}}, {"label": "Pass Yards Allowed", "section": "Defense", "fmt": "int", "higherBetter": false, "values": {"Total": {"Alex": 11251, "Blake": 8438, "Nick": 10615}, "2024": {"Alex": 2354.0, "Blake": 2041.0, "Nick": 1742.0}, "2026": {"Alex": 3468.0, "Blake": 1294.0, "Nick": 3015.0}, "2027": {"Alex": 2249.0, "Blake": 2566.0, "Nick": 2732.0}, "2028": {"Alex": 3180.0, "Blake": 2537.0, "Nick": 3126.0}}}, {"label": "Pass Yards / Game Allowed", "section": "Defense", "fmt": "num1", "higherBetter": false, "values": {"Total": {"Alex": 234.3958333, "Blake": 175.7916667, "Nick": 216.6326531}, "2024": {"Alex": 196.1666667, "Blake": 170.0833333, "Nick": 145.1666667}, "2026": {"Alex": 289, "Blake": 107.8333333, "Nick": 251.25}, "2027": {"Alex": 187.4166667, "Blake": 213.8333333, "Nick": 210.1538462}, "2028": {"Alex": 265, "Blake": 211.4166667, "Nick": 260.5}}}, {"label": "Points Allowed", "section": "Defense", "fmt": "int", "higherBetter": false, "values": {"Total": {"Alex": 1303, "Blake": 1080, "Nick": 956}, "2024": {"Alex": 285.0, "Blake": 333.0, "Nick": 209.0}, "2026": {"Alex": 365.0, "Blake": 210.0, "Nick": 283.0}, "2027": {"Alex": 302.0, "Blake": 311.0, "Nick": 227.0}, "2028": {"Alex": 351.0, "Blake": 226.0, "Nick": 237.0}}}, {"label": "Points Allowed / Game", "section": "Defense", "fmt": "num1", "higherBetter": false, "values": {"Total": {"Alex": 27.14583333, "Blake": 22.5, "Nick": 19.51020408}, "2024": {"Alex": 23.75, "Blake": 27.75, "Nick": 17.41666667}, "2026": {"Alex": 30.41666667, "Blake": 17.5, "Nick": 23.58333333}, "2027": {"Alex": 25.16666667, "Blake": 25.91666667, "Nick": 17.46153846}, "2028": {"Alex": 29.25, "Blake": 18.83333333, "Nick": 19.75}}}, {"label": "Tackles", "section": "Defense", "fmt": "int", "higherBetter": true, "values": {"Total": {"Alex": 2764, "Blake": 2402, "Nick": 2527}, "2024": {"Alex": 619.0, "Blake": 691.0, "Nick": 429.0}, "2026": {"Alex": 714.0, "Blake": 392.0, "Nick": 653.0}, "2027": {"Alex": 681.0, "Blake": 712.0, "Nick": 700.0}, "2028": {"Alex": 750.0, "Blake": 607.0, "Nick": 745.0}}}, {"label": "Sacks", "section": "Defense", "fmt": "num1", "higherBetter": true, "values": {"Total": {"Alex": 129.5, "Blake": 104, "Nick": 127.5}, "2024": {"Alex": 22.0, "Blake": 23.0, "Nick": 18.0}, "2026": {"Alex": 21.0, "Blake": 16.0, "Nick": 25.0}, "2027": {"Alex": 33.5, "Blake": 37.0, "Nick": 39.5}, "2028": {"Alex": 53.0, "Blake": 28.0, "Nick": 45.0}}}, {"label": "Tackles For Loss", "section": "Defense", "fmt": "int", "higherBetter": true, "values": {"Total": {"Alex": 269, "Blake": 350, "Nick": 294}, "2024": {"Alex": 62.0, "Blake": 119.0, "Nick": 30.0}, "2026": {"Alex": 48.0, "Blake": 22.0, "Nick": 73.0}, "2027": {"Alex": 54.0, "Blake": 102.0, "Nick": 81.0}, "2028": {"Alex": 105.0, "Blake": 107.0, "Nick": 110.0}}}, {"label": "Defensive TDs", "section": "Defense", "fmt": "int", "higherBetter": true, "values": {"Total": {"Alex": 5, "Blake": 7, "Nick": 10}, "2024": {"Alex": 0.0, "Blake": 1.0, "Nick": 1.0}, "2026": {"Alex": 2.0, "Blake": 0.0, "Nick": 1.0}, "2027": {"Alex": 0.0, "Blake": 1.0, "Nick": 3.0}, "2028": {"Alex": 3.0, "Blake": 5.0, "Nick": 5.0}}}, {"label": "3rd Down % Allowed", "section": "Defense", "fmt": "pct", "higherBetter": false, "values": {"Total": {"Alex": 0.3875838926, "Blake": 0.3536036036, "Nick": 0.3663366337}, "2024": {"Alex": 0.4045801527, "Blake": 0.3888888889, "Nick": 0.3009708738}, "2026": {"Alex": 0.4166666667, "Blake": 0.3052631579, "Nick": 0.4237288136}, "2027": {"Alex": 0.3618421053, "Blake": 0.3486238532, "Nick": 0.380952381}, "2028": {"Alex": 0.3655172414, "Blake": 0.3596491228, "Nick": 0.3503649635}}}, {"label": "4th Down % Allowed", "section": "Defense", "fmt": "pct", "higherBetter": false, "values": {"Total": {"Alex": 0.4696969697, "Blake": 0.5, "Nick": 0.4833333333}, "2024": {"Alex": 0.4615384615, "Blake": 0.7142857143, "Nick": 0.4615384615}, "2026": {"Alex": 0.6153846154, "Blake": 0.4285714286, "Nick": 0.4545454545}, "2027": {"Alex": 0.2941176471, "Blake": 0.5294117647, "Nick": 0.3157894737}, "2028": {"Alex": 0.4, "Blake": 0.4285714286, "Nick": 0.7058823529}}}, {"label": "FG Attempts", "section": "Special Teams", "fmt": "int", "higherBetter": true, "values": {"Total": {"Alex": 36, "Blake": 17, "Nick": 35}, "2024": {"Alex": 10, "Blake": 8, "Nick": 28}, "2026": {"Alex": 10, "Blake": 9, "Nick": 7}, "2027": {"Alex": 0, "Blake": 0, "Nick": 0}, "2028": {"Alex": 16.0, "Blake": 0, "Nick": 0}}}, {"label": "FG Made", "section": "Special Teams", "fmt": "int", "higherBetter": true, "values": {"Total": {"Alex": 29, "Blake": 10, "Nick": 27}, "2024": {"Alex": 10, "Blake": 5, "Nick": 23}, "2026": {"Alex": 8, "Blake": 5, "Nick": 4}, "2027": {"Alex": 0, "Blake": 0, "Nick": 0}, "2028": {"Alex": 11.0, "Blake": 0, "Nick": 0}}}, {"label": "FG %", "section": "Special Teams", "fmt": "pct", "higherBetter": true, "values": {"Total": {"Alex": 0.8055555556, "Blake": 0.5882352941, "Nick": 0.7714285714}, "2024": {"Alex": 1, "Blake": 0.625, "Nick": 0.8214285714}, "2026": {"Alex": 0.8, "Blake": 0.5555555556, "Nick": 0.5714285714}, "2027": {"Alex": null, "Blake": null, "Nick": null}, "2028": {"Alex": 0.6875, "Blake": null, "Nick": null}}}, {"label": "XP Made", "section": "Special Teams", "fmt": "int", "higherBetter": true, "values": {"Total": {"Alex": 274, "Blake": 104, "Nick": 209}, "2024": {"Alex": 47.0, "Blake": 9.0, "Nick": 36.0}, "2026": {"Alex": 80.0, "Blake": 18.0, "Nick": 67.0}, "2027": {"Alex": 70.0, "Blake": 34.0, "Nick": 67.0}, "2028": {"Alex": 77.0, "Blake": 43.0, "Nick": 39.0}}}, {"label": "XP %", "section": "Special Teams", "fmt": "pct", "higherBetter": true, "values": {"Total": {"Alex": 0.9891696751, "Blake": 0.9811320755, "Nick": 0.990521327}, "2024": {"Alex": 0.9791666667, "Blake": 1, "Nick": 0.972972973}, "2026": {"Alex": 0.9756097561, "Blake": 1, "Nick": 1}, "2027": {"Alex": 1, "Blake": 1, "Nick": 1}, "2028": {"Alex": 1, "Blake": 0.9555555556, "Nick": 0.975}}}, {"label": "Kick Return Yards", "section": "Special Teams", "fmt": "int", "higherBetter": true, "values": {"Total": {"Alex": 2528, "Blake": 2693, "Nick": 2225}, "2024": {"Alex": 491.0, "Blake": 854.0, "Nick": 439.0}, "2026": {"Alex": 584.0, "Blake": 525.0, "Nick": 775.0}, "2027": {"Alex": 640.0, "Blake": 731.0, "Nick": 441.0}, "2028": {"Alex": 813.0, "Blake": 583.0, "Nick": 570.0}}}, {"label": "Total Punts", "section": "Special Teams", "fmt": "int", "higherBetter": false, "values": {"Total": {"Alex": 74, "Blake": 118, "Nick": 94}, "2024": {"Alex": 20.0, "Blake": 41.0, "Nick": 17.0}, "2026": {"Alex": 21.0, "Blake": 20.0, "Nick": 33.0}, "2027": {"Alex": 20.0, "Blake": 33.0, "Nick": 24.0}, "2028": {"Alex": 13.0, "Blake": 24.0, "Nick": 20.0}}}, {"label": "Yards / Punt", "section": "Special Teams", "fmt": "num1", "higherBetter": true, "values": {"Total": {"Alex": 39.32432432, "Blake": 37.59322034, "Nick": 40.14893617}, "2024": {"Alex": 44.2, "Blake": 40.41463415, "Nick": 37.88235294}, "2026": {"Alex": 40.95238095, "Blake": 35.95, "Nick": 40.18181818}, "2027": {"Alex": 36.05, "Blake": 37.45454545, "Nick": 41.29166667}, "2028": {"Alex": 34.23076923, "Blake": 34.33333333, "Nick": 40.65}}}, {"label": "Punt Return Yards", "section": "Special Teams", "fmt": "int", "higherBetter": true, "values": {"Total": {"Alex": 1163, "Blake": 840, "Nick": 1090}, "2024": {"Alex": 294.0, "Blake": 257.0, "Nick": 392.0}, "2026": {"Alex": 436.0, "Blake": 271.0, "Nick": 179.0}, "2027": {"Alex": 200.0, "Blake": 120.0, "Nick": 273.0}, "2028": {"Alex": 233.0, "Blake": 192.0, "Nick": 246.0}}}, {"label": "Special Teams TDs", "section": "Special Teams", "fmt": "int", "higherBetter": true, "values": {"Total": {"Alex": 1, "Blake": 2, "Nick": 3}, "2024": {"Alex": 0.0, "Blake": 2.0, "Nick": 0.0}, "2026": {"Alex": 0.0, "Blake": 0.0, "Nick": 2.0}, "2027": {"Alex": 0.0, "Blake": 0.0, "Nick": 0.0}, "2028": {"Alex": 1.0, "Blake": 0.0, "Nick": 1.0}}}, {"label": "Red Zone Attempts", "section": "Red Zone", "fmt": "int", "higherBetter": true, "values": {"Total": {"Alex": 301, "Blake": 185, "Nick": 290}, "2024": {"Alex": 68.0, "Blake": 30.0, "Nick": 50.0}, "2026": {"Alex": 71.0, "Blake": 40.0, "Nick": 75.0}, "2027": {"Alex": 75.0, "Blake": 53.0, "Nick": 83.0}, "2028": {"Alex": 87.0, "Blake": 62.0, "Nick": 82.0}}}, {"label": "Red Zone TDs", "section": "Red Zone", "fmt": "int", "higherBetter": true, "values": {"Total": {"Alex": 194, "Blake": 105, "Nick": 164}, "2024": {"Alex": 46.0, "Blake": 15.0, "Nick": 28.0}, "2026": {"Alex": 51.0, "Blake": 26.0, "Nick": 54.0}, "2027": {"Alex": 51.0, "Blake": 31.0, "Nick": 45.0}, "2028": {"Alex": 46.0, "Blake": 33.0, "Nick": 37.0}}}, {"label": "Red Zone FGs", "section": "Red Zone", "fmt": "int", "higherBetter": true, "values": {"Total": {"Alex": 28, "Blake": 19, "Nick": 43}, "2024": {"Alex": 9.0, "Blake": 4.0, "Nick": 17.0}, "2026": {"Alex": 5.0, "Blake": 4.0, "Nick": 2.0}, "2027": {"Alex": 7.0, "Blake": 8.0, "Nick": 10.0}, "2028": {"Alex": 7.0, "Blake": 3.0, "Nick": 14.0}}}, {"label": "Red Zone Scoring %", "section": "Red Zone", "fmt": "pct", "higherBetter": true, "values": {"Total": {"Alex": 0.7375415282, "Blake": 0.6702702703, "Nick": 0.7137931034}, "2024": {"Alex": 0.8088235294, "Blake": 0.6333333333, "Nick": 0.9}, "2026": {"Alex": 0.7887323944, "Blake": 0.75, "Nick": 0.7466666667}, "2027": {"Alex": 0.7733333333, "Blake": 0.7358490566, "Nick": 0.6626506024}, "2028": {"Alex": 0.6091954023, "Blake": 0.5806451613, "Nick": 0.6219512195}}}, {"label": "Turnover Differential", "section": "Turnovers", "fmt": "num1", "higherBetter": true, "values": {"Total": {"Alex": 0.16, "Blake": -19.925, "Nick": 18.07407407}, "2024": {"Alex": -10.88235294, "Blake": -16.89655172, "Nick": -14}, "2026": {"Alex": 3.136363636, "Blake": 0.1666666667, "Nick": 9.095238095}, "2027": {"Alex": -2.888888889, "Blake": -4.95, "Nick": 11.10526316}, "2028": {"Alex": 11.26923077, "Blake": 2, "Nick": 12.09090909}}}, {"label": "Total Giveaways", "section": "Turnovers", "fmt": "int", "higherBetter": false, "values": {"Total": {"Alex": 100, "Blake": 80, "Nick": 81}, "2024": {"Alex": 34, "Blake": 29, "Nick": 19}, "2026": {"Alex": 22, "Blake": 12, "Nick": 21}, "2027": {"Alex": 18, "Blake": 20, "Nick": 19}, "2028": {"Alex": 26, "Blake": 19, "Nick": 22}}}, {"label": "INTs Thrown", "section": "Turnovers", "fmt": "int", "higherBetter": false, "values": {"Total": {"Alex": 89, "Blake": 59, "Nick": 56}, "2024": {"Alex": 30, "Blake": 20, "Nick": 11}, "2026": {"Alex": 18, "Blake": 9, "Nick": 15}, "2027": {"Alex": 17, "Blake": 15.0, "Nick": 15}, "2028": {"Alex": 24.0, "Blake": 15.0, "Nick": 15.0}}}, {"label": "Fumbles Lost", "section": "Turnovers", "fmt": "int", "higherBetter": false, "values": {"Total": {"Alex": 11, "Blake": 21, "Nick": 25}, "2024": {"Alex": 4.0, "Blake": 9.0, "Nick": 8.0}, "2026": {"Alex": 4.0, "Blake": 3.0, "Nick": 6.0}, "2027": {"Alex": 1.0, "Blake": 5.0, "Nick": 4.0}, "2028": {"Alex": 2.0, "Blake": 4.0, "Nick": 7.0}}}, {"label": "INTs (Defense)", "section": "Turnovers", "fmt": "int", "higherBetter": true, "values": {"Total": {"Alex": 62, "Blake": 45, "Nick": 77}, "2024": {"Alex": 11.0, "Blake": 8.0, "Nick": 5.0}, "2026": {"Alex": 18.0, "Blake": 6.0, "Nick": 21.0}, "2027": {"Alex": 9.0, "Blake": 12.0, "Nick": 25.0}, "2028": {"Alex": 24.0, "Blake": 19.0, "Nick": 26.0}}}, {"label": "Fumbles Recovered", "section": "Turnovers", "fmt": "int", "higherBetter": true, "values": {"Total": {"Alex": 22, "Blake": 9, "Nick": 16}, "2024": {"Alex": 8.0, "Blake": 1.0, "Nick": 0.0}, "2026": {"Alex": 4.0, "Blake": 4.0, "Nick": 7.0}, "2027": {"Alex": 4.0, "Blake": 2.0, "Nick": 3.0}, "2028": {"Alex": 6.0, "Blake": 2.0, "Nick": 6.0}}}, {"label": "Bowl Berth", "section": "Post Season", "fmt": "num1", "higherBetter": true, "values": {"Total": {"Alex": 2, "Blake": 0.5, "Nick": 1}, "2024": {"Alex": 1.0, "Blake": 0.0, "Nick": 1.0}, "2026": {"Alex": 1.0, "Blake": 1.0, "Nick": 1.0}, "2027": {"Alex": null, "Blake": null, "Nick": null}, "2028": {"Alex": null, "Blake": null, "Nick": null}}}, {"label": "Bowl Game", "section": "Post Season", "fmt": "text", "higherBetter": null, "values": {"Total": {"Alex": null, "Blake": null, "Nick": null}, "2024": {"Alex": "Camellia", "Blake": null, "Nick": "First Responder"}, "2026": {"Alex": null, "Blake": null, "Nick": null}, "2027": {"Alex": null, "Blake": null, "Nick": null}, "2028": {"Alex": null, "Blake": null, "Nick": null}}}, {"label": "Bowl Win", "section": "Post Season", "fmt": "num1", "higherBetter": true, "values": {"Total": {"Alex": 1, "Blake": 0, "Nick": 1}, "2024": {"Alex": 1.0, "Blake": 0.0, "Nick": 1.0}, "2026": {"Alex": null, "Blake": null, "Nick": null}, "2027": {"Alex": null, "Blake": null, "Nick": null}, "2028": {"Alex": null, "Blake": null, "Nick": null}}}]};
+/* ---------- helpers ---------- */
+const $=(s,r=document)=>r.querySelector(s);
+const el=(t,a={},kids=[])=>{const e=document.createElement(t);for(const k in a){if(k==='class')e.className=a[k];else if(k==='html')e.innerHTML=a[k];else e.setAttribute(k,a[k]);}(Array.isArray(kids)?kids:[kids]).forEach(c=>c&&e.append(c.nodeType?c:document.createTextNode(c)));return e;};
+const SV="http://www.w3.org/2000/svg";
+const sv=(t,a={})=>{const e=document.createElementNS(SV,t);for(const k in a)e.setAttribute(k,a[k]);return e;};
+
+const PLAYERS=DATA.players, SCHOOLS=DATA.schools, PERIODS=DATA.periods, SEASONS=DATA.seasons;
+const CVAR={Alex:'--s1',Blake:'--s2',Nick:'--s3'};
+const CSOFT={Alex:'--s1-soft',Blake:'--s2-soft',Nick:'--s3-soft'};
+const col=p=>getComputedStyle(document.documentElement).getPropertyValue(CVAR[p]).trim();
+const byLabel={}; DATA.stats.forEach(s=>byLabel[s.label]=s);
+const periodName=p=>p==='Total'?'Career':p;
+
+function isNum(v){return typeof v==='number'&&isFinite(v);}
+function fmt(v,f){
+  if(v===null||v===undefined) return '—';
+  if(f==='record'||f==='text') return String(v);
+  if(!isNum(v)) return String(v);
+  if(f==='pct') return (v*100).toFixed(1)+'%';
+  if(f==='num1') return v.toFixed(1);
+  if(f==='int') return Math.round(v).toLocaleString();
+  return String(v);
+}
+// numeric value for ranking/plot (percent stays fraction)
+function num(v){return isNum(v)?v:null;}
+
+function rank(period,stat){ // returns {player:rankIndex} 1=best, considering higherBetter
+  const hb=stat.higherBetter;
+  if(hb===null) return {};
+  const arr=PLAYERS.map(p=>({p,v:num(stat.values[period][p])})).filter(x=>x.v!==null);
+  arr.sort((a,b)=>hb? b.v-a.v : a.v-b.v);
+  const out={}; arr.forEach((x,i)=>out[x.p]=i+1); return out;
+}
+function leader(period,stat){const r=rank(period,stat);for(const p in r)if(r[p]===1)return p;return null;}
+
+// classify each stat: 'total' (counting), 'pergame' (per-game), or 'rate' (%, ratings, records, efficiency — shown in every scope)
+function kindOf(s){
+  const L=s.label;
+  if(s.fmt==='pct'||s.fmt==='record'||s.fmt==='text') return 'rate';
+  if(/\/ Game/.test(L)) return 'pergame';
+  if(/Rating/.test(L)) return 'rate';
+  if(/\/ (Play|Carry|Attempt|Completion|Punt)/.test(L)) return 'rate';
+  if(['Pythagorean Wins','Season Rating','Margin of Victory','SRS','Turnover Differential'].includes(L)) return 'rate';
+  return 'total';
+}
+const SCOPES=[['all','All'],['total','Totals'],['pergame','Per Game']];
+function inScope(s,scope){const k=kindOf(s);return scope==='all'||k==='rate'||k===scope;}
+
+/* ---------- state ---------- */
+let state={view:'standings', stdPeriod:'Total', cmpPeriod:'Total', leadScope:'all',
+  stat:'Points / Game', trend:'Points / Game'};
+
+/* ---------- header ---------- */
+$('#who-line').textContent = PLAYERS.map(p=>`${p} (${SCHOOLS[p]})`).join(', ');
+$('#season-line').textContent = SEASONS.join(' · ');
+$('#foot').innerHTML = `Career = sum of played seasons (${SEASONS.join(', ')}). 2025 wasn't recorded in the source sheet, so it's omitted. `+
+  `Team-school mapping inferred from 2024 records — tell Alex if any are off. Data snapshot from the NCAA Online Dynasty sheet.`;
+
+/* ---------- segmented period controls ---------- */
+function buildSeg(elm,cur,onPick){
+  elm.innerHTML='';
+  PERIODS.forEach(p=>{
+    const b=el('button',{class:cur===p?'on':''},periodName(p));
+    b.onclick=()=>onPick(p); elm.append(b);
+  });
+}
+function buildScopeSeg(){
+  const elm=$('#seg-leadscope'); elm.innerHTML='';
+  SCOPES.forEach(([k,lab])=>{
+    const b=el('button',{class:state.leadScope===k?'on':''},lab);
+    b.onclick=()=>{state.leadScope=k;renderStandings();}; elm.append(b);
+  });
+}
+
+/* ---------- stat pickers ---------- */
+function buildStatPicker(elm,cur,onPick){
+  elm.innerHTML='';
+  const secs=[...new Set(DATA.stats.map(s=>s.section))];
+  secs.forEach(sec=>{
+    const og=el('optgroup',{label:sec});
+    DATA.stats.filter(s=>s.section===sec && s.fmt!=='record' && s.fmt!=='text').forEach(s=>{
+      const o=el('option',{value:s.label},s.label); if(s.label===cur)o.selected=true; og.append(o);
+    });
+    if(og.children.length)elm.append(og);
+  });
+  elm.onchange=()=>onPick(elm.value);
+}
+
+/* ---------- legend ---------- */
+function legend(elm){
+  elm.innerHTML='';
+  PLAYERS.forEach(p=>{
+    elm.append(el('div',{class:'item'},[
+      el('span',{class:'swatch',style:`background:${col(p)}`}),
+      el('span',{},`${p} · ${SCHOOLS[p]}`)
+    ]));
+  });
+}
+
+/* ---------- tooltip ---------- */
+const tt=$('#tt');
+function showTT(x,y,html){tt.innerHTML=html;tt.style.opacity='1';posTT(x,y);}
+function posTT(x,y){const w=tt.offsetWidth,h=tt.offsetHeight;let nx=x+14,ny=y-h-10;
+  if(nx+w>window.innerWidth-8)nx=x-w-14; if(ny<8)ny=y+16; tt.style.left=nx+'px';tt.style.top=ny+'px';}
+function hideTT(){tt.style.opacity='0';}
+
+/* ================= STANDINGS ================= */
+function renderStandings(){
+  buildSeg($('#seg-standings'),state.stdPeriod,p=>{state.stdPeriod=p;renderStandings();});
+  const per=state.stdPeriod;
+  // team cards
+  const grid=$('#teamcards'); grid.innerHTML='';
+  const winStat=byLabel['Wins'], recStat=byLabel['Record'], wpStat=byLabel['Win %'];
+  const ppg=byLabel['Points / Game'], papg=byLabel['Points Allowed / Game'], ydg=byLabel['Yards / Game'];
+  const wpRank=rank(per,wpStat);
+  PLAYERS.forEach(p=>{
+    const rec=recStat.values[per][p];
+    const wp=wpStat.values[per][p];
+    const rk=wpRank[p];
+    const rkTxt=rk?['🥇 1st','🥈 2nd','🥉 3rd'][rk-1]:'';
+    const card=el('div',{class:'card team'});
+    card.append(el('div',{class:'accent',style:`background:${col(p)}`}));
+    card.append(el('div',{class:'who'},[
+      el('span',{class:'name'},p),
+      el('span',{class:'school'},SCHOOLS[p]),
+      rkTxt?el('span',{class:'rankpill'},rkTxt):null
+    ]));
+    card.append(el('div',{class:'rec'},fmt(rec,'record')));
+    card.append(el('div',{class:'wl'},`${fmt(wp,'pct')} win rate`));
+    const mini=el('div',{class:'mini'});
+    const cells=[['Pts / Game',ppg],['Pts Allowed / G',papg],['Yards / Game',ydg],['Total Wins',winStat]];
+    cells.forEach(([lab,st])=>{
+      const isBest=leader(per,st)===p;
+      mini.append(el('div',{},[el('div',{class:'k'},lab)]));
+      mini.append(el('div',{style:'text-align:right'},[
+        el('div',{class:'v'+(isBest?' best':''),style:isBest?`color:${col(p)}`:''},fmt(st.values[per][p],st.fmt))
+      ]));
+    });
+    card.append(mini);
+    grid.append(card);
+  });
+  // leaderboard
+  const scope=state.leadScope;
+  buildScopeSeg();
+  const scopeName={all:'every stat',total:'season totals',pergame:'per-game stats'}[scope];
+  const perTxt=periodName(per).toLowerCase()==='career'?'the career':periodName(per);
+  $('#lead-hint').textContent=`Showing ${scopeName} for ${perTxt} — leader highlighted.`;
+  const box=$('#leadtable');
+  const secs=[...new Set(DATA.stats.map(s=>s.section))];
+  const tbl=el('table',{class:'lead'});
+  const thead=el('thead');const hr=el('tr');
+  hr.append(el('th',{},'Stat'));
+  PLAYERS.forEach(p=>hr.append(el('th',{},[el('span',{class:'dot',style:`background:${col(p)}`}),p])));
+  thead.append(hr);tbl.append(thead);
+  const tb=el('tbody');
+  secs.forEach(sec=>{
+    const rows=DATA.stats.filter(s=>s.section===sec && inScope(s,scope));
+    if(!rows.length) return;
+    tb.append(el('tr',{},[el('td',{class:'sec',colspan:4},sec)]));
+    rows.forEach(s=>{
+      const ld=leader(per,s);
+      const tr=el('tr');
+      tr.append(el('td',{},s.label));
+      PLAYERS.forEach(p=>{
+        const best=ld===p;
+        const td=el('td',{class:'val'+(best?' best':'')});
+        if(best)td.style.color=col(p);
+        td.append(document.createTextNode(fmt(s.values[per][p],s.fmt)));
+        if(best)td.append(el('span',{class:'crown'},'●'));
+        tr.append(td);
+      });
+      tb.append(tr);
+    });
+  });
+  tbl.append(tb); box.innerHTML=''; box.append(tbl);
+}
+
+/* ================= COMPARE: bars + radar ================= */
+function renderCompare(){
+  buildSeg($('#seg-compare'),state.cmpPeriod,p=>{state.cmpPeriod=p;renderCompare();});
+  buildStatPicker($('#statpick'),state.stat,v=>{state.stat=v;renderCompare();});
+  legend($('#cmp-legend')); legend($('#radar-legend'));
+  const per=state.cmpPeriod, stat=byLabel[state.stat];
+  $('#cmp-title').textContent=`${stat.label} — ${periodName(per)}`;
+  const dir = stat.higherBetter===null?'':(stat.higherBetter?'Higher is better.':'Lower is better.');
+  $('#cmp-hint').textContent=`${stat.section}. ${dir}`;
+  drawBars($('#cmp-bars'),per,stat);
+  drawRadar($('#radar'),per);
+  // table
+  const tb=$('#cmp-tablebox');
+  tb.innerHTML=makeMiniTable([stat],[per]);
+}
+
+function drawBars(host,per,stat){
+  host.innerHTML='';
+  const W=560,rowH=64,padL=118,padR=70,padT=8,padB=8;
+  const H=padT+padB+rowH*PLAYERS.length;
+  const data=PLAYERS.map(p=>({p,v:num(stat.values[per][p]),raw:stat.values[per][p]}));
+  const maxV=Math.max(...data.map(d=>d.v??0),0)||1;
+  const barMax=W-padL-padR;
+  const ld=leader(per,stat);
+  const svg=sv('svg',{viewBox:`0 0 ${W} ${H}`,role:'img'});
+  data.forEach((d,i)=>{
+    const cy=padT+rowH*i+rowH/2;
+    // name
+    const nm=sv('text',{x:padL-12,y:cy+4,'text-anchor':'end',class:'barname'});nm.textContent=d.p;
+    svg.append(nm);
+    // track
+    svg.append(sv('rect',{x:padL,y:cy-11,width:barMax,height:22,rx:6,fill:'var(--surface-2)'}));
+    if(d.v!==null){
+      const w=Math.max(3,barMax*(d.v/maxV));
+      const isLd=ld===d.p;
+      const r=sv('rect',{x:padL,y:cy-11,width:w,height:22,rx:6,fill:col(d.p),opacity:isLd?1:0.62});
+      r.style.cursor='pointer';
+      r.addEventListener('mousemove',ev=>showTT(ev.clientX,ev.clientY,
+        `<div class="tt-h">${d.p} · ${SCHOOLS[d.p]}</div><div class="tt-r"><span class="l"><span class="sw" style="background:${col(d.p)}"></span>${stat.label}</span><span class="v">${fmt(d.raw,stat.fmt)}</span></div>`));
+      r.addEventListener('mouseleave',hideTT);
+      svg.append(r);
+      const lbl=sv('text',{x:padL+w+8,y:cy+5,class:'barlabel'});
+      lbl.textContent=fmt(d.raw,stat.fmt);
+      if(isLd)lbl.setAttribute('fill',col(d.p));
+      svg.append(lbl);
+    }else{
+      const lbl=sv('text',{x:padL+8,y:cy+5,class:'axislabel'});lbl.textContent='no data';svg.append(lbl);
+    }
+  });
+  host.append(svg);
+}
+
+const RADAR_AXES=[
+  ['Points / Game',true],['Yards / Game',true],['Win %',true],['3rd Down %',true],
+  ['Red Zone Scoring %',true],['Points Allowed / Game',false],['Yards / Game Allowed',false],['Turnover Differential',true]
+];
+function drawRadar(host,per){
+  host.innerHTML='';
+  const W=440,H=380,cx=W/2,cy=H/2+6,R=128;
+  const axes=RADAR_AXES.filter(([l])=>byLabel[l]);
+  const n=axes.length;
+  // normalize each axis to [0.12,1] by best team (invert if lower better)
+  const norm=axes.map(([label,hi])=>{
+    const st=byLabel[label];
+    const vals=PLAYERS.map(p=>num(st.values[per][p]));
+    const good=vals.filter(v=>v!==null);
+    const mn=Math.min(...good),mx=Math.max(...good);
+    return PLAYERS.map((p,i)=>{
+      const v=vals[i]; if(v===null)return null;
+      if(mx===mn)return 1;
+      let t=(v-mn)/(mx-mn); if(!hi)t=1-t; return 0.15+0.85*t;
+    });
+  });
+  const svg=sv('svg',{viewBox:`0 0 ${W} ${H}`,role:'img'});
+  // rings
+  [0.25,0.5,0.75,1].forEach(rr=>{
+    const pts=axes.map((_,i)=>{const a=-Math.PI/2+i*2*Math.PI/n;return `${cx+Math.cos(a)*R*rr},${cy+Math.sin(a)*R*rr}`;}).join(' ');
+    svg.append(sv('polygon',{points:pts,fill:'none',stroke:'var(--grid)','stroke-width':1}));
+  });
+  // spokes + labels
+  axes.forEach(([label],i)=>{
+    const a=-Math.PI/2+i*2*Math.PI/n;
+    const ex=cx+Math.cos(a)*R,ey=cy+Math.sin(a)*R;
+    svg.append(sv('line',{x1:cx,y1:cy,x2:ex,y2:ey,stroke:'var(--grid)','stroke-width':1}));
+    const lx=cx+Math.cos(a)*(R+16),ly=cy+Math.sin(a)*(R+16);
+    const t=sv('text',{x:lx,y:ly+3,class:'axislabel','font-weight':600});
+    const anch=Math.abs(Math.cos(a))<0.35?'middle':(Math.cos(a)>0?'start':'end');
+    t.setAttribute('text-anchor',anch);
+    t.textContent=label.replace(' Allowed',' Alwd').replace('Red Zone','RZ').replace('Turnover ','TO ');
+    svg.append(t);
+  });
+  // team polygons
+  PLAYERS.forEach((p,pi)=>{
+    const pts=[],dots=[];
+    axes.forEach((_,i)=>{
+      const val=norm[i][pi]; if(val===null)return;
+      const a=-Math.PI/2+i*2*Math.PI/n;
+      const x=cx+Math.cos(a)*R*val,y=cy+Math.sin(a)*R*val;
+      pts.push(`${x},${y}`);dots.push([x,y,i]);
+    });
+    if(pts.length<3)return;
+    svg.append(sv('polygon',{points:pts.join(' '),fill:col(p),'fill-opacity':0.12,stroke:col(p),'stroke-width':2,'stroke-linejoin':'round'}));
+    dots.forEach(([x,y,i])=>{
+      const st=byLabel[axes[i][0]];
+      const c=sv('circle',{cx:x,cy:y,r:4,fill:col(p),stroke:'var(--surface)','stroke-width':1.5});
+      c.style.cursor='pointer';
+      c.addEventListener('mousemove',ev=>showTT(ev.clientX,ev.clientY,
+        `<div class="tt-h">${p} · ${SCHOOLS[p]}</div><div class="tt-r"><span class="l"><span class="sw" style="background:${col(p)}"></span>${axes[i][0]}</span><span class="v">${fmt(st.values[per][p],st.fmt)}</span></div>`));
+      c.addEventListener('mouseleave',hideTT);
+      svg.append(c);
+    });
+  });
+  host.append(svg);
+}
+
+/* ================= TRENDS ================= */
+function renderTrends(){
+  buildStatPicker($('#trendpick'),state.trend,v=>{state.trend=v;renderTrends();});
+  legend($('#trend-legend'));
+  const stat=byLabel[state.trend];
+  $('#trend-title').textContent=`${stat.label} by season`;
+  const dir=stat.higherBetter===null?'':(stat.higherBetter?'Higher is better.':'Lower is better.');
+  $('#trend-hint').textContent=`${stat.section}. ${dir} Across ${SEASONS.join(', ')}.`;
+  drawTrend($('#trend-chart'),stat);
+  $('#trend-tablebox').innerHTML=makeMiniTable([stat],SEASONS);
+}
+
+function drawTrend(host,stat){
+  host.innerHTML='';
+  const W=760,H=340,padL=54,padR=96,padT=18,padB=38;
+  const xs=SEASONS;
+  const all=[];PLAYERS.forEach(p=>xs.forEach(y=>{const v=num(stat.values[y][p]);if(v!==null)all.push(v);}));
+  let mn=Math.min(...all),mx=Math.max(...all);
+  if(mn===mx){mn=mn-1;mx=mx+1;}
+  const pad=(mx-mn)*0.12; mn-=pad; mx+=pad;
+  if(stat.fmt==='pct'){mn=Math.max(0,mn);}
+  if(!stat.higherBetter===false){} // no-op
+  const X=i=>padL+(W-padL-padR)*(xs.length===1?0.5:i/(xs.length-1));
+  const Y=v=>padT+(H-padT-padB)*(1-(v-mn)/(mx-mn));
+  const svg=sv('svg',{viewBox:`0 0 ${W} ${H}`,role:'img'});
+  // gridlines + y ticks
+  const ticks=4;
+  for(let t=0;t<=ticks;t++){
+    const v=mn+(mx-mn)*t/ticks, y=Y(v);
+    svg.append(sv('line',{x1:padL,y1:y,x2:W-padR,y2:y,class:'gridline'}));
+    const tx=sv('text',{x:padL-10,y:y+4,'text-anchor':'end',class:'axislabel'});
+    tx.textContent=fmt(v,stat.fmt==='int'?'int':stat.fmt==='pct'?'pct':'num1');
+    svg.append(tx);
+  }
+  // x labels
+  xs.forEach((y,i)=>{
+    const tx=sv('text',{x:X(i),y:H-padB+20,'text-anchor':'middle',class:'axislabel','font-weight':600});
+    tx.textContent=y;svg.append(tx);
+  });
+  svg.append(sv('line',{x1:padL,y1:H-padB,x2:W-padR,y2:H-padB,class:'baseline'}));
+  // series
+  PLAYERS.forEach(p=>{
+    const pts=xs.map((y,i)=>{const v=num(stat.values[y][p]);return v===null?null:[X(i),Y(v),v,y];}).filter(Boolean);
+    if(!pts.length)return;
+    const d=pts.map((pt,i)=>(i?'L':'M')+pt[0]+' '+pt[1]).join(' ');
+    svg.append(sv('path',{d,fill:'none',stroke:col(p),'stroke-width':2.5,'stroke-linejoin':'round','stroke-linecap':'round'}));
+    pts.forEach(pt=>{
+      const c=sv('circle',{cx:pt[0],cy:pt[1],r:4.5,fill:col(p),stroke:'var(--surface)','stroke-width':2});
+      c.style.cursor='pointer';
+      c.addEventListener('mousemove',ev=>showTT(ev.clientX,ev.clientY,
+        `<div class="tt-h">${pt[3]}</div><div class="tt-r"><span class="l"><span class="sw" style="background:${col(p)}"></span>${p}</span><span class="v">${fmt(pt[2],stat.fmt)}</span></div>`));
+      c.addEventListener('mouseleave',hideTT);
+      svg.append(c);
+    });
+    // direct label at end
+    const last=pts[pts.length-1];
+    const lb=sv('text',{x:last[0]+10,y:last[1]+4,class:'serieslabel',fill:col(p)});
+    lb.textContent=p; svg.append(lb);
+  });
+  host.append(svg);
+}
+
+/* ---------- mini table ---------- */
+function makeMiniTable(stats,periods){
+  let h='<table class="lead"><thead><tr><th>Stat</th>';
+  if(periods.length>1)h+='<th>Team</th>';
+  periods.forEach(p=>h+=`<th>${periodName(p)}</th>`);
+  h+='</tr></thead><tbody>';
+  stats.forEach(s=>{
+    PLAYERS.forEach((p,pi)=>{
+      h+='<tr>';
+      if(pi===0)h+=`<td rowspan="${PLAYERS.length}">${s.label}</td>`;
+      h+=`<td style="text-align:left"><span class="dot" style="background:${col(p)}"></span>${p}</td>`;
+      periods.forEach(per=>{const best=leader(per,s)===p;h+=`<td class="val${best?' best':''}" ${best?`style="color:${col(p)}"`:''}>${fmt(s.values[per][p],s.fmt)}</td>`;});
+      h+='</tr>';
+    });
+  });
+  h+='</tbody></table>'; return h;
+}
+
+/* ---------- view switching ---------- */
+function setView(v){
+  state.view=v;
+  document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.dataset.view===v));
+  ['standings','compare','trends'].forEach(x=>$('#view-'+x).classList.toggle('hidden',x!==v));
+  if(v==='standings')renderStandings();
+  if(v==='compare')renderCompare();
+  if(v==='trends')renderTrends();
+}
+$('#tabs').addEventListener('click',e=>{const b=e.target.closest('.tab');if(b)setView(b.dataset.view);});
+
+document.querySelectorAll('.tablebtn').forEach(b=>{
+  b.onclick=()=>{const box=$('#'+b.dataset.table+'-tablebox');const on=box.classList.toggle('hidden');b.textContent=on?'Table view':'Hide table';};
+});
+
+/* theme */
+$('#themeBtn').onclick=()=>{
+  const cur=document.documentElement.getAttribute('data-theme');
+  document.documentElement.setAttribute('data-theme',cur==='dark'?'light':'dark');
+  setView(state.view);
+};
+window.addEventListener('resize',()=>{if(tt.style.opacity==='1')hideTT();});
+// touch: tap a mark shows its tooltip (via the synthesized mouse event); tap elsewhere or scroll dismisses it
+document.addEventListener('touchstart',e=>{if(!e.target.closest('circle,rect'))hideTT();},{passive:true});
+window.addEventListener('scroll',hideTT,{passive:true});
+
+setView('standings');
+</script>
+</body>
+</html>
