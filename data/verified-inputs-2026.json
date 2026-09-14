@@ -1,0 +1,34 @@
+{
+  "reviewed_revision": "9a1e41e2f2125eab277f990103ce114ec4979977",
+  "eastern_first_game": {
+    "opponent": "Sacramento State",
+    "punts": 4,
+    "kick_return_yards": 58,
+    "punt_return_yards": 11,
+    "possession_seconds": 905,
+    "source": "2026/NCAA Football 26 ONLINE DYNASTY.xlsx, Game Log row 17: BK17, BJ17, BM17, Q17 respectively. Retained workbook transcription; the current photo set lacks this game's lower statistics screen."
+  },
+  "eastern_other_games": {
+    "games": 11,
+    "punts": 21,
+    "punt_yards": 969,
+    "kick_return_yards": 879,
+    "punt_return_yards": 258,
+    "possession_seconds": 10810,
+    "source": "Eleven lower box-score screens in 2026/Box Scores/Eastern Michigan; existing site transcription, reviewed against the folder."
+  },
+  "punters": {
+    "W. Michigan": {"name": "R.Millmore", "punts": 26, "yards": 1121, "blocked": 0},
+    "C. Michigan": {"name": "D.Duley", "punts": 36, "yards": 1623, "blocked": 0}
+  },
+  "punter_source": "2026/Individual Stats/IMG_5220.MOV, approximately 33.5 seconds. Exact count, yards and blocked columns are visible together.",
+  "season_games": 12,
+  "regulation_game_seconds": 2160,
+  "game_time_source": "IMG_5307.HEIC shows Eastern 13:53 and Michigan State 22:07 possession, totaling 36:00, consistent with the other Eastern box-score pairs and the prior BCI denominator.",
+  "unresolved": [
+    "Eastern first-game punt yards and opponent punts are unavailable; do not infer them from a candidate national punter.",
+    "Central IMG_5191.HEIC reports 21 takeaways but 12 defensive interceptions plus 8 fumble recoveries. Preserve the reported total with an explicit caveat.",
+    "Individual offensive-line games played/started are not established by the recordings.",
+    "Game Log X35 and BO35 reverse Central's interceptions and fumbles lost against Western. IMG_5290.HEIC supports 2 interceptions and 0 fumbles lost; website season totals already use the correct split."
+  ]
+}

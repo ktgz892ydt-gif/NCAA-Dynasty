@@ -38,8 +38,9 @@ from the per-game box scores exist for these three schools alone.
 
 ## Where the data comes from
 
-Every number is the 2026 season, transcribed from **297 photographs** of the in-game screens and
-**14 screen recordings**.
+The 2026 source set contains **297 photographs**, **14 screen recordings**, and the local
+workbook. Retained workbook entries fill Eastern's missing first-game punts, returns and
+possession; their provenance and remaining gaps are recorded in [source notes](data/SOURCE_NOTES.md).
 
 ```text
 in-game photos + screen recordings
@@ -78,7 +79,8 @@ SOS, SRS, Elo, Bradley-Terry and Glicko-2 are solved over the **entire 143-team 
 
 ## What is missing, and why
 
-Only **6 of the 110 team rows** are blank, plus 18 of the 35 Approximate Value slots:
+Only **6 of the 110 team rows** are blank, plus 23 of the 35 Approximate Value rows.
+Eastern's punter AV is also blank in an otherwise populated row:
 
 | Group | Attribute | Why |
 |---|---|---|
@@ -94,9 +96,10 @@ Two caveats on rows that *are* filled:
 - **Total Touchdowns** counts offensive touchdowns only. The kicker identification does
   reveal how many non-offensive touchdowns each school scored — 0 for Western Michigan and
   2 each for Eastern and Central — but it cannot split those between defence and special teams.
-- **Eastern Michigan** is missing the lower half of one box score, so their kick return yards,
-  punt return yards, punts, punt yards and Explosiveness Index rest on eleven games. Those
-  cells carry an `11g` marker on the page.
+- **Eastern Michigan** is missing the lower half of one box score. Season punts, return yards
+  and possession now include the retained first-game workbook entries. Punt yards and yards/punt
+  still cover eleven matching games and carry an `11g` marker. Explosiveness uses season inputs
+  and estimated drives, marked `est.`. Qualifications also appear in Head-to-Head.
 
 ## Finding players the game will not name
 
@@ -105,8 +108,8 @@ kicking, sacks and Approximate Value rows. The way round it is arithmetic: each 
 season totals are already known exactly, so the players can be picked out by identity.
 
 - **Punter** — by exact punt count and yards. `R.Millmore` (26 for 1,121) is Western
-  Michigan; `D.Duley` (36 for 1,623) is Central Michigan. Eastern Michigan's punter falls
-  below the captured range.
+  Michigan; `D.Duley` (36 for 1,623) is Central Michigan. Eastern Michigan's punter is not
+  established by the available count-and-yardage evidence.
 - **Quarterback** — by attempts and passing yards. Touchdowns and interceptions then match
   the team totals too, four confirmations each: `B.Lowry`; `N.Kim` + `J.Stuckey`;
   `A.Flores` + `M.Beamon`.
@@ -120,31 +123,44 @@ printed more completions than attempts. The leaderboard's figures replaced them.
 
 ## Approximate Value
 
-`AV_Calculations.md` says AV "cannot be computed from the team Game Log alone". Most of it
-now is:
+The local `AV_Calculations.md` defines the dynasty's model. The website computes the
+following supported results and explicitly labels incomplete estimates:
 
 - **Every team-level pool** — offence, O-line, skill, rush, pass, receiving, defence,
   front-7, secondary. These need only team stats plus the team's FGM/FGA, which the kicker
   identification supplies.
-- **The five offensive-line slots.** Their formula is `GP + 5*GS*PosMult`, so for a line
-  that started all twelve games it reduces to the position multipliers alone — tackles take
-  21.88% of the line pool each, interior linemen 18.75%.
+- **The offensive-line pool** is computed, but individual LT/LG/C/RG/RT slots remain blank
+  until actual games played and starts for all participating linemen are available.
 - **QB1**, from the passer's share of team passing yards plus the AY/A adjustment against a
   national baseline of 7.54 across 140 qualified passers.
 - **K and P**, from the by-distance field-goal buckets and the punting line.
 
-Still blank are RB1/RB2, WR1–3, TE1 and the twelve defensive slots. Those need per-player
+Still blank are the five linemen, RB1/RB2, WR1–3, TE1 and the twelve defensive slots. Those need per-player
 production tied to a school, and no arithmetic identity pins them down the way a kicker's
 point total or a punter's punt count does. Per-team roster or player-stat screens would
 close it.
 
-League baselines use the three schools for the drive rates, which is one of the two options
-`AV_Calculations.md` leaves open; the kicking, punting and AY/A baselines are genuine
-national averages taken off the leaderboards. Defensive drives rely on an estimate of
-opponent field-goal attempts, which the doc explicitly permits approximating.
+League baselines use the three schools for drive rates. Eastern's full-season punt count now
+feeds the offensive baseline and every dependent offensive allocation. Defensive drives retain
+estimated opponent field-goal attempts and incomplete Eastern opponent-punt coverage; Central's
+takeaway screen also contains an unresolved discrepancy. Because that baseline is shared,
+all three defensive pools and their front-seven/secondary allocations are marked `est.`.
+
+The existing national kicking, punting and qualified-passer AY/A baselines are preserved.
+Their full raw transcriptions are not included in the repository. See [source notes](data/SOURCE_NOTES.md)
+for the distinction between verified corrections, retained transcriptions and estimates.
 
 ## Updating
 
-Rebuild the `DATA` object and commit `index.html`. Keep the filename exactly `index.html` at the
-repo root so Pages serves it at the root URL; Pages rebuilds on every commit and the shared link
-does not change.
+For this source set, edit `data/verified-inputs-2026.json` when evidence changes, then run:
+
+```sh
+python3 scripts/reconcile_2026.py
+python3 scripts/reconcile_2026.py --check
+python3 -B scripts/test_reconciliation.py
+```
+
+This regenerates the audited fields in `DATA`, preserving unrelated data and ratings. It is a
+targeted reconciliation, not a complete photo-import pipeline. Other new stats still require
+updating the DATA object and recording their sources. Commit the changed files together.
+Keep `index.html` at the repo root; the page remains self-contained and Pages serves the same URL.
