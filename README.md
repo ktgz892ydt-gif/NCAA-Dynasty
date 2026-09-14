@@ -81,15 +81,16 @@ independently produce the **same** points for and against:
 | Record | 9-3 | 4-8 | 10-2 |
 | Points for / against | 368 / 248 | 190 / 231 | 309 / 224 |
 | MOV | +10.0 | −3.4 | +7.1 |
-| SOS | .475 | .497 | .507 |
+| SOS (points) | -4.21 | -4.46 | -5.43 |
 | SRS | +5.79 | −7.84 | +1.62 |
 | National SRS rank | 46th | 98th | 62nd |
 
 ## About the ratings
 
-SOS, SRS, Elo, Bradley-Terry and Glicko-2 are solved over the **entire 143-team national field**
+SRS, Elo, Bradley-Terry and Glicko-2 are solved over the **entire 143-team national field**
 (888 games, weeks 0–13), not just these three schools.
 
+- **SOS** is the average opponent SRS, in points above/below the average team. Every scheduled game counts equally, including repeat opponents and synthetic FCS opponents. Positive is tougher and negative is easier. FBS national ranks exclude the five synthetic buckets. Full-precision SRS inputs are stored in `data/srs-2026.json`; `scripts/update_sos.py` updates the values, ranks and top ten together.
 - **SRS** is points-based, uses home-field-adjusted margins, and is centred so the average team
   is 0.0.
 - **Home-field advantage is +0.45 points**, from a team fixed-effect regression. The *raw*
@@ -176,6 +177,9 @@ for the distinction between verified corrections, retained transcriptions and es
 For this source set, edit `data/verified-inputs-2026.json` when evidence changes, then run:
 
 ```sh
+python3 -B scripts/update_sos.py
+python3 -B scripts/update_sos.py --check
+python3 -B scripts/test_sos.py
 python3 scripts/reconcile_2026.py
 python3 scripts/reconcile_2026.py --check
 python3 -B scripts/test_reconciliation.py
@@ -185,3 +189,5 @@ This regenerates the audited fields in `DATA`, preserving unrelated data and rat
 targeted reconciliation, not a complete photo-import pipeline. Other new stats still require
 updating the DATA object and recording their sources. Commit the changed files together.
 Keep `index.html` at the repo root; the page remains self-contained and Pages serves the same URL.
+
+When the scoreboard or SRS ratings change, refresh `data/srs-2026.json` from the ratings pipeline, including its scoreboard checksum, before rebuilding SOS. The SOS builder rejects stale or mismatched inputs. The local workbook/pipeline’s older record-based SOS is superseded on this website by the points-based calculation. Home-field adjustment is not added to SOS; it remains part of SRS.

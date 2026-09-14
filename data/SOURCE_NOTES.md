@@ -54,3 +54,11 @@ The reviewed source set has 105 national team-stat photographs (27 offense, 26 d
 Ball Control still requires each team's possession share and offensive play count, alongside first downs and giveaways. The rounded yards/play column cannot recover exact play counts. Explosiveness requires each team's punts and FGA, alongside the captured yardage, scoring, touchdown, giveaway and fourth-down inputs. These missing quantities cannot be uniquely inferred from the available scoring and yardage totals. No national average has been guessed or substituted, and no per-team national index has been added to the page.
 
 To complete the requested averages, supply a team-season export or additional source screens with those missing inputs for the national field. Compute each team's index first and then take the equal-team mean; averaging raw totals or assuming half of possession for every team is a different calculation.
+
+## Points-based SOS
+
+Website SOS now averages the full-precision SRS of each scheduled opponent. The input ratings come from the existing local ratings export and match all 143 displayed national SRS ratings to their display precision. The builder uses all 888 games; a repeated opponent contributes once for each meeting. Synthetic FCS buckets contribute their actual calculated SRS, not a forced zero rating or a forced 12-game divisor. National ranks/top ten include only the 138 real FBS teams. Rankings use unrounded SOS values and competition ranks for exact ties.
+
+`data/srs-2026.json` stores full-precision input ratings and a scoreboard checksum. `scripts/update_sos.py` computes every team’s SOS, the three comparison values, national ranks, top ten and points formatting. `scripts/test_sos.py` verifies repeat-opponent weighting, missing/stale-input rejection, FBS ranking and the identity between SRS, home-adjusted scoring margin and SOS across all 143 teams. The existing SRS, scoreboard, AV inputs and other statistical values are unchanged.
+
+The prior record-based SOS in the local workbook and original ratings export is not used by the website’s new SOS field. These local sources remain untouched.
