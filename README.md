@@ -12,7 +12,7 @@ libraries or CDNs, no browser storage. It runs offline and can be hosted anywher
 
 | Tab | What it shows |
 |---|---|
-| **Dynasty** | The three schools side by side, then all **110 stats** grouped and named exactly as on the workbook's Master tab, each with its **national rank** where one can be computed. |
+| **Dynasty** | The three schools side by side, then the workbook’s **110 stats** plus **estimated SOR**, grouped as on the Master tab, each with its **national rank** where one can be computed. |
 | **Head-to-Head** | Any stat as a three-way bar chart, plus a radar profile across eight core measures. |
 | **Schedules** | All 12 games per school: site, result, score, and each opponent's final record. |
 | **National** | The full **143-team** ratings table (sortable, filterable) and national top tens. |
@@ -26,7 +26,7 @@ their panels; their team/player column stays visible. Navigation, controls and e
 support touch and keyboard input.
 
 Tap a measure marked ⓘ for its plain-language definition and interpretation. Explanations cover SRS,
-SOS, MOV, Pythagorean expected wins, Explosiveness Index, Ball Control Index, Pass-to-Run Yard
+SOS, estimated SOR, MOV, Pythagorean expected wins, Explosiveness Index, Ball Control Index, Pass-to-Run Yard
 Ratio and Approximate Value. They are available on team cards, the comparison table and the
 selected Head-to-Head measure; national rating headers keep explanation and sorting separate.
 AV help appears only on the Approximate Value section header, not individual AV rows or the
@@ -41,7 +41,7 @@ calculation inputs are changed by this interface update.
 
 ## Stat structure
 
-The Dynasty tab mirrors the Master tab: the same 13 group titles, in the same order, with
+Estimated SOR is added directly below SOS. The remaining Dynasty rows mirror the Master tab: the same 13 group titles, in the same order, with
 attribute names copied verbatim — including the ones Master repeats inside a group ("Rate",
 "Conversion %", "Yards"), which read unambiguously next to their neighbouring rows. Only the
 stat dropdown qualifies them ("Rate (TD)", "Conversion % (3rd Down)"), since a dropdown has no
@@ -180,6 +180,9 @@ For this source set, edit `data/verified-inputs-2026.json` when evidence changes
 python3 -B scripts/update_sos.py
 python3 -B scripts/update_sos.py --check
 python3 -B scripts/test_sos.py
+python3 -B scripts/update_sor.py
+python3 -B scripts/update_sor.py --check
+python3 -B scripts/test_sor.py
 python3 scripts/reconcile_2026.py
 python3 scripts/reconcile_2026.py --check
 python3 -B scripts/test_reconciliation.py
@@ -191,3 +194,14 @@ updating the DATA object and recording their sources. Commit the changed files t
 Keep `index.html` at the repo root; the page remains self-contained and Pages serves the same URL.
 
 When the scoreboard or SRS ratings change, refresh `data/srs-2026.json` from the ratings pipeline, including its scoreboard checksum, before rebuilding SOS. The SOS builder rejects stale or mismatched inputs. The local workbook/pipeline’s older record-based SOS is superseded on this website by the points-based calculation. Home-field adjustment is not added to SOS; it remains part of SRS.
+
+
+## Estimated Strength of Record
+
+SOR ranks all 138 FBS teams by how unlikely a shared reference team would be to match or exceed their actual win total on their actual played schedule. #1 is best. The benchmark is the mean full-precision SRS of the top 25 FBS teams (currently +18.8945), held constant across all schedules in this season snapshot. It is recalculated when the inputs change. Five synthetic FCS buckets supply opponent ratings but receive no SOR rank.
+
+`scripts/update_sor.py` fits a no-intercept logistic win-probability curve to all 888 national results using the home-minus-away SRS difference plus the existing home-field adjustment (zero at neutral sites). The fitted slope is about 0.12863 per point. It substitutes the benchmark strength for each assessed team and combines that schedule’s win probabilities with an exact Poisson-binomial calculation, counting the probability of at least the actual number of wins. No random simulation is used. The [Poisson-binomial distribution](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.poisson_binom.html) models sums of independent games with differing win probabilities.
+
+All games count, including repeat opponents and synthetic FCS opponents. Actual played game counts handle 11-game schedules. Winless teams receive probability 1; tied probabilities share competition ranks (comparison rounded to 12 decimal places). Tied games are rejected pending a policy. Winning margins do not directly score résumé points, but final-season SRS inputs do reflect margins. The model assumes independent games and constant team strength.
+
+The current in-sample Brier score is 0.16237; leaving each week out when fitting the slope gives 0.16273, versus 0.25 for a 50% baseline. These are fit diagnostics only: final-season SRS still includes every game, so this is **not independent forecast validation**. No historical seasons are available to assess predictive calibration. SOR is our retrospective estimate, not an official ranking. Exact parameters, probabilities and ranks for every eligible team are stored in `DATA.sorMethod` for reproducibility. Rebuild SOR after changing the scoreboard, SRS source or home-field parameter; stale source checks are reused from the SOS builder.

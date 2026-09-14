@@ -62,3 +62,8 @@ Website SOS now averages the full-precision SRS of each scheduled opponent. The 
 `data/srs-2026.json` stores full-precision input ratings and a scoreboard checksum. `scripts/update_sos.py` computes every team’s SOS, the three comparison values, national ranks, top ten and points formatting. `scripts/test_sos.py` verifies repeat-opponent weighting, missing/stale-input rejection, FBS ranking and the identity between SRS, home-adjusted scoring margin and SOS across all 143 teams. The existing SRS, scoreboard, AV inputs and other statistical values are unchanged.
 
 The prior record-based SOS in the local workbook and original ratings export is not used by the website’s new SOS field. These local sources remain untouched.
+
+
+## Estimated SOR addition
+
+Derived from the existing 888-game national scoreboard, full-precision `srs-2026.json` and the existing home-field estimate. No new photo transcription or workbook values. The shared benchmark is the average SRS of the top 25 FBS teams. All 138 FBS teams receive a résumé rank; synthetic FCS buckets are opponents only. `scripts/update_sor.py` stores model parameters, retrospective fit diagnostics and per-team match-or-exceed probabilities in `DATA.sorMethod`. See README for assumptions and validation limitations.
