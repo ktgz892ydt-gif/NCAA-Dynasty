@@ -16,7 +16,7 @@ libraries or CDNs, no browser storage. It runs offline and can be hosted anywher
 | **Head-to-Head** | Any stat as a three-way bar chart, plus a radar "team profile" across eight core measures. |
 | **Schedules** | All 12 games per team: site, result, score, and each opponent's final record. |
 | **National** | The full **143-team** ratings table (sortable, filterable) and national top tens. |
-| **Leaders** | National player leaders by category, read from the screen recordings. |
+| **Leaders** | National player leaders in nine categories, read from the screen recordings. |
 
 ## Where the data comes from
 
@@ -73,8 +73,17 @@ These show as "—" rather than zero, because they were never photographed:
 all kicking (FG attempts/made, XP attempts/made).** Field goals and extra points only appear on
 the per-game kicking screens, which weren't shot this season.
 
-Player leaderboards show no team next to each row — the game only prints a team for the
-highlighted player — so league leaders cannot be attributed to a school.
+### A note on the Leaders tab
+
+Nine national leaderboards — passing, rushing, receiving, blocking, defense, kicking, punting,
+kick return and punt return — each showing the top 12, merged across the horizontally-scrolled
+frames so every column is filled.
+
+The catch: the game **does not print a team next to each row**. It only names a team for the one
+highlighted player, so most leaders cannot be attributed to a school, and the per-position
+Approximate Value calculations in `AV_Calculations.md` are not possible from this footage. Where
+a team *was* readable and it is one of the three, the row is tinted in that coach's colour —
+which is how **Justin Ruffin Jr. (C. Michigan)** shows up leading the country in punt returns.
 
 ## Updating
 
