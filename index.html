@@ -136,8 +136,6 @@ dialog::backdrop{background:#0009}
 .dialog-head{display:flex;align-items:start;justify-content:space-between;gap:16px}
 .dialog-head h2{font-size:22px;line-height:1.2;margin:8px 0 16px}
 .dialog-close{min-width:44px;flex-shrink:0;border:1px solid var(--grid);border-radius:50%;font-size:24px}
-.formula{display:block;background:var(--plane);padding:14px;border-radius:10px;
-  white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px;line-height:1.6}
 .dialog-detail{color:var(--ink2)}
 body.dialog-open{overflow:hidden}
 .empty-state{text-align:left;padding:20px;color:var(--ink2)}
@@ -286,7 +284,6 @@ body.dialog-open{overflow:hidden}
 <dialog id="measure-dialog" aria-labelledby="measure-title" aria-describedby="measure-summary">
   <div class="dialog-head"><h2 id="measure-title"></h2><button class="dialog-close" id="measure-close" type="button" aria-label="Close explanation" autofocus>×</button></div>
   <p id="measure-summary"></p>
-  <pre class="formula" id="measure-formula"></pre>
   <p class="dialog-detail" id="measure-detail"></p>
 </dialog>
 
@@ -330,55 +327,45 @@ const val=(t,k)=>DATA.values[t][k];
 /* ---------- measure explanations: click, tap and keyboard ---------- */
 const EXPLANATIONS={
   srs:{title:'SRS · Simple Rating System',summary:'How strong a team has been, in points per game, after accounting for its opponents and home field.',
-    formula:'SRS = home-field-adjusted scoring margin + average opponent SRS',
     detail:'The ratings are solved together across all 143 teams and centered at zero. +6 means roughly six points above the average team on this scale. Higher is better. This is a season rating, not a guaranteed margin or a win probability.'},
   sos:{title:'SOS · Strength of Schedule',summary:'How difficult a schedule is based on the records of opponents and their opponents.',
-    formula:'SOS = (2/3 × opponents’ win percentage) + (1/3 × opponents’ opponents’ win percentage)',
     detail:'A higher percentage means a stronger schedule by this record-based measure. It does not say how well your team played. This SOS is a percentage; it is not the opponent-rating term added to scoring margin in SRS. The dynasty uses forced 0–12 records for its synthetic FCS buckets.'},
   mov:{title:'MOV · Margin of Victory',summary:'Your average scoring margin across every game, including losses.',
-    formula:'MOV = (points scored − points allowed) / games played',
     detail:'An MOV of +10 means the team scored ten more points than its opponents per game on average. Negative values mean it was outscored. Higher is better; MOV does not adjust for opponent strength.'},
   pyth:{title:'Pythagorean expected wins',summary:'An estimate of how many games a team would be expected to win from its season scoring totals.',
-    formula:'Expected wins = games × PF^2.37 / (PF^2.37 + PA^2.37)\nPF = points scored; PA = points allowed',
     detail:'The page shows expected wins, not a percentage. For example, 8.5 means about eight or nine wins from that scoring profile. Compare it with actual wins to spot over- or under-performance in close games. It is not a prediction of the remaining schedule.'},
   explo:{title:'Explosiveness Index',summary:'A dynasty-specific index that combines yards gained per play with points scored per estimated drive.',
-    formula:'Index = yards per play × (points scored / estimated drives)\nEstimated drives = offensive TDs + FGA + punts + giveaways + failed fourth downs + 2 × games',
     detail:'Higher means more yardage per play combined with more scoring per drive. It is not a count or percentage of long plays. Drives are estimated, including two end-of-half possessions per game, so every value is marked “est.” Eastern’s restored first-game punts are included.'},
   bci:{title:'Ball Control Index',summary:'A dynasty-specific blend of possession share, first downs per play and giveaways per play.',
-    formula:'Index = 0.5 × possession share + 0.3 × first-down rate − 0.2 × giveaway rate\nPossession share = possession time / total game time\nFirst-down rate = first downs / offensive plays\nGiveaway rate = giveaways / offensive plays',
-    detail:'Each rate is a decimal in this formula. Higher rewards holding the ball, moving the chains and avoiding turnovers. A value of 0.30 is an index score, not a 30% win probability. Eastern includes its retained first-game possession entry.'},
+    detail:'Higher rewards holding the ball, moving the chains and avoiding turnovers. A value of 0.30 is an index score, not a 30% win probability. Eastern includes its retained first-game possession entry.'},
   p2r:{title:'Pass-to-Run Yard Ratio',summary:'How many passing yards the offense gained for each rushing yard.',
-    formula:'Ratio = passing yards / rushing yards',
     detail:'2.0 means two passing yards for every rushing yard; 1.0 means equal yardage. Higher indicates more passing yardage, not necessarily a better offense. This describes yardage balance, not the ratio of pass calls to run calls. The ratio is undefined when rushing yards are zero.'},
   av:{title:'Approximate Value · AV',summary:'A dynasty adaptation of Approximate Value: team performance creates points pools, then individual players receive shares based on production and participation.',
-    formula:'Offensive pool = 100 × team offensive points/drive / league offensive points/drive\nOffensive line receives 5/11 of that pool; the rest feeds rushing, passing and receiving allocations.\nDefense has a separate drive-efficiency pool. Kickers and punters use separate formulas.',
     detail:'A team or position-group pool is not an individual player’s AV. Quarterbacks include an efficiency adjustment; specialist values can be negative. Drive-rate baselines use the three dynasty teams. Defensive pools are provisional because opponent FGA is estimated, Eastern opponent punts are incomplete and Central takeaways conflict. Individual linemen remain blank until games played and starts are established. Blank means unavailable, not zero.'}
 };
 const helpKey=key=>key.startsWith('av_')?'av':key;
 const dialog=$('#measure-dialog');
 let helpOpener=null;
-function showExplanation(title,summary,formula,detail){
+function showExplanation(title,summary,detail){
   helpOpener=document.activeElement;
   $('#measure-title').textContent=title;
   $('#measure-summary').textContent=summary;
-  $('#measure-formula').textContent=formula||'';
-  $('#measure-formula').hidden=!formula;
   $('#measure-detail').textContent=detail||'';
   document.body.classList.add('dialog-open');
   dialog.showModal();
 }
 function explain(key){
-  const info=EXPLANATIONS[helpKey(key)];if(!info)return;
-  const context=key.startsWith('av_')?`Selected row: ${byKey[key].name}. `:'';
-  showExplanation(info.title,context+info.summary,info.formula,info.detail);
+  const info=EXPLANATIONS[key];if(!info)return;
+  showExplanation(info.title,info.summary,info.detail);
 }
 function measureLabel(key,label){
-  if(!EXPLANATIONS[helpKey(key)])return label;
+  if(!EXPLANATIONS[key])return label;
   const button=el('button',{class:'measure-help',type:'button','aria-haspopup':'dialog',
     'aria-controls':'measure-dialog','aria-label':`Explain ${label}`},label);
   button.onclick=()=>explain(key);return button;
 }
 function coverageNote(m,p,s){
+  if(m.key.startsWith('av_'))return s.estimate?el('span',{class:'rk',title:s.note},'est.'):null;
   if(!s.note&&!s.partial&&!s.estimate)return null;
   const button=el('button',{class:'rk',type:'button','aria-haspopup':'dialog',
     'aria-label':`${FULL[p]} ${m.name}: data note`},s.partial?`${s.partial}g`:s.estimate?'est.':'ⓘ');
@@ -515,7 +502,7 @@ function renderH2H(){
   if(!numeric.some(m=>m.key===h2hStat))h2hStat=numeric[0].key;
   buildPick($('#h2hpick'),h2hStat,numeric,v=>{h2hStat=v;renderH2H();});
   const m=byKey[h2hStat];
-  $('#h2h-help').hidden=!EXPLANATIONS[helpKey(h2hStat)];
+  $('#h2h-help').hidden=!EXPLANATIONS[h2hStat];
   $('#h2h-help').onclick=()=>explain(h2hStat);
   $('#h2h-title').textContent=`${m.group} — ${m.name}`;
   $('#h2h-note').textContent=`${m.higherBetter===false?'Lower is better.':m.higherBetter?'Higher is better.':'Neutral measure.'}`;

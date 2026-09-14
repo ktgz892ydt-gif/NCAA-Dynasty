@@ -25,11 +25,13 @@ with the measure name above the school values. Wide national and player tables s
 their panels; their team/player column stays visible. Navigation, controls and explanation buttons
 support touch and keyboard input.
 
-Tap a measure marked ⓘ for its definition, formula and interpretation. Explanations cover SRS,
+Tap a measure marked ⓘ for its plain-language definition and interpretation. Explanations cover SRS,
 SOS, MOV, Pythagorean expected wins, Explosiveness Index, Ball Control Index, Pass-to-Run Yard
 Ratio and Approximate Value. They are available on team cards, the comparison table and the
 selected Head-to-Head measure; national rating headers keep explanation and sorting separate.
-Data coverage notes also open on tap. Dialogs support Escape, a close button, backdrop dismissal
+AV help appears only on the Approximate Value section header, not individual AV rows or the
+Head-to-Head selection. Other data coverage notes open on tap; AV estimate markers remain visible.
+Dialogs support Escape, a close button, backdrop dismissal
 and focus return.
 
 School accents use the same exact colors in light and dark themes: Western **#512C1D**,
