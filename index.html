@@ -73,6 +73,7 @@ td:first-child,th:first-child{text-align:left;white-space:normal}
 .sec td{background:var(--plane);font-weight:700;font-size:11px;letter-spacing:.09em;
   text-transform:uppercase;color:var(--muted);text-align:left}
 .best{font-weight:700}
+.best-value{font-weight:700;text-decoration:underline;text-underline-offset:3px}
 .dot{display:inline-block;width:6px;height:6px;border-radius:50%;margin-right:6px;vertical-align:1px}
 .rk{color:var(--muted);font-size:11px;margin-left:5px;font-variant-numeric:tabular-nums}
 .scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
@@ -484,7 +485,7 @@ function renderLead(){
       const s=val(p,m.key), isB=best===p;
       tr.append(el('td',{role:'cell',class:isB?'best':null,'data-team':FULL[p].replace(' Michigan','')},[
         isB?el('span',{class:'dot',style:`background:${col(p)}`}):null,
-        fmt(s.v,m.fmt),
+        isB?el('span',{class:'best-value',style:`color:${col(p)}`},fmt(s.v,m.fmt)):fmt(s.v,m.fmt),
         s.rank?el('span',{class:'rk'},`${ord(s.rank)}`):null,
         coverageNote(m,p,s)
       ]));
