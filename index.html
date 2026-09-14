@@ -8,7 +8,7 @@
 <style>
 :root{
   --s1:#512C1D; --s2:#0C5C30; --s3:#670231;
-  --s1-text:#6F3E29; --s2-text:var(--s2); --s3-text:#8A164A;
+  --s1-text:#6F3E29; --s2-text:#17613D; --s3-text:#8A164A;
   --s1-soft:#ede3df; --s2-soft:#dcece2; --s3-soft:#eedde5;
   --surface:#fcfcfb; --plane:#f9f9f7; --ink:#0b0b0b; --ink2:#52514e;
   --muted:#898781; --grid:#e1e0d9; --axis:#c3c2b7; --win:#1baf7a; --loss:#d0402a;
@@ -16,7 +16,7 @@
 }
 :root[data-theme="dark"]{
   --s1:#512C1D; --s2:#0C5C30; --s3:#670231;
-  --s1-text:#D9AC8C; --s2-text:var(--s2); --s3-text:#EC94B8;
+  --s1-text:#D9AC8C; --s2-text:#91CBA7; --s3-text:#EC94B8;
   --s1-soft:#2f211c; --s2-soft:#142b1e; --s3-soft:#301322;
   --surface:#1a1a19; --plane:#0d0d0d; --ink:#ffffff; --ink2:#c3c2b7;
   --muted:#898781; --grid:#2c2c2a; --axis:#383835; --win:#31c98f; --loss:#e4614a;
@@ -74,6 +74,7 @@ td:first-child,th:first-child{text-align:left;white-space:normal}
 .lft{text-align:left!important}
 .sec td{background:var(--plane);font-weight:700;font-size:11px;letter-spacing:.09em;
   text-transform:uppercase;color:var(--muted);text-align:left}
+#leadtable tbody tr:not(.sec)>td{height:60px;vertical-align:middle}
 .best{font-weight:700}
 .best-value{font-weight:700;text-decoration:underline;text-underline-offset:3px}
 .dot{display:inline-block;width:6px;height:6px;border-radius:50%;margin-right:6px;vertical-align:1px}
@@ -172,6 +173,9 @@ body.dialog-open{overflow:hidden}
   #leadtable td{position:static;min-width:0;white-space:normal;overflow-wrap:anywhere;
     border:0;text-align:center;padding:4px 3px;font-size:14px}
   #leadtable td:first-child{grid-column:1 / -1;text-align:left;font-weight:600;font-size:14px}
+  #leadtable tbody tr:not(.sec){grid-template-rows:minmax(56px,auto) minmax(96px,auto)}
+  #leadtable tbody tr:not(.sec)>td{height:auto}
+  #leadtable tbody tr:not(.sec)>td:first-child{display:flex;align-items:center}
   #leadtable td[data-team]::before{content:attr(data-team);display:block;font-size:10px;
     font-weight:400;color:var(--ink2);margin-bottom:5px}
   #leadtable .sec{margin-top:12px;padding:8px;background:var(--plane);border-radius:8px}
