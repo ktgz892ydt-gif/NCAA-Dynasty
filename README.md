@@ -76,31 +76,72 @@ SOS, SRS, Elo, Bradley-Terry and Glicko-2 are solved over the **entire 143-team 
 - **There are five FCS buckets, not four** — East, Midwest, Northwest, Southeast and West — all
   forced to `0-12` regardless of how many games they appear in.
 
-## The 15 blank rows
+## What is missing, and why
 
-These show as "—" because the screenshots do not contain them, not because they are zero:
+Only **6 of the 110 team rows** are blank, plus 18 of the 35 Approximate Value slots:
 
 | Group | Attribute | Why |
 |---|---|---|
 | Results | Conference Champion, Bowl Result, Final CFP Ranking | User-entered in Master; no screen captures them |
-| Core Efficiency | Explosiveness Index | Its drive estimate needs FGA, which was never captured |
-| Passing | Sacks, Sack Rate | Sacks *taken* appear on no captured screen |
-| Disruptions | Tackles for Loss, Defensive Touchdowns | Only on per-game defensive player screens, not shot this season |
-| Totals (Special Teams) | FGA, FGM, FG %, XPA, XPM, XP %, TDs | Kicking is only on the per-game kicking screen, not shot this season |
+| Disruptions | Tackles for Loss, Defensive Touchdowns | Need every defender on a team, and the leaderboards name no team |
+| Totals (Special Teams) | TDs | Same: needs the team's returners identified |
+
+Four rows that looked unrecoverable were recovered from the screen recordings instead
+(see below): FGA, FGM, FG %, XPA, XPM, XP %, Explosiveness Index, Sacks and Sack Rate.
 
 Two caveats on rows that *are* filled:
 
-- **Total Touchdowns** counts offensive touchdowns only (passing + rushing), because defensive
-  and special-teams touchdowns were never captured.
-- **Totals (Special Teams) → Yards** is punts × the displayed average, summed per game, so it
-  carries a little rounding from the one-decimal average on screen.
+- **Total Touchdowns** counts offensive touchdowns only. The kicker identification does
+  reveal how many non-offensive touchdowns each school scored — 0 for Western Michigan and
+  2 each for Eastern and Central — but it cannot split those between defence and special teams.
+- **Eastern Michigan** is missing the lower half of one box score, so their kick return yards,
+  punt return yards, punts, punt yards and Explosiveness Index rest on eleven games. Those
+  cells carry an `11g` marker on the page.
 
-## Not built: Position Breakdown / Approximate Value
+## Finding players the game will not name
 
-Master rows 113–147 (the per-position AV model — LT through P) are not on the site. They need
-per-player stats attributed to a school, and the player leaderboards in the recordings are
-national: the game prints a team only for the one highlighted row. Capturing per-team roster or
-player-stat screens would make this possible.
+The national leaderboards print no team beside a player, which is what blocked the
+kicking, sacks and Approximate Value rows. The way round it is arithmetic: each school's
+season totals are already known exactly, so the players can be picked out by identity.
+
+- **Punter** — by exact punt count and yards. `R.Millmore` (26 for 1,121) is Western
+  Michigan; `D.Duley` (36 for 1,623) is Central Michigan. Eastern Michigan's punter falls
+  below the captured range.
+- **Quarterback** — by attempts and passing yards. Touchdowns and interceptions then match
+  the team totals too, four confirmations each: `B.Lowry`; `N.Kim` + `J.Stuckey`;
+  `A.Flores` + `M.Beamon`.
+- **Kicker** — by the only field-goal and extra-point line that reproduces the team's point
+  total through `Points = 6*TD + XPM + 3*FGM + 2*TwoPtMade`. `P.Domschke` (368),
+  `R.Kessinger` (190), `J.London` (309).
+
+This also corrected a real error: summing completions off the box scores gave Central
+Michigan an 85.1% completion rate, higher than any passer in the country, and one box score
+printed more completions than attempts. The leaderboard's figures replaced them.
+
+## Approximate Value
+
+`AV_Calculations.md` says AV "cannot be computed from the team Game Log alone". Most of it
+now is:
+
+- **Every team-level pool** — offence, O-line, skill, rush, pass, receiving, defence,
+  front-7, secondary. These need only team stats plus the team's FGM/FGA, which the kicker
+  identification supplies.
+- **The five offensive-line slots.** Their formula is `GP + 5*GS*PosMult`, so for a line
+  that started all twelve games it reduces to the position multipliers alone — tackles take
+  21.88% of the line pool each, interior linemen 18.75%.
+- **QB1**, from the passer's share of team passing yards plus the AY/A adjustment against a
+  national baseline of 7.54 across 140 qualified passers.
+- **K and P**, from the by-distance field-goal buckets and the punting line.
+
+Still blank are RB1/RB2, WR1–3, TE1 and the twelve defensive slots. Those need per-player
+production tied to a school, and no arithmetic identity pins them down the way a kicker's
+point total or a punter's punt count does. Per-team roster or player-stat screens would
+close it.
+
+League baselines use the three schools for the drive rates, which is one of the two options
+`AV_Calculations.md` leaves open; the kicking, punting and AY/A baselines are genuine
+national averages taken off the leaderboards. Defensive drives rely on an estimate of
+opponent field-goal attempts, which the doc explicitly permits approximating.
 
 ## Updating
 
