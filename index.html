@@ -358,11 +358,9 @@ function showExplanation(title,summary,detail){
   dialog.showModal();
 }
 function leagueComparison(key){
-  if(key!=='bci'&&key!=='explo')return '';
-  const numbers=P.map(p=>val(p,key).v);
-  if(!numbers.length||!numbers.every(Number.isFinite))return ' The three-team league average is unavailable until every school has a value.';
-  const average=numbers.reduce((sum,v)=>sum+v,0)/numbers.length;
-  return ` For the ${DATA.season} dynasty league, the average is ${fmt(average,byKey[key].fmt)} across Western, Eastern and Central Michigan, with each school counted equally. A higher score is above this league benchmark. A national average is unavailable from the captured data.`;
+  if(key==='bci')return ' A national average is not available from the current source files: possession time and exact offensive play totals are missing for most teams.';
+  if(key==='explo')return ' A national average is not available from the current source files: team-level punt totals and field-goal attempts are missing for most teams.';
+  return '';
 }
 function explain(key){
   const info=EXPLANATIONS[key];if(!info)return;

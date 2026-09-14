@@ -44,3 +44,13 @@ These source issues remain recorded for the next workbook maintenance pass. This
 `python3 scripts/reconcile_2026.py` reads `data/verified-inputs-2026.json` and updates the affected fields in the embedded DATA object. It preserves all unrelated data, scoreboard rows and ratings. It is a targeted reconciliation, not a complete OCR/import pipeline.
 
 Run `python3 scripts/reconcile_2026.py --check` and `python3 scripts/test_reconciliation.py` before committing. The site remains a self-contained HTML file and needs no runtime fetches or dependencies.
+
+## National Ball Control and Explosiveness benchmarks
+
+The three-team averages have been removed from the explanation notes. A full national mean must use each of the 138 real FBS teams, with the same definition as the displayed index; the five synthetic FCS buckets are not covered by the national stat screens.
+
+The reviewed source set has 105 national team-stat photographs (27 offense, 26 defense, and 13 each for conversions, red zone, penalties and turnovers). None of those tables provides possession time, punts or field-goal attempts. Game Log covers 36 games for Western, Eastern and Central only. League Scores provides game results, not these box-score inputs. The player kicking/punting recordings do not establish complete team assignments and totals for all 138 teams.
+
+Ball Control still requires each team's possession share and offensive play count, alongside first downs and giveaways. The rounded yards/play column cannot recover exact play counts. Explosiveness requires each team's punts and FGA, alongside the captured yardage, scoring, touchdown, giveaway and fourth-down inputs. These missing quantities cannot be uniquely inferred from the available scoring and yardage totals. No national average has been guessed or substituted, and no per-team national index has been added to the page.
+
+To complete the requested averages, supply a team-season export or additional source screens with those missing inputs for the national field. Compute each team's index first and then take the equal-team mean; averaging raw totals or assuming half of possession for every team is a different calculation.
