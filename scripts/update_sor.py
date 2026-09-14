@@ -86,7 +86,7 @@ def update_sor(data, source):
         data['values'][team]['sor'] = {'v': rank, 'rank': rank, 'of': len(eligible)}
     data['statMeta'] = [m for m in data['statMeta'] if m['key'] != 'sor']
     position = next(i for i,m in enumerate(data['statMeta']) if m['key']=='sos') + 1
-    data['statMeta'].insert(position, {'key':'sor','name':'SOR (est.)','group':'Results','fmt':'rank','higherBetter':False,'pick':'SOR · Strength of Record (est.)'})
+    data['statMeta'].insert(position, {'key':'sor','name':'SOR','group':'Results','fmt':'rank','higherBetter':False,'pick':'SOR · Strength of Record'})
     data['nationalLeaders']['sor'] = [{'t':t,'v':ranks[t]} for t in sorted(eligible,key=lambda t:(keys[t],t))[:10]]
     # Leave-one-week-out slope checks retain final-season ratings: diagnostic, NOT forecast validation.
     checks = []
