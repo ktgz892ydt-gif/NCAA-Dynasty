@@ -18,6 +18,25 @@ libraries or CDNs, no browser storage. It runs offline and can be hosted anywher
 | **National** | The full **143-team** ratings table (sortable, filterable) and national top tens. |
 | **Leaders** | National player leaders in nine categories, from the screen recordings. |
 
+## Mobile layout and measure explanations
+
+Phone layouts use compact team cards, a search/group filter and three-column comparison rows
+with the measure name above the school values. Wide national and player tables scroll within
+their panels; their team/player column stays visible. Navigation, controls and explanation buttons
+support touch and keyboard input.
+
+Tap a measure marked ⓘ for its definition, formula and interpretation. Explanations cover SRS,
+SOS, MOV, Pythagorean expected wins, Explosiveness Index, Ball Control Index, Pass-to-Run Yard
+Ratio and Approximate Value. They are available on team cards, the comparison table and the
+selected Head-to-Head measure; national rating headers keep explanation and sorting separate.
+Data coverage notes also open on tap. Dialogs support Escape, a close button, backdrop dismissal
+and focus return.
+
+School accents use the same exact colors in light and dark themes: Western **#512C1D**,
+Eastern **#0C5C30**, Central **#670231**. Text stays in the readable theme foreground, and chart
+marks have outlines so the dark school colors remain distinguishable. No statistical data or
+calculation inputs are changed by this interface update.
+
 ## Stat structure
 
 The Dynasty tab mirrors the Master tab: the same 13 group titles, in the same order, with
