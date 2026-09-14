@@ -32,7 +32,7 @@ Scoring Defense · Passing Defense · Rush Defense · Disruptions · Situational
 Penalties · Totals (Special Teams)
 ```
 
-**95 of the 110 rows are populated. 42 carry a national rank** — a rank is only shown where the
+**104 of the 110 rows are populated. 43 carry a national rank** — a rank is only shown where the
 stat can be computed for the whole country from the national Team Stats screens; stats that come
 from the per-game box scores exist for these three schools alone.
 
@@ -86,8 +86,8 @@ Only **6 of the 110 team rows** are blank, plus 18 of the 35 Approximate Value s
 | Disruptions | Tackles for Loss, Defensive Touchdowns | Need every defender on a team, and the leaderboards name no team |
 | Totals (Special Teams) | TDs | Same: needs the team's returners identified |
 
-Four rows that looked unrecoverable were recovered from the screen recordings instead
-(see below): FGA, FGM, FG %, XPA, XPM, XP %, Explosiveness Index, Sacks and Sack Rate.
+Nine rows that looked unrecoverable were pulled out of the screen recordings instead (see
+below): FGA, FGM, FG %, XPA, XPM, XP %, Explosiveness Index, Sacks and Sack Rate.
 
 Two caveats on rows that *are* filled:
 
