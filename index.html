@@ -8,6 +8,7 @@
 <style>
 :root{
   --s1:#512C1D; --s2:#0C5C30; --s3:#670231;
+  --s1-text:#6F3E29; --s2-text:var(--s2); --s3-text:#8A164A;
   --s1-soft:#ede3df; --s2-soft:#dcece2; --s3-soft:#eedde5;
   --surface:#fcfcfb; --plane:#f9f9f7; --ink:#0b0b0b; --ink2:#52514e;
   --muted:#898781; --grid:#e1e0d9; --axis:#c3c2b7; --win:#1baf7a; --loss:#d0402a;
@@ -15,6 +16,7 @@
 }
 :root[data-theme="dark"]{
   --s1:#512C1D; --s2:#0C5C30; --s3:#670231;
+  --s1-text:#D9AC8C; --s2-text:var(--s2); --s3-text:#EC94B8;
   --s1-soft:#2f211c; --s2-soft:#142b1e; --s3-soft:#301322;
   --surface:#1a1a19; --plane:#0d0d0d; --ink:#ffffff; --ink2:#c3c2b7;
   --muted:#898781; --grid:#2c2c2a; --axis:#383835; --win:#31c98f; --loss:#e4614a;
@@ -304,6 +306,7 @@ const P=DATA.teams, FULL=DATA.full, META=DATA.statMeta;
 const byKey={}; META.forEach(m=>byKey[m.key]=m);
 const CVAR={}; P.forEach((p,i)=>CVAR[p]='--s'+(i+1));
 const col=p=>getComputedStyle(document.documentElement).getPropertyValue(CVAR[p]).trim();
+const textCol=p=>getComputedStyle(document.documentElement).getPropertyValue(CVAR[p]+'-text').trim();
 
 function fmt(v,f){
   if(v==null||v==='')return '—';
@@ -472,7 +475,7 @@ function renderLead(){
       const s=val(p,m.key), isB=best===p;
       tr.append(el('td',{role:'cell',class:isB?'best':null,'data-team':FULL[p].replace(' Michigan','')},[
         isB?el('span',{class:'dot',style:`background:${col(p)}`}):null,
-        isB?el('span',{class:'best-value',style:`color:${col(p)}`},fmt(s.v,m.fmt)):fmt(s.v,m.fmt),
+        isB?el('span',{class:'best-value',style:`color:${textCol(p)}`},fmt(s.v,m.fmt)):fmt(s.v,m.fmt),
         s.rank?el('span',{class:'rk'},`${ord(s.rank)}`):null,
         coverageNote(m,p,s)
       ]));
@@ -687,7 +690,7 @@ function renderNatTop(){
     const who=P.find(p=>DATA.canon[p]===r.t);
     body.append(el('tr',{class:mine.has(r.t)?'me':null},[
       el('td',{},String(i+1)),
-      el('td',{class:'lft',style:who?`color:${col(who)}`:null},[
+      el('td',{class:'lft',style:who?`color:${textCol(who)}`:null},[
         who?el('span',{class:'dot',style:`background:${col(who)}`}):null,r.t]),
       el('td',{},fmt(r.v,m.fmt))]));
   });
@@ -729,7 +732,7 @@ function renderLeaders(){
     const who=whoOf(r.team);
     body.append(el('tr',{class:who?'me':null},[
       el('td',{},String(i+1)),
-      el('td',{class:'lft',style:who?`color:${col(who)}`:null},[
+      el('td',{class:'lft',style:who?`color:${textCol(who)}`:null},[
         who?el('span',{class:'dot',style:`background:${col(who)}`}):null,
         r.name, r.team?el('span',{class:'rk'},r.team):null]),
       el('td',{class:'lft'},r.pos||'—'),
