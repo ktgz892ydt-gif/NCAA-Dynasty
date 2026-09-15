@@ -58,11 +58,21 @@ def reconcile(d, source):
         inp['punts'] = v['punts']['v']
         inp['punts_games'] = games
         n = notes[d['full'][team]]
-        n['off_pts_per_drive'] = ((7 * (inp['rtd'] + inp['ptd']) + 3 * inp['fgm'])
-                                 / (inp['rtd'] + inp['ptd'] + inp['turnovers']
-                                    + inp['punts'] + inp['fga']))
+        # One drive definition, the estimate documented in calculations.md, used for
+        # offensive rate, Explosiveness and the defence alike. The earlier AV
+        # offensive count omitted failed fourth downs and end-of-half possessions
+        # and came out near nine drives a game, well under a real twelve.
         drives = (v['ttd']['v'] + inp['fga'] + inp['punts'] + inp['turnovers']
                   + v['d4a']['v'] - v['d4c']['v'] + 2 * games)
+        n['drives'] = drives
+        n['off_pts_per_drive'] = (7 * (inp['rtd'] + inp['ptd']) + 3 * inp['fgm']) / drives
+        # Possessions alternate, so a defence faces its own offence's drive count to
+        # within a possession a game. Deriving it that way removes the opponent
+        # field-goal estimate, which ran up to 1.7x the national attempt rate because
+        # it charged every non-offensive touchdown allowed to phantom field goals.
+        n['def_drives'] = drives
+        inp.pop('opp_fga', None)
+        inp.pop('opp_fgm_est', None)
         put(team, 'explo', v['ypp']['v'] * v['pts']['v'] / drives, estimate=True,
             note='Uses estimated drives from offensive TDs, FGA, punts, turnovers, '
                  'failed fourth downs and two end-of-half possessions per game.'
@@ -70,11 +80,16 @@ def reconcile(d, source):
 
     league = notes['league']
     league['off_ppd'] = sum(notes[d['full'][t]]['off_pts_per_drive'] for t in d['teams']) / len(d['teams'])
+    league['def_ppd'] = sum(notes['inputs'][d['full'][t]]['pts_allowed']
+                            / notes[d['full'][t]]['def_drives'] for t in d['teams']) / len(d['teams'])
     baseline_note = ('Three-team offensive baseline includes Eastern\u2019s retained '
                      'first-game workbook punts; see source notes.')
-    defense_note = ('Estimated defensive drives use estimated opponent FGA. The shared '
-                    'three-team baseline includes Eastern\u2019s 11-game opponent-punt total '
-                    'and Central\u2019s unresolved 21-versus-20 takeaway total.')
+    defense_note = ('Defensive drives equal the team\u2019s own estimated drive count, since '
+                    'possessions alternate. That removes the earlier opponent field-goal '
+                    'estimate, and with it any dependence on opponent punts or takeaways, '
+                    'so Eastern\u2019s 11-game opponent-punt total and Central\u2019s '
+                    '21-versus-20 takeaway discrepancy no longer reach this figure. The drive '
+                    'count itself is still an estimate and the baseline is the three schools.')
     for team in d['teams']:
         n, v = notes[d['full'][team]], values[team]
         offense = 100 * n['off_pts_per_drive'] / league['off_ppd']
@@ -93,9 +108,12 @@ def reconcile(d, source):
         for pos in ['LT', 'LG', 'C', 'RG', 'RT']:
             put(team, 'av_ol_' + pos, None,
                 note='Requires actual games played and starts for every participating lineman.')
-        for key in ['av_team_def', 'av_front7_pool', 'av_secondary_pool']:
-            v[key]['estimate'] = True
-            v[key]['note'] = defense_note
+        margin = (notes['inputs'][d['full'][team]]['pts_allowed']
+                  / n['def_drives']) / league['def_ppd']
+        defense = 100 * (1 + 2 * margin - margin ** 2) / (2 * margin)
+        for key, value in [('av_team_def', defense), ('av_front7_pool', defense * 2 / 3),
+                           ('av_secondary_pool', defense / 3)]:
+            put(team, key, value, estimate=True, note=defense_note)
         if team in source['punters']:
             punter = source['punters'][team]
             above = (punter['punts'] + punter['blocked']) * (n['punter_adj_ypa'] - league['punt_adj'])

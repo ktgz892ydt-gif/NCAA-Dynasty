@@ -18,15 +18,43 @@ class ReconciliationTests(unittest.TestCase):
             self.assertEqual(self.result[key], self.data[key])
 
     def test_full_season_offense_recomputed_together(self):
-        expected = {'W. Michigan': 125.2821670428894, 'E. Michigan': 73.81489841986456,
-                    'C. Michigan': 100.90293453724605}
+        expected = {'W. Michigan': 127.14685446750124, 'E. Michigan': 68.22219114520021,
+                    'C. Michigan': 104.63095438729859}
         for team, amount in expected.items():
             v = self.result['values'][team]
             self.assertAlmostEqual(v['av_team_off']['v'], amount)
             self.assertAlmostEqual(v['av_oline_pool']['v'] + v['av_skill_pool']['v'], amount)
             self.assertAlmostEqual(sum(v[k]['v'] for k in ['av_rush_pool', 'av_pass_pool', 'av_rec_pool']),
                                    v['av_skill_pool']['v'])
-        self.assertAlmostEqual(self.result['avNotes']['Eastern Michigan']['off_pts_per_drive'], 2)
+        self.assertAlmostEqual(self.result['avNotes']['Eastern Michigan']['off_pts_per_drive'], 1.408)
+
+    def test_one_drive_definition_for_offense_and_defense(self):
+        """Possessions alternate, so a defence faces its own offence's drive count."""
+        notes = self.result['avNotes']
+        for team in self.result['teams']:
+            n = notes[self.result['full'][team]]
+            self.assertEqual(n['drives'], n['def_drives'])
+            # a real college team gets roughly twelve possessions a game
+            self.assertTrue(10 <= n['drives'] / 12 <= 13, n['drives'] / 12)
+            # Explosiveness must use that same count, not a second definition
+            v = self.result['values'][team]
+            self.assertAlmostEqual(v['explo']['v'], v['ypp']['v'] * v['pts']['v'] / n['drives'])
+
+    def test_defense_no_longer_depends_on_estimated_opponent_field_goals(self):
+        notes = self.result['avNotes']
+        for team in self.result['teams']:
+            self.assertNotIn('opp_fga', notes['inputs'][self.result['full'][team]])
+        # ranking must agree with points allowed per drive, best defence first
+        by_av = sorted(self.result['teams'],
+                       key=lambda t: -self.result['values'][t]['av_team_def']['v'])
+        by_rate = sorted(self.result['teams'],
+                         key=lambda t: notes['inputs'][self.result['full'][t]]['pts_allowed']
+                         / notes[self.result['full'][t]]['def_drives'])
+        self.assertEqual(by_av, by_rate)
+        for team in self.result['teams']:
+            v = self.result['values'][team]
+            self.assertAlmostEqual(v['av_front7_pool']['v'], v['av_team_def']['v'] * 2 / 3)
+            self.assertAlmostEqual(v['av_secondary_pool']['v'], v['av_team_def']['v'] / 3)
 
     def test_partial_punt_average_does_not_use_season_count(self):
         v = self.result['values']['E. Michigan']
@@ -58,7 +86,7 @@ class ReconciliationTests(unittest.TestCase):
             for key in ['av_team_def', 'av_front7_pool', 'av_secondary_pool']:
                 cell = self.result['values'][team][key]
                 self.assertTrue(cell['estimate'])
-                self.assertIn('11-game', cell['note'])
+                self.assertIn('possessions alternate', cell['note'])
         self.assertIn('20 takeaways', self.result['values']['C. Michigan']['todiff']['note'])
 
     def test_repeat_build_is_stable(self):
