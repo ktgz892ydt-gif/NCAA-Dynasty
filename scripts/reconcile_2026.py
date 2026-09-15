@@ -119,6 +119,12 @@ def reconcile(d, source):
             above = (punter['punts'] + punter['blocked']) * (n['punter_adj_ypa'] - league['punt_adj'])
             put(team, 'av_punter', 2.1875 + 16 * above / (200 * games))
 
+    # Master treats these as user-entered; no screen in the source set records them.
+    entered = source.get('user_entered', {})
+    for key, by_team in entered.items():
+        for team, value in by_team.items():
+            put(team, key, value, note=source.get('user_entered_source'))
+
     values['C. Michigan']['todiff']['note'] = (
         'Uses the season screen\u2019s 21 takeaways minus 19 giveaways. '
         'Its components sum to 20 takeaways; the source discrepancy remains unresolved.')

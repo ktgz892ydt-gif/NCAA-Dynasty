@@ -89,6 +89,18 @@ class ReconciliationTests(unittest.TestCase):
                 self.assertIn('possessions alternate', cell['note'])
         self.assertIn('20 takeaways', self.result['values']['C. Michigan']['todiff']['note'])
 
+    def test_user_entered_results_come_from_the_source_file(self):
+        values = self.result['values']
+        self.assertEqual(values['C. Michigan']['confchamp']['v'], 'Yes')
+        for team in ['W. Michigan', 'E. Michigan']:
+            self.assertEqual(values[team]['confchamp']['v'], 'No')
+        self.assertEqual(values['W. Michigan']['bowl']['v'], 'Win')
+        self.assertEqual(values['E. Michigan']['bowl']['v'], 'N/A')
+        # not supplied yet, and nothing in the source set records them
+        self.assertIsNone(values['C. Michigan']['bowl']['v'])
+        for team in self.result['teams']:
+            self.assertIsNone(values[team]['cfp']['v'])
+
     def test_repeat_build_is_stable(self):
         self.assertEqual(reconcile(copy.deepcopy(self.result), self.source), self.result)
 
