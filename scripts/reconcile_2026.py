@@ -43,13 +43,26 @@ def reconcile(d, source):
     for key in ['punts', 'kr', 'pr', 'top']:
         d['boxCoverage']['E. Michigan'].pop(key, None)
 
+    # Eastern's punter is identified by his punt count alone, so the two independent
+    # routes to that number - eleven photographed box scores plus the retained Game
+    # Log entry, and his own season line - have to agree. If an input edit breaks
+    # that equality the identification no longer holds and the build must stop.
+    derived_punts = {'E. Michigan': first['punts'] + rest['punts']}
     for team, punter in source['punters'].items():
+        if team in derived_punts and derived_punts[team] != punter['punts']:
+            raise ValueError(
+                f"{team} punt count disagrees: {derived_punts[team]} from the box scores "
+                f"and Game Log against {punter['punts']} on {punter['name']}'s season line. "
+                'That equality is what assigns the punter to the school.')
         put(team, 'punts', punter['punts'])
         put(team, 'puntyds', punter['yards'])
         put(team, 'ypunt', punter['yards'] / punter['punts'])
         full = d['full'][team]
         notes[full]['punter_adj_ypa'] = ((punter['yards'] - 13 * punter['blocked'])
                                        / (punter['punts'] + punter['blocked']))
+        # A named punter's season line covers every game, so the partial-coverage
+        # marker set above for Eastern no longer applies.
+        d['boxCoverage'][team].pop('puntyds', None)
 
     # Full-season offensive inputs must have the same game coverage.
     for team in d['teams']:
@@ -105,9 +118,6 @@ def reconcile(d, source):
         delta = qb['aya'] - league['aya']
         adjustment = (delta * (.5 if delta > 0 else 2)) if qb['att'] >= 150 else 0
         put(team, 'av_qb1', passing * qb['yards'] / v['pyds']['v'] + adjustment, note=baseline_note)
-        for pos in ['LT', 'LG', 'C', 'RG', 'RT']:
-            put(team, 'av_ol_' + pos, None,
-                note='Requires actual games played and starts for every participating lineman.')
         margin = (notes['inputs'][d['full'][team]]['pts_allowed']
                   / n['def_drives']) / league['def_ppd']
         defense = 100 * (1 + 2 * margin - margin ** 2) / (2 * margin)
@@ -125,11 +135,36 @@ def reconcile(d, source):
         for team, value in by_team.items():
             put(team, key, value, note=source.get('user_entered_source'))
 
+    # Individual player slots the game never supplies. Apportioning a position pool
+    # to one player needs Games Started, which NCAA 26 reports on no screen: the
+    # passing, rushing, receiving, blocking, defensive, kicking and punting screens
+    # all show games played and snaps only. Drop those rows rather than carry a
+    # column of blanks. Anything the source set does identify - the quarterback
+    # room, the kicker, the punters - keeps its row.
+    unsupported = [m['key'] for m in d['statMeta'] if m['key'].startswith('av_')
+                   and all(values[t].get(m['key'], {}).get('v') is None for t in d['teams'])]
+    d['statMeta'] = [m for m in d['statMeta'] if m['key'] not in unsupported]
+    for team in d['teams']:
+        for key in unsupported:
+            values[team].pop(key, None)
+    # Union, so a rebuild of an already-pruned site keeps the record.
+    notes['dropped_player_rows'] = sorted(set(notes.get('dropped_player_rows', [])) | set(unsupported))
+
+    # These four already head every team's summary card, so the stat table does not
+    # repeat them. They stay in DATA, in the national tables and in the
+    # head-to-head measure picker.
+    for meta in d['statMeta']:
+        if meta['key'] in ['sos', 'sor', 'srs', 'mov']:
+            meta['hide'] = True
+        else:
+            meta.pop('hide', None)
+
     values['C. Michigan']['todiff']['note'] = (
         'Uses the season screen\u2019s 21 takeaways minus 19 giveaways. '
         'Its components sum to 20 takeaways; the source discrepancy remains unresolved.')
     d['missingRows'] = [{'group': m['group'], 'name': m['name']} for m in d['statMeta']
-                        if all(values[t][m['key']]['v'] is None for t in d['teams'])]
+                        if not m.get('hide')
+                        and all(values[t][m['key']]['v'] is None for t in d['teams'])]
     notes['status'] = 'computed_with_estimates'
     notes['source_review'] = 'See data/verified-inputs-2026.json and data/SOURCE_NOTES.md.'
     return d

@@ -19,9 +19,10 @@
   },
   "punters": {
     "W. Michigan": {"name": "R.Millmore", "punts": 26, "yards": 1121, "blocked": 0},
-    "C. Michigan": {"name": "D.Duley", "punts": 36, "yards": 1623, "blocked": 0}
+    "C. Michigan": {"name": "D.Duley", "punts": 36, "yards": 1623, "blocked": 0},
+    "E. Michigan": {"name": "D.Hull", "punts": 25, "yards": 1165, "blocked": 0}
   },
-  "punter_source": "2026/Individual Stats/IMG_5220.MOV, approximately 33.5 seconds. Exact count, yards and blocked columns are visible together.",
+  "punter_source": "2026/Individual Stats/IMG_5220.MOV, approximately 33.5 seconds, for Western and Central: exact count, yards and blocked columns are visible together. Eastern's punter D.Hull appears only in IMG_5221.MOV, where the punt-count column is clipped by the screen edge; his count is 1165 yards / 46.6 average = 25.00, the only punter in the captured field with 25, matching Eastern's full-season total of 21 photographed punts plus the 4 in the retained Sacramento State Game Log entry. His 1165 season yards supply that game's missing punt yardage: 1165 - 969 = 196 over 4 punts, a 49.0 average.",
   "user_entered": {
     "confchamp": {"W. Michigan": "No", "E. Michigan": "No", "C. Michigan": "Yes"},
     "bowl": {"W. Michigan": "Win", "E. Michigan": "N/A", "C. Michigan": "Win"}
@@ -31,7 +32,7 @@
   "regulation_game_seconds": 2160,
   "game_time_source": "IMG_5307.HEIC shows Eastern 13:53 and Michigan State 22:07 possession, totaling 36:00, consistent with the other Eastern box-score pairs and the prior BCI denominator.",
   "unresolved": [
-    "Eastern first-game punt yards and opponent punts are unavailable; do not infer them from a candidate national punter.",
+    "Eastern first-game opponent punts remain unavailable. Its own punt yardage is now recovered from D.Hull's season line, identified by an exact and unique punt count rather than proximity.",
     "Central IMG_5191.HEIC reports 21 takeaways but 12 defensive interceptions plus 8 fumble recoveries. Preserve the reported total with an explicit caveat.",
     "Individual offensive-line games played/started are not established by the recordings.",
     "Game Log X35 and BO35 reverse Central's interceptions and fumbles lost against Western. IMG_5290.HEIC supports 2 interceptions and 0 fumbles lost; website season totals already use the correct split."

@@ -12,7 +12,7 @@ libraries or CDNs, no browser storage. It runs offline and can be hosted anywher
 
 | Tab | What it shows |
 |---|---|
-| **Dynasty** | The three schools side by side, then the workbook’s **110 stats** plus **estimated SOR**, grouped as on the Master tab, each with its **national rank** where one can be computed. |
+| **Dynasty** | The three schools side by side, then the workbook’s stats grouped as on the Master tab, each with its **national rank** where one can be computed. SOS, SOR, SRS and MOV head each team’s summary card instead of repeating as table rows; all four are still selectable in Head-to-Head and listed in National. |
 | **Head-to-Head** | Any stat as a three-way bar chart, plus a radar profile across eight core measures. |
 | **Schedules** | All 12 games per school: site, result, score, and each opponent's final record. |
 | **National** | The full **143-team** ratings table (sortable, filterable) and national top tens. |
@@ -53,7 +53,7 @@ Scoring Defense · Passing Defense · Rush Defense · Disruptions · Situational
 Penalties · Totals (Special Teams)
 ```
 
-**104 of the 110 rows are populated. 43 carry a national rank** — a rank is only shown where the
+**115 of the 119 table rows are populated. 40 carry a national rank** — a rank is only shown where the
 stat can be computed for the whole country from the national Team Stats screens; stats that come
 from the per-game box scores exist for these three schools alone.
 
@@ -101,14 +101,23 @@ SRS, Elo, Bradley-Terry and Glicko-2 are solved over the **entire 143-team natio
 
 ## What is missing, and why
 
-Only **6 of the 110 team rows** are blank, plus 23 of the 35 Approximate Value rows.
-Eastern's punter AV is also blank in an otherwise populated row:
+Only **4 of the 119 table rows** are blank:
 
 | Group | Attribute | Why |
 |---|---|---|
 | Results | Conference Champion, Bowl Result, Final CFP Ranking | User-entered in Master; no screen captures them |
 | Disruptions | Tackles for Loss, Defensive Touchdowns | Need every defender on a team, and the leaderboards name no team |
 | Totals (Special Teams) | TDs | Same: needs the team's returners identified |
+
+Conference Champion and Bowl Result are now filled from the dynasty owner's own report; the
+final CFP rankings are still outstanding.
+
+**23 per-player Approximate Value rows have been removed rather than shown blank** — the five
+offensive-line slots, RB1/RB2, WR1–WR3, TE1 and the eleven defensive slots. Sharing a position
+pool out to one player needs Games Started, and NCAA 26 reports it nowhere: the passing,
+rushing, receiving, blocking, defensive, kicking and punting screens all show games played and
+snaps only. The twelve AV rows that remain are the team and position-group pools plus the three
+players the screens do identify by name — each school's quarterback room, kicker and punter.
 
 Nine rows that looked unrecoverable were pulled out of the screen recordings instead (see
 below): FGA, FGM, FG %, XPA, XPM, XP %, Explosiveness Index, Sacks and Sack Rate.
@@ -119,9 +128,12 @@ Two caveats on rows that *are* filled:
   reveal how many non-offensive touchdowns each school scored — 0 for Western Michigan and
   2 each for Eastern and Central — but it cannot split those between defence and special teams.
 - **Eastern Michigan** is missing the lower half of one box score. Season punts, return yards
-  and possession now include the retained first-game workbook entries. Punt yards and yards/punt
-  still cover eleven matching games and carry an `11g` marker. Explosiveness uses season inputs
-  and estimated drives, marked `est.`. Qualifications also appear in Head-to-Head.
+  and possession come from the eleven photographed games plus the retained first-game workbook
+  entries. Punt yards and yards/punt are now full-season: Eastern's punter is identified as
+  D.Hull, whose 25 punts match the 21 photographed plus the 4 logged exactly, and his 1,165
+  season yards supply the missing game. Only opponent punts for that game remain uncovered.
+  Explosiveness uses season inputs and estimated drives, marked `est.`. Qualifications also
+  appear in Head-to-Head.
 
 ## Finding players the game will not name
 

@@ -56,30 +56,55 @@ class ReconciliationTests(unittest.TestCase):
             self.assertAlmostEqual(v['av_front7_pool']['v'], v['av_team_def']['v'] * 2 / 3)
             self.assertAlmostEqual(v['av_secondary_pool']['v'], v['av_team_def']['v'] / 3)
 
-    def test_partial_punt_average_does_not_use_season_count(self):
+    def test_recovered_eastern_first_game_totals(self):
         v = self.result['values']['E. Michigan']
         self.assertEqual(v['punts']['v'], 25)
         self.assertEqual(v['kr']['v'], 937)
         self.assertEqual(v['pr']['v'], 269)
-        self.assertAlmostEqual(v['ypunt']['v'], 969 / 21)
-        self.assertEqual(v['ypunt']['partial'], 11)
-        self.assertEqual(v['puntyds']['partial'], 11)
+        # the named punter's line is full-season, so the 11-game markers are gone
         self.assertNotIn('partial', v['punts'])
+        self.assertNotIn('partial', v['ypunt'])
+        self.assertNotIn('partial', v['puntyds'])
+        self.assertNotIn('puntyds', self.result['boxCoverage']['E. Michigan'])
         self.assertAlmostEqual(v['toppg']['v'], 976.25)
         self.assertAlmostEqual(v['bci']['v'], .5 * (11715 / 25920) + .3 * (173 / 567) - .2 * (31 / 567))
         self.assertAlmostEqual(v['explo']['v'], 8.512)
 
     def test_exact_punter_totals(self):
-        for team, yards, count in [('W. Michigan', 1121, 26), ('C. Michigan', 1623, 36)]:
+        for team, yards, count in [('W. Michigan', 1121, 26), ('C. Michigan', 1623, 36),
+                                   ('E. Michigan', 1165, 25)]:
             v = self.result['values'][team]
             self.assertEqual(v['puntyds']['v'], yards)
             self.assertAlmostEqual(v['ypunt']['v'], yards / count)
 
-    def test_unsupported_player_results_stay_missing(self):
+    def test_unsupported_player_rows_are_dropped_not_blanked(self):
+        """Sharing a position pool needs Games Started, which no screen reports."""
+        dropped = self.result['avNotes']['dropped_player_rows']
+        self.assertIn('av_ol_LT', dropped)
+        self.assertIn('av_rb1', dropped)
+        self.assertIn('av_cb1', dropped)
+        keys = [m['key'] for m in self.result['statMeta']]
+        for key in dropped:
+            self.assertNotIn(key, keys)
+            for team in self.result['teams']:
+                self.assertNotIn(key, self.result['values'][team])
+        # every surviving AV row has a value for all three teams
+        for meta in self.result['statMeta']:
+            if meta['key'].startswith('av_'):
+                for team in self.result['teams']:
+                    self.assertIsNotNone(self.result['values'][team][meta['key']]['v'], meta['key'])
+        # the identified specialists keep theirs, Eastern's punter included
         for team in self.result['teams']:
-            for pos in ['LT', 'LG', 'C', 'RG', 'RT']:
-                self.assertIsNone(self.result['values'][team]['av_ol_' + pos]['v'])
-        self.assertIsNone(self.result['values']['E. Michigan']['av_punter']['v'])
+            self.assertIsNotNone(self.result['values'][team]['av_punter']['v'])
+
+    def test_summary_card_measures_leave_the_stat_table(self):
+        hidden = {m['key'] for m in self.result['statMeta'] if m.get('hide')}
+        self.assertEqual(hidden, {'sos', 'sor', 'srs', 'mov'})
+        # hidden rows stay in DATA for the picker and the national tables
+        for key in hidden:
+            for team in self.result['teams']:
+                self.assertIn(key, self.result['values'][team])
+        self.assertNotIn('SOS', [r['name'] for r in self.result['missingRows']])
 
     def test_estimate_caveat_propagates_to_shared_defense_baseline(self):
         for team in self.result['teams']:
@@ -104,15 +129,21 @@ class ReconciliationTests(unittest.TestCase):
     def test_repeat_build_is_stable(self):
         self.assertEqual(reconcile(copy.deepcopy(self.result), self.source), self.result)
 
+    def test_conflicting_eastern_punt_counts_are_rejected(self):
+        """The punt count is what assigns D.Hull to Eastern; both routes must agree."""
+        changed = copy.deepcopy(self.source)
+        changed['eastern_first_game']['punts'] += 1
+        with self.assertRaises(ValueError):
+            reconcile(copy.deepcopy(self.data), changed)
+
     def test_changed_punt_input_updates_every_offensive_pool(self):
         changed = copy.deepcopy(self.source)
         changed['eastern_first_game']['punts'] += 1
+        changed['punters']['E. Michigan']['punts'] += 1
         alternate = reconcile(copy.deepcopy(self.data), changed)
         for team in self.result['teams']:
             self.assertNotEqual(alternate['values'][team]['av_team_off']['v'],
                                 self.result['values'][team]['av_team_off']['v'])
-        self.assertEqual(alternate['values']['E. Michigan']['ypunt'],
-                         self.result['values']['E. Michigan']['ypunt'])
 
 
 if __name__ == '__main__':
