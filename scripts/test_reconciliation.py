@@ -94,10 +94,10 @@ class ReconciliationTests(unittest.TestCase):
         self.assertEqual(values['C. Michigan']['confchamp']['v'], 'Yes')
         for team in ['W. Michigan', 'E. Michigan']:
             self.assertEqual(values[team]['confchamp']['v'], 'No')
-        self.assertEqual(values['W. Michigan']['bowl']['v'], 'Win')
-        self.assertEqual(values['E. Michigan']['bowl']['v'], 'N/A')
+        for team, result in [('W. Michigan', 'Win'), ('E. Michigan', 'N/A'),
+                             ('C. Michigan', 'Win')]:
+            self.assertEqual(values[team]['bowl']['v'], result)
         # not supplied yet, and nothing in the source set records them
-        self.assertIsNone(values['C. Michigan']['bowl']['v'])
         for team in self.result['teams']:
             self.assertIsNone(values[team]['cfp']['v'])
 

@@ -24,9 +24,9 @@
   "punter_source": "2026/Individual Stats/IMG_5220.MOV, approximately 33.5 seconds. Exact count, yards and blocked columns are visible together.",
   "user_entered": {
     "confchamp": {"W. Michigan": "No", "E. Michigan": "No", "C. Michigan": "Yes"},
-    "bowl": {"W. Michigan": "Win", "E. Michigan": "N/A"}
+    "bowl": {"W. Michigan": "Win", "E. Michigan": "N/A", "C. Michigan": "Win"}
   },
-  "user_entered_source": "Reported by the dynasty owner. Master marks Conference Champion, Bowl Result and Final CFP Ranking as user-entered; no screen in the source set records them. Central's bowl result and all three CFP rankings are still outstanding.",
+  "user_entered_source": "Reported by the dynasty owner. Master marks Conference Champion, Bowl Result and Final CFP Ranking as user-entered; no screen in the source set records them. All three CFP rankings are still outstanding.",
   "season_games": 12,
   "regulation_game_seconds": 2160,
   "game_time_source": "IMG_5307.HEIC shows Eastern 13:53 and Michigan State 22:07 possession, totaling 36:00, consistent with the other Eastern box-score pairs and the prior BCI denominator.",
