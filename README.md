@@ -16,6 +16,7 @@ libraries or CDNs, no browser storage. It runs offline and can be hosted anywher
 | **Head-to-Head** | Any stat as a three-way bar chart, plus a radar profile across eight core measures. |
 | **Schedules** | All 12 games per school: site, result, score, and each opponent's final record. |
 | **National** | The full **143-team** ratings table (sortable, filterable) and national top tens. |
+| **Leaders** | National player leaderboards. **DEFENSE is complete at 400 players**; the other eight categories are still the single screenful the first pass captured, and each says so on the page. |
 | **Leaders** | National player leaders in nine categories, from the screen recordings. |
 
 ## Mobile layout and measure explanations
@@ -106,11 +107,44 @@ Only **4 of the 119 table rows** are blank:
 | Group | Attribute | Why |
 |---|---|---|
 | Results | Conference Champion, Bowl Result, Final CFP Ranking | User-entered in Master; no screen captures them |
-| Disruptions | Tackles for Loss, Defensive Touchdowns | Need every defender on a team, and the leaderboards name no team |
+| Disruptions | Tackles for Loss, Defensive Touchdowns | Captured only per-player on the national leaderboard; see below |
 | Totals (Special Teams) | TDs | Same: needs the team's returners identified |
 
 Conference Champion and Bowl Result are now filled from the dynasty owner's own report; the
 final CFP rankings are still outstanding.
+
+### Why Tackles for Loss is blank
+
+TFL is not missing from the source set — it is in `Individual Stats/IMG_5215.MOV`, the national
+DEFENSE leaderboard, as the seventh column. It still cannot produce a team-season total:
+
+- **The leaderboard is national and sorted by total tackles.** It holds exactly 400 players across
+  138 FBS teams — about three per school, not a roster. It is now transcribed in full (see below),
+  so this is a measured limit rather than an assumed one.
+- **Sorting by tackles selects against TFL.** The players who record the most tackles are
+  linebackers and safeties; the edge rushers and interior linemen who generate most of a team's
+  TFL never reach a tackles leaderboard. Summing whichever Western, Eastern or Central players do
+  appear would be biased low by an amount that cannot be bounded.
+- **There is no team column.** A player's school is shown only on the card beside the
+  *highlighted* row, one player at a time.
+- Neither the per-game box scores nor the national Team Stats defense screens carry TFL. The team
+  defense screen ends at SACK, which is where the season sack totals come from.
+
+The Game Log in the workbook does have a TFL column, filled by hand for the first part of the
+season only — Western 6 of 12 games, Eastern 7, Central 5. Those partial sums are 24, 66 and 18,
+at 4.0, 9.4 and 3.6 per game. The spread is too wide to scale a 5-game figure to 12 and present
+it beside an 11-game one, so the row is left blank rather than estimated.
+
+The full list is now in the repository, and it bears the point out: the 400th-place player has 57
+tackles, and the bottom of the list runs 0–3 TFL a man. The players who lead a team in TFL are
+linemen who never appear on it at all.
+
+**How to capture it next season:** the chip at the top left of every stats screen is a scope
+toggle. All fourteen of this season's recordings have it on `NATIONAL`; the older mid-season
+captures in `Scripts/codex/.../png/2026` have it on `WESTERN MICHIGAN`, `EASTERN MICHIGAN` and
+`CENTRAL MICHIGAN`, but only for the offensive categories. One DEFENSE recording per school with
+that toggle set gives every defender's TFL, and the team total becomes a plain sum. The same
+screen carries per-defender GP and SNAPS, which is also what the removed per-player AV rows need.
 
 **23 per-player Approximate Value rows have been removed rather than shown blank** — the five
 offensive-line slots, RB1/RB2, WR1–WR3, TE1 and the eleven defensive slots. Sharing a position

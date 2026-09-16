@@ -75,3 +75,17 @@ SOS, SOR, SRS and MOV appear at the head of every team's summary card, so they n
 ## Offensive v Defensive Balance
 
 The Core Efficiency row named "Offensive v Defensive Balance" is the workbook's `CARRIES / PASSING ATTEMPTS`. Despite the name it compares the offense with itself, not with the defense, and it measures play calls rather than yardage. The page now carries that explanation on the measure itself so the label cannot be read as an offense-versus-defense rating.
+
+## Full national DEFENSE leaderboard
+
+`IMG_5215.MOV` scrolls the national DEFENSE leaderboard from the first row to the last. It is now transcribed in full: **400 players**, from S. Bracey at 124 tackles to M. Malaki-Donaldson at 57. The site previously held the first twelve rows, which was all the earlier pass captured.
+
+The list scrolls continuously at roughly sixteen rows a second, so most video frames are ghosted by the TV's own scroll animation. Frames were sampled at the native rate and the sharpest in each window chosen by bright-pixel fraction, since ghosting halves peak text brightness while *raising* the gradient energy a naive sharpness metric would use. Consecutive pages were then chained by overlapping player names, and every page overlaps its predecessor by at least one row, so no row is interpolated or assumed. Where a page turned over with no overlap, an intermediate frame was pulled until the two chained.
+
+Three arithmetic identities on the screen validate the result, and all three hold on all 400 rows: SOLO + ASSISTS = TAK; TAK never increases down the list; and INT YDS / INT = INT AVG wherever there is an interception. As an independent check, the twelve rows already published were reproduced exactly by this pass without reference to them.
+
+The screen prints no team column. A player's school appears only on the card beside the highlighted row, so only the two players already identified carry a team; the rest are null rather than guessed.
+
+`data/defense-leaders-2026.json` stores the rows and this provenance, `scripts/update_defense_leaders.py` writes them into DATA and re-checks the identities on every run, and `scripts/test_defense_leaders.py` covers the invariants, the row count, the refusal to guess teams, and the fact that team TFL stays blank regardless. `DATA.leaderDepth` records each category's depth so the Leaders tab can state whether a list is complete or truncated.
+
+**This does not unblock Tackles for Loss.** TFL is a column on this very screen, but a 400-deep national list sorted by tackles is about three players per school, and sorting by tackles systematically excludes the linemen who generate most of a team's TFL. See the README for the full reasoning and for the one setting that would fix it.

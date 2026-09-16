@@ -1,0 +1,6823 @@
+{
+ "source": "2026/Individual Stats/IMG_5215.MOV",
+ "screen": "SEASON STATS — DEFENSE, scope NATIONAL, sorted by TAK descending",
+ "columns": [
+  "GP",
+  "SOLO",
+  "ASSISTS",
+  "TAK",
+  "TFL",
+  "SACK",
+  "INT",
+  "INT YDS",
+  "INT AVG",
+  "INT LG"
+ ],
+ "rows_captured": 400,
+ "list_length": "The recording scrolls from the first row to the last; the scrollbar reaches the bottom and the final row is M.Malaki-Donaldson. The leaderboard holds exactly 400 players.",
+ "method": "Frames were sampled at the video's own frame rate, the sharpest frame chosen in each window by bright-pixel fraction (the list scrolls continuously, so most frames are ghosted), and consecutive pages chained by overlapping player names. Every page overlapped its predecessor by at least one row, so no row is inferred.",
+ "validation": "SOLO + ASSISTS = TAK on all 400 rows; TAK is non-increasing from 124 to 57; INT YDS / INT = INT AVG on every row with an interception. The twelve rows already published in the site were reproduced exactly by this independent pass.",
+ "teams": "The leaderboard prints no team column. A player's school shows only on the card beside the highlighted row, so only players who happened to be highlighted can be attributed. Two are known from the earlier pass; the rest are left null rather than guessed.",
+ "rows": [
+  {
+   "name": "S.Bracey",
+   "pos": "MIKE",
+   "team": "Buffalo",
+   "values": {
+    "GP": 12,
+    "SOLO": 93,
+    "ASSISTS": 31,
+    "TAK": 124,
+    "TFL": 5,
+    "SACK": 1.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "J.Eck",
+   "pos": "MIKE",
+   "team": "New Mexico",
+   "values": {
+    "GP": 12,
+    "SOLO": 95,
+    "ASSISTS": 25,
+    "TAK": 120,
+    "TFL": 5,
+    "SACK": 1.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "G.Madden",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 94,
+    "ASSISTS": 22,
+    "TAK": 116,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 14,
+    "INT AVG": 14.0,
+    "INT LG": 14
+   }
+  },
+  {
+   "name": "E.Melendez",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 89,
+    "ASSISTS": 27,
+    "TAK": 116,
+    "TFL": 4,
+    "SACK": 0.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "J.Lloyd",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 92,
+    "ASSISTS": 20,
+    "TAK": 112,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "J.Sipp Jr.",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 90,
+    "ASSISTS": 20,
+    "TAK": 110,
+    "TFL": 5,
+    "SACK": 1.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "K.McKinzie",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 93,
+    "ASSISTS": 15,
+    "TAK": 108,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 4,
+    "INT AVG": 4.0,
+    "INT LG": 4
+   }
+  },
+  {
+   "name": "E.Smith",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 86,
+    "ASSISTS": 21,
+    "TAK": 107,
+    "TFL": 6,
+    "SACK": 4.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "A.Campbell",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 86,
+    "ASSISTS": 21,
+    "TAK": 107,
+    "TFL": 4,
+    "SACK": 2.0,
+    "INT": 3,
+    "INT YDS": 30,
+    "INT AVG": 10.0,
+    "INT LG": 15
+   }
+  },
+  {
+   "name": "M.Rose",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 84,
+    "ASSISTS": 23,
+    "TAK": 107,
+    "TFL": 4,
+    "SACK": 1.0,
+    "INT": 1,
+    "INT YDS": 14,
+    "INT AVG": 14.0,
+    "INT LG": 14
+   }
+  },
+  {
+   "name": "J.Oliphant Jr.",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 83,
+    "ASSISTS": 24,
+    "TAK": 107,
+    "TFL": 2,
+    "SACK": 0.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "J.Mitchell",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 93,
+    "ASSISTS": 13,
+    "TAK": 106,
+    "TFL": 2,
+    "SACK": 1.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "K.Thunderbird",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 87,
+    "ASSISTS": 18,
+    "TAK": 105,
+    "TFL": 2,
+    "SACK": 1.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "G.Howard",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 85,
+    "ASSISTS": 18,
+    "TAK": 103,
+    "TFL": 3,
+    "SACK": 2.0,
+    "INT": 3,
+    "INT YDS": 31,
+    "INT AVG": 10.3,
+    "INT LG": 13
+   }
+  },
+  {
+   "name": "J.Kreutz",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 82,
+    "ASSISTS": 21,
+    "TAK": 103,
+    "TFL": 2,
+    "SACK": 1.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "S.Aupiu",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 87,
+    "ASSISTS": 14,
+    "TAK": 101,
+    "TFL": 5,
+    "SACK": 1.0,
+    "INT": 1,
+    "INT YDS": 18,
+    "INT AVG": 18.0,
+    "INT LG": 18
+   }
+  },
+  {
+   "name": "K.McKinley",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 81,
+    "ASSISTS": 20,
+    "TAK": 101,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 2,
+    "INT YDS": 31,
+    "INT AVG": 15.5,
+    "INT LG": 17
+   }
+  },
+  {
+   "name": "D.Foster",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 79,
+    "ASSISTS": 21,
+    "TAK": 100,
+    "TFL": 6,
+    "SACK": 3.5,
+    "INT": 1,
+    "INT YDS": 12,
+    "INT AVG": 12.0,
+    "INT LG": 12
+   }
+  },
+  {
+   "name": "C.Willich",
+   "pos": "SAM",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 78,
+    "ASSISTS": 22,
+    "TAK": 100,
+    "TFL": 3,
+    "SACK": 0.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "Z.Barker",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 79,
+    "ASSISTS": 20,
+    "TAK": 99,
+    "TFL": 4,
+    "SACK": 2.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "J.Robinson",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 81,
+    "ASSISTS": 18,
+    "TAK": 99,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "R.Nicholl",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 74,
+    "ASSISTS": 25,
+    "TAK": 99,
+    "TFL": 5,
+    "SACK": 0.5,
+    "INT": 1,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "B.Windham",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 84,
+    "ASSISTS": 15,
+    "TAK": 99,
+    "TFL": 1,
+    "SACK": 0.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "C.Cooper",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 84,
+    "ASSISTS": 15,
+    "TAK": 99,
+    "TFL": 3,
+    "SACK": 1.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "B.Booker",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 83,
+    "ASSISTS": 15,
+    "TAK": 98,
+    "TFL": 5,
+    "SACK": 1.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "J.Medlock",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 76,
+    "ASSISTS": 22,
+    "TAK": 98,
+    "TFL": 6,
+    "SACK": 2.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "G.Beerman",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 85,
+    "ASSISTS": 13,
+    "TAK": 98,
+    "TFL": 1,
+    "SACK": 0.5,
+    "INT": 1,
+    "INT YDS": 8,
+    "INT AVG": 8.0,
+    "INT LG": 8
+   }
+  },
+  {
+   "name": "A.Chiles",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 80,
+    "ASSISTS": 18,
+    "TAK": 98,
+    "TFL": 1,
+    "SACK": 0.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "I.Foster",
+   "pos": "FS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 85,
+    "ASSISTS": 13,
+    "TAK": 98,
+    "TFL": 7,
+    "SACK": 2.5,
+    "INT": 3,
+    "INT YDS": 60,
+    "INT AVG": 20.0,
+    "INT LG": 21
+   }
+  },
+  {
+   "name": "J.Hayden",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 75,
+    "ASSISTS": 22,
+    "TAK": 97,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "B.Lovelace",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 79,
+    "ASSISTS": 18,
+    "TAK": 97,
+    "TFL": 2,
+    "SACK": 0.5,
+    "INT": 2,
+    "INT YDS": 29,
+    "INT AVG": 14.5,
+    "INT LG": 16
+   }
+  },
+  {
+   "name": "A.Hines III",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 70,
+    "ASSISTS": 27,
+    "TAK": 97,
+    "TFL": 4,
+    "SACK": 1.0,
+    "INT": 1,
+    "INT YDS": 12,
+    "INT AVG": 12.0,
+    "INT LG": 12
+   }
+  },
+  {
+   "name": "O.Long",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 79,
+    "ASSISTS": 18,
+    "TAK": 97,
+    "TFL": 12,
+    "SACK": 5.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "W.Weeks",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 80,
+    "ASSISTS": 17,
+    "TAK": 97,
+    "TFL": 5,
+    "SACK": 2.0,
+    "INT": 1,
+    "INT YDS": 6,
+    "INT AVG": 6.0,
+    "INT LG": 6
+   }
+  },
+  {
+   "name": "D.Stephens II",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 88,
+    "ASSISTS": 8,
+    "TAK": 96,
+    "TFL": 2,
+    "SACK": 0.0,
+    "INT": 3,
+    "INT YDS": 32,
+    "INT AVG": 10.7,
+    "INT LG": 17
+   }
+  },
+  {
+   "name": "A.Paogofie",
+   "pos": "SAM",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 75,
+    "ASSISTS": 21,
+    "TAK": 96,
+    "TFL": 5,
+    "SACK": 1.5,
+    "INT": 1,
+    "INT YDS": 16,
+    "INT AVG": 16.0,
+    "INT LG": 16
+   }
+  },
+  {
+   "name": "I.Chisom",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 79,
+    "ASSISTS": 17,
+    "TAK": 96,
+    "TFL": 3,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "A.Deslauriers",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 82,
+    "ASSISTS": 13,
+    "TAK": 95,
+    "TFL": 4,
+    "SACK": 2.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "K.Smith",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 76,
+    "ASSISTS": 19,
+    "TAK": 95,
+    "TFL": 2,
+    "SACK": 1.0,
+    "INT": 4,
+    "INT YDS": 48,
+    "INT AVG": 12.0,
+    "INT LG": 21
+   }
+  },
+  {
+   "name": "D.Bowen",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 77,
+    "ASSISTS": 17,
+    "TAK": 94,
+    "TFL": 5,
+    "SACK": 1.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "P.Pierce",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 77,
+    "ASSISTS": 17,
+    "TAK": 94,
+    "TFL": 8,
+    "SACK": 2.5,
+    "INT": 2,
+    "INT YDS": 26,
+    "INT AVG": 13.0,
+    "INT LG": 14
+   }
+  },
+  {
+   "name": "P.Startz",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 77,
+    "ASSISTS": 17,
+    "TAK": 94,
+    "TFL": 1,
+    "SACK": 0.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "E.Reed",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 74,
+    "ASSISTS": 20,
+    "TAK": 94,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 17,
+    "INT AVG": 17.0,
+    "INT LG": 17
+   }
+  },
+  {
+   "name": "H.Taggart",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 74,
+    "ASSISTS": 20,
+    "TAK": 94,
+    "TFL": 3,
+    "SACK": 1.5,
+    "INT": 3,
+    "INT YDS": 46,
+    "INT AVG": 15.3,
+    "INT LG": 17
+   }
+  },
+  {
+   "name": "O.Thornton",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 69,
+    "ASSISTS": 25,
+    "TAK": 94,
+    "TFL": 2,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 3,
+    "INT AVG": 3.0,
+    "INT LG": 3
+   }
+  },
+  {
+   "name": "J.Hall",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 69,
+    "ASSISTS": 25,
+    "TAK": 94,
+    "TFL": 9,
+    "SACK": 3.0,
+    "INT": 2,
+    "INT YDS": 28,
+    "INT AVG": 14.0,
+    "INT LG": 15
+   }
+  },
+  {
+   "name": "K.Thomas",
+   "pos": "SAM",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 82,
+    "ASSISTS": 12,
+    "TAK": 94,
+    "TFL": 3,
+    "SACK": 1.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "T.Byard",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 80,
+    "ASSISTS": 14,
+    "TAK": 94,
+    "TFL": 3,
+    "SACK": 1.5,
+    "INT": 1,
+    "INT YDS": 14,
+    "INT AVG": 14.0,
+    "INT LG": 14
+   }
+  },
+  {
+   "name": "J.Wayne",
+   "pos": "SAM",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 76,
+    "ASSISTS": 17,
+    "TAK": 93,
+    "TFL": 2,
+    "SACK": 1.0,
+    "INT": 2,
+    "INT YDS": 17,
+    "INT AVG": 8.5,
+    "INT LG": 12
+   }
+  },
+  {
+   "name": "D.Wingate",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 79,
+    "ASSISTS": 14,
+    "TAK": 93,
+    "TFL": 3,
+    "SACK": 0.5,
+    "INT": 1,
+    "INT YDS": 9,
+    "INT AVG": 9.0,
+    "INT LG": 9
+   }
+  },
+  {
+   "name": "M.Baranowski",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 81,
+    "ASSISTS": 12,
+    "TAK": 93,
+    "TFL": 6,
+    "SACK": 5.5,
+    "INT": 2,
+    "INT YDS": 24,
+    "INT AVG": 12.0,
+    "INT LG": 14
+   }
+  },
+  {
+   "name": "A.Hall",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 74,
+    "ASSISTS": 19,
+    "TAK": 93,
+    "TFL": 4,
+    "SACK": 1.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "B.Jones",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 79,
+    "ASSISTS": 14,
+    "TAK": 93,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "T.Letuli",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 73,
+    "ASSISTS": 19,
+    "TAK": 92,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 2,
+    "INT YDS": 18,
+    "INT AVG": 9.0,
+    "INT LG": 18
+   }
+  },
+  {
+   "name": "N.Flemmings",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 74,
+    "ASSISTS": 18,
+    "TAK": 92,
+    "TFL": 6,
+    "SACK": 2.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "I.Smith",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 74,
+    "ASSISTS": 18,
+    "TAK": 92,
+    "TFL": 7,
+    "SACK": 1.0,
+    "INT": 2,
+    "INT YDS": 30,
+    "INT AVG": 15.0,
+    "INT LG": 15
+   }
+  },
+  {
+   "name": "L.Long",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 65,
+    "ASSISTS": 27,
+    "TAK": 92,
+    "TFL": 7,
+    "SACK": 1.5,
+    "INT": 1,
+    "INT YDS": 15,
+    "INT AVG": 15.0,
+    "INT LG": 15
+   }
+  },
+  {
+   "name": "T.McCrary",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 75,
+    "ASSISTS": 17,
+    "TAK": 92,
+    "TFL": 1,
+    "SACK": 0.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "L.Bradley",
+   "pos": "SAM",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 75,
+    "ASSISTS": 17,
+    "TAK": 92,
+    "TFL": 1,
+    "SACK": 0.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "J.Bonsu",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 76,
+    "ASSISTS": 16,
+    "TAK": 92,
+    "TFL": 3,
+    "SACK": 1.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "J.Gerlach",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 70,
+    "ASSISTS": 21,
+    "TAK": 91,
+    "TFL": 5,
+    "SACK": 1.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "B.Cutter",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 77,
+    "ASSISTS": 14,
+    "TAK": 91,
+    "TFL": 7,
+    "SACK": 4.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "K.Harris",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 65,
+    "ASSISTS": 26,
+    "TAK": 91,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 3,
+    "INT YDS": 43,
+    "INT AVG": 14.3,
+    "INT LG": 16
+   }
+  },
+  {
+   "name": "K.Nelson Jr.",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 78,
+    "ASSISTS": 13,
+    "TAK": 91,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "C.Dozier",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 69,
+    "ASSISTS": 21,
+    "TAK": 90,
+    "TFL": 2,
+    "SACK": 1.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "J.Reynolds II",
+   "pos": "SAM",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 71,
+    "ASSISTS": 19,
+    "TAK": 90,
+    "TFL": 2,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "D.Hightower",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 69,
+    "ASSISTS": 21,
+    "TAK": 90,
+    "TFL": 4,
+    "SACK": 1.5,
+    "INT": 1,
+    "INT YDS": 14,
+    "INT AVG": 14.0,
+    "INT LG": 14
+   }
+  },
+  {
+   "name": "J.Mixon",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 72,
+    "ASSISTS": 18,
+    "TAK": 90,
+    "TFL": 4,
+    "SACK": 2.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "S.Karriem",
+   "pos": "FS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 80,
+    "ASSISTS": 10,
+    "TAK": 90,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 11,
+    "INT AVG": 11.0,
+    "INT LG": 11
+   }
+  },
+  {
+   "name": "T.Wallace",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 73,
+    "ASSISTS": 17,
+    "TAK": 90,
+    "TFL": 2,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "D.Pringle",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 69,
+    "ASSISTS": 20,
+    "TAK": 89,
+    "TFL": 6,
+    "SACK": 2.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "T.Cooks II",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 75,
+    "ASSISTS": 14,
+    "TAK": 89,
+    "TFL": 6,
+    "SACK": 2.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "J.Ripp",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 70,
+    "ASSISTS": 19,
+    "TAK": 89,
+    "TFL": 5,
+    "SACK": 1.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "E.Stuart",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 63,
+    "ASSISTS": 26,
+    "TAK": 89,
+    "TFL": 3,
+    "SACK": 0.5,
+    "INT": 2,
+    "INT YDS": 13,
+    "INT AVG": 6.5,
+    "INT LG": 8
+   }
+  },
+  {
+   "name": "K.Wilson",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 74,
+    "ASSISTS": 15,
+    "TAK": 89,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 3,
+    "INT YDS": 44,
+    "INT AVG": 14.7,
+    "INT LG": 16
+   }
+  },
+  {
+   "name": "S.Brown",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 74,
+    "ASSISTS": 15,
+    "TAK": 89,
+    "TFL": 2,
+    "SACK": 0.5,
+    "INT": 3,
+    "INT YDS": 121,
+    "INT AVG": 40.3,
+    "INT LG": 65
+   }
+  },
+  {
+   "name": "K.Williams",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 72,
+    "ASSISTS": 17,
+    "TAK": 89,
+    "TFL": 2,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "K.Lowe",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 74,
+    "ASSISTS": 15,
+    "TAK": 89,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 2,
+    "INT YDS": 31,
+    "INT AVG": 15.5,
+    "INT LG": 17
+   }
+  },
+  {
+   "name": "L.Turner-Gooden",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 73,
+    "ASSISTS": 16,
+    "TAK": 89,
+    "TFL": 2,
+    "SACK": 1.0,
+    "INT": 1,
+    "INT YDS": 19,
+    "INT AVG": 19.0,
+    "INT LG": 19
+   }
+  },
+  {
+   "name": "D.Nunoo",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 55,
+    "ASSISTS": 33,
+    "TAK": 88,
+    "TFL": 3,
+    "SACK": 3.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "T.Hinspeter",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 65,
+    "ASSISTS": 23,
+    "TAK": 88,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 12,
+    "INT AVG": 12.0,
+    "INT LG": 12
+   }
+  },
+  {
+   "name": "D.Antonini",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 66,
+    "ASSISTS": 22,
+    "TAK": 88,
+    "TFL": 6,
+    "SACK": 1.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "C.Wheatland",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 63,
+    "ASSISTS": 25,
+    "TAK": 88,
+    "TFL": 3,
+    "SACK": 0.5,
+    "INT": 1,
+    "INT YDS": 1,
+    "INT AVG": 1.0,
+    "INT LG": 1
+   }
+  },
+  {
+   "name": "C.Phares",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 74,
+    "ASSISTS": 14,
+    "TAK": 88,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 4,
+    "INT YDS": 51,
+    "INT AVG": 12.8,
+    "INT LG": 15
+   }
+  },
+  {
+   "name": "W.Love",
+   "pos": "SAM",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 62,
+    "ASSISTS": 26,
+    "TAK": 88,
+    "TFL": 5,
+    "SACK": 2.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "L.Struck",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 71,
+    "ASSISTS": 16,
+    "TAK": 87,
+    "TFL": 2,
+    "SACK": 0.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "L.Ferrelli",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 66,
+    "ASSISTS": 21,
+    "TAK": 87,
+    "TFL": 5,
+    "SACK": 3.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "H.Dawahare",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 63,
+    "ASSISTS": 24,
+    "TAK": 87,
+    "TFL": 3,
+    "SACK": 1.5,
+    "INT": 1,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "L.Murphy",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 67,
+    "ASSISTS": 20,
+    "TAK": 87,
+    "TFL": 2,
+    "SACK": 1.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "T.Brown",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 74,
+    "ASSISTS": 13,
+    "TAK": 87,
+    "TFL": 3,
+    "SACK": 2.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "J.Fries",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 68,
+    "ASSISTS": 19,
+    "TAK": 87,
+    "TFL": 5,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "C.Young",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 70,
+    "ASSISTS": 17,
+    "TAK": 87,
+    "TFL": 5,
+    "SACK": 1.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "J.Mayfield",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 69,
+    "ASSISTS": 18,
+    "TAK": 87,
+    "TFL": 9,
+    "SACK": 2.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "T.Rojas",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 72,
+    "ASSISTS": 15,
+    "TAK": 87,
+    "TFL": 3,
+    "SACK": 0.5,
+    "INT": 2,
+    "INT YDS": 29,
+    "INT AVG": 14.5,
+    "INT LG": 16
+   }
+  },
+  {
+   "name": "T.Morris",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 76,
+    "ASSISTS": 11,
+    "TAK": 87,
+    "TFL": 2,
+    "SACK": 0.5,
+    "INT": 2,
+    "INT YDS": 20,
+    "INT AVG": 10.0,
+    "INT LG": 12
+   }
+  },
+  {
+   "name": "I.Hubert",
+   "pos": "SAM",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 71,
+    "ASSISTS": 15,
+    "TAK": 86,
+    "TFL": 6,
+    "SACK": 2.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "B.Hopson",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 66,
+    "ASSISTS": 20,
+    "TAK": 86,
+    "TFL": 2,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 11,
+    "INT AVG": 11.0,
+    "INT LG": 11
+   }
+  },
+  {
+   "name": "G.Forsha",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 61,
+    "ASSISTS": 25,
+    "TAK": 86,
+    "TFL": 6,
+    "SACK": 0.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "T.Cooley",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 69,
+    "ASSISTS": 17,
+    "TAK": 86,
+    "TFL": 4,
+    "SACK": 1.0,
+    "INT": 1,
+    "INT YDS": 16,
+    "INT AVG": 16.0,
+    "INT LG": 16
+   }
+  },
+  {
+   "name": "S.Vadrawale III",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 67,
+    "ASSISTS": 18,
+    "TAK": 85,
+    "TFL": 2,
+    "SACK": 0.5,
+    "INT": 2,
+    "INT YDS": 30,
+    "INT AVG": 15.0,
+    "INT LG": 18
+   }
+  },
+  {
+   "name": "E.Stuhlsatz",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 66,
+    "ASSISTS": 19,
+    "TAK": 85,
+    "TFL": 3,
+    "SACK": 1.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "A.Mitchell",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 69,
+    "ASSISTS": 16,
+    "TAK": 85,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "J.Corbin",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 70,
+    "ASSISTS": 15,
+    "TAK": 85,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "R.Coney",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 75,
+    "ASSISTS": 10,
+    "TAK": 85,
+    "TFL": 3,
+    "SACK": 2.0,
+    "INT": 2,
+    "INT YDS": 19,
+    "INT AVG": 9.5,
+    "INT LG": 13
+   }
+  },
+  {
+   "name": "E.Spillman",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 72,
+    "ASSISTS": 13,
+    "TAK": 85,
+    "TFL": 2,
+    "SACK": 0.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "G.Lampron",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 71,
+    "ASSISTS": 14,
+    "TAK": 85,
+    "TFL": 5,
+    "SACK": 2.0,
+    "INT": 1,
+    "INT YDS": 3,
+    "INT AVG": 3.0,
+    "INT LG": 3
+   }
+  },
+  {
+   "name": "P.Aguirre",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 70,
+    "ASSISTS": 15,
+    "TAK": 85,
+    "TFL": 4,
+    "SACK": 1.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "T.Lathan",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 71,
+    "ASSISTS": 14,
+    "TAK": 85,
+    "TFL": 6,
+    "SACK": 0.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "D.Woolen",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 70,
+    "ASSISTS": 14,
+    "TAK": 84,
+    "TFL": 1,
+    "SACK": 0.5,
+    "INT": 2,
+    "INT YDS": 18,
+    "INT AVG": 9.0,
+    "INT LG": 11
+   }
+  },
+  {
+   "name": "D.Agu",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 10,
+    "SOLO": 65,
+    "ASSISTS": 19,
+    "TAK": 84,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "J.Hooten",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 68,
+    "ASSISTS": 16,
+    "TAK": 84,
+    "TFL": 7,
+    "SACK": 3.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "M.Mason",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 65,
+    "ASSISTS": 19,
+    "TAK": 84,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "L.Robinson",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 66,
+    "ASSISTS": 18,
+    "TAK": 84,
+    "TFL": 2,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "K.Moore",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 66,
+    "ASSISTS": 18,
+    "TAK": 84,
+    "TFL": 4,
+    "SACK": 2.0,
+    "INT": 1,
+    "INT YDS": 11,
+    "INT AVG": 11.0,
+    "INT LG": 11
+   }
+  },
+  {
+   "name": "M.Tilson",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 70,
+    "ASSISTS": 14,
+    "TAK": 84,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "T.Martinez",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 71,
+    "ASSISTS": 13,
+    "TAK": 84,
+    "TFL": 4,
+    "SACK": 1.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "B.Thornton",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 66,
+    "ASSISTS": 18,
+    "TAK": 84,
+    "TFL": 3,
+    "SACK": 0.0,
+    "INT": 3,
+    "INT YDS": 51,
+    "INT AVG": 17.0,
+    "INT LG": 19
+   }
+  },
+  {
+   "name": "T.Capers",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 62,
+    "ASSISTS": 22,
+    "TAK": 84,
+    "TFL": 6,
+    "SACK": 0.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "G.Goodman",
+   "pos": "SAM",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 65,
+    "ASSISTS": 18,
+    "TAK": 83,
+    "TFL": 3,
+    "SACK": 1.0,
+    "INT": 1,
+    "INT YDS": 17,
+    "INT AVG": 17.0,
+    "INT LG": 17
+   }
+  },
+  {
+   "name": "J.Patterson",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 64,
+    "ASSISTS": 19,
+    "TAK": 83,
+    "TFL": 1,
+    "SACK": 0.5,
+    "INT": 1,
+    "INT YDS": 17,
+    "INT AVG": 17.0,
+    "INT LG": 17
+   }
+  },
+  {
+   "name": "T.Reynolds",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 70,
+    "ASSISTS": 13,
+    "TAK": 83,
+    "TFL": 2,
+    "SACK": 0.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "K.Jones",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 67,
+    "ASSISTS": 16,
+    "TAK": 83,
+    "TFL": 8,
+    "SACK": 2.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "D.Nelson",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 67,
+    "ASSISTS": 16,
+    "TAK": 83,
+    "TFL": 5,
+    "SACK": 1.0,
+    "INT": 2,
+    "INT YDS": 27,
+    "INT AVG": 13.5,
+    "INT LG": 15
+   }
+  },
+  {
+   "name": "C.Cauley",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 11,
+    "SOLO": 70,
+    "ASSISTS": 13,
+    "TAK": 83,
+    "TFL": 10,
+    "SACK": 1.0,
+    "INT": 1,
+    "INT YDS": 19,
+    "INT AVG": 19.0,
+    "INT LG": 19
+   }
+  },
+  {
+   "name": "D.Iles",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 68,
+    "ASSISTS": 15,
+    "TAK": 83,
+    "TFL": 3,
+    "SACK": 0.0,
+    "INT": 3,
+    "INT YDS": 52,
+    "INT AVG": 17.3,
+    "INT LG": 19
+   }
+  },
+  {
+   "name": "B.Simpson-Nealy",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 10,
+    "SOLO": 68,
+    "ASSISTS": 15,
+    "TAK": 83,
+    "TFL": 3,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "F.Maciorowski",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 68,
+    "ASSISTS": 15,
+    "TAK": 83,
+    "TFL": 1,
+    "SACK": 1.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "C.McClain",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 62,
+    "ASSISTS": 20,
+    "TAK": 82,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 12,
+    "INT AVG": 12.0,
+    "INT LG": 12
+   }
+  },
+  {
+   "name": "Q.Billingsley",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 57,
+    "ASSISTS": 25,
+    "TAK": 82,
+    "TFL": 3,
+    "SACK": 0.5,
+    "INT": 1,
+    "INT YDS": 10,
+    "INT AVG": 10.0,
+    "INT LG": 10
+   }
+  },
+  {
+   "name": "K.Ka'aihue",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 65,
+    "ASSISTS": 17,
+    "TAK": 82,
+    "TFL": 3,
+    "SACK": 1.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "C.Catalano",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 59,
+    "ASSISTS": 23,
+    "TAK": 82,
+    "TFL": 4,
+    "SACK": 1.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "J.Cordoba",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 61,
+    "ASSISTS": 21,
+    "TAK": 82,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 2,
+    "INT YDS": 28,
+    "INT AVG": 14.0,
+    "INT LG": 15
+   }
+  },
+  {
+   "name": "M.Robinson II",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 72,
+    "ASSISTS": 10,
+    "TAK": 82,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 2,
+    "INT YDS": 37,
+    "INT AVG": 18.5,
+    "INT LG": 19
+   }
+  },
+  {
+   "name": "T.Seymore",
+   "pos": "FS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 59,
+    "ASSISTS": 23,
+    "TAK": 82,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 19,
+    "INT AVG": 19.0,
+    "INT LG": 19
+   }
+  },
+  {
+   "name": "R.McCullers",
+   "pos": "SAM",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 66,
+    "ASSISTS": 16,
+    "TAK": 82,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "E.Jackson",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 59,
+    "ASSISTS": 22,
+    "TAK": 81,
+    "TFL": 2,
+    "SACK": 0.0,
+    "INT": 2,
+    "INT YDS": 16,
+    "INT AVG": 8.0,
+    "INT LG": 12
+   }
+  },
+  {
+   "name": "J.Johnson",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 64,
+    "ASSISTS": 17,
+    "TAK": 81,
+    "TFL": 4,
+    "SACK": 0.0,
+    "INT": 3,
+    "INT YDS": 45,
+    "INT AVG": 15.0,
+    "INT LG": 20
+   }
+  },
+  {
+   "name": "J.Bellamy",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 63,
+    "ASSISTS": 18,
+    "TAK": 81,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 3,
+    "INT YDS": 40,
+    "INT AVG": 13.3,
+    "INT LG": 16
+   }
+  },
+  {
+   "name": "M.Short",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 64,
+    "ASSISTS": 17,
+    "TAK": 81,
+    "TFL": 4,
+    "SACK": 1.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "I.Jones",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 62,
+    "ASSISTS": 19,
+    "TAK": 81,
+    "TFL": 3,
+    "SACK": 1.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "N.Brown",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 62,
+    "ASSISTS": 19,
+    "TAK": 81,
+    "TFL": 3,
+    "SACK": 1.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "Z.Williams",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 65,
+    "ASSISTS": 16,
+    "TAK": 81,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 2,
+    "INT YDS": 34,
+    "INT AVG": 17.0,
+    "INT LG": 19
+   }
+  },
+  {
+   "name": "C.Fauntroy",
+   "pos": "FS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 65,
+    "ASSISTS": 16,
+    "TAK": 81,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 3,
+    "INT YDS": 31,
+    "INT AVG": 10.3,
+    "INT LG": 16
+   }
+  },
+  {
+   "name": "Z.Gamble",
+   "pos": "FS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 65,
+    "ASSISTS": 16,
+    "TAK": 81,
+    "TFL": 1,
+    "SACK": 0.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "J.Hall",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 69,
+    "ASSISTS": 12,
+    "TAK": 81,
+    "TFL": 3,
+    "SACK": 2.0,
+    "INT": 1,
+    "INT YDS": 18,
+    "INT AVG": 18.0,
+    "INT LG": 18
+   }
+  },
+  {
+   "name": "O.Heinecke",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 66,
+    "ASSISTS": 15,
+    "TAK": 81,
+    "TFL": 8,
+    "SACK": 3.0,
+    "INT": 1,
+    "INT YDS": 19,
+    "INT AVG": 19.0,
+    "INT LG": 19
+   }
+  },
+  {
+   "name": "K.Piper",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 70,
+    "ASSISTS": 11,
+    "TAK": 81,
+    "TFL": 1,
+    "SACK": 1.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "M.Eleam",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 67,
+    "ASSISTS": 14,
+    "TAK": 81,
+    "TFL": 1,
+    "SACK": 0.5,
+    "INT": 1,
+    "INT YDS": 13,
+    "INT AVG": 13.0,
+    "INT LG": 13
+   }
+  },
+  {
+   "name": "B.Tucker",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 71,
+    "ASSISTS": 10,
+    "TAK": 81,
+    "TFL": 2,
+    "SACK": 1.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "T.Williams Jr.",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 66,
+    "ASSISTS": 15,
+    "TAK": 81,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 17,
+    "INT AVG": 17.0,
+    "INT LG": 17
+   }
+  },
+  {
+   "name": "A.Knighten",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 60,
+    "ASSISTS": 20,
+    "TAK": 80,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "A.Sullivan",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 62,
+    "ASSISTS": 18,
+    "TAK": 80,
+    "TFL": 2,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "T.Barnes",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 62,
+    "ASSISTS": 18,
+    "TAK": 80,
+    "TFL": 5,
+    "SACK": 3.5,
+    "INT": 5,
+    "INT YDS": 49,
+    "INT AVG": 9.8,
+    "INT LG": 18
+   }
+  },
+  {
+   "name": "I.Paul",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 68,
+    "ASSISTS": 12,
+    "TAK": 80,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 3,
+    "INT YDS": 43,
+    "INT AVG": 14.3,
+    "INT LG": 16
+   }
+  },
+  {
+   "name": "K.Willis",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 68,
+    "ASSISTS": 12,
+    "TAK": 80,
+    "TFL": 3,
+    "SACK": 0.0,
+    "INT": 2,
+    "INT YDS": 19,
+    "INT AVG": 9.5,
+    "INT LG": 10
+   }
+  },
+  {
+   "name": "J.Aguero",
+   "pos": "FS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 67,
+    "ASSISTS": 13,
+    "TAK": 80,
+    "TFL": 2,
+    "SACK": 1.0,
+    "INT": 1,
+    "INT YDS": 17,
+    "INT AVG": 17.0,
+    "INT LG": 17
+   }
+  },
+  {
+   "name": "B.Myrick",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 61,
+    "ASSISTS": 19,
+    "TAK": 80,
+    "TFL": 8,
+    "SACK": 2.5,
+    "INT": 2,
+    "INT YDS": 12,
+    "INT AVG": 6.0,
+    "INT LG": 7
+   }
+  },
+  {
+   "name": "V.Shavers Jr.",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 64,
+    "ASSISTS": 15,
+    "TAK": 79,
+    "TFL": 6,
+    "SACK": 3.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "C.Austen",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 70,
+    "ASSISTS": 9,
+    "TAK": 79,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "T.Bailey",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 66,
+    "ASSISTS": 13,
+    "TAK": 79,
+    "TFL": 4,
+    "SACK": 0.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "J.Galvan",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 62,
+    "ASSISTS": 17,
+    "TAK": 79,
+    "TFL": 1,
+    "SACK": 0.5,
+    "INT": 3,
+    "INT YDS": 43,
+    "INT AVG": 14.3,
+    "INT LG": 16
+   }
+  },
+  {
+   "name": "E.Joseph",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 60,
+    "ASSISTS": 19,
+    "TAK": 79,
+    "TFL": 2,
+    "SACK": 1.0,
+    "INT": 1,
+    "INT YDS": 13,
+    "INT AVG": 13.0,
+    "INT LG": 13
+   }
+  },
+  {
+   "name": "O.Wright",
+   "pos": "SAM",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 64,
+    "ASSISTS": 15,
+    "TAK": 79,
+    "TFL": 8,
+    "SACK": 3.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "J.Forrest",
+   "pos": "SAM",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 66,
+    "ASSISTS": 13,
+    "TAK": 79,
+    "TFL": 6,
+    "SACK": 2.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "R.Clark",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 68,
+    "ASSISTS": 11,
+    "TAK": 79,
+    "TFL": 1,
+    "SACK": 0.5,
+    "INT": 3,
+    "INT YDS": 43,
+    "INT AVG": 14.3,
+    "INT LG": 21
+   }
+  },
+  {
+   "name": "B.Carter",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 66,
+    "ASSISTS": 13,
+    "TAK": 79,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 20,
+    "INT AVG": 20.0,
+    "INT LG": 20
+   }
+  },
+  {
+   "name": "A.Vaughan",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 67,
+    "ASSISTS": 12,
+    "TAK": 79,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "J.Machado Jr.",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 59,
+    "ASSISTS": 20,
+    "TAK": 79,
+    "TFL": 2,
+    "SACK": 0.5,
+    "INT": 2,
+    "INT YDS": 36,
+    "INT AVG": 18.0,
+    "INT LG": 19
+   }
+  },
+  {
+   "name": "M.Teason",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 66,
+    "ASSISTS": 13,
+    "TAK": 79,
+    "TFL": 7,
+    "SACK": 2.0,
+    "INT": 1,
+    "INT YDS": 10,
+    "INT AVG": 10.0,
+    "INT LG": 10
+   }
+  },
+  {
+   "name": "K.Bournes",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 61,
+    "ASSISTS": 17,
+    "TAK": 78,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "M.Stevenson",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 59,
+    "ASSISTS": 19,
+    "TAK": 78,
+    "TFL": 2,
+    "SACK": 0.5,
+    "INT": 1,
+    "INT YDS": 18,
+    "INT AVG": 18.0,
+    "INT LG": 18
+   }
+  },
+  {
+   "name": "T.Curtis",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 63,
+    "ASSISTS": 15,
+    "TAK": 78,
+    "TFL": 8,
+    "SACK": 2.5,
+    "INT": 2,
+    "INT YDS": 31,
+    "INT AVG": 15.5,
+    "INT LG": 16
+   }
+  },
+  {
+   "name": "E.Little Jr.",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 67,
+    "ASSISTS": 11,
+    "TAK": 78,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 3,
+    "INT YDS": 62,
+    "INT AVG": 20.7,
+    "INT LG": 22
+   }
+  },
+  {
+   "name": "R.Wilson",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 61,
+    "ASSISTS": 17,
+    "TAK": 78,
+    "TFL": 10,
+    "SACK": 4.5,
+    "INT": 1,
+    "INT YDS": 12,
+    "INT AVG": 12.0,
+    "INT LG": 12
+   }
+  },
+  {
+   "name": "K.Butler",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 59,
+    "ASSISTS": 19,
+    "TAK": 78,
+    "TFL": 13,
+    "SACK": 5.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "F.Cothran",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 71,
+    "ASSISTS": 7,
+    "TAK": 78,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "S.Fotu",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 65,
+    "ASSISTS": 13,
+    "TAK": 78,
+    "TFL": 3,
+    "SACK": 1.0,
+    "INT": 1,
+    "INT YDS": 8,
+    "INT AVG": 8.0,
+    "INT LG": 8
+   }
+  },
+  {
+   "name": "S.Smith",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 64,
+    "ASSISTS": 14,
+    "TAK": 78,
+    "TFL": 3,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "T.Bowles",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 66,
+    "ASSISTS": 12,
+    "TAK": 78,
+    "TFL": 2,
+    "SACK": 0.0,
+    "INT": 2,
+    "INT YDS": 24,
+    "INT AVG": 12.0,
+    "INT LG": 14
+   }
+  },
+  {
+   "name": "C.McCalister",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 56,
+    "ASSISTS": 22,
+    "TAK": 78,
+    "TFL": 3,
+    "SACK": 1.0,
+    "INT": 5,
+    "INT YDS": 58,
+    "INT AVG": 11.6,
+    "INT LG": 17
+   }
+  },
+  {
+   "name": "B.Hodge",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 72,
+    "ASSISTS": 5,
+    "TAK": 77,
+    "TFL": 2,
+    "SACK": 1.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "J.Manu",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 70,
+    "ASSISTS": 7,
+    "TAK": 77,
+    "TFL": 4,
+    "SACK": 1.0,
+    "INT": 1,
+    "INT YDS": 11,
+    "INT AVG": 11.0,
+    "INT LG": 11
+   }
+  },
+  {
+   "name": "B.Alualu-Tuiolemotu",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 60,
+    "ASSISTS": 17,
+    "TAK": 77,
+    "TFL": 8,
+    "SACK": 5.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "K.Robinson",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 60,
+    "ASSISTS": 17,
+    "TAK": 77,
+    "TFL": 5,
+    "SACK": 2.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "C.Jenkins",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 62,
+    "ASSISTS": 15,
+    "TAK": 77,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "C.Thatcher",
+   "pos": "SAM",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 61,
+    "ASSISTS": 16,
+    "TAK": 77,
+    "TFL": 4,
+    "SACK": 0.5,
+    "INT": 1,
+    "INT YDS": 4,
+    "INT AVG": 4.0,
+    "INT LG": 4
+   }
+  },
+  {
+   "name": "A.Shuler",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 62,
+    "ASSISTS": 15,
+    "TAK": 77,
+    "TFL": 4,
+    "SACK": 0.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "M.Mitchell",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 59,
+    "ASSISTS": 18,
+    "TAK": 77,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 19,
+    "INT AVG": 19.0,
+    "INT LG": 19
+   }
+  },
+  {
+   "name": "E.Goodrich",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 62,
+    "ASSISTS": 15,
+    "TAK": 77,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "K.Ebel",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 59,
+    "ASSISTS": 18,
+    "TAK": 77,
+    "TFL": 5,
+    "SACK": 2.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "C.Caldwell",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 63,
+    "ASSISTS": 14,
+    "TAK": 77,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "B.Ruffin",
+   "pos": "FS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 67,
+    "ASSISTS": 10,
+    "TAK": 77,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 4,
+    "INT AVG": 4.0,
+    "INT LG": 4
+   }
+  },
+  {
+   "name": "K.Spencer",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 67,
+    "ASSISTS": 10,
+    "TAK": 77,
+    "TFL": 1,
+    "SACK": 0.5,
+    "INT": 2,
+    "INT YDS": 37,
+    "INT AVG": 18.5,
+    "INT LG": 21
+   }
+  },
+  {
+   "name": "T.Nichols",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 58,
+    "ASSISTS": 19,
+    "TAK": 77,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 3,
+    "INT YDS": 49,
+    "INT AVG": 16.3,
+    "INT LG": 19
+   }
+  },
+  {
+   "name": "K.Ali",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 57,
+    "ASSISTS": 20,
+    "TAK": 77,
+    "TFL": 2,
+    "SACK": 0.0,
+    "INT": 3,
+    "INT YDS": 39,
+    "INT AVG": 13.0,
+    "INT LG": 15
+   }
+  },
+  {
+   "name": "J.Lowe",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 66,
+    "ASSISTS": 11,
+    "TAK": 77,
+    "TFL": 1,
+    "SACK": 0.5,
+    "INT": 1,
+    "INT YDS": 13,
+    "INT AVG": 13.0,
+    "INT LG": 13
+   }
+  },
+  {
+   "name": "M.Spriggs",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 11,
+    "SOLO": 66,
+    "ASSISTS": 11,
+    "TAK": 77,
+    "TFL": 6,
+    "SACK": 2.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "M.Pollard",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 54,
+    "ASSISTS": 23,
+    "TAK": 77,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "C.Uluave",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 60,
+    "ASSISTS": 16,
+    "TAK": 76,
+    "TFL": 4,
+    "SACK": 1.0,
+    "INT": 2,
+    "INT YDS": 19,
+    "INT AVG": 9.5,
+    "INT LG": 12
+   }
+  },
+  {
+   "name": "B.Cowan",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 60,
+    "ASSISTS": 16,
+    "TAK": 76,
+    "TFL": 1,
+    "SACK": 0.5,
+    "INT": 1,
+    "INT YDS": 13,
+    "INT AVG": 13.0,
+    "INT LG": 13
+   }
+  },
+  {
+   "name": "L.Mergott",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 58,
+    "ASSISTS": 18,
+    "TAK": 76,
+    "TFL": 3,
+    "SACK": 1.0,
+    "INT": 2,
+    "INT YDS": 23,
+    "INT AVG": 11.5,
+    "INT LG": 17
+   }
+  },
+  {
+   "name": "J.Green",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 60,
+    "ASSISTS": 16,
+    "TAK": 76,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 8,
+    "INT AVG": 8.0,
+    "INT LG": 8
+   }
+  },
+  {
+   "name": "A.Peek Jr.",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 56,
+    "ASSISTS": 20,
+    "TAK": 76,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 14,
+    "INT AVG": 14.0,
+    "INT LG": 14
+   }
+  },
+  {
+   "name": "B.Tyson",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 61,
+    "ASSISTS": 15,
+    "TAK": 76,
+    "TFL": 6,
+    "SACK": 1.0,
+    "INT": 2,
+    "INT YDS": 7,
+    "INT AVG": 3.5,
+    "INT LG": 8
+   }
+  },
+  {
+   "name": "J.Thomeson",
+   "pos": "FS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 53,
+    "ASSISTS": 23,
+    "TAK": 76,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 3,
+    "INT YDS": 46,
+    "INT AVG": 15.3,
+    "INT LG": 19
+   }
+  },
+  {
+   "name": "C.Stoutmire",
+   "pos": "FS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 53,
+    "ASSISTS": 23,
+    "TAK": 76,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "A.Kite",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 61,
+    "ASSISTS": 15,
+    "TAK": 76,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 3,
+    "INT YDS": 47,
+    "INT AVG": 15.7,
+    "INT LG": 17
+   }
+  },
+  {
+   "name": "T.Brown",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 9,
+    "SOLO": 63,
+    "ASSISTS": 13,
+    "TAK": 76,
+    "TFL": 1,
+    "SACK": 0.5,
+    "INT": 1,
+    "INT YDS": 15,
+    "INT AVG": 15.0,
+    "INT LG": 15
+   }
+  },
+  {
+   "name": "C.Heard",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 63,
+    "ASSISTS": 13,
+    "TAK": 76,
+    "TFL": 2,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 14,
+    "INT AVG": 14.0,
+    "INT LG": 14
+   }
+  },
+  {
+   "name": "E.Adams",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 62,
+    "ASSISTS": 14,
+    "TAK": 76,
+    "TFL": 2,
+    "SACK": 0.0,
+    "INT": 4,
+    "INT YDS": 31,
+    "INT AVG": 7.8,
+    "INT LG": 15
+   }
+  },
+  {
+   "name": "B.Nichelson",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 61,
+    "ASSISTS": 15,
+    "TAK": 76,
+    "TFL": 2,
+    "SACK": 1.5,
+    "INT": 1,
+    "INT YDS": 12,
+    "INT AVG": 12.0,
+    "INT LG": 12
+   }
+  },
+  {
+   "name": "J.Hall Jr.",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 64,
+    "ASSISTS": 12,
+    "TAK": 76,
+    "TFL": 3,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "K.Stewart",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 10,
+    "SOLO": 65,
+    "ASSISTS": 11,
+    "TAK": 76,
+    "TFL": 2,
+    "SACK": 1.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "J.Tiller",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 62,
+    "ASSISTS": 14,
+    "TAK": 76,
+    "TFL": 2,
+    "SACK": 0.0,
+    "INT": 3,
+    "INT YDS": 38,
+    "INT AVG": 12.7,
+    "INT LG": 16
+   }
+  },
+  {
+   "name": "K.Efford",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 65,
+    "ASSISTS": 11,
+    "TAK": 76,
+    "TFL": 2,
+    "SACK": 1.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "W.Holmes",
+   "pos": "REDG",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 62,
+    "ASSISTS": 14,
+    "TAK": 76,
+    "TFL": 3,
+    "SACK": 0.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "J.Curry",
+   "pos": "SAM",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 64,
+    "ASSISTS": 12,
+    "TAK": 76,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 2,
+    "INT YDS": 17,
+    "INT AVG": 8.5,
+    "INT LG": 12
+   }
+  },
+  {
+   "name": "R.Fontenette",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 59,
+    "ASSISTS": 16,
+    "TAK": 75,
+    "TFL": 2,
+    "SACK": 0.5,
+    "INT": 1,
+    "INT YDS": 13,
+    "INT AVG": 13.0,
+    "INT LG": 13
+   }
+  },
+  {
+   "name": "D.Johnson",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 64,
+    "ASSISTS": 11,
+    "TAK": 75,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 23,
+    "INT AVG": 23.0,
+    "INT LG": 23
+   }
+  },
+  {
+   "name": "A.Peele",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 57,
+    "ASSISTS": 18,
+    "TAK": 75,
+    "TFL": 2,
+    "SACK": 1.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "T.Hughes",
+   "pos": "FS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 57,
+    "ASSISTS": 18,
+    "TAK": 75,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 18,
+    "INT AVG": 18.0,
+    "INT LG": 18
+   }
+  },
+  {
+   "name": "F.Hamilton",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 56,
+    "ASSISTS": 19,
+    "TAK": 75,
+    "TFL": 2,
+    "SACK": 0.0,
+    "INT": 5,
+    "INT YDS": 73,
+    "INT AVG": 14.6,
+    "INT LG": 18
+   }
+  },
+  {
+   "name": "K.Jackson",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 56,
+    "ASSISTS": 19,
+    "TAK": 75,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 3,
+    "INT YDS": 31,
+    "INT AVG": 10.3,
+    "INT LG": 11
+   }
+  },
+  {
+   "name": "Z.Dawud",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 55,
+    "ASSISTS": 20,
+    "TAK": 75,
+    "TFL": 2,
+    "SACK": 0.0,
+    "INT": 3,
+    "INT YDS": 58,
+    "INT AVG": 19.3,
+    "INT LG": 21
+   }
+  },
+  {
+   "name": "A.Beavers",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 61,
+    "ASSISTS": 14,
+    "TAK": 75,
+    "TFL": 3,
+    "SACK": 0.5,
+    "INT": 1,
+    "INT YDS": 13,
+    "INT AVG": 13.0,
+    "INT LG": 13
+   }
+  },
+  {
+   "name": "D.Lynn",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 61,
+    "ASSISTS": 14,
+    "TAK": 75,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "A.Barker",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 60,
+    "ASSISTS": 14,
+    "TAK": 74,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "S.Reyes",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 56,
+    "ASSISTS": 18,
+    "TAK": 74,
+    "TFL": 3,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "J.Howse IV",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 56,
+    "ASSISTS": 18,
+    "TAK": 74,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "N.Jackson",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 61,
+    "ASSISTS": 13,
+    "TAK": 74,
+    "TFL": 3,
+    "SACK": 1.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "A.Sears",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 55,
+    "ASSISTS": 19,
+    "TAK": 74,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 20,
+    "INT AVG": 20.0,
+    "INT LG": 20
+   }
+  },
+  {
+   "name": "K.Phillips",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 59,
+    "ASSISTS": 15,
+    "TAK": 74,
+    "TFL": 6,
+    "SACK": 1.0,
+    "INT": 2,
+    "INT YDS": 42,
+    "INT AVG": 21.0,
+    "INT LG": 22
+   }
+  },
+  {
+   "name": "M.Delhomme",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 59,
+    "ASSISTS": 15,
+    "TAK": 74,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "J.Charles",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 58,
+    "ASSISTS": 16,
+    "TAK": 74,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "O.Diomande",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 62,
+    "ASSISTS": 12,
+    "TAK": 74,
+    "TFL": 2,
+    "SACK": 0.0,
+    "INT": 2,
+    "INT YDS": 28,
+    "INT AVG": 14.0,
+    "INT LG": 15
+   }
+  },
+  {
+   "name": "C.Newsome",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 58,
+    "ASSISTS": 16,
+    "TAK": 74,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 10,
+    "INT AVG": 10.0,
+    "INT LG": 10
+   }
+  },
+  {
+   "name": "J.Clarke",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 59,
+    "ASSISTS": 15,
+    "TAK": 74,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 9,
+    "INT AVG": 9.0,
+    "INT LG": 9
+   }
+  },
+  {
+   "name": "D.Dixson",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 65,
+    "ASSISTS": 9,
+    "TAK": 74,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 14,
+    "INT AVG": 14.0,
+    "INT LG": 14
+   }
+  },
+  {
+   "name": "Q.Gillians",
+   "pos": "REDG",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 63,
+    "ASSISTS": 11,
+    "TAK": 74,
+    "TFL": 6,
+    "SACK": 0.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "C.Pruitt",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 65,
+    "ASSISTS": 9,
+    "TAK": 74,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "A.Williams",
+   "pos": "SAM",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 63,
+    "ASSISTS": 11,
+    "TAK": 74,
+    "TFL": 7,
+    "SACK": 3.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "G.Walker",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 56,
+    "ASSISTS": 17,
+    "TAK": 73,
+    "TFL": 2,
+    "SACK": 0.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "A.Boyd",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 55,
+    "ASSISTS": 18,
+    "TAK": 73,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 2,
+    "INT YDS": 31,
+    "INT AVG": 15.5,
+    "INT LG": 17
+   }
+  },
+  {
+   "name": "I.Bogerty",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 57,
+    "ASSISTS": 16,
+    "TAK": 73,
+    "TFL": 3,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "D.Lane",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 58,
+    "ASSISTS": 15,
+    "TAK": 73,
+    "TFL": 2,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "C.Ojarikre",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 58,
+    "ASSISTS": 15,
+    "TAK": 73,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 30,
+    "INT AVG": 30.0,
+    "INT LG": 30
+   }
+  },
+  {
+   "name": "K.Albert",
+   "pos": "FS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 54,
+    "ASSISTS": 19,
+    "TAK": 73,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 13,
+    "INT AVG": 13.0,
+    "INT LG": 13
+   }
+  },
+  {
+   "name": "B.Grays",
+   "pos": "SAM",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 65,
+    "ASSISTS": 8,
+    "TAK": 73,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 13,
+    "INT AVG": 13.0,
+    "INT LG": 13
+   }
+  },
+  {
+   "name": "T.Bell",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 60,
+    "ASSISTS": 13,
+    "TAK": 73,
+    "TFL": 3,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 10,
+    "INT AVG": 10.0,
+    "INT LG": 10
+   }
+  },
+  {
+   "name": "N.Nelson",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 59,
+    "ASSISTS": 14,
+    "TAK": 73,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 2,
+    "INT YDS": 35,
+    "INT AVG": 17.5,
+    "INT LG": 19
+   }
+  },
+  {
+   "name": "A.Speca",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 10,
+    "SOLO": 59,
+    "ASSISTS": 14,
+    "TAK": 73,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "D.Henderson",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 61,
+    "ASSISTS": 12,
+    "TAK": 73,
+    "TFL": 2,
+    "SACK": 1.0,
+    "INT": 3,
+    "INT YDS": 51,
+    "INT AVG": 17.0,
+    "INT LG": 18
+   }
+  },
+  {
+   "name": "L.Hodge",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 60,
+    "ASSISTS": 13,
+    "TAK": 73,
+    "TFL": 2,
+    "SACK": 0.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "J.Heyward",
+   "pos": "FS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 57,
+    "ASSISTS": 15,
+    "TAK": 72,
+    "TFL": 3,
+    "SACK": 0.0,
+    "INT": 2,
+    "INT YDS": 31,
+    "INT AVG": 15.5,
+    "INT LG": 16
+   }
+  },
+  {
+   "name": "D.Wilkinson",
+   "pos": "FS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 52,
+    "ASSISTS": 20,
+    "TAK": 72,
+    "TFL": 2,
+    "SACK": 1.5,
+    "INT": 3,
+    "INT YDS": 35,
+    "INT AVG": 11.7,
+    "INT LG": 15
+   }
+  },
+  {
+   "name": "K.Cook",
+   "pos": "FS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 53,
+    "ASSISTS": 19,
+    "TAK": 72,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 15,
+    "INT AVG": 15.0,
+    "INT LG": 15
+   }
+  },
+  {
+   "name": "R.Woodyard Jr.",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 53,
+    "ASSISTS": 19,
+    "TAK": 72,
+    "TFL": 3,
+    "SACK": 0.0,
+    "INT": 5,
+    "INT YDS": 73,
+    "INT AVG": 14.6,
+    "INT LG": 16
+   }
+  },
+  {
+   "name": "R.Strader",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 60,
+    "ASSISTS": 12,
+    "TAK": 72,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 3,
+    "INT YDS": 64,
+    "INT AVG": 21.3,
+    "INT LG": 24
+   }
+  },
+  {
+   "name": "D.Keys",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 58,
+    "ASSISTS": 14,
+    "TAK": 72,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 11,
+    "INT AVG": 11.0,
+    "INT LG": 11
+   }
+  },
+  {
+   "name": "A.Jackson",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 54,
+    "ASSISTS": 18,
+    "TAK": 72,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "D.Robinson",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 58,
+    "ASSISTS": 14,
+    "TAK": 72,
+    "TFL": 1,
+    "SACK": 0.5,
+    "INT": 2,
+    "INT YDS": 37,
+    "INT AVG": 18.5,
+    "INT LG": 20
+   }
+  },
+  {
+   "name": "Z.Horton",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 56,
+    "ASSISTS": 16,
+    "TAK": 72,
+    "TFL": 4,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 8,
+    "INT AVG": 8.0,
+    "INT LG": 8
+   }
+  },
+  {
+   "name": "J.Johnson",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 58,
+    "ASSISTS": 14,
+    "TAK": 72,
+    "TFL": 2,
+    "SACK": 1.5,
+    "INT": 1,
+    "INT YDS": 10,
+    "INT AVG": 10.0,
+    "INT LG": 10
+   }
+  },
+  {
+   "name": "Z.Morris",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 58,
+    "ASSISTS": 14,
+    "TAK": 72,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 2,
+    "INT YDS": 28,
+    "INT AVG": 14.0,
+    "INT LG": 15
+   }
+  },
+  {
+   "name": "X.Smith",
+   "pos": "FS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 60,
+    "ASSISTS": 12,
+    "TAK": 72,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 2,
+    "INT YDS": 33,
+    "INT AVG": 16.5,
+    "INT LG": 20
+   }
+  },
+  {
+   "name": "L.Evans",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 60,
+    "ASSISTS": 12,
+    "TAK": 72,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 3,
+    "INT YDS": 31,
+    "INT AVG": 10.3,
+    "INT LG": 14
+   }
+  },
+  {
+   "name": "T.Hickle",
+   "pos": "LEDG",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 56,
+    "ASSISTS": 16,
+    "TAK": 72,
+    "TFL": 9,
+    "SACK": 3.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "F.Cusano",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 57,
+    "ASSISTS": 14,
+    "TAK": 71,
+    "TFL": 2,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 5,
+    "INT AVG": 5.0,
+    "INT LG": 5
+   }
+  },
+  {
+   "name": "J.Agumadu",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 61,
+    "ASSISTS": 10,
+    "TAK": 71,
+    "TFL": 2,
+    "SACK": 0.5,
+    "INT": 1,
+    "INT YDS": 29,
+    "INT AVG": 29.0,
+    "INT LG": 29
+   }
+  },
+  {
+   "name": "D.Walters",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 60,
+    "ASSISTS": 11,
+    "TAK": 71,
+    "TFL": 2,
+    "SACK": 0.0,
+    "INT": 2,
+    "INT YDS": 27,
+    "INT AVG": 13.5,
+    "INT LG": 14
+   }
+  },
+  {
+   "name": "C.Logan Jr.",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 55,
+    "ASSISTS": 16,
+    "TAK": 71,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 7,
+    "INT AVG": 7.0,
+    "INT LG": 7
+   }
+  },
+  {
+   "name": "B.Hillman",
+   "pos": "FS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 60,
+    "ASSISTS": 11,
+    "TAK": 71,
+    "TFL": 1,
+    "SACK": 0.5,
+    "INT": 4,
+    "INT YDS": 75,
+    "INT AVG": 18.8,
+    "INT LG": 33
+   }
+  },
+  {
+   "name": "J.Eaglin",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 61,
+    "ASSISTS": 10,
+    "TAK": 71,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "N.Bell",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 11,
+    "SOLO": 62,
+    "ASSISTS": 9,
+    "TAK": 71,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 13,
+    "INT AVG": 13.0,
+    "INT LG": 13
+   }
+  },
+  {
+   "name": "J.Calhoun",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 55,
+    "ASSISTS": 16,
+    "TAK": 71,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "M.Nichols",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 56,
+    "ASSISTS": 15,
+    "TAK": 71,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "Y.Falke",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 55,
+    "ASSISTS": 16,
+    "TAK": 71,
+    "TFL": 1,
+    "SACK": 0.5,
+    "INT": 1,
+    "INT YDS": 19,
+    "INT AVG": 19.0,
+    "INT LG": 19
+   }
+  },
+  {
+   "name": "C.Clinkscales",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 55,
+    "ASSISTS": 16,
+    "TAK": 71,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 17,
+    "INT AVG": 17.0,
+    "INT LG": 17
+   }
+  },
+  {
+   "name": "J.Nestor",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 63,
+    "ASSISTS": 8,
+    "TAK": 71,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "T.Ortega",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 11,
+    "SOLO": 63,
+    "ASSISTS": 8,
+    "TAK": 71,
+    "TFL": 2,
+    "SACK": 1.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "J.St. Andre",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 10,
+    "SOLO": 57,
+    "ASSISTS": 14,
+    "TAK": 71,
+    "TFL": 1,
+    "SACK": 1.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "H.Sykes",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 62,
+    "ASSISTS": 9,
+    "TAK": 71,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 14,
+    "INT AVG": 14.0,
+    "INT LG": 14
+   }
+  },
+  {
+   "name": "A.Harris",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 58,
+    "ASSISTS": 13,
+    "TAK": 71,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 3,
+    "INT YDS": 58,
+    "INT AVG": 19.3,
+    "INT LG": 21
+   }
+  },
+  {
+   "name": "J.Allen",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 57,
+    "ASSISTS": 14,
+    "TAK": 71,
+    "TFL": 3,
+    "SACK": 0.0,
+    "INT": 2,
+    "INT YDS": 35,
+    "INT AVG": 17.5,
+    "INT LG": 18
+   }
+  },
+  {
+   "name": "R.Barnes",
+   "pos": "SAM",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 64,
+    "ASSISTS": 7,
+    "TAK": 71,
+    "TFL": 1,
+    "SACK": 0.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "G.Leslie",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 58,
+    "ASSISTS": 13,
+    "TAK": 71,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "Q.Taylor",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 59,
+    "ASSISTS": 11,
+    "TAK": 70,
+    "TFL": 2,
+    "SACK": 0.0,
+    "INT": 2,
+    "INT YDS": 37,
+    "INT AVG": 18.5,
+    "INT LG": 21
+   }
+  },
+  {
+   "name": "J.McRae",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 59,
+    "ASSISTS": 11,
+    "TAK": 70,
+    "TFL": 3,
+    "SACK": 0.0,
+    "INT": 3,
+    "INT YDS": 35,
+    "INT AVG": 11.7,
+    "INT LG": 15
+   }
+  },
+  {
+   "name": "J.Woods",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 55,
+    "ASSISTS": 15,
+    "TAK": 70,
+    "TFL": 4,
+    "SACK": 1.0,
+    "INT": 1,
+    "INT YDS": 14,
+    "INT AVG": 14.0,
+    "INT LG": 14
+   }
+  },
+  {
+   "name": "C.Martin",
+   "pos": "SAM",
+   "team": null,
+   "values": {
+    "GP": 11,
+    "SOLO": 58,
+    "ASSISTS": 12,
+    "TAK": 70,
+    "TFL": 2,
+    "SACK": 1.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "D.Patterson",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 56,
+    "ASSISTS": 14,
+    "TAK": 70,
+    "TFL": 2,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 34,
+    "INT AVG": 34.0,
+    "INT LG": 34
+   }
+  },
+  {
+   "name": "J.Henderson",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 61,
+    "ASSISTS": 9,
+    "TAK": 70,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 3,
+    "INT YDS": 59,
+    "INT AVG": 19.7,
+    "INT LG": 33
+   }
+  },
+  {
+   "name": "B.Turner",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 56,
+    "ASSISTS": 14,
+    "TAK": 70,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 4,
+    "INT YDS": 57,
+    "INT AVG": 14.3,
+    "INT LG": 15
+   }
+  },
+  {
+   "name": "M.Easterly",
+   "pos": "FS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 55,
+    "ASSISTS": 15,
+    "TAK": 70,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 14,
+    "INT AVG": 14.0,
+    "INT LG": 14
+   }
+  },
+  {
+   "name": "J.Lane",
+   "pos": "LEDG",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 54,
+    "ASSISTS": 16,
+    "TAK": 70,
+    "TFL": 7,
+    "SACK": 0.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "J.McDonald",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 56,
+    "ASSISTS": 14,
+    "TAK": 70,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 17,
+    "INT AVG": 17.0,
+    "INT LG": 17
+   }
+  },
+  {
+   "name": "L.Fields",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 54,
+    "ASSISTS": 16,
+    "TAK": 70,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 19,
+    "INT AVG": 19.0,
+    "INT LG": 19
+   }
+  },
+  {
+   "name": "A.Jackson Jr.",
+   "pos": "SAM",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 54,
+    "ASSISTS": 16,
+    "TAK": 70,
+    "TFL": 3,
+    "SACK": 2.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "D.Waller Jr.",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 54,
+    "ASSISTS": 16,
+    "TAK": 70,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "A.Ford",
+   "pos": "FS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 54,
+    "ASSISTS": 16,
+    "TAK": 70,
+    "TFL": 1,
+    "SACK": 0.5,
+    "INT": 2,
+    "INT YDS": 37,
+    "INT AVG": 18.5,
+    "INT LG": 21
+   }
+  },
+  {
+   "name": "C.Spaulding",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 53,
+    "ASSISTS": 17,
+    "TAK": 70,
+    "TFL": 5,
+    "SACK": 2.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "J.Drew",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 57,
+    "ASSISTS": 13,
+    "TAK": 70,
+    "TFL": 3,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 9,
+    "INT AVG": 9.0,
+    "INT LG": 9
+   }
+  },
+  {
+   "name": "A.Manutai",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 53,
+    "ASSISTS": 17,
+    "TAK": 70,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 17,
+    "INT AVG": 17.0,
+    "INT LG": 17
+   }
+  },
+  {
+   "name": "T.Harris",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 62,
+    "ASSISTS": 8,
+    "TAK": 70,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 2,
+    "INT YDS": 16,
+    "INT AVG": 8.0,
+    "INT LG": 16
+   }
+  },
+  {
+   "name": "S.Coleman",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 57,
+    "ASSISTS": 12,
+    "TAK": 69,
+    "TFL": 1,
+    "SACK": 1.0,
+    "INT": 2,
+    "INT YDS": 27,
+    "INT AVG": 13.5,
+    "INT LG": 16
+   }
+  },
+  {
+   "name": "J.Matthews",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 58,
+    "ASSISTS": 11,
+    "TAK": 69,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 13,
+    "INT AVG": 13.0,
+    "INT LG": 13
+   }
+  },
+  {
+   "name": "M.Harper-Johnston",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 60,
+    "ASSISTS": 9,
+    "TAK": 69,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 17,
+    "INT AVG": 17.0,
+    "INT LG": 17
+   }
+  },
+  {
+   "name": "J.Frausto-Ramos",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 58,
+    "ASSISTS": 11,
+    "TAK": 69,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "Z.Carter",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 53,
+    "ASSISTS": 16,
+    "TAK": 69,
+    "TFL": 5,
+    "SACK": 1.5,
+    "INT": 3,
+    "INT YDS": 29,
+    "INT AVG": 9.7,
+    "INT LG": 16
+   }
+  },
+  {
+   "name": "J.Celestine",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 53,
+    "ASSISTS": 16,
+    "TAK": 69,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 2,
+    "INT YDS": 31,
+    "INT AVG": 15.5,
+    "INT LG": 16
+   }
+  },
+  {
+   "name": "M.Hughes",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 54,
+    "ASSISTS": 14,
+    "TAK": 68,
+    "TFL": 5,
+    "SACK": 1.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "T.Smith",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 61,
+    "ASSISTS": 7,
+    "TAK": 68,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 18,
+    "INT AVG": 18.0,
+    "INT LG": 18
+   }
+  },
+  {
+   "name": "D.Walker",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 53,
+    "ASSISTS": 15,
+    "TAK": 68,
+    "TFL": 4,
+    "SACK": 0.0,
+    "INT": 4,
+    "INT YDS": 50,
+    "INT AVG": 12.5,
+    "INT LG": 17
+   }
+  },
+  {
+   "name": "D.Moon",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 53,
+    "ASSISTS": 15,
+    "TAK": 68,
+    "TFL": 9,
+    "SACK": 2.5,
+    "INT": 1,
+    "INT YDS": 13,
+    "INT AVG": 13.0,
+    "INT LG": 13
+   }
+  },
+  {
+   "name": "J.Shelton",
+   "pos": "SAM",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 61,
+    "ASSISTS": 7,
+    "TAK": 68,
+    "TFL": 3,
+    "SACK": 1.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "N.Staehling",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 55,
+    "ASSISTS": 13,
+    "TAK": 68,
+    "TFL": 2,
+    "SACK": 1.0,
+    "INT": 1,
+    "INT YDS": 15,
+    "INT AVG": 15.0,
+    "INT LG": 15
+   }
+  },
+  {
+   "name": "J.Crawford",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 55,
+    "ASSISTS": 13,
+    "TAK": 68,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 2,
+    "INT YDS": 35,
+    "INT AVG": 17.5,
+    "INT LG": 20
+   }
+  },
+  {
+   "name": "B.Finneseth",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 60,
+    "ASSISTS": 8,
+    "TAK": 68,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "V.Swain",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 56,
+    "ASSISTS": 12,
+    "TAK": 68,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 22,
+    "INT AVG": 22.0,
+    "INT LG": 22
+   }
+  },
+  {
+   "name": "A.McShane",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 56,
+    "ASSISTS": 12,
+    "TAK": 68,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "I.Boyce",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 56,
+    "ASSISTS": 12,
+    "TAK": 68,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 3,
+    "INT YDS": 47,
+    "INT AVG": 15.7,
+    "INT LG": 20
+   }
+  },
+  {
+   "name": "J.Sweeney",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 56,
+    "ASSISTS": 12,
+    "TAK": 68,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "T.Winger",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 57,
+    "ASSISTS": 11,
+    "TAK": 68,
+    "TFL": 1,
+    "SACK": 0.5,
+    "INT": 2,
+    "INT YDS": 32,
+    "INT AVG": 16.0,
+    "INT LG": 16
+   }
+  },
+  {
+   "name": "D.Voltz",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 57,
+    "ASSISTS": 11,
+    "TAK": 68,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 13,
+    "INT AVG": 13.0,
+    "INT LG": 13
+   }
+  },
+  {
+   "name": "L.Carter",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 54,
+    "ASSISTS": 13,
+    "TAK": 67,
+    "TFL": 3,
+    "SACK": 0.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "R.Wilson",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 56,
+    "ASSISTS": 11,
+    "TAK": 67,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 2,
+    "INT YDS": 30,
+    "INT AVG": 15.0,
+    "INT LG": 15
+   }
+  },
+  {
+   "name": "T.James",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 54,
+    "ASSISTS": 13,
+    "TAK": 67,
+    "TFL": 1,
+    "SACK": 0.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "K.O'Sullivan",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 53,
+    "ASSISTS": 14,
+    "TAK": 67,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 13,
+    "INT AVG": 13.0,
+    "INT LG": 13
+   }
+  },
+  {
+   "name": "S.Omosigho",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 57,
+    "ASSISTS": 10,
+    "TAK": 67,
+    "TFL": 3,
+    "SACK": 1.5,
+    "INT": 1,
+    "INT YDS": 4,
+    "INT AVG": 4.0,
+    "INT LG": 4
+   }
+  },
+  {
+   "name": "N.Childress",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 60,
+    "ASSISTS": 7,
+    "TAK": 67,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 18,
+    "INT AVG": 18.0,
+    "INT LG": 18
+   }
+  },
+  {
+   "name": "B.Gordon Jr.",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 53,
+    "ASSISTS": 14,
+    "TAK": 67,
+    "TFL": 1,
+    "SACK": 0.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "T.Magee",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 57,
+    "ASSISTS": 10,
+    "TAK": 67,
+    "TFL": 1,
+    "SACK": 0.5,
+    "INT": 1,
+    "INT YDS": 12,
+    "INT AVG": 12.0,
+    "INT LG": 12
+   }
+  },
+  {
+   "name": "J.Pierre",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 59,
+    "ASSISTS": 8,
+    "TAK": 67,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "J.Fields",
+   "pos": "FS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 53,
+    "ASSISTS": 14,
+    "TAK": 67,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "R.Johnson",
+   "pos": "REDG",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 55,
+    "ASSISTS": 12,
+    "TAK": 67,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "M.Jung",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 58,
+    "ASSISTS": 9,
+    "TAK": 67,
+    "TFL": 2,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 11,
+    "INT AVG": 11.0,
+    "INT LG": 11
+   }
+  },
+  {
+   "name": "C.Kennedy",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 52,
+    "ASSISTS": 15,
+    "TAK": 67,
+    "TFL": 2,
+    "SACK": 0.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "D.Phelps",
+   "pos": "FS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 53,
+    "ASSISTS": 13,
+    "TAK": 66,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "K.Turner",
+   "pos": "SAM",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 53,
+    "ASSISTS": 13,
+    "TAK": 66,
+    "TFL": 2,
+    "SACK": 1.0,
+    "INT": 1,
+    "INT YDS": 10,
+    "INT AVG": 10.0,
+    "INT LG": 10
+   }
+  },
+  {
+   "name": "K.Favors",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 57,
+    "ASSISTS": 9,
+    "TAK": 66,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "Z.Rainey-Sale",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 53,
+    "ASSISTS": 13,
+    "TAK": 66,
+    "TFL": 4,
+    "SACK": 3.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "S.Shufelt",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 56,
+    "ASSISTS": 10,
+    "TAK": 66,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "J.Gould",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 56,
+    "ASSISTS": 10,
+    "TAK": 66,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 2,
+    "INT YDS": 30,
+    "INT AVG": 15.0,
+    "INT LG": 16
+   }
+  },
+  {
+   "name": "J.Parker",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 56,
+    "ASSISTS": 10,
+    "TAK": 66,
+    "TFL": 2,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "R.Billings IV",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 56,
+    "ASSISTS": 10,
+    "TAK": 66,
+    "TFL": 2,
+    "SACK": 1.0,
+    "INT": 2,
+    "INT YDS": 46,
+    "INT AVG": 23.0,
+    "INT LG": 33
+   }
+  },
+  {
+   "name": "D.Chavis",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 54,
+    "ASSISTS": 12,
+    "TAK": 66,
+    "TFL": 2,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 10,
+    "INT AVG": 10.0,
+    "INT LG": 10
+   }
+  },
+  {
+   "name": "A.Trick",
+   "pos": "REDG",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 52,
+    "ASSISTS": 14,
+    "TAK": 66,
+    "TFL": 7,
+    "SACK": 0.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "K.Sherman",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 56,
+    "ASSISTS": 10,
+    "TAK": 66,
+    "TFL": 2,
+    "SACK": 0.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "D.Harris",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 55,
+    "ASSISTS": 11,
+    "TAK": 66,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 2,
+    "INT YDS": 44,
+    "INT AVG": 22.0,
+    "INT LG": 23
+   }
+  },
+  {
+   "name": "C.Williams",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 54,
+    "ASSISTS": 12,
+    "TAK": 66,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "T.Glasper",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 55,
+    "ASSISTS": 11,
+    "TAK": 66,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 4,
+    "INT YDS": 62,
+    "INT AVG": 15.5,
+    "INT LG": 18
+   }
+  },
+  {
+   "name": "M.Cannon",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 56,
+    "ASSISTS": 10,
+    "TAK": 66,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 2,
+    "INT YDS": 26,
+    "INT AVG": 13.0,
+    "INT LG": 14
+   }
+  },
+  {
+   "name": "D.Sanchez",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 55,
+    "ASSISTS": 11,
+    "TAK": 66,
+    "TFL": 1,
+    "SACK": 0.5,
+    "INT": 1,
+    "INT YDS": 19,
+    "INT AVG": 19.0,
+    "INT LG": 19
+   }
+  },
+  {
+   "name": "J.Beasley",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 55,
+    "ASSISTS": 11,
+    "TAK": 66,
+    "TFL": 3,
+    "SACK": 1.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "T.Ward",
+   "pos": "FS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 52,
+    "ASSISTS": 13,
+    "TAK": 65,
+    "TFL": 2,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "T.Combs",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 52,
+    "ASSISTS": 13,
+    "TAK": 65,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 4,
+    "INT YDS": 75,
+    "INT AVG": 18.8,
+    "INT LG": 24
+   }
+  },
+  {
+   "name": "C.Anthony",
+   "pos": "FS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 55,
+    "ASSISTS": 10,
+    "TAK": 65,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "K.Sanders",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 59,
+    "ASSISTS": 6,
+    "TAK": 65,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 19,
+    "INT AVG": 19.0,
+    "INT LG": 19
+   }
+  },
+  {
+   "name": "R.Jones",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 55,
+    "ASSISTS": 10,
+    "TAK": 65,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 7,
+    "INT AVG": 7.0,
+    "INT LG": 7
+   }
+  },
+  {
+   "name": "J.Riddle",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 56,
+    "ASSISTS": 9,
+    "TAK": 65,
+    "TFL": 3,
+    "SACK": 1.0,
+    "INT": 1,
+    "INT YDS": 16,
+    "INT AVG": 16.0,
+    "INT LG": 16
+   }
+  },
+  {
+   "name": "S.Banner",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 57,
+    "ASSISTS": 8,
+    "TAK": 65,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "A.Stamps",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 54,
+    "ASSISTS": 11,
+    "TAK": 65,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "A.Clifford",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 56,
+    "ASSISTS": 9,
+    "TAK": 65,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 2,
+    "INT YDS": 26,
+    "INT AVG": 13.0,
+    "INT LG": 16
+   }
+  },
+  {
+   "name": "A.Mahuka",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 56,
+    "ASSISTS": 9,
+    "TAK": 65,
+    "TFL": 1,
+    "SACK": 1.0,
+    "INT": 2,
+    "INT YDS": 23,
+    "INT AVG": 11.5,
+    "INT LG": 17
+   }
+  },
+  {
+   "name": "R.Kelly",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 53,
+    "ASSISTS": 11,
+    "TAK": 64,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 18,
+    "INT AVG": 18.0,
+    "INT LG": 18
+   }
+  },
+  {
+   "name": "S.Rochelle",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 8,
+    "SOLO": 53,
+    "ASSISTS": 11,
+    "TAK": 64,
+    "TFL": 1,
+    "SACK": 1.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "J.Collier",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 55,
+    "ASSISTS": 9,
+    "TAK": 64,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 2,
+    "INT YDS": 46,
+    "INT AVG": 23.0,
+    "INT LG": 28
+   }
+  },
+  {
+   "name": "W.Ho'ohuli",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 8,
+    "SOLO": 53,
+    "ASSISTS": 11,
+    "TAK": 64,
+    "TFL": 2,
+    "SACK": 0.5,
+    "INT": 1,
+    "INT YDS": 10,
+    "INT AVG": 10.0,
+    "INT LG": 10
+   }
+  },
+  {
+   "name": "C.Myrick",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 55,
+    "ASSISTS": 9,
+    "TAK": 64,
+    "TFL": 1,
+    "SACK": 0.5,
+    "INT": 3,
+    "INT YDS": 70,
+    "INT AVG": 23.3,
+    "INT LG": 33
+   }
+  },
+  {
+   "name": "R.Bimage Jr.",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 54,
+    "ASSISTS": 10,
+    "TAK": 64,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 2,
+    "INT YDS": 19,
+    "INT AVG": 9.5,
+    "INT LG": 11
+   }
+  },
+  {
+   "name": "D.Turner",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 56,
+    "ASSISTS": 8,
+    "TAK": 64,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 3,
+    "INT YDS": 44,
+    "INT AVG": 14.7,
+    "INT LG": 18
+   }
+  },
+  {
+   "name": "D.Harris",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 55,
+    "ASSISTS": 9,
+    "TAK": 64,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "R.Pleasant",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 53,
+    "ASSISTS": 11,
+    "TAK": 64,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "G.Jones",
+   "pos": "SAM",
+   "team": null,
+   "values": {
+    "GP": 10,
+    "SOLO": 53,
+    "ASSISTS": 11,
+    "TAK": 64,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "D.Ford",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 52,
+    "ASSISTS": 11,
+    "TAK": 63,
+    "TFL": 3,
+    "SACK": 0.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "J.Gilmore",
+   "pos": "SAM",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 54,
+    "ASSISTS": 9,
+    "TAK": 63,
+    "TFL": 4,
+    "SACK": 2.0,
+    "INT": 3,
+    "INT YDS": 41,
+    "INT AVG": 13.7,
+    "INT LG": 16
+   }
+  },
+  {
+   "name": "D.Staley",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 52,
+    "ASSISTS": 11,
+    "TAK": 63,
+    "TFL": 1,
+    "SACK": 0.0,
+    "INT": 2,
+    "INT YDS": 24,
+    "INT AVG": 12.0,
+    "INT LG": 13
+   }
+  },
+  {
+   "name": "P.Farrell",
+   "pos": "LEDG",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 52,
+    "ASSISTS": 11,
+    "TAK": 63,
+    "TFL": 2,
+    "SACK": 0.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "C.Guillory",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 54,
+    "ASSISTS": 9,
+    "TAK": 63,
+    "TFL": 1,
+    "SACK": 0.5,
+    "INT": 2,
+    "INT YDS": 36,
+    "INT AVG": 18.0,
+    "INT LG": 20
+   }
+  },
+  {
+   "name": "M.Woods",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 58,
+    "ASSISTS": 5,
+    "TAK": 63,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 14,
+    "INT AVG": 14.0,
+    "INT LG": 14
+   }
+  },
+  {
+   "name": "J.Johnson",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 53,
+    "ASSISTS": 10,
+    "TAK": 63,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 4,
+    "INT YDS": 69,
+    "INT AVG": 17.3,
+    "INT LG": 19
+   }
+  },
+  {
+   "name": "A.Alexander",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 56,
+    "ASSISTS": 7,
+    "TAK": 63,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 2,
+    "INT YDS": 30,
+    "INT AVG": 15.0,
+    "INT LG": 15
+   }
+  },
+  {
+   "name": "D.Smith",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 55,
+    "ASSISTS": 8,
+    "TAK": 63,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 14,
+    "INT AVG": 14.0,
+    "INT LG": 14
+   }
+  },
+  {
+   "name": "B.Hamblin",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 53,
+    "ASSISTS": 9,
+    "TAK": 62,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 2,
+    "INT YDS": 32,
+    "INT AVG": 16.0,
+    "INT LG": 20
+   }
+  },
+  {
+   "name": "D.Williams Jr.",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 55,
+    "ASSISTS": 7,
+    "TAK": 62,
+    "TFL": 4,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "N.Flores",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 53,
+    "ASSISTS": 9,
+    "TAK": 62,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "L.Walker",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 53,
+    "ASSISTS": 9,
+    "TAK": 62,
+    "TFL": 2,
+    "SACK": 1.0,
+    "INT": 1,
+    "INT YDS": -4,
+    "INT AVG": -4.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "J.Bocchino",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 52,
+    "ASSISTS": 10,
+    "TAK": 62,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 9,
+    "INT AVG": 9.0,
+    "INT LG": 9
+   }
+  },
+  {
+   "name": "J.Stanford",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 53,
+    "ASSISTS": 8,
+    "TAK": 61,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "C.Polu",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 53,
+    "ASSISTS": 8,
+    "TAK": 61,
+    "TFL": 2,
+    "SACK": 0.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "E.Groves",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 53,
+    "ASSISTS": 8,
+    "TAK": 61,
+    "TFL": 2,
+    "SACK": 2.0,
+    "INT": 1,
+    "INT YDS": 9,
+    "INT AVG": 9.0,
+    "INT LG": 9
+   }
+  },
+  {
+   "name": "C.Martinez",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 55,
+    "ASSISTS": 5,
+    "TAK": 60,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 10,
+    "INT AVG": 10.0,
+    "INT LG": 10
+   }
+  },
+  {
+   "name": "A.Palano",
+   "pos": "WILL",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 54,
+    "ASSISTS": 6,
+    "TAK": 60,
+    "TFL": 3,
+    "SACK": 2.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "J.Lewis",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 53,
+    "ASSISTS": 7,
+    "TAK": 60,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 4,
+    "INT YDS": 57,
+    "INT AVG": 14.3,
+    "INT LG": 16
+   }
+  },
+  {
+   "name": "M.Williams",
+   "pos": "MIKE",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 52,
+    "ASSISTS": 7,
+    "TAK": 59,
+    "TFL": 2,
+    "SACK": 1.0,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  },
+  {
+   "name": "K.Beasley",
+   "pos": "FS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 53,
+    "ASSISTS": 6,
+    "TAK": 59,
+    "TFL": 1,
+    "SACK": 0.5,
+    "INT": 2,
+    "INT YDS": 21,
+    "INT AVG": 10.5,
+    "INT LG": 11
+   }
+  },
+  {
+   "name": "L.Molette III",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 55,
+    "ASSISTS": 4,
+    "TAK": 59,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 1,
+    "INT YDS": 5,
+    "INT AVG": 5.0,
+    "INT LG": 5
+   }
+  },
+  {
+   "name": "J.Whitmore",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 52,
+    "ASSISTS": 6,
+    "TAK": 58,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 2,
+    "INT YDS": 29,
+    "INT AVG": 14.5,
+    "INT LG": 19
+   }
+  },
+  {
+   "name": "B.Marshall",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 53,
+    "ASSISTS": 4,
+    "TAK": 57,
+    "TFL": 0,
+    "SACK": 0.0,
+    "INT": 3,
+    "INT YDS": 54,
+    "INT AVG": 18.0,
+    "INT LG": 21
+   }
+  },
+  {
+   "name": "M.Malaki-Donaldson",
+   "pos": "REDG",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "SOLO": 52,
+    "ASSISTS": 5,
+    "TAK": 57,
+    "TFL": 3,
+    "SACK": 0.5,
+    "INT": 0,
+    "INT YDS": 0,
+    "INT AVG": 0.0,
+    "INT LG": 0
+   }
+  }
+ ]
+}
