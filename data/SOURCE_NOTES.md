@@ -86,6 +86,16 @@ Three arithmetic identities on the screen validate the result, and all three hol
 
 The screen prints no team column. A player's school appears only on the card beside the highlighted row, so only the two players already identified carry a team; the rest are null rather than guessed.
 
-`data/defense-leaders-2026.json` stores the rows and this provenance, `scripts/update_defense_leaders.py` writes them into DATA and re-checks the identities on every run, and `scripts/test_defense_leaders.py` covers the invariants, the row count, the refusal to guess teams, and the fact that team TFL stays blank regardless. `DATA.leaderDepth` records each category's depth so the Leaders tab can state whether a list is complete or truncated.
+`data/leaders-2026/DEFENSE.json` stores the rows and this provenance, `scripts/update_leaders.py` writes them into DATA and re-checks the identities on every run, and `scripts/test_leaders.py` covers the invariants, the row count, the refusal to guess teams, and the fact that team TFL stays blank regardless. `DATA.leaderDepth` records each category's depth so the Leaders tab can state whether a list is complete or truncated.
 
 **This does not unblock Tackles for Loss.** TFL is a column on this very screen, but a 400-deep national list sorted by tackles is about three players per school, and sorting by tackles systematically excludes the linemen who generate most of a team's TFL. See the README for the full reasoning and for the one setting that would fix it.
+
+## Kick and punt returns
+
+These two categories were photographed rather than recorded. **KICK RETURN** is twenty-nine stills, IMG_5222 through IMG_5250, each one screenful overlapping its predecessor by a single row; the last ends with the highlight on the final row, giving the complete list of **313 players**. YARDS / KR = AVG holds on every row and AVG never increases.
+
+One lesson from it: the stills are 5712 pixels wide, and an early pass read them from a 1600-pixel copy where a 392 came out as 382. The yards-per-return identity caught it. Everything here is read from the full-resolution originals.
+
+**PUNT RETURN is the one category the source set cannot complete.** Only two stills exist, IMG_5251 and IMG_5252, covering **23 players**; the list plainly continues past them, since many players have a single return. This is recorded as `complete: false` and the page says so rather than presenting 23 as the whole leaderboard. Capturing the rest needs new photographs or a recording of that screen.
+
+Each category now carries its own file under `data/leaders-2026/` declaring its columns, its sorted column, and the arithmetic identities the screen prints, so `scripts/update_leaders.py` validates every category by re-deriving them rather than trusting the transcription. `DATA.leaderComplete` drives the wording on the Leaders tab.

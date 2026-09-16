@@ -1,0 +1,354 @@
+{
+ "category": "PUNT RETURN",
+ "sortedBy": "PR",
+ "columns": [
+  "PR",
+  "YARDS",
+  "AVG",
+  "TD",
+  "LONG",
+  "GP",
+  "SNAPS"
+ ],
+ "complete": false,
+ "identities": [
+  {
+   "quotient": [
+    "YARDS",
+    "PR",
+    "AVG"
+   ],
+   "tolerance": 0.051
+  }
+ ],
+ "source": "2026/Individual Stats/IMG_5251.HEIC and IMG_5252.HEIC",
+ "screen": "SEASON STATS — PUNT RETURN, scope NATIONAL, sorted by PR descending",
+ "method": "Only two stills exist for this category, overlapping by one row.",
+ "validation": "YARDS / PR = AVG on all 23 rows and PR never increases.",
+ "teams": "No team column on this screen.",
+ "list_length": "INCOMPLETE. The capture stops at 23 players, all the two stills cover. The list continues past this point — many players have a single return — but no further photograph or recording of this screen exists.",
+ "rows": [
+  {
+   "name": "J.Ruffin Jr.",
+   "pos": "WR",
+   "team": null,
+   "values": {
+    "PR": 27,
+    "YARDS": 345,
+    "AVG": 12.8,
+    "TD": 0,
+    "LONG": 32,
+    "GP": 12,
+    "SNAPS": 112
+   }
+  },
+  {
+   "name": "C.Barnett",
+   "pos": "WR",
+   "team": null,
+   "values": {
+    "PR": 25,
+    "YARDS": 316,
+    "AVG": 12.6,
+    "TD": 0,
+    "LONG": 22,
+    "GP": 12,
+    "SNAPS": 335
+   }
+  },
+  {
+   "name": "M.James",
+   "pos": "HB",
+   "team": null,
+   "values": {
+    "PR": 18,
+    "YARDS": 269,
+    "AVG": 14.9,
+    "TD": 0,
+    "LONG": 31,
+    "GP": 12,
+    "SNAPS": 89
+   }
+  },
+  {
+   "name": "M.Crawford",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "PR": 5,
+    "YARDS": 38,
+    "AVG": 7.6,
+    "TD": 0,
+    "LONG": 12,
+    "GP": 12,
+    "SNAPS": 68
+   }
+  },
+  {
+   "name": "T.Tatum",
+   "pos": "SS",
+   "team": null,
+   "values": {
+    "PR": 4,
+    "YARDS": 30,
+    "AVG": 7.5,
+    "TD": 0,
+    "LONG": 21,
+    "GP": 12,
+    "SNAPS": 141
+   }
+  },
+  {
+   "name": "Z.Kearney",
+   "pos": "WR",
+   "team": null,
+   "values": {
+    "PR": 4,
+    "YARDS": 22,
+    "AVG": 5.5,
+    "TD": 0,
+    "LONG": 12,
+    "GP": 12,
+    "SNAPS": 622
+   }
+  },
+  {
+   "name": "M.Toney",
+   "pos": "WR",
+   "team": null,
+   "values": {
+    "PR": 3,
+    "YARDS": 48,
+    "AVG": 16.0,
+    "TD": 0,
+    "LONG": 19,
+    "GP": 12,
+    "SNAPS": 799
+   }
+  },
+  {
+   "name": "T.Crosby Jr.",
+   "pos": "WR",
+   "team": null,
+   "values": {
+    "PR": 3,
+    "YARDS": 9,
+    "AVG": 3.0,
+    "TD": 0,
+    "LONG": 8,
+    "GP": 10,
+    "SNAPS": 619
+   }
+  },
+  {
+   "name": "D.Deblanc",
+   "pos": "WR",
+   "team": null,
+   "values": {
+    "PR": 3,
+    "YARDS": 14,
+    "AVG": 4.7,
+    "TD": 0,
+    "LONG": 8,
+    "GP": 12,
+    "SNAPS": 855
+   }
+  },
+  {
+   "name": "A.Murphy",
+   "pos": "WR",
+   "team": null,
+   "values": {
+    "PR": 3,
+    "YARDS": 25,
+    "AVG": 8.3,
+    "TD": 0,
+    "LONG": 13,
+    "GP": 12,
+    "SNAPS": 60
+   }
+  },
+  {
+   "name": "A.Dendy",
+   "pos": "HB",
+   "team": null,
+   "values": {
+    "PR": 2,
+    "YARDS": 12,
+    "AVG": 6.0,
+    "TD": 0,
+    "LONG": 11,
+    "GP": 12,
+    "SNAPS": 375
+   }
+  },
+  {
+   "name": "D.Clark",
+   "pos": "WR",
+   "team": null,
+   "values": {
+    "PR": 2,
+    "YARDS": 21,
+    "AVG": 10.5,
+    "TD": 0,
+    "LONG": 11,
+    "GP": 12,
+    "SNAPS": 735
+   }
+  },
+  {
+   "name": "K.Reynolds",
+   "pos": "WR",
+   "team": null,
+   "values": {
+    "PR": 2,
+    "YARDS": 29,
+    "AVG": 14.5,
+    "TD": 0,
+    "LONG": 17,
+    "GP": 10,
+    "SNAPS": 615
+   }
+  },
+  {
+   "name": "C.McCray",
+   "pos": "WR",
+   "team": null,
+   "values": {
+    "PR": 2,
+    "YARDS": 12,
+    "AVG": 6.0,
+    "TD": 0,
+    "LONG": 11,
+    "GP": 12,
+    "SNAPS": 778
+   }
+  },
+  {
+   "name": "J.Wilson",
+   "pos": "WR",
+   "team": null,
+   "values": {
+    "PR": 2,
+    "YARDS": 17,
+    "AVG": 8.5,
+    "TD": 0,
+    "LONG": 11,
+    "GP": 12,
+    "SNAPS": 689
+   }
+  },
+  {
+   "name": "B.Hills",
+   "pos": "WR",
+   "team": null,
+   "values": {
+    "PR": 1,
+    "YARDS": 3,
+    "AVG": 3.0,
+    "TD": 0,
+    "LONG": 3,
+    "GP": 12,
+    "SNAPS": 69
+   }
+  },
+  {
+   "name": "C.White",
+   "pos": "CB",
+   "team": null,
+   "values": {
+    "PR": 1,
+    "YARDS": 7,
+    "AVG": 7.0,
+    "TD": 0,
+    "LONG": 7,
+    "GP": 12,
+    "SNAPS": 71
+   }
+  },
+  {
+   "name": "J.McDougle",
+   "pos": "WR",
+   "team": null,
+   "values": {
+    "PR": 1,
+    "YARDS": 4,
+    "AVG": 4.0,
+    "TD": 0,
+    "LONG": 4,
+    "GP": 12,
+    "SNAPS": 87
+   }
+  },
+  {
+   "name": "L.Billups-Williams",
+   "pos": "WR",
+   "team": null,
+   "values": {
+    "PR": 1,
+    "YARDS": 3,
+    "AVG": 3.0,
+    "TD": 0,
+    "LONG": 3,
+    "GP": 12,
+    "SNAPS": 282
+   }
+  },
+  {
+   "name": "M.Taylor Jr.",
+   "pos": "HB",
+   "team": null,
+   "values": {
+    "PR": 1,
+    "YARDS": 8,
+    "AVG": 8.0,
+    "TD": 0,
+    "LONG": 8,
+    "GP": 12,
+    "SNAPS": 111
+   }
+  },
+  {
+   "name": "A.Ogbor",
+   "pos": "FS",
+   "team": null,
+   "values": {
+    "PR": 1,
+    "YARDS": 3,
+    "AVG": 3.0,
+    "TD": 0,
+    "LONG": 3,
+    "GP": 12,
+    "SNAPS": 66
+   }
+  },
+  {
+   "name": "B.Steely",
+   "pos": "FS",
+   "team": null,
+   "values": {
+    "PR": 1,
+    "YARDS": 18,
+    "AVG": 18.0,
+    "TD": 0,
+    "LONG": 18,
+    "GP": 12,
+    "SNAPS": 176
+   }
+  },
+  {
+   "name": "C.Rhaney",
+   "pos": "HB",
+   "team": null,
+   "values": {
+    "PR": 1,
+    "YARDS": -1,
+    "AVG": -1.0,
+    "TD": 0,
+    "LONG": 0,
+    "GP": 12,
+    "SNAPS": 384
+   }
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 {
- "source": "2026/Individual Stats/IMG_5215.MOV",
- "screen": "SEASON STATS — DEFENSE, scope NATIONAL, sorted by TAK descending",
+ "category": "DEFENSE",
+ "sortedBy": "TAK",
  "columns": [
   "GP",
   "SOLO",
@@ -13,11 +13,30 @@
   "INT AVG",
   "INT LG"
  ],
- "rows_captured": 400,
- "list_length": "The recording scrolls from the first row to the last; the scrollbar reaches the bottom and the final row is M.Malaki-Donaldson. The leaderboard holds exactly 400 players.",
+ "complete": true,
+ "identities": [
+  {
+   "quotient": [
+    "INT YDS",
+    "INT",
+    "INT AVG"
+   ],
+   "tolerance": 0.06
+  },
+  {
+   "sum": [
+    "SOLO",
+    "ASSISTS",
+    "TAK"
+   ]
+  }
+ ],
+ "source": "2026/Individual Stats/IMG_5215.MOV",
+ "screen": "SEASON STATS — DEFENSE, scope NATIONAL, sorted by TAK descending",
  "method": "Frames were sampled at the video's own frame rate, the sharpest frame chosen in each window by bright-pixel fraction (the list scrolls continuously, so most frames are ghosted), and consecutive pages chained by overlapping player names. Every page overlapped its predecessor by at least one row, so no row is inferred.",
  "validation": "SOLO + ASSISTS = TAK on all 400 rows; TAK is non-increasing from 124 to 57; INT YDS / INT = INT AVG on every row with an interception. The twelve rows already published in the site were reproduced exactly by this independent pass.",
  "teams": "The leaderboard prints no team column. A player's school shows only on the card beside the highlighted row, so only players who happened to be highlighted can be attributed. Two are known from the earlier pass; the rest are left null rather than guessed.",
+ "list_length": "The recording scrolls from the first row to the last; the scrollbar reaches the bottom and the final row is M.Malaki-Donaldson. The leaderboard holds exactly 400 players.",
  "rows": [
   {
    "name": "S.Bracey",

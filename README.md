@@ -16,7 +16,7 @@ libraries or CDNs, no browser storage. It runs offline and can be hosted anywher
 | **Head-to-Head** | Any stat as a three-way bar chart, plus a radar profile across eight core measures. |
 | **Schedules** | All 12 games per school: site, result, score, and each opponent's final record. |
 | **National** | The full **143-team** ratings table (sortable, filterable) and national top tens. |
-| **Leaders** | National player leaderboards. **DEFENSE is complete at 400 players**; the other eight categories are still the single screenful the first pass captured, and each says so on the page. |
+| **Leaders** | National player leaderboards, each stating whether it is complete or only as far as the capture goes. See the table below. |
 | **Leaders** | National player leaders in nine categories, from the screen recordings. |
 
 ## Mobile layout and measure explanations
@@ -57,6 +57,24 @@ Penalties · Totals (Special Teams)
 **115 of the 119 table rows are populated. 40 carry a national rank** — a rank is only shown where the
 stat can be computed for the whole country from the national Team Stats screens; stats that come
 from the per-game box scores exist for these three schools alone.
+
+### Player leaderboard depth
+
+| Category | Rows | Source | Complete |
+|---|---|---|---|
+| DEFENSE | 400 | IMG_5215.MOV | yes, scrolled to the last row |
+| KICK RETURN | 313 | IMG_5222–5250.HEIC, 29 stills | yes, last still ends on the final row |
+| PUNT RETURN | 23 | IMG_5251–5252.HEIC, 2 stills | **no** — only two stills exist |
+| PASSING, RUSHING, RECEIVING, BLOCKING, KICKING, PUNTING | 12 each | not yet transcribed | no |
+
+Each category's rows, provenance and arithmetic identities live in its own file under
+`data/leaders-2026/`. `scripts/update_leaders.py` writes them into DATA and re-derives every
+identity the screen prints on every row; `scripts/test_leaders.py` covers the invariants,
+the completeness flags and the refusal to guess teams.
+
+Punt returns are the one category the source set cannot complete: two photographs exist and the
+list continues past them. Categories still at 12 rows have long recordings that simply have not
+been read yet — the page labels them "as far as the capture goes, not the end of the list".
 
 ## Where the data comes from
 
