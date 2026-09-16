@@ -25,9 +25,10 @@
   "punter_source": "2026/Individual Stats/IMG_5220.MOV, approximately 33.5 seconds, for Western and Central: exact count, yards and blocked columns are visible together. Eastern's punter D.Hull appears only in IMG_5221.MOV, where the punt-count column is clipped by the screen edge; his count is 1165 yards / 46.6 average = 25.00, the only punter in the captured field with 25, matching Eastern's full-season total of 21 photographed punts plus the 4 in the retained Sacramento State Game Log entry. His 1165 season yards supply that game's missing punt yardage: 1165 - 969 = 196 over 4 punts, a 49.0 average.",
   "user_entered": {
     "confchamp": {"W. Michigan": "No", "E. Michigan": "No", "C. Michigan": "Yes"},
-    "bowl": {"W. Michigan": "Win", "E. Michigan": "N/A", "C. Michigan": "Win"}
+    "bowl": {"W. Michigan": "Win", "E. Michigan": "N/A", "C. Michigan": "Win"},
+    "cfp": {"W. Michigan": "23", "E. Michigan": "NR", "C. Michigan": "22"}
   },
-  "user_entered_source": "Reported by the dynasty owner. Master marks Conference Champion, Bowl Result and Final CFP Ranking as user-entered; no screen in the source set records them. All three CFP rankings are still outstanding.",
+  "user_entered_source": "Reported by the dynasty owner. Master marks Conference Champion, Bowl Result and Final CFP Ranking as user-entered; no screen in the source set records them. NR means the team finished outside the final CFP top 25.",
   "season_games": 12,
   "regulation_game_seconds": 2160,
   "game_time_source": "IMG_5307.HEIC shows Eastern 13:53 and Michigan State 22:07 possession, totaling 36:00, consistent with the other Eastern box-score pairs and the prior BCI denominator.",

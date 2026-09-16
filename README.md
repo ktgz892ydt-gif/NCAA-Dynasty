@@ -54,7 +54,7 @@ Scoring Defense · Passing Defense · Rush Defense · Disruptions · Situational
 Penalties · Totals (Special Teams)
 ```
 
-**115 of the 119 table rows are populated. 40 carry a national rank** — a rank is only shown where the
+**116 of the 119 table rows are populated. 40 carry a national rank** — a rank is only shown where the
 stat can be computed for the whole country from the national Team Stats screens; stats that come
 from the per-game box scores exist for these three schools alone.
 
@@ -128,16 +128,16 @@ SRS, Elo, Bradley-Terry and Glicko-2 are solved over the **entire 143-team natio
 
 ## What is missing, and why
 
-Only **4 of the 119 table rows** are blank:
+Only **3 of the 119 table rows** are blank:
 
 | Group | Attribute | Why |
 |---|---|---|
-| Results | Conference Champion, Bowl Result, Final CFP Ranking | User-entered in Master; no screen captures them |
 | Disruptions | Tackles for Loss, Defensive Touchdowns | Captured only per-player on the national leaderboard; see below |
 | Totals (Special Teams) | TDs | Same: needs the team's returners identified |
 
-Conference Champion and Bowl Result are now filled from the dynasty owner's own report; the
-final CFP rankings are still outstanding.
+Conference Champion, Bowl Result and Final CFP Ranking are all filled from the dynasty owner's
+own report: Central finished 22nd and Western 23rd in the final CFP rankings, and Eastern was
+unranked. The Results group is now complete.
 
 ### Why Tackles for Loss is blank
 

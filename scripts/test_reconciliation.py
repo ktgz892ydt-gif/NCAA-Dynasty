@@ -122,9 +122,12 @@ class ReconciliationTests(unittest.TestCase):
         for team, result in [('W. Michigan', 'Win'), ('E. Michigan', 'N/A'),
                              ('C. Michigan', 'Win')]:
             self.assertEqual(values[team]['bowl']['v'], result)
-        # not supplied yet, and nothing in the source set records them
-        for team in self.result['teams']:
-            self.assertIsNone(values[team]['cfp']['v'])
+        for team, rank in [('W. Michigan', '23'), ('E. Michigan', 'NR'), ('C. Michigan', '22')]:
+            self.assertEqual(values[team]['cfp']['v'], rank)
+        # every user-entered cell carries the provenance note rather than passing as measured
+        for key in ['confchamp', 'bowl', 'cfp']:
+            for team in self.result['teams']:
+                self.assertIn('dynasty owner', values[team][key]['note'])
 
     def test_repeat_build_is_stable(self):
         self.assertEqual(reconcile(copy.deepcopy(self.result), self.source), self.result)

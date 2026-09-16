@@ -129,3 +129,7 @@ Two ratings disagree with that formula by exactly one tenth — W. Wilson shows 
 **Three of the dynasty quarterbacks are now identified with certainty.** B. Lowry's national line matches Western Michigan's team passing totals exactly on attempts, yards, touchdowns and interceptions (352, 2,922, 21, 14), so he took every one of Western's attempts. N. Kim and A. Flores leave only 8 and 4 attempts for Eastern's and Central's backups respectively.
 
 That settles an earlier correction that had rested on inference. The site's quarterback-room completion figures of **175 for Eastern and 205 for Central** are corroborated: N. Kim alone has 172 and A. Flores 204, leaving 3 completions on 8 attempts and 1 on 4. The original screen readings of 185 and 257 are now ruled out arithmetically — 257 completions is impossible when Central's starter has 204 and only four other attempts exist all season. The sack figures agree too: Western's 29 taken at 7.6% is B. Lowry's line exactly, while Eastern's 38 and Central's 35 exceed their starters' 37 and 33 by the one and two sacks their backups took.
+
+## Final CFP rankings
+
+Reported by the dynasty owner: **Central Michigan 22nd, Western Michigan 23rd, Eastern Michigan unranked.** Master treats Conference Champion, Bowl Result and Final CFP Ranking as user-entered, and no screen in the source set records any of them. With these three the Results group is complete, and the only blank rows left on the page are Tackles for Loss, Defensive Touchdowns and special-teams TDs.
