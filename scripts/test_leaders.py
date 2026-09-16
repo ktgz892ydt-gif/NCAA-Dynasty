@@ -49,13 +49,14 @@ class LeaderTests(unittest.TestCase):
         self.assertEqual(self.leaders['KICK RETURN']['rows'][-1]['name'], 'L.Burrell')
         self.assertEqual(self.leaders['PUNT RETURN']['rows'][0]['name'], 'J.Ruffin Jr.')
 
-    def test_teams_are_not_guessed(self):
-        allowed = (None, 'Buffalo', 'New Mexico',
-                   'Western Michigan', 'Eastern Michigan', 'Central Michigan')
-        for category, block in self.leaders.items():
-            if category in self.sources:
-                for row in block['rows']:
-                    self.assertIn(row['team'], allowed, category)
+    def test_teams_come_only_from_the_source_files(self):
+        """No team label may be invented in the site; the screens print no team column."""
+        for category, source in self.sources.items():
+            declared = {(r['name'], r['team']) for r in source['rows'] if r['team']}
+            live = {(r['name'], r['team']) for r in self.leaders[category]['rows'] if r['team']}
+            self.assertEqual(live, declared, category)
+            # a transcribed category should carry only a handful of attributions
+            self.assertLessEqual(len(live), 5, category)
 
     def test_the_three_punters_are_identified_by_a_unique_punt_count(self):
         """The complete 138-punter field is what makes the attribution safe."""

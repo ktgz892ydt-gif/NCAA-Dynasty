@@ -109,3 +109,11 @@ This settles the Eastern punter question properly. D.Hull was originally identif
 Two identities validate every row — YARDS / PUNTS = AVG and NET YDS / PUNTS = NET AVG — and the first caught a real error: W. McSparron read as 2,482 yards, which gives 43.5 rather than the 43.7 on screen. At full resolution it is 2,492.
 
 D.Hull's SNAPS of 37 also matches the figure recovered in the earlier pass, an independent check on the merge.
+
+## Kicking
+
+The national KICKING leaderboard is complete at **138 kickers**, the same one-per-FBS-team count as punting. Its twenty-two columns span three recordings: IMG_5217 carries GP through XP%, IMG_5218 the four distance buckets plus kickoffs and touchbacks, IMG_5219 from FGA49 rightwards to SNAPS. All three keep the NAME column, so they merge by name rather than by row position, and all 138 names matched in order; the columns that appear on both IMG_5218 and IMG_5219 agree row for row.
+
+This is the best-validated category in the set. Five independent identities hold on every row: the four distance buckets sum to FGM, and separately to FGA; FG% equals floor(100 x FGM / FGA); XP% equals floor(100 x XPM / XPA); and TB% equals touchbacks over kickoffs. The percentages are truncated by the game rather than rounded, which makes those two checks exact rather than tolerant. The FGA bucket sum caught a misread: K. Meester's FGA49 read as 3, giving 14 attempts against the 15 printed, and is 4 at full resolution.
+
+`scripts/update_leaders.py` now understands three kinds of identity, because the screens print three kinds: parts that must add to a total, a rounded quotient such as an average, and a truncated percentage. A quotient rule may carry a `scale` so a percentage can be expressed as one.

@@ -24,11 +24,13 @@
    "tolerance": 0.06
   },
   {
-   "sum": [
-    "SOLO",
-    "ASSISTS",
-    "TAK"
-   ]
+   "sum": {
+    "parts": [
+     "SOLO",
+     "ASSISTS"
+    ],
+    "total": "TAK"
+   }
   }
  ],
  "source": "2026/Individual Stats/IMG_5215.MOV",

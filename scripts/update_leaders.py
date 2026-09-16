@@ -14,22 +14,34 @@ LEADERS = ROOT / 'data/leaders-2026'
 
 
 def check_identities(source):
-    """Re-derive every relationship the screen prints, on every row."""
+    """Re-derive every relationship the screen prints, on every row.
+
+    Three kinds, because the screens print three kinds: parts that must add up
+    to a total, a rounded quotient (an average), and a percentage the game
+    truncates rather than rounds.
+    """
     rows, sorted_by = source['rows'], source['sortedBy']
     previous = None
     for i, row in enumerate(rows, 1):
         v = row['values']
+        where = f'{source["category"]} row {i} ({row["name"]})'
         for rule in source.get('identities', []):
             if 'sum' in rule:
-                a, b, total = rule['sum']
-                if v[a] + v[b] != v[total]:
-                    raise ValueError(f'{source["category"]} row {i} ({row["name"]}): '
-                                     f'{a} plus {b} is not {total}')
+                parts, total = rule['sum']['parts'], rule['sum']['total']
+                if sum(v[p] for p in parts) != v[total]:
+                    raise ValueError(f'{where}: {" plus ".join(parts)} is not {total}')
             if 'quotient' in rule:
                 num, den, quot = rule['quotient']
-                if v[den] and abs(v[num] / v[den] - v[quot]) > rule.get('tolerance', 0.051):
-                    raise ValueError(f'{source["category"]} row {i} ({row["name"]}): '
-                                     f'{num} over {den} is not {quot}')
+                scale = rule.get('scale', 1)
+                if v[den] and abs(scale * v[num] / v[den] - v[quot]) > rule.get('tolerance', 0.051):
+                    raise ValueError(f'{where}: {num} over {den} is not {quot}')
+                if not v[den] and v[quot]:
+                    raise ValueError(f'{where}: {quot} is set but {den} is zero')
+            if 'floor_percent' in rule:
+                # the game truncates these, so the check is exact rather than tolerant
+                num, den, pct = rule['floor_percent']
+                if v[den] and int(100 * v[num] / v[den]) != v[pct]:
+                    raise ValueError(f'{where}: {pct} is not floor(100*{num}/{den})')
         value = v[sorted_by]
         if previous is not None and value > previous:
             raise ValueError(f'{source["category"]} row {i} ({row["name"]}): '
