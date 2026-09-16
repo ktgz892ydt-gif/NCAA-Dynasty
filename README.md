@@ -65,9 +65,10 @@ from the per-game box scores exist for these three schools alone.
 | DEFENSE | 400 | IMG_5215.MOV | yes, scrolled to the last row |
 | PUNTING | 138 | IMG_5220 + IMG_5221.MOV | yes — exactly one punter per FBS team |
 | KICKING | 138 | IMG_5217 + 5218 + 5219.MOV | yes — one kicker per FBS team |
+| PASSING | 192 | IMG_5208 + IMG_5209.MOV | yes — every player who attempted a pass |
 | KICK RETURN | 313 | IMG_5222–5250.HEIC, 29 stills | yes, last still ends on the final row |
 | PUNT RETURN | 23 | IMG_5251–5252.HEIC, 2 stills | **no** — only two stills exist |
-| PASSING, RUSHING, RECEIVING, BLOCKING | 12 each | not yet transcribed | no |
+| RUSHING, RECEIVING, BLOCKING | 12 each | not yet transcribed | no |
 
 Each category's rows, provenance and arithmetic identities live in its own file under
 `data/leaders-2026/`. `scripts/update_leaders.py` writes them into DATA and re-derives every

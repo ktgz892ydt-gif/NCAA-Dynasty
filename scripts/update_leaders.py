@@ -37,6 +37,12 @@ def check_identities(source):
                     raise ValueError(f'{where}: {num} over {den} is not {quot}')
                 if not v[den] and v[quot]:
                     raise ValueError(f'{where}: {quot} is set but {den} is zero')
+            if 'ratio_min1' in rule:
+                # the game divides by one when the denominator is zero, so a
+                # quarterback with no interceptions shows his touchdown count
+                num, den, quot = rule['ratio_min1']
+                if abs(v[num] / max(v[den], 1) - v[quot]) > rule.get('tolerance', 0.051):
+                    raise ValueError(f'{where}: {quot} is not {num} over max({den}, 1)')
             if 'floor_percent' in rule:
                 # the game truncates these, so the check is exact rather than tolerant
                 num, den, pct = rule['floor_percent']
