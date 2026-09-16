@@ -99,3 +99,13 @@ One lesson from it: the stills are 5712 pixels wide, and an early pass read them
 **PUNT RETURN is the one category the source set cannot complete.** Only two stills exist, IMG_5251 and IMG_5252, covering **23 players**; the list plainly continues past them, since many players have a single return. This is recorded as `complete: false` and the page says so rather than presenting 23 as the whole leaderboard. Capturing the rest needs new photographs or a recording of that screen.
 
 Each category now carries its own file under `data/leaders-2026/` declaring its columns, its sorted column, and the arithmetic identities the screen prints, so `scripts/update_leaders.py` validates every category by re-deriving them rather than trusting the transcription. `DATA.leaderComplete` drives the wording on the Leaders tab.
+
+## Punting, and the Eastern punter confirmed
+
+The national PUNTING leaderboard is now complete at **138 punters — exactly one per FBS team**. IMG_5220 carries GP through BLOCK and IMG_5221 is the same list scrolled right for SNAPS; because IMG_5221 still shows the NAME column the two were merged by name rather than by row position, and all 138 matched in order.
+
+This settles the Eastern punter question properly. D.Hull was originally identified by dividing his yards by his average, because his punt-count column was clipped: 1,165 / 46.6 = 25.00. That inference rested on the claim that no other punter had a similar count, which at the time was based on a partial transcription and could not actually be checked. **The complete field now confirms it directly.** The last three rows of the national list are D.Duley 36, R.Millmore 26 and D.Hull 25, each count unique among all 138 punters, and each printed on screen rather than derived. All three are now attributed to their schools in the leaderboard, and a test cross-checks their name, punts, yards and blocked against `verified-inputs-2026.json`.
+
+Two identities validate every row — YARDS / PUNTS = AVG and NET YDS / PUNTS = NET AVG — and the first caught a real error: W. McSparron read as 2,482 yards, which gives 43.5 rather than the 43.7 on screen. At full resolution it is 2,492.
+
+D.Hull's SNAPS of 37 also matches the figure recovered in the earlier pass, an independent check on the merge.

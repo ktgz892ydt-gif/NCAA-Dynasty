@@ -1,0 +1,2528 @@
+{
+ "category": "PUNTING",
+ "sortedBy": "PUNTS",
+ "columns": [
+  "GP",
+  "PUNTS",
+  "YARDS",
+  "AVG",
+  "NET YDS",
+  "NET AVG",
+  "IN20",
+  "TB",
+  "LONG",
+  "BLOCK",
+  "SNAPS"
+ ],
+ "complete": true,
+ "identities": [
+  {
+   "quotient": [
+    "YARDS",
+    "PUNTS",
+    "AVG"
+   ],
+   "tolerance": 0.052
+  },
+  {
+   "quotient": [
+    "NET YDS",
+    "PUNTS",
+    "NET AVG"
+   ],
+   "tolerance": 0.052
+  }
+ ],
+ "source": "2026/Individual Stats/IMG_5220.MOV and IMG_5221.MOV",
+ "screen": "SEASON STATS — PUNTING, scope NATIONAL, sorted by PUNTS descending",
+ "method": "IMG_5220 carries GP through BLOCK; IMG_5221 is the same list scrolled right for SNAPS and still shows the NAME column, so the two were merged by player name rather than by row position. All 138 names matched in order.",
+ "validation": "YARDS / PUNTS = AVG and NET YDS / PUNTS = NET AVG on all 138 rows, and PUNTS never increases down the list. A misread 2,482 for W.McSparron was caught by the first identity and corrected to 2,492 from the frame at full resolution.",
+ "teams": "No team column. Three punters are nonetheless identified with certainty by their punt counts, which are unique in this complete national field: D.Duley 36 (Central Michigan), R.Millmore 26 (Western Michigan) and D.Hull 25 (Eastern Michigan).",
+ "list_length": "138 punters — exactly one per FBS team. The last three rows are Central's, Western's and Eastern's.",
+ "rows": [
+  {
+   "name": "T.Carroll",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 86,
+    "YARDS": 3802,
+    "AVG": 44.2,
+    "NET YDS": 3802,
+    "NET AVG": 44.2,
+    "IN20": 28,
+    "TB": 13,
+    "LONG": 62,
+    "BLOCK": 0,
+    "SNAPS": 189
+   }
+  },
+  {
+   "name": "M.Ryan",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 83,
+    "YARDS": 3654,
+    "AVG": 44.0,
+    "NET YDS": 3654,
+    "NET AVG": 44.0,
+    "IN20": 33,
+    "TB": 8,
+    "LONG": 64,
+    "BLOCK": 0,
+    "SNAPS": 126
+   }
+  },
+  {
+   "name": "D.Zimmer",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 82,
+    "YARDS": 3512,
+    "AVG": 42.8,
+    "NET YDS": 3512,
+    "NET AVG": 42.8,
+    "IN20": 36,
+    "TB": 6,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 210
+   }
+  },
+  {
+   "name": "L.Matthews",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 80,
+    "YARDS": 3329,
+    "AVG": 41.6,
+    "NET YDS": 3329,
+    "NET AVG": 41.6,
+    "IN20": 32,
+    "TB": 5,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 124
+   }
+  },
+  {
+   "name": "B.Braun",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 80,
+    "YARDS": 3532,
+    "AVG": 44.2,
+    "NET YDS": 3532,
+    "NET AVG": 44.2,
+    "IN20": 37,
+    "TB": 6,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 189
+   }
+  },
+  {
+   "name": "M.Carvey",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 79,
+    "YARDS": 3366,
+    "AVG": 42.6,
+    "NET YDS": 3324,
+    "NET AVG": 42.1,
+    "IN20": 27,
+    "TB": 8,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 124
+   }
+  },
+  {
+   "name": "W.Duncan",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 78,
+    "YARDS": 3398,
+    "AVG": 43.6,
+    "NET YDS": 3398,
+    "NET AVG": 43.6,
+    "IN20": 26,
+    "TB": 10,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 112
+   }
+  },
+  {
+   "name": "L.Goater",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 78,
+    "YARDS": 3421,
+    "AVG": 43.9,
+    "NET YDS": 3421,
+    "NET AVG": 43.9,
+    "IN20": 27,
+    "TB": 9,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 140
+   }
+  },
+  {
+   "name": "A.Westberry",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 76,
+    "YARDS": 3269,
+    "AVG": 43.0,
+    "NET YDS": 3269,
+    "NET AVG": 43.0,
+    "IN20": 24,
+    "TB": 7,
+    "LONG": 61,
+    "BLOCK": 0,
+    "SNAPS": 125
+   }
+  },
+  {
+   "name": "E.Crenshaw",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 76,
+    "YARDS": 3463,
+    "AVG": 45.6,
+    "NET YDS": 3463,
+    "NET AVG": 45.6,
+    "IN20": 22,
+    "TB": 17,
+    "LONG": 65,
+    "BLOCK": 0,
+    "SNAPS": 180
+   }
+  },
+  {
+   "name": "C.Durkin",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 75,
+    "YARDS": 3129,
+    "AVG": 41.7,
+    "NET YDS": 3065,
+    "NET AVG": 40.9,
+    "IN20": 27,
+    "TB": 7,
+    "LONG": 62,
+    "BLOCK": 0,
+    "SNAPS": 119
+   }
+  },
+  {
+   "name": "J.Stoeckel",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 75,
+    "YARDS": 3073,
+    "AVG": 41.0,
+    "NET YDS": 2992,
+    "NET AVG": 39.9,
+    "IN20": 20,
+    "TB": 6,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 108
+   }
+  },
+  {
+   "name": "I.Brandt",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 75,
+    "YARDS": 3227,
+    "AVG": 43.0,
+    "NET YDS": 3227,
+    "NET AVG": 43.0,
+    "IN20": 29,
+    "TB": 7,
+    "LONG": 62,
+    "BLOCK": 0,
+    "SNAPS": 131
+   }
+  },
+  {
+   "name": "J.Ference",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 74,
+    "YARDS": 3278,
+    "AVG": 44.3,
+    "NET YDS": 3278,
+    "NET AVG": 44.3,
+    "IN20": 31,
+    "TB": 12,
+    "LONG": 62,
+    "BLOCK": 0,
+    "SNAPS": 166
+   }
+  },
+  {
+   "name": "B.Brooks",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 74,
+    "YARDS": 3278,
+    "AVG": 44.3,
+    "NET YDS": 3278,
+    "NET AVG": 44.3,
+    "IN20": 29,
+    "TB": 11,
+    "LONG": 61,
+    "BLOCK": 0,
+    "SNAPS": 117
+   }
+  },
+  {
+   "name": "A.Winsor",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 74,
+    "YARDS": 3207,
+    "AVG": 43.3,
+    "NET YDS": 3207,
+    "NET AVG": 43.3,
+    "IN20": 27,
+    "TB": 11,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 177
+   }
+  },
+  {
+   "name": "I.Ratliff",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 73,
+    "YARDS": 3110,
+    "AVG": 42.6,
+    "NET YDS": 3110,
+    "NET AVG": 42.6,
+    "IN20": 31,
+    "TB": 9,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 124
+   }
+  },
+  {
+   "name": "B.Sykes",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 73,
+    "YARDS": 3048,
+    "AVG": 41.8,
+    "NET YDS": 3019,
+    "NET AVG": 41.4,
+    "IN20": 21,
+    "TB": 6,
+    "LONG": 60,
+    "BLOCK": 0,
+    "SNAPS": 119
+   }
+  },
+  {
+   "name": "L.Rehkow",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 73,
+    "YARDS": 3120,
+    "AVG": 42.7,
+    "NET YDS": 3120,
+    "NET AVG": 42.7,
+    "IN20": 31,
+    "TB": 8,
+    "LONG": 62,
+    "BLOCK": 0,
+    "SNAPS": 172
+   }
+  },
+  {
+   "name": "E.Phillipson",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 73,
+    "YARDS": 2971,
+    "AVG": 40.7,
+    "NET YDS": 2951,
+    "NET AVG": 40.4,
+    "IN20": 19,
+    "TB": 9,
+    "LONG": 60,
+    "BLOCK": 0,
+    "SNAPS": 107
+   }
+  },
+  {
+   "name": "J.Smith",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 73,
+    "YARDS": 3006,
+    "AVG": 41.2,
+    "NET YDS": 3006,
+    "NET AVG": 41.2,
+    "IN20": 25,
+    "TB": 2,
+    "LONG": 62,
+    "BLOCK": 0,
+    "SNAPS": 112
+   }
+  },
+  {
+   "name": "M.Haines",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 72,
+    "YARDS": 2985,
+    "AVG": 41.5,
+    "NET YDS": 2892,
+    "NET AVG": 40.2,
+    "IN20": 22,
+    "TB": 8,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 116
+   }
+  },
+  {
+   "name": "T.O'Halloran",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 72,
+    "YARDS": 3169,
+    "AVG": 44.0,
+    "NET YDS": 3169,
+    "NET AVG": 44.0,
+    "IN20": 26,
+    "TB": 9,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 125
+   }
+  },
+  {
+   "name": "M.Dodge",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 72,
+    "YARDS": 3086,
+    "AVG": 42.9,
+    "NET YDS": 3009,
+    "NET AVG": 41.8,
+    "IN20": 27,
+    "TB": 9,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 168
+   }
+  },
+  {
+   "name": "R.Watson",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 11,
+    "PUNTS": 72,
+    "YARDS": 3186,
+    "AVG": 44.3,
+    "NET YDS": 3186,
+    "NET AVG": 44.3,
+    "IN20": 23,
+    "TB": 9,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 163
+   }
+  },
+  {
+   "name": "M.McKenzie",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 72,
+    "YARDS": 3002,
+    "AVG": 41.7,
+    "NET YDS": 3002,
+    "NET AVG": 41.7,
+    "IN20": 24,
+    "TB": 10,
+    "LONG": 59,
+    "BLOCK": 0,
+    "SNAPS": 144
+   }
+  },
+  {
+   "name": "C.Heimbach",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 72,
+    "YARDS": 3081,
+    "AVG": 42.8,
+    "NET YDS": 3081,
+    "NET AVG": 42.8,
+    "IN20": 26,
+    "TB": 6,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 128
+   }
+  },
+  {
+   "name": "R.Dakin",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 71,
+    "YARDS": 2961,
+    "AVG": 41.7,
+    "NET YDS": 2954,
+    "NET AVG": 41.6,
+    "IN20": 17,
+    "TB": 7,
+    "LONG": 65,
+    "BLOCK": 0,
+    "SNAPS": 172
+   }
+  },
+  {
+   "name": "D.Atton",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 71,
+    "YARDS": 3297,
+    "AVG": 46.4,
+    "NET YDS": 3297,
+    "NET AVG": 46.4,
+    "IN20": 33,
+    "TB": 10,
+    "LONG": 64,
+    "BLOCK": 0,
+    "SNAPS": 170
+   }
+  },
+  {
+   "name": "T.Arnold",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 71,
+    "YARDS": 3129,
+    "AVG": 44.1,
+    "NET YDS": 3129,
+    "NET AVG": 44.1,
+    "IN20": 21,
+    "TB": 11,
+    "LONG": 64,
+    "BLOCK": 0,
+    "SNAPS": 168
+   }
+  },
+  {
+   "name": "D.Greaves",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 70,
+    "YARDS": 2988,
+    "AVG": 42.7,
+    "NET YDS": 2988,
+    "NET AVG": 42.7,
+    "IN20": 22,
+    "TB": 8,
+    "LONG": 64,
+    "BLOCK": 0,
+    "SNAPS": 179
+   }
+  },
+  {
+   "name": "J.Anderson",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 70,
+    "YARDS": 3053,
+    "AVG": 43.6,
+    "NET YDS": 3053,
+    "NET AVG": 43.6,
+    "IN20": 21,
+    "TB": 13,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 119
+   }
+  },
+  {
+   "name": "L.Dorris",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 70,
+    "YARDS": 3134,
+    "AVG": 44.8,
+    "NET YDS": 3134,
+    "NET AVG": 44.8,
+    "IN20": 30,
+    "TB": 9,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 117
+   }
+  },
+  {
+   "name": "P.Rea",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 70,
+    "YARDS": 3023,
+    "AVG": 43.2,
+    "NET YDS": 3023,
+    "NET AVG": 43.2,
+    "IN20": 32,
+    "TB": 3,
+    "LONG": 64,
+    "BLOCK": 0,
+    "SNAPS": 118
+   }
+  },
+  {
+   "name": "C.Samuels",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 69,
+    "YARDS": 2866,
+    "AVG": 41.5,
+    "NET YDS": 2866,
+    "NET AVG": 41.5,
+    "IN20": 19,
+    "TB": 8,
+    "LONG": 61,
+    "BLOCK": 0,
+    "SNAPS": 127
+   }
+  },
+  {
+   "name": "R.West",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 69,
+    "YARDS": 3100,
+    "AVG": 44.9,
+    "NET YDS": 3100,
+    "NET AVG": 44.9,
+    "IN20": 27,
+    "TB": 14,
+    "LONG": 62,
+    "BLOCK": 0,
+    "SNAPS": 175
+   }
+  },
+  {
+   "name": "M.Winter",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 69,
+    "YARDS": 3036,
+    "AVG": 44.0,
+    "NET YDS": 3036,
+    "NET AVG": 44.0,
+    "IN20": 23,
+    "TB": 4,
+    "LONG": 62,
+    "BLOCK": 0,
+    "SNAPS": 117
+   }
+  },
+  {
+   "name": "E.Duran",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 68,
+    "YARDS": 2927,
+    "AVG": 43.0,
+    "NET YDS": 2900,
+    "NET AVG": 42.6,
+    "IN20": 17,
+    "TB": 5,
+    "LONG": 61,
+    "BLOCK": 0,
+    "SNAPS": 124
+   }
+  },
+  {
+   "name": "P.Eaton",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 68,
+    "YARDS": 2957,
+    "AVG": 43.5,
+    "NET YDS": 2957,
+    "NET AVG": 43.5,
+    "IN20": 21,
+    "TB": 10,
+    "LONG": 62,
+    "BLOCK": 0,
+    "SNAPS": 115
+   }
+  },
+  {
+   "name": "S.McDonald",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 67,
+    "YARDS": 3145,
+    "AVG": 46.9,
+    "NET YDS": 3145,
+    "NET AVG": 46.9,
+    "IN20": 30,
+    "TB": 8,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 112
+   }
+  },
+  {
+   "name": "T.Weston",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 67,
+    "YARDS": 2926,
+    "AVG": 43.7,
+    "NET YDS": 2926,
+    "NET AVG": 43.7,
+    "IN20": 31,
+    "TB": 9,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 182
+   }
+  },
+  {
+   "name": "T.Houston",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 67,
+    "YARDS": 2936,
+    "AVG": 43.8,
+    "NET YDS": 2936,
+    "NET AVG": 43.8,
+    "IN20": 21,
+    "TB": 13,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 175
+   }
+  },
+  {
+   "name": "D.Drennan",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 67,
+    "YARDS": 2911,
+    "AVG": 43.4,
+    "NET YDS": 2911,
+    "NET AVG": 43.4,
+    "IN20": 19,
+    "TB": 7,
+    "LONG": 64,
+    "BLOCK": 0,
+    "SNAPS": 185
+   }
+  },
+  {
+   "name": "A.Flintoft",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 67,
+    "YARDS": 2927,
+    "AVG": 43.7,
+    "NET YDS": 2927,
+    "NET AVG": 43.7,
+    "IN20": 17,
+    "TB": 5,
+    "LONG": 62,
+    "BLOCK": 0,
+    "SNAPS": 124
+   }
+  },
+  {
+   "name": "J.Gregg",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 67,
+    "YARDS": 2923,
+    "AVG": 43.6,
+    "NET YDS": 2923,
+    "NET AVG": 43.6,
+    "IN20": 27,
+    "TB": 6,
+    "LONG": 62,
+    "BLOCK": 0,
+    "SNAPS": 120
+   }
+  },
+  {
+   "name": "I.Lawrence",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 67,
+    "YARDS": 3078,
+    "AVG": 45.9,
+    "NET YDS": 3078,
+    "NET AVG": 45.9,
+    "IN20": 26,
+    "TB": 6,
+    "LONG": 64,
+    "BLOCK": 0,
+    "SNAPS": 109
+   }
+  },
+  {
+   "name": "A.Logan",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 66,
+    "YARDS": 2974,
+    "AVG": 45.1,
+    "NET YDS": 2974,
+    "NET AVG": 45.1,
+    "IN20": 32,
+    "TB": 6,
+    "LONG": 64,
+    "BLOCK": 0,
+    "SNAPS": 187
+   }
+  },
+  {
+   "name": "L.Dempsey",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 66,
+    "YARDS": 2744,
+    "AVG": 41.6,
+    "NET YDS": 2744,
+    "NET AVG": 41.6,
+    "IN20": 24,
+    "TB": 10,
+    "LONG": 63,
+    "BLOCK": 1,
+    "SNAPS": 205
+   }
+  },
+  {
+   "name": "T.Carrizosa",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 65,
+    "YARDS": 2888,
+    "AVG": 44.4,
+    "NET YDS": 2807,
+    "NET AVG": 43.2,
+    "IN20": 18,
+    "TB": 13,
+    "LONG": 65,
+    "BLOCK": 0,
+    "SNAPS": 194
+   }
+  },
+  {
+   "name": "B.Gibson",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 65,
+    "YARDS": 2913,
+    "AVG": 44.8,
+    "NET YDS": 2913,
+    "NET AVG": 44.8,
+    "IN20": 28,
+    "TB": 11,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 220
+   }
+  },
+  {
+   "name": "J.Wagenseller",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 11,
+    "PUNTS": 65,
+    "YARDS": 2755,
+    "AVG": 42.4,
+    "NET YDS": 2755,
+    "NET AVG": 42.4,
+    "IN20": 22,
+    "TB": 3,
+    "LONG": 62,
+    "BLOCK": 0,
+    "SNAPS": 156
+   }
+  },
+  {
+   "name": "T.Jacobsen",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 65,
+    "YARDS": 2736,
+    "AVG": 42.1,
+    "NET YDS": 2736,
+    "NET AVG": 42.1,
+    "IN20": 23,
+    "TB": 4,
+    "LONG": 62,
+    "BLOCK": 0,
+    "SNAPS": 122
+   }
+  },
+  {
+   "name": "T.Clifton",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 65,
+    "YARDS": 2806,
+    "AVG": 43.2,
+    "NET YDS": 2806,
+    "NET AVG": 43.2,
+    "IN20": 25,
+    "TB": 9,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 196
+   }
+  },
+  {
+   "name": "D.Church",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 65,
+    "YARDS": 2713,
+    "AVG": 41.7,
+    "NET YDS": 2713,
+    "NET AVG": 41.7,
+    "IN20": 20,
+    "TB": 4,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 119
+   }
+  },
+  {
+   "name": "J.O'Hearn",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 64,
+    "YARDS": 2803,
+    "AVG": 43.8,
+    "NET YDS": 2803,
+    "NET AVG": 43.8,
+    "IN20": 23,
+    "TB": 6,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 112
+   }
+  },
+  {
+   "name": "L.Ostrowski",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 64,
+    "YARDS": 2678,
+    "AVG": 41.8,
+    "NET YDS": 2638,
+    "NET AVG": 41.2,
+    "IN20": 22,
+    "TB": 6,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 176
+   }
+  },
+  {
+   "name": "B.Hargett",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 64,
+    "YARDS": 2547,
+    "AVG": 39.8,
+    "NET YDS": 2547,
+    "NET AVG": 39.8,
+    "IN20": 15,
+    "TB": 2,
+    "LONG": 62,
+    "BLOCK": 0,
+    "SNAPS": 123
+   }
+  },
+  {
+   "name": "E.Pulliam",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 64,
+    "YARDS": 2772,
+    "AVG": 43.3,
+    "NET YDS": 2772,
+    "NET AVG": 43.3,
+    "IN20": 27,
+    "TB": 6,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 126
+   }
+  },
+  {
+   "name": "J.Reynolds",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 64,
+    "YARDS": 2834,
+    "AVG": 44.3,
+    "NET YDS": 2834,
+    "NET AVG": 44.3,
+    "IN20": 22,
+    "TB": 10,
+    "LONG": 64,
+    "BLOCK": 0,
+    "SNAPS": 176
+   }
+  },
+  {
+   "name": "W.Drag",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 63,
+    "YARDS": 2581,
+    "AVG": 41.0,
+    "NET YDS": 2550,
+    "NET AVG": 40.5,
+    "IN20": 18,
+    "TB": 11,
+    "LONG": 60,
+    "BLOCK": 0,
+    "SNAPS": 150
+   }
+  },
+  {
+   "name": "B.Edmiston",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 63,
+    "YARDS": 2879,
+    "AVG": 45.7,
+    "NET YDS": 2848,
+    "NET AVG": 45.2,
+    "IN20": 21,
+    "TB": 10,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 195
+   }
+  },
+  {
+   "name": "C.Hogan",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 63,
+    "YARDS": 2734,
+    "AVG": 43.4,
+    "NET YDS": 2734,
+    "NET AVG": 43.4,
+    "IN20": 27,
+    "TB": 11,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 177
+   }
+  },
+  {
+   "name": "C.Steinkamp",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 63,
+    "YARDS": 2744,
+    "AVG": 43.6,
+    "NET YDS": 2722,
+    "NET AVG": 43.2,
+    "IN20": 23,
+    "TB": 9,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 177
+   }
+  },
+  {
+   "name": "L.Rau",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 63,
+    "YARDS": 2761,
+    "AVG": 43.8,
+    "NET YDS": 2761,
+    "NET AVG": 43.8,
+    "IN20": 21,
+    "TB": 8,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 179
+   }
+  },
+  {
+   "name": "M.Choules",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 62,
+    "YARDS": 2475,
+    "AVG": 39.9,
+    "NET YDS": 2475,
+    "NET AVG": 39.9,
+    "IN20": 18,
+    "TB": 6,
+    "LONG": 61,
+    "BLOCK": 0,
+    "SNAPS": 123
+   }
+  },
+  {
+   "name": "J.Horvath",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 62,
+    "YARDS": 2649,
+    "AVG": 42.7,
+    "NET YDS": 2649,
+    "NET AVG": 42.7,
+    "IN20": 20,
+    "TB": 8,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 102
+   }
+  },
+  {
+   "name": "K.Reynoldson",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 62,
+    "YARDS": 2731,
+    "AVG": 44.0,
+    "NET YDS": 2731,
+    "NET AVG": 44.0,
+    "IN20": 29,
+    "TB": 9,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 190
+   }
+  },
+  {
+   "name": "C.Teeter",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 62,
+    "YARDS": 2729,
+    "AVG": 44.0,
+    "NET YDS": 2729,
+    "NET AVG": 44.0,
+    "IN20": 19,
+    "TB": 13,
+    "LONG": 62,
+    "BLOCK": 0,
+    "SNAPS": 163
+   }
+  },
+  {
+   "name": "G.Russo",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 62,
+    "YARDS": 2697,
+    "AVG": 43.5,
+    "NET YDS": 2697,
+    "NET AVG": 43.5,
+    "IN20": 29,
+    "TB": 6,
+    "LONG": 62,
+    "BLOCK": 0,
+    "SNAPS": 128
+   }
+  },
+  {
+   "name": "B.Snyder",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 61,
+    "YARDS": 2720,
+    "AVG": 44.6,
+    "NET YDS": 2720,
+    "NET AVG": 44.6,
+    "IN20": 19,
+    "TB": 8,
+    "LONG": 62,
+    "BLOCK": 0,
+    "SNAPS": 168
+   }
+  },
+  {
+   "name": "O.Phillips",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 60,
+    "YARDS": 2679,
+    "AVG": 44.7,
+    "NET YDS": 2679,
+    "NET AVG": 44.7,
+    "IN20": 23,
+    "TB": 8,
+    "LONG": 60,
+    "BLOCK": 0,
+    "SNAPS": 123
+   }
+  },
+  {
+   "name": "N.Sutcliffe",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 60,
+    "YARDS": 2657,
+    "AVG": 44.3,
+    "NET YDS": 2657,
+    "NET AVG": 44.3,
+    "IN20": 19,
+    "TB": 6,
+    "LONG": 62,
+    "BLOCK": 0,
+    "SNAPS": 109
+   }
+  },
+  {
+   "name": "A.Colbert",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 60,
+    "YARDS": 2541,
+    "AVG": 42.3,
+    "NET YDS": 2541,
+    "NET AVG": 42.3,
+    "IN20": 20,
+    "TB": 5,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 140
+   }
+  },
+  {
+   "name": "S.O'Lennon",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 60,
+    "YARDS": 2638,
+    "AVG": 44.0,
+    "NET YDS": 2638,
+    "NET AVG": 44.0,
+    "IN20": 22,
+    "TB": 13,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 122
+   }
+  },
+  {
+   "name": "A.Smith",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 60,
+    "YARDS": 2638,
+    "AVG": 44.0,
+    "NET YDS": 2545,
+    "NET AVG": 42.4,
+    "IN20": 20,
+    "TB": 9,
+    "LONG": 64,
+    "BLOCK": 0,
+    "SNAPS": 188
+   }
+  },
+  {
+   "name": "C.Stumbaugh",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 60,
+    "YARDS": 2614,
+    "AVG": 43.6,
+    "NET YDS": 2599,
+    "NET AVG": 43.3,
+    "IN20": 27,
+    "TB": 9,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 174
+   }
+  },
+  {
+   "name": "M.Duff",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 60,
+    "YARDS": 2608,
+    "AVG": 43.5,
+    "NET YDS": 2587,
+    "NET AVG": 43.1,
+    "IN20": 20,
+    "TB": 6,
+    "LONG": 62,
+    "BLOCK": 0,
+    "SNAPS": 175
+   }
+  },
+  {
+   "name": "A.Bertrams",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 60,
+    "YARDS": 2657,
+    "AVG": 44.3,
+    "NET YDS": 2657,
+    "NET AVG": 44.3,
+    "IN20": 20,
+    "TB": 4,
+    "LONG": 64,
+    "BLOCK": 0,
+    "SNAPS": 123
+   }
+  },
+  {
+   "name": "D.Gladden",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 60,
+    "YARDS": 2601,
+    "AVG": 43.3,
+    "NET YDS": 2601,
+    "NET AVG": 43.3,
+    "IN20": 23,
+    "TB": 3,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 179
+   }
+  },
+  {
+   "name": "O.Doyle",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 59,
+    "YARDS": 2626,
+    "AVG": 44.5,
+    "NET YDS": 2625,
+    "NET AVG": 44.5,
+    "IN20": 22,
+    "TB": 6,
+    "LONG": 64,
+    "BLOCK": 0,
+    "SNAPS": 128
+   }
+  },
+  {
+   "name": "J.McGuire",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 59,
+    "YARDS": 2622,
+    "AVG": 44.4,
+    "NET YDS": 2622,
+    "NET AVG": 44.4,
+    "IN20": 18,
+    "TB": 11,
+    "LONG": 64,
+    "BLOCK": 0,
+    "SNAPS": 127
+   }
+  },
+  {
+   "name": "P.Clayton",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 59,
+    "YARDS": 2637,
+    "AVG": 44.7,
+    "NET YDS": 2637,
+    "NET AVG": 44.7,
+    "IN20": 16,
+    "TB": 10,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 112
+   }
+  },
+  {
+   "name": "P.Williams",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 58,
+    "YARDS": 2503,
+    "AVG": 43.2,
+    "NET YDS": 2503,
+    "NET AVG": 43.2,
+    "IN20": 16,
+    "TB": 6,
+    "LONG": 65,
+    "BLOCK": 0,
+    "SNAPS": 200
+   }
+  },
+  {
+   "name": "W.Hudlow",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 58,
+    "YARDS": 2518,
+    "AVG": 43.4,
+    "NET YDS": 2518,
+    "NET AVG": 43.4,
+    "IN20": 16,
+    "TB": 8,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 119
+   }
+  },
+  {
+   "name": "M.Tulen",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 58,
+    "YARDS": 2467,
+    "AVG": 42.5,
+    "NET YDS": 2467,
+    "NET AVG": 42.5,
+    "IN20": 16,
+    "TB": 8,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 112
+   }
+  },
+  {
+   "name": "P.West",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 58,
+    "YARDS": 2592,
+    "AVG": 44.7,
+    "NET YDS": 2592,
+    "NET AVG": 44.7,
+    "IN20": 22,
+    "TB": 10,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 107
+   }
+  },
+  {
+   "name": "E.Barton",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 58,
+    "YARDS": 2477,
+    "AVG": 42.7,
+    "NET YDS": 2477,
+    "NET AVG": 42.7,
+    "IN20": 16,
+    "TB": 9,
+    "LONG": 64,
+    "BLOCK": 0,
+    "SNAPS": 177
+   }
+  },
+  {
+   "name": "J.Castle",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 58,
+    "YARDS": 2510,
+    "AVG": 43.3,
+    "NET YDS": 2414,
+    "NET AVG": 41.6,
+    "IN20": 22,
+    "TB": 7,
+    "LONG": 61,
+    "BLOCK": 0,
+    "SNAPS": 107
+   }
+  },
+  {
+   "name": "W.McSparron",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 57,
+    "YARDS": 2492,
+    "AVG": 43.7,
+    "NET YDS": 2492,
+    "NET AVG": 43.7,
+    "IN20": 19,
+    "TB": 11,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 125
+   }
+  },
+  {
+   "name": "D.Joyce",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 57,
+    "YARDS": 2594,
+    "AVG": 45.5,
+    "NET YDS": 2572,
+    "NET AVG": 45.1,
+    "IN20": 25,
+    "TB": 6,
+    "LONG": 65,
+    "BLOCK": 0,
+    "SNAPS": 184
+   }
+  },
+  {
+   "name": "J.Chapman",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 57,
+    "YARDS": 2444,
+    "AVG": 42.9,
+    "NET YDS": 2444,
+    "NET AVG": 42.9,
+    "IN20": 18,
+    "TB": 6,
+    "LONG": 64,
+    "BLOCK": 0,
+    "SNAPS": 109
+   }
+  },
+  {
+   "name": "J.Cupitt",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 57,
+    "YARDS": 2318,
+    "AVG": 40.7,
+    "NET YDS": 2318,
+    "NET AVG": 40.7,
+    "IN20": 20,
+    "TB": 7,
+    "LONG": 64,
+    "BLOCK": 0,
+    "SNAPS": 177
+   }
+  },
+  {
+   "name": "C.Venable",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 57,
+    "YARDS": 2519,
+    "AVG": 44.2,
+    "NET YDS": 2437,
+    "NET AVG": 42.8,
+    "IN20": 17,
+    "TB": 12,
+    "LONG": 62,
+    "BLOCK": 0,
+    "SNAPS": 173
+   }
+  },
+  {
+   "name": "B.Hansen",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 57,
+    "YARDS": 2615,
+    "AVG": 45.9,
+    "NET YDS": 2615,
+    "NET AVG": 45.9,
+    "IN20": 17,
+    "TB": 12,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 178
+   }
+  },
+  {
+   "name": "D.Addington",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 56,
+    "YARDS": 2382,
+    "AVG": 42.5,
+    "NET YDS": 2382,
+    "NET AVG": 42.5,
+    "IN20": 19,
+    "TB": 5,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 124
+   }
+  },
+  {
+   "name": "G.Miller",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 56,
+    "YARDS": 2506,
+    "AVG": 44.8,
+    "NET YDS": 2506,
+    "NET AVG": 44.8,
+    "IN20": 26,
+    "TB": 5,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 123
+   }
+  },
+  {
+   "name": "J.Smith",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 56,
+    "YARDS": 2452,
+    "AVG": 43.8,
+    "NET YDS": 2452,
+    "NET AVG": 43.8,
+    "IN20": 20,
+    "TB": 8,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 124
+   }
+  },
+  {
+   "name": "H.Green",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 56,
+    "YARDS": 2537,
+    "AVG": 45.3,
+    "NET YDS": 2537,
+    "NET AVG": 45.3,
+    "IN20": 25,
+    "TB": 3,
+    "LONG": 64,
+    "BLOCK": 0,
+    "SNAPS": 190
+   }
+  },
+  {
+   "name": "S.Burns",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 55,
+    "YARDS": 2322,
+    "AVG": 42.2,
+    "NET YDS": 2322,
+    "NET AVG": 42.2,
+    "IN20": 19,
+    "TB": 5,
+    "LONG": 64,
+    "BLOCK": 0,
+    "SNAPS": 175
+   }
+  },
+  {
+   "name": "J.Waller",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 55,
+    "YARDS": 2327,
+    "AVG": 42.3,
+    "NET YDS": 2327,
+    "NET AVG": 42.3,
+    "IN20": 28,
+    "TB": 9,
+    "LONG": 62,
+    "BLOCK": 0,
+    "SNAPS": 103
+   }
+  },
+  {
+   "name": "B.Ettridge",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 55,
+    "YARDS": 2434,
+    "AVG": 44.3,
+    "NET YDS": 2434,
+    "NET AVG": 44.3,
+    "IN20": 22,
+    "TB": 6,
+    "LONG": 64,
+    "BLOCK": 0,
+    "SNAPS": 201
+   }
+  },
+  {
+   "name": "B.Lambert",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 55,
+    "YARDS": 2455,
+    "AVG": 44.6,
+    "NET YDS": 2455,
+    "NET AVG": 44.6,
+    "IN20": 14,
+    "TB": 9,
+    "LONG": 64,
+    "BLOCK": 0,
+    "SNAPS": 230
+   }
+  },
+  {
+   "name": "J.Baker",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 55,
+    "YARDS": 2352,
+    "AVG": 42.8,
+    "NET YDS": 2352,
+    "NET AVG": 42.8,
+    "IN20": 19,
+    "TB": 4,
+    "LONG": 62,
+    "BLOCK": 0,
+    "SNAPS": 185
+   }
+  },
+  {
+   "name": "A.Clark",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 54,
+    "YARDS": 2464,
+    "AVG": 45.6,
+    "NET YDS": 2464,
+    "NET AVG": 45.6,
+    "IN20": 17,
+    "TB": 8,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 182
+   }
+  },
+  {
+   "name": "A.Patton",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 54,
+    "YARDS": 2355,
+    "AVG": 43.6,
+    "NET YDS": 2355,
+    "NET AVG": 43.6,
+    "IN20": 21,
+    "TB": 6,
+    "LONG": 62,
+    "BLOCK": 0,
+    "SNAPS": 128
+   }
+  },
+  {
+   "name": "M.Dean",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 54,
+    "YARDS": 2323,
+    "AVG": 43.0,
+    "NET YDS": 2323,
+    "NET AVG": 43.0,
+    "IN20": 27,
+    "TB": 3,
+    "LONG": 62,
+    "BLOCK": 0,
+    "SNAPS": 114
+   }
+  },
+  {
+   "name": "B.Bradshaw",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 54,
+    "YARDS": 2454,
+    "AVG": 45.4,
+    "NET YDS": 2454,
+    "NET AVG": 45.4,
+    "IN20": 25,
+    "TB": 4,
+    "LONG": 65,
+    "BLOCK": 0,
+    "SNAPS": 193
+   }
+  },
+  {
+   "name": "C.Bench",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 54,
+    "YARDS": 2265,
+    "AVG": 41.9,
+    "NET YDS": 2265,
+    "NET AVG": 41.9,
+    "IN20": 17,
+    "TB": 5,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 117
+   }
+  },
+  {
+   "name": "B.McFerson",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 54,
+    "YARDS": 2455,
+    "AVG": 45.5,
+    "NET YDS": 2455,
+    "NET AVG": 45.5,
+    "IN20": 18,
+    "TB": 8,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 166
+   }
+  },
+  {
+   "name": "M.Richmond",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 54,
+    "YARDS": 2371,
+    "AVG": 43.9,
+    "NET YDS": 2371,
+    "NET AVG": 43.9,
+    "IN20": 16,
+    "TB": 14,
+    "LONG": 62,
+    "BLOCK": 0,
+    "SNAPS": 174
+   }
+  },
+  {
+   "name": "M.Love",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 54,
+    "YARDS": 2298,
+    "AVG": 42.6,
+    "NET YDS": 2298,
+    "NET AVG": 42.6,
+    "IN20": 13,
+    "TB": 8,
+    "LONG": 62,
+    "BLOCK": 0,
+    "SNAPS": 180
+   }
+  },
+  {
+   "name": "L.Carrigan",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 53,
+    "YARDS": 2326,
+    "AVG": 43.9,
+    "NET YDS": 2326,
+    "NET AVG": 43.9,
+    "IN20": 18,
+    "TB": 5,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 124
+   }
+  },
+  {
+   "name": "N.Dugandzic",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 53,
+    "YARDS": 2339,
+    "AVG": 44.1,
+    "NET YDS": 2339,
+    "NET AVG": 44.1,
+    "IN20": 19,
+    "TB": 6,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 113
+   }
+  },
+  {
+   "name": "D.Sparks",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 53,
+    "YARDS": 2298,
+    "AVG": 43.4,
+    "NET YDS": 2298,
+    "NET AVG": 43.4,
+    "IN20": 17,
+    "TB": 4,
+    "LONG": 64,
+    "BLOCK": 0,
+    "SNAPS": 187
+   }
+  },
+  {
+   "name": "J.Chamberlain",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 53,
+    "YARDS": 2335,
+    "AVG": 44.1,
+    "NET YDS": 2335,
+    "NET AVG": 44.1,
+    "IN20": 20,
+    "TB": 6,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 185
+   }
+  },
+  {
+   "name": "D.Thomas-Baker",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 53,
+    "YARDS": 2427,
+    "AVG": 45.8,
+    "NET YDS": 2427,
+    "NET AVG": 45.8,
+    "IN20": 26,
+    "TB": 7,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 124
+   }
+  },
+  {
+   "name": "A.Davies",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 53,
+    "YARDS": 2274,
+    "AVG": 42.9,
+    "NET YDS": 2274,
+    "NET AVG": 42.9,
+    "IN20": 14,
+    "TB": 5,
+    "LONG": 64,
+    "BLOCK": 0,
+    "SNAPS": 184
+   }
+  },
+  {
+   "name": "J.Scaife",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 52,
+    "YARDS": 2294,
+    "AVG": 44.1,
+    "NET YDS": 2294,
+    "NET AVG": 44.1,
+    "IN20": 17,
+    "TB": 12,
+    "LONG": 60,
+    "BLOCK": 0,
+    "SNAPS": 116
+   }
+  },
+  {
+   "name": "G.Rush",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 52,
+    "YARDS": 2312,
+    "AVG": 44.5,
+    "NET YDS": 2312,
+    "NET AVG": 44.5,
+    "IN20": 16,
+    "TB": 2,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 111
+   }
+  },
+  {
+   "name": "M.Fletcher",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 52,
+    "YARDS": 2229,
+    "AVG": 42.9,
+    "NET YDS": 2229,
+    "NET AVG": 42.9,
+    "IN20": 19,
+    "TB": 6,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 188
+   }
+  },
+  {
+   "name": "J.Chance",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 51,
+    "YARDS": 2156,
+    "AVG": 42.3,
+    "NET YDS": 2156,
+    "NET AVG": 42.3,
+    "IN20": 13,
+    "TB": 8,
+    "LONG": 61,
+    "BLOCK": 0,
+    "SNAPS": 212
+   }
+  },
+  {
+   "name": "N.Totten",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 51,
+    "YARDS": 2146,
+    "AVG": 42.1,
+    "NET YDS": 2146,
+    "NET AVG": 42.1,
+    "IN20": 20,
+    "TB": 4,
+    "LONG": 62,
+    "BLOCK": 0,
+    "SNAPS": 117
+   }
+  },
+  {
+   "name": "R.Phillips",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 51,
+    "YARDS": 2344,
+    "AVG": 46.0,
+    "NET YDS": 2344,
+    "NET AVG": 46.0,
+    "IN20": 28,
+    "TB": 2,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 118
+   }
+  },
+  {
+   "name": "D.Hughes",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 51,
+    "YARDS": 2103,
+    "AVG": 41.2,
+    "NET YDS": 2103,
+    "NET AVG": 41.2,
+    "IN20": 18,
+    "TB": 8,
+    "LONG": 61,
+    "BLOCK": 0,
+    "SNAPS": 188
+   }
+  },
+  {
+   "name": "J.Ross",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 50,
+    "YARDS": 2231,
+    "AVG": 44.6,
+    "NET YDS": 2231,
+    "NET AVG": 44.6,
+    "IN20": 16,
+    "TB": 9,
+    "LONG": 62,
+    "BLOCK": 0,
+    "SNAPS": 124
+   }
+  },
+  {
+   "name": "L.Dougherty",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 50,
+    "YARDS": 2269,
+    "AVG": 45.4,
+    "NET YDS": 2269,
+    "NET AVG": 45.4,
+    "IN20": 22,
+    "TB": 9,
+    "LONG": 64,
+    "BLOCK": 0,
+    "SNAPS": 165
+   }
+  },
+  {
+   "name": "L.Pozzobon",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 50,
+    "YARDS": 2224,
+    "AVG": 44.5,
+    "NET YDS": 2224,
+    "NET AVG": 44.5,
+    "IN20": 17,
+    "TB": 8,
+    "LONG": 61,
+    "BLOCK": 0,
+    "SNAPS": 110
+   }
+  },
+  {
+   "name": "O.Bird",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 49,
+    "YARDS": 2146,
+    "AVG": 43.8,
+    "NET YDS": 2146,
+    "NET AVG": 43.8,
+    "IN20": 22,
+    "TB": 7,
+    "LONG": 64,
+    "BLOCK": 0,
+    "SNAPS": 134
+   }
+  },
+  {
+   "name": "N.Vallow",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 48,
+    "YARDS": 2208,
+    "AVG": 46.0,
+    "NET YDS": 2208,
+    "NET AVG": 46.0,
+    "IN20": 18,
+    "TB": 5,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 121
+   }
+  },
+  {
+   "name": "T.Flintoff",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 47,
+    "YARDS": 1943,
+    "AVG": 41.3,
+    "NET YDS": 1943,
+    "NET AVG": 41.3,
+    "IN20": 12,
+    "TB": 10,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 110
+   }
+  },
+  {
+   "name": "J.Rence",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 46,
+    "YARDS": 2007,
+    "AVG": 43.6,
+    "NET YDS": 2007,
+    "NET AVG": 43.6,
+    "IN20": 17,
+    "TB": 7,
+    "LONG": 64,
+    "BLOCK": 0,
+    "SNAPS": 186
+   }
+  },
+  {
+   "name": "I.Rogers",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 44,
+    "YARDS": 1938,
+    "AVG": 44.0,
+    "NET YDS": 1938,
+    "NET AVG": 44.0,
+    "IN20": 17,
+    "TB": 7,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 125
+   }
+  },
+  {
+   "name": "E.Jenson",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 43,
+    "YARDS": 1930,
+    "AVG": 44.9,
+    "NET YDS": 1930,
+    "NET AVG": 44.9,
+    "IN20": 12,
+    "TB": 7,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 220
+   }
+  },
+  {
+   "name": "M.Shenouda",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 42,
+    "YARDS": 1840,
+    "AVG": 43.8,
+    "NET YDS": 1840,
+    "NET AVG": 43.8,
+    "IN20": 14,
+    "TB": 7,
+    "LONG": 63,
+    "BLOCK": 0,
+    "SNAPS": 113
+   }
+  },
+  {
+   "name": "N.Orr",
+   "pos": "P",
+   "team": null,
+   "values": {
+    "GP": 12,
+    "PUNTS": 37,
+    "YARDS": 1646,
+    "AVG": 44.5,
+    "NET YDS": 1646,
+    "NET AVG": 44.5,
+    "IN20": 16,
+    "TB": 8,
+    "LONG": 63,
+    "BLOCK": 1,
+    "SNAPS": 112
+   }
+  },
+  {
+   "name": "D.Duley",
+   "pos": "P",
+   "team": "Central Michigan",
+   "values": {
+    "GP": 12,
+    "PUNTS": 36,
+    "YARDS": 1623,
+    "AVG": 45.1,
+    "NET YDS": 1372,
+    "NET AVG": 38.1,
+    "IN20": 11,
+    "TB": 7,
+    "LONG": 60,
+    "BLOCK": 0,
+    "SNAPS": 67
+   }
+  },
+  {
+   "name": "R.Millmore",
+   "pos": "P",
+   "team": "Western Michigan",
+   "values": {
+    "GP": 11,
+    "PUNTS": 26,
+    "YARDS": 1121,
+    "AVG": 43.1,
+    "NET YDS": 859,
+    "NET AVG": 33.0,
+    "IN20": 5,
+    "TB": 6,
+    "LONG": 56,
+    "BLOCK": 0,
+    "SNAPS": 82
+   }
+  },
+  {
+   "name": "D.Hull",
+   "pos": "P",
+   "team": "Eastern Michigan",
+   "values": {
+    "GP": 12,
+    "PUNTS": 25,
+    "YARDS": 1165,
+    "AVG": 46.6,
+    "NET YDS": 921,
+    "NET AVG": 36.8,
+    "IN20": 5,
+    "TB": 5,
+    "LONG": 59,
+    "BLOCK": 0,
+    "SNAPS": 37
+   }
+  }
+ ]
+}

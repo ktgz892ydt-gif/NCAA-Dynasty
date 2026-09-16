@@ -50,10 +50,34 @@ class LeaderTests(unittest.TestCase):
         self.assertEqual(self.leaders['PUNT RETURN']['rows'][0]['name'], 'J.Ruffin Jr.')
 
     def test_teams_are_not_guessed(self):
+        allowed = (None, 'Buffalo', 'New Mexico',
+                   'Western Michigan', 'Eastern Michigan', 'Central Michigan')
         for category, block in self.leaders.items():
             if category in self.sources:
                 for row in block['rows']:
-                    self.assertIn(row['team'], (None, 'Buffalo', 'New Mexico'), category)
+                    self.assertIn(row['team'], allowed, category)
+
+    def test_the_three_punters_are_identified_by_a_unique_punt_count(self):
+        """The complete 138-punter field is what makes the attribution safe."""
+        rows = self.leaders['PUNTING']['rows']
+        self.assertEqual(len(rows), 138)
+        by_team = {r['team']: r for r in rows if r['team']}
+        self.assertEqual(set(by_team), {'Western Michigan', 'Eastern Michigan', 'Central Michigan'})
+        for team, punts in [('Central Michigan', 36), ('Western Michigan', 26),
+                            ('Eastern Michigan', 25)]:
+            self.assertEqual(by_team[team]['values']['PUNTS'], punts)
+            # exactly one punter in the whole country has that count
+            self.assertEqual(sum(r['values']['PUNTS'] == punts for r in rows), 1, team)
+        # and they agree with the season inputs the site computes from
+        source = json.loads((ROOT / 'data/verified-inputs-2026.json').read_text())
+        for short, full in [('W. Michigan', 'Western Michigan'),
+                            ('E. Michigan', 'Eastern Michigan'),
+                            ('C. Michigan', 'Central Michigan')]:
+            entered = source['punters'][short]
+            self.assertEqual(entered['name'], by_team[full]['name'])
+            self.assertEqual(entered['punts'], by_team[full]['values']['PUNTS'])
+            self.assertEqual(entered['yards'], by_team[full]['values']['YARDS'])
+            self.assertEqual(entered['blocked'], by_team[full]['values']['BLOCK'])
 
     def test_repeat_apply_is_stable(self):
         once = apply(copy.deepcopy(self.data), list(self.sources.values()))

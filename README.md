@@ -63,14 +63,20 @@ from the per-game box scores exist for these three schools alone.
 | Category | Rows | Source | Complete |
 |---|---|---|---|
 | DEFENSE | 400 | IMG_5215.MOV | yes, scrolled to the last row |
+| PUNTING | 138 | IMG_5220 + IMG_5221.MOV | yes — exactly one punter per FBS team |
 | KICK RETURN | 313 | IMG_5222–5250.HEIC, 29 stills | yes, last still ends on the final row |
 | PUNT RETURN | 23 | IMG_5251–5252.HEIC, 2 stills | **no** — only two stills exist |
-| PASSING, RUSHING, RECEIVING, BLOCKING, KICKING, PUNTING | 12 each | not yet transcribed | no |
+| PASSING, RUSHING, RECEIVING, BLOCKING, KICKING | 12 each | not yet transcribed | no |
 
 Each category's rows, provenance and arithmetic identities live in its own file under
 `data/leaders-2026/`. `scripts/update_leaders.py` writes them into DATA and re-derives every
 identity the screen prints on every row; `scripts/test_leaders.py` covers the invariants,
 the completeness flags and the refusal to guess teams.
+
+The complete punting list also confirms the Eastern punter: the last three rows are D.Duley 36,
+R.Millmore 26 and D.Hull 25, each count unique among all 138 punters and printed on screen rather
+than inferred. All three are attributed to their schools, and a test cross-checks them against
+`data/verified-inputs-2026.json`.
 
 Punt returns are the one category the source set cannot complete: two photographs exist and the
 list continues past them. Categories still at 12 rows have long recordings that simply have not
