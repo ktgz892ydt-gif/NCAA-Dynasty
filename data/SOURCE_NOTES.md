@@ -133,3 +133,13 @@ That settles an earlier correction that had rested on inference. The site's quar
 ## Final CFP rankings
 
 Reported by the dynasty owner: **Central Michigan 22nd, Western Michigan 23rd, Eastern Michigan unranked.** Master treats Conference Champion, Bowl Result and Final CFP Ranking as user-entered, and no screen in the source set records any of them. With these three the Results group is complete, and the only blank rows left on the page are Tackles for Loss, Defensive Touchdowns and special-teams TDs.
+
+## Rushing
+
+The national RUSHING leaderboard is complete at **400 players**, the same cap the defensive list hits, ending at F. Meadows on 145 yards. Thirteen columns span IMG_5210 (GP through LONG) and IMG_5211 (TD rightwards to SNAPS); the six columns they share agree row for row and both keep the NAME column, so all 400 merged by name in order.
+
+Three identities hold on every row: AVG is yards per carry, AVG G yards per game, FUM% fumbles per carry.
+
+Two things are worth recording about method. Frames were read in **stitched pairs** — two consecutive screenfuls side by side in one image — which roughly halves the number of reads without losing legibility. And for the columns the screen derives nothing from (SNAPS, BTK, YAC, 20+, LONG) the overlap between frames is the *only* check; it earned its place by catching J. White's snap count, read once as 870 and confirmed at full resolution as 670.
+
+The strongest validation is external: **87 players appear in both this list and the passing list, and their snap counts agree on all 87.** Two independently transcribed datasets, 592 rows between them, with no disagreement. Note that the check must key on name *and* position — three abbreviated names (J. Lewis, B. Brown, C. Brown) belong to a quarterback and a separate running back, and keying on name alone makes them look like errors.
