@@ -80,6 +80,37 @@ class LeaderTests(unittest.TestCase):
             self.assertEqual(entered['yards'], by_team[full]['values']['YARDS'])
             self.assertEqual(entered['blocked'], by_team[full]['values']['BLOCK'])
 
+    def test_snaps_agree_across_categories(self):
+        """A player's snap count is one number, however many leaderboards he reaches.
+
+        This is the strongest check available on the columns the screens derive
+        nothing from: the categories were transcribed independently, so agreement
+        is evidence about both. The exceptions are not errors - the game prints
+        an initial and a surname, so a handful of name-and-position keys cover
+        two different players.
+        """
+        from collections import defaultdict
+        per = defaultdict(lambda: defaultdict(set))
+        for category, block in self.leaders.items():
+            if 'SNAPS' not in block['columns']:
+                continue
+            for row in block['rows']:
+                per[(row['name'], row['pos'])][category].add(row['values']['SNAPS'])
+        shared = {k: v for k, v in per.items() if len(v) > 1}
+        self.assertGreater(len(shared), 150)
+        consistent = [k for k, v in shared.items() if set.intersection(*v.values())]
+        self.assertGreater(len(consistent) / len(shared), 0.9)
+
+    def test_dual_returners_agree_between_the_two_return_lists(self):
+        kr = {(r['name'], r['pos']): r['values']['SNAPS']
+              for r in self.leaders['KICK RETURN']['rows']}
+        pr = {(r['name'], r['pos']): r['values']['SNAPS']
+              for r in self.leaders['PUNT RETURN']['rows']}
+        both = set(kr) & set(pr)
+        self.assertGreater(len(both), 5)
+        for key in both:
+            self.assertEqual(kr[key], pr[key], key)
+
     def test_repeat_apply_is_stable(self):
         once = apply(copy.deepcopy(self.data), list(self.sources.values()))
         twice = apply(copy.deepcopy(once), list(self.sources.values()))

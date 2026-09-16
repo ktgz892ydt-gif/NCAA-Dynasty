@@ -143,3 +143,13 @@ Three identities hold on every row: AVG is yards per carry, AVG G yards per game
 Two things are worth recording about method. Frames were read in **stitched pairs** — two consecutive screenfuls side by side in one image — which roughly halves the number of reads without losing legibility. And for the columns the screen derives nothing from (SNAPS, BTK, YAC, 20+, LONG) the overlap between frames is the *only* check; it earned its place by catching J. White's snap count, read once as 870 and confirmed at full resolution as 670.
 
 The strongest validation is external: **87 players appear in both this list and the passing list, and their snap counts agree on all 87.** Two independently transcribed datasets, 592 rows between them, with no disagreement. Note that the check must key on name *and* position — three abbreviated names (J. Lewis, B. Brown, C. Brown) belong to a quarterback and a separate running back, and keying on name alone makes them look like errors.
+
+## Receiving, and a cross-category check on snaps
+
+The national RECEIVING leaderboard is complete at **400 players**, the same cap the defensive and rushing lists hit, ending at K. Reynolds on 482 yards. Eleven columns span IMG_5212 (GP through DROPS) and IMG_5213 (YARDS rightwards, plus SNAPS). Because the second screen repeats the yardage, the merge is pinned on name *and* receiving yards at every row rather than on name alone.
+
+Three identities hold on all 400: AVG is yards per reception, AVG G yards per game, RAC AVG yards after the catch per reception.
+
+With eight categories transcribed there is now a check that spans them. A player's snap count is one number however many leaderboards he reaches, and the categories were read independently. **177 name-and-position keys appear in more than one list, and 161 carry the same snap count in every one.** The sixteen that differ are not errors: the game prints an initial and a surname, so a key like "T.Brown WR" covers three different players, and "M.James HB" is a running back in one list and the dual returner — consistent at 89 snaps across both return screens — in the others. `scripts/test_leaders.py` asserts the consistent share stays above ninety per cent and, separately, that every player appearing on both return lists carries an identical snap count.
+
+**BLOCKING remains untranscribed on purpose.** Its three columns are GP, SACK and SNAPS; nothing is derived from anything, so a misreading could not be caught by any of the methods used everywhere else. It is also sorted ascending with hundreds of ties on zero sacks, which makes even the ordering check close to worthless. Capturing it usefully needs a different approach, not more reading.

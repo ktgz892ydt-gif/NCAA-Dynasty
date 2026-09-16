@@ -67,9 +67,10 @@ from the per-game box scores exist for these three schools alone.
 | KICKING | 138 | IMG_5217 + 5218 + 5219.MOV | yes — one kicker per FBS team |
 | PASSING | 192 | IMG_5208 + IMG_5209.MOV | yes — every player who attempted a pass |
 | RUSHING | 400 | IMG_5210 + IMG_5211.MOV | yes — same 400 cap as DEFENSE |
+| RECEIVING | 400 | IMG_5212 + IMG_5213.MOV | yes — same 400 cap |
 | KICK RETURN | 313 | IMG_5222–5250.HEIC, 29 stills | yes, last still ends on the final row |
 | PUNT RETURN | 23 | IMG_5251–5252.HEIC, 2 stills | **no** — only two stills exist |
-| RECEIVING, BLOCKING | 12 each | not yet transcribed | no |
+| BLOCKING | 12 | not transcribed — see below | no |
 
 Each category's rows, provenance and arithmetic identities live in its own file under
 `data/leaders-2026/`. `scripts/update_leaders.py` writes them into DATA and re-derives every
@@ -80,6 +81,16 @@ The complete punting list also confirms the Eastern punter: the last three rows 
 R.Millmore 26 and D.Hull 25, each count unique among all 138 punters and printed on screen rather
 than inferred. All three are attributed to their schools, and a test cross-checks them against
 `data/verified-inputs-2026.json`.
+
+**Blocking is the one category deliberately left alone.** Its three columns (GP, SACK, SNAPS)
+derive nothing from one another, so a misread would be undetectable — every other category is
+validated by re-deriving the figures the screen prints. It is also sorted ascending with hundreds
+of ties on zero sacks, so even the ordering check is nearly useless there.
+
+**Snap counts agree across categories.** 177 name-and-position keys appear in more than one
+leaderboard, and 161 carry the same snap count in every one — transcribed independently, days
+apart, with no disagreement. The 16 exceptions are name collisions rather than errors: the game
+prints an initial and a surname, so "T.Brown WR" covers three different players.
 
 Punt returns are the one category the source set cannot complete: two photographs exist and the
 list continues past them. Categories still at 12 rows have long recordings that simply have not
