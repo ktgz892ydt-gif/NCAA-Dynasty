@@ -153,3 +153,15 @@ Three identities hold on all 400: AVG is yards per reception, AVG G yards per ga
 With eight categories transcribed there is now a check that spans them. A player's snap count is one number however many leaderboards he reaches, and the categories were read independently. **177 name-and-position keys appear in more than one list, and 161 carry the same snap count in every one.** The sixteen that differ are not errors: the game prints an initial and a surname, so a key like "T.Brown WR" covers three different players, and "M.James HB" is a running back in one list and the dual returner — consistent at 89 snaps across both return screens — in the others. `scripts/test_leaders.py` asserts the consistent share stays above ninety per cent and, separately, that every player appearing on both return lists carries an identical snap count.
 
 **BLOCKING remains untranscribed on purpose.** Its three columns are GP, SACK and SNAPS; nothing is derived from anything, so a misreading could not be caught by any of the methods used everywhere else. It is also sorted ascending with hundreds of ties on zero sacks, which makes even the ordering check close to worthless. Capturing it usefully needs a different approach, not more reading.
+
+## Opponent-adjusted efficiency
+
+`scripts/update_efficiency.py` decomposes scoring into an offensive and a defensive rating for all 143 teams, solved together across the 888-game scoreboard. It adds no new source material: the scoreboard, the team list and the home-field estimate were all already in DATA.
+
+The solve is alternating least squares, each sweep exact for the side being updated, with offence and defence recentred on zero so the model's two-dimensional null space is fixed and the level stays in the league mean. It converges in 80 sweeps; residual RMSE is 8.83 points per team-game, which is about what a points model should leave once schedule is removed.
+
+**The check that matters:** AdjO − AdjD is algebraically SRS, and SRS was computed independently by the dynasty owner's own ratings script using a direct least-squares solve. The two agree to **5 × 10⁻¹³ points** for every one of the 143 teams against the full-precision export in `data/srs-2026.json`, and exactly at the two decimals DATA stores. Two different methods, two different code paths, same answer.
+
+Because of that identity the margin is deliberately **not** published as its own statistic — it would be SRS under a second name. Only AdjO and AdjD reach the page, on each summary card and in the Results group after MOV. `adjem` stays on the ratings rows purely so the agreement can be asserted in `scripts/test_efficiency.py`.
+
+Pace is not normalised, and cannot be: no national screen carries punts or field-goal attempts, so league-wide drives are unavailable — the same limitation already recorded for Explosiveness. The ratings are per game and say so in `DATA.effMethod`.

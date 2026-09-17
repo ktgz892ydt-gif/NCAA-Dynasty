@@ -150,7 +150,7 @@ def reconcile(d, source):
     # Union, so a rebuild of an already-pruned site keeps the record.
     notes['dropped_player_rows'] = sorted(set(notes.get('dropped_player_rows', [])) | set(unsupported))
 
-    # These four already head every team's summary card, so the stat table does not
+    # These already head every team's summary card, so the stat table does not
     # repeat them. They stay in DATA, in the national tables and in the
     # head-to-head measure picker.
     for meta in d['statMeta']:

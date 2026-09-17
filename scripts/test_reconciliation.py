@@ -1,5 +1,6 @@
 """Regression checks for the audited data and coverage boundaries."""
 import copy
+import re
 import json
 import unittest
 from reconcile_2026 import ROOT, read_site, reconcile
@@ -98,8 +99,17 @@ class ReconciliationTests(unittest.TestCase):
             self.assertIsNotNone(self.result['values'][team]['av_punter']['v'])
 
     def test_summary_card_measures_leave_the_stat_table(self):
+        """Nothing may be hidden from the table unless the summary card shows it.
+
+        Pinning an exact list here just breaks every time a card measure is added,
+        so read the card's own list out of the page and enforce the real rule.
+        """
+        page = (ROOT / 'index.html').read_text()
+        block = page[page.index("[['pyth'"):page.index(']].forEach')]
+        on_card = set(re.findall(r"\['(\w+)',", block))
         hidden = {m['key'] for m in self.result['statMeta'] if m.get('hide')}
-        self.assertEqual(hidden, {'sos', 'sor', 'srs', 'mov'})
+        self.assertTrue(hidden <= on_card, hidden - on_card)
+        self.assertLessEqual({'sos', 'sor', 'srs', 'mov'}, hidden)
         # hidden rows stay in DATA for the picker and the national tables
         for key in hidden:
             for team in self.result['teams']:

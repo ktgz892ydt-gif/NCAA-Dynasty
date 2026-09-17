@@ -16,6 +16,7 @@ libraries or CDNs, no browser storage. It runs offline and can be hosted anywher
 | **Head-to-Head** | Any stat as a three-way bar chart, plus a radar profile across eight core measures. |
 | **Schedules** | All 12 games per school: site, result, score, and each opponent's final record. |
 | **National** | The full **143-team** ratings table (sortable, filterable) and national top tens. |
+| **Efficiency** | **AdjO** and **AdjD** — opponent-adjusted points scored and allowed per game, for all 143 teams — on each summary card and in the Results group. |
 | **Leaders** | National player leaderboards, each stating whether it is complete or only as far as the capture goes. See the table below. |
 | **Leaders** | National player leaders in nine categories, from the screen recordings. |
 
@@ -137,6 +138,40 @@ SRS, Elo, Bradley-Terry and Glicko-2 are solved over the **entire 143-team natio
   games on the road and lose heavily. An independent Bradley-Terry fit agreed at roughly zero.
 - **There are five FCS buckets, not four** — East, Midwest, Northwest, Southeast and West — all
   forced to `0-12` regardless of how many games they appear in.
+
+## Opponent-adjusted efficiency (AdjO / AdjD)
+
+The KenPom structure applied to football. A team's offence is rated by the points it scored
+against the defences it actually faced, its defence by the points it allowed to the offences it
+faced, and the two are solved together because each depends on the other:
+
+```text
+points scored = mu + offence(scoring team) + defence(conceding team) + home field
+```
+
+Every game gives two observations, so the 888-game scoreboard supplies 1,776 equations for 287
+free parameters. `scripts/update_efficiency.py` solves it by alternating least squares
+(Gauss-Seidel on the normal equations), recentring both sides on zero each sweep; it converges in
+80 sweeps to a residual RMSE of 8.83 points. Home-field advantage is **not** re-estimated — it is
+taken from the ratings export, so this decomposition and the published SRS rest on the same
+0.4495-point figure.
+
+**The margin is deliberately not shown as a statistic.** AdjO − AdjD is exactly SRS, which the
+site already carries, so a separate figure would print one number twice under two names. The
+identity is used as the check it is: solved from scratch by a different method, it matches the
+full-precision ratings export to **5×10⁻¹³ points** across all 143 teams.
+
+What the pair adds over SRS is the split. Eastern Michigan's −7.84 looks simply like a bad team;
+the decomposition shows an offence ranked **138th of 138** alongside a defence ranked **42nd**.
+Central Michigan is the same shape — 92nd on offence, 32nd on defence. A single margin cannot tell
+you which half is doing the work.
+
+**One deliberate departure from KenPom: these are per game, not per possession.** No national
+screen carries punts or field-goal attempts, so a league-wide drive count cannot be built from the
+source set — the same gap that leaves Explosiveness without a national average. Football drives
+also vary far less than basketball possessions: the three schools run 10.4 to 11.8 a game, against
+a basketball tempo spread of roughly a quarter of its own value, which is why KenPom needs the
+normalisation in the first place.
 
 ## What is missing, and why
 
