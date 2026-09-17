@@ -752,7 +752,13 @@ $('#natsearch').addEventListener('input',e=>{natQ=e.target.value.trim().toLowerC
 /* ---------- player leaders ---------- */
 let leadCat=null;
 function renderLeaders(){
-  const L=DATA.playerLeaders||{};
+  const L={...(DATA.playerLeaders||{})};
+  const tflCategory='TACKLES FOR LOSS';
+  if(L.DEFENSE){
+    L[tflCategory]={columns:['GP','TFL','TAK','SACK'],
+      rows:L.DEFENSE.rows.filter(r=>typeof r.values.TFL==='number')
+        .slice().sort((a,b)=>b.values.TFL-a.values.TFL||a.name.localeCompare(b.name))};
+  }
   const cats=Object.keys(L);
   const note=$('#lead-note');
   if(!cats.length){
@@ -765,16 +771,19 @@ function renderLeaders(){
   cats.forEach(c=>{const o=el('option',{value:c},c);if(c===leadCat)o.selected=true;sel.append(o);});
   sel.onchange=()=>{leadCat=sel.value;renderLeaders();};
   const d=L[leadCat], t=$('#leadtbl'); t.innerHTML='';
-  // DEFENSE was read all the way down its recording; the rest are still the single
-  // screenful the earlier pass captured, so say which is which rather than calling
-  // every one of them "the leaderboard".
+  // Capture completeness describes the recorded list, not every national player.
   const depth=(DATA.leaderDepth||{})[leadCat]||d.rows.length;
   const whole=(DATA.leaderComplete||{})[leadCat];
-  note.textContent=(whole
+  const isTfl=leadCat===tflCategory;
+  note.textContent=isTfl
+    ? `Tackles for loss among ${d.rows.length} captured defensive players, sorted by TFL. Captured rank compares only these players, with ties sharing a rank. The video was sorted by total tackles, so players outside that list may have more TFL. This is not a complete national TFL ranking or a team total. Schools are shown only where verified.`
+    : leadCat==='DEFENSE'
+    ? `All ${depth} players from the recorded defense list, sorted by total tackles. TFL means tackles for loss. This list does not include every defender nationally, so it cannot establish complete national TFL rankings or team totals. Schools are shown only where verified.`
+    : (whole
       ?`The complete national ${leadCat} leaderboard, all ${depth} players, read from the in-game capture. `
       :`The top ${depth} of the national ${leadCat} leaderboard — as far as the capture goes, not the end of the list. `)+
     'The game does not print a team next to each player, so only the highlighted player’s team is known.';
-  t.append(el('thead',{},el('tr',{},[el('th',{},'#'),el('th',{class:'lft'},'Player'),
+  t.append(el('thead',{},el('tr',{},[el('th',{},isTfl?'Captured rank':'#'),el('th',{class:'lft'},'Player'),
     el('th',{class:'lft'},'Pos'), ...d.columns.map(c=>el('th',{},c))])));
   // a column that holds any fractional value (half sacks, averages) is shown
   // with one decimal throughout, so the column reads consistently
@@ -786,10 +795,12 @@ function renderLeaders(){
   // tinted in that coach's colour — the payoff for reading the side panel
   const whoOf=t=>t?P.find(p=>DATA.canon[p]===t||p===t||FULL[p]===t):null;
   const body=el('tbody');
+  let capturedRank=0;
   d.rows.forEach((r,i)=>{
+    if(!i||r.values.TFL!==d.rows[i-1].values.TFL)capturedRank=i+1;
     const who=whoOf(r.team);
     body.append(el('tr',{class:who?'me':null},[
-      el('td',{},String(i+1)),
+      el('td',{},String(isTfl?capturedRank:i+1)),
       el('td',{class:'lft',style:who?`color:${textCol(who)}`:null},[
         who?el('span',{class:'dot',style:`background:${col(who)}`}):null,
         r.name, r.team?el('span',{class:'rk'},r.team):null]),
