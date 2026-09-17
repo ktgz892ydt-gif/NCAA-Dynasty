@@ -55,18 +55,52 @@ def check_identities(source):
         previous = value
 
 
+# Columns the screens do not print, worked out from ones they do. Kept apart from
+# the transcribed values so the page can say which is which: air yards is simply
+# the receiving yardage that happened before the catch.
+DERIVATIONS = {
+    'RECEIVING': [
+        ('AIR YDS', lambda v: v['YARDS'] - v['RAC']),
+        ('AIR/REC', lambda v: round((v['YARDS'] - v['RAC']) / v['REC'], 1) if v['REC'] else 0.0),
+    ],
+}
+
+
+def derive(category, rows):
+    """Add the derived columns for a category, refusing anything incoherent."""
+    recipe = DERIVATIONS.get(category, [])
+    for row in rows:
+        v = row['values']
+        for name, formula in recipe:
+            v[name] = formula(v)
+        if recipe and category == 'RECEIVING':
+            if not 0 <= v['AIR YDS'] <= v['YARDS']:
+                raise ValueError(f'{category} {row["name"]}: air yards outside 0..YARDS')
+            if v['RAC'] + v['AIR YDS'] != v['YARDS']:
+                raise ValueError(f'{category} {row["name"]}: air yards and RAC do not sum to YARDS')
+    return [name for name, _ in recipe]
+
+
 def apply(data, sources):
     leaders = data['playerLeaders']
     for source in sources:
         category = source['category']
         if category not in leaders:
             raise ValueError(f'{category} is not a category in DATA.')
-        if leaders[category]['columns'] != source['columns']:
+        added = {name for name, _ in DERIVATIONS.get(category, [])}
+        transcribed = [c for c in leaders[category]['columns'] if c not in added]
+        if transcribed != source['columns']:
             raise ValueError(f'{category} columns no longer match DATA.')
         check_identities(source)
         leaders[category]['rows'] = [
-            {'name': r['name'], 'pos': r['pos'], 'team': r['team'], 'values': r['values']}
+            {'name': r['name'], 'pos': r['pos'], 'team': r['team'], 'values': dict(r['values'])}
             for r in source['rows']]
+        derived = derive(category, leaders[category]['rows'])
+        leaders[category]['columns'] = list(source['columns']) + derived
+        if derived:
+            leaders[category]['derived'] = derived
+        else:
+            leaders[category].pop('derived', None)
     data['leaderDepth'] = {k: len(v['rows']) for k, v in leaders.items()}
     # a category is complete only when its capture reaches the end of the list
     complete = {s['category']: bool(s['complete']) for s in sources}

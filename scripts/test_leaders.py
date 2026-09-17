@@ -111,6 +111,29 @@ class LeaderTests(unittest.TestCase):
         for key in both:
             self.assertEqual(kr[key], pr[key], key)
 
+    def test_air_yards_are_derived_and_marked_as_such(self):
+        """Air yards are worked out, not read, so they must be flagged and must add up."""
+        block = self.leaders['RECEIVING']
+        self.assertEqual(block['derived'], ['AIR YDS', 'AIR/REC'])
+        for name in block['derived']:
+            self.assertIn(name, block['columns'])
+            self.assertNotIn(name, self.sources['RECEIVING']['columns'])
+        for row in block['rows']:
+            v = row['values']
+            self.assertEqual(v['AIR YDS'] + v['RAC'], v['YARDS'], row['name'])
+            self.assertGreaterEqual(v['AIR YDS'], 0)
+            self.assertAlmostEqual(v['AIR/REC'], round(v['AIR YDS'] / v['REC'], 1), places=9)
+        # a running back catching checkdowns must sit below a deep receiver
+        depth = {r['name']: r['values']['AIR/REC'] for r in block['rows']}
+        self.assertLess(depth['J.Buckley'], depth['C.Moss'])
+
+    def test_no_other_category_gains_derived_columns(self):
+        for category, block in self.leaders.items():
+            if category != 'RECEIVING':
+                self.assertNotIn('derived', block, category)
+                if category in self.sources:
+                    self.assertEqual(block['columns'], self.sources[category]['columns'])
+
     def test_repeat_apply_is_stable(self):
         once = apply(copy.deepcopy(self.data), list(self.sources.values()))
         twice = apply(copy.deepcopy(once), list(self.sources.values()))

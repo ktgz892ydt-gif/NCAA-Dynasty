@@ -69,6 +69,13 @@ from the per-game box scores exist for these three schools alone.
 | PASSING | 192 | IMG_5208 + IMG_5209.MOV | yes — every player who attempted a pass |
 | RUSHING | 400 | IMG_5210 + IMG_5211.MOV | yes — same 400 cap as DEFENSE |
 | RECEIVING | 400 | IMG_5212 + IMG_5213.MOV | yes — same 400 cap |
+
+The receiving list also carries two **derived** columns, **AIR YDS** and **AIR/REC**: receiving
+yards minus yards after the catch, and the same per reception. The screens print YARDS and RAC, so
+air yards follow exactly — no estimate is involved. They are marked on the page and flagged in the
+note, because everything else in these tables was read off a screen and the difference matters.
+This is the measurable part of average depth of target: it averages over catches rather than
+targets, so it excludes incompletions, which no screen records.
 | KICK RETURN | 313 | IMG_5222–5250.HEIC, 29 stills | yes, last still ends on the final row |
 | PUNT RETURN | 23 | IMG_5251–5252.HEIC, 2 stills | **no** — only two stills exist |
 | BLOCKING | 12 | not transcribed — see below | no |

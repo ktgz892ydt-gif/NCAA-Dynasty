@@ -165,3 +165,13 @@ The solve is alternating least squares, each sweep exact for the side being upda
 Because of that identity the margin is deliberately **not** published as its own statistic — it would be SRS under a second name. Only AdjO and AdjD reach the page, on each summary card and in the Results group after MOV. `adjem` stays on the ratings rows purely so the agreement can be asserted in `scripts/test_efficiency.py`.
 
 Pace is not normalised, and cannot be: no national screen carries punts or field-goal attempts, so league-wide drives are unavailable — the same limitation already recorded for Explosiveness. The ratings are per game and say so in `DATA.effMethod`.
+
+## Air yards, and why they are marked as derived
+
+The receiving screen prints both total yards and RAC, yards after the catch, so the yardage the ball travelled before the catch is exact arithmetic rather than an estimate: **AIR YDS = YARDS − RAC**, and **AIR/REC** is that over receptions. `scripts/update_leaders.py` computes both and refuses anything incoherent — air yards must be non-negative, must not exceed total yards, and must add back to the total with RAC.
+
+They are the first values on the Leaders tab that were not read off a screen, which is why the columns are marked and the note says so. Everything else in those tables is a transcription, and that distinction is the reason the tables can be trusted; blurring it would cost more than the two columns are worth. `DATA.playerLeaders.RECEIVING.derived` names them, and a test asserts no other category has derived columns and that every transcribed column still matches its source file exactly.
+
+The numbers discriminate sensibly, which is the point of having them: D. Hill averages 14.9 air yards a catch and M. Danzy 13.4, while the tight ends sit at 5 to 6 and J. Buckley — a running back taking checkdowns — is last at 4.4. The league spread is 4.4 to 14.9 with a standard deviation of 1.6.
+
+**This is not average depth of target.** aDOT averages over targets and so includes incompletions; this averages over receptions. Closing that gap means charting every throw from video, judging depth against foreshortened yard lines under motion blur, with nothing to check the estimate against — which is exactly the standard the rest of this repository is held to, and the reason it was not done. See the README on why ALY was ruled out for the same kind of reason.
