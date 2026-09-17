@@ -4,7 +4,6 @@ import json
 import math
 import unittest
 from update_sor import ROOT, fit_slope, logistic, record_tail, update_sor
-from reconcile_2026 import read_site
 
 
 class SORTests(unittest.TestCase):
@@ -29,8 +28,8 @@ class SORTests(unittest.TestCase):
         self.assertAlmostEqual(beta,math.log(3),places=12)
 
     def test_full_field_and_preservation(self):
-        before=read_site(ROOT/'index.html')[3]
-        source=json.loads((ROOT/'data/srs-2026.json').read_text())
+        before=json.loads((ROOT / 'data/seasons/2026/season.json').read_text())
+        source=json.loads((ROOT/'data/seasons/2026/inputs/srs-reference.json').read_text())
         d=update_sor(copy.deepcopy(before),source)
         self.assertEqual(update_sor(copy.deepcopy(d),source),d)
         method=d['sorMethod']; self.assertEqual(len(method['teams']),138)

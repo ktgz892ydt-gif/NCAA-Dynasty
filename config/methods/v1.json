@@ -1,0 +1,12 @@
+{
+  "id": "v1",
+  "ratingMethod": "2026 fixed-effect SRS; margin-adjusted Elo; ridge Bradley-Terry; weekly Glicko-2",
+  "eloStart": 1500,
+  "eloK": 20,
+  "glickoRD": 350,
+  "glickoVolatility": 0.06,
+  "glickoTau": 0.5,
+  "sorBenchmarkSize": 25,
+  "pythExponent": 2.37,
+  "seasonCarryover": false
+}

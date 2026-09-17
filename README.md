@@ -1,333 +1,88 @@
 # NCAA Dynasty — Dynasty HQ
 
-Static site for the **2026** season of an NCAA Football 26 online dynasty between
-**Western Michigan**, **Eastern Michigan** and **Central Michigan**.
+One static website for the Western Michigan, Eastern Michigan and Central Michigan dynasty, with a top-level tab for each published season. **2026 is the only published season.** Future data folders do not appear until explicitly added to the publication manifest.
 
 Live: https://ktgz892ydt-gif.github.io/NCAA-Dynasty/
 
-Everything is one file, `index.html` — inline CSS and JS, hand-rolled SVG charts, no external
-libraries or CDNs, no browser storage. It runs offline and can be hosted anywhere.
+## Browse
 
-## What's on the page
+Choose a year above the existing Dynasty, Head-to-Head, Schedules, National and Leaders navigation. All summaries, ratings, explanations and coverage notes follow that year. Links retain the selected year and section, for example `?season=2026&view=sched`.
 
-| Tab | What it shows |
-|---|---|
-| **Dynasty** | The three schools side by side, then the workbook’s stats grouped as on the Master tab, each with its **national rank** where one can be computed. SOS, SOR, SRS and MOV head each team’s summary card instead of repeating as table rows; all four are still selectable in Head-to-Head and listed in National. |
-| **Head-to-Head** | Any stat as a three-way bar chart, plus a radar profile across eight core measures. |
-| **Schedules** | All 12 games per school: site, result, score, and each opponent's final record. |
-| **National** | The full **143-team** ratings table (sortable, filterable) and national top tens. |
-| **Efficiency** | **AdjO** and **AdjD** — opponent-adjusted points scored and allowed per game, for all 143 teams — on each summary card and in the Results group. |
-| **Leaders** | National player leaderboards, each stating whether it is complete or only as far as the capture goes. See the table below. |
-| **Leaders** | National player leaders in nine categories, from the screen recordings. |
+History provides program season records, a two-season comparison when available, recorded rivalry games and a program record book. It loads published seasons only. Player career totals remain unavailable because abbreviated names do not establish identity across seasons.
 
-## Mobile layout and measure explanations
+## Files
 
-Phone layouts use compact team cards, a search/group filter and three-column comparison rows
-with the measure name above the school values. Wide national and player tables scroll within
-their panels; their team/player column stays visible. Navigation, controls and explanation buttons
-support touch and keyboard input.
+- `index.html`: shared shell and season-view template.
+- `assets/`: shared styles, loader, season views and history.
+- `config/teams.json`: stable dynasty team IDs, names and colors.
+- `config/metrics.json`: shared metric definitions and display formats.
+- `config/methods/v1.json`: versioned model settings.
+- `data/seasons.json`: publication manifest and default season.
+- `data/seasons/<year>/inputs/`: authoritative input data and documented corrections.
+- `data/seasons/<year>/leaders/`: player transcriptions and source coverage.
+- `data/seasons/<year>/summaries.json`: reviewed narratives.
+- `data/seasons/<year>/season.json`: generated browser dataset. **Do not edit directly.**
+- `scripts/`: build, validate, initialize, publish and calculation commands.
+- `tests/fixtures/2026-baseline.json`: independent pre-migration statistical baseline.
 
-Tap a measure marked ⓘ for its plain-language definition and interpretation. Explanations cover SRS,
-SOS, estimated SOR, MOV, Pythagorean expected wins, Explosiveness Index, Ball Control Index, Pass-to-Run Yard
-Ratio and Approximate Value. They are available on team cards, the comparison table and the
-selected Head-to-Head measure; national rating headers keep explanation and sorting separate.
-AV help appears only on the Approximate Value section header, not individual AV rows or the
-Head-to-Head selection. Other data coverage notes open on tap; AV estimate markers remain visible.
-Dialogs support Escape, a close button, backdrop dismissal
-and focus return.
+The site is still static and hosted with GitHub Pages. No database or backend is required.
 
-School accents use the same exact colors in light and dark themes: Western **#512C1D**,
-Eastern **#0C5C30**, Central **#670231**. Text stays in the readable theme foreground, and chart
-marks have outlines so the dark school colors remain distinguishable. No statistical data or
-calculation inputs are changed by this interface update.
+## Build and check
 
-## Stat structure
-
-Estimated SOR is added directly below SOS. The remaining Dynasty rows mirror the Master tab: the same 13 group titles, in the same order, with
-attribute names copied verbatim — including the ones Master repeats inside a group ("Rate",
-"Conversion %", "Yards"), which read unambiguously next to their neighbouring rows. Only the
-stat dropdown qualifies them ("Rate (TD)", "Conversion % (3rd Down)"), since a dropdown has no
-neighbours to give them context.
-
-```
-Results · Core Efficiency · Scoring and Posession · Passing · Rushing · Situational Offense
-Scoring Defense · Passing Defense · Rush Defense · Disruptions · Situational Defense
-Penalties · Totals (Special Teams)
-```
-
-**116 of the 119 table rows are populated. 40 carry a national rank** — a rank is only shown where the
-stat can be computed for the whole country from the national Team Stats screens; stats that come
-from the per-game box scores exist for these three schools alone.
-
-### Player leaderboard depth
-
-| Category | Rows | Source | Complete |
-|---|---|---|---|
-| DEFENSE | 400 | IMG_5215.MOV | yes, scrolled to the last row |
-| PUNTING | 138 | IMG_5220 + IMG_5221.MOV | yes — exactly one punter per FBS team |
-| KICKING | 138 | IMG_5217 + 5218 + 5219.MOV | yes — one kicker per FBS team |
-| PASSING | 192 | IMG_5208 + IMG_5209.MOV | yes — every player who attempted a pass |
-| RUSHING | 400 | IMG_5210 + IMG_5211.MOV | yes — same 400 cap as DEFENSE |
-| RECEIVING | 400 | IMG_5212 + IMG_5213.MOV | yes — same 400 cap |
-
-The receiving list also carries two **derived** columns, **AIR YDS** and **AIR/REC**: receiving
-yards minus yards after the catch, and the same per reception. The screens print YARDS and RAC, so
-air yards follow exactly — no estimate is involved. They are marked on the page and flagged in the
-note, because everything else in these tables was read off a screen and the difference matters.
-This is the measurable part of average depth of target: it averages over catches rather than
-targets, so it excludes incompletions, which no screen records.
-| KICK RETURN | 313 | IMG_5222–5250.HEIC, 29 stills | yes, last still ends on the final row |
-| PUNT RETURN | 23 | IMG_5251–5252.HEIC, 2 stills | **no** — only two stills exist |
-| BLOCKING | 12 | not transcribed — see below | no |
-
-Each category's rows, provenance and arithmetic identities live in its own file under
-`data/leaders-2026/`. `scripts/update_leaders.py` writes them into DATA and re-derives every
-identity the screen prints on every row; `scripts/test_leaders.py` covers the invariants,
-the completeness flags and the refusal to guess teams.
-
-The complete punting list also confirms the Eastern punter: the last three rows are D.Duley 36,
-R.Millmore 26 and D.Hull 25, each count unique among all 138 punters and printed on screen rather
-than inferred. All three are attributed to their schools, and a test cross-checks them against
-`data/verified-inputs-2026.json`.
-
-**Blocking is the one category deliberately left alone.** Its three columns (GP, SACK, SNAPS)
-derive nothing from one another, so a misread would be undetectable — every other category is
-validated by re-deriving the figures the screen prints. It is also sorted ascending with hundreds
-of ties on zero sacks, so even the ordering check is nearly useless there.
-
-**Snap counts agree across categories.** 177 name-and-position keys appear in more than one
-leaderboard, and 161 carry the same snap count in every one — transcribed independently, days
-apart, with no disagreement. The 16 exceptions are name collisions rather than errors: the game
-prints an initial and a surname, so "T.Brown WR" covers three different players.
-
-Punt returns are the one category the source set cannot complete: two photographs exist and the
-list continues past them. Categories still at 12 rows have long recordings that simply have not
-been read yet — the page labels them "as far as the capture goes, not the end of the list".
-
-## Where the data comes from
-
-The 2026 source set contains **297 photographs**, **14 screen recordings**, and the local
-workbook. Retained workbook entries fill Eastern's missing first-game punts, returns and
-possession; their provenance and remaining gaps are recorded in [source notes](data/SOURCE_NOTES.md).
-
-```text
-in-game photos + screen recordings
-  → workbook tabs: League Scores (one row per national game) and Game Log (per-game box scores)
-  → Scripts/codex/calculate_ratings.py   → SOS, SRS, Elo, Bradley-Terry, Glicko-2
-  → the DATA object baked into index.html
-  → commit (GitHub Pages redeploys automatically)
-```
-
-### Three sources that agree
-
-The national scoreboard, the per-game box scores, and the game's own season Team Stats screens
-independently produce the **same** points for and against:
-
-| | Western Michigan | Eastern Michigan | Central Michigan |
-|---|---|---|---|
-| Record | 9-3 | 4-8 | 10-2 |
-| Points for / against | 368 / 248 | 190 / 231 | 309 / 224 |
-| MOV | +10.0 | −3.4 | +7.1 |
-| SOS (points) | -4.21 | -4.46 | -5.43 |
-| SRS | +5.79 | −7.84 | +1.62 |
-| National SRS rank | 46th | 98th | 62nd |
-
-## About the ratings
-
-SRS, Elo, Bradley-Terry and Glicko-2 are solved over the **entire 143-team national field**
-(888 games, weeks 0–13), not just these three schools.
-
-- **SOS** is the average opponent SRS, in points above/below the average team. Every scheduled game counts equally, including repeat opponents and synthetic FCS opponents. Positive is tougher and negative is easier. FBS national ranks exclude the five synthetic buckets. Full-precision SRS inputs are stored in `data/srs-2026.json`; `scripts/update_sos.py` updates the values, ranks and top ten together.
-- **SRS** is points-based, uses home-field-adjusted margins, and is centred so the average team
-  is 0.0.
-- **Home-field advantage is +0.45 points**, from a team fixed-effect regression. The *raw*
-  average home margin is +5.51, but that is badly biased: the FCS buckets play nearly all their
-  games on the road and lose heavily. An independent Bradley-Terry fit agreed at roughly zero.
-- **There are five FCS buckets, not four** — East, Midwest, Northwest, Southeast and West — all
-  forced to `0-12` regardless of how many games they appear in.
-
-## Opponent-adjusted efficiency (AdjO / AdjD)
-
-The KenPom structure applied to football. A team's offence is rated by the points it scored
-against the defences it actually faced, its defence by the points it allowed to the offences it
-faced, and the two are solved together because each depends on the other:
-
-```text
-points scored = mu + offence(scoring team) + defence(conceding team) + home field
-```
-
-Every game gives two observations, so the 888-game scoreboard supplies 1,776 equations for 287
-free parameters. `scripts/update_efficiency.py` solves it by alternating least squares
-(Gauss-Seidel on the normal equations), recentring both sides on zero each sweep; it converges in
-80 sweeps to a residual RMSE of 8.83 points. Home-field advantage is **not** re-estimated — it is
-taken from the ratings export, so this decomposition and the published SRS rest on the same
-0.4495-point figure.
-
-**The margin is deliberately not shown as a statistic.** AdjO − AdjD is exactly SRS, which the
-site already carries, so a separate figure would print one number twice under two names. The
-identity is used as the check it is: solved from scratch by a different method, it matches the
-full-precision ratings export to **5×10⁻¹³ points** across all 143 teams.
-
-What the pair adds over SRS is the split. Eastern Michigan's −7.84 looks simply like a bad team;
-the decomposition shows an offence ranked **138th of 138** alongside a defence ranked **42nd**.
-Central Michigan is the same shape — 92nd on offence, 32nd on defence. A single margin cannot tell
-you which half is doing the work.
-
-**One deliberate departure from KenPom: these are per game, not per possession.** No national
-screen carries punts or field-goal attempts, so a league-wide drive count cannot be built from the
-source set — the same gap that leaves Explosiveness without a national average. Football drives
-also vary far less than basketball possessions: the three schools run 10.4 to 11.8 a game, against
-a basketball tempo spread of roughly a quarter of its own value, which is why KenPom needs the
-normalisation in the first place.
-
-## What is missing, and why
-
-Only **3 of the 119 table rows** are blank:
-
-| Group | Attribute | Why |
-|---|---|---|
-| Disruptions | Tackles for Loss, Defensive Touchdowns | Captured only per-player on the national leaderboard; see below |
-| Totals (Special Teams) | TDs | Same: needs the team's returners identified |
-
-Conference Champion, Bowl Result and Final CFP Ranking are all filled from the dynasty owner's
-own report: Central finished 22nd and Western 23rd in the final CFP rankings, and Eastern was
-unranked. The Results group is now complete.
-
-### Why Tackles for Loss is blank
-
-TFL is not missing from the source set — it is in `Individual Stats/IMG_5215.MOV`, the national
-DEFENSE leaderboard, as the seventh column. It still cannot produce a team-season total:
-
-- **The leaderboard is national and sorted by total tackles.** It holds exactly 400 players across
-  138 FBS teams — about three per school, not a roster. It is now transcribed in full (see below),
-  so this is a measured limit rather than an assumed one.
-- **Sorting by tackles selects against TFL.** The players who record the most tackles are
-  linebackers and safeties; the edge rushers and interior linemen who generate most of a team's
-  TFL never reach a tackles leaderboard. Summing whichever Western, Eastern or Central players do
-  appear would be biased low by an amount that cannot be bounded.
-- **There is no team column.** A player's school is shown only on the card beside the
-  *highlighted* row, one player at a time.
-- Neither the per-game box scores nor the national Team Stats defense screens carry TFL. The team
-  defense screen ends at SACK, which is where the season sack totals come from.
-
-The Game Log in the workbook does have a TFL column, filled by hand for the first part of the
-season only — Western 6 of 12 games, Eastern 7, Central 5. Those partial sums are 24, 66 and 18,
-at 4.0, 9.4 and 3.6 per game. The spread is too wide to scale a 5-game figure to 12 and present
-it beside an 11-game one, so the row is left blank rather than estimated.
-
-The full list is now in the repository, and it bears the point out: the 400th-place player has 57
-tackles, and the bottom of the list runs 0–3 TFL a man. The players who lead a team in TFL are
-linemen who never appear on it at all.
-
-**How to capture it next season:** the chip at the top left of every stats screen is a scope
-toggle. All fourteen of this season's recordings have it on `NATIONAL`; the older mid-season
-captures in `Scripts/codex/.../png/2026` have it on `WESTERN MICHIGAN`, `EASTERN MICHIGAN` and
-`CENTRAL MICHIGAN`, but only for the offensive categories. One DEFENSE recording per school with
-that toggle set gives every defender's TFL, and the team total becomes a plain sum. The same
-screen carries per-defender GP and SNAPS, which is also what the removed per-player AV rows need.
-
-**23 per-player Approximate Value rows have been removed rather than shown blank** — the five
-offensive-line slots, RB1/RB2, WR1–WR3, TE1 and the eleven defensive slots. Sharing a position
-pool out to one player needs Games Started, and NCAA 26 reports it nowhere: the passing,
-rushing, receiving, blocking, defensive, kicking and punting screens all show games played and
-snaps only. The twelve AV rows that remain are the team and position-group pools plus the three
-players the screens do identify by name — each school's quarterback room, kicker and punter.
-
-Nine rows that looked unrecoverable were pulled out of the screen recordings instead (see
-below): FGA, FGM, FG %, XPA, XPM, XP %, Explosiveness Index, Sacks and Sack Rate.
-
-Two caveats on rows that *are* filled:
-
-- **Total Touchdowns** counts offensive touchdowns only. The kicker identification does
-  reveal how many non-offensive touchdowns each school scored — 0 for Western Michigan and
-  2 each for Eastern and Central — but it cannot split those between defence and special teams.
-- **Eastern Michigan** is missing the lower half of one box score. Season punts, return yards
-  and possession come from the eleven photographed games plus the retained first-game workbook
-  entries. Punt yards and yards/punt are now full-season: Eastern's punter is identified as
-  D.Hull, whose 25 punts match the 21 photographed plus the 4 logged exactly, and his 1,165
-  season yards supply the missing game. Only opponent punts for that game remain uncovered.
-  Explosiveness uses season inputs and estimated drives, marked `est.`. Qualifications also
-  appear in Head-to-Head.
-
-## Finding players the game will not name
-
-The national leaderboards print no team beside a player, which is what blocked the
-kicking, sacks and Approximate Value rows. The way round it is arithmetic: each school's
-season totals are already known exactly, so the players can be picked out by identity.
-
-- **Punter** — by exact punt count and yards. `R.Millmore` (26 for 1,121) is Western
-  Michigan; `D.Duley` (36 for 1,623) is Central Michigan. Eastern Michigan's punter is not
-  established by the available count-and-yardage evidence.
-- **Quarterback** — by attempts and passing yards. Touchdowns and interceptions then match
-  the team totals too, four confirmations each: `B.Lowry`; `N.Kim` + `J.Stuckey`;
-  `A.Flores` + `M.Beamon`.
-- **Kicker** — by the only field-goal and extra-point line that reproduces the team's point
-  total through `Points = 6*TD + XPM + 3*FGM + 2*TwoPtMade`. `P.Domschke` (368),
-  `R.Kessinger` (190), `J.London` (309).
-
-This also corrected a real error: summing completions off the box scores gave Central
-Michigan an 85.1% completion rate, higher than any passer in the country, and one box score
-printed more completions than attempts. The leaderboard's figures replaced them.
-
-## Approximate Value
-
-The local `AV_Calculations.md` defines the dynasty's model. The website computes the
-following supported results and explicitly labels incomplete estimates:
-
-- **Every team-level pool** — offence, O-line, skill, rush, pass, receiving, defence,
-  front-7, secondary. These need only team stats plus the team's FGM/FGA, which the kicker
-  identification supplies.
-- **The offensive-line pool** is computed, but individual LT/LG/C/RG/RT slots remain blank
-  until actual games played and starts for all participating linemen are available.
-- **QB1**, from the passer's share of team passing yards plus the AY/A adjustment against a
-  national baseline of 7.54 across 140 qualified passers.
-- **K and P**, from the by-distance field-goal buckets and the punting line.
-
-Still blank are the five linemen, RB1/RB2, WR1–3, TE1 and the twelve defensive slots. Those need per-player
-production tied to a school, and no arithmetic identity pins them down the way a kicker's
-point total or a punter's punt count does. Per-team roster or player-stat screens would
-close it.
-
-League baselines use the three schools for drive rates. Eastern's full-season punt count now
-feeds the offensive baseline and every dependent offensive allocation. Defensive drives retain
-estimated opponent field-goal attempts and incomplete Eastern opponent-punt coverage; Central's
-takeaway screen also contains an unresolved discrepancy. Because that baseline is shared,
-all three defensive pools and their front-seven/secondary allocations are marked `est.`.
-
-The existing national kicking, punting and qualified-passer AY/A baselines are preserved.
-Their full raw transcriptions are not included in the repository. See [source notes](data/SOURCE_NOTES.md)
-for the distinction between verified corrections, retained transcriptions and estimates.
-
-## Updating
-
-For this source set, edit `data/verified-inputs-2026.json` when evidence changes, then run:
+Python 3.10 or newer is recommended. NumPy is the only runtime dependency for building ratings. Create a virtual environment if needed:
 
 ```sh
-python3 -B scripts/update_sos.py
-python3 -B scripts/update_sos.py --check
-python3 -B scripts/test_sos.py
-python3 -B scripts/update_sor.py
-python3 -B scripts/update_sor.py --check
-python3 -B scripts/test_sor.py
-python3 scripts/reconcile_2026.py
-python3 scripts/reconcile_2026.py --check
-python3 -B scripts/test_reconciliation.py
+python3 -m venv .venv
+source .venv/bin/activate
+python3 -m pip install -r requirements.txt
+python3 -B scripts/build_season.py --season 2026
+python3 -B scripts/build_season.py --season 2026 --check
+python3 -B scripts/validate_season.py --all
+python3 -B -m unittest discover -s scripts -p 'test_*.py'
 ```
 
-This regenerates the audited fields in `DATA`, preserving unrelated data and ratings. It is a
-targeted reconciliation, not a complete photo-import pipeline. Other new stats still require
-updating the DATA object and recording their sources. Commit the changed files together.
-Keep `index.html` at the repo root; the page remains self-contained and Pages serves the same URL.
+A build reads season inputs, never existing generated output. It validates and recomputes supported values, then atomically replaces only the selected season file. It does not update the publication manifest, commit, push, or rebuild other seasons. The old `update_*.py` and reconciliation command entrypoints delegate to this unified build for compatibility.
 
-When the scoreboard or SRS ratings change, refresh `data/srs-2026.json` from the ratings pipeline, including its scoreboard checksum, before rebuilding SOS. The SOS builder rejects stale or mismatched inputs. The local workbook/pipeline’s older record-based SOS is superseded on this website by the points-based calculation. Home-field adjustment is not added to SOS; it remains part of SRS.
+The imported 2026 source contains some legacy transcriptions whose original raw inputs were not exported. They are preserved explicitly in `inputs/legacy-import.json` and `inputs/team-stats.json`. The scoreboard-derived rating engine is now included, and all four published rating systems are independently checked during the archived-season build. Other imported values are not falsely claimed to have been reconstructed from raw photos.
 
+## Preview locally
 
-## Estimated Strength of Record
+```sh
+python3 -m http.server 8000
+```
 
-SOR ranks all 138 FBS teams by how unlikely a shared reference team would be to match or exceed their actual win total on their actual played schedule. #1 is best. The benchmark is the mean full-precision SRS of the top 25 FBS teams (currently +18.8945), held constant across all schedules in this season snapshot. It is recalculated when the inputs change. Five synthetic FCS buckets supply opponent ratings but receive no SOR rank.
+Open `http://localhost:8000/`. JSON loading requires a local HTTP server; opening `index.html` directly with a `file:` URL is no longer the supported preview workflow.
 
-`scripts/update_sor.py` fits a no-intercept logistic win-probability curve to all 888 national results using the home-minus-away SRS difference plus the existing home-field adjustment (zero at neutral sites). The fitted slope is about 0.12863 per point. It substitutes the benchmark strength for each assessed team and combines that schedule’s win probabilities with an exact Poisson-binomial calculation, counting the probability of at least the actual number of wins. No random simulation is used. The [Poisson-binomial distribution](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.poisson_binom.html) models sums of independent games with differing win probabilities.
+Optional browser regression tests use Playwright and Chromium:
 
-All games count, including repeat opponents and synthetic FCS opponents. Actual played game counts handle 11-game schedules. Winless teams receive probability 1; tied probabilities share competition ranks (comparison rounded to 12 decimal places). Tied games are rejected pending a policy. Winning margins do not directly score résumé points, but final-season SRS inputs do reflect margins. The model assumes independent games and constant team strength.
+```sh
+PREVIEW_URL=http://localhost:8000/ node tests/browser/multiseason.mjs
+```
 
-The current in-sample Brier score is 0.16237; leaving each week out when fitting the slope gives 0.16273, versus 0.25 for a 50% baseline. These are fit diagnostics only: final-season SRS still includes every game, so this is **not independent forecast validation**. No historical seasons are available to assess predictive calibration. SOR is our retrospective estimate, not an official ranking. Exact parameters, probabilities and ranks for every eligible team are stored in `DATA.sorMethod` for reproducibility. Rebuild SOR after changing the scoreboard, SRS source or home-field parameter; stale source checks are reused from the SOS builder.
+Install Playwright in your development environment first. `PLAYWRIGHT_MODULE` can point to an existing Playwright module, and `CHROME_PATH` can specify an installed Chromium browser. Test-only future seasons are intercepted in memory and never added to the site.
+
+## Add a season
+
+See [Adding a season](docs/adding-a-season.md) for the complete workflow and input examples, and the [capture checklist](docs/data-capture-checklist.md) for what to record.
+
+```sh
+python3 -B scripts/init_season.py --season 2027
+# Populate inputs, coverage, settings and summaries; review and finalize metadata.
+python3 -B scripts/build_season.py --season 2027
+python3 -B scripts/validate_season.py --season 2027
+python3 -B scripts/publish_season.py --season 2027
+```
+
+Initialization creates blank, unpublished inputs. Publishing updates the local manifest only after verification. Review, commit and push the files through GitHub Desktop when ready. No 2027 results or summaries are supplied by this migration.
+
+## Preservation and limitations
+
+- The migration preserves every original 2026 dataset field, including all values and rankings. Additive metadata records provenance and coverage.
+- The 2026 scoreboard/statistics cover the regular-season capture. Separately reported championship, bowl and final CFP outcomes do not imply that postseason box scores are included.
+- Ratings are season-relative. Method versions, game lengths and coverage should be considered when comparing years.
+- Missing values stay `null`, displayed as a dash; absent stats are never copied from the previous season.
+- A complete recording can still be a capped player list. The TFL view ranks captured players only.
+- For standard seasons, scoreboard-derived records, points, MOV, Pythagorean expectation, SRS, Elo, Bradley–Terry, Glicko, SOS, SOR and adjusted scoring efficiency are generated. Other measures require verified season inputs; missing ones stay blank. The special 2026 AV reconciliation does not run on another year.
+- SOR needs at least 25 eligible teams and a valid probability fit. In-progress data can leave it unavailable.
+
+Further details: [Migration report](docs/migration-report.md), [data contract](docs/data-contract.md), [original plan](docs/multi-season-plan.md), [2026 source notes](data/seasons/2026/source-notes.md), and [archived 2026 background](docs/2026-background.md).

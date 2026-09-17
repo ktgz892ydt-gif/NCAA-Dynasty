@@ -1,0 +1,1006 @@
+[
+  {
+    "group": "Results",
+    "name": "Wins - Losses",
+    "key": "record",
+    "fmt": "record",
+    "higherBetter": null,
+    "pick": "Wins - Losses"
+  },
+  {
+    "group": "Results",
+    "name": "Win %",
+    "key": "winpct",
+    "fmt": "pct",
+    "higherBetter": true,
+    "pick": "Win %"
+  },
+  {
+    "group": "Results",
+    "name": "Pythagorean",
+    "key": "pyth",
+    "fmt": "num1",
+    "higherBetter": true,
+    "pick": "Pythagorean"
+  },
+  {
+    "group": "Results",
+    "name": "Conference Champion",
+    "key": "confchamp",
+    "fmt": "text",
+    "higherBetter": null,
+    "pick": "Conference Champion"
+  },
+  {
+    "group": "Results",
+    "name": "Bowl Result",
+    "key": "bowl",
+    "fmt": "text",
+    "higherBetter": null,
+    "pick": "Bowl Result"
+  },
+  {
+    "group": "Results",
+    "name": "Final CFP Ranking",
+    "key": "cfp",
+    "fmt": "text",
+    "higherBetter": null,
+    "pick": "Final CFP Ranking"
+  },
+  {
+    "group": "Results",
+    "name": "SOS",
+    "key": "sos",
+    "fmt": "signed2",
+    "higherBetter": true,
+    "pick": "SOS",
+    "hide": true
+  },
+  {
+    "key": "sor",
+    "name": "SOR",
+    "group": "Results",
+    "fmt": "rank",
+    "higherBetter": false,
+    "pick": "SOR · Strength of Record",
+    "hide": true
+  },
+  {
+    "group": "Results",
+    "name": "SRS",
+    "key": "srs",
+    "fmt": "signed2",
+    "higherBetter": true,
+    "pick": "SRS",
+    "hide": true
+  },
+  {
+    "group": "Results",
+    "name": "MOV",
+    "key": "mov",
+    "fmt": "num1",
+    "higherBetter": true,
+    "pick": "MOV",
+    "hide": true
+  },
+  {
+    "group": "Results",
+    "name": "Adjusted Offense",
+    "key": "adjo",
+    "fmt": "num1",
+    "higherBetter": true,
+    "pick": "AdjO · Adjusted Offense"
+  },
+  {
+    "group": "Results",
+    "name": "Adjusted Defense",
+    "key": "adjd",
+    "fmt": "num1",
+    "higherBetter": false,
+    "pick": "AdjD · Adjusted Defense"
+  },
+  {
+    "group": "Core Efficiency",
+    "name": "Points Scored",
+    "key": "pts",
+    "fmt": "int",
+    "higherBetter": true,
+    "pick": "Points Scored"
+  },
+  {
+    "group": "Core Efficiency",
+    "name": "Points Allowed",
+    "key": "ptsa",
+    "fmt": "int",
+    "higherBetter": false,
+    "pick": "Points Allowed"
+  },
+  {
+    "group": "Core Efficiency",
+    "name": "Yards/Play",
+    "key": "ypp",
+    "fmt": "num1",
+    "higherBetter": true,
+    "pick": "Yards/Play"
+  },
+  {
+    "group": "Core Efficiency",
+    "name": "Offensive Efficiency (per 100 yards)",
+    "key": "oeff",
+    "fmt": "num2",
+    "higherBetter": true,
+    "pick": "Offensive Efficiency (per 100 yards)"
+  },
+  {
+    "group": "Core Efficiency",
+    "name": "Defensive Efficiency (per 100 yards)",
+    "key": "deff",
+    "fmt": "num2",
+    "higherBetter": false,
+    "pick": "Defensive Efficiency (per 100 yards)"
+  },
+  {
+    "group": "Core Efficiency",
+    "name": "Offensive v Defensive Balance",
+    "key": "balance",
+    "fmt": "num2",
+    "higherBetter": null,
+    "pick": "Offensive v Defensive Balance"
+  },
+  {
+    "group": "Core Efficiency",
+    "name": "Pass-to-Run Yard Ratio",
+    "key": "p2r",
+    "fmt": "num2",
+    "higherBetter": null,
+    "pick": "Pass-to-Run Yard Ratio"
+  },
+  {
+    "group": "Core Efficiency",
+    "name": "Turnover Differential",
+    "key": "todiff",
+    "fmt": "int",
+    "higherBetter": true,
+    "pick": "Turnover Differential"
+  },
+  {
+    "group": "Core Efficiency",
+    "name": "Turnover Rate",
+    "key": "torate",
+    "fmt": "pct",
+    "higherBetter": false,
+    "pick": "Turnover Rate"
+  },
+  {
+    "group": "Core Efficiency",
+    "name": "3rd Down Success Rate",
+    "key": "d3rate",
+    "fmt": "pct",
+    "higherBetter": true,
+    "pick": "3rd Down Success Rate"
+  },
+  {
+    "group": "Core Efficiency",
+    "name": "4th Down Success Rate",
+    "key": "d4rate",
+    "fmt": "pct",
+    "higherBetter": true,
+    "pick": "4th Down Success Rate"
+  },
+  {
+    "group": "Core Efficiency",
+    "name": "Red Zone Success Rate",
+    "key": "rzrate",
+    "fmt": "pct",
+    "higherBetter": true,
+    "pick": "Red Zone Success Rate"
+  },
+  {
+    "group": "Core Efficiency",
+    "name": "Ball Control Index",
+    "key": "bci",
+    "fmt": "num3",
+    "higherBetter": true,
+    "pick": "Ball Control Index"
+  },
+  {
+    "group": "Core Efficiency",
+    "name": "Explosiveness Index",
+    "key": "explo",
+    "fmt": "num2",
+    "higherBetter": true,
+    "pick": "Explosiveness Index"
+  },
+  {
+    "group": "Scoring and Posession",
+    "name": "Points Scored",
+    "key": "pts2",
+    "fmt": "int",
+    "higherBetter": true,
+    "pick": "Points Scored"
+  },
+  {
+    "group": "Scoring and Posession",
+    "name": "Total Touchdowns",
+    "key": "ttd",
+    "fmt": "int",
+    "higherBetter": true,
+    "pick": "Total Touchdowns"
+  },
+  {
+    "group": "Scoring and Posession",
+    "name": "% Passing",
+    "key": "pctpass",
+    "fmt": "pct",
+    "higherBetter": null,
+    "pick": "% Passing"
+  },
+  {
+    "group": "Scoring and Posession",
+    "name": "% Rushing",
+    "key": "pctrush",
+    "fmt": "pct",
+    "higherBetter": null,
+    "pick": "% Rushing"
+  },
+  {
+    "group": "Scoring and Posession",
+    "name": "Total Plays",
+    "key": "plays",
+    "fmt": "int",
+    "higherBetter": null,
+    "pick": "Total Plays"
+  },
+  {
+    "group": "Scoring and Posession",
+    "name": "Time of Posession / Game",
+    "key": "toppg",
+    "fmt": "mmss",
+    "higherBetter": null,
+    "pick": "Time of Posession / Game"
+  },
+  {
+    "group": "Scoring and Posession",
+    "name": "First Downs",
+    "key": "fd",
+    "fmt": "int",
+    "higherBetter": true,
+    "pick": "First Downs"
+  },
+  {
+    "group": "Passing",
+    "name": "Yards",
+    "key": "pyds",
+    "fmt": "int",
+    "higherBetter": true,
+    "pick": "Yards"
+  },
+  {
+    "group": "Passing",
+    "name": "Attempts",
+    "key": "patt",
+    "fmt": "int",
+    "higherBetter": null,
+    "pick": "Attempts"
+  },
+  {
+    "group": "Passing",
+    "name": "Completions",
+    "key": "pcomp",
+    "fmt": "int",
+    "higherBetter": true,
+    "pick": "Completions"
+  },
+  {
+    "group": "Passing",
+    "name": "Completion %",
+    "key": "pcpct",
+    "fmt": "pct",
+    "higherBetter": true,
+    "pick": "Completion %"
+  },
+  {
+    "group": "Passing",
+    "name": "Yards/Attempts",
+    "key": "ypa",
+    "fmt": "num1",
+    "higherBetter": true,
+    "pick": "Yards/Attempts"
+  },
+  {
+    "group": "Passing",
+    "name": "Yards/Completions",
+    "key": "ypc_pass",
+    "fmt": "num1",
+    "higherBetter": true,
+    "pick": "Yards/Completions"
+  },
+  {
+    "group": "Passing",
+    "name": "AY/A",
+    "key": "aya",
+    "fmt": "num2",
+    "higherBetter": true,
+    "pick": "AY/A"
+  },
+  {
+    "group": "Passing",
+    "name": "Passing Rate",
+    "key": "passrate",
+    "fmt": "pct",
+    "higherBetter": null,
+    "pick": "Passing Rate"
+  },
+  {
+    "group": "Passing",
+    "name": "Touchdowns",
+    "key": "ptd",
+    "fmt": "int",
+    "higherBetter": true,
+    "pick": "Touchdowns"
+  },
+  {
+    "group": "Passing",
+    "name": "Rate",
+    "key": "ptdrate",
+    "fmt": "pct",
+    "higherBetter": true,
+    "pick": "Rate (TD)"
+  },
+  {
+    "group": "Passing",
+    "name": "Interceptions",
+    "key": "pint",
+    "fmt": "int",
+    "higherBetter": false,
+    "pick": "Interceptions"
+  },
+  {
+    "group": "Passing",
+    "name": "Rate",
+    "key": "pintrate",
+    "fmt": "pct",
+    "higherBetter": false,
+    "pick": "Rate (INT)"
+  },
+  {
+    "group": "Passing",
+    "name": "Sacks",
+    "key": "sackstaken",
+    "fmt": "num1",
+    "higherBetter": false,
+    "pick": "Sacks"
+  },
+  {
+    "group": "Passing",
+    "name": "Sack Rate",
+    "key": "sacktakenrate",
+    "fmt": "pct",
+    "higherBetter": false,
+    "pick": "Sack Rate"
+  },
+  {
+    "group": "Passing",
+    "name": "Passer Rating (NCAA)",
+    "key": "ncaa",
+    "fmt": "num1",
+    "higherBetter": true,
+    "pick": "Passer Rating (NCAA)"
+  },
+  {
+    "group": "Passing",
+    "name": "Passer Rating (NFL)",
+    "key": "nfl",
+    "fmt": "num1",
+    "higherBetter": true,
+    "pick": "Passer Rating (NFL)"
+  },
+  {
+    "group": "Rushing",
+    "name": "Yards",
+    "key": "ryds",
+    "fmt": "int",
+    "higherBetter": true,
+    "pick": "Yards"
+  },
+  {
+    "group": "Rushing",
+    "name": "Carries",
+    "key": "car",
+    "fmt": "int",
+    "higherBetter": null,
+    "pick": "Carries"
+  },
+  {
+    "group": "Rushing",
+    "name": "Yards/Carry",
+    "key": "ypcar",
+    "fmt": "num1",
+    "higherBetter": true,
+    "pick": "Yards/Carry"
+  },
+  {
+    "group": "Rushing",
+    "name": "Share",
+    "key": "rushshare",
+    "fmt": "pct",
+    "higherBetter": null,
+    "pick": "Share"
+  },
+  {
+    "group": "Rushing",
+    "name": "Touchdowns",
+    "key": "rtd",
+    "fmt": "int",
+    "higherBetter": true,
+    "pick": "Touchdowns"
+  },
+  {
+    "group": "Rushing",
+    "name": "Rate",
+    "key": "rtdrate",
+    "fmt": "pct",
+    "higherBetter": true,
+    "pick": "Rate"
+  },
+  {
+    "group": "Situational Offense",
+    "name": "First Downs",
+    "key": "fd_so",
+    "fmt": "int",
+    "higherBetter": true,
+    "pick": "First Downs"
+  },
+  {
+    "group": "Situational Offense",
+    "name": "3rd Down Attempts",
+    "key": "d3a",
+    "fmt": "int",
+    "higherBetter": null,
+    "pick": "3rd Down Attempts"
+  },
+  {
+    "group": "Situational Offense",
+    "name": "3rd Down Completions",
+    "key": "d3c",
+    "fmt": "int",
+    "higherBetter": true,
+    "pick": "3rd Down Completions"
+  },
+  {
+    "group": "Situational Offense",
+    "name": "Conversion %",
+    "key": "d3pct",
+    "fmt": "pct",
+    "higherBetter": true,
+    "pick": "Conversion % (3rd Down)"
+  },
+  {
+    "group": "Situational Offense",
+    "name": "4th Down Attempts",
+    "key": "d4a",
+    "fmt": "int",
+    "higherBetter": null,
+    "pick": "4th Down Attempts"
+  },
+  {
+    "group": "Situational Offense",
+    "name": "4th Down Completions",
+    "key": "d4c",
+    "fmt": "int",
+    "higherBetter": true,
+    "pick": "4th Down Completions"
+  },
+  {
+    "group": "Situational Offense",
+    "name": "Conversion %",
+    "key": "d4pct",
+    "fmt": "pct",
+    "higherBetter": true,
+    "pick": "Conversion % (4th Down)"
+  },
+  {
+    "group": "Situational Offense",
+    "name": "Red Zone Attempts",
+    "key": "rza",
+    "fmt": "int",
+    "higherBetter": null,
+    "pick": "Red Zone Attempts"
+  },
+  {
+    "group": "Situational Offense",
+    "name": "Red Zone Successes",
+    "key": "rzs",
+    "fmt": "int",
+    "higherBetter": true,
+    "pick": "Red Zone Successes"
+  },
+  {
+    "group": "Situational Offense",
+    "name": "Conversion %",
+    "key": "rzpct",
+    "fmt": "pct",
+    "higherBetter": true,
+    "pick": "Conversion % (Red Zone)"
+  },
+  {
+    "group": "Scoring Defense",
+    "name": "Points Allowed",
+    "key": "ptsa2",
+    "fmt": "int",
+    "higherBetter": false,
+    "pick": "Points Allowed"
+  },
+  {
+    "group": "Scoring Defense",
+    "name": "Yards Allowed",
+    "key": "ydsa",
+    "fmt": "int",
+    "higherBetter": false,
+    "pick": "Yards Allowed"
+  },
+  {
+    "group": "Scoring Defense",
+    "name": "Touchdowns Allowed",
+    "key": "tda",
+    "fmt": "int",
+    "higherBetter": false,
+    "pick": "Touchdowns Allowed"
+  },
+  {
+    "group": "Scoring Defense",
+    "name": "Yards Allowed per Play",
+    "key": "yppa",
+    "fmt": "num1",
+    "higherBetter": false,
+    "pick": "Yards Allowed per Play"
+  },
+  {
+    "group": "Passing Defense",
+    "name": "Yards Allowed",
+    "key": "pydsa",
+    "fmt": "int",
+    "higherBetter": false,
+    "pick": "Yards Allowed"
+  },
+  {
+    "group": "Passing Defense",
+    "name": "Attempts Against",
+    "key": "patta",
+    "fmt": "int",
+    "higherBetter": null,
+    "pick": "Attempts Against"
+  },
+  {
+    "group": "Passing Defense",
+    "name": "Completions Against",
+    "key": "pcompa",
+    "fmt": "int",
+    "higherBetter": false,
+    "pick": "Completions Against"
+  },
+  {
+    "group": "Passing Defense",
+    "name": "Completion %",
+    "key": "pcpcta",
+    "fmt": "pct",
+    "higherBetter": false,
+    "pick": "Completion %"
+  },
+  {
+    "group": "Passing Defense",
+    "name": "Touchdowns Allowed",
+    "key": "ptda",
+    "fmt": "int",
+    "higherBetter": false,
+    "pick": "Touchdowns Allowed"
+  },
+  {
+    "group": "Passing Defense",
+    "name": "Interceptions",
+    "key": "dint",
+    "fmt": "int",
+    "higherBetter": true,
+    "pick": "Interceptions"
+  },
+  {
+    "group": "Passing Defense",
+    "name": "Sacks",
+    "key": "sacks",
+    "fmt": "num1",
+    "higherBetter": true,
+    "pick": "Sacks"
+  },
+  {
+    "group": "Passing Defense",
+    "name": "Rate",
+    "key": "sackrate",
+    "fmt": "pct",
+    "higherBetter": true,
+    "pick": "Rate (Sack)"
+  },
+  {
+    "group": "Passing Defense",
+    "name": "Passer Rating (NCAA)",
+    "key": "ncaaa",
+    "fmt": "num1",
+    "higherBetter": false,
+    "pick": "Passer Rating (NCAA)"
+  },
+  {
+    "group": "Passing Defense",
+    "name": "Passer Rating (NFL)",
+    "key": "nfla",
+    "fmt": "num1",
+    "higherBetter": false,
+    "pick": "Passer Rating (NFL)"
+  },
+  {
+    "group": "Rush Defense",
+    "name": "Yards Allowed",
+    "key": "rydsa",
+    "fmt": "int",
+    "higherBetter": false,
+    "pick": "Yards Allowed"
+  },
+  {
+    "group": "Rush Defense",
+    "name": "Carries Against",
+    "key": "cara",
+    "fmt": "int",
+    "higherBetter": null,
+    "pick": "Carries Against"
+  },
+  {
+    "group": "Rush Defense",
+    "name": "Yards/Carry Allowed",
+    "key": "ypcara",
+    "fmt": "num1",
+    "higherBetter": false,
+    "pick": "Yards/Carry Allowed"
+  },
+  {
+    "group": "Rush Defense",
+    "name": "Touchdowns Allowed",
+    "key": "rtda",
+    "fmt": "int",
+    "higherBetter": false,
+    "pick": "Touchdowns Allowed"
+  },
+  {
+    "group": "Disruptions",
+    "name": "Sacks",
+    "key": "sacks_d",
+    "fmt": "num1",
+    "higherBetter": true,
+    "pick": "Sacks"
+  },
+  {
+    "group": "Disruptions",
+    "name": "Tackles for Loss",
+    "key": "tfl",
+    "fmt": "int",
+    "higherBetter": true,
+    "pick": "Tackles for Loss"
+  },
+  {
+    "group": "Disruptions",
+    "name": "Interceptions",
+    "key": "dint2",
+    "fmt": "int",
+    "higherBetter": true,
+    "pick": "Interceptions"
+  },
+  {
+    "group": "Disruptions",
+    "name": "Fumbles Recovered",
+    "key": "fumrec",
+    "fmt": "int",
+    "higherBetter": true,
+    "pick": "Fumbles Recovered"
+  },
+  {
+    "group": "Disruptions",
+    "name": "Defensive Touchdowns",
+    "key": "deftd",
+    "fmt": "int",
+    "higherBetter": true,
+    "pick": "Defensive Touchdowns"
+  },
+  {
+    "group": "Situational Defense",
+    "name": "First Downs",
+    "key": "fda",
+    "fmt": "int",
+    "higherBetter": false,
+    "pick": "First Downs"
+  },
+  {
+    "group": "Situational Defense",
+    "name": "3rd Down Attempts",
+    "key": "d3aa",
+    "fmt": "int",
+    "higherBetter": null,
+    "pick": "3rd Down Attempts"
+  },
+  {
+    "group": "Situational Defense",
+    "name": "3rd Down Completions",
+    "key": "d3ca",
+    "fmt": "int",
+    "higherBetter": false,
+    "pick": "3rd Down Completions"
+  },
+  {
+    "group": "Situational Defense",
+    "name": "Conversion %",
+    "key": "d3pcta",
+    "fmt": "pct",
+    "higherBetter": false,
+    "pick": "Conversion % (3rd Down)"
+  },
+  {
+    "group": "Situational Defense",
+    "name": "4th Down Attempts",
+    "key": "d4aa",
+    "fmt": "int",
+    "higherBetter": null,
+    "pick": "4th Down Attempts"
+  },
+  {
+    "group": "Situational Defense",
+    "name": "4th Down Completions",
+    "key": "d4ca",
+    "fmt": "int",
+    "higherBetter": false,
+    "pick": "4th Down Completions"
+  },
+  {
+    "group": "Situational Defense",
+    "name": "Conversion %",
+    "key": "d4pcta",
+    "fmt": "pct",
+    "higherBetter": false,
+    "pick": "Conversion % (4th Down)"
+  },
+  {
+    "group": "Situational Defense",
+    "name": "Red Zone Attempts",
+    "key": "rzaa",
+    "fmt": "int",
+    "higherBetter": null,
+    "pick": "Red Zone Attempts"
+  },
+  {
+    "group": "Situational Defense",
+    "name": "Red Zone Successes",
+    "key": "rzsa",
+    "fmt": "int",
+    "higherBetter": false,
+    "pick": "Red Zone Successes"
+  },
+  {
+    "group": "Situational Defense",
+    "name": "Conversion %",
+    "key": "rzpcta",
+    "fmt": "pct",
+    "higherBetter": false,
+    "pick": "Conversion % (Red Zone)"
+  },
+  {
+    "group": "Penalties",
+    "name": "Total Penalties",
+    "key": "pen",
+    "fmt": "int",
+    "higherBetter": false,
+    "pick": "Total Penalties"
+  },
+  {
+    "group": "Penalties",
+    "name": "Yards",
+    "key": "penyds",
+    "fmt": "int",
+    "higherBetter": false,
+    "pick": "Yards"
+  },
+  {
+    "group": "Penalties",
+    "name": "Penalty Yards per Game",
+    "key": "penypg",
+    "fmt": "num1",
+    "higherBetter": false,
+    "pick": "Penalty Yards per Game"
+  },
+  {
+    "group": "Totals (Special Teams)",
+    "name": "FGA",
+    "key": "fga",
+    "fmt": "int",
+    "higherBetter": null,
+    "pick": "FGA"
+  },
+  {
+    "group": "Totals (Special Teams)",
+    "name": "FGM",
+    "key": "fgm",
+    "fmt": "int",
+    "higherBetter": true,
+    "pick": "FGM"
+  },
+  {
+    "group": "Totals (Special Teams)",
+    "name": "FG %",
+    "key": "fgpct",
+    "fmt": "pct",
+    "higherBetter": true,
+    "pick": "FG %"
+  },
+  {
+    "group": "Totals (Special Teams)",
+    "name": "XPA",
+    "key": "xpa",
+    "fmt": "int",
+    "higherBetter": null,
+    "pick": "XPA"
+  },
+  {
+    "group": "Totals (Special Teams)",
+    "name": "XPM",
+    "key": "xpm",
+    "fmt": "int",
+    "higherBetter": true,
+    "pick": "XPM"
+  },
+  {
+    "group": "Totals (Special Teams)",
+    "name": "XP %",
+    "key": "xppct",
+    "fmt": "pct",
+    "higherBetter": true,
+    "pick": "XP %"
+  },
+  {
+    "group": "Totals (Special Teams)",
+    "name": "Kick Return Yards",
+    "key": "kr",
+    "fmt": "int",
+    "higherBetter": true,
+    "pick": "Kick Return Yards"
+  },
+  {
+    "group": "Totals (Special Teams)",
+    "name": "Punts",
+    "key": "punts",
+    "fmt": "int",
+    "higherBetter": null,
+    "pick": "Punts"
+  },
+  {
+    "group": "Totals (Special Teams)",
+    "name": "Yards",
+    "key": "puntyds",
+    "fmt": "int",
+    "higherBetter": null,
+    "pick": "Yards"
+  },
+  {
+    "group": "Totals (Special Teams)",
+    "name": "Yards/Punt",
+    "key": "ypunt",
+    "fmt": "num1",
+    "higherBetter": true,
+    "pick": "Yards/Punt"
+  },
+  {
+    "group": "Totals (Special Teams)",
+    "name": "Punt Return Yards",
+    "key": "pr",
+    "fmt": "int",
+    "higherBetter": true,
+    "pick": "Punt Return Yards"
+  },
+  {
+    "group": "Totals (Special Teams)",
+    "name": "TDs",
+    "key": "sttd",
+    "fmt": "int",
+    "higherBetter": true,
+    "pick": "TDs"
+  },
+  {
+    "group": "Position Breakdown - Approximate Value",
+    "name": "Offense",
+    "key": "av_team_off",
+    "fmt": "num2",
+    "higherBetter": true,
+    "pick": "Offense"
+  },
+  {
+    "group": "Position Breakdown - Approximate Value",
+    "name": "Offenive Line",
+    "key": "av_oline_pool",
+    "fmt": "num2",
+    "higherBetter": true,
+    "pick": "Offenive Line"
+  },
+  {
+    "group": "Position Breakdown - Approximate Value",
+    "name": "Skill Positions",
+    "key": "av_skill_pool",
+    "fmt": "num2",
+    "higherBetter": true,
+    "pick": "Skill Positions"
+  },
+  {
+    "group": "Position Breakdown - Approximate Value",
+    "name": "RB",
+    "key": "av_rush_pool",
+    "fmt": "num2",
+    "higherBetter": true,
+    "pick": "RB"
+  },
+  {
+    "group": "Position Breakdown - Approximate Value",
+    "name": "QB",
+    "key": "av_pass_pool",
+    "fmt": "num2",
+    "higherBetter": true,
+    "pick": "QB"
+  },
+  {
+    "group": "Position Breakdown - Approximate Value",
+    "name": "QB1",
+    "key": "av_qb1",
+    "fmt": "num2",
+    "higherBetter": true,
+    "pick": "QB1"
+  },
+  {
+    "group": "Position Breakdown - Approximate Value",
+    "name": "WR/TE",
+    "key": "av_rec_pool",
+    "fmt": "num2",
+    "higherBetter": true,
+    "pick": "WR/TE"
+  },
+  {
+    "group": "Position Breakdown - Approximate Value",
+    "name": "Defense",
+    "key": "av_team_def",
+    "fmt": "num2",
+    "higherBetter": true,
+    "pick": "Defense"
+  },
+  {
+    "group": "Position Breakdown - Approximate Value",
+    "name": "DL/LB",
+    "key": "av_front7_pool",
+    "fmt": "num2",
+    "higherBetter": true,
+    "pick": "DL/LB"
+  },
+  {
+    "group": "Position Breakdown - Approximate Value",
+    "name": "DB",
+    "key": "av_secondary_pool",
+    "fmt": "num2",
+    "higherBetter": true,
+    "pick": "DB"
+  },
+  {
+    "group": "Position Breakdown - Approximate Value",
+    "name": "K",
+    "key": "av_kicker",
+    "fmt": "num2",
+    "higherBetter": true,
+    "pick": "K"
+  },
+  {
+    "group": "Position Breakdown - Approximate Value",
+    "name": "P",
+    "key": "av_punter",
+    "fmt": "num2",
+    "higherBetter": true,
+    "pick": "P"
+  }
+]

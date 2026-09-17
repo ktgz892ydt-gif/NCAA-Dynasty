@@ -1,16 +1,16 @@
 """Write the transcribed national player leaderboards into the self-contained site.
 
 Each category that has been read from its recording or photo set lives in
-data/leaders-2026/<CATEGORY>.json, carrying its own columns, provenance and the
+data/seasons/<year>/leaders/<CATEGORY>.json, carrying its own columns, provenance and the
 arithmetic identities the screen itself prints. Categories with no file keep
 whatever DATA already holds - the single screenful the first pass captured.
 """
 import argparse
 import json
 from pathlib import Path
-from reconcile_2026 import ROOT, read_site
+from season_io import ROOT
 
-LEADERS = ROOT / 'data/leaders-2026'
+LEADERS = ROOT / 'data/seasons/2026/leaders'
 
 
 def check_identities(source):
@@ -113,21 +113,8 @@ def load_sources():
 
 
 def main():
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--check', action='store_true', help='fail if the site needs regeneration')
-    args = parser.parse_args()
-    path = ROOT / 'index.html'
-    html, start, length, data = read_site(path)
-    updated = apply(data, load_sources())
-    text = html[:start] + json.dumps(updated, ensure_ascii=False, separators=(',', ':')) + html[start+length:]
-    if args.check:
-        if text != html:
-            raise SystemExit('Player leaderboards are stale; run python3 scripts/update_leaders.py')
-        print('Player leaderboards are current.')
-    else:
-        path.write_text(text)
-        depth = updated['leaderDepth']
-        print('Wrote ' + ', '.join(f'{k} {depth[k]}' for k in sorted(depth)) + ' into index.html.')
+    from build_season import main as build_main
+    build_main()
 
 
 if __name__ == '__main__':

@@ -2,13 +2,13 @@
 import copy
 import json
 import unittest
-from reconcile_2026 import ROOT, read_site
+from season_io import ROOT
 from update_efficiency import observations, solve, residual_rmse, update_efficiency
 
 
 class EfficiencyTests(unittest.TestCase):
     def setUp(self):
-        self.data = read_site(ROOT / 'index.html')[3]
+        self.data = json.loads((ROOT / 'data/seasons/2026/season.json').read_text())
         self.teams = [r['t'] for r in self.data['ratings']]
         self.hfa = self.data['params']['estimated_home_field_advantage']
 
@@ -23,7 +23,7 @@ class EfficiencyTests(unittest.TestCase):
             self.assertEqual(round(row['adjo'] - row['adjd'], 2), row['srs'], row['t'])
 
     def test_full_precision_margin_matches_the_ratings_export(self):
-        published = json.loads((ROOT / 'data/srs-2026.json').read_text())['ratings']
+        published = json.loads((ROOT / 'data/seasons/2026/inputs/srs-reference.json').read_text())['ratings']
         self.assertEqual(len(published), len(self.data['ratings']))
         worst = max(abs((r['adjo'] - r['adjd']) - published[r['t']]) for r in self.data['ratings'])
         self.assertLess(worst, 1e-6, f'largest gap to the ratings export: {worst}')
@@ -65,7 +65,7 @@ class EfficiencyTests(unittest.TestCase):
         # it survives where the SRS agreement is checked, just not as a statistic
         for row in self.data['ratings']:
             self.assertIn('adjem', row)
-        page = (ROOT / 'index.html').read_text()
+        page = (ROOT / 'assets/views/season.js').read_text()
         block = page[page.index("[['pyth'"):page.index(']].forEach')]
         self.assertIn("['adjo'", block)
         self.assertIn("['adjd'", block)

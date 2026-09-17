@@ -2,13 +2,12 @@ import copy
 import json
 import unittest
 from update_sos import ROOT, opponent_averages, update_sos
-from reconcile_2026 import read_site
 
 
 class SOSTests(unittest.TestCase):
     def setUp(self):
-        self.data = read_site(ROOT / 'index.html')[3]
-        self.source = json.loads((ROOT / 'data/srs-2026.json').read_text())
+        self.data = json.loads((ROOT / 'data/seasons/2026/season.json').read_text())
+        self.source = json.loads((ROOT / 'data/seasons/2026/inputs/srs-reference.json').read_text())
 
     def test_each_game_counts_including_repeat_opponents(self):
         games = [{'a':'A','h':'B'}, {'a':'A','h':'B'}, {'a':'A','h':'C'}]

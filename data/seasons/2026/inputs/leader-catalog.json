@@ -1,0 +1,206 @@
+{
+  "PASSING": {
+    "columns": [
+      "GP",
+      "COMP",
+      "ATT",
+      "COMP %",
+      "YARDS",
+      "TD",
+      "TD %",
+      "INT",
+      "INT %",
+      "TD:INT",
+      "YPA",
+      "NY/A",
+      "ANY/A",
+      "YPG",
+      "RATING",
+      "LONG",
+      "SACKS",
+      "SACK %",
+      "SNAPS"
+    ],
+    "sortedBy": "YARDS",
+    "source": [
+      "PASSING_5208_t0.4",
+      "PASSING_5208_t1.6",
+      "PASSING_5209_t0.4",
+      "PASSING_5209_t1.6"
+    ]
+  },
+  "RUSHING": {
+    "columns": [
+      "GP",
+      "CAR",
+      "YARDS",
+      "AVG",
+      "TD",
+      "AVG G",
+      "20+",
+      "BTK",
+      "YAC",
+      "LONG",
+      "FUMB",
+      "FUM %",
+      "SNAPS"
+    ],
+    "sortedBy": "YARDS",
+    "source": [
+      "RUSHING_5210_t0.4",
+      "RUSHING_5210_t1.6",
+      "RUSHING_5211_t0.4",
+      "RUSHING_5211_t1.6"
+    ]
+  },
+  "RECEIVING": {
+    "columns": [
+      "GP",
+      "REC",
+      "YARDS",
+      "AVG",
+      "TD",
+      "AVG G",
+      "LONG",
+      "RAC",
+      "RAC AVG",
+      "DROPS",
+      "SNAPS",
+      "AIR YDS",
+      "AIR/REC"
+    ],
+    "sortedBy": "YARDS",
+    "source": [
+      "RECEIVING_5212_t0.4",
+      "RECEIVING_5212_t1.6",
+      "RECEIVING_5213_t0.4",
+      "RECEIVING_5213_t1.6"
+    ],
+    "derived": [
+      "AIR YDS",
+      "AIR/REC"
+    ]
+  },
+  "BLOCKING": {
+    "columns": [
+      "GP",
+      "SACK",
+      "SNAPS"
+    ],
+    "sortedBy": "SACK",
+    "source": [
+      "BLOCKING_5214_t0.4",
+      "BLOCKING_5214_t1.6"
+    ]
+  },
+  "DEFENSE": {
+    "columns": [
+      "GP",
+      "SOLO",
+      "ASSISTS",
+      "TAK",
+      "TFL",
+      "SACK",
+      "INT",
+      "INT YDS",
+      "INT AVG",
+      "INT LG"
+    ],
+    "sortedBy": "TAK",
+    "source": [
+      "DEFENSE_5215_t0.4",
+      "DEFENSE_5215_t1.6",
+      "DEFENSE_5216_t0.4",
+      "DEFENSE_5216_t1.6"
+    ]
+  },
+  "KICKING": {
+    "columns": [
+      "GP",
+      "FGM",
+      "FGA",
+      "FG%",
+      "FG LNG",
+      "XPM",
+      "XPA",
+      "XP%",
+      "FGM29",
+      "FGA29",
+      "FGM39",
+      "FGA39",
+      "FGM49",
+      "FGA49",
+      "FGM50",
+      "FGA50",
+      "KO",
+      "TB",
+      "TB %",
+      "FG BLK",
+      "XPB",
+      "SNAPS"
+    ],
+    "sortedBy": "FGM",
+    "source": [
+      "KICKING_5217_t0.4",
+      "KICKING_5217_t1.6",
+      "KICKING_5218_t0.4",
+      "KICKING_5218_t1.6",
+      "KICKING_5219_t0.4",
+      "KICKING_5219_t1.6"
+    ]
+  },
+  "PUNTING": {
+    "columns": [
+      "GP",
+      "PUNTS",
+      "YARDS",
+      "AVG",
+      "NET YDS",
+      "NET AVG",
+      "IN20",
+      "TB",
+      "LONG",
+      "BLOCK",
+      "SNAPS"
+    ],
+    "sortedBy": "PUNTS",
+    "source": [
+      "PUNTING_5220_t0.4",
+      "PUNTING_5220_t1.6",
+      "PUNTING_5221_t0.4",
+      "PUNTING_5221_t1.6"
+    ]
+  },
+  "KICK RETURN": {
+    "columns": [
+      "KR",
+      "YARDS",
+      "AVG",
+      "TD",
+      "LONG",
+      "GP",
+      "SNAPS"
+    ],
+    "sortedBy": "AVG",
+    "source": [
+      "IMG_5222",
+      "IMG_5223"
+    ]
+  },
+  "PUNT RETURN": {
+    "columns": [
+      "PR",
+      "YARDS",
+      "AVG",
+      "TD",
+      "LONG",
+      "GP",
+      "SNAPS"
+    ],
+    "sortedBy": "PR",
+    "source": [
+      "IMG_5251",
+      "IMG_5252"
+    ]
+  }
+}

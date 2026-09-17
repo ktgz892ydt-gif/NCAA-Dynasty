@@ -3,7 +3,6 @@ import argparse
 import copy
 import json
 import math
-from reconcile_2026 import read_site
 from update_sos import ROOT, update_sos
 
 
@@ -102,28 +101,15 @@ def update_sor(data, source):
         'week_held_out_slope_brier':math.fsum(checks)/len(checks),
         'validation_caveat':'Final-season SRS is used throughout; fit diagnostics are not independent predictive validation.',
         'assumptions':'Independent games; fixed team strength; actual played schedules including repeats and synthetic FCS opponents. Synthetic buckets are not ranked. Ties rejected. Zero wins gives probability 1. Competition ranks compare probabilities rounded to 12 decimals.',
-        'source':'data/srs-2026.json and DATA.scoreboard',
+        'source':source.get('source_path', 'data/srs-2026.json and DATA.scoreboard'),
         'teams':{t:{'games':len(schedules[t]),'wins':wins[t],'match_probability':tails[t],'rank':ranks[t]} for t in eligible},
     }
     return data
 
 
 def main():
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--check', action='store_true')
-    args = parser.parse_args()
-    path = ROOT / 'index.html'
-    html, start, length, data = read_site(path)
-    update_sor(data, json.loads((ROOT / 'data/srs-2026.json').read_text()))
-    updated = html[:start] + json.dumps(data,ensure_ascii=False,separators=(',',':')) + html[start+length:]
-    if args.check:
-        if html != updated:
-            raise SystemExit('SOR is stale. Run python3 -B scripts/update_sor.py')
-        print('Estimated SOR is current.')
-    else:
-        path.write_text(updated)
-        print(json.dumps({t:data['values'][t]['sor'] for t in data['teams']}))
-        print('Model diagnostics:',data['sorMethod']['benchmark_srs'],data['sorMethod']['logistic_slope'],data['sorMethod']['brier_score'],data['sorMethod']['week_held_out_slope_brier'])
+    from build_season import main as build_main
+    build_main()
 
 
 if __name__ == '__main__':

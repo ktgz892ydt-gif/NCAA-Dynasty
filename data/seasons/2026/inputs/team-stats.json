@@ -1,0 +1,1957 @@
+{
+  "W. Michigan": {
+    "record": {
+      "v": "9-3",
+      "rank": null,
+      "of": null
+    },
+    "winpct": {
+      "v": 0.75,
+      "rank": 27,
+      "of": 138
+    },
+    "pyth": {
+      "v": 8.617865553192122,
+      "rank": 21,
+      "of": 138
+    },
+    "confchamp": {
+      "v": "No",
+      "rank": null,
+      "of": null,
+      "note": "Reported by the dynasty owner. Master marks Conference Champion, Bowl Result and Final CFP Ranking as user-entered; no screen in the source set records them. NR means the team finished outside the final CFP top 25."
+    },
+    "bowl": {
+      "v": "Win",
+      "rank": null,
+      "of": null,
+      "note": "Reported by the dynasty owner. Master marks Conference Champion, Bowl Result and Final CFP Ranking as user-entered; no screen in the source set records them. NR means the team finished outside the final CFP top 25."
+    },
+    "cfp": {
+      "v": "23",
+      "rank": null,
+      "of": null,
+      "note": "Reported by the dynasty owner. Master marks Conference Champion, Bowl Result and Final CFP Ranking as user-entered; no screen in the source set records them. NR means the team finished outside the final CFP top 25."
+    },
+    "sos": {
+      "v": -4.211306832102829,
+      "rank": 76,
+      "of": 138
+    },
+    "srs": {
+      "v": 5.788693167897193,
+      "rank": 46,
+      "of": 138
+    },
+    "mov": {
+      "v": 10.0,
+      "rank": 28,
+      "of": 138
+    },
+    "pts": {
+      "v": 368,
+      "rank": 42,
+      "of": 138
+    },
+    "ptsa": {
+      "v": 248,
+      "rank": 24,
+      "of": 138
+    },
+    "ypp": {
+      "v": 7.0,
+      "rank": 4,
+      "of": 138
+    },
+    "oeff": {
+      "v": 7.405916683437312,
+      "rank": 46,
+      "of": 138
+    },
+    "deff": {
+      "v": 7.554066402680475,
+      "rank": 124,
+      "of": 138
+    },
+    "balance": {
+      "v": 1.0113636363636365,
+      "rank": null,
+      "of": null
+    },
+    "p2r": {
+      "v": 1.4274548119198827,
+      "rank": null,
+      "of": null
+    },
+    "todiff": {
+      "v": -4,
+      "rank": 116,
+      "of": 138
+    },
+    "torate": {
+      "v": 0.02401129943502825,
+      "rank": null,
+      "of": null
+    },
+    "d3rate": {
+      "v": 0.39090909090909093,
+      "rank": 73,
+      "of": 138
+    },
+    "d4rate": {
+      "v": 0.5789473684210527,
+      "rank": 43,
+      "of": 138
+    },
+    "rzrate": {
+      "v": 0.7796610169491526,
+      "rank": 18,
+      "of": 138
+    },
+    "bci": {
+      "v": 0.4153193005858966,
+      "rank": null,
+      "of": null
+    },
+    "explo": {
+      "v": 18.26950354609929,
+      "rank": null,
+      "of": null,
+      "estimate": true,
+      "note": "Uses estimated drives from offensive TDs, FGA, punts, turnovers, failed fourth downs and two end-of-half possessions per game."
+    },
+    "pts2": {
+      "v": 368,
+      "rank": 42,
+      "of": 138
+    },
+    "ttd": {
+      "v": 49,
+      "rank": 30,
+      "of": 138
+    },
+    "pctpass": {
+      "v": 0.42857142857142855,
+      "rank": null,
+      "of": null
+    },
+    "pctrush": {
+      "v": 0.5714285714285714,
+      "rank": null,
+      "of": null
+    },
+    "plays": {
+      "v": 708.0,
+      "rank": null,
+      "of": null
+    },
+    "toppg": {
+      "v": 1280.4166666666667,
+      "rank": null,
+      "of": null
+    },
+    "fd": {
+      "v": 292,
+      "rank": 1,
+      "of": 138
+    },
+    "pyds": {
+      "v": 2922,
+      "rank": 85,
+      "of": 138
+    },
+    "patt": {
+      "v": 352.0,
+      "rank": null,
+      "of": null
+    },
+    "pcomp": {
+      "v": 223,
+      "rank": null,
+      "of": null
+    },
+    "pcpct": {
+      "v": 0.6335227272727273,
+      "rank": null,
+      "of": null
+    },
+    "ypa": {
+      "v": 8.301136363636363,
+      "rank": null,
+      "of": null
+    },
+    "ypc_pass": {
+      "v": 13.103139013452914,
+      "rank": null,
+      "of": null
+    },
+    "aya": {
+      "v": 7.704545454545454,
+      "rank": null,
+      "of": null
+    },
+    "passrate": {
+      "v": 0.4971751412429379,
+      "rank": null,
+      "of": null
+    },
+    "ptd": {
+      "v": 21,
+      "rank": 56,
+      "of": 138
+    },
+    "ptdrate": {
+      "v": 0.05965909090909091,
+      "rank": null,
+      "of": null
+    },
+    "pint": {
+      "v": 14,
+      "rank": 126,
+      "of": 138
+    },
+    "pintrate": {
+      "v": 0.03977272727272727,
+      "rank": null,
+      "of": null
+    },
+    "sackstaken": {
+      "v": 29,
+      "rank": null,
+      "of": null
+    },
+    "sacktakenrate": {
+      "v": 0.07611548556430446,
+      "rank": null,
+      "of": null
+    },
+    "ncaa": {
+      "v": 144.81477272727273,
+      "rank": null,
+      "of": null
+    },
+    "nfl": {
+      "v": 92.77935606060606,
+      "rank": null,
+      "of": null
+    },
+    "ryds": {
+      "v": 2047,
+      "rank": 20,
+      "of": 138
+    },
+    "car": {
+      "v": 356.0,
+      "rank": null,
+      "of": null
+    },
+    "ypcar": {
+      "v": 5.75,
+      "rank": null,
+      "of": null
+    },
+    "rushshare": {
+      "v": 0.5028248587570622,
+      "rank": null,
+      "of": null
+    },
+    "rtd": {
+      "v": 28,
+      "rank": 20,
+      "of": 138
+    },
+    "rtdrate": {
+      "v": 0.07865168539325842,
+      "rank": null,
+      "of": null
+    },
+    "fd_so": {
+      "v": 292,
+      "rank": 1,
+      "of": 138
+    },
+    "d3a": {
+      "v": 110,
+      "rank": null,
+      "of": null
+    },
+    "d3c": {
+      "v": 43,
+      "rank": 138,
+      "of": 138
+    },
+    "d3pct": {
+      "v": 0.39090909090909093,
+      "rank": 73,
+      "of": 138
+    },
+    "d4a": {
+      "v": 19,
+      "rank": null,
+      "of": null
+    },
+    "d4c": {
+      "v": 11,
+      "rank": 52,
+      "of": 138
+    },
+    "d4pct": {
+      "v": 0.5789473684210527,
+      "rank": 43,
+      "of": 138
+    },
+    "rza": {
+      "v": 59,
+      "rank": null,
+      "of": null
+    },
+    "rzs": {
+      "v": 46,
+      "rank": 4,
+      "of": 138
+    },
+    "rzpct": {
+      "v": 0.7796610169491526,
+      "rank": 18,
+      "of": 138
+    },
+    "ptsa2": {
+      "v": 248,
+      "rank": 24,
+      "of": 138
+    },
+    "ydsa": {
+      "v": 3283,
+      "rank": 2,
+      "of": 138
+    },
+    "tda": {
+      "v": 25.0,
+      "rank": null,
+      "of": null
+    },
+    "yppa": {
+      "v": 5.545608108108108,
+      "rank": null,
+      "of": null
+    },
+    "pydsa": {
+      "v": 2283,
+      "rank": 3,
+      "of": 138
+    },
+    "patta": {
+      "v": 329.0,
+      "rank": null,
+      "of": null
+    },
+    "pcompa": {
+      "v": 190.0,
+      "rank": null,
+      "of": null
+    },
+    "pcpcta": {
+      "v": 0.5775075987841946,
+      "rank": null,
+      "of": null
+    },
+    "ptda": {
+      "v": 13.0,
+      "rank": null,
+      "of": null
+    },
+    "dint": {
+      "v": 11,
+      "rank": 32,
+      "of": 138
+    },
+    "sacks": {
+      "v": 27,
+      "rank": 38,
+      "of": 138
+    },
+    "sackrate": {
+      "v": 0.07584269662921349,
+      "rank": null,
+      "of": null
+    },
+    "ncaaa": {
+      "v": 122.39270516717325,
+      "rank": null,
+      "of": null
+    },
+    "nfla": {
+      "v": 78.36246200607903,
+      "rank": null,
+      "of": null
+    },
+    "rydsa": {
+      "v": 1000,
+      "rank": 1,
+      "of": 138
+    },
+    "cara": {
+      "v": 263.0,
+      "rank": null,
+      "of": null
+    },
+    "ypcara": {
+      "v": 3.802281368821293,
+      "rank": null,
+      "of": null
+    },
+    "rtda": {
+      "v": 12.0,
+      "rank": null,
+      "of": null
+    },
+    "sacks_d": {
+      "v": 27,
+      "rank": 38,
+      "of": 138
+    },
+    "tfl": {
+      "v": null,
+      "rank": null,
+      "of": null
+    },
+    "dint2": {
+      "v": 11,
+      "rank": 32,
+      "of": 138
+    },
+    "fumrec": {
+      "v": 2,
+      "rank": 116,
+      "of": 138
+    },
+    "deftd": {
+      "v": null,
+      "rank": null,
+      "of": null
+    },
+    "fda": {
+      "v": 144.0,
+      "rank": null,
+      "of": null
+    },
+    "d3aa": {
+      "v": 126.0,
+      "rank": null,
+      "of": null
+    },
+    "d3ca": {
+      "v": 42.0,
+      "rank": null,
+      "of": null
+    },
+    "d3pcta": {
+      "v": 0.3333333333333333,
+      "rank": null,
+      "of": null
+    },
+    "d4aa": {
+      "v": 16.0,
+      "rank": null,
+      "of": null
+    },
+    "d4ca": {
+      "v": 6.0,
+      "rank": null,
+      "of": null
+    },
+    "d4pcta": {
+      "v": 0.375,
+      "rank": null,
+      "of": null
+    },
+    "rzaa": {
+      "v": 30,
+      "rank": null,
+      "of": null
+    },
+    "rzsa": {
+      "v": 18,
+      "rank": 7,
+      "of": 138
+    },
+    "rzpcta": {
+      "v": 0.6,
+      "rank": 19,
+      "of": 138
+    },
+    "pen": {
+      "v": 14,
+      "rank": 1,
+      "of": 138
+    },
+    "penyds": {
+      "v": 97,
+      "rank": 1,
+      "of": 138
+    },
+    "penypg": {
+      "v": 8.1,
+      "rank": 1,
+      "of": 138
+    },
+    "fga": {
+      "v": 17,
+      "rank": null,
+      "of": null
+    },
+    "fgm": {
+      "v": 9,
+      "rank": null,
+      "of": null
+    },
+    "fgpct": {
+      "v": 0.5294117647058824,
+      "rank": null,
+      "of": null
+    },
+    "xpa": {
+      "v": 47,
+      "rank": null,
+      "of": null
+    },
+    "xpm": {
+      "v": 45,
+      "rank": null,
+      "of": null
+    },
+    "xppct": {
+      "v": 0.9574468085106383,
+      "rank": null,
+      "of": null
+    },
+    "kr": {
+      "v": 496.0,
+      "rank": null,
+      "of": null
+    },
+    "punts": {
+      "v": 26,
+      "rank": null,
+      "of": null
+    },
+    "puntyds": {
+      "v": 1121,
+      "rank": null,
+      "of": null
+    },
+    "ypunt": {
+      "v": 43.11538461538461,
+      "rank": null,
+      "of": null
+    },
+    "pr": {
+      "v": 334.0,
+      "rank": null,
+      "of": null
+    },
+    "sttd": {
+      "v": null,
+      "rank": null,
+      "of": null
+    },
+    "av_team_off": {
+      "v": 127.14685446750124,
+      "rank": null,
+      "of": null,
+      "note": "Three-team offensive baseline includes Eastern’s retained first-game workbook punts; see source notes."
+    },
+    "av_oline_pool": {
+      "v": 57.794024757955114,
+      "rank": null,
+      "of": null,
+      "note": "Three-team offensive baseline includes Eastern’s retained first-game workbook punts; see source notes."
+    },
+    "av_skill_pool": {
+      "v": 69.35282970954613,
+      "rank": null,
+      "of": null,
+      "note": "Three-team offensive baseline includes Eastern’s retained first-game workbook punts; see source notes."
+    },
+    "av_rush_pool": {
+      "v": 16.98767674794374,
+      "rank": null,
+      "of": null,
+      "note": "Three-team offensive baseline includes Eastern’s retained first-game workbook punts; see source notes."
+    },
+    "av_pass_pool": {
+      "v": 13.614939770016623,
+      "rank": null,
+      "of": null,
+      "note": "Three-team offensive baseline includes Eastern’s retained first-game workbook punts; see source notes."
+    },
+    "av_qb1": {
+      "v": 13.697273999630735,
+      "rank": null,
+      "of": null,
+      "note": "Three-team offensive baseline includes Eastern’s retained first-game workbook punts; see source notes."
+    },
+    "av_rec_pool": {
+      "v": 38.75021319158577,
+      "rank": null,
+      "of": null,
+      "note": "Three-team offensive baseline includes Eastern’s retained first-game workbook punts; see source notes."
+    },
+    "av_team_def": {
+      "v": 99.11402765621041,
+      "rank": null,
+      "of": null,
+      "estimate": true,
+      "note": "Defensive drives equal the team’s own estimated drive count, since possessions alternate. That removes the earlier opponent field-goal estimate, and with it any dependence on opponent punts or takeaways, so Eastern’s 11-game opponent-punt total and Central’s 21-versus-20 takeaway discrepancy no longer reach this figure. The drive count itself is still an estimate and the baseline is the three schools."
+    },
+    "av_front7_pool": {
+      "v": 66.0760184374736,
+      "rank": null,
+      "of": null,
+      "estimate": true,
+      "note": "Defensive drives equal the team’s own estimated drive count, since possessions alternate. That removes the earlier opponent field-goal estimate, and with it any dependence on opponent punts or takeaways, so Eastern’s 11-game opponent-punt total and Central’s 21-versus-20 takeaway discrepancy no longer reach this figure. The drive count itself is still an estimate and the baseline is the three schools."
+    },
+    "av_secondary_pool": {
+      "v": 33.0380092187368,
+      "rank": null,
+      "of": null,
+      "estimate": true,
+      "note": "Defensive drives equal the team’s own estimated drive count, since possessions alternate. That removes the earlier opponent field-goal estimate, and with it any dependence on opponent punts or takeaways, so Eastern’s 11-game opponent-punt total and Central’s 21-versus-20 takeaway discrepancy no longer reach this figure. The drive count itself is still an estimate and the baseline is the three schools."
+    },
+    "av_kicker": {
+      "v": -0.6994098126446749,
+      "rank": null,
+      "of": null
+    },
+    "av_punter": {
+      "v": 2.117772937419134,
+      "rank": null,
+      "of": null
+    },
+    "sor": {
+      "v": 45,
+      "rank": 45,
+      "of": 138
+    },
+    "adjo": {
+      "v": 30.806284056178377,
+      "rank": 43,
+      "of": 138
+    },
+    "adjd": {
+      "v": 25.017590888281433,
+      "rank": 65,
+      "of": 138
+    },
+    "adjem": {
+      "v": 5.788693167896943,
+      "rank": 46,
+      "of": 138
+    }
+  },
+  "E. Michigan": {
+    "record": {
+      "v": "4-8",
+      "rank": null,
+      "of": null
+    },
+    "winpct": {
+      "v": 0.3333333333333333,
+      "rank": 120,
+      "of": 138
+    },
+    "pyth": {
+      "v": 4.635056689877313,
+      "rank": 113,
+      "of": 138
+    },
+    "confchamp": {
+      "v": "No",
+      "rank": null,
+      "of": null,
+      "note": "Reported by the dynasty owner. Master marks Conference Champion, Bowl Result and Final CFP Ranking as user-entered; no screen in the source set records them. NR means the team finished outside the final CFP top 25."
+    },
+    "bowl": {
+      "v": "N/A",
+      "rank": null,
+      "of": null,
+      "note": "Reported by the dynasty owner. Master marks Conference Champion, Bowl Result and Final CFP Ranking as user-entered; no screen in the source set records them. NR means the team finished outside the final CFP top 25."
+    },
+    "cfp": {
+      "v": "NR",
+      "rank": null,
+      "of": null,
+      "note": "Reported by the dynasty owner. Master marks Conference Champion, Bowl Result and Final CFP Ranking as user-entered; no screen in the source set records them. NR means the team finished outside the final CFP top 25."
+    },
+    "sos": {
+      "v": -4.463814643148058,
+      "rank": 79,
+      "of": 138
+    },
+    "srs": {
+      "v": -7.843022099993558,
+      "rank": 98,
+      "of": 138
+    },
+    "mov": {
+      "v": -3.4166666666666665,
+      "rank": 98,
+      "of": 138
+    },
+    "pts": {
+      "v": 190,
+      "rank": 137,
+      "of": 138
+    },
+    "ptsa": {
+      "v": 231,
+      "rank": 11,
+      "of": 138
+    },
+    "ypp": {
+      "v": 5.6,
+      "rank": 94,
+      "of": 138
+    },
+    "oeff": {
+      "v": 5.969211435752435,
+      "rank": 123,
+      "of": 138
+    },
+    "deff": {
+      "v": 7.303193171040152,
+      "rank": 115,
+      "of": 138
+    },
+    "balance": {
+      "v": 0.8231511254019293,
+      "rank": null,
+      "of": null
+    },
+    "p2r": {
+      "v": 2.148367952522255,
+      "rank": null,
+      "of": null
+    },
+    "todiff": {
+      "v": -24,
+      "rank": 138,
+      "of": 138
+    },
+    "torate": {
+      "v": 0.054673721340388004,
+      "rank": null,
+      "of": null
+    },
+    "d3rate": {
+      "v": 0.43243243243243246,
+      "rank": 38,
+      "of": 138
+    },
+    "d4rate": {
+      "v": 0.35,
+      "rank": 135,
+      "of": 138
+    },
+    "rzrate": {
+      "v": 0.5555555555555556,
+      "rank": 128,
+      "of": 138
+    },
+    "bci": {
+      "v": 0.30658344356261025,
+      "rank": null,
+      "of": null,
+      "note": "Includes the retained Sacramento State Game Log entry; the lower statistics photo for that game is unavailable."
+    },
+    "explo": {
+      "v": 8.512,
+      "rank": null,
+      "of": null,
+      "estimate": true,
+      "note": "Uses estimated drives from offensive TDs, FGA, punts, turnovers, failed fourth downs and two end-of-half possessions per game. Includes the retained Sacramento State Game Log entry; the lower statistics photo for that game is unavailable."
+    },
+    "pts2": {
+      "v": 190,
+      "rank": 137,
+      "of": 138
+    },
+    "ttd": {
+      "v": 20,
+      "rank": 138,
+      "of": 138
+    },
+    "pctpass": {
+      "v": 0.6,
+      "rank": null,
+      "of": null
+    },
+    "pctrush": {
+      "v": 0.4,
+      "rank": null,
+      "of": null
+    },
+    "plays": {
+      "v": 567.0,
+      "rank": null,
+      "of": null
+    },
+    "toppg": {
+      "v": 976.25,
+      "rank": null,
+      "of": null,
+      "note": "Includes the retained Sacramento State Game Log entry; the lower statistics photo for that game is unavailable."
+    },
+    "fd": {
+      "v": 173,
+      "rank": 123,
+      "of": 138
+    },
+    "pyds": {
+      "v": 2172,
+      "rank": 132,
+      "of": 138
+    },
+    "patt": {
+      "v": 311.0,
+      "rank": null,
+      "of": null
+    },
+    "pcomp": {
+      "v": 175,
+      "rank": null,
+      "of": null
+    },
+    "pcpct": {
+      "v": 0.5627009646302251,
+      "rank": null,
+      "of": null
+    },
+    "ypa": {
+      "v": 6.983922829581994,
+      "rank": null,
+      "of": null
+    },
+    "ypc_pass": {
+      "v": 12.411428571428571,
+      "rank": null,
+      "of": null
+    },
+    "aya": {
+      "v": 4.282958199356913,
+      "rank": null,
+      "of": null
+    },
+    "passrate": {
+      "v": 0.5485008818342152,
+      "rank": null,
+      "of": null
+    },
+    "ptd": {
+      "v": 12,
+      "rank": 124,
+      "of": 138
+    },
+    "ptdrate": {
+      "v": 0.03858520900321544,
+      "rank": null,
+      "of": null
+    },
+    "pint": {
+      "v": 24,
+      "rank": 138,
+      "of": 138
+    },
+    "pintrate": {
+      "v": 0.07717041800643087,
+      "rank": null,
+      "of": null
+    },
+    "sackstaken": {
+      "v": 38,
+      "rank": null,
+      "of": null
+    },
+    "sacktakenrate": {
+      "v": 0.10888252148997135,
+      "rank": null,
+      "of": null
+    },
+    "ncaa": {
+      "v": 112.23408360128619,
+      "rank": null,
+      "of": null
+    },
+    "nfl": {
+      "v": 58.782154340836016,
+      "rank": null,
+      "of": null
+    },
+    "ryds": {
+      "v": 1011,
+      "rank": 135,
+      "of": 138
+    },
+    "car": {
+      "v": 256.0,
+      "rank": null,
+      "of": null
+    },
+    "ypcar": {
+      "v": 3.94921875,
+      "rank": null,
+      "of": null
+    },
+    "rushshare": {
+      "v": 0.4514991181657848,
+      "rank": null,
+      "of": null
+    },
+    "rtd": {
+      "v": 8,
+      "rank": 137,
+      "of": 138
+    },
+    "rtdrate": {
+      "v": 0.03125,
+      "rank": null,
+      "of": null
+    },
+    "fd_so": {
+      "v": 173,
+      "rank": 123,
+      "of": 138
+    },
+    "d3a": {
+      "v": 111,
+      "rank": null,
+      "of": null
+    },
+    "d3c": {
+      "v": 48,
+      "rank": 133,
+      "of": 138
+    },
+    "d3pct": {
+      "v": 0.43243243243243246,
+      "rank": 38,
+      "of": 138
+    },
+    "d4a": {
+      "v": 20,
+      "rank": null,
+      "of": null
+    },
+    "d4c": {
+      "v": 7,
+      "rank": 127,
+      "of": 138
+    },
+    "d4pct": {
+      "v": 0.35,
+      "rank": 135,
+      "of": 138
+    },
+    "rza": {
+      "v": 36,
+      "rank": null,
+      "of": null
+    },
+    "rzs": {
+      "v": 20,
+      "rank": 132,
+      "of": 138
+    },
+    "rzpct": {
+      "v": 0.5555555555555556,
+      "rank": 128,
+      "of": 138
+    },
+    "ptsa2": {
+      "v": 231,
+      "rank": 11,
+      "of": 138
+    },
+    "ydsa": {
+      "v": 3163,
+      "rank": 1,
+      "of": 138
+    },
+    "tda": {
+      "v": 23.0,
+      "rank": null,
+      "of": null
+    },
+    "yppa": {
+      "v": 5.709386281588448,
+      "rank": null,
+      "of": null
+    },
+    "pydsa": {
+      "v": 1891,
+      "rank": 1,
+      "of": 138
+    },
+    "patta": {
+      "v": 281.0,
+      "rank": null,
+      "of": null
+    },
+    "pcompa": {
+      "v": 207.0,
+      "rank": null,
+      "of": null
+    },
+    "pcpcta": {
+      "v": 0.7366548042704626,
+      "rank": null,
+      "of": null
+    },
+    "ptda": {
+      "v": 8.0,
+      "rank": null,
+      "of": null
+    },
+    "dint": {
+      "v": 3,
+      "rank": 133,
+      "of": 138
+    },
+    "sacks": {
+      "v": 31,
+      "rank": 21,
+      "of": 138
+    },
+    "sackrate": {
+      "v": 0.09935897435897435,
+      "rank": null,
+      "of": null
+    },
+    "ncaaa": {
+      "v": 137.45338078291815,
+      "rank": null,
+      "of": null
+    },
+    "nfla": {
+      "v": 96.55249110320284,
+      "rank": null,
+      "of": null
+    },
+    "rydsa": {
+      "v": 1272,
+      "rank": 8,
+      "of": 138
+    },
+    "cara": {
+      "v": 273.0,
+      "rank": null,
+      "of": null
+    },
+    "ypcara": {
+      "v": 4.65934065934066,
+      "rank": null,
+      "of": null
+    },
+    "rtda": {
+      "v": 15.0,
+      "rank": null,
+      "of": null
+    },
+    "sacks_d": {
+      "v": 31,
+      "rank": 21,
+      "of": 138
+    },
+    "tfl": {
+      "v": null,
+      "rank": null,
+      "of": null
+    },
+    "dint2": {
+      "v": 3,
+      "rank": 133,
+      "of": 138
+    },
+    "fumrec": {
+      "v": 4,
+      "rank": 110,
+      "of": 138
+    },
+    "deftd": {
+      "v": null,
+      "rank": null,
+      "of": null
+    },
+    "fda": {
+      "v": 154.0,
+      "rank": null,
+      "of": null
+    },
+    "d3aa": {
+      "v": 126.0,
+      "rank": null,
+      "of": null
+    },
+    "d3ca": {
+      "v": 54.0,
+      "rank": null,
+      "of": null
+    },
+    "d3pcta": {
+      "v": 0.42857142857142855,
+      "rank": null,
+      "of": null
+    },
+    "d4aa": {
+      "v": 16.0,
+      "rank": null,
+      "of": null
+    },
+    "d4ca": {
+      "v": 5.0,
+      "rank": null,
+      "of": null
+    },
+    "d4pcta": {
+      "v": 0.3125,
+      "rank": null,
+      "of": null
+    },
+    "rzaa": {
+      "v": 45,
+      "rank": null,
+      "of": null
+    },
+    "rzsa": {
+      "v": 24,
+      "rank": 39,
+      "of": 138
+    },
+    "rzpcta": {
+      "v": 0.5333333333333333,
+      "rank": 6,
+      "of": 138
+    },
+    "pen": {
+      "v": 19,
+      "rank": 3,
+      "of": 138
+    },
+    "penyds": {
+      "v": 113,
+      "rank": 2,
+      "of": 138
+    },
+    "penypg": {
+      "v": 9.4,
+      "rank": 2,
+      "of": 138
+    },
+    "fga": {
+      "v": 12,
+      "rank": null,
+      "of": null
+    },
+    "fgm": {
+      "v": 12,
+      "rank": null,
+      "of": null
+    },
+    "fgpct": {
+      "v": 1.0,
+      "rank": null,
+      "of": null
+    },
+    "xpa": {
+      "v": 20,
+      "rank": null,
+      "of": null
+    },
+    "xpm": {
+      "v": 20,
+      "rank": null,
+      "of": null
+    },
+    "xppct": {
+      "v": 1.0,
+      "rank": null,
+      "of": null
+    },
+    "kr": {
+      "v": 937,
+      "rank": null,
+      "of": null,
+      "note": "Includes the retained Sacramento State Game Log entry; the lower statistics photo for that game is unavailable."
+    },
+    "punts": {
+      "v": 25,
+      "rank": null,
+      "of": null
+    },
+    "puntyds": {
+      "v": 1165,
+      "rank": null,
+      "of": null
+    },
+    "ypunt": {
+      "v": 46.6,
+      "rank": null,
+      "of": null
+    },
+    "pr": {
+      "v": 269,
+      "rank": null,
+      "of": null,
+      "note": "Includes the retained Sacramento State Game Log entry; the lower statistics photo for that game is unavailable."
+    },
+    "sttd": {
+      "v": null,
+      "rank": null,
+      "of": null
+    },
+    "av_team_off": {
+      "v": 68.22219114520021,
+      "rank": null,
+      "of": null,
+      "note": "Three-team offensive baseline includes Eastern’s retained first-game workbook punts; see source notes."
+    },
+    "av_oline_pool": {
+      "v": 31.010086884181916,
+      "rank": null,
+      "of": null,
+      "note": "Three-team offensive baseline includes Eastern’s retained first-game workbook punts; see source notes."
+    },
+    "av_skill_pool": {
+      "v": 37.2121042610183,
+      "rank": null,
+      "of": null,
+      "note": "Three-team offensive baseline includes Eastern’s retained first-game workbook punts; see source notes."
+    },
+    "av_rush_pool": {
+      "v": 7.027805002704985,
+      "rank": null,
+      "of": null,
+      "note": "Three-team offensive baseline includes Eastern’s retained first-game workbook punts; see source notes."
+    },
+    "av_pass_pool": {
+      "v": 7.847917807161461,
+      "rank": null,
+      "of": null,
+      "note": "Three-team offensive baseline includes Eastern’s retained first-game workbook punts; see source notes."
+    },
+    "av_qb1": {
+      "v": 1.7661749184730775,
+      "rank": null,
+      "of": null,
+      "note": "Three-team offensive baseline includes Eastern’s retained first-game workbook punts; see source notes."
+    },
+    "av_rec_pool": {
+      "v": 22.336381451151848,
+      "rank": null,
+      "of": null,
+      "note": "Three-team offensive baseline includes Eastern’s retained first-game workbook punts; see source notes."
+    },
+    "av_team_def": {
+      "v": 94.16722525043868,
+      "rank": null,
+      "of": null,
+      "estimate": true,
+      "note": "Defensive drives equal the team’s own estimated drive count, since possessions alternate. That removes the earlier opponent field-goal estimate, and with it any dependence on opponent punts or takeaways, so Eastern’s 11-game opponent-punt total and Central’s 21-versus-20 takeaway discrepancy no longer reach this figure. The drive count itself is still an estimate and the baseline is the three schools."
+    },
+    "av_front7_pool": {
+      "v": 62.778150166959115,
+      "rank": null,
+      "of": null,
+      "estimate": true,
+      "note": "Defensive drives equal the team’s own estimated drive count, since possessions alternate. That removes the earlier opponent field-goal estimate, and with it any dependence on opponent punts or takeaways, so Eastern’s 11-game opponent-punt total and Central’s 21-versus-20 takeaway discrepancy no longer reach this figure. The drive count itself is still an estimate and the baseline is the three schools."
+    },
+    "av_secondary_pool": {
+      "v": 31.389075083479558,
+      "rank": null,
+      "of": null,
+      "estimate": true,
+      "note": "Defensive drives equal the team’s own estimated drive count, since possessions alternate. That removes the earlier opponent field-goal estimate, and with it any dependence on opponent punts or takeaways, so Eastern’s 11-game opponent-punt total and Central’s 21-versus-20 takeaway discrepancy no longer reach this figure. The drive count itself is still an estimate and the baseline is the three schools."
+    },
+    "av_kicker": {
+      "v": 4.542297214659747,
+      "rank": null,
+      "of": null
+    },
+    "av_punter": {
+      "v": 2.7012239782876293,
+      "rank": null,
+      "of": null
+    },
+    "sor": {
+      "v": 120,
+      "rank": 120,
+      "of": 138
+    },
+    "adjo": {
+      "v": 14.609695482578593,
+      "rank": 138,
+      "of": 138
+    },
+    "adjd": {
+      "v": 22.452717582572316,
+      "rank": 42,
+      "of": 138
+    },
+    "adjem": {
+      "v": -7.843022099993724,
+      "rank": 98,
+      "of": 138
+    }
+  },
+  "C. Michigan": {
+    "record": {
+      "v": "10-2",
+      "rank": null,
+      "of": null
+    },
+    "winpct": {
+      "v": 0.8333333333333334,
+      "rank": 16,
+      "of": 138
+    },
+    "pyth": {
+      "v": 8.182540904512297,
+      "rank": 34,
+      "of": 138
+    },
+    "confchamp": {
+      "v": "Yes",
+      "rank": null,
+      "of": null,
+      "note": "Reported by the dynasty owner. Master marks Conference Champion, Bowl Result and Final CFP Ranking as user-entered; no screen in the source set records them. NR means the team finished outside the final CFP top 25."
+    },
+    "bowl": {
+      "v": "Win",
+      "rank": null,
+      "of": null,
+      "note": "Reported by the dynasty owner. Master marks Conference Champion, Bowl Result and Final CFP Ranking as user-entered; no screen in the source set records them. NR means the team finished outside the final CFP top 25."
+    },
+    "cfp": {
+      "v": "22",
+      "rank": null,
+      "of": null,
+      "note": "Reported by the dynasty owner. Master marks Conference Champion, Bowl Result and Final CFP Ranking as user-entered; no screen in the source set records them. NR means the team finished outside the final CFP top 25."
+    },
+    "sos": {
+      "v": -5.429051810800625,
+      "rank": 90,
+      "of": 138
+    },
+    "srs": {
+      "v": 1.616822312711461,
+      "rank": 62,
+      "of": 138
+    },
+    "mov": {
+      "v": 7.083333333333333,
+      "rank": 42,
+      "of": 138
+    },
+    "pts": {
+      "v": 309,
+      "rank": 79,
+      "of": 138
+    },
+    "ptsa": {
+      "v": 224,
+      "rank": 8,
+      "of": 138
+    },
+    "ypp": {
+      "v": 5.6,
+      "rank": 93,
+      "of": 138
+    },
+    "oeff": {
+      "v": 8.783399658897102,
+      "rank": 2,
+      "of": 138
+    },
+    "deff": {
+      "v": 6.427546628407461,
+      "rank": 58,
+      "of": 138
+    },
+    "balance": {
+      "v": 1.076158940397351,
+      "rank": null,
+      "of": null
+    },
+    "p2r": {
+      "v": 1.263835263835264,
+      "rank": null,
+      "of": null
+    },
+    "todiff": {
+      "v": 2,
+      "rank": 85,
+      "of": 138,
+      "note": "Uses the season screen’s 21 takeaways minus 19 giveaways. Its components sum to 20 takeaways; the source discrepancy remains unresolved."
+    },
+    "torate": {
+      "v": 0.030303030303030304,
+      "rank": null,
+      "of": null
+    },
+    "d3rate": {
+      "v": 0.45528455284552843,
+      "rank": 20,
+      "of": 138
+    },
+    "d4rate": {
+      "v": 0.5,
+      "rank": 87,
+      "of": 138
+    },
+    "rzrate": {
+      "v": 0.76,
+      "rank": 32,
+      "of": 138
+    },
+    "bci": {
+      "v": 0.37985848201746086,
+      "rank": null,
+      "of": null
+    },
+    "explo": {
+      "v": 12.539130434782608,
+      "rank": null,
+      "of": null,
+      "estimate": true,
+      "note": "Uses estimated drives from offensive TDs, FGA, punts, turnovers, failed fourth downs and two end-of-half possessions per game."
+    },
+    "pts2": {
+      "v": 309,
+      "rank": 79,
+      "of": 138
+    },
+    "ttd": {
+      "v": 37,
+      "rank": 88,
+      "of": 138
+    },
+    "pctpass": {
+      "v": 0.5135135135135135,
+      "rank": null,
+      "of": null
+    },
+    "pctrush": {
+      "v": 0.4864864864864865,
+      "rank": null,
+      "of": null
+    },
+    "plays": {
+      "v": 627.0,
+      "rank": null,
+      "of": null
+    },
+    "toppg": {
+      "v": 1218.9166666666667,
+      "rank": null,
+      "of": null
+    },
+    "fd": {
+      "v": 217,
+      "rank": 30,
+      "of": 138
+    },
+    "pyds": {
+      "v": 1964,
+      "rank": 133,
+      "of": 138
+    },
+    "patt": {
+      "v": 302.0,
+      "rank": null,
+      "of": null
+    },
+    "pcomp": {
+      "v": 205,
+      "rank": null,
+      "of": null
+    },
+    "pcpct": {
+      "v": 0.6788079470198676,
+      "rank": null,
+      "of": null
+    },
+    "ypa": {
+      "v": 6.503311258278146,
+      "rank": null,
+      "of": null
+    },
+    "ypc_pass": {
+      "v": 9.580487804878048,
+      "rank": null,
+      "of": null
+    },
+    "aya": {
+      "v": 5.675496688741722,
+      "rank": null,
+      "of": null
+    },
+    "passrate": {
+      "v": 0.48165869218500795,
+      "rank": null,
+      "of": null
+    },
+    "ptd": {
+      "v": 19,
+      "rank": 86,
+      "of": 138
+    },
+    "ptdrate": {
+      "v": 0.06291390728476821,
+      "rank": null,
+      "of": null
+    },
+    "pint": {
+      "v": 14,
+      "rank": 129,
+      "of": 138
+    },
+    "pintrate": {
+      "v": 0.046357615894039736,
+      "rank": null,
+      "of": null
+    },
+    "sackstaken": {
+      "v": 35,
+      "rank": null,
+      "of": null
+    },
+    "sacktakenrate": {
+      "v": 0.10385756676557864,
+      "rank": null,
+      "of": null
+    },
+    "ncaa": {
+      "v": 133.99867549668875,
+      "rank": null,
+      "of": null
+    },
+    "nfl": {
+      "v": 87.40342163355409,
+      "rank": null,
+      "of": null
+    },
+    "ryds": {
+      "v": 1554,
+      "rank": 85,
+      "of": 138
+    },
+    "car": {
+      "v": 325.0,
+      "rank": null,
+      "of": null
+    },
+    "ypcar": {
+      "v": 4.781538461538462,
+      "rank": null,
+      "of": null
+    },
+    "rushshare": {
+      "v": 0.518341307814992,
+      "rank": null,
+      "of": null
+    },
+    "rtd": {
+      "v": 18,
+      "rank": 91,
+      "of": 138
+    },
+    "rtdrate": {
+      "v": 0.055384615384615386,
+      "rank": null,
+      "of": null
+    },
+    "fd_so": {
+      "v": 217,
+      "rank": 30,
+      "of": 138
+    },
+    "d3a": {
+      "v": 123,
+      "rank": null,
+      "of": null
+    },
+    "d3c": {
+      "v": 56,
+      "rank": 120,
+      "of": 138
+    },
+    "d3pct": {
+      "v": 0.45528455284552843,
+      "rank": 20,
+      "of": 138
+    },
+    "d4a": {
+      "v": 10,
+      "rank": null,
+      "of": null
+    },
+    "d4c": {
+      "v": 5,
+      "rank": 137,
+      "of": 138
+    },
+    "d4pct": {
+      "v": 0.5,
+      "rank": 87,
+      "of": 138
+    },
+    "rza": {
+      "v": 50,
+      "rank": null,
+      "of": null
+    },
+    "rzs": {
+      "v": 38,
+      "rank": 21,
+      "of": 138
+    },
+    "rzpct": {
+      "v": 0.76,
+      "rank": 32,
+      "of": 138
+    },
+    "ptsa2": {
+      "v": 224,
+      "rank": 8,
+      "of": 138
+    },
+    "ydsa": {
+      "v": 3485,
+      "rank": 3,
+      "of": 138
+    },
+    "tda": {
+      "v": 25.0,
+      "rank": null,
+      "of": null
+    },
+    "yppa": {
+      "v": 5.479559748427673,
+      "rank": null,
+      "of": null
+    },
+    "pydsa": {
+      "v": 2429,
+      "rank": 11,
+      "of": 138
+    },
+    "patta": {
+      "v": 364.0,
+      "rank": null,
+      "of": null
+    },
+    "pcompa": {
+      "v": 215.0,
+      "rank": null,
+      "of": null
+    },
+    "pcpcta": {
+      "v": 0.5906593406593407,
+      "rank": null,
+      "of": null
+    },
+    "ptda": {
+      "v": 14.0,
+      "rank": null,
+      "of": null
+    },
+    "dint": {
+      "v": 12,
+      "rank": 29,
+      "of": 138
+    },
+    "sacks": {
+      "v": 31,
+      "rank": 20,
+      "of": 138
+    },
+    "sackrate": {
+      "v": 0.07848101265822785,
+      "rank": null,
+      "of": null
+    },
+    "ncaaa": {
+      "v": 121.21868131868133,
+      "rank": null,
+      "of": null
+    },
+    "nfla": {
+      "v": 78.19368131868133,
+      "rank": null,
+      "of": null
+    },
+    "rydsa": {
+      "v": 1056,
+      "rank": 2,
+      "of": 138
+    },
+    "cara": {
+      "v": 272.0,
+      "rank": null,
+      "of": null
+    },
+    "ypcara": {
+      "v": 3.8823529411764706,
+      "rank": null,
+      "of": null
+    },
+    "rtda": {
+      "v": 11.0,
+      "rank": null,
+      "of": null
+    },
+    "sacks_d": {
+      "v": 31,
+      "rank": 20,
+      "of": 138
+    },
+    "tfl": {
+      "v": null,
+      "rank": null,
+      "of": null
+    },
+    "dint2": {
+      "v": 12,
+      "rank": 29,
+      "of": 138
+    },
+    "fumrec": {
+      "v": 8,
+      "rank": 38,
+      "of": 138
+    },
+    "deftd": {
+      "v": null,
+      "rank": null,
+      "of": null
+    },
+    "fda": {
+      "v": 164.0,
+      "rank": null,
+      "of": null
+    },
+    "d3aa": {
+      "v": 147.0,
+      "rank": null,
+      "of": null
+    },
+    "d3ca": {
+      "v": 63.0,
+      "rank": null,
+      "of": null
+    },
+    "d3pcta": {
+      "v": 0.42857142857142855,
+      "rank": null,
+      "of": null
+    },
+    "d4aa": {
+      "v": 21.0,
+      "rank": null,
+      "of": null
+    },
+    "d4ca": {
+      "v": 12.0,
+      "rank": null,
+      "of": null
+    },
+    "d4pcta": {
+      "v": 0.5714285714285714,
+      "rank": null,
+      "of": null
+    },
+    "rzaa": {
+      "v": 35,
+      "rank": null,
+      "of": null
+    },
+    "rzsa": {
+      "v": 22,
+      "rank": 21,
+      "of": 138
+    },
+    "rzpcta": {
+      "v": 0.6285714285714286,
+      "rank": 26,
+      "of": 138
+    },
+    "pen": {
+      "v": 18,
+      "rank": 2,
+      "of": 138
+    },
+    "penyds": {
+      "v": 158,
+      "rank": 3,
+      "of": 138
+    },
+    "penypg": {
+      "v": 13.2,
+      "rank": 3,
+      "of": 138
+    },
+    "fga": {
+      "v": 17,
+      "rank": null,
+      "of": null
+    },
+    "fgm": {
+      "v": 13,
+      "rank": null,
+      "of": null
+    },
+    "fgpct": {
+      "v": 0.7647058823529411,
+      "rank": null,
+      "of": null
+    },
+    "xpa": {
+      "v": 38,
+      "rank": null,
+      "of": null
+    },
+    "xpm": {
+      "v": 36,
+      "rank": null,
+      "of": null
+    },
+    "xppct": {
+      "v": 0.9473684210526315,
+      "rank": null,
+      "of": null
+    },
+    "kr": {
+      "v": 688.0,
+      "rank": null,
+      "of": null
+    },
+    "punts": {
+      "v": 36,
+      "rank": null,
+      "of": null
+    },
+    "puntyds": {
+      "v": 1623,
+      "rank": null,
+      "of": null
+    },
+    "ypunt": {
+      "v": 45.083333333333336,
+      "rank": null,
+      "of": null
+    },
+    "pr": {
+      "v": 345.0,
+      "rank": null,
+      "of": null
+    },
+    "sttd": {
+      "v": null,
+      "rank": null,
+      "of": null
+    },
+    "av_team_off": {
+      "v": 104.63095438729859,
+      "rank": null,
+      "of": null,
+      "note": "Three-team offensive baseline includes Eastern’s retained first-game workbook punts; see source notes."
+    },
+    "av_oline_pool": {
+      "v": 47.55952472149936,
+      "rank": null,
+      "of": null,
+      "note": "Three-team offensive baseline includes Eastern’s retained first-game workbook punts; see source notes."
+    },
+    "av_skill_pool": {
+      "v": 57.07142966579923,
+      "rank": null,
+      "of": null,
+      "note": "Three-team offensive baseline includes Eastern’s retained first-game workbook punts; see source notes."
+    },
+    "av_rush_pool": {
+      "v": 14.989767200454374,
+      "rank": null,
+      "of": null,
+      "note": "Three-team offensive baseline includes Eastern’s retained first-game workbook punts; see source notes."
+    },
+    "av_pass_pool": {
+      "v": 10.941232240989663,
+      "rank": null,
+      "of": null,
+      "note": "Three-team offensive baseline includes Eastern’s retained first-game workbook punts; see source notes."
+    },
+    "av_qb1": {
+      "v": 7.192881732993348,
+      "rank": null,
+      "of": null,
+      "note": "Three-team offensive baseline includes Eastern’s retained first-game workbook punts; see source notes."
+    },
+    "av_rec_pool": {
+      "v": 31.140430224355192,
+      "rank": null,
+      "of": null,
+      "note": "Three-team offensive baseline includes Eastern’s retained first-game workbook punts; see source notes."
+    },
+    "av_team_def": {
+      "v": 107.14776058025362,
+      "rank": null,
+      "of": null,
+      "estimate": true,
+      "note": "Defensive drives equal the team’s own estimated drive count, since possessions alternate. That removes the earlier opponent field-goal estimate, and with it any dependence on opponent punts or takeaways, so Eastern’s 11-game opponent-punt total and Central’s 21-versus-20 takeaway discrepancy no longer reach this figure. The drive count itself is still an estimate and the baseline is the three schools."
+    },
+    "av_front7_pool": {
+      "v": 71.43184038683574,
+      "rank": null,
+      "of": null,
+      "estimate": true,
+      "note": "Defensive drives equal the team’s own estimated drive count, since possessions alternate. That removes the earlier opponent field-goal estimate, and with it any dependence on opponent punts or takeaways, so Eastern’s 11-game opponent-punt total and Central’s 21-versus-20 takeaway discrepancy no longer reach this figure. The drive count itself is still an estimate and the baseline is the three schools."
+    },
+    "av_secondary_pool": {
+      "v": 35.71592019341787,
+      "rank": null,
+      "of": null,
+      "estimate": true,
+      "note": "Defensive drives equal the team’s own estimated drive count, since possessions alternate. That removes the earlier opponent field-goal estimate, and with it any dependence on opponent punts or takeaways, so Eastern’s 11-game opponent-punt total and Central’s 21-versus-20 takeaway discrepancy no longer reach this figure. The drive count itself is still an estimate and the baseline is the three schools."
+    },
+    "av_kicker": {
+      "v": 2.5006532943573174,
+      "rank": null,
+      "of": null
+    },
+    "av_punter": {
+      "v": 2.563262528734186,
+      "rank": null,
+      "of": null
+    },
+    "sor": {
+      "v": 31,
+      "rank": 31,
+      "of": 138
+    },
+    "adjo": {
+      "v": 23.27770195190612,
+      "rank": 92,
+      "of": 138
+    },
+    "adjd": {
+      "v": 21.660879639194793,
+      "rank": 32,
+      "of": 138
+    },
+    "adjem": {
+      "v": 1.6168223127113297,
+      "rank": 62,
+      "of": 138
+    }
+  }
+}

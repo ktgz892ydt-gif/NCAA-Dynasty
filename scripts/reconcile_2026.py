@@ -10,13 +10,6 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def read_site(path):
-    html = path.read_text()
-    start = html.index('const DATA = ') + len('const DATA = ')
-    data, length = json.JSONDecoder().raw_decode(html[start:])
-    return html, start, length, data
-
-
 def reconcile(d, source):
     if str(d['season']) != '2026':
         raise ValueError('This reconciliation applies only to the 2026 source set.')
@@ -171,21 +164,8 @@ def reconcile(d, source):
 
 
 def main():
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--check', action='store_true', help='fail if the site needs regeneration')
-    args = parser.parse_args()
-    path = ROOT / 'index.html'
-    html, start, length, data = read_site(path)
-    source = json.loads((ROOT / 'data/verified-inputs-2026.json').read_text())
-    updated = reconcile(data, source)
-    text = html[:start] + json.dumps(updated, ensure_ascii=False, separators=(',', ':')) + html[start+length:]
-    if args.check:
-        if text != html:
-            raise SystemExit('Audited calculations are stale; run python3 scripts/reconcile_2026.py')
-        print('Audited calculations are current.')
-    else:
-        path.write_text(text)
-        print('Updated audited calculations in index.html.')
+    from build_season import main as build_main
+    build_main()
 
 
 if __name__ == '__main__':

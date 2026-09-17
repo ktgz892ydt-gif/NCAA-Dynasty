@@ -4,7 +4,6 @@ import hashlib
 import json
 import math
 from pathlib import Path
-from reconcile_2026 import read_site
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -55,27 +54,14 @@ def update_sos(data, source):
         'method': 'Mean opponent SRS per scheduled game', 'units': 'points',
         'rated_teams': len(ratings), 'ranked_teams': len(eligible),
         'opponents': 'Includes synthetic FCS buckets using their calculated SRS; repeated opponents count once per game.',
-        'source': 'data/srs-2026.json',
+        'source': source.get('source_path', 'data/srs-2026.json'),
     }
     return data
 
 
 def main():
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--check', action='store_true')
-    args = parser.parse_args()
-    path = ROOT / 'index.html'
-    html, start, length, data = read_site(path)
-    source = json.loads((ROOT / 'data/srs-2026.json').read_text())
-    data = update_sos(data, source)
-    updated = html[:start] + json.dumps(data, ensure_ascii=False, separators=(',', ':')) + html[start + length:]
-    if args.check:
-        if updated != html:
-            raise SystemExit('SOS is stale. Run python3 -B scripts/update_sos.py')
-        print('Points-based SOS is current.')
-    else:
-        path.write_text(updated)
-        print('Updated points-based SOS for every rated team.')
+    from build_season import main as build_main
+    build_main()
 
 
 if __name__ == '__main__':

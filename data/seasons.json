@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "defaultSeason": "2026",
+  "seasons": [
+    {
+      "id": "2026",
+      "label": "2026",
+      "published": true,
+      "dataPath": "data/seasons/2026/season.json"
+    }
+  ]
+}

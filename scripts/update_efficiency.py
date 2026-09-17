@@ -21,7 +21,7 @@ attempts. These ratings are therefore per game, and say so.
 """
 import argparse
 import json
-from reconcile_2026 import ROOT, read_site
+from season_io import ROOT
 
 
 def observations(data):
@@ -173,22 +173,8 @@ def update_efficiency(data):
 
 
 def main():
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--check', action='store_true', help='fail if the site needs regeneration')
-    args = parser.parse_args()
-    path = ROOT / 'index.html'
-    html, start, length, data = read_site(path)
-    updated = update_efficiency(data)
-    text = html[:start] + json.dumps(updated, ensure_ascii=False, separators=(',', ':')) + html[start+length:]
-    if args.check:
-        if text != html:
-            raise SystemExit('Efficiency ratings are stale; run python3 scripts/update_efficiency.py')
-        print('Efficiency ratings are current.')
-    else:
-        path.write_text(text)
-        m = updated['effMethod']
-        print(f"Solved {m['observations']} observations in {m['sweeps']} sweeps, "
-              f"residual RMSE {m['residual_rmse']:.4f} points.")
+    from build_season import main as build_main
+    build_main()
 
 
 if __name__ == '__main__':

@@ -1,0 +1,136 @@
+{
+  "BLOCKING": {
+    "columns": [
+      "GP",
+      "SACK",
+      "SNAPS"
+    ],
+    "sortedBy": "SACK",
+    "rows": [
+      {
+        "name": "J.Bellamy",
+        "pos": "RG",
+        "team": "Buffalo",
+        "values": {
+          "GP": 12,
+          "SACK": 0,
+          "SNAPS": 840
+        }
+      },
+      {
+        "name": "G.Empey",
+        "pos": "LG",
+        "team": "NDSU (North Dakota State)",
+        "values": {
+          "GP": 12,
+          "SACK": 0,
+          "SNAPS": 875
+        }
+      },
+      {
+        "name": "A.Carwise",
+        "pos": "RG",
+        "team": null,
+        "values": {
+          "GP": 12,
+          "SACK": 0,
+          "SNAPS": 879
+        }
+      },
+      {
+        "name": "B.Best",
+        "pos": "C",
+        "team": null,
+        "values": {
+          "GP": 12,
+          "SACK": 0,
+          "SNAPS": 925
+        }
+      },
+      {
+        "name": "A.Lepkowski",
+        "pos": "C",
+        "team": null,
+        "values": {
+          "GP": 12,
+          "SACK": 0,
+          "SNAPS": 871
+        }
+      },
+      {
+        "name": "H.Frazier",
+        "pos": "LG",
+        "team": null,
+        "values": {
+          "GP": 12,
+          "SACK": 0,
+          "SNAPS": 849
+        }
+      },
+      {
+        "name": "J.Evans",
+        "pos": "C",
+        "team": null,
+        "values": {
+          "GP": 12,
+          "SACK": 0,
+          "SNAPS": 833
+        }
+      },
+      {
+        "name": "M.Woudsma",
+        "pos": "RG",
+        "team": null,
+        "values": {
+          "GP": 12,
+          "SACK": 0,
+          "SNAPS": 1037
+        }
+      },
+      {
+        "name": "M.Breland",
+        "pos": "LG",
+        "team": null,
+        "values": {
+          "GP": 12,
+          "SACK": 0,
+          "SNAPS": 860
+        }
+      },
+      {
+        "name": "J.Peak",
+        "pos": "LT",
+        "team": null,
+        "values": {
+          "GP": 12,
+          "SACK": 0,
+          "SNAPS": 895
+        }
+      },
+      {
+        "name": "J.Bates",
+        "pos": "C",
+        "team": null,
+        "values": {
+          "GP": 12,
+          "SACK": 0,
+          "SNAPS": 848
+        }
+      },
+      {
+        "name": "S.Colbert",
+        "pos": "LG",
+        "team": null,
+        "values": {
+          "GP": 12,
+          "SACK": 0,
+          "SNAPS": 846
+        }
+      }
+    ],
+    "source": [
+      "BLOCKING_5214_t0.4",
+      "BLOCKING_5214_t1.6"
+    ]
+  }
+}

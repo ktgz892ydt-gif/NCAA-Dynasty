@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "2026",
+  "label": "2026",
+  "status": "finalized",
+  "lastVerified": "2026-09-17",
+  "methodVersion": "v1",
+  "inputMode": "legacy-2026",
+  "teamIds": [
+    "wmu",
+    "emu",
+    "cmu"
+  ],
+  "regulationGameSeconds": 2160,
+  "coverage": {
+    "statistics": "Regular-season capture: 12 games for the dynasty teams; national scoreboard through week 13.",
+    "results": "Championship, bowl and final CFP results were separately reported by the dynasty owner; postseason game statistics are not included.",
+    "photos": 297,
+    "videos": 14
+  },
+  "syntheticTeams": [
+    "FCS Midwest",
+    "FCS Southeast",
+    "FCS West",
+    "FCS East",
+    "FCS Northwest"
+  ],
+  "syntheticRecordPolicy": "legacy-0-12",
+  "sourceNotes": "source-notes.md",
+  "methodNotes": "2026 values preserved. Some original transcription inputs survive only in the documented legacy import.",
+  "sourceWorkbook": "2026/NCAA Football 26 ONLINE DYNASTY.xlsx"
+}

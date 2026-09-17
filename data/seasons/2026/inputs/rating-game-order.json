@@ -1,0 +1,4442 @@
+[
+  {
+    "scoreboardIndex": 10,
+    "sourceOrder": 1,
+    "date": "Sat, Aug 29"
+  },
+  {
+    "scoreboardIndex": 4,
+    "sourceOrder": 2,
+    "date": "Sat, Aug 29"
+  },
+  {
+    "scoreboardIndex": 6,
+    "sourceOrder": 3,
+    "date": "Sat, Aug 29"
+  },
+  {
+    "scoreboardIndex": 9,
+    "sourceOrder": 4,
+    "date": "Sat, Aug 29"
+  },
+  {
+    "scoreboardIndex": 5,
+    "sourceOrder": 5,
+    "date": "Sat, Aug 29"
+  },
+  {
+    "scoreboardIndex": 8,
+    "sourceOrder": 6,
+    "date": "Sat, Aug 29"
+  },
+  {
+    "scoreboardIndex": 7,
+    "sourceOrder": 7,
+    "date": "Sat, Aug 29"
+  },
+  {
+    "scoreboardIndex": 11,
+    "sourceOrder": 8,
+    "date": "Sat, Aug 29"
+  },
+  {
+    "scoreboardIndex": 2,
+    "sourceOrder": 9,
+    "date": "Sat, Aug 29"
+  },
+  {
+    "scoreboardIndex": 12,
+    "sourceOrder": 10,
+    "date": "Sat, Aug 29"
+  },
+  {
+    "scoreboardIndex": 3,
+    "sourceOrder": 11,
+    "date": "Sat, Aug 29"
+  },
+  {
+    "scoreboardIndex": 0,
+    "sourceOrder": 12,
+    "date": "Sat, Aug 29"
+  },
+  {
+    "scoreboardIndex": 1,
+    "sourceOrder": 13,
+    "date": "Sat, Aug 29"
+  },
+  {
+    "scoreboardIndex": 97,
+    "sourceOrder": 14,
+    "date": "Thu, Sep 3"
+  },
+  {
+    "scoreboardIndex": 41,
+    "sourceOrder": 15,
+    "date": "Thu, Sep 3"
+  },
+  {
+    "scoreboardIndex": 42,
+    "sourceOrder": 16,
+    "date": "Thu, Sep 3"
+  },
+  {
+    "scoreboardIndex": 66,
+    "sourceOrder": 17,
+    "date": "Thu, Sep 3"
+  },
+  {
+    "scoreboardIndex": 58,
+    "sourceOrder": 18,
+    "date": "Thu, Sep 3"
+  },
+  {
+    "scoreboardIndex": 13,
+    "sourceOrder": 19,
+    "date": "Thu, Sep 3"
+  },
+  {
+    "scoreboardIndex": 25,
+    "sourceOrder": 20,
+    "date": "Thu, Sep 3"
+  },
+  {
+    "scoreboardIndex": 22,
+    "sourceOrder": 21,
+    "date": "Thu, Sep 3"
+  },
+  {
+    "scoreboardIndex": 71,
+    "sourceOrder": 22,
+    "date": "Thu, Sep 3"
+  },
+  {
+    "scoreboardIndex": 90,
+    "sourceOrder": 23,
+    "date": "Fri, Sep 4"
+  },
+  {
+    "scoreboardIndex": 39,
+    "sourceOrder": 24,
+    "date": "Fri, Sep 4"
+  },
+  {
+    "scoreboardIndex": 56,
+    "sourceOrder": 25,
+    "date": "Fri, Sep 4"
+  },
+  {
+    "scoreboardIndex": 80,
+    "sourceOrder": 26,
+    "date": "Fri, Sep 4"
+  },
+  {
+    "scoreboardIndex": 93,
+    "sourceOrder": 27,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 52,
+    "sourceOrder": 28,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 30,
+    "sourceOrder": 29,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 91,
+    "sourceOrder": 30,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 82,
+    "sourceOrder": 31,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 84,
+    "sourceOrder": 32,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 32,
+    "sourceOrder": 33,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 67,
+    "sourceOrder": 34,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 77,
+    "sourceOrder": 35,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 21,
+    "sourceOrder": 36,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 73,
+    "sourceOrder": 37,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 54,
+    "sourceOrder": 38,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 83,
+    "sourceOrder": 39,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 14,
+    "sourceOrder": 40,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 63,
+    "sourceOrder": 41,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 64,
+    "sourceOrder": 42,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 62,
+    "sourceOrder": 43,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 53,
+    "sourceOrder": 44,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 31,
+    "sourceOrder": 45,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 24,
+    "sourceOrder": 46,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 28,
+    "sourceOrder": 47,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 85,
+    "sourceOrder": 48,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 48,
+    "sourceOrder": 49,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 57,
+    "sourceOrder": 50,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 33,
+    "sourceOrder": 51,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 61,
+    "sourceOrder": 52,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 44,
+    "sourceOrder": 53,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 15,
+    "sourceOrder": 54,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 99,
+    "sourceOrder": 55,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 46,
+    "sourceOrder": 56,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 59,
+    "sourceOrder": 57,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 72,
+    "sourceOrder": 58,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 18,
+    "sourceOrder": 59,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 89,
+    "sourceOrder": 60,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 94,
+    "sourceOrder": 61,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 100,
+    "sourceOrder": 62,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 69,
+    "sourceOrder": 63,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 75,
+    "sourceOrder": 64,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 16,
+    "sourceOrder": 65,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 55,
+    "sourceOrder": 66,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 60,
+    "sourceOrder": 67,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 43,
+    "sourceOrder": 68,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 36,
+    "sourceOrder": 69,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 103,
+    "sourceOrder": 70,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 81,
+    "sourceOrder": 71,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 74,
+    "sourceOrder": 72,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 19,
+    "sourceOrder": 73,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 34,
+    "sourceOrder": 74,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 87,
+    "sourceOrder": 75,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 38,
+    "sourceOrder": 76,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 26,
+    "sourceOrder": 77,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 17,
+    "sourceOrder": 78,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 45,
+    "sourceOrder": 79,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 98,
+    "sourceOrder": 80,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 65,
+    "sourceOrder": 81,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 86,
+    "sourceOrder": 82,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 76,
+    "sourceOrder": 83,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 27,
+    "sourceOrder": 84,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 96,
+    "sourceOrder": 85,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 49,
+    "sourceOrder": 86,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 29,
+    "sourceOrder": 87,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 40,
+    "sourceOrder": 88,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 20,
+    "sourceOrder": 89,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 92,
+    "sourceOrder": 90,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 35,
+    "sourceOrder": 91,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 51,
+    "sourceOrder": 92,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 37,
+    "sourceOrder": 93,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 79,
+    "sourceOrder": 94,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 101,
+    "sourceOrder": 95,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 47,
+    "sourceOrder": 96,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 23,
+    "sourceOrder": 97,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 68,
+    "sourceOrder": 98,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 50,
+    "sourceOrder": 99,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 95,
+    "sourceOrder": 100,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 70,
+    "sourceOrder": 101,
+    "date": "Sat, Sep 5"
+  },
+  {
+    "scoreboardIndex": 102,
+    "sourceOrder": 102,
+    "date": "Sun, Sep 6"
+  },
+  {
+    "scoreboardIndex": 78,
+    "sourceOrder": 103,
+    "date": "Sun, Sep 6"
+  },
+  {
+    "scoreboardIndex": 88,
+    "sourceOrder": 104,
+    "date": "Mon, Sep 7"
+  },
+  {
+    "scoreboardIndex": 144,
+    "sourceOrder": 105,
+    "date": "Thu, Sep 10"
+  },
+  {
+    "scoreboardIndex": 143,
+    "sourceOrder": 106,
+    "date": "Fri, Sep 11"
+  },
+  {
+    "scoreboardIndex": 170,
+    "sourceOrder": 107,
+    "date": "Fri, Sep 11"
+  },
+  {
+    "scoreboardIndex": 160,
+    "sourceOrder": 108,
+    "date": "Fri, Sep 11"
+  },
+  {
+    "scoreboardIndex": 142,
+    "sourceOrder": 109,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 120,
+    "sourceOrder": 110,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 166,
+    "sourceOrder": 111,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 137,
+    "sourceOrder": 112,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 156,
+    "sourceOrder": 113,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 123,
+    "sourceOrder": 114,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 173,
+    "sourceOrder": 115,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 148,
+    "sourceOrder": 116,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 136,
+    "sourceOrder": 117,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 164,
+    "sourceOrder": 118,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 135,
+    "sourceOrder": 119,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 147,
+    "sourceOrder": 120,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 134,
+    "sourceOrder": 121,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 112,
+    "sourceOrder": 122,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 169,
+    "sourceOrder": 123,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 180,
+    "sourceOrder": 124,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 109,
+    "sourceOrder": 125,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 174,
+    "sourceOrder": 126,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 117,
+    "sourceOrder": 127,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 129,
+    "sourceOrder": 128,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 152,
+    "sourceOrder": 129,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 175,
+    "sourceOrder": 130,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 186,
+    "sourceOrder": 131,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 140,
+    "sourceOrder": 132,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 121,
+    "sourceOrder": 133,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 187,
+    "sourceOrder": 134,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 115,
+    "sourceOrder": 135,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 161,
+    "sourceOrder": 136,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 111,
+    "sourceOrder": 137,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 153,
+    "sourceOrder": 138,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 127,
+    "sourceOrder": 139,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 157,
+    "sourceOrder": 140,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 141,
+    "sourceOrder": 141,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 125,
+    "sourceOrder": 142,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 132,
+    "sourceOrder": 143,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 178,
+    "sourceOrder": 144,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 177,
+    "sourceOrder": 145,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 139,
+    "sourceOrder": 146,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 183,
+    "sourceOrder": 147,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 167,
+    "sourceOrder": 148,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 165,
+    "sourceOrder": 149,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 130,
+    "sourceOrder": 150,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 185,
+    "sourceOrder": 151,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 116,
+    "sourceOrder": 152,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 110,
+    "sourceOrder": 153,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 181,
+    "sourceOrder": 154,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 151,
+    "sourceOrder": 155,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 128,
+    "sourceOrder": 156,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 145,
+    "sourceOrder": 157,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 108,
+    "sourceOrder": 158,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 162,
+    "sourceOrder": 159,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 122,
+    "sourceOrder": 160,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 126,
+    "sourceOrder": 161,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 114,
+    "sourceOrder": 162,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 118,
+    "sourceOrder": 163,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 138,
+    "sourceOrder": 164,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 184,
+    "sourceOrder": 165,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 154,
+    "sourceOrder": 166,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 105,
+    "sourceOrder": 167,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 124,
+    "sourceOrder": 168,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 163,
+    "sourceOrder": 169,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 106,
+    "sourceOrder": 170,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 104,
+    "sourceOrder": 171,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 158,
+    "sourceOrder": 172,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 159,
+    "sourceOrder": 173,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 131,
+    "sourceOrder": 174,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 182,
+    "sourceOrder": 175,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 172,
+    "sourceOrder": 176,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 119,
+    "sourceOrder": 177,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 133,
+    "sourceOrder": 178,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 155,
+    "sourceOrder": 179,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 146,
+    "sourceOrder": 180,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 168,
+    "sourceOrder": 181,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 107,
+    "sourceOrder": 182,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 113,
+    "sourceOrder": 183,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 176,
+    "sourceOrder": 184,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 179,
+    "sourceOrder": 185,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 171,
+    "sourceOrder": 186,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 150,
+    "sourceOrder": 187,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 149,
+    "sourceOrder": 188,
+    "date": "Sat, Sep 12"
+  },
+  {
+    "scoreboardIndex": 245,
+    "sourceOrder": 189,
+    "date": "Thu, Sep 17"
+  },
+  {
+    "scoreboardIndex": 227,
+    "sourceOrder": 190,
+    "date": "Fri, Sep 18"
+  },
+  {
+    "scoreboardIndex": 219,
+    "sourceOrder": 191,
+    "date": "Fri, Sep 18"
+  },
+  {
+    "scoreboardIndex": 232,
+    "sourceOrder": 192,
+    "date": "Fri, Sep 18"
+  },
+  {
+    "scoreboardIndex": 240,
+    "sourceOrder": 193,
+    "date": "Fri, Sep 18"
+  },
+  {
+    "scoreboardIndex": 225,
+    "sourceOrder": 194,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 255,
+    "sourceOrder": 195,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 211,
+    "sourceOrder": 196,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 201,
+    "sourceOrder": 197,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 210,
+    "sourceOrder": 198,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 205,
+    "sourceOrder": 199,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 198,
+    "sourceOrder": 200,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 234,
+    "sourceOrder": 201,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 192,
+    "sourceOrder": 202,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 248,
+    "sourceOrder": 203,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 195,
+    "sourceOrder": 204,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 217,
+    "sourceOrder": 205,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 193,
+    "sourceOrder": 206,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 202,
+    "sourceOrder": 207,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 208,
+    "sourceOrder": 208,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 196,
+    "sourceOrder": 209,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 215,
+    "sourceOrder": 210,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 259,
+    "sourceOrder": 211,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 214,
+    "sourceOrder": 212,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 216,
+    "sourceOrder": 213,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 251,
+    "sourceOrder": 214,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 189,
+    "sourceOrder": 215,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 243,
+    "sourceOrder": 216,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 206,
+    "sourceOrder": 217,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 207,
+    "sourceOrder": 218,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 252,
+    "sourceOrder": 219,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 233,
+    "sourceOrder": 220,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 221,
+    "sourceOrder": 221,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 247,
+    "sourceOrder": 222,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 203,
+    "sourceOrder": 223,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 194,
+    "sourceOrder": 224,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 204,
+    "sourceOrder": 225,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 197,
+    "sourceOrder": 226,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 242,
+    "sourceOrder": 227,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 257,
+    "sourceOrder": 228,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 223,
+    "sourceOrder": 229,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 200,
+    "sourceOrder": 230,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 253,
+    "sourceOrder": 231,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 188,
+    "sourceOrder": 232,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 226,
+    "sourceOrder": 233,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 212,
+    "sourceOrder": 234,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 228,
+    "sourceOrder": 235,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 231,
+    "sourceOrder": 236,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 237,
+    "sourceOrder": 237,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 190,
+    "sourceOrder": 238,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 222,
+    "sourceOrder": 239,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 258,
+    "sourceOrder": 240,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 238,
+    "sourceOrder": 241,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 199,
+    "sourceOrder": 242,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 244,
+    "sourceOrder": 243,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 235,
+    "sourceOrder": 244,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 230,
+    "sourceOrder": 245,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 224,
+    "sourceOrder": 246,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 250,
+    "sourceOrder": 247,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 218,
+    "sourceOrder": 248,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 249,
+    "sourceOrder": 249,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 256,
+    "sourceOrder": 250,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 229,
+    "sourceOrder": 251,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 209,
+    "sourceOrder": 252,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 239,
+    "sourceOrder": 253,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 246,
+    "sourceOrder": 254,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 213,
+    "sourceOrder": 255,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 191,
+    "sourceOrder": 256,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 241,
+    "sourceOrder": 257,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 254,
+    "sourceOrder": 258,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 220,
+    "sourceOrder": 259,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 236,
+    "sourceOrder": 260,
+    "date": "Sat, Sep 19"
+  },
+  {
+    "scoreboardIndex": 293,
+    "sourceOrder": 261,
+    "date": "Thu, Sep 24"
+  },
+  {
+    "scoreboardIndex": 299,
+    "sourceOrder": 262,
+    "date": "Fri, Sep 25"
+  },
+  {
+    "scoreboardIndex": 266,
+    "sourceOrder": 263,
+    "date": "Fri, Sep 25"
+  },
+  {
+    "scoreboardIndex": 279,
+    "sourceOrder": 264,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 292,
+    "sourceOrder": 265,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 283,
+    "sourceOrder": 266,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 314,
+    "sourceOrder": 267,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 311,
+    "sourceOrder": 268,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 310,
+    "sourceOrder": 269,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 298,
+    "sourceOrder": 270,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 273,
+    "sourceOrder": 271,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 319,
+    "sourceOrder": 272,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 274,
+    "sourceOrder": 273,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 271,
+    "sourceOrder": 274,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 313,
+    "sourceOrder": 275,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 330,
+    "sourceOrder": 276,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 288,
+    "sourceOrder": 277,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 289,
+    "sourceOrder": 278,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 267,
+    "sourceOrder": 279,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 328,
+    "sourceOrder": 280,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 329,
+    "sourceOrder": 281,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 261,
+    "sourceOrder": 282,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 302,
+    "sourceOrder": 283,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 272,
+    "sourceOrder": 284,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 322,
+    "sourceOrder": 285,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 263,
+    "sourceOrder": 286,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 301,
+    "sourceOrder": 287,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 278,
+    "sourceOrder": 288,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 304,
+    "sourceOrder": 289,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 321,
+    "sourceOrder": 290,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 281,
+    "sourceOrder": 291,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 270,
+    "sourceOrder": 292,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 285,
+    "sourceOrder": 293,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 317,
+    "sourceOrder": 294,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 287,
+    "sourceOrder": 295,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 262,
+    "sourceOrder": 296,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 320,
+    "sourceOrder": 297,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 294,
+    "sourceOrder": 298,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 300,
+    "sourceOrder": 299,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 265,
+    "sourceOrder": 300,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 307,
+    "sourceOrder": 301,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 305,
+    "sourceOrder": 302,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 284,
+    "sourceOrder": 303,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 268,
+    "sourceOrder": 304,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 318,
+    "sourceOrder": 305,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 276,
+    "sourceOrder": 306,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 275,
+    "sourceOrder": 307,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 280,
+    "sourceOrder": 308,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 264,
+    "sourceOrder": 309,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 290,
+    "sourceOrder": 310,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 327,
+    "sourceOrder": 311,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 303,
+    "sourceOrder": 312,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 315,
+    "sourceOrder": 313,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 306,
+    "sourceOrder": 314,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 295,
+    "sourceOrder": 315,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 297,
+    "sourceOrder": 316,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 316,
+    "sourceOrder": 317,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 269,
+    "sourceOrder": 318,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 324,
+    "sourceOrder": 319,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 291,
+    "sourceOrder": 320,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 323,
+    "sourceOrder": 321,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 282,
+    "sourceOrder": 322,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 312,
+    "sourceOrder": 323,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 326,
+    "sourceOrder": 324,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 325,
+    "sourceOrder": 325,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 308,
+    "sourceOrder": 326,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 286,
+    "sourceOrder": 327,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 296,
+    "sourceOrder": 328,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 277,
+    "sourceOrder": 329,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 260,
+    "sourceOrder": 330,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 309,
+    "sourceOrder": 331,
+    "date": "Sat, Sep 26"
+  },
+  {
+    "scoreboardIndex": 348,
+    "sourceOrder": 332,
+    "date": "Thu, Oct 1"
+  },
+  {
+    "scoreboardIndex": 364,
+    "sourceOrder": 333,
+    "date": "Thu, Oct 1"
+  },
+  {
+    "scoreboardIndex": 365,
+    "sourceOrder": 334,
+    "date": "Thu, Oct 1"
+  },
+  {
+    "scoreboardIndex": 353,
+    "sourceOrder": 335,
+    "date": "Fri, Oct 2"
+  },
+  {
+    "scoreboardIndex": 372,
+    "sourceOrder": 336,
+    "date": "Fri, Oct 2"
+  },
+  {
+    "scoreboardIndex": 371,
+    "sourceOrder": 337,
+    "date": "Fri, Oct 2"
+  },
+  {
+    "scoreboardIndex": 362,
+    "sourceOrder": 338,
+    "date": "Fri, Oct 2"
+  },
+  {
+    "scoreboardIndex": 361,
+    "sourceOrder": 339,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 363,
+    "sourceOrder": 340,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 355,
+    "sourceOrder": 341,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 369,
+    "sourceOrder": 342,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 382,
+    "sourceOrder": 343,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 334,
+    "sourceOrder": 344,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 332,
+    "sourceOrder": 345,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 391,
+    "sourceOrder": 346,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 368,
+    "sourceOrder": 347,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 360,
+    "sourceOrder": 348,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 359,
+    "sourceOrder": 349,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 377,
+    "sourceOrder": 350,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 354,
+    "sourceOrder": 351,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 380,
+    "sourceOrder": 352,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 367,
+    "sourceOrder": 353,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 366,
+    "sourceOrder": 354,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 343,
+    "sourceOrder": 355,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 342,
+    "sourceOrder": 356,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 385,
+    "sourceOrder": 357,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 370,
+    "sourceOrder": 358,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 336,
+    "sourceOrder": 359,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 337,
+    "sourceOrder": 360,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 376,
+    "sourceOrder": 361,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 347,
+    "sourceOrder": 362,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 386,
+    "sourceOrder": 363,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 389,
+    "sourceOrder": 364,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 379,
+    "sourceOrder": 365,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 384,
+    "sourceOrder": 366,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 390,
+    "sourceOrder": 367,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 340,
+    "sourceOrder": 368,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 357,
+    "sourceOrder": 369,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 341,
+    "sourceOrder": 370,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 387,
+    "sourceOrder": 371,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 381,
+    "sourceOrder": 372,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 335,
+    "sourceOrder": 373,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 339,
+    "sourceOrder": 374,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 375,
+    "sourceOrder": 375,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 338,
+    "sourceOrder": 376,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 351,
+    "sourceOrder": 377,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 345,
+    "sourceOrder": 378,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 331,
+    "sourceOrder": 379,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 352,
+    "sourceOrder": 380,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 344,
+    "sourceOrder": 381,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 346,
+    "sourceOrder": 382,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 358,
+    "sourceOrder": 383,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 356,
+    "sourceOrder": 384,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 378,
+    "sourceOrder": 385,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 333,
+    "sourceOrder": 386,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 350,
+    "sourceOrder": 387,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 373,
+    "sourceOrder": 388,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 383,
+    "sourceOrder": 389,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 349,
+    "sourceOrder": 390,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 388,
+    "sourceOrder": 391,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 374,
+    "sourceOrder": 392,
+    "date": "Sat, Oct 3"
+  },
+  {
+    "scoreboardIndex": 431,
+    "sourceOrder": 393,
+    "date": "Tue, Oct 6"
+  },
+  {
+    "scoreboardIndex": 411,
+    "sourceOrder": 394,
+    "date": "Wed, Oct 7"
+  },
+  {
+    "scoreboardIndex": 400,
+    "sourceOrder": 395,
+    "date": "Wed, Oct 7"
+  },
+  {
+    "scoreboardIndex": 448,
+    "sourceOrder": 396,
+    "date": "Wed, Oct 7"
+  },
+  {
+    "scoreboardIndex": 429,
+    "sourceOrder": 397,
+    "date": "Thu, Oct 8"
+  },
+  {
+    "scoreboardIndex": 444,
+    "sourceOrder": 398,
+    "date": "Thu, Oct 8"
+  },
+  {
+    "scoreboardIndex": 427,
+    "sourceOrder": 399,
+    "date": "Thu, Oct 8"
+  },
+  {
+    "scoreboardIndex": 403,
+    "sourceOrder": 400,
+    "date": "Fri, Oct 9"
+  },
+  {
+    "scoreboardIndex": 410,
+    "sourceOrder": 401,
+    "date": "Fri, Oct 9"
+  },
+  {
+    "scoreboardIndex": 397,
+    "sourceOrder": 402,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 402,
+    "sourceOrder": 403,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 433,
+    "sourceOrder": 404,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 425,
+    "sourceOrder": 405,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 406,
+    "sourceOrder": 406,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 443,
+    "sourceOrder": 407,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 396,
+    "sourceOrder": 408,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 418,
+    "sourceOrder": 409,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 392,
+    "sourceOrder": 410,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 412,
+    "sourceOrder": 411,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 416,
+    "sourceOrder": 412,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 437,
+    "sourceOrder": 413,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 421,
+    "sourceOrder": 414,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 417,
+    "sourceOrder": 415,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 430,
+    "sourceOrder": 416,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 435,
+    "sourceOrder": 417,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 436,
+    "sourceOrder": 418,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 415,
+    "sourceOrder": 419,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 447,
+    "sourceOrder": 420,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 420,
+    "sourceOrder": 421,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 419,
+    "sourceOrder": 422,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 413,
+    "sourceOrder": 423,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 398,
+    "sourceOrder": 424,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 446,
+    "sourceOrder": 425,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 445,
+    "sourceOrder": 426,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 438,
+    "sourceOrder": 427,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 407,
+    "sourceOrder": 428,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 394,
+    "sourceOrder": 429,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 426,
+    "sourceOrder": 430,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 434,
+    "sourceOrder": 431,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 399,
+    "sourceOrder": 432,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 422,
+    "sourceOrder": 433,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 414,
+    "sourceOrder": 434,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 440,
+    "sourceOrder": 435,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 439,
+    "sourceOrder": 436,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 401,
+    "sourceOrder": 437,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 449,
+    "sourceOrder": 438,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 404,
+    "sourceOrder": 439,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 424,
+    "sourceOrder": 440,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 423,
+    "sourceOrder": 441,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 442,
+    "sourceOrder": 442,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 393,
+    "sourceOrder": 443,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 408,
+    "sourceOrder": 444,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 428,
+    "sourceOrder": 445,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 432,
+    "sourceOrder": 446,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 395,
+    "sourceOrder": 447,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 405,
+    "sourceOrder": 448,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 409,
+    "sourceOrder": 449,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 441,
+    "sourceOrder": 450,
+    "date": "Sat, Oct 10"
+  },
+  {
+    "scoreboardIndex": 473,
+    "sourceOrder": 451,
+    "date": "Tue, Oct 13"
+  },
+  {
+    "scoreboardIndex": 486,
+    "sourceOrder": 452,
+    "date": "Tue, Oct 13"
+  },
+  {
+    "scoreboardIndex": 476,
+    "sourceOrder": 453,
+    "date": "Wed, Oct 14"
+  },
+  {
+    "scoreboardIndex": 469,
+    "sourceOrder": 454,
+    "date": "Thu, Oct 15"
+  },
+  {
+    "scoreboardIndex": 461,
+    "sourceOrder": 455,
+    "date": "Thu, Oct 15"
+  },
+  {
+    "scoreboardIndex": 479,
+    "sourceOrder": 456,
+    "date": "Fri, Oct 16"
+  },
+  {
+    "scoreboardIndex": 452,
+    "sourceOrder": 457,
+    "date": "Fri, Oct 16"
+  },
+  {
+    "scoreboardIndex": 470,
+    "sourceOrder": 458,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 455,
+    "sourceOrder": 459,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 465,
+    "sourceOrder": 460,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 460,
+    "sourceOrder": 461,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 501,
+    "sourceOrder": 462,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 450,
+    "sourceOrder": 463,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 506,
+    "sourceOrder": 464,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 453,
+    "sourceOrder": 465,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 466,
+    "sourceOrder": 466,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 494,
+    "sourceOrder": 467,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 462,
+    "sourceOrder": 468,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 504,
+    "sourceOrder": 469,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 459,
+    "sourceOrder": 470,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 495,
+    "sourceOrder": 471,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 505,
+    "sourceOrder": 472,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 467,
+    "sourceOrder": 473,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 458,
+    "sourceOrder": 474,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 503,
+    "sourceOrder": 475,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 489,
+    "sourceOrder": 476,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 508,
+    "sourceOrder": 477,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 475,
+    "sourceOrder": 478,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 487,
+    "sourceOrder": 479,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 497,
+    "sourceOrder": 480,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 456,
+    "sourceOrder": 481,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 488,
+    "sourceOrder": 482,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 474,
+    "sourceOrder": 483,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 491,
+    "sourceOrder": 484,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 477,
+    "sourceOrder": 485,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 478,
+    "sourceOrder": 486,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 471,
+    "sourceOrder": 487,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 482,
+    "sourceOrder": 488,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 485,
+    "sourceOrder": 489,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 484,
+    "sourceOrder": 490,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 451,
+    "sourceOrder": 491,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 454,
+    "sourceOrder": 492,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 499,
+    "sourceOrder": 493,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 481,
+    "sourceOrder": 494,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 480,
+    "sourceOrder": 495,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 507,
+    "sourceOrder": 496,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 483,
+    "sourceOrder": 497,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 492,
+    "sourceOrder": 498,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 500,
+    "sourceOrder": 499,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 472,
+    "sourceOrder": 500,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 493,
+    "sourceOrder": 501,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 498,
+    "sourceOrder": 502,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 457,
+    "sourceOrder": 503,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 463,
+    "sourceOrder": 504,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 496,
+    "sourceOrder": 505,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 502,
+    "sourceOrder": 506,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 468,
+    "sourceOrder": 507,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 490,
+    "sourceOrder": 508,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 509,
+    "sourceOrder": 509,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 464,
+    "sourceOrder": 510,
+    "date": "Sat, Oct 17"
+  },
+  {
+    "scoreboardIndex": 552,
+    "sourceOrder": 511,
+    "date": "Tue, Oct 20"
+  },
+  {
+    "scoreboardIndex": 549,
+    "sourceOrder": 512,
+    "date": "Tue, Oct 20"
+  },
+  {
+    "scoreboardIndex": 537,
+    "sourceOrder": 513,
+    "date": "Tue, Oct 20"
+  },
+  {
+    "scoreboardIndex": 520,
+    "sourceOrder": 514,
+    "date": "Tue, Oct 20"
+  },
+  {
+    "scoreboardIndex": 530,
+    "sourceOrder": 515,
+    "date": "Wed, Oct 21"
+  },
+  {
+    "scoreboardIndex": 531,
+    "sourceOrder": 516,
+    "date": "Thu, Oct 22"
+  },
+  {
+    "scoreboardIndex": 522,
+    "sourceOrder": 517,
+    "date": "Thu, Oct 22"
+  },
+  {
+    "scoreboardIndex": 512,
+    "sourceOrder": 518,
+    "date": "Fri, Oct 23"
+  },
+  {
+    "scoreboardIndex": 564,
+    "sourceOrder": 519,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 513,
+    "sourceOrder": 520,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 556,
+    "sourceOrder": 521,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 528,
+    "sourceOrder": 522,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 559,
+    "sourceOrder": 523,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 544,
+    "sourceOrder": 524,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 548,
+    "sourceOrder": 525,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 535,
+    "sourceOrder": 526,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 533,
+    "sourceOrder": 527,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 542,
+    "sourceOrder": 528,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 557,
+    "sourceOrder": 529,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 558,
+    "sourceOrder": 530,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 523,
+    "sourceOrder": 531,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 525,
+    "sourceOrder": 532,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 517,
+    "sourceOrder": 533,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 529,
+    "sourceOrder": 534,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 541,
+    "sourceOrder": 535,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 555,
+    "sourceOrder": 536,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 561,
+    "sourceOrder": 537,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 565,
+    "sourceOrder": 538,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 536,
+    "sourceOrder": 539,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 519,
+    "sourceOrder": 540,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 553,
+    "sourceOrder": 541,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 545,
+    "sourceOrder": 542,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 524,
+    "sourceOrder": 543,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 516,
+    "sourceOrder": 544,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 546,
+    "sourceOrder": 545,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 532,
+    "sourceOrder": 546,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 539,
+    "sourceOrder": 547,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 563,
+    "sourceOrder": 548,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 518,
+    "sourceOrder": 549,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 521,
+    "sourceOrder": 550,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 527,
+    "sourceOrder": 551,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 547,
+    "sourceOrder": 552,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 550,
+    "sourceOrder": 553,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 534,
+    "sourceOrder": 554,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 560,
+    "sourceOrder": 555,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 510,
+    "sourceOrder": 556,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 562,
+    "sourceOrder": 557,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 554,
+    "sourceOrder": 558,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 543,
+    "sourceOrder": 559,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 540,
+    "sourceOrder": 560,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 514,
+    "sourceOrder": 561,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 511,
+    "sourceOrder": 562,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 526,
+    "sourceOrder": 563,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 551,
+    "sourceOrder": 564,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 538,
+    "sourceOrder": 565,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 515,
+    "sourceOrder": 566,
+    "date": "Sat, Oct 24"
+  },
+  {
+    "scoreboardIndex": 620,
+    "sourceOrder": 567,
+    "date": "Tue, Oct 27"
+  },
+  {
+    "scoreboardIndex": 597,
+    "sourceOrder": 568,
+    "date": "Tue, Oct 27"
+  },
+  {
+    "scoreboardIndex": 594,
+    "sourceOrder": 569,
+    "date": "Wed, Oct 28"
+  },
+  {
+    "scoreboardIndex": 611,
+    "sourceOrder": 570,
+    "date": "Thu, Oct 29"
+  },
+  {
+    "scoreboardIndex": 579,
+    "sourceOrder": 571,
+    "date": "Thu, Oct 29"
+  },
+  {
+    "scoreboardIndex": 612,
+    "sourceOrder": 572,
+    "date": "Fri, Oct 30"
+  },
+  {
+    "scoreboardIndex": 571,
+    "sourceOrder": 573,
+    "date": "Fri, Oct 30"
+  },
+  {
+    "scoreboardIndex": 586,
+    "sourceOrder": 574,
+    "date": "Fri, Oct 30"
+  },
+  {
+    "scoreboardIndex": 617,
+    "sourceOrder": 575,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 574,
+    "sourceOrder": 576,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 602,
+    "sourceOrder": 577,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 604,
+    "sourceOrder": 578,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 590,
+    "sourceOrder": 579,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 580,
+    "sourceOrder": 580,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 593,
+    "sourceOrder": 581,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 578,
+    "sourceOrder": 582,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 587,
+    "sourceOrder": 583,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 582,
+    "sourceOrder": 584,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 566,
+    "sourceOrder": 585,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 567,
+    "sourceOrder": 586,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 576,
+    "sourceOrder": 587,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 621,
+    "sourceOrder": 588,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 605,
+    "sourceOrder": 589,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 600,
+    "sourceOrder": 590,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 570,
+    "sourceOrder": 591,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 577,
+    "sourceOrder": 592,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 596,
+    "sourceOrder": 593,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 609,
+    "sourceOrder": 594,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 589,
+    "sourceOrder": 595,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 591,
+    "sourceOrder": 596,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 601,
+    "sourceOrder": 597,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 584,
+    "sourceOrder": 598,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 610,
+    "sourceOrder": 599,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 583,
+    "sourceOrder": 600,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 588,
+    "sourceOrder": 601,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 575,
+    "sourceOrder": 602,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 568,
+    "sourceOrder": 603,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 616,
+    "sourceOrder": 604,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 573,
+    "sourceOrder": 605,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 607,
+    "sourceOrder": 606,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 592,
+    "sourceOrder": 607,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 606,
+    "sourceOrder": 608,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 615,
+    "sourceOrder": 609,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 613,
+    "sourceOrder": 610,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 581,
+    "sourceOrder": 611,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 572,
+    "sourceOrder": 612,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 608,
+    "sourceOrder": 613,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 569,
+    "sourceOrder": 614,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 585,
+    "sourceOrder": 615,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 618,
+    "sourceOrder": 616,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 599,
+    "sourceOrder": 617,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 614,
+    "sourceOrder": 618,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 595,
+    "sourceOrder": 619,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 603,
+    "sourceOrder": 620,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 598,
+    "sourceOrder": 621,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 619,
+    "sourceOrder": 622,
+    "date": "Sat, Oct 31"
+  },
+  {
+    "scoreboardIndex": 628,
+    "sourceOrder": 623,
+    "date": "Tue, Nov 3"
+  },
+  {
+    "scoreboardIndex": 657,
+    "sourceOrder": 624,
+    "date": "Tue, Nov 3"
+  },
+  {
+    "scoreboardIndex": 629,
+    "sourceOrder": 625,
+    "date": "Wed, Nov 4"
+  },
+  {
+    "scoreboardIndex": 626,
+    "sourceOrder": 626,
+    "date": "Wed, Nov 4"
+  },
+  {
+    "scoreboardIndex": 672,
+    "sourceOrder": 627,
+    "date": "Wed, Nov 4"
+  },
+  {
+    "scoreboardIndex": 678,
+    "sourceOrder": 628,
+    "date": "Thu, Nov 5"
+  },
+  {
+    "scoreboardIndex": 644,
+    "sourceOrder": 629,
+    "date": "Thu, Nov 5"
+  },
+  {
+    "scoreboardIndex": 677,
+    "sourceOrder": 630,
+    "date": "Fri, Nov 6"
+  },
+  {
+    "scoreboardIndex": 667,
+    "sourceOrder": 631,
+    "date": "Fri, Nov 6"
+  },
+  {
+    "scoreboardIndex": 636,
+    "sourceOrder": 632,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 622,
+    "sourceOrder": 633,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 660,
+    "sourceOrder": 634,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 647,
+    "sourceOrder": 635,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 676,
+    "sourceOrder": 636,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 639,
+    "sourceOrder": 637,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 634,
+    "sourceOrder": 638,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 651,
+    "sourceOrder": 639,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 664,
+    "sourceOrder": 640,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 661,
+    "sourceOrder": 641,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 674,
+    "sourceOrder": 642,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 631,
+    "sourceOrder": 643,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 673,
+    "sourceOrder": 644,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 637,
+    "sourceOrder": 645,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 668,
+    "sourceOrder": 646,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 632,
+    "sourceOrder": 647,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 650,
+    "sourceOrder": 648,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 648,
+    "sourceOrder": 649,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 646,
+    "sourceOrder": 650,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 679,
+    "sourceOrder": 651,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 641,
+    "sourceOrder": 652,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 682,
+    "sourceOrder": 653,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 625,
+    "sourceOrder": 654,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 659,
+    "sourceOrder": 655,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 635,
+    "sourceOrder": 656,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 642,
+    "sourceOrder": 657,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 658,
+    "sourceOrder": 658,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 681,
+    "sourceOrder": 659,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 655,
+    "sourceOrder": 660,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 630,
+    "sourceOrder": 661,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 665,
+    "sourceOrder": 662,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 654,
+    "sourceOrder": 663,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 640,
+    "sourceOrder": 664,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 645,
+    "sourceOrder": 665,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 624,
+    "sourceOrder": 666,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 638,
+    "sourceOrder": 667,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 683,
+    "sourceOrder": 668,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 680,
+    "sourceOrder": 669,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 663,
+    "sourceOrder": 670,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 652,
+    "sourceOrder": 671,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 675,
+    "sourceOrder": 672,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 669,
+    "sourceOrder": 673,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 670,
+    "sourceOrder": 674,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 666,
+    "sourceOrder": 675,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 656,
+    "sourceOrder": 676,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 623,
+    "sourceOrder": 677,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 649,
+    "sourceOrder": 678,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 643,
+    "sourceOrder": 679,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 627,
+    "sourceOrder": 680,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 633,
+    "sourceOrder": 681,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 671,
+    "sourceOrder": 682,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 662,
+    "sourceOrder": 683,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 653,
+    "sourceOrder": 684,
+    "date": "Sat, Nov 7"
+  },
+  {
+    "scoreboardIndex": 711,
+    "sourceOrder": 685,
+    "date": "Tue, Nov 10"
+  },
+  {
+    "scoreboardIndex": 748,
+    "sourceOrder": 686,
+    "date": "Tue, Nov 10"
+  },
+  {
+    "scoreboardIndex": 725,
+    "sourceOrder": 687,
+    "date": "Tue, Nov 10"
+  },
+  {
+    "scoreboardIndex": 741,
+    "sourceOrder": 688,
+    "date": "Wed, Nov 11"
+  },
+  {
+    "scoreboardIndex": 729,
+    "sourceOrder": 689,
+    "date": "Wed, Nov 11"
+  },
+  {
+    "scoreboardIndex": 691,
+    "sourceOrder": 690,
+    "date": "Wed, Nov 11"
+  },
+  {
+    "scoreboardIndex": 714,
+    "sourceOrder": 691,
+    "date": "Thu, Nov 12"
+  },
+  {
+    "scoreboardIndex": 712,
+    "sourceOrder": 692,
+    "date": "Thu, Nov 12"
+  },
+  {
+    "scoreboardIndex": 700,
+    "sourceOrder": 693,
+    "date": "Fri, Nov 13"
+  },
+  {
+    "scoreboardIndex": 704,
+    "sourceOrder": 694,
+    "date": "Fri, Nov 13"
+  },
+  {
+    "scoreboardIndex": 707,
+    "sourceOrder": 695,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 732,
+    "sourceOrder": 696,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 731,
+    "sourceOrder": 697,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 750,
+    "sourceOrder": 698,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 720,
+    "sourceOrder": 699,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 706,
+    "sourceOrder": 700,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 699,
+    "sourceOrder": 701,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 749,
+    "sourceOrder": 702,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 719,
+    "sourceOrder": 703,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 724,
+    "sourceOrder": 704,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 747,
+    "sourceOrder": 705,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 693,
+    "sourceOrder": 706,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 708,
+    "sourceOrder": 707,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 698,
+    "sourceOrder": 708,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 740,
+    "sourceOrder": 709,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 733,
+    "sourceOrder": 710,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 746,
+    "sourceOrder": 711,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 695,
+    "sourceOrder": 712,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 737,
+    "sourceOrder": 713,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 689,
+    "sourceOrder": 714,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 728,
+    "sourceOrder": 715,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 718,
+    "sourceOrder": 716,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 690,
+    "sourceOrder": 717,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 687,
+    "sourceOrder": 718,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 702,
+    "sourceOrder": 719,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 692,
+    "sourceOrder": 720,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 696,
+    "sourceOrder": 721,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 686,
+    "sourceOrder": 722,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 742,
+    "sourceOrder": 723,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 736,
+    "sourceOrder": 724,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 688,
+    "sourceOrder": 725,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 685,
+    "sourceOrder": 726,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 721,
+    "sourceOrder": 727,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 730,
+    "sourceOrder": 728,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 703,
+    "sourceOrder": 729,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 739,
+    "sourceOrder": 730,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 715,
+    "sourceOrder": 731,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 738,
+    "sourceOrder": 732,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 697,
+    "sourceOrder": 733,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 701,
+    "sourceOrder": 734,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 717,
+    "sourceOrder": 735,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 734,
+    "sourceOrder": 736,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 743,
+    "sourceOrder": 737,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 710,
+    "sourceOrder": 738,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 722,
+    "sourceOrder": 739,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 726,
+    "sourceOrder": 740,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 735,
+    "sourceOrder": 741,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 713,
+    "sourceOrder": 742,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 723,
+    "sourceOrder": 743,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 716,
+    "sourceOrder": 744,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 684,
+    "sourceOrder": 745,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 709,
+    "sourceOrder": 746,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 705,
+    "sourceOrder": 747,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 744,
+    "sourceOrder": 748,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 727,
+    "sourceOrder": 749,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 745,
+    "sourceOrder": 750,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 694,
+    "sourceOrder": 751,
+    "date": "Sat, Nov 14"
+  },
+  {
+    "scoreboardIndex": 765,
+    "sourceOrder": 752,
+    "date": "Tue, Nov 17"
+  },
+  {
+    "scoreboardIndex": 784,
+    "sourceOrder": 753,
+    "date": "Tue, Nov 17"
+  },
+  {
+    "scoreboardIndex": 756,
+    "sourceOrder": 754,
+    "date": "Tue, Nov 17"
+  },
+  {
+    "scoreboardIndex": 757,
+    "sourceOrder": 755,
+    "date": "Wed, Nov 18"
+  },
+  {
+    "scoreboardIndex": 758,
+    "sourceOrder": 756,
+    "date": "Wed, Nov 18"
+  },
+  {
+    "scoreboardIndex": 751,
+    "sourceOrder": 757,
+    "date": "Wed, Nov 18"
+  },
+  {
+    "scoreboardIndex": 754,
+    "sourceOrder": 758,
+    "date": "Thu, Nov 19"
+  },
+  {
+    "scoreboardIndex": 796,
+    "sourceOrder": 759,
+    "date": "Thu, Nov 19"
+  },
+  {
+    "scoreboardIndex": 778,
+    "sourceOrder": 760,
+    "date": "Fri, Nov 20"
+  },
+  {
+    "scoreboardIndex": 815,
+    "sourceOrder": 761,
+    "date": "Fri, Nov 20"
+  },
+  {
+    "scoreboardIndex": 798,
+    "sourceOrder": 762,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 766,
+    "sourceOrder": 763,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 773,
+    "sourceOrder": 764,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 761,
+    "sourceOrder": 765,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 801,
+    "sourceOrder": 766,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 789,
+    "sourceOrder": 767,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 799,
+    "sourceOrder": 768,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 818,
+    "sourceOrder": 769,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 794,
+    "sourceOrder": 770,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 819,
+    "sourceOrder": 771,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 790,
+    "sourceOrder": 772,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 752,
+    "sourceOrder": 773,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 775,
+    "sourceOrder": 774,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 812,
+    "sourceOrder": 775,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 762,
+    "sourceOrder": 776,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 811,
+    "sourceOrder": 777,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 772,
+    "sourceOrder": 778,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 805,
+    "sourceOrder": 779,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 755,
+    "sourceOrder": 780,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 770,
+    "sourceOrder": 781,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 786,
+    "sourceOrder": 782,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 800,
+    "sourceOrder": 783,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 807,
+    "sourceOrder": 784,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 769,
+    "sourceOrder": 785,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 771,
+    "sourceOrder": 786,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 813,
+    "sourceOrder": 787,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 760,
+    "sourceOrder": 788,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 785,
+    "sourceOrder": 789,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 816,
+    "sourceOrder": 790,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 777,
+    "sourceOrder": 791,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 780,
+    "sourceOrder": 792,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 817,
+    "sourceOrder": 793,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 793,
+    "sourceOrder": 794,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 797,
+    "sourceOrder": 795,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 814,
+    "sourceOrder": 796,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 795,
+    "sourceOrder": 797,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 788,
+    "sourceOrder": 798,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 768,
+    "sourceOrder": 799,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 776,
+    "sourceOrder": 800,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 791,
+    "sourceOrder": 801,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 806,
+    "sourceOrder": 802,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 759,
+    "sourceOrder": 803,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 809,
+    "sourceOrder": 804,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 764,
+    "sourceOrder": 805,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 803,
+    "sourceOrder": 806,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 783,
+    "sourceOrder": 807,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 779,
+    "sourceOrder": 808,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 804,
+    "sourceOrder": 809,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 781,
+    "sourceOrder": 810,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 787,
+    "sourceOrder": 811,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 753,
+    "sourceOrder": 812,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 810,
+    "sourceOrder": 813,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 767,
+    "sourceOrder": 814,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 802,
+    "sourceOrder": 815,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 792,
+    "sourceOrder": 816,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 808,
+    "sourceOrder": 817,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 774,
+    "sourceOrder": 818,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 782,
+    "sourceOrder": 819,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 763,
+    "sourceOrder": 820,
+    "date": "Sat, Nov 21"
+  },
+  {
+    "scoreboardIndex": 847,
+    "sourceOrder": 821,
+    "date": "Tue, Nov 24"
+  },
+  {
+    "scoreboardIndex": 840,
+    "sourceOrder": 822,
+    "date": "Tue, Nov 24"
+  },
+  {
+    "scoreboardIndex": 870,
+    "sourceOrder": 823,
+    "date": "Thu, Nov 26"
+  },
+  {
+    "scoreboardIndex": 875,
+    "sourceOrder": 824,
+    "date": "Fri, Nov 27"
+  },
+  {
+    "scoreboardIndex": 828,
+    "sourceOrder": 825,
+    "date": "Fri, Nov 27"
+  },
+  {
+    "scoreboardIndex": 852,
+    "sourceOrder": 826,
+    "date": "Fri, Nov 27"
+  },
+  {
+    "scoreboardIndex": 873,
+    "sourceOrder": 827,
+    "date": "Fri, Nov 27"
+  },
+  {
+    "scoreboardIndex": 821,
+    "sourceOrder": 828,
+    "date": "Fri, Nov 27"
+  },
+  {
+    "scoreboardIndex": 856,
+    "sourceOrder": 829,
+    "date": "Fri, Nov 27"
+  },
+  {
+    "scoreboardIndex": 887,
+    "sourceOrder": 830,
+    "date": "Fri, Nov 27"
+  },
+  {
+    "scoreboardIndex": 835,
+    "sourceOrder": 831,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 846,
+    "sourceOrder": 832,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 831,
+    "sourceOrder": 833,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 884,
+    "sourceOrder": 834,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 837,
+    "sourceOrder": 835,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 850,
+    "sourceOrder": 836,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 864,
+    "sourceOrder": 837,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 851,
+    "sourceOrder": 838,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 848,
+    "sourceOrder": 839,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 836,
+    "sourceOrder": 840,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 825,
+    "sourceOrder": 841,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 839,
+    "sourceOrder": 842,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 823,
+    "sourceOrder": 843,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 832,
+    "sourceOrder": 844,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 829,
+    "sourceOrder": 845,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 882,
+    "sourceOrder": 846,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 841,
+    "sourceOrder": 847,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 871,
+    "sourceOrder": 848,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 830,
+    "sourceOrder": 849,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 876,
+    "sourceOrder": 850,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 845,
+    "sourceOrder": 851,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 862,
+    "sourceOrder": 852,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 886,
+    "sourceOrder": 853,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 874,
+    "sourceOrder": 854,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 881,
+    "sourceOrder": 855,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 859,
+    "sourceOrder": 856,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 860,
+    "sourceOrder": 857,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 842,
+    "sourceOrder": 858,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 824,
+    "sourceOrder": 859,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 838,
+    "sourceOrder": 860,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 849,
+    "sourceOrder": 861,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 827,
+    "sourceOrder": 862,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 853,
+    "sourceOrder": 863,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 885,
+    "sourceOrder": 864,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 883,
+    "sourceOrder": 865,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 820,
+    "sourceOrder": 866,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 855,
+    "sourceOrder": 867,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 834,
+    "sourceOrder": 868,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 879,
+    "sourceOrder": 869,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 844,
+    "sourceOrder": 870,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 869,
+    "sourceOrder": 871,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 868,
+    "sourceOrder": 872,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 872,
+    "sourceOrder": 873,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 861,
+    "sourceOrder": 874,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 843,
+    "sourceOrder": 875,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 877,
+    "sourceOrder": 876,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 854,
+    "sourceOrder": 877,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 880,
+    "sourceOrder": 878,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 826,
+    "sourceOrder": 879,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 866,
+    "sourceOrder": 880,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 878,
+    "sourceOrder": 881,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 833,
+    "sourceOrder": 882,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 865,
+    "sourceOrder": 883,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 863,
+    "sourceOrder": 884,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 822,
+    "sourceOrder": 885,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 867,
+    "sourceOrder": 886,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 858,
+    "sourceOrder": 887,
+    "date": "Sat, Nov 28"
+  },
+  {
+    "scoreboardIndex": 857,
+    "sourceOrder": 888,
+    "date": "Sat, Nov 28"
+  }
+]

@@ -1,0 +1,7994 @@
+[
+  {
+    "wk": 0,
+    "a": "Arizona",
+    "h": "Washington State",
+    "as": 38,
+    "hs": 41,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 0,
+    "a": "Delaware",
+    "h": "Western Kentucky",
+    "as": 45,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 0,
+    "a": "Hawai'i",
+    "h": "Stanford",
+    "as": 41,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 0,
+    "a": "Jacksonville State",
+    "h": "North Dakota State",
+    "as": 19,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 0,
+    "a": "Kennesaw State",
+    "h": "Florida International",
+    "as": 42,
+    "hs": 14,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 0,
+    "a": "Memphis",
+    "h": "UNLV",
+    "as": 45,
+    "hs": 7,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 0,
+    "a": "Miami",
+    "h": "Notre Dame",
+    "as": 34,
+    "hs": 13,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 0,
+    "a": "Missouri State",
+    "h": "Liberty",
+    "as": 35,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 0,
+    "a": "NC State",
+    "h": "Virginia",
+    "as": 16,
+    "hs": 41,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 0,
+    "a": "New Mexico State",
+    "h": "Florida State",
+    "as": 14,
+    "hs": 45,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 0,
+    "a": "North Carolina",
+    "h": "TCU",
+    "as": 21,
+    "hs": 28,
+    "n": true,
+    "ot": false
+  },
+  {
+    "wk": 0,
+    "a": "Sacramento State",
+    "h": "Eastern Michigan",
+    "as": 14,
+    "hs": 7,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 0,
+    "a": "San Jose State",
+    "h": "USC",
+    "as": 10,
+    "hs": 56,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "Akron",
+    "h": "Wake Forest",
+    "as": 10,
+    "hs": 45,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "Arkansas State",
+    "h": "Memphis",
+    "as": 41,
+    "hs": 40,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "Ball State",
+    "h": "Ohio State",
+    "as": 7,
+    "hs": 48,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "Baylor",
+    "h": "Auburn",
+    "as": 34,
+    "hs": 41,
+    "n": true,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "Boise State",
+    "h": "Oregon",
+    "as": 37,
+    "hs": 16,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "Boston College",
+    "h": "Cincinnati",
+    "as": 7,
+    "hs": 35,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "Central Michigan",
+    "h": "New Mexico",
+    "as": 24,
+    "hs": 20,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "Clemson",
+    "h": "LSU",
+    "as": 22,
+    "hs": 25,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "Coastal Carolina",
+    "h": "West Virginia",
+    "as": 16,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "Colorado",
+    "h": "Georgia Tech",
+    "as": 24,
+    "hs": 20,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "East Carolina",
+    "h": "Alabama",
+    "as": 14,
+    "hs": 41,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS East",
+    "h": "Army",
+    "as": 27,
+    "hs": 9,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS East",
+    "h": "Buffalo",
+    "as": 10,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS East",
+    "h": "Delaware",
+    "as": 0,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS East",
+    "h": "Maryland",
+    "as": 0,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS East",
+    "h": "Navy",
+    "as": 3,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS East",
+    "h": "Old Dominion",
+    "as": 0,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS East",
+    "h": "Syracuse",
+    "as": 9,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS East",
+    "h": "Temple",
+    "as": 10,
+    "hs": 45,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS East",
+    "h": "UConn",
+    "as": 13,
+    "hs": 48,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS East",
+    "h": "Virginia Tech",
+    "as": 0,
+    "hs": 48,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS Midwest",
+    "h": "Air Force",
+    "as": 19,
+    "hs": 14,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS Midwest",
+    "h": "Arizona",
+    "as": 7,
+    "hs": 37,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS Midwest",
+    "h": "Arizona State",
+    "as": 3,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS Midwest",
+    "h": "Bowling Green",
+    "as": 24,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS Midwest",
+    "h": "Iowa State",
+    "as": 17,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS Midwest",
+    "h": "Kansas",
+    "as": 31,
+    "hs": 48,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS Midwest",
+    "h": "Kansas State",
+    "as": 20,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS Midwest",
+    "h": "Minnesota",
+    "as": 10,
+    "hs": 41,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS Midwest",
+    "h": "Missouri",
+    "as": 21,
+    "hs": 66,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS Midwest",
+    "h": "New Mexico State",
+    "as": 10,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS Midwest",
+    "h": "Northwestern",
+    "as": 10,
+    "hs": 55,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS Midwest",
+    "h": "Purdue",
+    "as": 14,
+    "hs": 40,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS Midwest",
+    "h": "Rice",
+    "as": 25,
+    "hs": 44,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS Midwest",
+    "h": "Texas Tech",
+    "as": 3,
+    "hs": 56,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS Midwest",
+    "h": "UTSA",
+    "as": 31,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS Northwest",
+    "h": "North Dakota State",
+    "as": 10,
+    "hs": 17,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS Northwest",
+    "h": "Washington",
+    "as": 3,
+    "hs": 55,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS Southeast",
+    "h": "Appalachian State",
+    "as": 14,
+    "hs": 42,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS Southeast",
+    "h": "Arkansas",
+    "as": 7,
+    "hs": 35,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS Southeast",
+    "h": "Charlotte",
+    "as": 25,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS Southeast",
+    "h": "Georgia",
+    "as": 3,
+    "hs": 59,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS Southeast",
+    "h": "Georgia Southern",
+    "as": 14,
+    "hs": 49,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS Southeast",
+    "h": "Georgia State",
+    "as": 20,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS Southeast",
+    "h": "Jacksonville State",
+    "as": 14,
+    "hs": 41,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS Southeast",
+    "h": "Kennesaw State",
+    "as": 7,
+    "hs": 42,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS Southeast",
+    "h": "Kentucky",
+    "as": 17,
+    "hs": 45,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS Southeast",
+    "h": "Louisiana",
+    "as": 9,
+    "hs": 17,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS Southeast",
+    "h": "Louisiana Tech",
+    "as": 0,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS Southeast",
+    "h": "Middle Tennessee",
+    "as": 14,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS Southeast",
+    "h": "South Alabama",
+    "as": 0,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS Southeast",
+    "h": "Southern Mississippi",
+    "as": 7,
+    "hs": 36,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS Southeast",
+    "h": "Tennessee",
+    "as": 10,
+    "hs": 49,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS Southeast",
+    "h": "UCF",
+    "as": 13,
+    "hs": 45,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS Southeast",
+    "h": "Vanderbilt",
+    "as": 14,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS West",
+    "h": "BYU",
+    "as": 3,
+    "hs": 43,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS West",
+    "h": "Sacramento State",
+    "as": 0,
+    "hs": 44,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS West",
+    "h": "San Diego State",
+    "as": 21,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS West",
+    "h": "Utah",
+    "as": 14,
+    "hs": 45,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "FCS West",
+    "h": "Utah State",
+    "as": 17,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "Florida Atlantic",
+    "h": "Florida",
+    "as": 13,
+    "hs": 49,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "Florida International",
+    "h": "USF",
+    "as": 28,
+    "hs": 40,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "Fresno State",
+    "h": "USC",
+    "as": 21,
+    "hs": 40,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "Kent State",
+    "h": "South Carolina",
+    "as": 14,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "Liberty",
+    "h": "James Madison",
+    "as": 30,
+    "hs": 27,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 1,
+    "a": "Louisville",
+    "h": "Ole Miss",
+    "as": 28,
+    "hs": 33,
+    "n": true,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "Marshall",
+    "h": "Penn State",
+    "as": 3,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "Miami",
+    "h": "Stanford",
+    "as": 7,
+    "hs": 37,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "Miami University",
+    "h": "Pittsburgh",
+    "as": 10,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "Missouri State",
+    "h": "Texas A&M",
+    "as": 14,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "North Texas",
+    "h": "Indiana",
+    "as": 7,
+    "hs": 42,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "Northern Illinois",
+    "h": "Iowa",
+    "as": 0,
+    "hs": 41,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "Ohio",
+    "h": "Nebraska",
+    "as": 0,
+    "hs": 62,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "Oklahoma State",
+    "h": "Tulsa",
+    "as": 24,
+    "hs": 14,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "Oregon State",
+    "h": "Houston",
+    "as": 13,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "SMU",
+    "h": "Florida State",
+    "as": 21,
+    "hs": 14,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "Sam Houston",
+    "h": "Troy",
+    "as": 34,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "San Jose State",
+    "h": "Eastern Michigan",
+    "as": 10,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "Texas State",
+    "h": "Texas",
+    "as": 14,
+    "hs": 45,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "Toledo",
+    "h": "Michigan State",
+    "as": 24,
+    "hs": 10,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "Tulane",
+    "h": "Duke",
+    "as": 16,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "UAB",
+    "h": "Illinois",
+    "as": 31,
+    "hs": 20,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "UCLA",
+    "h": "California",
+    "as": 35,
+    "hs": 28,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 1,
+    "a": "UL Monroe",
+    "h": "Mississippi State",
+    "as": 0,
+    "hs": 41,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "UMass",
+    "h": "Rutgers",
+    "as": 10,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "UNLV",
+    "h": "Hawai'i",
+    "as": 31,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "UTEP",
+    "h": "Oklahoma",
+    "as": 17,
+    "hs": 55,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "Western Kentucky",
+    "h": "Nevada",
+    "as": 18,
+    "hs": 35,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "Western Michigan",
+    "h": "Michigan",
+    "as": 7,
+    "hs": 41,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "Wisconsin",
+    "h": "Notre Dame",
+    "as": 33,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 1,
+    "a": "Wyoming",
+    "h": "Colorado State",
+    "as": 37,
+    "hs": 31,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 2,
+    "a": "Alabama",
+    "h": "Kentucky",
+    "as": 31,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Appalachian State",
+    "h": "East Carolina",
+    "as": 31,
+    "hs": 19,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Arizona",
+    "h": "BYU",
+    "as": 24,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Arizona State",
+    "h": "Texas A&M",
+    "as": 21,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Arkansas",
+    "h": "Utah",
+    "as": 14,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Bowling Green",
+    "h": "Nebraska",
+    "as": 24,
+    "hs": 27,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 2,
+    "a": "Buffalo",
+    "h": "Florida International",
+    "as": 17,
+    "hs": 15,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "California",
+    "h": "Syracuse",
+    "as": 24,
+    "hs": 41,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Charlotte",
+    "h": "Ole Miss",
+    "as": 20,
+    "hs": 68,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Delaware",
+    "h": "Vanderbilt",
+    "as": 14,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Duke",
+    "h": "Illinois",
+    "as": 30,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Eastern Michigan",
+    "h": "Michigan State",
+    "as": 7,
+    "hs": 23,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "FCS East",
+    "h": "James Madison",
+    "as": 0,
+    "hs": 42,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "FCS East",
+    "h": "Liberty",
+    "as": 0,
+    "hs": 30,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "FCS East",
+    "h": "UMass",
+    "as": 10,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "FCS East",
+    "h": "Virginia",
+    "as": 7,
+    "hs": 45,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "FCS East",
+    "h": "West Virginia",
+    "as": 27,
+    "hs": 56,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "FCS Midwest",
+    "h": "Akron",
+    "as": 13,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "FCS Midwest",
+    "h": "Ball State",
+    "as": 19,
+    "hs": 48,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "FCS Midwest",
+    "h": "Baylor",
+    "as": 7,
+    "hs": 41,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "FCS Midwest",
+    "h": "Cincinnati",
+    "as": 10,
+    "hs": 58,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "FCS Midwest",
+    "h": "Colorado",
+    "as": 17,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "FCS Midwest",
+    "h": "Colorado State",
+    "as": 28,
+    "hs": 29,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "FCS Midwest",
+    "h": "Houston",
+    "as": 20,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "FCS Midwest",
+    "h": "Indiana",
+    "as": 0,
+    "hs": 42,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "FCS Midwest",
+    "h": "Kent State",
+    "as": 10,
+    "hs": 41,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "FCS Midwest",
+    "h": "Miami University",
+    "as": 17,
+    "hs": 20,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "FCS Midwest",
+    "h": "Missouri State",
+    "as": 31,
+    "hs": 35,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "FCS Midwest",
+    "h": "New Mexico",
+    "as": 7,
+    "hs": 42,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "FCS Midwest",
+    "h": "Northern Illinois",
+    "as": 10,
+    "hs": 35,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "FCS Midwest",
+    "h": "SMU",
+    "as": 13,
+    "hs": 53,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "FCS Midwest",
+    "h": "TCU",
+    "as": 17,
+    "hs": 52,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "FCS Midwest",
+    "h": "Toledo",
+    "as": 13,
+    "hs": 42,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "FCS Midwest",
+    "h": "UTEP",
+    "as": 7,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "FCS Midwest",
+    "h": "Wisconsin",
+    "as": 13,
+    "hs": 42,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "FCS Midwest",
+    "h": "Wyoming",
+    "as": 21,
+    "hs": 49,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "FCS Southeast",
+    "h": "Arkansas State",
+    "as": 21,
+    "hs": 41,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "FCS Southeast",
+    "h": "Coastal Carolina",
+    "as": 17,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "FCS Southeast",
+    "h": "Florida",
+    "as": 19,
+    "hs": 48,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "FCS Southeast",
+    "h": "Louisville",
+    "as": 17,
+    "hs": 35,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "FCS Southeast",
+    "h": "Miami",
+    "as": 13,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "FCS Southeast",
+    "h": "NC State",
+    "as": 7,
+    "hs": 48,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "FCS Southeast",
+    "h": "North Carolina",
+    "as": 7,
+    "hs": 33,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "FCS Southeast",
+    "h": "South Carolina",
+    "as": 0,
+    "hs": 42,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "FCS Southeast",
+    "h": "Troy",
+    "as": 6,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "FCS West",
+    "h": "Nevada",
+    "as": 7,
+    "hs": 42,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "FCS West",
+    "h": "San Jose State",
+    "as": 15,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Georgia Southern",
+    "h": "Central Michigan",
+    "as": 9,
+    "hs": 20,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Georgia State",
+    "h": "Kennesaw State",
+    "as": 17,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Iowa State",
+    "h": "Iowa",
+    "as": 26,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Jacksonville State",
+    "h": "Ohio",
+    "as": 31,
+    "hs": 23,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Louisiana Tech",
+    "h": "LSU",
+    "as": 6,
+    "hs": 62,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Maryland",
+    "h": "UConn",
+    "as": 30,
+    "hs": 17,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Memphis",
+    "h": "Boise State",
+    "as": 20,
+    "hs": 33,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Middle Tennessee",
+    "h": "Marshall",
+    "as": 34,
+    "hs": 17,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Mississippi State",
+    "h": "Minnesota",
+    "as": 41,
+    "hs": 17,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Missouri",
+    "h": "Kansas",
+    "as": 37,
+    "hs": 7,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Navy",
+    "h": "Florida Atlantic",
+    "as": 14,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "New Mexico State",
+    "h": "Clemson",
+    "as": 24,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "North Dakota State",
+    "h": "Air Force",
+    "as": 24,
+    "hs": 16,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Ohio State",
+    "h": "Texas",
+    "as": 23,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Oklahoma",
+    "h": "Michigan",
+    "as": 14,
+    "hs": 7,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Old Dominion",
+    "h": "Virginia Tech",
+    "as": 18,
+    "hs": 42,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Oregon",
+    "h": "Oklahoma State",
+    "as": 44,
+    "hs": 17,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Penn State",
+    "h": "Temple",
+    "as": 31,
+    "hs": 7,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Rice",
+    "h": "Notre Dame",
+    "as": 0,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Rutgers",
+    "h": "Boston College",
+    "as": 30,
+    "hs": 23,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Sacramento State",
+    "h": "Fresno State",
+    "as": 27,
+    "hs": 44,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "San Diego State",
+    "h": "UCLA",
+    "as": 28,
+    "hs": 23,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "South Alabama",
+    "h": "Tulane",
+    "as": 28,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Southern Mississippi",
+    "h": "Auburn",
+    "as": 30,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Tennessee",
+    "h": "Georgia Tech",
+    "as": 55,
+    "hs": 39,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Texas Tech",
+    "h": "Oregon State",
+    "as": 43,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Tulsa",
+    "h": "Sam Houston",
+    "as": 24,
+    "hs": 35,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "UCF",
+    "h": "Pittsburgh",
+    "as": 21,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "UL Monroe",
+    "h": "UAB",
+    "as": 13,
+    "hs": 45,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "UNLV",
+    "h": "North Texas",
+    "as": 38,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "USF",
+    "h": "Army",
+    "as": 29,
+    "hs": 31,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 2,
+    "a": "UTSA",
+    "h": "Texas State",
+    "as": 37,
+    "hs": 45,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Utah State",
+    "h": "Washington",
+    "as": 14,
+    "hs": 45,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Wake Forest",
+    "h": "Purdue",
+    "as": 44,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Washington State",
+    "h": "Kansas State",
+    "as": 26,
+    "hs": 44,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Western Kentucky",
+    "h": "Georgia",
+    "as": 14,
+    "hs": 58,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 2,
+    "a": "Western Michigan",
+    "h": "Hawai'i",
+    "as": 51,
+    "hs": 16,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Akron",
+    "h": "Minnesota",
+    "as": 7,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Arizona State",
+    "h": "Kansas",
+    "as": 28,
+    "hs": 23,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Arkansas State",
+    "h": "TCU",
+    "as": 33,
+    "hs": 30,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "BYU",
+    "h": "Colorado State",
+    "as": 31,
+    "hs": 10,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Ball State",
+    "h": "Liberty",
+    "as": 28,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Bowling Green",
+    "h": "Iowa State",
+    "as": 10,
+    "hs": 17,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Buffalo",
+    "h": "Penn State",
+    "as": 7,
+    "hs": 49,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Charlotte",
+    "h": "Appalachian State",
+    "as": 14,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Coastal Carolina",
+    "h": "Delaware",
+    "as": 14,
+    "hs": 13,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Colorado",
+    "h": "Northwestern",
+    "as": 23,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "East Carolina",
+    "h": "Old Dominion",
+    "as": 23,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Eastern Michigan",
+    "h": "Wisconsin",
+    "as": 21,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "FCS East",
+    "h": "Boston College",
+    "as": 7,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "FCS East",
+    "h": "UMass",
+    "as": 20,
+    "hs": 17,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "FCS Midwest",
+    "h": "Illinois",
+    "as": 20,
+    "hs": 35,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "FCS Midwest",
+    "h": "Iowa",
+    "as": 10,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "FCS Midwest",
+    "h": "Oklahoma State",
+    "as": 7,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "FCS Midwest",
+    "h": "Sam Houston",
+    "as": 43,
+    "hs": 7,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "FCS Midwest",
+    "h": "Tulsa",
+    "as": 20,
+    "hs": 30,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "FCS Northwest",
+    "h": "Boise State",
+    "as": 17,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "FCS Southeast",
+    "h": "Georgia Tech",
+    "as": 3,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "FCS Southeast",
+    "h": "Memphis",
+    "as": 10,
+    "hs": 42,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "FCS Southeast",
+    "h": "UL Monroe",
+    "as": 3,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "FCS Southeast",
+    "h": "USF",
+    "as": 7,
+    "hs": 40,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "FCS West",
+    "h": "California",
+    "as": 3,
+    "hs": 30,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Florida",
+    "h": "Auburn",
+    "as": 37,
+    "hs": 19,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Florida International",
+    "h": "Florida Atlantic",
+    "as": 23,
+    "hs": 49,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Florida State",
+    "h": "Alabama",
+    "as": 28,
+    "hs": 40,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Georgia",
+    "h": "Arkansas",
+    "as": 41,
+    "hs": 16,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Georgia Southern",
+    "h": "Jacksonville State",
+    "as": 42,
+    "hs": 44,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 3,
+    "a": "Georgia State",
+    "h": "UCF",
+    "as": 13,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Houston",
+    "h": "Texas Tech",
+    "as": 13,
+    "hs": 41,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "James Madison",
+    "h": "San Diego State",
+    "as": 6,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Kennesaw State",
+    "h": "Tennessee",
+    "as": 10,
+    "hs": 48,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Kent State",
+    "h": "Ohio State",
+    "as": 0,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Kentucky",
+    "h": "Texas A&M",
+    "as": 10,
+    "hs": 15,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "LSU",
+    "h": "Ole Miss",
+    "as": 34,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Louisiana Tech",
+    "h": "Baylor",
+    "as": 23,
+    "hs": 37,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Marshall",
+    "h": "Missouri State",
+    "as": 24,
+    "hs": 16,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Miami",
+    "h": "Wake Forest",
+    "as": 21,
+    "hs": 16,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Miami University",
+    "h": "Cincinnati",
+    "as": 0,
+    "hs": 20,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Michigan State",
+    "h": "Notre Dame",
+    "as": 7,
+    "hs": 41,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Mississippi State",
+    "h": "South Carolina",
+    "as": 24,
+    "hs": 17,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "NC State",
+    "h": "Vanderbilt",
+    "as": 7,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Nebraska",
+    "h": "Fresno State",
+    "as": 35,
+    "hs": 17,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Nevada",
+    "h": "Middle Tennessee",
+    "as": 14,
+    "hs": 6,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "New Mexico",
+    "h": "Oklahoma",
+    "as": 3,
+    "hs": 48,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "North Carolina",
+    "h": "Clemson",
+    "as": 23,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "North Dakota State",
+    "h": "Sacramento State",
+    "as": 31,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "North Texas",
+    "h": "Texas State",
+    "as": 45,
+    "hs": 42,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Northern Illinois",
+    "h": "Arizona",
+    "as": 34,
+    "hs": 36,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 3,
+    "a": "Ohio",
+    "h": "South Alabama",
+    "as": 10,
+    "hs": 3,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Oregon",
+    "h": "Oregon State",
+    "as": 44,
+    "hs": 0,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Purdue",
+    "h": "UCLA",
+    "as": 21,
+    "hs": 49,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Rice",
+    "h": "Western Michigan",
+    "as": 10,
+    "hs": 45,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "SMU",
+    "h": "Louisville",
+    "as": 19,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Stanford",
+    "h": "Duke",
+    "as": 16,
+    "hs": 17,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Syracuse",
+    "h": "Pittsburgh",
+    "as": 27,
+    "hs": 17,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Temple",
+    "h": "Toledo",
+    "as": 28,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Troy",
+    "h": "Missouri",
+    "as": 10,
+    "hs": 41,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Tulane",
+    "h": "Kansas State",
+    "as": 14,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "UAB",
+    "h": "Louisiana",
+    "as": 27,
+    "hs": 14,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "UConn",
+    "h": "Southern Mississippi",
+    "as": 30,
+    "hs": 10,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "USC",
+    "h": "Rutgers",
+    "as": 27,
+    "hs": 0,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "UTEP",
+    "h": "Michigan",
+    "as": 3,
+    "hs": 49,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "UTSA",
+    "h": "Texas",
+    "as": 13,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Utah State",
+    "h": "Utah",
+    "as": 20,
+    "hs": 48,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Virginia",
+    "h": "West Virginia",
+    "as": 24,
+    "hs": 20,
+    "n": true,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Virginia Tech",
+    "h": "Maryland",
+    "as": 32,
+    "hs": 35,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Washington",
+    "h": "Washington State",
+    "as": 31,
+    "hs": 7,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Western Kentucky",
+    "h": "Indiana",
+    "as": 3,
+    "hs": 48,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 3,
+    "a": "Wyoming",
+    "h": "Central Michigan",
+    "as": 27,
+    "hs": 7,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Air Force",
+    "h": "Nevada",
+    "as": 24,
+    "hs": 16,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Appalachian State",
+    "h": "NC State",
+    "as": 28,
+    "hs": 10,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Army",
+    "h": "Temple",
+    "as": 13,
+    "hs": 20,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Ball State",
+    "h": "Kent State",
+    "as": 24,
+    "hs": 16,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Boise State",
+    "h": "Western Michigan",
+    "as": 17,
+    "hs": 35,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Central Michigan",
+    "h": "Miami",
+    "as": 14,
+    "hs": 42,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Clemson",
+    "h": "California",
+    "as": 35,
+    "hs": 16,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Colorado",
+    "h": "Baylor",
+    "as": 10,
+    "hs": 42,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Colorado State",
+    "h": "UTSA",
+    "as": 20,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Delaware",
+    "h": "Virginia",
+    "as": 14,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "FCS East",
+    "h": "Buffalo",
+    "as": 14,
+    "hs": 49,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "FCS East",
+    "h": "Marshall",
+    "as": 24,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "FCS East",
+    "h": "Pittsburgh",
+    "as": 0,
+    "hs": 44,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "FCS East",
+    "h": "Rutgers",
+    "as": 3,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "FCS Midwest",
+    "h": "North Texas",
+    "as": 24,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "FCS Midwest",
+    "h": "Ohio",
+    "as": 13,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "FCS Midwest",
+    "h": "Texas State",
+    "as": 17,
+    "hs": 50,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "FCS Northwest",
+    "h": "Oregon State",
+    "as": 3,
+    "hs": 45,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "FCS Northwest",
+    "h": "Washington State",
+    "as": 10,
+    "hs": 41,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "FCS Southeast",
+    "h": "Duke",
+    "as": 6,
+    "hs": 42,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "FCS Southeast",
+    "h": "East Carolina",
+    "as": 7,
+    "hs": 44,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "FCS Southeast",
+    "h": "Florida International",
+    "as": 24,
+    "hs": 17,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "FCS Southeast",
+    "h": "Florida State",
+    "as": 7,
+    "hs": 61,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "FCS Southeast",
+    "h": "Western Kentucky",
+    "as": 27,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Florida Atlantic",
+    "h": "UL Monroe",
+    "as": 35,
+    "hs": 16,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Georgia Southern",
+    "h": "Eastern Michigan",
+    "as": 24,
+    "hs": 6,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Georgia Tech",
+    "h": "Stanford",
+    "as": 0,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Hawai'i",
+    "h": "Wyoming",
+    "as": 28,
+    "hs": 35,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Illinois",
+    "h": "Ohio State",
+    "as": 14,
+    "hs": 39,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Iowa",
+    "h": "Michigan",
+    "as": 25,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "James Madison",
+    "h": "Old Dominion",
+    "as": 13,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Kansas State",
+    "h": "Cincinnati",
+    "as": 28,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Kennesaw State",
+    "h": "Arkansas State",
+    "as": 38,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Liberty",
+    "h": "Coastal Carolina",
+    "as": 22,
+    "hs": 30,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Louisiana",
+    "h": "Charlotte",
+    "as": 38,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Middle Tennessee",
+    "h": "Jacksonville State",
+    "as": 24,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Minnesota",
+    "h": "Washington",
+    "as": 24,
+    "hs": 35,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Missouri",
+    "h": "Mississippi State",
+    "as": 24,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Missouri State",
+    "h": "SMU",
+    "as": 10,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Navy",
+    "h": "UAB",
+    "as": 10,
+    "hs": 35,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Nebraska",
+    "h": "Michigan State",
+    "as": 34,
+    "hs": 31,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 4,
+    "a": "New Mexico",
+    "h": "New Mexico State",
+    "as": 14,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Northern Illinois",
+    "h": "Georgia State",
+    "as": 21,
+    "hs": 42,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Northwestern",
+    "h": "Indiana",
+    "as": 32,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Notre Dame",
+    "h": "Purdue",
+    "as": 48,
+    "hs": 10,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Oklahoma",
+    "h": "Georgia",
+    "as": 45,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Oklahoma State",
+    "h": "West Virginia",
+    "as": 30,
+    "hs": 10,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Ole Miss",
+    "h": "Florida",
+    "as": 49,
+    "hs": 20,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Oregon",
+    "h": "USC",
+    "as": 32,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Rice",
+    "h": "Fresno State",
+    "as": 31,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Sam Houston",
+    "h": "Texas Tech",
+    "as": 3,
+    "hs": 55,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "San Diego State",
+    "h": "Toledo",
+    "as": 31,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "South Alabama",
+    "h": "Kentucky",
+    "as": 18,
+    "hs": 26,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "South Carolina",
+    "h": "Alabama",
+    "as": 24,
+    "hs": 26,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Southern Mississippi",
+    "h": "Tulane",
+    "as": 14,
+    "hs": 59,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "TCU",
+    "h": "UCF",
+    "as": 37,
+    "hs": 42,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Texas",
+    "h": "Tennessee",
+    "as": 26,
+    "hs": 41,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Texas A&M",
+    "h": "LSU",
+    "as": 20,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Troy",
+    "h": "Utah State",
+    "as": 28,
+    "hs": 22,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Tulsa",
+    "h": "Arkansas",
+    "as": 45,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "UCLA",
+    "h": "Maryland",
+    "as": 31,
+    "hs": 6,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "UConn",
+    "h": "Miami University",
+    "as": 27,
+    "hs": 20,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "UMass",
+    "h": "Sacramento State",
+    "as": 27,
+    "hs": 13,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "UNLV",
+    "h": "Akron",
+    "as": 28,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "USF",
+    "h": "Bowling Green",
+    "as": 14,
+    "hs": 11,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "UTEP",
+    "h": "BYU",
+    "as": 10,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Utah",
+    "h": "Iowa State",
+    "as": 20,
+    "hs": 23,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Vanderbilt",
+    "h": "Auburn",
+    "as": 17,
+    "hs": 51,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Virginia Tech",
+    "h": "Boston College",
+    "as": 13,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Wake Forest",
+    "h": "Louisville",
+    "as": 30,
+    "hs": 40,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 4,
+    "a": "Wisconsin",
+    "h": "Penn State",
+    "as": 24,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Akron",
+    "h": "Central Michigan",
+    "as": 21,
+    "hs": 35,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Alabama",
+    "h": "Mississippi State",
+    "as": 55,
+    "hs": 17,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Arkansas",
+    "h": "Texas A&M",
+    "as": 36,
+    "hs": 52,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Arkansas State",
+    "h": "Louisiana",
+    "as": 31,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Army",
+    "h": "Louisiana Tech",
+    "as": 16,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Auburn",
+    "h": "Tennessee",
+    "as": 31,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "BYU",
+    "h": "TCU",
+    "as": 49,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Baylor",
+    "h": "Arizona State",
+    "as": 52,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Boston College",
+    "h": "SMU",
+    "as": 27,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Bowling Green",
+    "h": "Miami University",
+    "as": 31,
+    "hs": 29,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 5,
+    "a": "California",
+    "h": "UNLV",
+    "as": 34,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Cincinnati",
+    "h": "Arizona",
+    "as": 38,
+    "hs": 20,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Eastern Michigan",
+    "h": "UMass",
+    "as": 27,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "FCS Southeast",
+    "h": "Florida Atlantic",
+    "as": 14,
+    "hs": 17,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "FCS Southeast",
+    "h": "LSU",
+    "as": 3,
+    "hs": 59,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "FCS Southeast",
+    "h": "UAB",
+    "as": 9,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Florida",
+    "h": "Missouri",
+    "as": 14,
+    "hs": 35,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Florida International",
+    "h": "Jacksonville State",
+    "as": 21,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Fresno State",
+    "h": "Washington State",
+    "as": 19,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Georgia Southern",
+    "h": "Coastal Carolina",
+    "as": 3,
+    "hs": 33,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Indiana",
+    "h": "Rutgers",
+    "as": 33,
+    "hs": 10,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Kentucky",
+    "h": "South Carolina",
+    "as": 16,
+    "hs": 49,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Liberty",
+    "h": "Delaware",
+    "as": 35,
+    "hs": 33,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Louisville",
+    "h": "NC State",
+    "as": 51,
+    "hs": 54,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 5,
+    "a": "Marshall",
+    "h": "James Madison",
+    "as": 34,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Maryland",
+    "h": "Nebraska",
+    "as": 17,
+    "hs": 35,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Memphis",
+    "h": "Charlotte",
+    "as": 40,
+    "hs": 7,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Miami",
+    "h": "Clemson",
+    "as": 19,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Michigan",
+    "h": "Minnesota",
+    "as": 16,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Michigan State",
+    "h": "Wisconsin",
+    "as": 20,
+    "hs": 17,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Middle Tennessee",
+    "h": "Kansas",
+    "as": 32,
+    "hs": 42,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Missouri State",
+    "h": "Western Kentucky",
+    "as": 24,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Navy",
+    "h": "Air Force",
+    "as": 21,
+    "hs": 7,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "New Mexico State",
+    "h": "Sam Houston",
+    "as": 17,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "North Texas",
+    "h": "Tulsa",
+    "as": 28,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Notre Dame",
+    "h": "North Carolina",
+    "as": 38,
+    "hs": 17,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Ohio",
+    "h": "Kent State",
+    "as": 31,
+    "hs": 10,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Ohio State",
+    "h": "Iowa",
+    "as": 31,
+    "hs": 13,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Old Dominion",
+    "h": "Georgia State",
+    "as": 27,
+    "hs": 6,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Oregon State",
+    "h": "Colorado State",
+    "as": 28,
+    "hs": 33,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Penn State",
+    "h": "Northwestern",
+    "as": 24,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Pittsburgh",
+    "h": "Virginia Tech",
+    "as": 44,
+    "hs": 10,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Purdue",
+    "h": "Illinois",
+    "as": 34,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "San Jose State",
+    "h": "Hawai'i",
+    "as": 34,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Stanford",
+    "h": "Wake Forest",
+    "as": 16,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Syracuse",
+    "h": "UConn",
+    "as": 23,
+    "hs": 20,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Temple",
+    "h": "USF",
+    "as": 30,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Texas State",
+    "h": "San Diego State",
+    "as": 34,
+    "hs": 36,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 5,
+    "a": "Texas Tech",
+    "h": "Colorado",
+    "as": 31,
+    "hs": 23,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Toledo",
+    "h": "Ball State",
+    "as": 38,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "UCF",
+    "h": "Houston",
+    "as": 27,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "UL Monroe",
+    "h": "South Alabama",
+    "as": 17,
+    "hs": 52,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "UTEP",
+    "h": "New Mexico",
+    "as": 24,
+    "hs": 29,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "UTSA",
+    "h": "Rice",
+    "as": 29,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Utah State",
+    "h": "Boise State",
+    "as": 27,
+    "hs": 30,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 5,
+    "a": "Vanderbilt",
+    "h": "Georgia",
+    "as": 25,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Virginia",
+    "h": "Florida State",
+    "as": 27,
+    "hs": 15,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Washington",
+    "h": "USC",
+    "as": 48,
+    "hs": 50,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 5,
+    "a": "West Virginia",
+    "h": "Iowa State",
+    "as": 24,
+    "hs": 52,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Western Michigan",
+    "h": "Buffalo",
+    "as": 27,
+    "hs": 14,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 5,
+    "a": "Wyoming",
+    "h": "North Dakota State",
+    "as": 21,
+    "hs": 10,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Air Force",
+    "h": "Northern Illinois",
+    "as": 28,
+    "hs": 10,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Arizona",
+    "h": "West Virginia",
+    "as": 31,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Ball State",
+    "h": "Northwestern",
+    "as": 38,
+    "hs": 32,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Boise State",
+    "h": "Fresno State",
+    "as": 41,
+    "hs": 43,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 6,
+    "a": "Buffalo",
+    "h": "Toledo",
+    "as": 13,
+    "hs": 10,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Central Michigan",
+    "h": "Ohio",
+    "as": 18,
+    "hs": 13,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Charlotte",
+    "h": "North Texas",
+    "as": 31,
+    "hs": 20,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Coastal Carolina",
+    "h": "Marshall",
+    "as": 37,
+    "hs": 34,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 6,
+    "a": "Delaware",
+    "h": "Missouri State",
+    "as": 26,
+    "hs": 9,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Duke",
+    "h": "Georgia Tech",
+    "as": 35,
+    "hs": 7,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Eastern Michigan",
+    "h": "Akron",
+    "as": 24,
+    "hs": 10,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Florida State",
+    "h": "Louisville",
+    "as": 32,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Georgia",
+    "h": "Alabama",
+    "as": 35,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Hawai'i",
+    "h": "Arizona State",
+    "as": 24,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Houston",
+    "h": "Kansas State",
+    "as": 21,
+    "hs": 45,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Illinois",
+    "h": "Michigan State",
+    "as": 24,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Indiana",
+    "h": "Nebraska",
+    "as": 38,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Iowa",
+    "h": "Washington",
+    "as": 38,
+    "hs": 32,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Iowa State",
+    "h": "BYU",
+    "as": 6,
+    "hs": 41,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Jacksonville State",
+    "h": "Kennesaw State",
+    "as": 20,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "James Madison",
+    "h": "Georgia Southern",
+    "as": 14,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Kansas",
+    "h": "Utah",
+    "as": 21,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Kent State",
+    "h": "Western Michigan",
+    "as": 24,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "LSU",
+    "h": "Kentucky",
+    "as": 41,
+    "hs": 15,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Louisiana",
+    "h": "Louisiana Tech",
+    "as": 10,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Maryland",
+    "h": "Ohio State",
+    "as": 14,
+    "hs": 48,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Miami University",
+    "h": "UMass",
+    "as": 20,
+    "hs": 7,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Minnesota",
+    "h": "Purdue",
+    "as": 13,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Nevada",
+    "h": "UTEP",
+    "as": 34,
+    "hs": 23,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "North Carolina",
+    "h": "Pittsburgh",
+    "as": 10,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "North Dakota State",
+    "h": "UNLV",
+    "as": 17,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Old Dominion",
+    "h": "Appalachian State",
+    "as": 34,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Ole Miss",
+    "h": "Vanderbilt",
+    "as": 44,
+    "hs": 16,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Rice",
+    "h": "East Carolina",
+    "as": 10,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Sacramento State",
+    "h": "Bowling Green",
+    "as": 17,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Sam Houston",
+    "h": "Liberty",
+    "as": 14,
+    "hs": 35,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "San Diego State",
+    "h": "Oregon State",
+    "as": 18,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "South Alabama",
+    "h": "Arkansas State",
+    "as": 34,
+    "hs": 16,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "South Carolina",
+    "h": "Florida",
+    "as": 40,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Southern Mississippi",
+    "h": "Troy",
+    "as": 17,
+    "hs": 35,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Stanford",
+    "h": "Notre Dame",
+    "as": 15,
+    "hs": 17,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Syracuse",
+    "h": "Virginia",
+    "as": 17,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Tennessee",
+    "h": "Arkansas",
+    "as": 30,
+    "hs": 44,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Texas",
+    "h": "Oklahoma",
+    "as": 29,
+    "hs": 28,
+    "n": true,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Texas A&M",
+    "h": "Missouri",
+    "as": 30,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Tulane",
+    "h": "Army",
+    "as": 31,
+    "hs": 41,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Tulsa",
+    "h": "Navy",
+    "as": 24,
+    "hs": 10,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "UAB",
+    "h": "Memphis",
+    "as": 21,
+    "hs": 35,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "UCF",
+    "h": "Oklahoma State",
+    "as": 28,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "UCLA",
+    "h": "Oregon",
+    "as": 45,
+    "hs": 35,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "UConn",
+    "h": "Temple",
+    "as": 27,
+    "hs": 15,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "USC",
+    "h": "Penn State",
+    "as": 48,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "USF",
+    "h": "UTSA",
+    "as": 38,
+    "hs": 17,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Virginia Tech",
+    "h": "California",
+    "as": 48,
+    "hs": 46,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 6,
+    "a": "Wake Forest",
+    "h": "NC State",
+    "as": 24,
+    "hs": 18,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Washington State",
+    "h": "Utah State",
+    "as": 31,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Western Kentucky",
+    "h": "New Mexico State",
+    "as": 16,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 6,
+    "a": "Wyoming",
+    "h": "San Jose State",
+    "as": 27,
+    "hs": 30,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Akron",
+    "h": "Miami University",
+    "as": 41,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Alabama",
+    "h": "Tennessee",
+    "as": 32,
+    "hs": 40,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Appalachian State",
+    "h": "Coastal Carolina",
+    "as": 24,
+    "hs": 17,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Arizona State",
+    "h": "Texas Tech",
+    "as": 7,
+    "hs": 40,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Arkansas",
+    "h": "Vanderbilt",
+    "as": 32,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Arkansas State",
+    "h": "Southern Mississippi",
+    "as": 44,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Auburn",
+    "h": "Georgia",
+    "as": 16,
+    "hs": 59,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Ball State",
+    "h": "Bowling Green",
+    "as": 24,
+    "hs": 27,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 7,
+    "a": "Charlotte",
+    "h": "Temple",
+    "as": 31,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Cincinnati",
+    "h": "West Virginia",
+    "as": 34,
+    "hs": 7,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Colorado State",
+    "h": "Texas State",
+    "as": 13,
+    "hs": 10,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "East Carolina",
+    "h": "UAB",
+    "as": 45,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "FCS Midwest",
+    "h": "Texas A&M",
+    "as": 24,
+    "hs": 56,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "FCS Southeast",
+    "h": "Clemson",
+    "as": 7,
+    "hs": 55,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "FCS West",
+    "h": "Stanford",
+    "as": 44,
+    "hs": 41,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Florida",
+    "h": "Texas",
+    "as": 37,
+    "hs": 39,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Florida Atlantic",
+    "h": "Army",
+    "as": 22,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Florida State",
+    "h": "Miami",
+    "as": 43,
+    "hs": 41,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 7,
+    "a": "Fresno State",
+    "h": "San Diego State",
+    "as": 28,
+    "hs": 18,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Georgia Southern",
+    "h": "Old Dominion",
+    "as": 48,
+    "hs": 14,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Georgia State",
+    "h": "James Madison",
+    "as": 14,
+    "hs": 20,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Georgia Tech",
+    "h": "Virginia Tech",
+    "as": 26,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Kansas",
+    "h": "Kansas State",
+    "as": 23,
+    "hs": 41,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Kennesaw State",
+    "h": "Middle Tennessee",
+    "as": 52,
+    "hs": 35,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Kent State",
+    "h": "USF",
+    "as": 14,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Kentucky",
+    "h": "Oklahoma",
+    "as": 22,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Liberty",
+    "h": "Western Kentucky",
+    "as": 31,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Louisiana Tech",
+    "h": "UL Monroe",
+    "as": 14,
+    "hs": 10,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Louisville",
+    "h": "Syracuse",
+    "as": 35,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Memphis",
+    "h": "Tulane",
+    "as": 40,
+    "hs": 3,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Mississippi State",
+    "h": "LSU",
+    "as": 31,
+    "hs": 59,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Missouri",
+    "h": "Ole Miss",
+    "as": 35,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Navy",
+    "h": "UTSA",
+    "as": 28,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Nebraska",
+    "h": "Oregon",
+    "as": 31,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Nevada",
+    "h": "North Dakota State",
+    "as": 10,
+    "hs": 17,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "New Mexico",
+    "h": "Hawai'i",
+    "as": 35,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "New Mexico State",
+    "h": "Delaware",
+    "as": 24,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "North Carolina",
+    "h": "Duke",
+    "as": 17,
+    "hs": 45,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Northern Illinois",
+    "h": "Wyoming",
+    "as": 33,
+    "hs": 30,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 7,
+    "a": "Northwestern",
+    "h": "Michigan State",
+    "as": 27,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Ohio",
+    "h": "Sacramento State",
+    "as": 31,
+    "hs": 10,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Ohio State",
+    "h": "Indiana",
+    "as": 24,
+    "hs": 29,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Oklahoma State",
+    "h": "Houston",
+    "as": 26,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Penn State",
+    "h": "Michigan",
+    "as": 17,
+    "hs": 10,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Pittsburgh",
+    "h": "Boston College",
+    "as": 35,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Rutgers",
+    "h": "Maryland",
+    "as": 17,
+    "hs": 20,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "San Jose State",
+    "h": "UTEP",
+    "as": 35,
+    "hs": 30,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "TCU",
+    "h": "Baylor",
+    "as": 31,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Toledo",
+    "h": "Eastern Michigan",
+    "as": 44,
+    "hs": 11,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Troy",
+    "h": "Louisiana",
+    "as": 32,
+    "hs": 30,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 7,
+    "a": "Tulsa",
+    "h": "Rice",
+    "as": 25,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "UMass",
+    "h": "Buffalo",
+    "as": 26,
+    "hs": 7,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "UNLV",
+    "h": "Air Force",
+    "as": 24,
+    "hs": 25,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Utah",
+    "h": "Colorado",
+    "as": 23,
+    "hs": 16,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Virginia",
+    "h": "SMU",
+    "as": 22,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Wake Forest",
+    "h": "California",
+    "as": 17,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Washington",
+    "h": "Purdue",
+    "as": 20,
+    "hs": 19,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Washington State",
+    "h": "Oregon State",
+    "as": 10,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Western Michigan",
+    "h": "Central Michigan",
+    "as": 21,
+    "hs": 49,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 7,
+    "a": "Wisconsin",
+    "h": "UCLA",
+    "as": 33,
+    "hs": 25,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Air Force",
+    "h": "Wyoming",
+    "as": 20,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Akron",
+    "h": "Kent State",
+    "as": 35,
+    "hs": 7,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Army",
+    "h": "Tulsa",
+    "as": 24,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "BYU",
+    "h": "UCF",
+    "as": 21,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Baylor",
+    "h": "Kansas",
+    "as": 34,
+    "hs": 16,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Boise State",
+    "h": "Washington State",
+    "as": 28,
+    "hs": 7,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Boston College",
+    "h": "Georgia Tech",
+    "as": 3,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Bowling Green",
+    "h": "Buffalo",
+    "as": 13,
+    "hs": 9,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "California",
+    "h": "SMU",
+    "as": 26,
+    "hs": 45,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Colorado",
+    "h": "Oklahoma State",
+    "as": 14,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Delaware",
+    "h": "Kennesaw State",
+    "as": 25,
+    "hs": 29,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Duke",
+    "h": "Virginia",
+    "as": 17,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "East Carolina",
+    "h": "Memphis",
+    "as": 17,
+    "hs": 52,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Eastern Michigan",
+    "h": "Ohio",
+    "as": 10,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Georgia State",
+    "h": "Arkansas State",
+    "as": 47,
+    "hs": 45,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 8,
+    "a": "Hawai'i",
+    "h": "Northern Illinois",
+    "as": 13,
+    "hs": 17,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Houston",
+    "h": "Utah",
+    "as": 21,
+    "hs": 17,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Indiana",
+    "h": "Michigan",
+    "as": 28,
+    "hs": 10,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Iowa",
+    "h": "Minnesota",
+    "as": 16,
+    "hs": 13,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Iowa State",
+    "h": "Arizona",
+    "as": 10,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Jacksonville State",
+    "h": "New Mexico State",
+    "as": 17,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "James Madison",
+    "h": "Appalachian State",
+    "as": 27,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Kansas State",
+    "h": "Arizona State",
+    "as": 20,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "LSU",
+    "h": "Auburn",
+    "as": 50,
+    "hs": 40,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Louisiana",
+    "h": "Southern Mississippi",
+    "as": 28,
+    "hs": 45,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Miami University",
+    "h": "Central Michigan",
+    "as": 26,
+    "hs": 29,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 8,
+    "a": "Michigan State",
+    "h": "UCLA",
+    "as": 20,
+    "hs": 41,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Middle Tennessee",
+    "h": "Florida International",
+    "as": 35,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "NC State",
+    "h": "Stanford",
+    "as": 32,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "North Dakota State",
+    "h": "New Mexico",
+    "as": 16,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "North Texas",
+    "h": "Navy",
+    "as": 21,
+    "hs": 13,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Oklahoma",
+    "h": "Mississippi State",
+    "as": 42,
+    "hs": 7,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Old Dominion",
+    "h": "Louisiana Tech",
+    "as": 21,
+    "hs": 23,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Ole Miss",
+    "h": "Texas",
+    "as": 45,
+    "hs": 23,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Oregon",
+    "h": "Illinois",
+    "as": 37,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Pittsburgh",
+    "h": "Miami",
+    "as": 31,
+    "hs": 23,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Rice",
+    "h": "Florida Atlantic",
+    "as": 9,
+    "hs": 17,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Rutgers",
+    "h": "Northwestern",
+    "as": 24,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Sacramento State",
+    "h": "Ball State",
+    "as": 25,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Sam Houston",
+    "h": "Missouri State",
+    "as": 31,
+    "hs": 10,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "San Diego State",
+    "h": "Colorado State",
+    "as": 35,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "San Jose State",
+    "h": "Nevada",
+    "as": 31,
+    "hs": 0,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "South Alabama",
+    "h": "Marshall",
+    "as": 10,
+    "hs": 17,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Syracuse",
+    "h": "North Carolina",
+    "as": 52,
+    "hs": 20,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Tennessee",
+    "h": "South Carolina",
+    "as": 27,
+    "hs": 20,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Texas A&M",
+    "h": "Alabama",
+    "as": 17,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Texas Tech",
+    "h": "Cincinnati",
+    "as": 41,
+    "hs": 14,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "UL Monroe",
+    "h": "Troy",
+    "as": 24,
+    "hs": 16,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "UMass",
+    "h": "UConn",
+    "as": 18,
+    "hs": 32,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "USC",
+    "h": "Wisconsin",
+    "as": 41,
+    "hs": 7,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "UTSA",
+    "h": "Tulane",
+    "as": 43,
+    "hs": 40,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Utah State",
+    "h": "Texas State",
+    "as": 17,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Vanderbilt",
+    "h": "Kentucky",
+    "as": 27,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Virginia Tech",
+    "h": "Clemson",
+    "as": 20,
+    "hs": 41,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "West Virginia",
+    "h": "TCU",
+    "as": 30,
+    "hs": 66,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 8,
+    "a": "Western Michigan",
+    "h": "Toledo",
+    "as": 31,
+    "hs": 34,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 9,
+    "a": "Appalachian State",
+    "h": "Georgia Southern",
+    "as": 7,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Arizona",
+    "h": "Texas Tech",
+    "as": 26,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Arizona State",
+    "h": "BYU",
+    "as": 38,
+    "hs": 42,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Army",
+    "h": "Memphis",
+    "as": 17,
+    "hs": 35,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Auburn",
+    "h": "Ole Miss",
+    "as": 45,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Baylor",
+    "h": "UCF",
+    "as": 28,
+    "hs": 49,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Boston College",
+    "h": "Duke",
+    "as": 7,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Bowling Green",
+    "h": "Western Michigan",
+    "as": 17,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "California",
+    "h": "NC State",
+    "as": 13,
+    "hs": 41,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Clemson",
+    "h": "Florida State",
+    "as": 27,
+    "hs": 16,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Coastal Carolina",
+    "h": "Georgia State",
+    "as": 24,
+    "hs": 14,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Colorado State",
+    "h": "Utah State",
+    "as": 31,
+    "hs": 17,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Florida",
+    "h": "Georgia",
+    "as": 30,
+    "hs": 45,
+    "n": true,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Florida Atlantic",
+    "h": "North Texas",
+    "as": 34,
+    "hs": 31,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 9,
+    "a": "Florida International",
+    "h": "Liberty",
+    "as": 40,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Georgia Tech",
+    "h": "Pittsburgh",
+    "as": 28,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Houston",
+    "h": "Louisiana",
+    "as": 35,
+    "hs": 17,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Illinois",
+    "h": "Maryland",
+    "as": 30,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Kansas",
+    "h": "TCU",
+    "as": 24,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Kansas State",
+    "h": "Colorado",
+    "as": 29,
+    "hs": 27,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 9,
+    "a": "Kent State",
+    "h": "Sacramento State",
+    "as": 27,
+    "hs": 10,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Louisiana Tech",
+    "h": "South Alabama",
+    "as": 24,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Marshall",
+    "h": "Old Dominion",
+    "as": 33,
+    "hs": 30,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 9,
+    "a": "Miami",
+    "h": "North Carolina",
+    "as": 37,
+    "hs": 13,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Michigan",
+    "h": "Rutgers",
+    "as": 27,
+    "hs": 30,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Minnesota",
+    "h": "Indiana",
+    "as": 24,
+    "hs": 20,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Mississippi State",
+    "h": "Texas",
+    "as": 28,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Missouri",
+    "h": "Arkansas",
+    "as": 31,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Missouri State",
+    "h": "Jacksonville State",
+    "as": 23,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Nevada",
+    "h": "UCLA",
+    "as": 13,
+    "hs": 35,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "New Mexico",
+    "h": "San Jose State",
+    "as": 21,
+    "hs": 15,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "New Mexico State",
+    "h": "Middle Tennessee",
+    "as": 6,
+    "hs": 23,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Northern Illinois",
+    "h": "UNLV",
+    "as": 10,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Northwestern",
+    "h": "Oregon",
+    "as": 24,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Notre Dame",
+    "h": "Navy",
+    "as": 35,
+    "hs": 14,
+    "n": true,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Ohio State",
+    "h": "USC",
+    "as": 44,
+    "hs": 10,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Oklahoma State",
+    "h": "Iowa State",
+    "as": 27,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Oregon State",
+    "h": "Fresno State",
+    "as": 27,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Purdue",
+    "h": "Penn State",
+    "as": 24,
+    "hs": 42,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "SMU",
+    "h": "Syracuse",
+    "as": 35,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "South Carolina",
+    "h": "Oklahoma",
+    "as": 22,
+    "hs": 20,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Southern Mississippi",
+    "h": "UL Monroe",
+    "as": 36,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Stanford",
+    "h": "Louisville",
+    "as": 38,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Temple",
+    "h": "East Carolina",
+    "as": 21,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Texas State",
+    "h": "Boise State",
+    "as": 21,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Troy",
+    "h": "James Madison",
+    "as": 10,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Tulane",
+    "h": "Charlotte",
+    "as": 31,
+    "hs": 23,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "UAB",
+    "h": "USF",
+    "as": 35,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "UConn",
+    "h": "Air Force",
+    "as": 31,
+    "hs": 14,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "UTEP",
+    "h": "North Dakota State",
+    "as": 10,
+    "hs": 26,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Utah",
+    "h": "Cincinnati",
+    "as": 41,
+    "hs": 20,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Virginia",
+    "h": "Wake Forest",
+    "as": 31,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Washington",
+    "h": "Nebraska",
+    "as": 27,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Washington State",
+    "h": "San Diego State",
+    "as": 23,
+    "hs": 20,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Western Kentucky",
+    "h": "Sam Houston",
+    "as": 14,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 9,
+    "a": "Wisconsin",
+    "h": "Iowa",
+    "as": 25,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Air Force",
+    "h": "Army",
+    "as": 33,
+    "hs": 31,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 10,
+    "a": "Alabama",
+    "h": "LSU",
+    "as": 29,
+    "hs": 41,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Arkansas",
+    "h": "Auburn",
+    "as": 35,
+    "hs": 33,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "BYU",
+    "h": "Utah",
+    "as": 35,
+    "hs": 33,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Ball State",
+    "h": "UMass",
+    "as": 17,
+    "hs": 42,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Boise State",
+    "h": "Colorado State",
+    "as": 45,
+    "hs": 17,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Buffalo",
+    "h": "Miami University",
+    "as": 21,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Central Michigan",
+    "h": "Eastern Michigan",
+    "as": 20,
+    "hs": 7,
+    "n": true,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Charlotte",
+    "h": "UAB",
+    "as": 0,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Cincinnati",
+    "h": "Houston",
+    "as": 35,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Clemson",
+    "h": "Syracuse",
+    "as": 38,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Colorado",
+    "h": "Arizona State",
+    "as": 38,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Delaware",
+    "h": "Middle Tennessee",
+    "as": 31,
+    "hs": 7,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Duke",
+    "h": "NC State",
+    "as": 33,
+    "hs": 14,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "FCS Southeast",
+    "h": "Wake Forest",
+    "as": 3,
+    "hs": 42,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Florida State",
+    "h": "Boston College",
+    "as": 21,
+    "hs": 51,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Fresno State",
+    "h": "Utah State",
+    "as": 20,
+    "hs": 17,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Georgia",
+    "h": "Ole Miss",
+    "as": 57,
+    "hs": 59,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 10,
+    "a": "Georgia State",
+    "h": "Appalachian State",
+    "as": 19,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Hawai'i",
+    "h": "UTEP",
+    "as": 36,
+    "hs": 42,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Iowa",
+    "h": "Northwestern",
+    "as": 16,
+    "hs": 35,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Iowa State",
+    "h": "Baylor",
+    "as": 9,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "James Madison",
+    "h": "Southern Mississippi",
+    "as": 28,
+    "hs": 33,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Kentucky",
+    "h": "Tennessee",
+    "as": 17,
+    "hs": 41,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Liberty",
+    "h": "New Mexico State",
+    "as": 34,
+    "hs": 44,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Louisiana Tech",
+    "h": "Troy",
+    "as": 28,
+    "hs": 22,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Louisville",
+    "h": "Georgia Tech",
+    "as": 27,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Marshall",
+    "h": "Georgia Southern",
+    "as": 34,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Maryland",
+    "h": "Purdue",
+    "as": 44,
+    "hs": 41,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 10,
+    "a": "Michigan State",
+    "h": "Michigan",
+    "as": 17,
+    "hs": 10,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Nebraska",
+    "h": "Illinois",
+    "as": 42,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "New Mexico",
+    "h": "Nevada",
+    "as": 7,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "North Carolina",
+    "h": "UConn",
+    "as": 14,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Northern Illinois",
+    "h": "San Jose State",
+    "as": 40,
+    "hs": 42,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 10,
+    "a": "Notre Dame",
+    "h": "USC",
+    "as": 7,
+    "hs": 20,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Ohio",
+    "h": "Akron",
+    "as": 34,
+    "hs": 26,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Oklahoma",
+    "h": "Florida",
+    "as": 42,
+    "hs": 6,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Oklahoma State",
+    "h": "Kansas State",
+    "as": 40,
+    "hs": 38,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 10,
+    "a": "Old Dominion",
+    "h": "Coastal Carolina",
+    "as": 27,
+    "hs": 9,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Oregon",
+    "h": "Ohio State",
+    "as": 31,
+    "hs": 17,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Penn State",
+    "h": "Washington",
+    "as": 27,
+    "hs": 41,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Rice",
+    "h": "North Texas",
+    "as": 13,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Rutgers",
+    "h": "Wisconsin",
+    "as": 21,
+    "hs": 45,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Sam Houston",
+    "h": "Florida International",
+    "as": 17,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "South Alabama",
+    "h": "Louisiana",
+    "as": 35,
+    "hs": 20,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "TCU",
+    "h": "Arizona",
+    "as": 42,
+    "hs": 10,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Temple",
+    "h": "Navy",
+    "as": 15,
+    "hs": 33,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Texas",
+    "h": "Missouri",
+    "as": 31,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Texas A&M",
+    "h": "South Carolina",
+    "as": 18,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Texas State",
+    "h": "Oregon State",
+    "as": 30,
+    "hs": 32,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 10,
+    "a": "Toledo",
+    "h": "Sacramento State",
+    "as": 21,
+    "hs": 7,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Tulsa",
+    "h": "Tulane",
+    "as": 22,
+    "hs": 17,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "UCF",
+    "h": "Kansas",
+    "as": 24,
+    "hs": 17,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "UCLA",
+    "h": "Minnesota",
+    "as": 49,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "UL Monroe",
+    "h": "Arkansas State",
+    "as": 10,
+    "hs": 30,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "USF",
+    "h": "East Carolina",
+    "as": 34,
+    "hs": 9,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "UTSA",
+    "h": "Florida Atlantic",
+    "as": 13,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Vanderbilt",
+    "h": "Mississippi State",
+    "as": 24,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Virginia Tech",
+    "h": "SMU",
+    "as": 16,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "West Virginia",
+    "h": "Texas Tech",
+    "as": 21,
+    "hs": 52,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Western Kentucky",
+    "h": "Kennesaw State",
+    "as": 28,
+    "hs": 49,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 10,
+    "a": "Wyoming",
+    "h": "UNLV",
+    "as": 7,
+    "hs": 59,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Alabama",
+    "h": "Vanderbilt",
+    "as": 47,
+    "hs": 20,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Appalachian State",
+    "h": "Marshall",
+    "as": 39,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Arizona State",
+    "h": "UCF",
+    "as": 24,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Arkansas State",
+    "h": "Coastal Carolina",
+    "as": 40,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Auburn",
+    "h": "Mississippi State",
+    "as": 42,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Baylor",
+    "h": "BYU",
+    "as": 34,
+    "hs": 36,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 11,
+    "a": "Boston College",
+    "h": "Notre Dame",
+    "as": 31,
+    "hs": 26,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Buffalo",
+    "h": "Ball State",
+    "as": 24,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "California",
+    "h": "Virginia",
+    "as": 17,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Cincinnati",
+    "h": "Iowa State",
+    "as": 31,
+    "hs": 25,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Colorado State",
+    "h": "Washington State",
+    "as": 38,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Duke",
+    "h": "Miami",
+    "as": 24,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "East Carolina",
+    "h": "Charlotte",
+    "as": 36,
+    "hs": 35,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Florida",
+    "h": "Kentucky",
+    "as": 23,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Florida Atlantic",
+    "h": "Tulsa",
+    "as": 27,
+    "hs": 32,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Florida International",
+    "h": "Delaware",
+    "as": 21,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Florida State",
+    "h": "Pittsburgh",
+    "as": 43,
+    "hs": 41,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 11,
+    "a": "Fresno State",
+    "h": "Texas State",
+    "as": 12,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Georgia Southern",
+    "h": "Georgia State",
+    "as": 30,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Georgia Tech",
+    "h": "Clemson",
+    "as": 16,
+    "hs": 33,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Houston",
+    "h": "Colorado",
+    "as": 17,
+    "hs": 13,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Illinois",
+    "h": "UCLA",
+    "as": 24,
+    "hs": 35,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Jacksonville State",
+    "h": "Western Kentucky",
+    "as": 27,
+    "hs": 12,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "James Madison",
+    "h": "UConn",
+    "as": 16,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Kansas",
+    "h": "West Virginia",
+    "as": 21,
+    "hs": 35,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Kansas State",
+    "h": "TCU",
+    "as": 27,
+    "hs": 42,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Kennesaw State",
+    "h": "Sam Houston",
+    "as": 31,
+    "hs": 29,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Kent State",
+    "h": "Bowling Green",
+    "as": 26,
+    "hs": 23,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 11,
+    "a": "Louisiana",
+    "h": "UL Monroe",
+    "as": 22,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Louisville",
+    "h": "North Carolina",
+    "as": 41,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Memphis",
+    "h": "USF",
+    "as": 23,
+    "hs": 17,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 11,
+    "a": "Michigan",
+    "h": "Oregon",
+    "as": 24,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Middle Tennessee",
+    "h": "Liberty",
+    "as": 35,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Minnesota",
+    "h": "Penn State",
+    "as": 34,
+    "hs": 45,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Missouri",
+    "h": "Georgia",
+    "as": 24,
+    "hs": 16,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Nebraska",
+    "h": "Rutgers",
+    "as": 28,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Nevada",
+    "h": "Northern Illinois",
+    "as": 3,
+    "hs": 10,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "New Mexico State",
+    "h": "Missouri State",
+    "as": 24,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "North Dakota State",
+    "h": "Hawai'i",
+    "as": 38,
+    "hs": 14,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "North Texas",
+    "h": "UTSA",
+    "as": 33,
+    "hs": 18,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Northwestern",
+    "h": "Ohio State",
+    "as": 0,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Ohio",
+    "h": "Miami University",
+    "as": 22,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Ole Miss",
+    "h": "Oklahoma",
+    "as": 31,
+    "hs": 37,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Oregon State",
+    "h": "Boise State",
+    "as": 35,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Purdue",
+    "h": "Iowa",
+    "as": 17,
+    "hs": 35,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Sacramento State",
+    "h": "Central Michigan",
+    "as": 17,
+    "hs": 45,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "San Jose State",
+    "h": "Air Force",
+    "as": 38,
+    "hs": 7,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "South Carolina",
+    "h": "Arkansas",
+    "as": 28,
+    "hs": 13,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Southern Mississippi",
+    "h": "Louisiana Tech",
+    "as": 21,
+    "hs": 16,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Stanford",
+    "h": "Virginia Tech",
+    "as": 14,
+    "hs": 41,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Syracuse",
+    "h": "NC State",
+    "as": 17,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Tennessee",
+    "h": "Texas A&M",
+    "as": 36,
+    "hs": 35,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Texas",
+    "h": "LSU",
+    "as": 34,
+    "hs": 42,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Texas Tech",
+    "h": "Oklahoma State",
+    "as": 45,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Troy",
+    "h": "South Alabama",
+    "as": 23,
+    "hs": 14,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Tulane",
+    "h": "Rice",
+    "as": 35,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "UAB",
+    "h": "Temple",
+    "as": 10,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "UMass",
+    "h": "Toledo",
+    "as": 3,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "UNLV",
+    "h": "New Mexico",
+    "as": 24,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "USC",
+    "h": "Indiana",
+    "as": 31,
+    "hs": 35,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Utah",
+    "h": "Arizona",
+    "as": 28,
+    "hs": 29,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Utah State",
+    "h": "San Diego State",
+    "as": 38,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Wake Forest",
+    "h": "SMU",
+    "as": 14,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Washington",
+    "h": "Michigan State",
+    "as": 14,
+    "hs": 22,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Western Michigan",
+    "h": "Akron",
+    "as": 56,
+    "hs": 7,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Wisconsin",
+    "h": "Maryland",
+    "as": 24,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 11,
+    "a": "Wyoming",
+    "h": "UTEP",
+    "as": 41,
+    "hs": 17,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Akron",
+    "h": "UMass",
+    "as": 21,
+    "hs": 17,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Arizona",
+    "h": "Kansas State",
+    "as": 17,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Arkansas",
+    "h": "Texas",
+    "as": 42,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Arkansas State",
+    "h": "Louisiana Tech",
+    "as": 58,
+    "hs": 0,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "BYU",
+    "h": "Kansas",
+    "as": 35,
+    "hs": 46,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Ball State",
+    "h": "Ohio",
+    "as": 31,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Bowling Green",
+    "h": "Toledo",
+    "as": 10,
+    "hs": 6,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Central Michigan",
+    "h": "Buffalo",
+    "as": 24,
+    "hs": 7,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Charlotte",
+    "h": "Tulsa",
+    "as": 21,
+    "hs": 18,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Clemson",
+    "h": "Duke",
+    "as": 35,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Coastal Carolina",
+    "h": "Louisiana",
+    "as": 20,
+    "hs": 12,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Colorado",
+    "h": "Cincinnati",
+    "as": 31,
+    "hs": 41,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Colorado State",
+    "h": "Fresno State",
+    "as": 20,
+    "hs": 48,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "East Carolina",
+    "h": "Army",
+    "as": 24,
+    "hs": 20,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Eastern Michigan",
+    "h": "Western Michigan",
+    "as": 12,
+    "hs": 14,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "FCS Southeast",
+    "h": "Alabama",
+    "as": 10,
+    "hs": 45,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "FCS Southeast",
+    "h": "Auburn",
+    "as": 14,
+    "hs": 59,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "FCS Southeast",
+    "h": "Mississippi State",
+    "as": 7,
+    "hs": 45,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "FCS Southeast",
+    "h": "Ole Miss",
+    "as": 3,
+    "hs": 52,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Florida International",
+    "h": "New Mexico State",
+    "as": 34,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Georgia",
+    "h": "South Carolina",
+    "as": 26,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Georgia Southern",
+    "h": "Troy",
+    "as": 16,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Georgia State",
+    "h": "Marshall",
+    "as": 28,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Hawai'i",
+    "h": "Nevada",
+    "as": 24,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Houston",
+    "h": "West Virginia",
+    "as": 21,
+    "hs": 35,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Indiana",
+    "h": "Washington",
+    "as": 27,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Iowa",
+    "h": "Illinois",
+    "as": 41,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Iowa State",
+    "h": "UCF",
+    "as": 3,
+    "hs": 37,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Kennesaw State",
+    "h": "Missouri State",
+    "as": 20,
+    "hs": 52,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Kentucky",
+    "h": "Missouri",
+    "as": 17,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "LSU",
+    "h": "Tennessee",
+    "as": 35,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Maryland",
+    "h": "USC",
+    "as": 19,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Memphis",
+    "h": "Navy",
+    "as": 26,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Miami University",
+    "h": "Kent State",
+    "as": 37,
+    "hs": 0,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "NC State",
+    "h": "Florida State",
+    "as": 9,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "New Mexico",
+    "h": "Wyoming",
+    "as": 24,
+    "hs": 57,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "North Carolina",
+    "h": "Virginia",
+    "as": 14,
+    "hs": 42,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "North Texas",
+    "h": "Tulane",
+    "as": 16,
+    "hs": 48,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Northern Illinois",
+    "h": "North Dakota State",
+    "as": 17,
+    "hs": 10,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Northwestern",
+    "h": "Minnesota",
+    "as": 39,
+    "hs": 37,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 12,
+    "a": "Ohio State",
+    "h": "Nebraska",
+    "as": 17,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Oklahoma State",
+    "h": "Arizona State",
+    "as": 17,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Old Dominion",
+    "h": "UConn",
+    "as": 6,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Oregon",
+    "h": "Michigan State",
+    "as": 41,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Pittsburgh",
+    "h": "Louisville",
+    "as": 34,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Rice",
+    "h": "Temple",
+    "as": 21,
+    "hs": 14,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Rutgers",
+    "h": "Penn State",
+    "as": 30,
+    "hs": 28,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 12,
+    "a": "SMU",
+    "h": "Notre Dame",
+    "as": 38,
+    "hs": 20,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Sam Houston",
+    "h": "Jacksonville State",
+    "as": 29,
+    "hs": 26,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 12,
+    "a": "San Diego State",
+    "h": "Boise State",
+    "as": 28,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "South Alabama",
+    "h": "Southern Mississippi",
+    "as": 17,
+    "hs": 23,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Stanford",
+    "h": "California",
+    "as": 51,
+    "hs": 48,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 12,
+    "a": "Syracuse",
+    "h": "Boston College",
+    "as": 15,
+    "hs": 10,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Texas A&M",
+    "h": "Oklahoma",
+    "as": 32,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Texas Tech",
+    "h": "Baylor",
+    "as": 35,
+    "hs": 30,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "UCLA",
+    "h": "Michigan",
+    "as": 31,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "UL Monroe",
+    "h": "Appalachian State",
+    "as": 17,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "UNLV",
+    "h": "San Jose State",
+    "as": 38,
+    "hs": 19,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "USF",
+    "h": "Florida Atlantic",
+    "as": 21,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "UTEP",
+    "h": "Air Force",
+    "as": 31,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "UTSA",
+    "h": "UAB",
+    "as": 10,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Utah",
+    "h": "TCU",
+    "as": 25,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Utah State",
+    "h": "Oregon State",
+    "as": 21,
+    "hs": 14,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Vanderbilt",
+    "h": "Florida",
+    "as": 27,
+    "hs": 20,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Virginia Tech",
+    "h": "Miami",
+    "as": 17,
+    "hs": 35,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Wake Forest",
+    "h": "Georgia Tech",
+    "as": 20,
+    "hs": 17,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Washington State",
+    "h": "Texas State",
+    "as": 36,
+    "hs": 20,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Western Kentucky",
+    "h": "Middle Tennessee",
+    "as": 16,
+    "hs": 18,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 12,
+    "a": "Wisconsin",
+    "h": "Purdue",
+    "as": 22,
+    "hs": 20,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Air Force",
+    "h": "New Mexico",
+    "as": 7,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Appalachian State",
+    "h": "South Alabama",
+    "as": 13,
+    "hs": 14,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Arizona State",
+    "h": "Arizona",
+    "as": 17,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Army",
+    "h": "Rice",
+    "as": 7,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Auburn",
+    "h": "Alabama",
+    "as": 30,
+    "hs": 52,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Baylor",
+    "h": "Houston",
+    "as": 45,
+    "hs": 16,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Boise State",
+    "h": "Utah State",
+    "as": 44,
+    "hs": 10,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Boston College",
+    "h": "Miami",
+    "as": 10,
+    "hs": 45,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Buffalo",
+    "h": "Akron",
+    "as": 50,
+    "hs": 52,
+    "n": false,
+    "ot": true
+  },
+  {
+    "wk": 13,
+    "a": "Central Michigan",
+    "h": "Ball State",
+    "as": 24,
+    "hs": 14,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Cincinnati",
+    "h": "BYU",
+    "as": 14,
+    "hs": 38,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Coastal Carolina",
+    "h": "James Madison",
+    "as": 10,
+    "hs": 6,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Duke",
+    "h": "Wake Forest",
+    "as": 24,
+    "hs": 18,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Florida",
+    "h": "Florida State",
+    "as": 20,
+    "hs": 42,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Florida Atlantic",
+    "h": "East Carolina",
+    "as": 45,
+    "hs": 13,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Georgia Tech",
+    "h": "Georgia",
+    "as": 10,
+    "hs": 58,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Illinois",
+    "h": "Northwestern",
+    "as": 17,
+    "hs": 43,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Jacksonville State",
+    "h": "Delaware",
+    "as": 23,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Kansas",
+    "h": "Oklahoma State",
+    "as": 28,
+    "hs": 16,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Kansas State",
+    "h": "Iowa State",
+    "as": 40,
+    "hs": 3,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Kent State",
+    "h": "Eastern Michigan",
+    "as": 0,
+    "hs": 20,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Kentucky",
+    "h": "Louisville",
+    "as": 35,
+    "hs": 14,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "LSU",
+    "h": "Arkansas",
+    "as": 45,
+    "hs": 35,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Liberty",
+    "h": "Kennesaw State",
+    "as": 38,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Louisiana",
+    "h": "Georgia State",
+    "as": 23,
+    "hs": 22,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Louisiana Tech",
+    "h": "Georgia Southern",
+    "as": 24,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Marshall",
+    "h": "UL Monroe",
+    "as": 16,
+    "hs": 14,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Miami University",
+    "h": "Western Michigan",
+    "as": 7,
+    "hs": 12,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Michigan",
+    "h": "Ohio State",
+    "as": 26,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Michigan State",
+    "h": "Rutgers",
+    "as": 20,
+    "hs": 17,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Middle Tennessee",
+    "h": "Sam Houston",
+    "as": 17,
+    "hs": 13,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Minnesota",
+    "h": "Wisconsin",
+    "as": 31,
+    "hs": 20,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Mississippi State",
+    "h": "Ole Miss",
+    "as": 49,
+    "hs": 52,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Missouri State",
+    "h": "Florida International",
+    "as": 20,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "NC State",
+    "h": "North Carolina",
+    "as": 20,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Navy",
+    "h": "Charlotte",
+    "as": 34,
+    "hs": 10,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Nebraska",
+    "h": "Iowa",
+    "as": 35,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Nevada",
+    "h": "UNLV",
+    "as": 21,
+    "hs": 35,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "North Dakota State",
+    "h": "San Jose State",
+    "as": 20,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Notre Dame",
+    "h": "Syracuse",
+    "as": 31,
+    "hs": 14,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Oklahoma",
+    "h": "Missouri",
+    "as": 17,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Oregon State",
+    "h": "Washington State",
+    "as": 25,
+    "hs": 41,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Penn State",
+    "h": "Maryland",
+    "as": 42,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Pittsburgh",
+    "h": "California",
+    "as": 24,
+    "hs": 20,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Purdue",
+    "h": "Indiana",
+    "as": 18,
+    "hs": 37,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "SMU",
+    "h": "Stanford",
+    "as": 34,
+    "hs": 13,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Sacramento State",
+    "h": "Hawai'i",
+    "as": 0,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "San Diego State",
+    "h": "Fresno State",
+    "as": 7,
+    "hs": 23,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "South Carolina",
+    "h": "Clemson",
+    "as": 42,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Southern Mississippi",
+    "h": "Old Dominion",
+    "as": 40,
+    "hs": 35,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "TCU",
+    "h": "Texas Tech",
+    "as": 49,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Temple",
+    "h": "Memphis",
+    "as": 21,
+    "hs": 31,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Tennessee",
+    "h": "Vanderbilt",
+    "as": 19,
+    "hs": 21,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Texas",
+    "h": "Texas A&M",
+    "as": 38,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Texas State",
+    "h": "Colorado State",
+    "as": 42,
+    "hs": 14,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Toledo",
+    "h": "Ohio",
+    "as": 34,
+    "hs": 7,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Troy",
+    "h": "Arkansas State",
+    "as": 28,
+    "hs": 45,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Tulane",
+    "h": "USF",
+    "as": 30,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Tulsa",
+    "h": "UTSA",
+    "as": 35,
+    "hs": 20,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "UAB",
+    "h": "North Texas",
+    "as": 30,
+    "hs": 27,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "UCF",
+    "h": "Colorado",
+    "as": 45,
+    "hs": 42,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "UConn",
+    "h": "Wyoming",
+    "as": 34,
+    "hs": 16,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "UMass",
+    "h": "Bowling Green",
+    "as": 10,
+    "hs": 42,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "USC",
+    "h": "UCLA",
+    "as": 17,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "UTEP",
+    "h": "Northern Illinois",
+    "as": 27,
+    "hs": 28,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Virginia",
+    "h": "Virginia Tech",
+    "as": 43,
+    "hs": 24,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "Washington",
+    "h": "Oregon",
+    "as": 10,
+    "hs": 34,
+    "n": false,
+    "ot": false
+  },
+  {
+    "wk": 13,
+    "a": "West Virginia",
+    "h": "Utah",
+    "as": 38,
+    "hs": 45,
+    "n": false,
+    "ot": true
+  }
+]

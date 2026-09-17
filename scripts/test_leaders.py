@@ -2,13 +2,13 @@
 import copy
 import json
 import unittest
-from reconcile_2026 import ROOT, read_site
+from season_io import ROOT
 from update_leaders import check_identities, load_sources, apply
 
 
 class LeaderTests(unittest.TestCase):
     def setUp(self):
-        self.data = read_site(ROOT / 'index.html')[3]
+        self.data = json.loads((ROOT / 'data/seasons/2026/season.json').read_text())
         self.sources = {s['category']: s for s in load_sources()}
         self.leaders = self.data['playerLeaders']
 
@@ -70,7 +70,7 @@ class LeaderTests(unittest.TestCase):
             # exactly one punter in the whole country has that count
             self.assertEqual(sum(r['values']['PUNTS'] == punts for r in rows), 1, team)
         # and they agree with the season inputs the site computes from
-        source = json.loads((ROOT / 'data/verified-inputs-2026.json').read_text())
+        source = json.loads((ROOT / 'data/seasons/2026/inputs/verified-corrections.json').read_text())
         for short, full in [('W. Michigan', 'Western Michigan'),
                             ('E. Michigan', 'Eastern Michigan'),
                             ('C. Michigan', 'Central Michigan')]:

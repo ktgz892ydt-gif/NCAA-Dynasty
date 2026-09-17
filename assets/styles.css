@@ -1,0 +1,209 @@
+
+:root{
+  --s1:#512C1D; --s2:#0C5C30; --s3:#670231;
+  --s1-text:#6F3E29; --s2-text:#17613D; --s3-text:#8A164A;
+  --s1-soft:#ede3df; --s2-soft:#dcece2; --s3-soft:#eedde5;
+  --surface:#fcfcfb; --plane:#f9f9f7; --ink:#0b0b0b; --ink2:#52514e;
+  --muted:#898781; --grid:#e1e0d9; --axis:#c3c2b7; --win:#1baf7a; --loss:#d0402a;
+  --radius:14px;
+}
+:root[data-theme="dark"]{
+  --s1:#512C1D; --s2:#0C5C30; --s3:#670231;
+  --s1-text:#D9AC8C; --s2-text:#91CBA7; --s3-text:#EC94B8;
+  --s1-soft:#2f211c; --s2-soft:#142b1e; --s3-soft:#301322;
+  --surface:#1a1a19; --plane:#0d0d0d; --ink:#ffffff; --ink2:#c3c2b7;
+  --muted:#898781; --grid:#2c2c2a; --axis:#383835; --win:#31c98f; --loss:#e4614a;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--plane);color:var(--ink);
+  font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing:antialiased}
+.wrap{max-width:1180px;margin:0 auto;padding:28px 20px 60px}
+h1{font-size:26px;margin:0 0 4px;letter-spacing:-.02em}
+.sub{color:var(--ink2);font-size:14px;margin:0 0 2px}
+.prov{color:var(--muted);font-size:12.5px;margin:6px 0 0}
+.topbar{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap}
+button{font:inherit;color:inherit;cursor:pointer;background:none;border:none}
+.ghost{border:1px solid var(--grid);background:var(--surface);border-radius:999px;
+  padding:7px 14px;font-size:13px}
+.ghost:hover{border-color:var(--axis)}
+.tabs{display:flex;gap:4px;background:var(--surface);border:1px solid var(--grid);
+  border-radius:999px;padding:4px;margin:22px 0 18px;overflow-x:auto}
+.tab{padding:8px 16px;border-radius:999px;font-size:14px;color:var(--ink2);white-space:nowrap}
+.tab.on{background:var(--plane);color:var(--ink);font-weight:600;box-shadow:0 1px 2px rgba(0,0,0,.12)}
+.seg{display:inline-flex;gap:2px;background:var(--surface);border:1px solid var(--grid);
+  border-radius:10px;padding:3px;flex-wrap:wrap}
+.seg button{padding:6px 12px;border-radius:7px;font-size:13px;color:var(--ink2)}
+.seg button.on{background:var(--plane);color:var(--ink);font-weight:600}
+.row{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:16px}
+.lbl{font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+select,input[type=search]{font:inherit;background:var(--surface);color:var(--ink);
+  border:1px solid var(--grid);border-radius:10px;padding:8px 12px;max-width:100%}
+.card{background:var(--surface);border:1px solid var(--grid);border-radius:var(--radius);
+  padding:18px;position:relative;overflow:hidden}
+/* overflow:hidden clips the accent bar to the rounded corners, but it also traps
+   position:sticky inside the card. Cards with no accent bar opt out so their
+   table header can stick to the viewport while the page scrolls. */
+.card.open{overflow:visible}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:22px}
+.accent{position:absolute;left:0;top:0;bottom:0;width:4px}
+.who{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin-bottom:2px}
+.nm{font-weight:700;font-size:17px}
+.school{color:var(--muted);font-size:13px}
+.rec{font-size:34px;font-weight:700;letter-spacing:-.02em;margin:6px 0 2px}
+.wr{color:var(--ink2);font-size:13px;margin-bottom:12px}
+.mini{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:6px 0;
+  border-top:1px solid var(--grid);font-size:13.5px}
+.mini span:first-child{color:var(--ink2)}
+.mini b{font-variant-numeric:tabular-nums;font-weight:600}
+.pill{font-size:11px;border:1px solid var(--grid);border-radius:999px;padding:2px 9px;color:var(--ink2)}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th,td{padding:7px 10px;text-align:right;border-bottom:1px solid var(--grid);
+  font-variant-numeric:tabular-nums;white-space:nowrap}
+th{color:var(--muted);font-weight:600;font-size:11px;letter-spacing:.07em;text-transform:uppercase;
+  position:sticky;top:0;background:var(--surface);z-index:1;cursor:default}
+th.sortable{cursor:pointer} th.sortable:hover{color:var(--ink)}
+td:first-child,th:first-child{text-align:left;white-space:normal}
+.lft{text-align:left!important}
+.sec td{background:var(--plane);font-weight:700;font-size:11px;letter-spacing:.09em;
+  text-transform:uppercase;color:var(--muted);text-align:left}
+#leadtable tbody tr:not(.sec)>td{height:60px;vertical-align:middle}
+.best{font-weight:700}
+.best-value{font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.dot{display:inline-block;width:6px;height:6px;border-radius:50%;margin-right:6px;vertical-align:1px}
+.rk{color:var(--muted);font-size:11px;margin-left:5px;font-variant-numeric:tabular-nums}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.tall{max-height:640px;overflow:auto}
+/* The all-stats table flows down the page rather than scrolling in a box.
+   Being a scroll container would pin its sticky header to the box instead of
+   the viewport, so it only becomes one at phone width, where the sticky first
+   column needs the horizontal scroll more than the header needs to stay put. */
+.flow{overflow:visible}
+.legend{display:flex;gap:16px;flex-wrap:wrap;margin:2px 0 14px;font-size:13px;color:var(--ink2)}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px}
+.two{display:grid;grid-template-columns:1.15fr .85fr;gap:14px}
+.h2{font-size:15px;font-weight:700;margin:0 0 2px}
+.note{color:var(--muted);font-size:12.5px;margin:0 0 14px}
+.sched{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.gm{display:grid;grid-template-columns:26px 20px 1fr auto;gap:8px;align-items:center;
+  padding:7px 0;border-top:1px solid var(--grid);font-size:13.5px}
+.gm .wk{color:var(--muted);font-size:11.5px;font-variant-numeric:tabular-nums}
+.gm .st{font-weight:700;font-size:12px}
+.gm .op{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.gm .sc{font-variant-numeric:tabular-nums;color:var(--ink2);font-size:13px}
+.W{color:var(--win)} .L{color:var(--loss)}
+.me{background:var(--plane)}
+.me td:first-child{font-weight:700}
+.tt{position:fixed;pointer-events:none;background:var(--surface);color:var(--ink);
+  border:1px solid var(--axis);border-radius:9px;padding:8px 11px;font-size:12.5px;
+  box-shadow:0 6px 22px rgba(0,0,0,.24);opacity:0;transition:opacity .12s;z-index:50;max-width:260px}
+.tt.on{opacity:1}
+.tt-h{font-weight:700;margin-bottom:3px}
+foot,.foot{display:block;color:var(--muted);font-size:12.5px;line-height:1.7;
+  margin-top:34px;padding-top:16px;border-top:1px solid var(--grid)}
+.hide{display:none!important}
+/* Readable labels carry meaning; exact school colors identify accents and charts. */
+.dot,.legend i{outline:1px solid var(--ink2);outline-offset:1px}
+th.calc{font-style:italic}th.calc::after{content:'\2009\0192';font-style:normal;opacity:.6}
+.accent{width:6px;border-right:1px solid var(--ink2)}
+.cards>*,.two>*,.sched>*,.row>*{min-width:0}
+button,select,input[type=search]{min-height:44px}
+button:focus-visible,select:focus-visible,input:focus-visible,[tabindex]:focus-visible{
+  outline:3px solid var(--ink2);outline-offset:3px}
+.measure-help{display:inline-flex;align-items:center;gap:7px;text-align:left;
+  padding:4px 0;white-space:normal;color:inherit;line-height:1.35}
+.measure-help::after{content:'i';display:inline-grid;place-items:center;flex:0 0 17px;
+  width:17px;height:17px;border:1px solid currentColor;border-radius:50%;
+  font-size:11px;font-style:normal;font-weight:600;text-transform:none;letter-spacing:0}
+.measure-help:hover{text-decoration:underline;text-underline-offset:4px}
+.stat-controls{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px;margin-bottom:12px}
+.stat-controls label{display:grid;gap:4px;font-size:12px;color:var(--ink2)}
+.stat-controls input,.stat-controls select{width:100%;font-size:16px}
+.table-hint{font-size:12px;color:var(--ink2);margin:8px 0}
+.swipe-hint{display:none}
+.scroll{max-width:100%;overscroll-behavior-x:contain}
+.sort-button{padding:0;font:inherit;letter-spacing:inherit;text-transform:inherit}
+.sort-help{display:inline-flex;align-items:center;gap:8px}
+.sort-help .measure-help{padding:0 3px}
+.sort-help .measure-help::after{margin:0}
+dialog{color:var(--ink);background:var(--surface);border:1px solid var(--axis);border-radius:18px;
+  padding:24px;width:min(580px,calc(100% - 28px));max-height:calc(100dvh - 32px);overflow:auto;
+  box-shadow:0 18px 70px #0008}
+dialog::backdrop{background:#0009}
+.dialog-head{display:flex;align-items:start;justify-content:space-between;gap:16px}
+.dialog-head h2{font-size:22px;line-height:1.2;margin:8px 0 16px}
+.dialog-close{min-width:44px;flex-shrink:0;border:1px solid var(--grid);border-radius:50%;font-size:24px}
+.dialog-detail{color:var(--ink2)}
+body.dialog-open{overflow:hidden}
+.empty-state{text-align:left;padding:20px;color:var(--ink2)}
+@media (max-width:900px){
+  .cards{grid-template-columns:1fr} .two{grid-template-columns:1fr} .sched{grid-template-columns:1fr}
+}
+@media (max-width:640px){
+  .wrap{padding:20px 14px 48px} h1{font-size:22px}
+  .tabs{width:100%} .tab{flex:1;text-align:center;padding:8px 10px}
+  table{font-size:12.5px} th,td{padding:6px 7px}
+  .flow{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  td:first-child,th:first-child{position:sticky;left:0;background:var(--surface);z-index:2}
+  .sec td:first-child{background:var(--plane)}
+  .wrap{padding:16px 12px 36px}
+  .swipe-hint{display:block}
+  .tabs{position:sticky;top:0;z-index:10;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));
+    border-radius:14px;overflow:visible;gap:2px;margin:16px 0}
+  .tab{padding:6px 3px;font-size:12px;white-space:normal;border-radius:10px;line-height:1.2}
+  .card{padding:14px}
+  .cards{gap:10px;margin-bottom:16px}
+  .cards .card{display:grid;grid-template-columns:1fr auto;column-gap:12px}
+  .cards .who{grid-column:1}.cards .rec{grid-column:2;grid-row:1 / 3;margin:0;font-size:30px}
+  .cards .wr{grid-column:1;margin:0 0 8px}
+  .cards .card-metrics{grid-column:1 / -1;display:grid;grid-template-columns:1fr 1fr;gap:0 16px}
+  .cards .mini{padding:2px 0 8px;align-items:flex-start;flex-direction:column;gap:0}
+  .cards .mini .measure-help{min-height:36px}
+  .stat-controls{grid-template-columns:1fr}
+  .flow{overflow:visible}
+  #leadtable,#leadtable tbody{display:block}
+  #leadtable thead{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+  #leadtable tr{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-bottom:1px solid var(--grid);padding:8px 0}
+  #leadtable td{position:static;min-width:0;white-space:normal;overflow-wrap:anywhere;
+    border:0;text-align:center;padding:4px 3px;font-size:14px}
+  #leadtable td:first-child{grid-column:1 / -1;text-align:left;font-weight:600;font-size:14px}
+  #leadtable tbody tr:not(.sec){grid-template-rows:minmax(56px,auto) minmax(96px,auto)}
+  #leadtable tbody tr:not(.sec)>td{height:auto}
+  #leadtable tbody tr:not(.sec)>td:first-child{display:flex;align-items:center}
+  #leadtable td[data-team]::before{content:attr(data-team);display:block;font-size:10px;
+    font-weight:400;color:var(--ink2);margin-bottom:5px}
+  #leadtable .sec{margin-top:12px;padding:8px;background:var(--plane);border-radius:8px}
+  #leadtable .sec td{font-size:11px;background:transparent}
+  #leadtable .rk{display:inline-block}
+  .row select,.row input[type=search]{width:100%;font-size:16px;min-width:0!important}
+  .scroll th:first-child,.scroll td:first-child{min-width:110px;max-width:150px}
+  .scroll thead th:first-child{z-index:3}
+  .gm{grid-template-columns:30px 18px minmax(0,1fr) auto;gap:6px;min-height:44px}
+  .gm .op{white-space:normal;overflow:visible}
+  .legend{gap:10px;font-size:12px}
+  #bars svg,#radar svg{display:block;max-width:100%;height:auto}
+  dialog{padding:18px;margin:auto}
+}
+/* Season summaries */
+.season-summaries{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-bottom:22px}
+.season-summary{padding:16px 18px;background:var(--surface);border:1px solid var(--grid);border-radius:var(--radius)}
+.season-summary h2{font-size:16px;line-height:1.4;margin:0 0 8px;color:var(--summary-color)}
+.season-summary p{font-size:14px;line-height:1.6;margin:0;color:var(--ink2)}
+@media(max-width:800px){.season-summaries{grid-template-columns:1fr;gap:10px;margin-bottom:16px}}
+
+[hidden]{display:none!important}
+.shell{padding-bottom:0}.season-nav{display:flex;align-items:center;gap:12px;margin-bottom:14px;min-width:0}
+.season-tabs{display:flex;gap:6px;overflow-x:auto;min-width:0;padding:3px;flex:1}
+.season-tab{flex:none;min-height:44px;padding:9px 18px;border:1px solid var(--grid);border-radius:9px;background:var(--surface);color:var(--ink)}
+.season-tab[aria-selected="true"]{background:var(--ink);color:var(--plane);font-weight:700}
+.season-tab:focus-visible{outline:3px solid var(--muted);outline-offset:2px}
+.load-status{margin:10px 0;line-height:1.5}.load-status:empty{display:none}
+#season-panel.wrap{padding-top:0}#history-panel{padding-top:0}
+.history-controls{display:flex;gap:14px;flex-wrap:wrap;margin:16px 0}
+.history-controls label{display:flex;flex-direction:column;gap:6px}
+.history-block{margin-bottom:20px}.history-block h2{font-size:18px}
+.history-table{min-width:620px}.history-table caption{text-align:left;margin-bottom:10px;color:var(--ink2)}
+#history-button[aria-pressed="true"]{font-weight:700;background:var(--surface)}
+
+.season-coverage{margin:8px 0 18px;font-size:13px;color:var(--ink2)}
+.season-coverage summary{cursor:pointer;min-height:32px;padding:6px 0}

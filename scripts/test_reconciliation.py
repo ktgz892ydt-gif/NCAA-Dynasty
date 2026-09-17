@@ -3,13 +3,13 @@ import copy
 import re
 import json
 import unittest
-from reconcile_2026 import ROOT, read_site, reconcile
+from reconcile_2026 import ROOT, reconcile
 
 
 class ReconciliationTests(unittest.TestCase):
     def setUp(self):
-        self.data = read_site(ROOT / 'index.html')[3]
-        self.source = json.loads((ROOT / 'data/verified-inputs-2026.json').read_text())
+        self.data = json.loads((ROOT / 'data/seasons/2026/season.json').read_text())
+        self.source = json.loads((ROOT / 'data/seasons/2026/inputs/verified-corrections.json').read_text())
         self.result = reconcile(copy.deepcopy(self.data), self.source)
 
     def test_scoreboard_and_ratings_preserved(self):
@@ -104,7 +104,7 @@ class ReconciliationTests(unittest.TestCase):
         Pinning an exact list here just breaks every time a card measure is added,
         so read the card's own list out of the page and enforce the real rule.
         """
-        page = (ROOT / 'index.html').read_text()
+        page = (ROOT / 'assets/views/season.js').read_text()
         block = page[page.index("[['pyth'"):page.index(']].forEach')]
         on_card = set(re.findall(r"\['(\w+)',", block))
         hidden = {m['key'] for m in self.result['statMeta'] if m.get('hide')}

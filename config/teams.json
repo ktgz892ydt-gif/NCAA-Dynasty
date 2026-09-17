@@ -1,0 +1,31 @@
+{
+  "teams": [
+    {
+      "id": "wmu",
+      "short": "W. Michigan",
+      "name": "Western Michigan",
+      "canonical": "Western Michigan",
+      "accent": "#512C1D",
+      "textLight": "#6F3E29",
+      "textDark": "#D9AC8C"
+    },
+    {
+      "id": "emu",
+      "short": "E. Michigan",
+      "name": "Eastern Michigan",
+      "canonical": "Eastern Michigan",
+      "accent": "#0C5C30",
+      "textLight": "#17613D",
+      "textDark": "#91CBA7"
+    },
+    {
+      "id": "cmu",
+      "short": "C. Michigan",
+      "name": "Central Michigan",
+      "canonical": "Central Michigan",
+      "accent": "#670231",
+      "textLight": "#8A164A",
+      "textDark": "#EC94B8"
+    }
+  ]
+}
