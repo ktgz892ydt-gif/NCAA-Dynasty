@@ -141,7 +141,7 @@ $('#nteams').textContent = val(P[0],'srs').of ?? '—';
 
 /* ---------- tabs ---------- */
 let view=initial.view||'dynasty';
-const views=['dynasty','h2h','sched','national','leaders'];
+const views=['dynasty','h2h','sched','national','leaders','compare'];
 function setView(next,notify=false){
   view=views.includes(next)?next:'dynasty';
   [...$('#tabs').children].forEach(b=>{b.classList.toggle('on',b.dataset.v===view);b.setAttribute('aria-current',b.dataset.v===view?'page':'false');});
@@ -527,6 +527,101 @@ $('#foot').replaceChildren(
   el('p',{},DATA.seasonNotes.coverage),
   el('p',{},DATA.seasonNotes.av));
 
+/* ---------- season comparison ---------- */
+/* The writeup is authored ahead of time and stored in data/comparisons.json, so the
+   progress panel below is presentation only: nothing is being computed while it runs.
+   Every figure it prints is checked against both season files by test_comparisons.py. */
+let cmpDoc=null, cmpPhase=initial.comparePhase==='done'?'done':'idle';
+const cmpTimers=[];
+const cmpClear=()=>{while(cmpTimers.length)clearTimeout(cmpTimers.pop());};
+
+const CMPFMT={int:v=>String(v),num1:v=>v.toFixed(1),num2:v=>v.toFixed(2),
+  signed2:v=>(v>0?'+':'')+v.toFixed(2),pct:v=>Math.round(v*100)+'%',rank:v=>'#'+v};
+function cmpShow(fact,which){
+  const v=fact[which];
+  if(v==null)return '—';
+  const f=CMPFMT[fact.kind==='rank'?'rank':(fact.fmt||'num2')];
+  return f?f(v):String(v);
+}
+function cmpEntry(){
+  const all=cmpDoc&&Array.isArray(cmpDoc.comparisons)?cmpDoc.comparisons:[];
+  return all.find(c=>Array.isArray(c.seasons)&&c.seasons.includes(String(DATA.season)))||null;
+}
+
+async function renderCompare(){
+  if(cmpPhase==='running')return;
+  const host=$('#cmp-host');
+  if(!cmpDoc){
+    host.replaceChildren(el('p',{class:'note'},'Loading comparison…'));
+    try{
+      const response=await fetch(new URL('data/comparisons.json',document.baseURI),{cache:'no-cache'});
+      if(!response.ok)throw new Error(`Could not load the comparison (${response.status}).`);
+      const doc=await response.json();
+      if(doc.schemaVersion!==1||!Array.isArray(doc.comparisons))throw new Error('The comparison file is invalid.');
+      cmpDoc=doc;
+    }catch(error){
+      const retry=el('button',{class:'ghost',type:'button'},'Retry');
+      retry.onclick=()=>renderCompare();
+      host.replaceChildren(el('p',{class:'note'},error.message),retry);
+      return;
+    }
+  }
+  if(!cmpEntry()||cmpPhase==='done'){cmpPhase='done';cmpPaint();return;}
+  cmpRun();
+}
+
+function cmpRun(){
+  const cfg=cmpDoc.generating||{};
+  const label=cfg.label||'Generating AI comparison';
+  const steps=Array.isArray(cfg.steps)&&cfg.steps.length?cfg.steps:[label];
+  const total=Math.min(20000,Math.max(800,Number(cfg.ms)||5000));
+  cmpPhase='running';cmpClear();
+  const step=el('p',{class:'gen-step'},steps[0]);
+  const fill=el('div',{class:'gen-fill'});
+  $('#cmp-host').replaceChildren(el('div',{class:'gen',role:'status','aria-live':'polite'},[
+    el('div',{class:'gen-top'},[el('span',{class:'gen-dot'}),el('p',{class:'gen-title'},label)]),
+    step,
+    el('div',{class:'gen-bar'},[fill]),
+    el('p',{class:'gen-foot'},'Written from the two published season files.')]));
+  requestAnimationFrame(()=>{fill.style.transitionDuration=total+'ms';fill.style.width='100%';});
+  const each=total/steps.length;
+  steps.forEach((text,i)=>{
+    if(i)cmpTimers.push(setTimeout(()=>{step.textContent=text;},Math.round(each*i)));
+  });
+  cmpTimers.push(setTimeout(()=>{cmpPhase='done';cmpPaint();},total));
+}
+
+function cmpPaint(){
+  const entry=cmpEntry(), host=$('#cmp-host');
+  if(!host)return;
+  if(!entry){
+    host.replaceChildren(el('p',{class:'note'},`No comparison is published that includes ${DATA.season}.`));
+    return;
+  }
+  $('#cmp-note').textContent=`${entry.label} · regular-season figures only, drawn from both published season files.`;
+  const kids=[];
+  if(entry.standfirst)kids.push(el('p',{class:'cmp-stand'},entry.standfirst));
+  (entry.sections||[]).forEach(section=>{
+    const parts=[el('h3',{class:'cmp-h'},section.heading)];
+    (section.body||[]).forEach(text=>parts.push(el('p',{class:'cmp-p'},text)));
+    if(Array.isArray(section.facts)&&section.facts.length){
+      const grid=el('div',{class:'cmp-facts'});
+      section.facts.forEach(fact=>grid.append(el('div',{class:'cmp-fact'},[
+        el('div',{class:'cmp-fact-l'},fact.label),
+        el('div',{class:'cmp-fact-v'},[
+          el('span',{class:'cmp-a'},cmpShow(fact,'v26')),
+          el('span',{class:'cmp-arrow'},'→'),
+          el('span',{class:'cmp-b'},cmpShow(fact,'v27'))])])));
+      parts.push(grid);
+    }
+    kids.push(el('section',{class:'cmp-sec'},parts));
+  });
+  const again=el('button',{class:'ghost',type:'button'},'Regenerate');
+  again.onclick=()=>{cmpPhase='idle';renderCompare();};
+  kids.push(el('div',{class:'cmp-foot'},[again]));
+  host.replaceChildren(...kids);
+}
+
 /* ---------- render ---------- */
 function render(){
   if(view==='dynasty'){renderCards();renderLead();}
@@ -534,6 +629,7 @@ function render(){
   else if(view==='sched')renderSched();
   else if(view==='national')renderNational();
   else if(view==='leaders')renderLeaders();
+  else if(view==='compare')renderCompare();
 }
 let resizeFrame;
 addEventListener('resize',()=>{
@@ -544,7 +640,7 @@ setView(view);
 return {
   setView, render, toggleTheme,
   closeOverlays:()=>{if(dialog.open)dialog.close();hideTT();},
-  state:()=>({view,h2hStat,natStat,leadCat}),
-  destroy:()=>{events.abort();cancelAnimationFrame(resizeFrame);if(dialog.open)dialog.close();document.body.classList.remove('dialog-open');root.replaceChildren();}
+  state:()=>({view,h2hStat,natStat,leadCat,comparePhase:cmpPhase==='done'?'done':'idle'}),
+  destroy:()=>{events.abort();cmpClear();cancelAnimationFrame(resizeFrame);if(dialog.open)dialog.close();document.body.classList.remove('dialog-open');root.replaceChildren();}
 };
 }

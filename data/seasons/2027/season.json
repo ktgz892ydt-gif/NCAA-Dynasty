@@ -1160,14 +1160,16 @@
         "of": null
       },
       "confchamp": {
-        "v": null,
+        "v": "No",
         "rank": null,
-        "of": null
+        "of": null,
+        "note": "Reported by the dynasty owner; no screen in the source set records it. These games are excluded from every regular-season statistic on this page."
       },
       "bowl": {
-        "v": null,
+        "v": "Win",
         "rank": null,
-        "of": null
+        "of": null,
+        "note": "Reported by the dynasty owner; no screen in the source set records it. These games are excluded from every regular-season statistic on this page."
       },
       "cfp": {
         "v": null,
@@ -1218,344 +1220,306 @@
         "v": 6.9654696132596685,
         "rank": null,
         "of": null,
-        "note": "Passing-room season totals minus postseason passing lines. The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
+        "note": "The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
       },
       "oeff": {
         "v": 7.535197303192544,
         "rank": 30,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "deff": {
         "v": 6.868327402135231,
         "rank": 87,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "balance": {
         "v": 1.1873111782477341,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "p2r": {
         "v": 1.2943585077343038,
         "rank": 116,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "todiff": {
         "v": 2,
         "rank": 75,
         "of": 134,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 134 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 134 teams with verified regular-season coverage, out of 138 real teams."
       },
       "torate": {
         "v": 0.016574585635359115,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "d3rate": {
         "v": 0.4778761061946903,
         "rank": 12,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "d4rate": {
         "v": 0.5882352941176471,
         "rank": 48,
         "of": 137,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 137 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 137 teams with verified regular-season coverage, out of 138 real teams."
       },
       "rzrate": {
         "v": 0.8166666666666667,
         "rank": 5,
         "of": 135,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 135 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 135 teams with verified regular-season coverage, out of 138 real teams."
       },
       "bci": {
         "v": 0.44194205715844764,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "explo": {
         "v": 20.36060348491288,
         "rank": null,
         "of": null,
-        "note": "Estimated drives from offensive TD + FGA + punts + giveaways + failed fourth downs + 2 per game; all inputs cover 12 games.",
-        "estimate": true
+        "estimate": true,
+        "note": "Estimated drives from offensive TD + FGA + punts + giveaways + failed fourth downs + 2 per game; all inputs cover 12 games."
       },
       "pts2": {
         "v": 380,
         "rank": 23,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "ttd": {
         "v": 50,
         "rank": 14,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "pctpass": {
         "v": 0.48,
         "rank": 84,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "pctrush": {
         "v": 0.52,
         "rank": 55,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "plays": {
         "v": 724,
         "rank": null,
         "of": null,
-        "note": "Passing-room season totals minus postseason passing lines. The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
+        "note": "The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
       },
       "toppg": {
         "v": 1379.3333333333333,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "fd": {
         "v": 304,
         "rank": 1,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "pyds": {
         "v": 2845,
         "rank": 78,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "patt": {
         "v": 331,
         "rank": null,
         "of": null,
-        "note": "Passing-room season totals minus postseason passing lines. The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
+        "note": "The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
       },
       "pcomp": {
         "v": 224,
         "rank": null,
         "of": null,
-        "note": "Passing-room season totals minus postseason passing lines. The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
+        "note": "The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
       },
       "pcpct": {
         "v": 0.676737160120846,
         "rank": null,
         "of": null,
-        "note": "Passing-room season totals minus postseason passing lines. The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
+        "note": "The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
       },
       "ypa": {
         "v": 8.595166163141993,
         "rank": null,
         "of": null,
-        "note": "Passing-room season totals minus postseason passing lines. The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
+        "note": "The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
       },
       "ypc_pass": {
         "v": 12.700892857142858,
         "rank": null,
         "of": null,
-        "note": "Passing-room season totals minus postseason passing lines. The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
+        "note": "The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
       },
       "aya": {
         "v": 8.685800604229607,
         "rank": null,
         "of": null,
-        "note": "Passing-room season totals minus postseason passing lines. The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
+        "note": "The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
       },
       "passrate": {
         "v": 0.457182320441989,
         "rank": null,
         "of": null,
-        "note": "Passing-room season totals minus postseason passing lines. The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
+        "note": "The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
       },
       "ptd": {
         "v": 24,
         "rank": 24,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "ptdrate": {
         "v": 0.07250755287009064,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "pint": {
         "v": 10,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "pintrate": {
         "v": 0.030211480362537766,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "sackstaken": {
         "v": 44,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "sacktakenrate": {
         "v": 0.11733333333333333,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "ncaa": {
         "v": 157.7583081570997,
         "rank": null,
         "of": null,
-        "note": "Passing-room season totals minus postseason passing lines. The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
+        "note": "The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
       },
       "nfl": {
         "v": 105.87235649546828,
         "rank": null,
         "of": null,
-        "note": "Passing-room season totals minus postseason passing lines. The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
+        "note": "The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
       },
       "ryds": {
         "v": 2198,
         "rank": 5,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "car": {
         "v": 393,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "ypcar": {
         "v": 5.592875318066158,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "rushshare": {
         "v": 0.5428176795580111,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "rtd": {
         "v": 26,
         "rank": 16,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "rtdrate": {
         "v": 0.06615776081424936,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "fd_so": {
         "v": 304,
         "rank": 1,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "d3a": {
         "v": 113,
         "rank": 136,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "d3c": {
         "v": 54,
         "rank": 112,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "d3pct": {
         "v": 0.4778761061946903,
         "rank": 12,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "d4a": {
         "v": 17,
         "rank": 88,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "d4c": {
         "v": 10,
         "rank": 60,
         "of": 137,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 137 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 137 teams with verified regular-season coverage, out of 138 real teams."
       },
       "d4pct": {
         "v": 0.5882352941176471,
         "rank": 48,
         "of": 137,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 137 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 137 teams with verified regular-season coverage, out of 138 real teams."
       },
       "rza": {
         "v": 60,
         "rank": 6,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "rzs": {
         "v": 49,
         "rank": 2,
         "of": 135,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 135 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 135 teams with verified regular-season coverage, out of 138 real teams."
       },
       "rzpct": {
         "v": 0.8166666666666667,
         "rank": 5,
         "of": 135,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 135 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 135 teams with verified regular-season coverage, out of 138 real teams."
       },
       "ptsa2": {
         "v": 193,
         "rank": 3,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "ydsa": {
         "v": 2810,
         "rank": 2,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "tda": {
         "v": 21,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "yppa": {
         "v": 4.9911190053285965,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "pydsa": {
         "v": 2008,
         "rank": 4,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "patta": {
         "v": 319,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "pcompa": {
         "v": 178,
@@ -1574,26 +1538,23 @@
       "ptda": {
         "v": 9,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "dint": {
         "v": 12,
         "rank": 27,
         "of": 136,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 136 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 136 teams with verified regular-season coverage, out of 138 real teams."
       },
       "sacks": {
         "v": 22,
         "rank": 51,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "sackrate": {
         "v": 0.06451612903225806,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "ncaaa": {
         "v": 110.46144200626958,
@@ -1612,206 +1573,178 @@
       "rydsa": {
         "v": 802,
         "rank": 2,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "cara": {
         "v": 244,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "ypcara": {
         "v": 3.2868852459016393,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "rtda": {
         "v": 12,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "sacks_d": {
         "v": 22,
         "rank": 51,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "tfl": {
         "v": 54,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "dint2": {
         "v": 12,
         "rank": 27,
         "of": 136,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 136 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 136 teams with verified regular-season coverage, out of 138 real teams."
       },
       "fumrec": {
         "v": 2,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "deftd": {
         "v": 0,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "fda": {
         "v": 128,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "d3aa": {
         "v": 127,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "d3ca": {
         "v": 40,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "d3pcta": {
         "v": 0.31496062992125984,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "d4aa": {
         "v": 20,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "d4ca": {
         "v": 8,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "d4pcta": {
         "v": 0.4,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "rzaa": {
         "v": 25,
         "rank": 135,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "rzsa": {
         "v": 14,
         "rank": 2,
         "of": 135,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 135 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 135 teams with verified regular-season coverage, out of 138 real teams."
       },
       "rzpcta": {
         "v": 0.56,
         "rank": 6,
         "of": 135,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 135 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 135 teams with verified regular-season coverage, out of 138 real teams."
       },
       "pen": {
         "v": 11,
         "rank": 1,
         "of": 136,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 136 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 136 teams with verified regular-season coverage, out of 138 real teams."
       },
       "penyds": {
         "v": 92,
         "rank": 1,
         "of": 136,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 136 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 136 teams with verified regular-season coverage, out of 138 real teams."
       },
       "penypg": {
         "v": 7.666666666666667,
         "rank": 1,
         "of": 136,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 136 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 136 teams with verified regular-season coverage, out of 138 real teams."
       },
       "fga": {
         "v": 15,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "fgm": {
         "v": 10,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "fgpct": {
         "v": 0.6666666666666666,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "xpa": {
         "v": 49,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "xpm": {
         "v": 49,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "xppct": {
         "v": 1.0,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "kr": {
         "v": 481,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "punts": {
         "v": 22,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "puntyds": {
         "v": 982,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "ypunt": {
         "v": 44.63636363636363,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "pr": {
         "v": 294,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "sttd": {
         "v": 0,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "av_team_off": {
         "v": 114.46046438109852,
@@ -1920,14 +1853,16 @@
         "of": null
       },
       "confchamp": {
-        "v": null,
+        "v": "No",
         "rank": null,
-        "of": null
+        "of": null,
+        "note": "Reported by the dynasty owner; no screen in the source set records it. These games are excluded from every regular-season statistic on this page."
       },
       "bowl": {
-        "v": null,
+        "v": "N/A",
         "rank": null,
-        "of": null
+        "of": null,
+        "note": "Reported by the dynasty owner; no screen in the source set records it. These games are excluded from every regular-season statistic on this page."
       },
       "cfp": {
         "v": null,
@@ -1978,31 +1913,27 @@
         "v": 5.042471042471043,
         "rank": null,
         "of": null,
-        "note": "Passing-room season totals minus postseason passing lines. The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
+        "note": "The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
       },
       "oeff": {
         "v": 7.73353751914242,
         "rank": 19,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "deff": {
         "v": 7.224697644812221,
         "rank": 111,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "balance": {
         "v": 1.031372549019608,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "p2r": {
         "v": 1.0550747442958301,
         "rank": 129,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "todiff": {
         "v": -3,
@@ -2019,135 +1950,124 @@
       "d3rate": {
         "v": 0.3490566037735849,
         "rank": 91,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "d4rate": {
         "v": 0.5238095238095238,
         "rank": 76,
         "of": 137,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 137 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 137 teams with verified regular-season coverage, out of 138 real teams."
       },
       "rzrate": {
         "v": 0.6388888888888888,
         "rank": 102,
         "of": 135,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 135 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 135 teams with verified regular-season coverage, out of 138 real teams."
       },
       "bci": {
         "v": 0.34858005326755326,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "explo": {
         "v": 9.25981045981046,
         "rank": null,
         "of": null,
-        "note": "Estimated drives from offensive TD + FGA + punts + giveaways + failed fourth downs + 2 per game; all inputs cover 12 games.",
-        "estimate": true
+        "estimate": true,
+        "note": "Estimated drives from offensive TD + FGA + punts + giveaways + failed fourth downs + 2 per game; all inputs cover 12 games."
       },
       "pts2": {
         "v": 202,
         "rank": 134,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "ttd": {
         "v": 22,
         "rank": 134,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "pctpass": {
         "v": 0.3181818181818182,
         "rank": 135,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "pctrush": {
         "v": 0.6818181818181818,
         "rank": 4,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "plays": {
         "v": 518,
         "rank": null,
         "of": null,
-        "note": "Passing-room season totals minus postseason passing lines. The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
+        "note": "The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
       },
       "toppg": {
         "v": 1139.75,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "fd": {
         "v": 155,
         "rank": 131,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "pyds": {
         "v": 1341,
         "rank": 137,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "patt": {
         "v": 255,
         "rank": null,
         "of": null,
-        "note": "Passing-room season totals minus postseason passing lines. The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
+        "note": "The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
       },
       "pcomp": {
         "v": 149,
         "rank": null,
         "of": null,
-        "note": "Passing-room season totals minus postseason passing lines. The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
+        "note": "The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
       },
       "pcpct": {
         "v": 0.5843137254901961,
         "rank": null,
         "of": null,
-        "note": "Passing-room season totals minus postseason passing lines. The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
+        "note": "The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
       },
       "ypa": {
         "v": 5.258823529411765,
         "rank": null,
         "of": null,
-        "note": "Passing-room season totals minus postseason passing lines. The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
+        "note": "The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
       },
       "ypc_pass": {
         "v": 9.0,
         "rank": null,
         "of": null,
-        "note": "Passing-room season totals minus postseason passing lines. The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
+        "note": "The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
       },
       "aya": {
         "v": 4.043137254901961,
         "rank": null,
         "of": null,
-        "note": "Passing-room season totals minus postseason passing lines. The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
+        "note": "The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
       },
       "passrate": {
         "v": 0.4922779922779923,
         "rank": null,
         "of": null,
-        "note": "Passing-room season totals minus postseason passing lines. The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
+        "note": "The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
       },
       "ptd": {
         "v": 7,
         "rank": 136,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "ptdrate": {
         "v": 0.027450980392156862,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "pint": {
         "v": 10,
@@ -2158,164 +2078,143 @@
       "pintrate": {
         "v": 0.0392156862745098,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "sackstaken": {
         "v": 16,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "sacktakenrate": {
         "v": 0.05904059040590406,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "ncaa": {
         "v": 103.82117647058824,
         "rank": null,
         "of": null,
-        "note": "Passing-room season totals minus postseason passing lines. The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
+        "note": "The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
       },
       "nfl": {
         "v": 65.4983660130719,
         "rank": null,
         "of": null,
-        "note": "Passing-room season totals minus postseason passing lines. The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
+        "note": "The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
       },
       "ryds": {
         "v": 1271,
         "rank": 114,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "car": {
         "v": 263,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "ypcar": {
         "v": 4.832699619771863,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "rushshare": {
         "v": 0.5077220077220077,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "rtd": {
         "v": 15,
         "rank": 95,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "rtdrate": {
         "v": 0.057034220532319393,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "fd_so": {
         "v": 155,
         "rank": 131,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "d3a": {
         "v": 106,
         "rank": 137,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "d3c": {
         "v": 37,
         "rank": 138,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "d3pct": {
         "v": 0.3490566037735849,
         "rank": 91,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "d4a": {
         "v": 21,
         "rank": 47,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "d4c": {
         "v": 11,
         "rank": 46,
         "of": 137,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 137 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 137 teams with verified regular-season coverage, out of 138 real teams."
       },
       "d4pct": {
         "v": 0.5238095238095238,
         "rank": 76,
         "of": 137,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 137 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 137 teams with verified regular-season coverage, out of 138 real teams."
       },
       "rza": {
         "v": 36,
         "rank": 100,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "rzs": {
         "v": 23,
         "rank": 106,
         "of": 135,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 135 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 135 teams with verified regular-season coverage, out of 138 real teams."
       },
       "rzpct": {
         "v": 0.6388888888888888,
         "rank": 102,
         "of": 135,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 135 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 135 teams with verified regular-season coverage, out of 138 real teams."
       },
       "ptsa2": {
         "v": 227,
         "rank": 11,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "ydsa": {
         "v": 3142,
         "rank": 3,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "tda": {
         "v": 26,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "yppa": {
         "v": 6.172888015717092,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "pydsa": {
         "v": 1788,
         "rank": 1,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "patta": {
         "v": 250,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "pcompa": {
         "v": 185,
@@ -2334,26 +2233,23 @@
       "ptda": {
         "v": 17,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "dint": {
         "v": 5,
         "rank": 113,
         "of": 136,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 136 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 136 teams with verified regular-season coverage, out of 138 real teams."
       },
       "sacks": {
         "v": 18,
         "rank": 89,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "sackrate": {
         "v": 0.06716417910447761,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "ncaaa": {
         "v": 152.5168,
@@ -2372,44 +2268,38 @@
       "rydsa": {
         "v": 1354,
         "rank": 10,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "cara": {
         "v": 259,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "ypcara": {
         "v": 5.227799227799228,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "rtda": {
         "v": 9,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "sacks_d": {
         "v": 18,
         "rank": 89,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "tfl": {
         "v": 86,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "dint2": {
         "v": 5,
         "rank": 113,
         "of": 136,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 136 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 136 teams with verified regular-season coverage, out of 138 real teams."
       },
       "fumrec": {
         "v": 5,
@@ -2420,158 +2310,137 @@
       "deftd": {
         "v": 1,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "fda": {
         "v": 156,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "d3aa": {
         "v": 108,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "d3ca": {
         "v": 48,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "d3pcta": {
         "v": 0.4444444444444444,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "d4aa": {
         "v": 15,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "d4ca": {
         "v": 7,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "d4pcta": {
         "v": 0.4666666666666667,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "rzaa": {
         "v": 38,
         "rank": 94,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "rzsa": {
         "v": 24,
         "rank": 25,
         "of": 135,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 135 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 135 teams with verified regular-season coverage, out of 138 real teams."
       },
       "rzpcta": {
         "v": 0.631578947368421,
         "rank": 32,
         "of": 135,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 135 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 135 teams with verified regular-season coverage, out of 138 real teams."
       },
       "pen": {
         "v": 15,
         "rank": 3,
         "of": 136,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 136 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 136 teams with verified regular-season coverage, out of 138 real teams."
       },
       "penyds": {
         "v": 111,
         "rank": 3,
         "of": 136,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 136 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 136 teams with verified regular-season coverage, out of 138 real teams."
       },
       "penypg": {
         "v": 9.25,
         "rank": 3,
         "of": 136,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 136 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 136 teams with verified regular-season coverage, out of 138 real teams."
       },
       "fga": {
         "v": 16,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "fgm": {
         "v": 13,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "fgpct": {
         "v": 0.8125,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "xpa": {
         "v": 21,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "xpm": {
         "v": 21,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "xppct": {
         "v": 1.0,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "kr": {
         "v": 916,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "punts": {
         "v": 25,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "puntyds": {
         "v": 1142,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "ypunt": {
         "v": 45.68,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "pr": {
         "v": 266,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "sttd": {
         "v": 0,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "av_team_off": {
         "v": 68.7036615148747,
@@ -2680,14 +2549,16 @@
         "of": null
       },
       "confchamp": {
-        "v": null,
+        "v": "Yes",
         "rank": null,
-        "of": null
+        "of": null,
+        "note": "Reported by the dynasty owner; no screen in the source set records it. These games are excluded from every regular-season statistic on this page."
       },
       "bowl": {
-        "v": null,
+        "v": "Loss (CFP first round)",
         "rank": null,
-        "of": null
+        "of": null,
+        "note": "Reported by the dynasty owner; no screen in the source set records it. These games are excluded from every regular-season statistic on this page."
       },
       "cfp": {
         "v": null,
@@ -2738,344 +2609,306 @@
         "v": 6.6276422764227645,
         "rank": null,
         "of": null,
-        "note": "Passing-room season totals minus postseason passing lines. The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
+        "note": "The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
       },
       "oeff": {
         "v": 9.71540726202159,
         "rank": 1,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "deff": {
         "v": 5.469953775038521,
         "rank": 8,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "balance": {
         "v": 1.4898785425101215,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "p2r": {
         "v": 0.8654462242562929,
         "rank": 134,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "todiff": {
         "v": 7,
         "rank": 37,
         "of": 134,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 134 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 134 teams with verified regular-season coverage, out of 138 real teams."
       },
       "torate": {
         "v": 0.014634146341463415,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "d3rate": {
         "v": 0.5238095238095238,
         "rank": 5,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "d4rate": {
         "v": 0.6666666666666666,
         "rank": 23,
         "of": 137,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 137 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 137 teams with verified regular-season coverage, out of 138 real teams."
       },
       "rzrate": {
         "v": 0.7741935483870968,
         "rank": 21,
         "of": 135,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 135 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 135 teams with verified regular-season coverage, out of 138 real teams."
       },
       "bci": {
         "v": 0.40440774616079495,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "explo": {
         "v": 21.3377751338489,
         "rank": null,
         "of": null,
-        "note": "Estimated drives from offensive TD + FGA + punts + giveaways + failed fourth downs + 2 per game; all inputs cover 12 games.",
-        "estimate": true
+        "estimate": true,
+        "note": "Estimated drives from offensive TD + FGA + punts + giveaways + failed fourth downs + 2 per game; all inputs cover 12 games."
       },
       "pts2": {
         "v": 396,
         "rank": 14,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "ttd": {
         "v": 46,
         "rank": 27,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "pctpass": {
         "v": 0.5,
         "rank": 71,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "pctrush": {
         "v": 0.5,
         "rank": 62,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "plays": {
         "v": 615,
         "rank": null,
         "of": null,
-        "note": "Passing-room season totals minus postseason passing lines. The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
+        "note": "The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
       },
       "toppg": {
         "v": 1245.5,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "fd": {
         "v": 244,
         "rank": 8,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "pyds": {
         "v": 1891,
         "rank": 133,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "patt": {
         "v": 247,
         "rank": null,
         "of": null,
-        "note": "Passing-room season totals minus postseason passing lines. The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
+        "note": "The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
       },
       "pcomp": {
         "v": 181,
         "rank": null,
         "of": null,
-        "note": "Passing-room season totals minus postseason passing lines. The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
+        "note": "The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
       },
       "pcpct": {
         "v": 0.7327935222672065,
         "rank": null,
         "of": null,
-        "note": "Passing-room season totals minus postseason passing lines. The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
+        "note": "The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
       },
       "ypa": {
         "v": 7.65587044534413,
         "rank": null,
         "of": null,
-        "note": "Passing-room season totals minus postseason passing lines. The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
+        "note": "The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
       },
       "ypc_pass": {
         "v": 10.447513812154696,
         "rank": null,
         "of": null,
-        "note": "Passing-room season totals minus postseason passing lines. The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
+        "note": "The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
       },
       "aya": {
         "v": 8.425101214574898,
         "rank": null,
         "of": null,
-        "note": "Passing-room season totals minus postseason passing lines. The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
+        "note": "The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
       },
       "passrate": {
         "v": 0.4016260162601626,
         "rank": null,
         "of": null,
-        "note": "Passing-room season totals minus postseason passing lines. The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
+        "note": "The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
       },
       "ptd": {
         "v": 23,
         "rank": 35,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "ptdrate": {
         "v": 0.0931174089068826,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "pint": {
         "v": 6,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "pintrate": {
         "v": 0.024291497975708502,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "sackstaken": {
         "v": 39,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "sacktakenrate": {
         "v": 0.13636363636363635,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "ncaa": {
         "v": 163.4591093117409,
         "rank": null,
         "of": null,
-        "note": "Passing-room season totals minus postseason passing lines. The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
+        "note": "The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
       },
       "nfl": {
         "v": 115.96659919028339,
         "rank": null,
         "of": null,
-        "note": "Passing-room season totals minus postseason passing lines. The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
+        "note": "The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals."
       },
       "ryds": {
         "v": 2185,
         "rank": 6,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "car": {
         "v": 368,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "ypcar": {
         "v": 5.9375,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "rushshare": {
         "v": 0.5983739837398374,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "rtd": {
         "v": 23,
         "rank": 29,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "rtdrate": {
         "v": 0.0625,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "fd_so": {
         "v": 244,
         "rank": 8,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "d3a": {
         "v": 105,
         "rank": 138,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "d3c": {
         "v": 55,
         "rank": 107,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "d3pct": {
         "v": 0.5238095238095238,
         "rank": 5,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "d4a": {
         "v": 9,
         "rank": 138,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "d4c": {
         "v": 6,
         "rank": 121,
         "of": 137,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 137 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 137 teams with verified regular-season coverage, out of 138 real teams."
       },
       "d4pct": {
         "v": 0.6666666666666666,
         "rank": 23,
         "of": 137,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 137 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 137 teams with verified regular-season coverage, out of 138 real teams."
       },
       "rza": {
         "v": 62,
         "rank": 2,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "rzs": {
         "v": 48,
         "rank": 4,
         "of": 135,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 135 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 135 teams with verified regular-season coverage, out of 138 real teams."
       },
       "rzpct": {
         "v": 0.7741935483870968,
         "rank": 21,
         "of": 135,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 135 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 135 teams with verified regular-season coverage, out of 138 real teams."
       },
       "ptsa2": {
         "v": 142,
         "rank": 1,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "ydsa": {
         "v": 2596,
         "rank": 1,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "tda": {
         "v": 14,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "yppa": {
         "v": 4.780847145488029,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "pydsa": {
         "v": 1963,
         "rank": 3,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "patta": {
         "v": 339,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "pcompa": {
         "v": 201,
@@ -3094,26 +2927,23 @@
       "ptda": {
         "v": 11,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "dint": {
         "v": 14,
         "rank": 10,
         "of": 136,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 136 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 136 teams with verified regular-season coverage, out of 138 real teams."
       },
       "sacks": {
         "v": 31,
         "rank": 8,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "sackrate": {
         "v": 0.08378378378378379,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "ncaaa": {
         "v": 110.3811209439528,
@@ -3132,206 +2962,178 @@
       "rydsa": {
         "v": 633,
         "rank": 1,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "cara": {
         "v": 204,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "ypcara": {
         "v": 3.1029411764705883,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "rtda": {
         "v": 3,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "sacks_d": {
         "v": 31,
         "rank": 8,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "tfl": {
         "v": 89,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "dint2": {
         "v": 14,
         "rank": 10,
         "of": 136,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 136 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 136 teams with verified regular-season coverage, out of 138 real teams."
       },
       "fumrec": {
         "v": 2,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "deftd": {
         "v": 4,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "fda": {
         "v": 135,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "d3aa": {
         "v": 117,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "d3ca": {
         "v": 36,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "d3pcta": {
         "v": 0.3076923076923077,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "d4aa": {
         "v": 24,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "d4ca": {
         "v": 7,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "d4pcta": {
         "v": 0.2916666666666667,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "rzaa": {
         "v": 22,
         "rank": 138,
-        "of": 138,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": 138
       },
       "rzsa": {
         "v": 13,
         "rank": 1,
         "of": 135,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 135 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 135 teams with verified regular-season coverage, out of 138 real teams."
       },
       "rzpcta": {
         "v": 0.5909090909090909,
         "rank": 11,
         "of": 135,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 135 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 135 teams with verified regular-season coverage, out of 138 real teams."
       },
       "pen": {
         "v": 12,
         "rank": 2,
         "of": 136,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 136 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 136 teams with verified regular-season coverage, out of 138 real teams."
       },
       "penyds": {
         "v": 101,
         "rank": 2,
         "of": 136,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 136 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 136 teams with verified regular-season coverage, out of 138 real teams."
       },
       "penypg": {
         "v": 8.416666666666666,
         "rank": 2,
         "of": 136,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields. Rank among 136 teams with verified regular-season coverage, out of 138 real teams."
+        "note": "Rank among 136 teams with verified regular-season coverage, out of 138 real teams."
       },
       "fga": {
         "v": 18,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "fgm": {
         "v": 15,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "fgpct": {
         "v": 0.8333333333333334,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "xpa": {
         "v": 47,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "xpm": {
         "v": 47,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "xppct": {
         "v": 1.0,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "kr": {
         "v": 478,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "punts": {
         "v": 23,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "puntyds": {
         "v": 1050,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "ypunt": {
         "v": 45.65217391304348,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "pr": {
         "v": 396,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "sttd": {
         "v": 0,
         "rank": null,
-        "of": null,
-        "note": "12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields."
+        "of": null
       },
       "av_team_off": {
         "v": 116.83587410402677,
@@ -16275,14 +16077,6 @@
     ]
   },
   "missingRows": [
-    {
-      "group": "Results",
-      "name": "Conference Champion"
-    },
-    {
-      "group": "Results",
-      "name": "Bowl Result"
-    },
     {
       "group": "Results",
       "name": "Final CFP Ranking"
@@ -54289,17 +54083,17 @@
     {
       "teamId": "wmu",
       "title": "Western Michigan · 11–1",
-      "text": "Western won its first seven games and finished the regular season 11–1, scoring 380 points and allowing 193. Its only loss came against Central Michigan; four straight wins afterward included a season-ending shutout of Kent State."
+      "text": "Western won its first seven games and finished the regular season 11–1, scoring 380 points and allowing 193. Its only loss came against Central Michigan; four straight wins afterward included a season-ending shutout of Kent State. The Broncos did it against a schedule of close to average difficulty, 76th of 138, so a 15.6-point scoring margin carries through to the 18th-strongest opponent-adjusted rating in the country. Western went on to lose the conference championship game to Central Michigan and won its bowl."
     },
     {
       "teamId": "emu",
       "title": "Eastern Michigan · 4–8",
-      "text": "Eastern opened 2–0 but finished 4–8, with seven losses decided by eight points or fewer. The Eagles scored 202 points and allowed 227, pairing wins over Buffalo and Akron with a difficult finish against Central Michigan."
+      "text": "Eastern opened 2–0 but finished 4–8, with seven losses decided by eight points or fewer. The Eagles scored 202 points and allowed 227, pairing wins over Buffalo and Akron with a difficult finish against Central Michigan. Their schedule rated 75th of 138, almost exactly average, so the narrow scoring deficit is not a product of the opposition: it leaves Eastern 79th in opponent-adjusted terms. Eastern did not reach a bowl."
     },
     {
       "teamId": "cmu",
       "title": "Central Michigan · 11–1",
-      "text": "Central closed the regular season with ten straight wins and swept both Michigan rivals. The Chippewas scored 396 points and allowed just 142, giving them the strongest scoring margin and opponent-adjusted rating of the three programs."
+      "text": "Central closed the regular season with ten straight wins and swept both Michigan rivals. The Chippewas scored 396 points and allowed just 142, the strongest scoring margin of the three programs. They also drew the hardest schedule of the three, 71st of 138 and the only one above the national average, which lifts their opponent-adjusted rating to sixth nationally. Central then won the conference championship and reached the College Football Playoff, losing to Tennessee in the first round."
     }
   ],
   "teamConfig": [
@@ -54345,10 +54139,10 @@
     "data/seasons/2027/inputs/captured-team-stats.json": "2043e9516a3ef05cdac0033534f71c50097ffa24ab5fd3289b7ad712434eff16",
     "data/seasons/2027/inputs/corrections.json": "e3872af18f6d9689c274e79e09323713ab5b218d189ddb7135d227005855524c",
     "data/seasons/2027/inputs/dynasty-player-source-review.json": "67bed5591d87ef8c9646fe2536739e2e3f0359f423aed306b14baf13cb804c15",
-    "data/seasons/2027/inputs/dynasty-reconciliation.json": "c2275d4bed21a959f62442bc450f4335390d589cd60c56287fe9209404ea7067",
+    "data/seasons/2027/inputs/dynasty-reconciliation.json": "37282f54c8a48e1e3fe42a7b181c8db4757a9339bd07f8638b146a04dad711d6",
     "data/seasons/2027/inputs/excluded-postseason-games.json": "dacace8089b92f190b6964eaa87231742af54342ec8a8832ecb8eece6a868a7a",
     "data/seasons/2027/inputs/national-leaders.json": "f8be55af2287b9533c5b4687dbeaa3652eec7f8ec3c695ac39573cb44ede8a4c",
-    "data/seasons/2027/inputs/national-regular-stats.json": "f74b22105f7ae2777dcfab95d57d15398e5afd3423d8f3178bf2b2d82b04f29b",
+    "data/seasons/2027/inputs/national-regular-stats.json": "87c59bee6f5fb5d5332612e12d7071983e9bcf93dc0bdcd8f1432a2b928bcadd",
     "data/seasons/2027/inputs/national-stat-coverage.json": "8d86308548d62ffec131d29db343867602415189f65ce637fde0e830469ab74d",
     "data/seasons/2027/inputs/pending-source-fields.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
     "data/seasons/2027/inputs/photo-manifest.json": "53fe99523561b97a4fb7766ab93ac96af92e970cddf4ab6a3abf5a3ceb57d663",
@@ -54362,7 +54156,7 @@
     "data/seasons/2027/inputs/regular-player-population.json": "984b4604b133ab478664e4f920daf4972e10575c65a32f631a1a72633e15ddb9",
     "data/seasons/2027/inputs/scoreboard-source-review.json": "0217ca9712ece4ad4dcc0635aee9d8c723e9145d00c58dfa79d690b01a9f2fcb",
     "data/seasons/2027/inputs/scoreboard.json": "c2554ea1fd1e90c4b2f65228f9281c4e7c734a197ac6e5a58c17e436c774fb4c",
-    "data/seasons/2027/inputs/team-stats.json": "85fd6b787ecdf6073f31c64d6cda706f52dc5e03058fa31b0beba2e06ec50067",
+    "data/seasons/2027/inputs/team-stats.json": "34428c3720a0073b263a27ca33dbe25d41017bd96cdc3ea838ebaa02115f1174",
     "data/seasons/2027/inputs/video-manifest.json": "8d6d0f44cd1b6bd9388e1a08589e3ae9a038c7eba3697a6b5732e7a75f809234",
     "data/seasons/2027/leaders/BLOCKING.json": "9ab41aa62aa3aa3bfc8a27f0eee7e35bb6546f465ac4e3b75a2258b2c741ab80",
     "data/seasons/2027/leaders/DEFENSE.json": "48d7d55edf57bda387e1337db82309300d8adf99a0b6a9f01ffb6e9dfbf169b0",
@@ -54376,7 +54170,7 @@
     "data/seasons/2027/metadata.json": "35c948f2f3d0dd9b497e7b5638aa2c96f5a0b81d3639ffb3c185e162d2241550",
     "data/seasons/2027/pending-capture.md": "ffa944c2fe2db818e1aecf8ba273d1ad3bddba59d6037c9b5a2f932380cf22c8",
     "data/seasons/2027/source-notes.md": "bbabf575d60878dc375bbd90842116ef9252c70c7d125fb9b429b600ee9942cd",
-    "data/seasons/2027/summaries.json": "8f8dceefd63144d05675268cdc32f6342b7e6431524d07070b07db9449e7a2c3"
+    "data/seasons/2027/summaries.json": "6dbe2847464f0743de8349a0b52be7638830807c8446cb7552eae3fa216aed4d"
   },
   "playerIdentities": {
     "players": []

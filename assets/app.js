@@ -4,7 +4,7 @@ const $=s=>document.querySelector(s);
 const panel=$('#season-panel'), tabs=$('#season-tabs'), status=$('#load-status'), historyPanel=$('#history-panel');
 let manifest, seasons=[], current=null, activeId=null, generation=0, historyMode=false;
 const cache=new Map();
-const views=new Set(['dynasty','h2h','sched','national','leaders']);
+const views=new Set(['dynasty','h2h','sched','national','leaders','compare']);
 
 async function json(path){
   const response=await fetch(new URL(path,document.baseURI),{cache:'no-cache'});

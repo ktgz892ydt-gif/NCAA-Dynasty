@@ -23,6 +23,7 @@
     <button class="tab" data-v="sched">Schedules</button>
     <button class="tab" data-v="national">National</button>
     <button class="tab" data-v="leaders">Leaders</button>
+    <button class="tab" data-v="compare">Compare</button>
   </div>
 
   <section id="v-dynasty">
@@ -95,6 +96,14 @@
       <div class="row" id="leadrow"><label class="lbl" for="leadpick">Category</label><select id="leadpick"></select></div>
       <p class="table-hint swipe-hint">Swipe the table sideways to see every stat.</p>
       <div class="scroll" role="region" aria-label="Player leaders" tabindex="0"><table id="leadtbl"></table></div>
+    </div>
+  </section>
+
+  <section id="v-compare" class="hide">
+    <div class="card">
+      <p class="h2">Season comparison</p>
+      <p class="note" id="cmp-note">How this season compares with the other published season.</p>
+      <div id="cmp-host"></div>
     </div>
   </section>
 

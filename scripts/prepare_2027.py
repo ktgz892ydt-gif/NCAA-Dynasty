@@ -9,6 +9,14 @@ from season_io import ROOT,read,atomic_write,serialized
 
 TEAMS={'Western Michigan':'W. Michigan','Eastern Michigan':'E. Michigan','Central Michigan':'C. Michigan'}
 
+# Reported by the dynasty owner; no screen in the source set records postseason outcomes.
+# The games themselves stay outside the 12-game regular season used for every statistic.
+POSTSEASON={'Western Michigan':{'confchamp':'No','bowl':'Win'},
+            'Eastern Michigan':{'confchamp':'No','bowl':'N/A'},
+            'Central Michigan':{'confchamp':'Yes','bowl':'Loss (CFP first round)'}}
+POSTNOTE=('Reported by the dynasty owner; no screen in the source set records it. '
+          'These games are excluded from every regular-season statistic on this page.')
+
 def ratio(n,d):return n/d if n is not None and d else None
 
 def derive(s):
@@ -119,12 +127,11 @@ def prepare(root=ROOT):
         returns=[sum_complete(cat,'TD') for cat in ['KICK RETURN','PUNT RETURN']]
         s['sttd']=sum(returns) if all(x is not None for x in returns) else None
         if team=='Eastern Michigan':s['fumrec']=total('fumlost',1)
-        s['confchamp']=None;s['bowl']=None;s['cfp']=None
+        s.update(POSTSEASON[team]);s['cfp']=None
         v=derive(s);details[team]={'boxTotals':{k:total(k) for k in ['pcomp','patt','plays','punts','puntyds','pr','kr']},'quarterback':qb['name'],'punter':punter['name'],'regularTotals':s}
         cells={k:{'v':v.get(k),'rank':None,'of':None} for k in metric_keys if v.get(k) is not None}
-        generic='12-game regular season. Season totals minus recorded postseason box scores; available regular-season box scores provide additional fields.'
-        for k,c in cells.items():c['note']=generic
-        passnote='Passing-room season totals minus postseason passing lines. The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals.'
+        # Only values with a real caveat carry a note; the regular-season boundary is documented once in source-notes.md.
+        passnote='The game contains inconsistent completion/attempt counts in several regular-season box scores; those box-score counts are not used for the quarterback season totals.'
         for k in ['pcomp','patt','pcpct','ypc_pass','ypa','aya','ncaa','nfl','passrate','plays','ypp']:cells[k]['note']=passnote
         for k in ['pcompa','pcpcta','ncaaa','nfla']:
             if k in cells:cells[k]['note']='Sum of 12 opposing box-score passing lines. The game has known passing-count anomalies; opponent completion-dependent measures remain provisional.';cells[k]['estimate']=True
@@ -132,6 +139,8 @@ def prepare(root=ROOT):
             cells['pint']['note']='Quarterback season screen: 10 interceptions. Team turnover screen and box scores total 11; retained as a documented source discrepancy.'
             for k in ['give','todiff','torate','fumrec']:
                 if k in cells:cells[k]['note']='Giveaways/takeaways follow team totals and 12-game box scores. Eastern passing and recovery summaries disagree with these screens; see source notes.'
+        for k in ['confchamp','bowl','cfp']:
+            if k in cells:cells[k]['note']=POSTNOTE
         if 'explo' in cells:cells['explo'].update(estimate=True,note='Estimated drives from offensive TD + FGA + punts + giveaways + failed fourth downs + 2 per game; all inputs cover 12 games.')
         for k in ['sacks','sacks_d','sackrate','sackstaken','sacktakenrate','tfl','deftd','fga','fgm','fgpct','xpa','xpm','xppct','sttd']:
             if k not in cells:cells[k]={'v':None,'rank':None,'of':None,'note':'Awaiting individual postseason stats or an independently verified regular-season total. Postseason-inclusive values are withheld.'}
@@ -148,7 +157,9 @@ def prepare(root=ROOT):
         for team,short in TEAMS.items():
             if team not in eligible or k not in values[short]:continue
             v=eligible[team];cell=values[short][k];cell.update(rank=1+sum(x>v if higher else x<v for x in eligible.values()),of=len(eligible))
-            if len(eligible)<138:cell['note']+=f' Rank among {len(eligible)} teams with verified regular-season coverage, out of 138 real teams.'
+            if len(eligible)<138:
+                shortfall=f'Rank among {len(eligible)} teams with verified regular-season coverage, out of 138 real teams.'
+                cell['note']=f"{cell['note']} {shortfall}" if cell.get('note') else shortfall
     from prepare_2027_av import calculate
     av,av_notes,av_population=calculate(national,regular_players,read(inp/'regular-player-population.json'))
     for team,short in TEAMS.items():values[short].update(av[team])

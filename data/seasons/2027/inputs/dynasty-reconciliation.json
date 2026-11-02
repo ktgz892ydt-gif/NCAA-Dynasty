@@ -74,8 +74,8 @@
       "tfl": 54,
       "deftd": 0,
       "sttd": 0,
-      "confchamp": null,
-      "bowl": null,
+      "confchamp": "No",
+      "bowl": "Win",
       "cfp": null
     }
   },
@@ -154,8 +154,8 @@
       "tfl": 86,
       "deftd": 1,
       "sttd": 0,
-      "confchamp": null,
-      "bowl": null,
+      "confchamp": "No",
+      "bowl": "N/A",
       "cfp": null
     }
   },
@@ -234,8 +234,8 @@
       "tfl": 89,
       "deftd": 4,
       "sttd": 0,
-      "confchamp": null,
-      "bowl": null,
+      "confchamp": "Yes",
+      "bowl": "Loss (CFP first round)",
       "cfp": null
     }
   }

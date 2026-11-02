@@ -207,3 +207,36 @@ body.dialog-open{overflow:hidden}
 
 .season-coverage{margin:8px 0 18px;font-size:13px;color:var(--ink2)}
 .season-coverage summary{cursor:pointer;min-height:32px;padding:6px 0}
+
+/* ---------- season comparison ---------- */
+.gen{border:1px solid var(--grid);background:var(--plane);border-radius:var(--radius);
+  padding:30px 22px;text-align:center}
+.gen-top{display:flex;align-items:center;justify-content:center;gap:9px}
+.gen-dot{width:9px;height:9px;border-radius:50%;background:var(--s3-text);
+  animation:gen-pulse 1.1s ease-in-out infinite}
+.gen-title{font-size:15px;font-weight:700;margin:0}
+.gen-step{color:var(--ink2);font-size:13px;margin:12px 0 16px;min-height:1.5em}
+.gen-bar{height:5px;background:var(--grid);border-radius:999px;overflow:hidden;
+  max-width:420px;margin:0 auto}
+.gen-fill{height:100%;width:3%;border-radius:999px;background:var(--s3-text);
+  transition:width linear}
+.gen-foot{color:var(--muted);font-size:11.5px;margin:16px 0 0}
+@keyframes gen-pulse{0%,100%{opacity:.25;transform:scale(.8)}50%{opacity:1;transform:scale(1.15)}}
+@media (prefers-reduced-motion:reduce){
+  .gen-dot{animation:none;opacity:.85}
+  .gen-fill{transition:none;width:100%}
+}
+.cmp-stand{font-size:14.5px;color:var(--ink2);margin:0 0 22px;max-width:72ch}
+.cmp-sec{margin:0 0 26px}
+.cmp-h{font-size:14.5px;font-weight:700;margin:0 0 8px;letter-spacing:-.01em}
+.cmp-p{font-size:14px;margin:0 0 10px;max-width:74ch}
+.cmp-facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(178px,1fr));
+  gap:8px;margin:15px 0 4px}
+.cmp-fact{border:1px solid var(--grid);background:var(--plane);border-radius:10px;padding:8px 11px}
+.cmp-fact-l{font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);
+  margin-bottom:3px}
+.cmp-fact-v{font-size:14px;font-variant-numeric:tabular-nums}
+.cmp-a{color:var(--ink2)}
+.cmp-arrow{color:var(--axis);margin:0 5px}
+.cmp-b{font-weight:700}
+.cmp-foot{margin-top:20px;padding-top:14px;border-top:1px solid var(--grid)}

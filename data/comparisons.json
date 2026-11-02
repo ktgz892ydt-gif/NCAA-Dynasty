@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "generating": {
+    "label": "Generating AI comparison",
+    "ms": 5000,
+    "steps": [
+      "Reading the 2026 season file",
+      "Reading the 2027 season file",
+      "Aligning 125 metrics across both seasons",
+      "Ranking the differences by size",
+      "Drafting the comparison"
+    ]
+  },
+  "comparisons": [
+    {
+      "id": "2026-2027",
+      "seasons": ["2026", "2027"],
+      "label": "2026 vs 2027",
+      "standfirst": "All three programs improved, but only one of them improved for the reason its record suggests. Postseason games are excluded from every figure below, as they are everywhere else on this site.",
+      "sections": [
+        {
+          "heading": "The league moved before the teams did",
+          "body": [
+            "Scoring fell across the country, from an average of 26.3 points a game to 25.6, and the spread of team ratings tightened: the standard deviation of SRS went from 12.41 to 11.56. Fitted home-field advantage rose from 0.45 points to 0.69. None of that is about Western, Eastern or Central, but all of it shifts the baseline their numbers are measured against.",
+            "Schedule strength is the clearest trap. On paper every schedule got much harder — Central's SOS climbed from −5.43 to +0.67, a six-point swing. Measured against the field, almost nothing happened: Central went from the 35th to the 49th percentile, Western sat at the 45th percentile in both seasons. The league's average SOS itself moved from −0.87 to +0.36, which accounts for most of the apparent change.",
+            "One reason is close to home. Three of the eight biggest risers in the country are MAC teams: Central Michigan, Kent State and Buffalo. When the conference improves, everyone's schedule number improves with it."
+          ],
+          "facts": [
+            { "label": "League points per game", "kind": "eff", "metric": "league_average_points_per_game", "v26": 26.303, "v27": 25.649, "fmt": "num2" },
+            { "label": "Home-field advantage", "kind": "eff", "metric": "home_field_advantage", "v26": 0.4495, "v27": 0.6893, "fmt": "num2" },
+            { "label": "Western · SOS", "team": "W. Michigan", "metric": "sos", "v26": -4.21, "v27": -0.38, "fmt": "signed2" },
+            { "label": "Central · SOS", "team": "C. Michigan", "metric": "sos", "v26": -5.43, "v27": 0.67, "fmt": "signed2" }
+          ]
+        },
+        {
+          "heading": "Central Michigan: the biggest riser in the country",
+          "body": [
+            "Central's SRS went from 1.62 to 21.84, a gain of 20.22 points. That is the largest improvement of any of the 138 real teams, and it moved them from 62nd to 6th. Both halves of the rating contributed: adjusted offence rose from 23.3 to 34.9 points a game (92nd to 14th) and adjusted defence fell from 21.7 to 13.0 (32nd to 2nd).",
+            "The engine was the run. Rushing yards went from 1,554 to 2,185 — 85th in the country to 6th — with rushing touchdowns up from 18 to 23. Passing yardage barely moved, 1,964 to 1,891, so this was a genuine change of method rather than a rising tide. The explosiveness index, which blends yards per play with points per estimated drive, went from 12.54 to 21.34.",
+            "They also stopped giving the ball away. Interceptions thrown fell from 14 to 6 and turnover margin improved from +2 to +7. At the other end, 142 points allowed was the fewest in the country, down from 224 and from 8th to 1st. Rushing touchdowns conceded fell from 11 to 3.",
+            "Central won the conference championship and reached the College Football Playoff, losing to Tennessee in the first round."
+          ],
+          "facts": [
+            { "label": "SRS", "team": "C. Michigan", "metric": "srs", "v26": 1.62, "v27": 21.84, "fmt": "signed2" },
+            { "label": "Points scored", "team": "C. Michigan", "metric": "pts", "v26": 309, "v27": 396, "fmt": "int" },
+            { "label": "Points allowed", "team": "C. Michigan", "metric": "ptsa", "v26": 224, "v27": 142, "fmt": "int" },
+            { "label": "Rushing yards", "team": "C. Michigan", "metric": "ryds", "v26": 1554, "v27": 2185, "fmt": "int" },
+            { "label": "Rushing yards · rank", "team": "C. Michigan", "metric": "ryds", "kind": "rank", "v26": 85, "v27": 6, "fmt": "int" },
+            { "label": "Explosiveness", "team": "C. Michigan", "metric": "explo", "v26": 12.539, "v27": 21.338, "fmt": "num2" },
+            { "label": "Interceptions thrown", "team": "C. Michigan", "metric": "pint", "v26": 14, "v27": 6, "fmt": "int" },
+            { "label": "Adjusted defence", "team": "C. Michigan", "metric": "adjd", "v26": 21.66, "v27": 13.04, "fmt": "num1" }
+          ]
+        },
+        {
+          "heading": "Western Michigan: a better team, with one clear warning",
+          "body": [
+            "Western went from 9–3 to 11–1 and the rating agrees: SRS from 5.79 to 15.31, 46th to 18th, with strength of record improving from 45th to 11th. The defence did most of it — 248 points allowed became 193, which is 24th to 3rd, and adjusted defence improved from 25.0 to 17.5.",
+            "Their single biggest gain anywhere was third-down offence: 39% to 48%, which is 73rd in the country to 12th. Turnover margin also flipped from −4 to +2.",
+            "The warning is pass protection. Sacks allowed rose from 29 to 44, by far the worst movement of any measure for any of the three teams. Passing yardage slipped slightly, 2,922 to 2,845, despite the offence otherwise improving — and Western's own pass rush dropped from 27 sacks to 22. An 11–1 season hides it, but the line is the thing to watch in 2028.",
+            "Western lost the conference championship game to Central Michigan and won its bowl."
+          ],
+          "facts": [
+            { "label": "SRS", "team": "W. Michigan", "metric": "srs", "v26": 5.79, "v27": 15.31, "fmt": "signed2" },
+            { "label": "Points allowed", "team": "W. Michigan", "metric": "ptsa", "v26": 248, "v27": 193, "fmt": "int" },
+            { "label": "Points allowed · rank", "team": "W. Michigan", "metric": "ptsa", "kind": "rank", "v26": 24, "v27": 3, "fmt": "int" },
+            { "label": "3rd down rate", "team": "W. Michigan", "metric": "d3rate", "v26": 0.39, "v27": 0.48, "fmt": "pct" },
+            { "label": "3rd down · rank", "team": "W. Michigan", "metric": "d3rate", "kind": "rank", "v26": 73, "v27": 12, "fmt": "int" },
+            { "label": "Sacks allowed", "team": "W. Michigan", "metric": "sackstaken", "v26": 29, "v27": 44, "fmt": "num1" },
+            { "label": "Turnover margin", "team": "W. Michigan", "metric": "todiff", "v26": -4, "v27": 2, "fmt": "int" },
+            { "label": "SOR", "team": "W. Michigan", "metric": "sor", "v26": 45, "v27": 11, "fmt": "rank" }
+          ]
+        },
+        {
+          "heading": "Eastern Michigan: the same record, a different team",
+          "body": [
+            "Eastern finished 4–8 in both seasons, which makes it the most interesting of the three. Underneath the identical record the rating improved from −7.84 to −2.45, 98th to 79th, and seven of the eight losses were decided by eight points or fewer.",
+            "The largest single rank movement in the entire comparison belongs to Eastern: offensive efficiency, points scored per 100 yards of offence, went from 5.97 to 7.73 — 123rd in the country to 19th. The way it happened is counter-intuitive. Total offence fell sharply, from 3,183 yards to 2,612, yet points went up from 190 to 202. Eastern gained a fifth less ground and scored more with it.",
+            "That came with a change of identity. In 2026, 60% of their touchdowns came through the air; in 2027, 68% came on the ground. Rushing touchdowns went from 8 to 15 while passing touchdowns fell from 12 to 7, and rushing yards overtook a passing game that collapsed from 2,172 yards to 1,341. Protection improved enormously — sacks allowed went from 38 to 16 — and ball security with it, turnover margin from −24 to −3, the worst in the country to 100th.",
+            "The bill came on defence. The pass rush fell from 31 sacks to 18, which is 21st to 89th, passing touchdowns allowed doubled from 8 to 17, and third-down offence went the other way from their other gains, 43% down to 35% (38th to 91st). A team that is markedly better at converting yards into points, and markedly worse at stopping anyone, is how you finish 4–8 twice while genuinely improving.",
+            "Eastern did not reach a bowl."
+          ],
+          "facts": [
+            { "label": "SRS", "team": "E. Michigan", "metric": "srs", "v26": -7.84, "v27": -2.45, "fmt": "signed2" },
+            { "label": "Offensive efficiency", "team": "E. Michigan", "metric": "oeff", "v26": 5.969, "v27": 7.734, "fmt": "num2" },
+            { "label": "Offensive efficiency · rank", "team": "E. Michigan", "metric": "oeff", "kind": "rank", "v26": 123, "v27": 19, "fmt": "int" },
+            { "label": "Passing yards", "team": "E. Michigan", "metric": "pyds", "v26": 2172, "v27": 1341, "fmt": "int" },
+            { "label": "Rushing yards", "team": "E. Michigan", "metric": "ryds", "v26": 1011, "v27": 1271, "fmt": "int" },
+            { "label": "Points scored", "team": "E. Michigan", "metric": "pts", "v26": 190, "v27": 202, "fmt": "int" },
+            { "label": "Share of TDs rushing", "team": "E. Michigan", "metric": "pctrush", "v26": 0.4, "v27": 0.682, "fmt": "pct" },
+            { "label": "Sacks allowed", "team": "E. Michigan", "metric": "sackstaken", "v26": 38, "v27": 16, "fmt": "num1" },
+            { "label": "Sacks made", "team": "E. Michigan", "metric": "sacks", "v26": 31, "v27": 18, "fmt": "num1" },
+            { "label": "Turnover margin", "team": "E. Michigan", "metric": "todiff", "v26": -24, "v27": -3, "fmt": "int" }
+          ]
+        },
+        {
+          "heading": "What this comparison deliberately does not say",
+          "body": [
+            "Four of the 125 measures exist in only one season, so they are left blank rather than guessed: tackles for loss, defensive touchdowns and special-teams touchdowns were only transcribable from the 2027 screens, and the final CFP ranking has not been recorded for 2027.",
+            "There are no player trends here. Neither season's player-identity file contains a single verified cross-season link, so no individual can be followed from 2026 to 2027. The leaderboard columns also drifted: snap counts disappeared from six categories and 2026's passing rate columns are absent in 2027. Comparing those lists player by player would produce confident nonsense.",
+            "Every figure above comes from the two published season files and excludes all conference championships and bowl games, matching the regular-season boundary used throughout the site."
+          ],
+          "facts": []
+        }
+      ]
+    }
+  ]
+}
