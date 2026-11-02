@@ -1,12 +1,14 @@
 """Validate one generated season against its inputs, or the publication manifest."""
 import argparse
-from season_io import ROOT, read, season_dir, serialized, validate_output
+from season_io import ROOT, read, season_dir, serialized, generated_gap, validate_output
 from build_season import build
 
 
 def validate(season,root=ROOT):
     path=season_dir(season,root)/'season.json';published=read(path);validate_output(published)
-    if path.read_text()!=serialized(build(season,root)):raise ValueError(f'{season}: generated data is stale.')
+    if path.read_text()!=serialized(published):raise ValueError(f'{season}: season.json is not canonically formatted; rebuild it.')
+    gap=generated_gap(published,build(season,root))
+    if gap:raise ValueError(f'{season}: generated data is stale -- {gap}')
     return published
 
 

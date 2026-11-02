@@ -9,7 +9,7 @@ from build_season import build
 from init_season import initialize
 from publish_season import publish
 from preview import preview_manifest
-from season_io import ROOT, read, atomic_write, season_dir, validate_games, validate_output
+from season_io import ROOT, read, atomic_write, generated_gap, season_dir, validate_games, validate_output
 
 
 class MultiSeasonTests(unittest.TestCase):
@@ -86,6 +86,32 @@ class MultiSeasonTests(unittest.TestCase):
     def test_no_historical_correction_mode_for_new_year(self):
         folder=self.draft();meta=read(folder/'metadata.json');meta['inputMode']='legacy-2026';atomic_write(folder/'metadata.json',meta)
         with self.assertRaises(ValueError):build('2027',self.root)
+
+    def test_stale_check_tolerates_last_bit_drift_but_not_real_changes(self):
+        """season.json is compared to a fresh build, and the ratings come from
+        numpy.linalg.lstsq. Its last bits follow whichever LAPACK the installed
+        numpy links against, so an exact comparison called the data stale on any
+        machine but the one that wrote it. Real edits are orders of magnitude larger.
+        """
+        stored = read(ROOT/'data/seasons/2027/season.json')
+        drifted = copy.deepcopy(stored)
+        for row in drifted['ratings']:
+            row['srs'] += 1e-13
+            row['adjo'] -= 2e-13
+        self.assertIsNone(generated_gap(stored, drifted))
+        drifted['ratings'][0]['srs'] += 0.01
+        self.assertIn('ratings[0].srs', generated_gap(stored, drifted))
+
+    def test_stale_check_still_sees_structural_and_type_changes(self):
+        stored = read(ROOT/'data/seasons/2027/season.json')
+        dropped = copy.deepcopy(stored);dropped['ratings'].pop()
+        self.assertIn('rows stored', generated_gap(stored, dropped))
+        renamed = copy.deepcopy(stored);renamed['ratings'][0]['sos']=renamed['ratings'][0].pop('srs')
+        self.assertIn('key set differs', generated_gap(stored, renamed))
+        retyped = copy.deepcopy(stored);retyped['ratings'][0]['syn']=0
+        self.assertIsNotNone(generated_gap(stored, retyped))
+        rounded = copy.deepcopy(stored);rounded['effMethod']['sweeps']=float(rounded['effMethod']['sweeps'])
+        self.assertIn('number type changed', generated_gap(stored, rounded))
 
 
 if __name__=='__main__':unittest.main()

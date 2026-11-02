@@ -25,6 +25,47 @@ def serialized(value):
     return json.dumps(value, ensure_ascii=False, indent=2, allow_nan=False) + '\n'
 
 
+def generated_gap(stored, generated, tolerance=1e-9, where='DATA'):
+    """Describe the first disagreement between a stored season and a fresh build.
+
+    Numbers are compared with a tolerance instead of byte for byte. The ratings
+    come out of numpy.linalg.lstsq, and its last bits depend on the LAPACK the
+    installed numpy links against -- Accelerate here, OpenBLAS on the CI runner
+    -- so the same inputs serialize differently on different machines. The
+    least-squares systems are ill-conditioned enough that this reaches 1e-13.
+    Any real change to an input moves these values by far more than that.
+
+    Returns None when the two agree.
+    """
+    if isinstance(stored, dict) and isinstance(generated, dict):
+        if set(stored) != set(generated):
+            return f'{where}: key set differs at {sorted(set(stored) ^ set(generated))[:4]}'
+        for key in stored:
+            gap = generated_gap(stored[key], generated[key], tolerance, f'{where}.{key}')
+            if gap:
+                return gap
+        return None
+    if isinstance(stored, list) and isinstance(generated, list):
+        if len(stored) != len(generated):
+            return f'{where}: {len(stored)} rows stored, {len(generated)} generated'
+        for index, (a, b) in enumerate(zip(stored, generated)):
+            gap = generated_gap(a, b, tolerance, f'{where}[{index}]')
+            if gap:
+                return gap
+        return None
+    if isinstance(stored, bool) or isinstance(generated, bool):
+        return None if stored is generated else f'{where}: {stored!r} stored, {generated!r} generated'
+    if isinstance(stored, (int, float)) and isinstance(generated, (int, float)):
+        if isinstance(stored, float) != isinstance(generated, float):
+            return f'{where}: {stored!r} stored, {generated!r} generated (number type changed)'
+        if math.isclose(stored, generated, rel_tol=tolerance, abs_tol=tolerance):
+            return None
+        return f'{where}: {stored!r} stored, {generated!r} generated'
+    if stored != generated:
+        return f'{where}: {stored!r} stored, {generated!r} generated'
+    return None
+
+
 def atomic_write(path, value):
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)

@@ -2,7 +2,7 @@
 import argparse
 import copy
 from pathlib import Path
-from season_io import ROOT, read, season_dir, serialized, atomic_write, input_digest, validate_games, validate_output
+from season_io import ROOT, read, season_dir, serialized, atomic_write, generated_gap, input_digest, validate_games, validate_output
 from calculations.national import calculate
 from update_sos import update_sos, scoreboard_hash
 from update_sor import update_sor
@@ -161,7 +161,8 @@ def main():
     args=parser.parse_args()
     d=build(args.season);path=season_dir(args.season)/'season.json'
     if args.check:
-        if not path.exists() or path.read_text()!=serialized(d):raise SystemExit(f'{args.season} is stale; run scripts/build_season.py --season {args.season}')
+        gap=None if not path.exists() else generated_gap(read(path),d)
+        if not path.exists() or path.read_text()!=serialized(read(path)) or gap:raise SystemExit(f'{args.season} is stale; run scripts/build_season.py --season {args.season}'+(f' -- {gap}' if gap else ''))
         print(f'{args.season}: generated season is current.')
     else:
         atomic_write(path,d);print(f'Built {args.season}; other seasons and publication manifest unchanged.')

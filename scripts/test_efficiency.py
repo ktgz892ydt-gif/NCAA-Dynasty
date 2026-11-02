@@ -1,4 +1,5 @@
 """Checks on the opponent-adjusted offensive and defensive ratings."""
+import builtins
 import copy
 import json
 import unittest
@@ -75,6 +76,37 @@ class EfficiencyTests(unittest.TestCase):
         once = update_efficiency(copy.deepcopy(self.data))
         twice = update_efficiency(copy.deepcopy(once))
         self.assertEqual(once, twice)
+
+    def test_solve_does_not_depend_on_summation_order(self):
+        """CPython 3.12 compensates float error inside sum(), so a plain sum()
+        here put a different last bit in every rating depending on which
+        interpreter built the season. validate_season.py compares the stored
+        season.json byte for byte, so that drift failed CI on the 3.12 runner
+        while passing locally. math.fsum is exactly rounded on every version.
+        """
+        rows = observations(self.data)
+        expected = solve(rows, self.teams, self.hfa)
+        plain = builtins.sum
+        self.addCleanup(setattr, builtins, 'sum', plain)
+
+        def compensated(iterable, start=0):
+            """Neumaier summation, the way 3.12's sum() treats floats."""
+            items = list(iterable)
+            if not any(type(x) is float for x in items):
+                return plain(items, start)
+            total, carry = float(start), 0.0
+            for x in items:
+                x = float(x)
+                moved = total + x
+                if abs(total) >= abs(x):
+                    carry += (total - moved) + x
+                else:
+                    carry += (x - moved) + total
+                total = moved
+            return total + carry
+
+        builtins.sum = compensated
+        self.assertEqual(solve(rows, self.teams, self.hfa), expected)
 
 
 if __name__ == '__main__':

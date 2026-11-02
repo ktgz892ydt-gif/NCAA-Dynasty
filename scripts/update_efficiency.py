@@ -21,6 +21,7 @@ attempts. These ratings are therefore per game, and say so.
 """
 import argparse
 import json
+import math
 from season_io import ROOT
 
 
@@ -50,26 +51,26 @@ def solve(rows, teams, home_field, tolerance=1e-13, limit=1000):
         conceded[position[defence]].append(k)
 
     offence, defence = [0.0] * n, [0.0] * n
-    mu = sum(r[0] for r in rows) / len(rows)
+    mu = math.fsum(r[0] for r in rows) / len(rows)
     for sweep in range(1, limit + 1):
         moved = 0.0
         for i in range(n):
             games = scored[i]
             if not games:
                 continue
-            value = sum(rows[k][0] - mu - defence[position[rows[k][2]]] - home_field * rows[k][3]
-                        for k in games) / len(games)
+            value = math.fsum(rows[k][0] - mu - defence[position[rows[k][2]]] - home_field * rows[k][3]
+                             for k in games) / len(games)
             moved = max(moved, abs(value - offence[i]))
             offence[i] = value
         for i in range(n):
             games = conceded[i]
             if not games:
                 continue
-            value = sum(rows[k][0] - mu - offence[position[rows[k][1]]] - home_field * rows[k][3]
-                        for k in games) / len(games)
+            value = math.fsum(rows[k][0] - mu - offence[position[rows[k][1]]] - home_field * rows[k][3]
+                             for k in games) / len(games)
             moved = max(moved, abs(value - defence[i]))
             defence[i] = value
-        off_mean, def_mean = sum(offence) / n, sum(defence) / n
+        off_mean, def_mean = math.fsum(offence) / n, math.fsum(defence) / n
         offence = [v - off_mean for v in offence]
         defence = [v - def_mean for v in defence]
         mu += off_mean + def_mean
