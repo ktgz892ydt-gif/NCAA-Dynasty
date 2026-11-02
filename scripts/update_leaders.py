@@ -72,11 +72,11 @@ def derive(category, rows):
     for row in rows:
         v = row['values']
         for name, formula in recipe:
-            v[name] = formula(v)
+            v[name] = (None if category == 'RECEIVING' and any(v.get(k) is None for k in ['YARDS','RAC','REC']) else formula(v))
         if recipe and category == 'RECEIVING':
-            if not 0 <= v['AIR YDS'] <= v['YARDS']:
-                raise ValueError(f'{category} {row["name"]}: air yards outside 0..YARDS')
-            if v['RAC'] + v['AIR YDS'] != v['YARDS']:
+            # A reception behind the line can have RAC greater than net receiving yards.
+            # Preserve signed contributions instead of rejecting a valid source row.
+            if v['AIR YDS'] is not None and v['RAC'] + v['AIR YDS'] != v['YARDS']:
                 raise ValueError(f'{category} {row["name"]}: air yards and RAC do not sum to YARDS')
     return [name for name, _ in recipe]
 
@@ -93,7 +93,8 @@ def apply(data, sources):
             raise ValueError(f'{category} columns no longer match DATA.')
         check_identities(source)
         leaders[category]['rows'] = [
-            {'name': r['name'], 'pos': r['pos'], 'team': r['team'], 'values': dict(r['values'])}
+            {'name': r['name'], 'pos': r['pos'], 'team': r['team'], 'values': dict(r['values']),
+             **{k:r[k] for k in ['estimate','estimatedFields','note'] if k in r}}
             for r in source['rows']]
         derived = derive(category, leaders[category]['rows'])
         leaders[category]['columns'] = list(source['columns']) + derived

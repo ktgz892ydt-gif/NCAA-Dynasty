@@ -1,0 +1,1246 @@
+[
+  {
+    "team": "Western Michigan",
+    "category": "DEFENSE",
+    "name": "M.Davis",
+    "field": "TD",
+    "value": 0,
+    "source": "IMG_5598.MOV 44s: M. Davis row, TD column shows zero."
+  },
+  {
+    "team": "Western Michigan",
+    "category": "KICKING",
+    "name": "N.Hancock",
+    "pos": "K",
+    "field": "XPB",
+    "value": 0,
+    "source": "Matching national season row; at least three independent nonzero values agree.",
+    "frames": [
+      [
+        5609,
+        20
+      ],
+      [
+        5609,
+        21
+      ],
+      [
+        5609,
+        40
+      ],
+      [
+        5609,
+        41
+      ],
+      [
+        5609,
+        84
+      ],
+      [
+        5609,
+        85
+      ],
+      [
+        5609,
+        100
+      ],
+      [
+        5609,
+        101
+      ]
+    ]
+  },
+  {
+    "team": "Western Michigan",
+    "category": "KICKING",
+    "name": "N.Hancock",
+    "pos": "K",
+    "field": "FGM49",
+    "value": 1,
+    "source": "Matching national season row; at least three independent nonzero values agree.",
+    "frames": [
+      [
+        5609,
+        20
+      ],
+      [
+        5609,
+        21
+      ],
+      [
+        5609,
+        40
+      ],
+      [
+        5609,
+        41
+      ],
+      [
+        5609,
+        84
+      ],
+      [
+        5609,
+        85
+      ],
+      [
+        5609,
+        100
+      ],
+      [
+        5609,
+        101
+      ]
+    ]
+  },
+  {
+    "team": "Western Michigan",
+    "category": "KICKING",
+    "name": "N.Hancock",
+    "pos": "K",
+    "field": "FGM50",
+    "value": 0,
+    "source": "Matching national season row; at least three independent nonzero values agree.",
+    "frames": [
+      [
+        5609,
+        20
+      ],
+      [
+        5609,
+        21
+      ],
+      [
+        5609,
+        40
+      ],
+      [
+        5609,
+        41
+      ],
+      [
+        5609,
+        84
+      ],
+      [
+        5609,
+        85
+      ],
+      [
+        5609,
+        100
+      ],
+      [
+        5609,
+        101
+      ]
+    ]
+  },
+  {
+    "team": "Western Michigan",
+    "category": "KICKING",
+    "name": "N.Hancock",
+    "pos": "K",
+    "field": "SNAPS",
+    "value": 63,
+    "source": "Matching national season row; at least three independent nonzero values agree.",
+    "frames": [
+      [
+        5609,
+        20
+      ],
+      [
+        5609,
+        21
+      ],
+      [
+        5609,
+        40
+      ],
+      [
+        5609,
+        41
+      ],
+      [
+        5609,
+        84
+      ],
+      [
+        5609,
+        85
+      ],
+      [
+        5609,
+        100
+      ],
+      [
+        5609,
+        101
+      ]
+    ]
+  },
+  {
+    "team": "Western Michigan",
+    "category": "KICKING",
+    "name": "N.Hancock",
+    "pos": "K",
+    "field": "FGA39",
+    "value": 4,
+    "source": "Matching national season row; at least three independent nonzero values agree.",
+    "frames": [
+      [
+        5609,
+        20
+      ],
+      [
+        5609,
+        21
+      ],
+      [
+        5609,
+        40
+      ],
+      [
+        5609,
+        41
+      ],
+      [
+        5609,
+        84
+      ],
+      [
+        5609,
+        85
+      ],
+      [
+        5609,
+        100
+      ],
+      [
+        5609,
+        101
+      ]
+    ]
+  },
+  {
+    "team": "Western Michigan",
+    "category": "KICKING",
+    "name": "N.Hancock",
+    "pos": "K",
+    "field": "FGA50",
+    "value": 1,
+    "source": "Matching national season row; at least three independent nonzero values agree.",
+    "frames": [
+      [
+        5609,
+        20
+      ],
+      [
+        5609,
+        21
+      ],
+      [
+        5609,
+        40
+      ],
+      [
+        5609,
+        41
+      ],
+      [
+        5609,
+        84
+      ],
+      [
+        5609,
+        85
+      ],
+      [
+        5609,
+        100
+      ],
+      [
+        5609,
+        101
+      ]
+    ]
+  },
+  {
+    "team": "Western Michigan",
+    "category": "KICKING",
+    "name": "R.Millmore",
+    "field": "FGM39",
+    "value": 0,
+    "source": "Unique remainder from total minus other distance buckets."
+  },
+  {
+    "team": "Western Michigan",
+    "category": "KICKING",
+    "name": "R.Millmore",
+    "field": "FGA29",
+    "value": 0,
+    "source": "Unique remainder from total minus other distance buckets."
+  },
+  {
+    "team": "Western Michigan",
+    "category": "PUNT RETURN",
+    "name": "C.Barnett",
+    "pos": "WR",
+    "field": "PR",
+    "value": 9,
+    "source": "Matching national season row; at least three independent nonzero values agree.",
+    "frames": [
+      [
+        5612,
+        0
+      ],
+      [
+        5612,
+        1
+      ],
+      [
+        5612,
+        2
+      ],
+      [
+        5612,
+        3
+      ],
+      [
+        5612,
+        7
+      ],
+      [
+        5612,
+        8
+      ],
+      [
+        5612,
+        9
+      ]
+    ]
+  },
+  {
+    "team": "Western Michigan",
+    "category": "PUNT RETURN",
+    "name": "C.Cabana",
+    "pos": "HB",
+    "field": "TD",
+    "value": 0,
+    "source": "Matching national season row; at least three independent nonzero values agree.",
+    "frames": [
+      [
+        5612,
+        0
+      ],
+      [
+        5612,
+        1
+      ],
+      [
+        5612,
+        2
+      ],
+      [
+        5612,
+        8
+      ],
+      [
+        5612,
+        9
+      ]
+    ]
+  },
+  {
+    "team": "Western Michigan",
+    "category": "PUNT RETURN",
+    "name": "C.Cabana",
+    "pos": "HB",
+    "field": "PR",
+    "value": 25,
+    "source": "Matching national season row; at least three independent nonzero values agree.",
+    "frames": [
+      [
+        5612,
+        0
+      ],
+      [
+        5612,
+        1
+      ],
+      [
+        5612,
+        2
+      ],
+      [
+        5612,
+        8
+      ],
+      [
+        5612,
+        9
+      ]
+    ]
+  },
+  {
+    "team": "Western Michigan",
+    "category": "RUSHING",
+    "name": "S.Orr",
+    "pos": "HB",
+    "field": "SNAPS",
+    "value": 79,
+    "source": "Matching national season row; at least three independent nonzero values agree.",
+    "frames": [
+      [
+        5605,
+        43
+      ],
+      [
+        5605,
+        44
+      ],
+      [
+        5605,
+        146
+      ],
+      [
+        5605,
+        147
+      ],
+      [
+        5605,
+        148
+      ],
+      [
+        5605,
+        149
+      ]
+    ]
+  },
+  {
+    "team": "Western Michigan",
+    "category": "RUSHING",
+    "name": "S.Orr",
+    "pos": "HB",
+    "field": "FUM %",
+    "value": 0.0,
+    "source": "Matching national season row; at least three independent nonzero values agree.",
+    "frames": [
+      [
+        5605,
+        43
+      ],
+      [
+        5605,
+        44
+      ],
+      [
+        5605,
+        146
+      ],
+      [
+        5605,
+        147
+      ],
+      [
+        5605,
+        148
+      ],
+      [
+        5605,
+        149
+      ]
+    ]
+  },
+  {
+    "team": "Western Michigan",
+    "category": "RUSHING",
+    "name": "S.Orr",
+    "pos": "HB",
+    "field": "FUMB",
+    "value": 0,
+    "source": "Matching national season row; at least three independent nonzero values agree.",
+    "frames": [
+      [
+        5605,
+        43
+      ],
+      [
+        5605,
+        44
+      ],
+      [
+        5605,
+        146
+      ],
+      [
+        5605,
+        147
+      ],
+      [
+        5605,
+        148
+      ],
+      [
+        5605,
+        149
+      ]
+    ]
+  },
+  {
+    "team": "Central Michigan",
+    "category": "KICKING",
+    "name": "C.VanHuis",
+    "pos": "K",
+    "field": "FGA29",
+    "value": 7,
+    "source": "Matching national season row; at least three independent nonzero values agree.",
+    "frames": [
+      [
+        5609,
+        4
+      ],
+      [
+        5609,
+        5
+      ],
+      [
+        5609,
+        56
+      ],
+      [
+        5609,
+        57
+      ],
+      [
+        5609,
+        68
+      ],
+      [
+        5609,
+        69
+      ],
+      [
+        5609,
+        114
+      ],
+      [
+        5609,
+        115
+      ]
+    ]
+  },
+  {
+    "team": "Central Michigan",
+    "category": "KICKING",
+    "name": "C.VanHuis",
+    "pos": "K",
+    "field": "FG BLK",
+    "value": 0,
+    "source": "Matching national season row; at least three independent nonzero values agree.",
+    "frames": [
+      [
+        5609,
+        4
+      ],
+      [
+        5609,
+        5
+      ],
+      [
+        5609,
+        56
+      ],
+      [
+        5609,
+        57
+      ],
+      [
+        5609,
+        68
+      ],
+      [
+        5609,
+        69
+      ],
+      [
+        5609,
+        114
+      ],
+      [
+        5609,
+        115
+      ]
+    ]
+  },
+  {
+    "team": "Central Michigan",
+    "category": "KICKING",
+    "name": "C.VanHuis",
+    "pos": "K",
+    "field": "SNAPS",
+    "value": 29,
+    "source": "Matching national season row; at least three independent nonzero values agree.",
+    "frames": [
+      [
+        5609,
+        4
+      ],
+      [
+        5609,
+        5
+      ],
+      [
+        5609,
+        56
+      ],
+      [
+        5609,
+        57
+      ],
+      [
+        5609,
+        68
+      ],
+      [
+        5609,
+        69
+      ],
+      [
+        5609,
+        114
+      ],
+      [
+        5609,
+        115
+      ]
+    ]
+  },
+  {
+    "team": "Central Michigan",
+    "category": "KICKING",
+    "name": "D.Duley",
+    "field": "FGA39",
+    "value": 0,
+    "source": "Unique remainder from total minus other distance buckets."
+  },
+  {
+    "team": "Central Michigan",
+    "category": "PUNT RETURN",
+    "name": "C.Kruisenga",
+    "pos": "WR",
+    "field": "TD",
+    "value": 0,
+    "source": "Matching national season row; at least three independent nonzero values agree.",
+    "frames": [
+      [
+        5612,
+        0
+      ],
+      [
+        5612,
+        1
+      ],
+      [
+        5612,
+        2
+      ],
+      [
+        5612,
+        8
+      ],
+      [
+        5612,
+        9
+      ]
+    ]
+  },
+  {
+    "team": "Central Michigan",
+    "category": "PUNTING",
+    "name": "D.Duley",
+    "pos": "P",
+    "field": "SNAPS",
+    "value": 142,
+    "source": "Matching national season row; at least three independent nonzero values agree.",
+    "frames": [
+      [
+        5610,
+        25
+      ],
+      [
+        5610,
+        26
+      ],
+      [
+        5610,
+        27
+      ],
+      [
+        5610,
+        28
+      ],
+      [
+        5610,
+        29
+      ],
+      [
+        5610,
+        30
+      ],
+      [
+        5610,
+        31
+      ]
+    ]
+  },
+  {
+    "team": "Central Michigan",
+    "category": "PUNTING",
+    "name": "D.Duley",
+    "pos": "P",
+    "field": "BLOCK",
+    "value": 0,
+    "source": "Matching national season row; at least three independent nonzero values agree.",
+    "frames": [
+      [
+        5610,
+        25
+      ],
+      [
+        5610,
+        26
+      ],
+      [
+        5610,
+        27
+      ],
+      [
+        5610,
+        28
+      ],
+      [
+        5610,
+        29
+      ],
+      [
+        5610,
+        30
+      ],
+      [
+        5610,
+        31
+      ]
+    ]
+  },
+  {
+    "team": "Central Michigan",
+    "category": "RUSHING",
+    "name": "V.Blue",
+    "pos": "HB",
+    "field": "FUMB",
+    "value": 1,
+    "source": "Matching national season row; at least three independent nonzero values agree.",
+    "frames": [
+      [
+        5605,
+        5
+      ],
+      [
+        5605,
+        6
+      ],
+      [
+        5605,
+        7
+      ],
+      [
+        5605,
+        183
+      ],
+      [
+        5605,
+        184
+      ]
+    ]
+  },
+  {
+    "team": "Eastern Michigan",
+    "category": "KICK RETURN",
+    "name": "M.Antwine",
+    "pos": "WR",
+    "field": "TD",
+    "value": 0,
+    "source": "Matching national season row; at least three independent nonzero values agree.",
+    "frames": [
+      [
+        5611,
+        54.5
+      ],
+      [
+        5611,
+        54.75
+      ],
+      [
+        5611,
+        55
+      ],
+      [
+        5611,
+        55.25
+      ],
+      [
+        5611,
+        55.5
+      ],
+      [
+        5611,
+        55.75
+      ],
+      [
+        5611,
+        56
+      ],
+      [
+        5611,
+        56.25
+      ],
+      [
+        5611,
+        56.5
+      ],
+      [
+        5611,
+        56.75
+      ],
+      [
+        5611,
+        57
+      ]
+    ]
+  },
+  {
+    "team": "Eastern Michigan",
+    "category": "KICKING",
+    "name": "R.Kessinger",
+    "pos": "K",
+    "field": "FG BLK",
+    "value": 0,
+    "source": "Matching national season row; at least three independent nonzero values agree.",
+    "frames": [
+      [
+        5609,
+        16
+      ],
+      [
+        5609,
+        17
+      ],
+      [
+        5609,
+        18
+      ],
+      [
+        5609,
+        44
+      ],
+      [
+        5609,
+        80
+      ],
+      [
+        5609,
+        81
+      ],
+      [
+        5609,
+        82
+      ],
+      [
+        5609,
+        103
+      ]
+    ]
+  },
+  {
+    "team": "Eastern Michigan",
+    "category": "KICKING",
+    "name": "R.Kessinger",
+    "pos": "K",
+    "field": "FGA39",
+    "value": 4,
+    "source": "Matching national season row; at least three independent nonzero values agree.",
+    "frames": [
+      [
+        5609,
+        16
+      ],
+      [
+        5609,
+        17
+      ],
+      [
+        5609,
+        18
+      ],
+      [
+        5609,
+        44
+      ],
+      [
+        5609,
+        80
+      ],
+      [
+        5609,
+        81
+      ],
+      [
+        5609,
+        82
+      ],
+      [
+        5609,
+        103
+      ]
+    ]
+  },
+  {
+    "team": "Eastern Michigan",
+    "category": "PASSING",
+    "name": "B.Barnett",
+    "pos": "QB",
+    "field": "SNAPS",
+    "value": 517,
+    "source": "Matching national season row; at least three independent nonzero values agree.",
+    "frames": [
+      [
+        5604,
+        27
+      ],
+      [
+        5604,
+        28
+      ],
+      [
+        5604,
+        84
+      ],
+      [
+        5604,
+        85
+      ]
+    ]
+  },
+  {
+    "team": "Eastern Michigan",
+    "category": "PUNT RETURN",
+    "name": "M.Antwine",
+    "pos": "WR",
+    "field": "TD",
+    "value": 0,
+    "source": "Matching national season row; at least three independent nonzero values agree.",
+    "frames": [
+      [
+        5612,
+        0
+      ],
+      [
+        5612,
+        1
+      ],
+      [
+        5612,
+        2
+      ],
+      [
+        5612,
+        8
+      ],
+      [
+        5612,
+        9
+      ]
+    ]
+  },
+  {
+    "team": "Eastern Michigan",
+    "category": "PUNT RETURN",
+    "name": "M.Antwine",
+    "pos": "WR",
+    "field": "PR",
+    "value": 18,
+    "source": "Matching national season row; at least three independent nonzero values agree.",
+    "frames": [
+      [
+        5612,
+        0
+      ],
+      [
+        5612,
+        1
+      ],
+      [
+        5612,
+        2
+      ],
+      [
+        5612,
+        8
+      ],
+      [
+        5612,
+        9
+      ]
+    ]
+  },
+  {
+    "team": "Eastern Michigan",
+    "category": "PUNTING",
+    "name": "D.Hull",
+    "pos": "P",
+    "field": "SNAPS",
+    "value": 43,
+    "source": "Matching national season row; at least three independent nonzero values agree.",
+    "frames": [
+      [
+        5610,
+        26
+      ],
+      [
+        5610,
+        27
+      ],
+      [
+        5610,
+        28
+      ],
+      [
+        5610,
+        29
+      ],
+      [
+        5610,
+        30
+      ],
+      [
+        5610,
+        31
+      ]
+    ]
+  },
+  {
+    "team": "Eastern Michigan",
+    "category": "PUNTING",
+    "name": "D.Hull",
+    "pos": "P",
+    "field": "BLOCK",
+    "value": 0,
+    "source": "Matching national season row; at least three independent nonzero values agree.",
+    "frames": [
+      [
+        5610,
+        26
+      ],
+      [
+        5610,
+        27
+      ],
+      [
+        5610,
+        28
+      ],
+      [
+        5610,
+        29
+      ],
+      [
+        5610,
+        30
+      ],
+      [
+        5610,
+        31
+      ]
+    ]
+  },
+  {
+    "team": "Eastern Michigan",
+    "category": "RUSHING",
+    "name": "C.Thomas",
+    "pos": "HB",
+    "field": "SNAPS",
+    "value": 310,
+    "source": "Matching national season row; at least three independent nonzero values agree.",
+    "frames": [
+      [
+        5605,
+        63
+      ],
+      [
+        5605,
+        64
+      ],
+      [
+        5605,
+        65
+      ],
+      [
+        5605,
+        66
+      ],
+      [
+        5605,
+        125
+      ],
+      [
+        5605,
+        126
+      ],
+      [
+        5605,
+        127
+      ]
+    ]
+  },
+  {
+    "team": "Eastern Michigan",
+    "category": "RUSHING",
+    "name": "C.Thomas",
+    "pos": "HB",
+    "field": "FUM %",
+    "value": 0.0,
+    "source": "Matching national season row; at least three independent nonzero values agree.",
+    "frames": [
+      [
+        5605,
+        63
+      ],
+      [
+        5605,
+        64
+      ],
+      [
+        5605,
+        65
+      ],
+      [
+        5605,
+        66
+      ],
+      [
+        5605,
+        125
+      ],
+      [
+        5605,
+        126
+      ],
+      [
+        5605,
+        127
+      ]
+    ]
+  },
+  {
+    "team": "Eastern Michigan",
+    "category": "RUSHING",
+    "name": "C.Thomas",
+    "pos": "HB",
+    "field": "FUMB",
+    "value": 0,
+    "source": "Matching national season row; at least three independent nonzero values agree.",
+    "frames": [
+      [
+        5605,
+        63
+      ],
+      [
+        5605,
+        64
+      ],
+      [
+        5605,
+        65
+      ],
+      [
+        5605,
+        66
+      ],
+      [
+        5605,
+        125
+      ],
+      [
+        5605,
+        126
+      ],
+      [
+        5605,
+        127
+      ]
+    ]
+  },
+  {
+    "team": "Eastern Michigan",
+    "category": "RUSHING",
+    "name": "H.Mack",
+    "pos": "HB",
+    "field": "SNAPS",
+    "value": 473,
+    "source": "Matching national season row; at least three independent nonzero values agree.",
+    "frames": [
+      [
+        5605,
+        18
+      ],
+      [
+        5605,
+        19
+      ],
+      [
+        5605,
+        20
+      ],
+      [
+        5605,
+        171
+      ],
+      [
+        5605,
+        172
+      ]
+    ]
+  },
+  {
+    "team": "Eastern Michigan",
+    "category": "RUSHING",
+    "name": "H.Mack",
+    "pos": "HB",
+    "field": "FUM %",
+    "value": 0.0,
+    "source": "Matching national season row; at least three independent nonzero values agree.",
+    "frames": [
+      [
+        5605,
+        18
+      ],
+      [
+        5605,
+        19
+      ],
+      [
+        5605,
+        20
+      ],
+      [
+        5605,
+        171
+      ],
+      [
+        5605,
+        172
+      ]
+    ]
+  }
+]

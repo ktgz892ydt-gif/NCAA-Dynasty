@@ -1,0 +1,1682 @@
+{
+  "oeff": [
+    {
+      "t": "Central Michigan",
+      "v": 9.71540726202159
+    },
+    {
+      "t": "Texas Tech",
+      "v": 8.916177255739456
+    },
+    {
+      "t": "LSU",
+      "v": 8.755462048875222
+    },
+    {
+      "t": "Miami",
+      "v": 8.585672082717872
+    },
+    {
+      "t": "Notre Dame",
+      "v": 8.42082708377973
+    },
+    {
+      "t": "TCU",
+      "v": 8.359912707738795
+    },
+    {
+      "t": "Alabama",
+      "v": 8.330353950661424
+    },
+    {
+      "t": "Texas",
+      "v": 8.324382384532761
+    },
+    {
+      "t": "Penn State",
+      "v": 8.243872797245292
+    },
+    {
+      "t": "South Carolina",
+      "v": 8.226691042047532
+    }
+  ],
+  "deff": [
+    {
+      "t": "Miami",
+      "v": 4.475635593220339
+    },
+    {
+      "t": "Notre Dame",
+      "v": 4.532710280373832
+    },
+    {
+      "t": "Coastal Carolina",
+      "v": 4.818988252217694
+    },
+    {
+      "t": "Nebraska",
+      "v": 4.974226804123711
+    },
+    {
+      "t": "Toledo",
+      "v": 5.167014613778706
+    },
+    {
+      "t": "North Dakota State",
+      "v": 5.216251638269987
+    },
+    {
+      "t": "Louisville",
+      "v": 5.403556771545827
+    },
+    {
+      "t": "Central Michigan",
+      "v": 5.469953775038521
+    },
+    {
+      "t": "Duke",
+      "v": 5.48651817116061
+    },
+    {
+      "t": "Pittsburgh",
+      "v": 5.532094594594595
+    }
+  ],
+  "p2r": [
+    {
+      "t": "Hawai'i",
+      "v": 9.197889182058047
+    },
+    {
+      "t": "Colorado State",
+      "v": 5.990223463687151
+    },
+    {
+      "t": "Kent State",
+      "v": 4.056872037914692
+    },
+    {
+      "t": "UTEP",
+      "v": 3.888068880688807
+    },
+    {
+      "t": "Baylor",
+      "v": 3.864644107351225
+    },
+    {
+      "t": "Florida State",
+      "v": 3.6646706586826348
+    },
+    {
+      "t": "Western Kentucky",
+      "v": 3.5873015873015874
+    },
+    {
+      "t": "Mississippi State",
+      "v": 3.1853035143769968
+    },
+    {
+      "t": "San Jose State",
+      "v": 3.1603694374475233
+    },
+    {
+      "t": "Stanford",
+      "v": 2.970664365832614
+    }
+  ],
+  "todiff": [
+    {
+      "t": "Miami",
+      "v": 23
+    },
+    {
+      "t": "Alabama",
+      "v": 18
+    },
+    {
+      "t": "Arkansas State",
+      "v": 17
+    },
+    {
+      "t": "Virginia",
+      "v": 17
+    },
+    {
+      "t": "Florida",
+      "v": 16
+    },
+    {
+      "t": "LSU",
+      "v": 16
+    },
+    {
+      "t": "Penn State",
+      "v": 16
+    },
+    {
+      "t": "Rutgers",
+      "v": 16
+    },
+    {
+      "t": "TCU",
+      "v": 15
+    },
+    {
+      "t": "Air Force",
+      "v": 14
+    }
+  ],
+  "d3rate": [
+    {
+      "t": "LSU",
+      "v": 0.5527950310559007
+    },
+    {
+      "t": "Alabama",
+      "v": 0.5521472392638037
+    },
+    {
+      "t": "Texas",
+      "v": 0.5481927710843374
+    },
+    {
+      "t": "Tennessee",
+      "v": 0.5287356321839081
+    },
+    {
+      "t": "Central Michigan",
+      "v": 0.5238095238095238
+    },
+    {
+      "t": "BYU",
+      "v": 0.5220125786163522
+    },
+    {
+      "t": "TCU",
+      "v": 0.5117647058823529
+    },
+    {
+      "t": "Nebraska",
+      "v": 0.49696969696969695
+    },
+    {
+      "t": "Florida",
+      "v": 0.4945054945054945
+    },
+    {
+      "t": "Miami",
+      "v": 0.48466257668711654
+    }
+  ],
+  "d4rate": [
+    {
+      "t": "Georgia Tech",
+      "v": 4.7368421052631575
+    },
+    {
+      "t": "LSU",
+      "v": 0.8333333333333334
+    },
+    {
+      "t": "Texas Tech",
+      "v": 0.8
+    },
+    {
+      "t": "Indiana",
+      "v": 0.7777777777777778
+    },
+    {
+      "t": "Florida State",
+      "v": 0.7692307692307693
+    },
+    {
+      "t": "Ohio State",
+      "v": 0.7692307692307693
+    },
+    {
+      "t": "Louisville",
+      "v": 0.75
+    },
+    {
+      "t": "North Texas",
+      "v": 0.75
+    },
+    {
+      "t": "South Carolina",
+      "v": 0.7368421052631579
+    },
+    {
+      "t": "USF",
+      "v": 0.7272727272727273
+    }
+  ],
+  "rzrate": [
+    {
+      "t": "Oregon",
+      "v": 0.8431372549019608
+    },
+    {
+      "t": "North Carolina",
+      "v": 0.8387096774193549
+    },
+    {
+      "t": "UCF",
+      "v": 0.8205128205128205
+    },
+    {
+      "t": "LSU",
+      "v": 0.819672131147541
+    },
+    {
+      "t": "Western Michigan",
+      "v": 0.8166666666666667
+    },
+    {
+      "t": "Oklahoma",
+      "v": 0.8163265306122449
+    },
+    {
+      "t": "East Carolina",
+      "v": 0.8125
+    },
+    {
+      "t": "Appalachian State",
+      "v": 0.8055555555555556
+    },
+    {
+      "t": "Arizona State",
+      "v": 0.8
+    },
+    {
+      "t": "New Mexico",
+      "v": 0.8
+    }
+  ],
+  "pts2": [
+    {
+      "t": "LSU",
+      "v": 541
+    },
+    {
+      "t": "Texas Tech",
+      "v": 501
+    },
+    {
+      "t": "TCU",
+      "v": 498
+    },
+    {
+      "t": "Tennessee",
+      "v": 493
+    },
+    {
+      "t": "Alabama",
+      "v": 466
+    },
+    {
+      "t": "Miami",
+      "v": 465
+    },
+    {
+      "t": "Texas",
+      "v": 465
+    },
+    {
+      "t": "South Carolina",
+      "v": 450
+    },
+    {
+      "t": "BYU",
+      "v": 436
+    },
+    {
+      "t": "Florida Atlantic",
+      "v": 428
+    }
+  ],
+  "ttd": [
+    {
+      "t": "LSU",
+      "v": 71
+    },
+    {
+      "t": "Texas Tech",
+      "v": 66
+    },
+    {
+      "t": "TCU",
+      "v": 65
+    },
+    {
+      "t": "Tennessee",
+      "v": 63
+    },
+    {
+      "t": "Alabama",
+      "v": 60
+    },
+    {
+      "t": "Texas",
+      "v": 60
+    },
+    {
+      "t": "Miami",
+      "v": 58
+    },
+    {
+      "t": "BYU",
+      "v": 57
+    },
+    {
+      "t": "South Carolina",
+      "v": 57
+    },
+    {
+      "t": "Florida Atlantic",
+      "v": 52
+    }
+  ],
+  "pctpass": [
+    {
+      "t": "Hawai'i",
+      "v": 0.7741935483870968
+    },
+    {
+      "t": "North Carolina",
+      "v": 0.7352941176470589
+    },
+    {
+      "t": "Miami University",
+      "v": 0.7307692307692307
+    },
+    {
+      "t": "Kent State",
+      "v": 0.7142857142857143
+    },
+    {
+      "t": "Northwestern",
+      "v": 0.7096774193548387
+    },
+    {
+      "t": "Louisville",
+      "v": 0.6956521739130435
+    },
+    {
+      "t": "Western Kentucky",
+      "v": 0.6785714285714286
+    },
+    {
+      "t": "Florida State",
+      "v": 0.6744186046511628
+    },
+    {
+      "t": "Stanford",
+      "v": 0.65625
+    },
+    {
+      "t": "Miami",
+      "v": 0.6551724137931034
+    }
+  ],
+  "pctrush": [
+    {
+      "t": "Southern Mississippi",
+      "v": 0.725
+    },
+    {
+      "t": "Army",
+      "v": 0.7222222222222222
+    },
+    {
+      "t": "Navy",
+      "v": 0.6875
+    },
+    {
+      "t": "Eastern Michigan",
+      "v": 0.6818181818181818
+    },
+    {
+      "t": "Jacksonville State",
+      "v": 0.6666666666666666
+    },
+    {
+      "t": "New Mexico",
+      "v": 0.6666666666666666
+    },
+    {
+      "t": "Texas State",
+      "v": 0.6666666666666666
+    },
+    {
+      "t": "UConn",
+      "v": 0.6666666666666666
+    },
+    {
+      "t": "James Madison",
+      "v": 0.6538461538461539
+    },
+    {
+      "t": "Ohio",
+      "v": 0.6538461538461539
+    }
+  ],
+  "fd": [
+    {
+      "t": "Western Michigan",
+      "v": 304
+    },
+    {
+      "t": "Tennessee",
+      "v": 281
+    },
+    {
+      "t": "LSU",
+      "v": 263
+    },
+    {
+      "t": "Alabama",
+      "v": 253
+    },
+    {
+      "t": "TCU",
+      "v": 246
+    },
+    {
+      "t": "BYU",
+      "v": 245
+    },
+    {
+      "t": "Texas",
+      "v": 245
+    },
+    {
+      "t": "Central Michigan",
+      "v": 244
+    },
+    {
+      "t": "Southern Mississippi",
+      "v": 244
+    },
+    {
+      "t": "Florida Atlantic",
+      "v": 237
+    }
+  ],
+  "pyds": [
+    {
+      "t": "LSU",
+      "v": 4441
+    },
+    {
+      "t": "Colorado State",
+      "v": 4289
+    },
+    {
+      "t": "Mississippi State",
+      "v": 3988
+    },
+    {
+      "t": "South Carolina",
+      "v": 3824
+    },
+    {
+      "t": "Tennessee",
+      "v": 3802
+    },
+    {
+      "t": "Syracuse",
+      "v": 3795
+    },
+    {
+      "t": "San Jose State",
+      "v": 3764
+    },
+    {
+      "t": "Nebraska",
+      "v": 3750
+    },
+    {
+      "t": "Florida Atlantic",
+      "v": 3748
+    },
+    {
+      "t": "Southern Mississippi",
+      "v": 3712
+    }
+  ],
+  "ptd": [
+    {
+      "t": "LSU",
+      "v": 44
+    },
+    {
+      "t": "Miami",
+      "v": 38
+    },
+    {
+      "t": "Louisville",
+      "v": 32
+    },
+    {
+      "t": "TCU",
+      "v": 32
+    },
+    {
+      "t": "Georgia",
+      "v": 31
+    },
+    {
+      "t": "Penn State",
+      "v": 31
+    },
+    {
+      "t": "Arkansas State",
+      "v": 29
+    },
+    {
+      "t": "BYU",
+      "v": 29
+    },
+    {
+      "t": "Florida State",
+      "v": 29
+    },
+    {
+      "t": "Texas Tech",
+      "v": 29
+    }
+  ],
+  "ryds": [
+    {
+      "t": "Memphis",
+      "v": 2708
+    },
+    {
+      "t": "Tennessee",
+      "v": 2516
+    },
+    {
+      "t": "TCU",
+      "v": 2374
+    },
+    {
+      "t": "North Dakota State",
+      "v": 2292
+    },
+    {
+      "t": "Western Michigan",
+      "v": 2198
+    },
+    {
+      "t": "Central Michigan",
+      "v": 2185
+    },
+    {
+      "t": "Kansas",
+      "v": 2184
+    },
+    {
+      "t": "New Mexico",
+      "v": 2182
+    },
+    {
+      "t": "Coastal Carolina",
+      "v": 2174
+    },
+    {
+      "t": "Texas Tech",
+      "v": 2171
+    }
+  ],
+  "rtd": [
+    {
+      "t": "Alabama",
+      "v": 38
+    },
+    {
+      "t": "Texas Tech",
+      "v": 37
+    },
+    {
+      "t": "South Carolina",
+      "v": 35
+    },
+    {
+      "t": "Tennessee",
+      "v": 35
+    },
+    {
+      "t": "TCU",
+      "v": 33
+    },
+    {
+      "t": "Texas",
+      "v": 33
+    },
+    {
+      "t": "New Mexico",
+      "v": 30
+    },
+    {
+      "t": "Notre Dame",
+      "v": 29
+    },
+    {
+      "t": "Southern Mississippi",
+      "v": 29
+    },
+    {
+      "t": "BYU",
+      "v": 28
+    }
+  ],
+  "fd_so": [
+    {
+      "t": "Western Michigan",
+      "v": 304
+    },
+    {
+      "t": "Tennessee",
+      "v": 281
+    },
+    {
+      "t": "LSU",
+      "v": 263
+    },
+    {
+      "t": "Alabama",
+      "v": 253
+    },
+    {
+      "t": "TCU",
+      "v": 246
+    },
+    {
+      "t": "BYU",
+      "v": 245
+    },
+    {
+      "t": "Texas",
+      "v": 245
+    },
+    {
+      "t": "Central Michigan",
+      "v": 244
+    },
+    {
+      "t": "Southern Mississippi",
+      "v": 244
+    },
+    {
+      "t": "Florida Atlantic",
+      "v": 237
+    }
+  ],
+  "d3a": [
+    {
+      "t": "Florida International",
+      "v": 208
+    },
+    {
+      "t": "Old Dominion",
+      "v": 207
+    },
+    {
+      "t": "UTEP",
+      "v": 207
+    },
+    {
+      "t": "Kennesaw State",
+      "v": 206
+    },
+    {
+      "t": "Florida Atlantic",
+      "v": 204
+    },
+    {
+      "t": "East Carolina",
+      "v": 200
+    },
+    {
+      "t": "Western Kentucky",
+      "v": 199
+    },
+    {
+      "t": "North Texas",
+      "v": 198
+    },
+    {
+      "t": "Appalachian State",
+      "v": 195
+    },
+    {
+      "t": "Marshall",
+      "v": 193
+    }
+  ],
+  "d3c": [
+    {
+      "t": "Tennessee",
+      "v": 92
+    },
+    {
+      "t": "Texas",
+      "v": 91
+    },
+    {
+      "t": "Alabama",
+      "v": 90
+    },
+    {
+      "t": "East Carolina",
+      "v": 90
+    },
+    {
+      "t": "Florida",
+      "v": 90
+    },
+    {
+      "t": "LSU",
+      "v": 89
+    },
+    {
+      "t": "TCU",
+      "v": 87
+    },
+    {
+      "t": "Florida Atlantic",
+      "v": 86
+    },
+    {
+      "t": "Georgia",
+      "v": 86
+    },
+    {
+      "t": "BYU",
+      "v": 83
+    }
+  ],
+  "d3pct": [
+    {
+      "t": "LSU",
+      "v": 0.5527950310559007
+    },
+    {
+      "t": "Alabama",
+      "v": 0.5521472392638037
+    },
+    {
+      "t": "Texas",
+      "v": 0.5481927710843374
+    },
+    {
+      "t": "Tennessee",
+      "v": 0.5287356321839081
+    },
+    {
+      "t": "Central Michigan",
+      "v": 0.5238095238095238
+    },
+    {
+      "t": "BYU",
+      "v": 0.5220125786163522
+    },
+    {
+      "t": "TCU",
+      "v": 0.5117647058823529
+    },
+    {
+      "t": "Nebraska",
+      "v": 0.49696969696969695
+    },
+    {
+      "t": "Florida",
+      "v": 0.4945054945054945
+    },
+    {
+      "t": "Miami",
+      "v": 0.48466257668711654
+    }
+  ],
+  "d4a": [
+    {
+      "t": "Florida International",
+      "v": 33
+    },
+    {
+      "t": "Hawai'i",
+      "v": 30
+    },
+    {
+      "t": "Miami University",
+      "v": 30
+    },
+    {
+      "t": "Vanderbilt",
+      "v": 30
+    },
+    {
+      "t": "West Virginia",
+      "v": 30
+    },
+    {
+      "t": "Cincinnati",
+      "v": 29
+    },
+    {
+      "t": "James Madison",
+      "v": 29
+    },
+    {
+      "t": "Baylor",
+      "v": 28
+    },
+    {
+      "t": "North Carolina",
+      "v": 28
+    },
+    {
+      "t": "Coastal Carolina",
+      "v": 27
+    }
+  ],
+  "d4c": [
+    {
+      "t": "Georgia Tech",
+      "v": 90
+    },
+    {
+      "t": "Cincinnati",
+      "v": 21
+    },
+    {
+      "t": "Oklahoma State",
+      "v": 19
+    },
+    {
+      "t": "Hawai'i",
+      "v": 18
+    },
+    {
+      "t": "North Texas",
+      "v": 18
+    },
+    {
+      "t": "Buffalo",
+      "v": 17
+    },
+    {
+      "t": "Colorado State",
+      "v": 17
+    },
+    {
+      "t": "Florida Atlantic",
+      "v": 17
+    },
+    {
+      "t": "Florida International",
+      "v": 17
+    },
+    {
+      "t": "Coastal Carolina",
+      "v": 16
+    }
+  ],
+  "d4pct": [
+    {
+      "t": "Georgia Tech",
+      "v": 4.7368421052631575
+    },
+    {
+      "t": "LSU",
+      "v": 0.8333333333333334
+    },
+    {
+      "t": "Texas Tech",
+      "v": 0.8
+    },
+    {
+      "t": "Indiana",
+      "v": 0.7777777777777778
+    },
+    {
+      "t": "Florida State",
+      "v": 0.7692307692307693
+    },
+    {
+      "t": "Ohio State",
+      "v": 0.7692307692307693
+    },
+    {
+      "t": "Louisville",
+      "v": 0.75
+    },
+    {
+      "t": "North Texas",
+      "v": 0.75
+    },
+    {
+      "t": "South Carolina",
+      "v": 0.7368421052631579
+    },
+    {
+      "t": "USF",
+      "v": 0.7272727272727273
+    }
+  ],
+  "rza": [
+    {
+      "t": "Alabama",
+      "v": 63
+    },
+    {
+      "t": "Central Michigan",
+      "v": 62
+    },
+    {
+      "t": "Tennessee",
+      "v": 62
+    },
+    {
+      "t": "Texas",
+      "v": 62
+    },
+    {
+      "t": "LSU",
+      "v": 61
+    },
+    {
+      "t": "Penn State",
+      "v": 60
+    },
+    {
+      "t": "Western Michigan",
+      "v": 60
+    },
+    {
+      "t": "BYU",
+      "v": 59
+    },
+    {
+      "t": "Memphis",
+      "v": 57
+    },
+    {
+      "t": "TCU",
+      "v": 55
+    }
+  ],
+  "rzs": [
+    {
+      "t": "LSU",
+      "v": 50
+    },
+    {
+      "t": "Alabama",
+      "v": 49
+    },
+    {
+      "t": "Western Michigan",
+      "v": 49
+    },
+    {
+      "t": "Central Michigan",
+      "v": 48
+    },
+    {
+      "t": "Texas",
+      "v": 45
+    },
+    {
+      "t": "Oregon",
+      "v": 43
+    },
+    {
+      "t": "Penn State",
+      "v": 43
+    },
+    {
+      "t": "TCU",
+      "v": 43
+    },
+    {
+      "t": "Tennessee",
+      "v": 41
+    },
+    {
+      "t": "BYU",
+      "v": 40
+    }
+  ],
+  "rzpct": [
+    {
+      "t": "Oregon",
+      "v": 0.8431372549019608
+    },
+    {
+      "t": "North Carolina",
+      "v": 0.8387096774193549
+    },
+    {
+      "t": "UCF",
+      "v": 0.8205128205128205
+    },
+    {
+      "t": "LSU",
+      "v": 0.819672131147541
+    },
+    {
+      "t": "Western Michigan",
+      "v": 0.8166666666666667
+    },
+    {
+      "t": "Oklahoma",
+      "v": 0.8163265306122449
+    },
+    {
+      "t": "East Carolina",
+      "v": 0.8125
+    },
+    {
+      "t": "Appalachian State",
+      "v": 0.8055555555555556
+    },
+    {
+      "t": "Arizona State",
+      "v": 0.8
+    },
+    {
+      "t": "New Mexico",
+      "v": 0.8
+    }
+  ],
+  "ptsa2": [
+    {
+      "t": "Central Michigan",
+      "v": 142
+    },
+    {
+      "t": "Miami",
+      "v": 169
+    },
+    {
+      "t": "Nebraska",
+      "v": 193
+    },
+    {
+      "t": "Western Michigan",
+      "v": 193
+    },
+    {
+      "t": "Notre Dame",
+      "v": 194
+    },
+    {
+      "t": "Toledo",
+      "v": 198
+    },
+    {
+      "t": "North Dakota State",
+      "v": 199
+    },
+    {
+      "t": "Coastal Carolina",
+      "v": 201
+    },
+    {
+      "t": "Ohio",
+      "v": 218
+    },
+    {
+      "t": "UConn",
+      "v": 219
+    }
+  ],
+  "ydsa": [
+    {
+      "t": "Central Michigan",
+      "v": 2596
+    },
+    {
+      "t": "Western Michigan",
+      "v": 2810
+    },
+    {
+      "t": "Eastern Michigan",
+      "v": 3142
+    },
+    {
+      "t": "UConn",
+      "v": 3672
+    },
+    {
+      "t": "Miami",
+      "v": 3776
+    },
+    {
+      "t": "North Dakota State",
+      "v": 3815
+    },
+    {
+      "t": "Toledo",
+      "v": 3832
+    },
+    {
+      "t": "Nebraska",
+      "v": 3880
+    },
+    {
+      "t": "Ohio",
+      "v": 3930
+    },
+    {
+      "t": "Michigan",
+      "v": 3959
+    }
+  ],
+  "pydsa": [
+    {
+      "t": "Eastern Michigan",
+      "v": 1788
+    },
+    {
+      "t": "Ohio",
+      "v": 1818
+    },
+    {
+      "t": "Central Michigan",
+      "v": 1963
+    },
+    {
+      "t": "Western Michigan",
+      "v": 2008
+    },
+    {
+      "t": "Kent State",
+      "v": 2298
+    },
+    {
+      "t": "Nebraska",
+      "v": 2312
+    },
+    {
+      "t": "Michigan",
+      "v": 2334
+    },
+    {
+      "t": "North Dakota State",
+      "v": 2367
+    },
+    {
+      "t": "UConn",
+      "v": 2367
+    },
+    {
+      "t": "Miami University",
+      "v": 2374
+    }
+  ],
+  "dint": [
+    {
+      "t": "Notre Dame",
+      "v": 22
+    },
+    {
+      "t": "New Mexico",
+      "v": 21
+    },
+    {
+      "t": "Vanderbilt",
+      "v": 21
+    },
+    {
+      "t": "Georgia Southern",
+      "v": 19
+    },
+    {
+      "t": "Miami",
+      "v": 19
+    },
+    {
+      "t": "Duke",
+      "v": 17
+    },
+    {
+      "t": "Charlotte",
+      "v": 15
+    },
+    {
+      "t": "New Mexico State",
+      "v": 15
+    },
+    {
+      "t": "Virginia",
+      "v": 15
+    },
+    {
+      "t": "Central Michigan",
+      "v": 14
+    }
+  ],
+  "sacks": [
+    {
+      "t": "BYU",
+      "v": 39
+    },
+    {
+      "t": "Ole Miss",
+      "v": 39
+    },
+    {
+      "t": "Tennessee",
+      "v": 38
+    },
+    {
+      "t": "Georgia",
+      "v": 37
+    },
+    {
+      "t": "Missouri",
+      "v": 35
+    },
+    {
+      "t": "Nebraska",
+      "v": 35
+    },
+    {
+      "t": "Toledo",
+      "v": 33
+    },
+    {
+      "t": "Central Michigan",
+      "v": 31
+    },
+    {
+      "t": "Oklahoma",
+      "v": 31
+    },
+    {
+      "t": "Texas A&M",
+      "v": 31
+    }
+  ],
+  "rydsa": [
+    {
+      "t": "Central Michigan",
+      "v": 633
+    },
+    {
+      "t": "Western Michigan",
+      "v": 802
+    },
+    {
+      "t": "Miami",
+      "v": 1159
+    },
+    {
+      "t": "Louisville",
+      "v": 1161
+    },
+    {
+      "t": "Washington",
+      "v": 1230
+    },
+    {
+      "t": "Ohio State",
+      "v": 1270
+    },
+    {
+      "t": "Oregon",
+      "v": 1270
+    },
+    {
+      "t": "UConn",
+      "v": 1305
+    },
+    {
+      "t": "South Carolina",
+      "v": 1326
+    },
+    {
+      "t": "Eastern Michigan",
+      "v": 1354
+    }
+  ],
+  "sacks_d": [
+    {
+      "t": "BYU",
+      "v": 39
+    },
+    {
+      "t": "Ole Miss",
+      "v": 39
+    },
+    {
+      "t": "Tennessee",
+      "v": 38
+    },
+    {
+      "t": "Georgia",
+      "v": 37
+    },
+    {
+      "t": "Missouri",
+      "v": 35
+    },
+    {
+      "t": "Nebraska",
+      "v": 35
+    },
+    {
+      "t": "Toledo",
+      "v": 33
+    },
+    {
+      "t": "Central Michigan",
+      "v": 31
+    },
+    {
+      "t": "Oklahoma",
+      "v": 31
+    },
+    {
+      "t": "Texas A&M",
+      "v": 31
+    }
+  ],
+  "dint2": [
+    {
+      "t": "Notre Dame",
+      "v": 22
+    },
+    {
+      "t": "New Mexico",
+      "v": 21
+    },
+    {
+      "t": "Vanderbilt",
+      "v": 21
+    },
+    {
+      "t": "Georgia Southern",
+      "v": 19
+    },
+    {
+      "t": "Miami",
+      "v": 19
+    },
+    {
+      "t": "Duke",
+      "v": 17
+    },
+    {
+      "t": "Charlotte",
+      "v": 15
+    },
+    {
+      "t": "New Mexico State",
+      "v": 15
+    },
+    {
+      "t": "Virginia",
+      "v": 15
+    },
+    {
+      "t": "Central Michigan",
+      "v": 14
+    }
+  ],
+  "rzaa": [
+    {
+      "t": "Purdue",
+      "v": 63
+    },
+    {
+      "t": "Hawai'i",
+      "v": 62
+    },
+    {
+      "t": "Auburn",
+      "v": 60
+    },
+    {
+      "t": "Virginia Tech",
+      "v": 60
+    },
+    {
+      "t": "Southern Mississippi",
+      "v": 56
+    },
+    {
+      "t": "Maryland",
+      "v": 55
+    },
+    {
+      "t": "Troy",
+      "v": 54
+    },
+    {
+      "t": "Rice",
+      "v": 52
+    },
+    {
+      "t": "Temple",
+      "v": 52
+    },
+    {
+      "t": "Middle Tennessee",
+      "v": 51
+    }
+  ],
+  "rzsa": [
+    {
+      "t": "Central Michigan",
+      "v": 13
+    },
+    {
+      "t": "North Dakota State",
+      "v": 14
+    },
+    {
+      "t": "Western Michigan",
+      "v": 14
+    },
+    {
+      "t": "Miami",
+      "v": 15
+    },
+    {
+      "t": "UConn",
+      "v": 16
+    },
+    {
+      "t": "Arizona State",
+      "v": 17
+    },
+    {
+      "t": "Miami University",
+      "v": 19
+    },
+    {
+      "t": "Rutgers",
+      "v": 19
+    },
+    {
+      "t": "BYU",
+      "v": 20
+    },
+    {
+      "t": "Georgia State",
+      "v": 20
+    }
+  ],
+  "rzpcta": [
+    {
+      "t": "Colorado State",
+      "v": 0.525
+    },
+    {
+      "t": "Miami University",
+      "v": 0.5277777777777778
+    },
+    {
+      "t": "Arizona State",
+      "v": 0.53125
+    },
+    {
+      "t": "Georgia Tech",
+      "v": 0.55
+    },
+    {
+      "t": "BYU",
+      "v": 0.5555555555555556
+    },
+    {
+      "t": "Cincinnati",
+      "v": 0.56
+    },
+    {
+      "t": "Western Michigan",
+      "v": 0.56
+    },
+    {
+      "t": "Wyoming",
+      "v": 0.575
+    },
+    {
+      "t": "North Dakota State",
+      "v": 0.5833333333333334
+    },
+    {
+      "t": "Missouri State",
+      "v": 0.5869565217391305
+    }
+  ],
+  "pen": [
+    {
+      "t": "Western Michigan",
+      "v": 11
+    },
+    {
+      "t": "Central Michigan",
+      "v": 12
+    },
+    {
+      "t": "Eastern Michigan",
+      "v": 15
+    },
+    {
+      "t": "Arizona",
+      "v": 45
+    },
+    {
+      "t": "Ohio",
+      "v": 45
+    },
+    {
+      "t": "Ball State",
+      "v": 46
+    },
+    {
+      "t": "Sacramento State",
+      "v": 47
+    },
+    {
+      "t": "Buffalo",
+      "v": 49
+    },
+    {
+      "t": "Bowling Green",
+      "v": 50
+    },
+    {
+      "t": "Toledo",
+      "v": 51
+    }
+  ],
+  "penyds": [
+    {
+      "t": "Western Michigan",
+      "v": 92
+    },
+    {
+      "t": "Central Michigan",
+      "v": 101
+    },
+    {
+      "t": "Eastern Michigan",
+      "v": 111
+    },
+    {
+      "t": "Ohio",
+      "v": 342
+    },
+    {
+      "t": "Ball State",
+      "v": 381
+    },
+    {
+      "t": "Sacramento State",
+      "v": 385
+    },
+    {
+      "t": "Bowling Green",
+      "v": 391
+    },
+    {
+      "t": "Arizona",
+      "v": 407
+    },
+    {
+      "t": "Houston",
+      "v": 408
+    },
+    {
+      "t": "Buffalo",
+      "v": 426
+    }
+  ],
+  "penypg": [
+    {
+      "t": "Western Michigan",
+      "v": 7.666666666666667
+    },
+    {
+      "t": "Central Michigan",
+      "v": 8.416666666666666
+    },
+    {
+      "t": "Eastern Michigan",
+      "v": 9.25
+    },
+    {
+      "t": "Ohio",
+      "v": 28.5
+    },
+    {
+      "t": "Ball State",
+      "v": 31.75
+    },
+    {
+      "t": "Sacramento State",
+      "v": 32.083333333333336
+    },
+    {
+      "t": "Bowling Green",
+      "v": 32.583333333333336
+    },
+    {
+      "t": "Arizona",
+      "v": 33.916666666666664
+    },
+    {
+      "t": "Houston",
+      "v": 34.0
+    },
+    {
+      "t": "Buffalo",
+      "v": 35.5
+    }
+  ]
+}

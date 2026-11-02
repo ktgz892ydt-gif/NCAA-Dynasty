@@ -1,0 +1,3724 @@
+{
+  "category": "BLOCKING",
+  "columns": [
+    "GP",
+    "SACK",
+    "SNAPS"
+  ],
+  "sortedBy": "SACK",
+  "complete": false,
+  "coverage": {
+    "nationalComplete": false
+  },
+  "rows": [
+    {
+      "name": "J.RandleJr.",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 12,
+        "SNAPS": 820
+      }
+    },
+    {
+      "name": "N.Butler",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 12,
+        "SNAPS": 868
+      }
+    },
+    {
+      "name": "N.Roy",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 12,
+        "SNAPS": 856
+      }
+    },
+    {
+      "name": "J.Krause",
+      "pos": "LG",
+      "team": "Western Michigan",
+      "values": {
+        "GP": 12,
+        "SACK": 11,
+        "SNAPS": 784
+      }
+    },
+    {
+      "name": "J.Yelito",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 11,
+        "SNAPS": 875
+      }
+    },
+    {
+      "name": "D.Odoms",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 10,
+        "SNAPS": 855
+      }
+    },
+    {
+      "name": "E.Buchanan",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 10,
+        "SNAPS": 841
+      }
+    },
+    {
+      "name": "N.Geiger",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 10,
+        "SNAPS": 848
+      }
+    },
+    {
+      "name": "B.Walton",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 9,
+        "SNAPS": 850
+      }
+    },
+    {
+      "name": "E.Ugorji",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 9,
+        "SNAPS": 899
+      }
+    },
+    {
+      "name": "G.Gottula",
+      "pos": "RT",
+      "team": "Nebraska",
+      "values": {
+        "GP": 12,
+        "SACK": 9,
+        "SNAPS": 905
+      }
+    },
+    {
+      "name": "J.Russell",
+      "pos": "LG",
+      "team": "Central Michigan",
+      "values": {
+        "GP": 12,
+        "SACK": 9,
+        "SNAPS": 616
+      }
+    },
+    {
+      "name": "J.Shivers",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 9,
+        "SNAPS": 837
+      }
+    },
+    {
+      "name": "K.Broussard",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 9,
+        "SNAPS": 846
+      }
+    },
+    {
+      "name": "K.Shepherd",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 9,
+        "SNAPS": 933
+      }
+    },
+    {
+      "name": "P.AbdoulayeSy",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 11,
+        "SACK": 9,
+        "SNAPS": 812
+      }
+    },
+    {
+      "name": "A.Martin",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 8,
+        "SNAPS": 867
+      }
+    },
+    {
+      "name": "C.Simmons",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 8,
+        "SNAPS": 892
+      }
+    },
+    {
+      "name": "C.Telfaire",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 8,
+        "SNAPS": 859
+      }
+    },
+    {
+      "name": "D.Rivers",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 8,
+        "SNAPS": 900
+      }
+    },
+    {
+      "name": "G.Broscious",
+      "pos": "C",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 8,
+        "SNAPS": 826
+      }
+    },
+    {
+      "name": "G.Perry",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 8,
+        "SNAPS": 933
+      }
+    },
+    {
+      "name": "K.Greene",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 8,
+        "SNAPS": 876
+      }
+    },
+    {
+      "name": "L.Rogers",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 8,
+        "SNAPS": 969
+      }
+    },
+    {
+      "name": "M.Jackson",
+      "pos": "C",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 8,
+        "SNAPS": 859
+      }
+    },
+    {
+      "name": "M.Roser",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 8,
+        "SNAPS": 859
+      }
+    },
+    {
+      "name": "P.Parsons",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 8,
+        "SNAPS": 874
+      }
+    },
+    {
+      "name": "A.Griffith",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 7,
+        "SNAPS": 870
+      }
+    },
+    {
+      "name": "B.Clifford",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 7,
+        "SNAPS": 905
+      }
+    },
+    {
+      "name": "C.Caplan",
+      "pos": "C",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 7,
+        "SNAPS": 836
+      }
+    },
+    {
+      "name": "C.Wade",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 7,
+        "SNAPS": 836
+      }
+    },
+    {
+      "name": "D.Geth",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 7,
+        "SNAPS": 915
+      }
+    },
+    {
+      "name": "D.Senda",
+      "pos": "?",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 7,
+        "SNAPS": 8184
+      }
+    },
+    {
+      "name": "D.Toothman",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 7,
+        "SNAPS": 838
+      }
+    },
+    {
+      "name": "E.Diehl",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 7,
+        "SNAPS": 1004
+      }
+    },
+    {
+      "name": "G.Dabo",
+      "pos": "RG",
+      "team": "Western Michigan",
+      "values": {
+        "GP": 12,
+        "SACK": 7,
+        "SNAPS": 785
+      }
+    },
+    {
+      "name": "J.Gooch",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 7,
+        "SNAPS": 875
+      }
+    },
+    {
+      "name": "J.Timoteo",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 7,
+        "SNAPS": 873
+      }
+    },
+    {
+      "name": "L.Simmons",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 7,
+        "SNAPS": 928
+      }
+    },
+    {
+      "name": "N.Bakken",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 7,
+        "SNAPS": 875
+      }
+    },
+    {
+      "name": "S.Wilfred",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 7,
+        "SNAPS": 867
+      }
+    },
+    {
+      "name": "X.Payne",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 7,
+        "SNAPS": 837
+      }
+    },
+    {
+      "name": "A.Doost",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 6,
+        "SNAPS": 895
+      }
+    },
+    {
+      "name": "A.Hawkes",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 6,
+        "SNAPS": 846
+      }
+    },
+    {
+      "name": "A.Urionabarrenechea",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 6,
+        "SNAPS": 857
+      }
+    },
+    {
+      "name": "B.Homady",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 6,
+        "SNAPS": 838
+      }
+    },
+    {
+      "name": "C.Amick",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 6,
+        "SNAPS": 865
+      }
+    },
+    {
+      "name": "C.Gooden",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 6,
+        "SNAPS": 837
+      }
+    },
+    {
+      "name": "C.Lowe",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 6,
+        "SNAPS": 899
+      }
+    },
+    {
+      "name": "C.Symonds",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 6,
+        "SNAPS": 855
+      }
+    },
+    {
+      "name": "E.Brooks",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 6,
+        "SNAPS": 879
+      }
+    },
+    {
+      "name": "E.Bushong",
+      "pos": "C",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 6,
+        "SNAPS": 854
+      }
+    },
+    {
+      "name": "E.Oratokhai",
+      "pos": "?",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 6,
+        "SNAPS": 846
+      }
+    },
+    {
+      "name": "E.Waddy",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 6,
+        "SNAPS": 916
+      }
+    },
+    {
+      "name": "E.Ware",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 6,
+        "SNAPS": 853
+      }
+    },
+    {
+      "name": "G.Epps-Smith",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 6,
+        "SNAPS": 893
+      }
+    },
+    {
+      "name": "G.Hart",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 6,
+        "SNAPS": 890
+      }
+    },
+    {
+      "name": "J.Daniel",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 6,
+        "SNAPS": 862
+      }
+    },
+    {
+      "name": "J.Gilchrist",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 6,
+        "SNAPS": 878
+      }
+    },
+    {
+      "name": "J.Jenkins",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 11,
+        "SACK": 6,
+        "SNAPS": 829
+      }
+    },
+    {
+      "name": "J.Tuia",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 6,
+        "SNAPS": 928
+      }
+    },
+    {
+      "name": "J.Tuiai",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 6,
+        "SNAPS": 928
+      }
+    },
+    {
+      "name": "J.Williams",
+      "pos": "RT",
+      "team": "Central Michigan",
+      "values": {
+        "GP": 12,
+        "SACK": 6,
+        "SNAPS": 641
+      }
+    },
+    {
+      "name": "K.Pepe",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 6,
+        "SNAPS": 818
+      }
+    },
+    {
+      "name": "L.Howland",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 6,
+        "SNAPS": 827
+      }
+    },
+    {
+      "name": "M.Garcia",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 6,
+        "SNAPS": 1000
+      }
+    },
+    {
+      "name": "M.Lado",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 6,
+        "SNAPS": 875
+      }
+    },
+    {
+      "name": "M.Rodriguez",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 6,
+        "SNAPS": 840
+      }
+    },
+    {
+      "name": "N.Knapikl",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 6,
+        "SNAPS": 863
+      }
+    },
+    {
+      "name": "O.Weigel",
+      "pos": "LT",
+      "team": "Fresno State",
+      "values": {
+        "GP": 12,
+        "SACK": 6,
+        "SNAPS": 829
+      }
+    },
+    {
+      "name": "R.McDermott",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 6,
+        "SNAPS": 861
+      }
+    },
+    {
+      "name": "R.Walker",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 6,
+        "SNAPS": 836
+      }
+    },
+    {
+      "name": "S.Hale",
+      "pos": "RT",
+      "team": "Western Michigan",
+      "values": {
+        "GP": 12,
+        "SACK": 6,
+        "SNAPS": 718
+      }
+    },
+    {
+      "name": "S.Miles",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 6,
+        "SNAPS": 970
+      }
+    },
+    {
+      "name": "S.SarrattJr.",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 6,
+        "SNAPS": 845
+      }
+    },
+    {
+      "name": "T.Blue",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 6,
+        "SNAPS": 851
+      }
+    },
+    {
+      "name": "A.Birchmeier",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 847
+      }
+    },
+    {
+      "name": "A.Wood",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 858
+      }
+    },
+    {
+      "name": "B.Steen",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 978
+      }
+    },
+    {
+      "name": "C.Brpwnho",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 1013
+      }
+    },
+    {
+      "name": "C.Clements",
+      "pos": "LT",
+      "team": "Fresno State",
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 789
+      }
+    },
+    {
+      "name": "C.Dowvis",
+      "pos": "?",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 888
+      }
+    },
+    {
+      "name": "C.Fordham",
+      "pos": "C",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 816
+      }
+    },
+    {
+      "name": "C.Rawilsam",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 888
+      }
+    },
+    {
+      "name": "C.Wilson",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 838
+      }
+    },
+    {
+      "name": "D.Davvls",
+      "pos": "?",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 888
+      }
+    },
+    {
+      "name": "D.Langford",
+      "pos": "C",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 832
+      }
+    },
+    {
+      "name": "D.Manning",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 8183
+      }
+    },
+    {
+      "name": "D.Rawilsam",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": null
+      }
+    },
+    {
+      "name": "D.Wells",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 864
+      }
+    },
+    {
+      "name": "E.Daugherty",
+      "pos": "LG",
+      "team": "Louisville",
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 882
+      }
+    },
+    {
+      "name": "E.Ogboko",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 906
+      }
+    },
+    {
+      "name": "H.Jarrett",
+      "pos": "C",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 838
+      }
+    },
+    {
+      "name": "I.Lucas",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 858
+      }
+    },
+    {
+      "name": "J.Bragg",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 936
+      }
+    },
+    {
+      "name": "J.Christian",
+      "pos": "C",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 832
+      }
+    },
+    {
+      "name": "J.Petaia",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 838
+      }
+    },
+    {
+      "name": "J.Peyryond",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 845
+      }
+    },
+    {
+      "name": "K.McDonald",
+      "pos": "C",
+      "team": "Coastal Carolina",
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 831
+      }
+    },
+    {
+      "name": "L.Mahnesmith",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 843
+      }
+    },
+    {
+      "name": "M.Fasusi",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 847
+      }
+    },
+    {
+      "name": "M.Markel",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 821
+      }
+    },
+    {
+      "name": "M.Nixon",
+      "pos": "LG",
+      "team": "LSU",
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 966
+      }
+    },
+    {
+      "name": "N.Haje'atoutai",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 865
+      }
+    },
+    {
+      "name": "N.Hale",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 865
+      }
+    },
+    {
+      "name": "N.Rosahac",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 849
+      }
+    },
+    {
+      "name": "N.Rosahacer",
+      "pos": "?",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 849
+      }
+    },
+    {
+      "name": "R.Tapa'atoutai",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 906
+      }
+    },
+    {
+      "name": "S.Lapuaho",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 880
+      }
+    },
+    {
+      "name": "S.Okunlola",
+      "pos": "LG",
+      "team": "Miami",
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 884
+      }
+    },
+    {
+      "name": "S.Ramil",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 854
+      }
+    },
+    {
+      "name": "S.Ranoil",
+      "pos": "?",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 854
+      }
+    },
+    {
+      "name": "S.Rteniard",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 869
+      }
+    },
+    {
+      "name": "S.Steward",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 869
+      }
+    },
+    {
+      "name": "T.Bell",
+      "pos": "C",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 845
+      }
+    },
+    {
+      "name": "T.Bennett",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 896
+      }
+    },
+    {
+      "name": "T.Raymond",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 893
+      }
+    },
+    {
+      "name": "W.Boone",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 5,
+        "SNAPS": 829
+      }
+    },
+    {
+      "name": "A.Botley",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 904
+      }
+    },
+    {
+      "name": "A.Herring",
+      "pos": "LG",
+      "team": "Fresno State",
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 782
+      }
+    },
+    {
+      "name": "A.Macpinny",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 855
+      }
+    },
+    {
+      "name": "A.Martinez",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 936
+      }
+    },
+    {
+      "name": "A.Otto",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 869
+      }
+    },
+    {
+      "name": "A.Ottoeland",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 869
+      }
+    },
+    {
+      "name": "A.Wimberly-Jones",
+      "pos": "RT",
+      "team": "Louisville",
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 810
+      }
+    },
+    {
+      "name": "B.Badin",
+      "pos": "?",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 860
+      }
+    },
+    {
+      "name": "B.Burkes",
+      "pos": "C",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 816
+      }
+    },
+    {
+      "name": "B.Camipert",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 917
+      }
+    },
+    {
+      "name": "B.Camp",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 917
+      }
+    },
+    {
+      "name": "B.Mackenny",
+      "pos": "?",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 855
+      }
+    },
+    {
+      "name": "B.Sanders",
+      "pos": "?",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 879
+      }
+    },
+    {
+      "name": "B.Stukes",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 873
+      }
+    },
+    {
+      "name": "B.Washington",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 937
+      }
+    },
+    {
+      "name": "C.Cleveland",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 870
+      }
+    },
+    {
+      "name": "C.Cousins",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 863
+      }
+    },
+    {
+      "name": "C.Gallery",
+      "pos": "C",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 817
+      }
+    },
+    {
+      "name": "C.Martin",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 860
+      }
+    },
+    {
+      "name": "D.UpshawJr.",
+      "pos": "C",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 822
+      }
+    },
+    {
+      "name": "D.WiltijainsJr.",
+      "pos": "?",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 857
+      }
+    },
+    {
+      "name": "E.Mackenny",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 855
+      }
+    },
+    {
+      "name": "E.Pierre-Louis",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 870
+      }
+    },
+    {
+      "name": "F.Crader",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 863
+      }
+    },
+    {
+      "name": "G.Banhbert",
+      "pos": "?",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 816
+      }
+    },
+    {
+      "name": "H.Breal",
+      "pos": "?",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 908
+      }
+    },
+    {
+      "name": "I.Johhson",
+      "pos": "?",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 867
+      }
+    },
+    {
+      "name": "J.Harris",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 887
+      }
+    },
+    {
+      "name": "J.Hasenhuetl",
+      "pos": "C",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 840
+      }
+    },
+    {
+      "name": "J.Hylkema",
+      "pos": "RT",
+      "team": "Eastern Michigan",
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 533
+      }
+    },
+    {
+      "name": "J.Schorsch",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 871
+      }
+    },
+    {
+      "name": "J.Tasi",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 885
+      }
+    },
+    {
+      "name": "J.TrapiomsJr.",
+      "pos": "?",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 813
+      }
+    },
+    {
+      "name": "J.Trapp",
+      "pos": "C",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 913
+      }
+    },
+    {
+      "name": "J.Woodhead",
+      "pos": "C",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 889
+      }
+    },
+    {
+      "name": "J.Woodheads",
+      "pos": "?",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 889
+      }
+    },
+    {
+      "name": "K.Robnett",
+      "pos": "C",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 843
+      }
+    },
+    {
+      "name": "L.Manuma",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 846
+      }
+    },
+    {
+      "name": "L.Rogers",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 997
+      }
+    },
+    {
+      "name": "M.Fraser",
+      "pos": "C",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 899
+      }
+    },
+    {
+      "name": "M.Lee",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 880
+      }
+    },
+    {
+      "name": "M.Leedhead",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 880
+      }
+    },
+    {
+      "name": "M.Nehf",
+      "pos": "RG",
+      "team": "Central Michigan",
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 639
+      }
+    },
+    {
+      "name": "M.Swinney",
+      "pos": "C",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 828
+      }
+    },
+    {
+      "name": "M.Wooduez",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 961
+      }
+    },
+    {
+      "name": "N.Smith",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 853
+      }
+    },
+    {
+      "name": "R.Johnson",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 922
+      }
+    },
+    {
+      "name": "R.Kenyon",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 890
+      }
+    },
+    {
+      "name": "T.Chen",
+      "pos": "RG",
+      "team": "Washington State",
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 825
+      }
+    },
+    {
+      "name": "T.KinslerIV",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 977
+      }
+    },
+    {
+      "name": "V.JohnsonJr.",
+      "pos": "LT",
+      "team": "TCU",
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": null
+      }
+    },
+    {
+      "name": "W.Varkihsy",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": null
+      }
+    },
+    {
+      "name": "W.Zierer",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 4,
+        "SNAPS": 906
+      }
+    },
+    {
+      "name": "A.Jenkins",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 879
+      }
+    },
+    {
+      "name": "A.Newell",
+      "pos": "C",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 824
+      }
+    },
+    {
+      "name": "A.ROSs",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 852
+      }
+    },
+    {
+      "name": "A.Stark",
+      "pos": "C",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 873
+      }
+    },
+    {
+      "name": "A.Vinson",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 816
+      }
+    },
+    {
+      "name": "A.Whitaker",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 871
+      }
+    },
+    {
+      "name": "B.Garratd",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 940
+      }
+    },
+    {
+      "name": "B.McCollum",
+      "pos": "C",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 844
+      }
+    },
+    {
+      "name": "B.Nnabugwu",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 890
+      }
+    },
+    {
+      "name": "B.Trent",
+      "pos": "C",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 867
+      }
+    },
+    {
+      "name": "B.Waghelli",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 1000
+      }
+    },
+    {
+      "name": "C.Casady",
+      "pos": "LT",
+      "team": "Texas A&M",
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 761
+      }
+    },
+    {
+      "name": "C.Millward",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 882
+      }
+    },
+    {
+      "name": "D.Dotson",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 928
+      }
+    },
+    {
+      "name": "D.Ecker",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 850
+      }
+    },
+    {
+      "name": "D.Glover",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 909
+      }
+    },
+    {
+      "name": "D.SandersJr.",
+      "pos": "LT",
+      "team": "Tennessee",
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 1013
+      }
+    },
+    {
+      "name": "E.Maghelli",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 1000
+      }
+    },
+    {
+      "name": "E.Newman",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 859
+      }
+    },
+    {
+      "name": "E.Nnabugwu",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 890
+      }
+    },
+    {
+      "name": "E.Williams",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 818
+      }
+    },
+    {
+      "name": "F.Ojo",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 833
+      }
+    },
+    {
+      "name": "F.Westphal",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 910
+      }
+    },
+    {
+      "name": "G.Empey",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 847
+      }
+    },
+    {
+      "name": "G.GordonJr.",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 877
+      }
+    },
+    {
+      "name": "G.McLaughlin",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 890
+      }
+    },
+    {
+      "name": "G.Sexton",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 849
+      }
+    },
+    {
+      "name": "G.Tucker",
+      "pos": "RG",
+      "team": "Michigan",
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 854
+      }
+    },
+    {
+      "name": "G.Young",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 921
+      }
+    },
+    {
+      "name": "H.Christman",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 943
+      }
+    },
+    {
+      "name": "H.Fenuku",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 855
+      }
+    },
+    {
+      "name": "H.Hammer",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 886
+      }
+    },
+    {
+      "name": "H.Holt",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 876
+      }
+    },
+    {
+      "name": "H.Tabansi",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 860
+      }
+    },
+    {
+      "name": "J.Belton",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 874
+      }
+    },
+    {
+      "name": "J.Garrard",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 944
+      }
+    },
+    {
+      "name": "J.James",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 936
+      }
+    },
+    {
+      "name": "J.Perry",
+      "pos": "RG",
+      "team": "Tennessee",
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 976
+      }
+    },
+    {
+      "name": "J.Tauanuu",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 821
+      }
+    },
+    {
+      "name": "J.Watkins",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 858
+      }
+    },
+    {
+      "name": "J.Wheelock",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 856
+      }
+    },
+    {
+      "name": "K.Obot",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 850
+      }
+    },
+    {
+      "name": "K.Snyder",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 828
+      }
+    },
+    {
+      "name": "K.Upshaw",
+      "pos": "C",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 867
+      }
+    },
+    {
+      "name": "L.Graham",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 937
+      }
+    },
+    {
+      "name": "L.Hubbard",
+      "pos": "C",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 861
+      }
+    },
+    {
+      "name": "L.Roosevelt",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 875
+      }
+    },
+    {
+      "name": "L.Schram",
+      "pos": "LG",
+      "team": "TCU",
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 935
+      }
+    },
+    {
+      "name": "L.Watson",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 859
+      }
+    },
+    {
+      "name": "M.Butler",
+      "pos": "C",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 817
+      }
+    },
+    {
+      "name": "M.Matelau",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 852
+      }
+    },
+    {
+      "name": "M.Neolien",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 859
+      }
+    },
+    {
+      "name": "M.Siani",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 938
+      }
+    },
+    {
+      "name": "N.Fattig",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 928
+      }
+    },
+    {
+      "name": "N.SastdersJr.",
+      "pos": "?",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 1069
+      }
+    },
+    {
+      "name": "N.Tastad",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 1044
+      }
+    },
+    {
+      "name": "O.Williams",
+      "pos": "RT",
+      "team": "Tennessee",
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 1013
+      }
+    },
+    {
+      "name": "R.Baker",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 834
+      }
+    },
+    {
+      "name": "R.Kearney",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 912
+      }
+    },
+    {
+      "name": "R.Robell",
+      "pos": "C",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 847
+      }
+    },
+    {
+      "name": "S.Alofaituli",
+      "pos": "C",
+      "team": "Miami",
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 845
+      }
+    },
+    {
+      "name": "S.Colbert",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 835
+      }
+    },
+    {
+      "name": "S.Dugery",
+      "pos": "C",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 817
+      }
+    },
+    {
+      "name": "S.Falealo",
+      "pos": "LG",
+      "team": "Washington State",
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 827
+      }
+    },
+    {
+      "name": "T.Dorsett",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 921
+      }
+    },
+    {
+      "name": "T.Mack",
+      "pos": "LT",
+      "team": "North Dakota State",
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 926
+      }
+    },
+    {
+      "name": "T.McMillen",
+      "pos": "C",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 815
+      }
+    },
+    {
+      "name": "T.Townsend",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 839
+      }
+    },
+    {
+      "name": "X.Pate",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": 855
+      }
+    },
+    {
+      "name": "X.Thorpe",
+      "pos": "RT",
+      "team": "Washington State",
+      "values": {
+        "GP": 12,
+        "SACK": 3,
+        "SNAPS": null
+      }
+    },
+    {
+      "name": "A.Dennis",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 922
+      }
+    },
+    {
+      "name": "A.Gach",
+      "pos": "RT",
+      "team": "Michigan",
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 849
+      }
+    },
+    {
+      "name": "A.Grayson",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 977
+      }
+    },
+    {
+      "name": "A.Southward",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 896
+      }
+    },
+    {
+      "name": "A.Spencer",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 821
+      }
+    },
+    {
+      "name": "A.Whitfield",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 11,
+        "SACK": 2,
+        "SNAPS": 839
+      }
+    },
+    {
+      "name": "B.Bahthudt",
+      "pos": "?",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 833
+      }
+    },
+    {
+      "name": "B.Carroll",
+      "pos": "C",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 818
+      }
+    },
+    {
+      "name": "B.DeWitt",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 891
+      }
+    },
+    {
+      "name": "B.Hamel",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 908
+      }
+    },
+    {
+      "name": "B.Walker",
+      "pos": "RG",
+      "team": "UAB",
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 930
+      }
+    },
+    {
+      "name": "B.Weathers",
+      "pos": "RT",
+      "team": "Memphis",
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 957
+      }
+    },
+    {
+      "name": "B.WilliamsJr.",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 950
+      }
+    },
+    {
+      "name": "C.Holmes",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 853
+      }
+    },
+    {
+      "name": "C.Powers",
+      "pos": "C",
+      "team": "TCU",
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 844
+      }
+    },
+    {
+      "name": "C.Sojka",
+      "pos": "LG",
+      "team": "Western Kentucky",
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 943
+      }
+    },
+    {
+      "name": "D.Smith",
+      "pos": "C",
+      "team": "Central Michigan",
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 575
+      }
+    },
+    {
+      "name": "E.Bloom",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 1004
+      }
+    },
+    {
+      "name": "E.Fields",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 921
+      }
+    },
+    {
+      "name": "E.Fieldses",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": null
+      }
+    },
+    {
+      "name": "E.Paige",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 863
+      }
+    },
+    {
+      "name": "E.Praitlaerd",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 826
+      }
+    },
+    {
+      "name": "E.Prather",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 821
+      }
+    },
+    {
+      "name": "G.Schmidt",
+      "pos": "C",
+      "team": "North Dakota State",
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 869
+      }
+    },
+    {
+      "name": "G.Wise",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 853
+      }
+    },
+    {
+      "name": "I.Kebe",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 857
+      }
+    },
+    {
+      "name": "I.Sohn",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 817
+      }
+    },
+    {
+      "name": "I.Sohnilton",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 817
+      }
+    },
+    {
+      "name": "J.Austin",
+      "pos": "C",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 847
+      }
+    },
+    {
+      "name": "J.Bush",
+      "pos": "C",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 827
+      }
+    },
+    {
+      "name": "J.Church",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 892
+      }
+    },
+    {
+      "name": "J.Cousins-Davis",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 943
+      }
+    },
+    {
+      "name": "J.Harts",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 880
+      }
+    },
+    {
+      "name": "J.Mills",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 868
+      }
+    },
+    {
+      "name": "J.Mills",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 905
+      }
+    },
+    {
+      "name": "J.Millsh",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 868
+      }
+    },
+    {
+      "name": "J.Norcross",
+      "pos": "?",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 867
+      }
+    },
+    {
+      "name": "J.Petty:",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 816
+      }
+    },
+    {
+      "name": "J.Ponton",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 871
+      }
+    },
+    {
+      "name": "J.Rucker",
+      "pos": "LT",
+      "team": "Air Force",
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 737
+      }
+    },
+    {
+      "name": "J.Schleicher",
+      "pos": "C",
+      "team": "Western Michigan",
+      "values": {
+        "GP": 1,
+        "SACK": 2,
+        "SNAPS": 56
+      }
+    },
+    {
+      "name": "J.Shulpert-Perkins",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 823
+      }
+    },
+    {
+      "name": "J.Shumpert-Perkins",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 923
+      }
+    },
+    {
+      "name": "K.Cox",
+      "pos": "LT",
+      "team": "UAB",
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 930
+      }
+    },
+    {
+      "name": "K.Cronin",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 867
+      }
+    },
+    {
+      "name": "K.Keenum",
+      "pos": "C",
+      "team": "Memphis",
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 892
+      }
+    },
+    {
+      "name": "K.Manu",
+      "pos": "C",
+      "team": "Western Michigan",
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 668
+      }
+    },
+    {
+      "name": "K.Smithiss",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 899
+      }
+    },
+    {
+      "name": "K.Stewart",
+      "pos": "C",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 853
+      }
+    },
+    {
+      "name": "K.Tafai",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 11,
+        "SACK": 2,
+        "SNAPS": 867
+      }
+    },
+    {
+      "name": "K.Winslow",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 1044
+      }
+    },
+    {
+      "name": "L.Hamilton",
+      "pos": "LG",
+      "team": "Michigan",
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 849
+      }
+    },
+    {
+      "name": "L.NoilJr.",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 951
+      }
+    },
+    {
+      "name": "M.Anderson",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 836
+      }
+    },
+    {
+      "name": "M.Badersen",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 836
+      }
+    },
+    {
+      "name": "M.Feika",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 841
+      }
+    },
+    {
+      "name": "M.Greeneard",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 873
+      }
+    },
+    {
+      "name": "M.Riley",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 872
+      }
+    },
+    {
+      "name": "M.Rileyward",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 872
+      }
+    },
+    {
+      "name": "N.Betrand",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 936
+      }
+    },
+    {
+      "name": "N.Bettlansbn",
+      "pos": "?",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 836
+      }
+    },
+    {
+      "name": "P.Bowling",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 842
+      }
+    },
+    {
+      "name": "P.Ekeh",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 1000
+      }
+    },
+    {
+      "name": "P.Finau",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 941
+      }
+    },
+    {
+      "name": "R.Tripp",
+      "pos": "LT",
+      "team": "Central Michigan",
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": null
+      }
+    },
+    {
+      "name": "S.Pendleton",
+      "pos": "C",
+      "team": "Tennessee",
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 880
+      }
+    },
+    {
+      "name": "S.Poret",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 863
+      }
+    },
+    {
+      "name": "S.Ralstibt",
+      "pos": "?",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": null
+      }
+    },
+    {
+      "name": "S.Sallbotbert-Perkins",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 828
+      }
+    },
+    {
+      "name": "S.Simpson",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 863
+      }
+    },
+    {
+      "name": "S.Talbott",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 836
+      }
+    },
+    {
+      "name": "T.Garrison",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 883
+      }
+    },
+    {
+      "name": "T.Hardwick",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 881
+      }
+    },
+    {
+      "name": "T.Hensley",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 819
+      }
+    },
+    {
+      "name": "U.Pontoman",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": null
+      }
+    },
+    {
+      "name": "U.church",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 892
+      }
+    },
+    {
+      "name": "W.Moore",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 894
+      }
+    },
+    {
+      "name": "W.Sanders",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 11,
+        "SACK": 2,
+        "SNAPS": 824
+      }
+    },
+    {
+      "name": "W.VanHoy",
+      "pos": "RT",
+      "team": "TCU",
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": null
+      }
+    },
+    {
+      "name": "Z.Alexander",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 2,
+        "SNAPS": 889
+      }
+    },
+    {
+      "name": "A.Buckhalter",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 889
+      }
+    },
+    {
+      "name": "A.Wolford",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 846
+      }
+    },
+    {
+      "name": "B.Weaver",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 939
+      }
+    },
+    {
+      "name": "C.Dellinger",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 943
+      }
+    },
+    {
+      "name": "C.Stevens",
+      "pos": "C",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 940
+      }
+    },
+    {
+      "name": "D.Funsch",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 923
+      }
+    },
+    {
+      "name": "D.Hutchinson",
+      "pos": "C",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 975
+      }
+    },
+    {
+      "name": "D.McRae",
+      "pos": "C",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 861
+      }
+    },
+    {
+      "name": "D.Townsend",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 970
+      }
+    },
+    {
+      "name": "D.VanDyke",
+      "pos": "LT",
+      "team": "Arkansas State",
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 985
+      }
+    },
+    {
+      "name": "G.Kayed",
+      "pos": "LG",
+      "team": "Eastern Michigan",
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 515
+      }
+    },
+    {
+      "name": "J.Booth",
+      "pos": "LT",
+      "team": "Central Michigan",
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": null
+      }
+    },
+    {
+      "name": "J.Chatman",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 936
+      }
+    },
+    {
+      "name": "J.DeLeon",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 873
+      }
+    },
+    {
+      "name": "J.Rodriguez",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 851
+      }
+    },
+    {
+      "name": "J.Slaughter",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 845
+      }
+    },
+    {
+      "name": "J.Tate",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 854
+      }
+    },
+    {
+      "name": "K.Massey",
+      "pos": "LT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 852
+      }
+    },
+    {
+      "name": "L.Lilley",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 902
+      }
+    },
+    {
+      "name": "L.Stephens",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 810
+      }
+    },
+    {
+      "name": "L.Williams-Gentry",
+      "pos": "C",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 884
+      }
+    },
+    {
+      "name": "M.Buchanan",
+      "pos": "RG",
+      "team": "Miami",
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 923
+      }
+    },
+    {
+      "name": "M.Muldrow",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 859
+      }
+    },
+    {
+      "name": "M.Sahara",
+      "pos": "RG",
+      "team": "Coastal Carolina",
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 843
+      }
+    },
+    {
+      "name": "M.Vivier",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 923
+      }
+    },
+    {
+      "name": "O.VanRensburg",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 835
+      }
+    },
+    {
+      "name": "R.Berger",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 868
+      }
+    },
+    {
+      "name": "R.Moffett",
+      "pos": "RT",
+      "team": "Western Michigan",
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 734
+      }
+    },
+    {
+      "name": "R.Parmenter",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 850
+      }
+    },
+    {
+      "name": "S.Lindo",
+      "pos": "C",
+      "team": "Central Michigan",
+      "values": {
+        "GP": null,
+        "SACK": 1,
+        "SNAPS": null
+      }
+    },
+    {
+      "name": "S.Sowells",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 945
+      }
+    },
+    {
+      "name": "T.Boyd",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 893
+      }
+    },
+    {
+      "name": "T.Chandler",
+      "pos": "LG",
+      "team": "Arkansas State",
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 985
+      }
+    },
+    {
+      "name": "T.ShanahanJr.",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 886
+      }
+    },
+    {
+      "name": "T.Shaw",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 936
+      }
+    },
+    {
+      "name": "T.SmithIII",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 875
+      }
+    },
+    {
+      "name": "W.Davis",
+      "pos": "RT",
+      "team": "LSU",
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 911
+      }
+    },
+    {
+      "name": "W.King",
+      "pos": "C",
+      "team": "Eastern Michigan",
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 517
+      }
+    },
+    {
+      "name": "X.Lozowicki",
+      "pos": "C",
+      "team": "Fresno State",
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 787
+      }
+    },
+    {
+      "name": "Z.Esty",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 1,
+        "SNAPS": 867
+      }
+    },
+    {
+      "name": "C.Jagusah",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 0,
+        "SNAPS": 852
+      }
+    },
+    {
+      "name": "D.Egnew",
+      "pos": "RT",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 0,
+        "SNAPS": 852
+      }
+    },
+    {
+      "name": "D.Plazz",
+      "pos": "LG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 0,
+        "SNAPS": 832
+      }
+    },
+    {
+      "name": "J.Acklin",
+      "pos": "RG",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 0,
+        "SNAPS": 816
+      }
+    },
+    {
+      "name": "J.Chenault",
+      "pos": "?",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "SACK": 0,
+        "SNAPS": 969
+      }
+    },
+    {
+      "name": "J.Liston",
+      "pos": "C",
+      "team": "Texas A&M",
+      "values": {
+        "GP": 12,
+        "SACK": 0,
+        "SNAPS": 820
+      }
+    },
+    {
+      "name": "K.Registe",
+      "pos": "RG",
+      "team": "TCU",
+      "values": {
+        "GP": 12,
+        "SACK": 0,
+        "SNAPS": 968
+      }
+    },
+    {
+      "name": "N.McGuire",
+      "pos": "RG",
+      "team": "Texas A&M",
+      "values": {
+        "GP": 12,
+        "SACK": 0,
+        "SNAPS": 880
+      }
+    }
+  ],
+  "screen": "12-game regular-season window; captured player subset. National rows are screened against recorded postseason rosters. Identified 13/14-game cohorts have individual postseason counts removed; ambiguous matches are withheld. Rates are recomputed. Dashes mark unreadable deductions or unrecoverable season maxima.",
+  "sources": [
+    "2027/IMG_5598.MOV",
+    "2027/IMG_5599.MOV",
+    "2027/IMG_5600.MOV",
+    "2027/IMG_5604.MOV",
+    "2027/IMG_5605.MOV",
+    "2027/IMG_5606.MOV",
+    "2027/IMG_5607.MOV",
+    "2027/IMG_5608.MOV",
+    "2027/IMG_5609.MOV",
+    "2027/IMG_5610.MOV",
+    "2027/IMG_5611.MOV",
+    "2027/IMG_5612.MOV",
+    "2027/Additional Items/IMG_5620.MOV",
+    "2027/Additional Items/IMG_5621.MOV",
+    "2027/Additional Items/IMG_5622.MOV",
+    "2027/Additional Items/IMG_5623.MOV"
+  ]
+}

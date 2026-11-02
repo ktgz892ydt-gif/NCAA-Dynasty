@@ -1,8 +1,14 @@
 # NCAA Dynasty — Dynasty HQ
 
-One static website for the Western Michigan, Eastern Michigan and Central Michigan dynasty, with a top-level tab for each published season. **2026 is the only published season.** Future data folders do not appear until explicitly added to the publication manifest.
+One static website for the Western Michigan, Eastern Michigan and Central Michigan dynasty, with a top-level tab for each published season. **2026 and 2027 are included, with 2027 selected by default.** Future data folders do not appear until explicitly added to the publication manifest.
 
 Live: https://ktgz892ydt-gif.github.io/NCAA-Dynasty/
+
+The **2027 update** includes 842 regular-season games, with exactly 12 games for every real team. Recorded championship and bowl contributions are removed before rates are recomputed. All 26 videos and two additional images are incorporated. The J. Taylor equal splits are labeled estimates, and other source limits remain explicit. See the [2027 source notes](data/seasons/2027/source-notes.md) and [capture status](data/seasons/2027/pending-capture.md). Preview locally:
+
+```sh
+python3 -B scripts/preview.py --port 8765
+```
 
 ## Browse
 
@@ -73,7 +79,7 @@ python3 -B scripts/validate_season.py --season 2027
 python3 -B scripts/publish_season.py --season 2027
 ```
 
-Initialization creates blank, unpublished inputs. Publishing updates the local manifest only after verification. Review, commit and push the files through GitHub Desktop when ready. No 2027 results or summaries are supplied by this migration.
+Initialization creates blank, unpublished inputs. Publishing updates the local manifest only after verification. Review, commit and push the files through GitHub Desktop when ready. Do not reinitialize the existing 2027 season; its source notes document the preparation and rebuild commands.
 
 ## Preservation and limitations
 

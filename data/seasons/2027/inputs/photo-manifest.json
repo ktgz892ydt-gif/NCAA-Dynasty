@@ -1,0 +1,16 @@
+[
+  {
+    "file": "2027/Additional Items/IMG_5624.HEIC",
+    "sha256": "ebfd8674665a22e93e784bfb0b3502ec10eb8ae017d3f69adc99b8e57473a561",
+    "bytes": 6609172,
+    "purpose": "Arkansas State\u2013Coastal Carolina championship upper team box score",
+    "review": "Manually read; offense/play/turnover identities checked; punt totals cross-checked against individual video."
+  },
+  {
+    "file": "2027/Additional Items/IMG_5625.HEIC",
+    "sha256": "e062fd0f2019a7c51b269cb6c8819f0af34b79de4c0bd50782f1f460750c41cd",
+    "bytes": 5527471,
+    "purpose": "Arkansas State\u2013Coastal Carolina championship lower team box score",
+    "review": "Manually read; offense/play/turnover identities checked; punt totals cross-checked against individual video."
+  }
+]

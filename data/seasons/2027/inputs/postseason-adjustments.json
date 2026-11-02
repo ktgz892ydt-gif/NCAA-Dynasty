@@ -1,0 +1,4130 @@
+[
+  {
+    "team": "Liberty",
+    "game": "Liberty | Western Kentucky",
+    "sourceFrames": [
+      [
+        5614,
+        4
+      ],
+      [
+        5614,
+        5
+      ],
+      [
+        5614,
+        6
+      ],
+      [
+        5614,
+        7
+      ],
+      [
+        5614,
+        8
+      ],
+      [
+        5614,
+        9
+      ],
+      [
+        5614,
+        61
+      ],
+      [
+        5614,
+        62
+      ],
+      [
+        5614,
+        63
+      ],
+      [
+        5614,
+        64
+      ],
+      [
+        5614,
+        65
+      ]
+    ],
+    "changes": {
+      "pts": {
+        "capturedRemaining": 310,
+        "subtract": 31,
+        "regularRemaining": 279
+      },
+      "yds": {
+        "capturedRemaining": 5215,
+        "subtract": 454,
+        "regularRemaining": 4761
+      },
+      "pyds": {
+        "capturedRemaining": 2765,
+        "subtract": 160,
+        "regularRemaining": 2605
+      },
+      "ptd": {
+        "capturedRemaining": 12,
+        "subtract": 0,
+        "regularRemaining": 12
+      },
+      "ryds": {
+        "capturedRemaining": 2450,
+        "subtract": 294,
+        "regularRemaining": 2156
+      },
+      "rtd": {
+        "capturedRemaining": 26,
+        "subtract": 4,
+        "regularRemaining": 22
+      },
+      "fd": {
+        "capturedRemaining": 203,
+        "subtract": 16,
+        "regularRemaining": 187
+      },
+      "ptsa": {
+        "capturedRemaining": 296,
+        "subtract": 25,
+        "regularRemaining": 271
+      },
+      "ydsa": {
+        "capturedRemaining": 4903,
+        "subtract": 426,
+        "regularRemaining": 4477
+      },
+      "pydsa": {
+        "capturedRemaining": 3395,
+        "subtract": 341,
+        "regularRemaining": 3054
+      },
+      "rydsa": {
+        "capturedRemaining": 1508,
+        "subtract": 85,
+        "regularRemaining": 1423
+      },
+      "sacks": {
+        "capturedRemaining": 18,
+        "subtract": 3,
+        "regularRemaining": 15
+      },
+      "d3c": {
+        "capturedRemaining": 88,
+        "subtract": 7,
+        "regularRemaining": 81
+      },
+      "d3a": {
+        "capturedRemaining": 199,
+        "subtract": 13,
+        "regularRemaining": 186
+      },
+      "d4c": {
+        "capturedRemaining": 9,
+        "subtract": 0,
+        "regularRemaining": 9
+      },
+      "d4a": {
+        "capturedRemaining": 15,
+        "subtract": 0,
+        "regularRemaining": 15
+      },
+      "twoMade": {
+        "capturedRemaining": 1,
+        "subtract": 1,
+        "regularRemaining": 0
+      },
+      "twoAtt": {
+        "capturedRemaining": 4,
+        "subtract": 1,
+        "regularRemaining": 3
+      },
+      "rza": {
+        "capturedRemaining": 43,
+        "subtract": 4,
+        "regularRemaining": 39
+      },
+      "rztd": {
+        "capturedRemaining": 21,
+        "subtract": 2,
+        "regularRemaining": 19
+      },
+      "rzfg": {
+        "capturedRemaining": 10,
+        "subtract": 1,
+        "regularRemaining": 9
+      },
+      "rzaa": {
+        "capturedRemaining": 35,
+        "subtract": 3,
+        "regularRemaining": 32
+      },
+      "rztda": {
+        "capturedRemaining": 21,
+        "subtract": 1,
+        "regularRemaining": 20
+      },
+      "rzfga": {
+        "capturedRemaining": 4,
+        "subtract": 0,
+        "regularRemaining": 4
+      },
+      "pen": {
+        "capturedRemaining": 99,
+        "subtract": 7,
+        "regularRemaining": 92
+      },
+      "penyds": {
+        "capturedRemaining": 796,
+        "subtract": 65,
+        "regularRemaining": 731
+      },
+      "give": {
+        "capturedRemaining": 8,
+        "subtract": 3,
+        "regularRemaining": 5
+      },
+      "pint": {
+        "capturedRemaining": 5,
+        "subtract": 1,
+        "regularRemaining": 4
+      },
+      "fumlost": {
+        "capturedRemaining": 3,
+        "subtract": 2,
+        "regularRemaining": 1
+      },
+      "take": {
+        "capturedRemaining": 10,
+        "subtract": 2,
+        "regularRemaining": 8
+      },
+      "dint": {
+        "capturedRemaining": 6,
+        "subtract": 2,
+        "regularRemaining": 4
+      },
+      "fumrec": {
+        "capturedRemaining": 4,
+        "subtract": 0,
+        "regularRemaining": 4
+      }
+    }
+  },
+  {
+    "team": "Western Kentucky",
+    "game": "Liberty | Western Kentucky",
+    "sourceFrames": [
+      [
+        5614,
+        4
+      ],
+      [
+        5614,
+        5
+      ],
+      [
+        5614,
+        6
+      ],
+      [
+        5614,
+        7
+      ],
+      [
+        5614,
+        8
+      ],
+      [
+        5614,
+        9
+      ],
+      [
+        5614,
+        61
+      ],
+      [
+        5614,
+        62
+      ],
+      [
+        5614,
+        63
+      ],
+      [
+        5614,
+        64
+      ],
+      [
+        5614,
+        65
+      ]
+    ],
+    "changes": {
+      "pts": {
+        "capturedRemaining": 293,
+        "subtract": 25,
+        "regularRemaining": 268
+      },
+      "yds": {
+        "capturedRemaining": 4761,
+        "subtract": 426,
+        "regularRemaining": 4335
+      },
+      "pyds": {
+        "capturedRemaining": 3731,
+        "subtract": 341,
+        "regularRemaining": 3390
+      },
+      "ptd": {
+        "capturedRemaining": 21,
+        "subtract": 2,
+        "regularRemaining": 19
+      },
+      "ryds": {
+        "capturedRemaining": 1030,
+        "subtract": 85,
+        "regularRemaining": 945
+      },
+      "rtd": {
+        "capturedRemaining": 10,
+        "subtract": 1,
+        "regularRemaining": 9
+      },
+      "fd": {
+        "capturedRemaining": 224,
+        "subtract": 22,
+        "regularRemaining": 202
+      },
+      "ptsa": {
+        "capturedRemaining": 344,
+        "subtract": 31,
+        "regularRemaining": 313
+      },
+      "ydsa": {
+        "capturedRemaining": 4833,
+        "subtract": 454,
+        "regularRemaining": 4379
+      },
+      "pydsa": {
+        "capturedRemaining": 2704,
+        "subtract": 160,
+        "regularRemaining": 2544
+      },
+      "rydsa": {
+        "capturedRemaining": 2129,
+        "subtract": 294,
+        "regularRemaining": 1835
+      },
+      "sacks": {
+        "capturedRemaining": 27,
+        "subtract": 1,
+        "regularRemaining": 26
+      },
+      "d3c": {
+        "capturedRemaining": 67,
+        "subtract": 5,
+        "regularRemaining": 62
+      },
+      "d3a": {
+        "capturedRemaining": 212,
+        "subtract": 13,
+        "regularRemaining": 199
+      },
+      "d4c": {
+        "capturedRemaining": 12,
+        "subtract": 1,
+        "regularRemaining": 11
+      },
+      "d4a": {
+        "capturedRemaining": 29,
+        "subtract": 3,
+        "regularRemaining": 26
+      },
+      "twoMade": {
+        "capturedRemaining": 2,
+        "subtract": 1,
+        "regularRemaining": 1
+      },
+      "twoAtt": {
+        "capturedRemaining": 3,
+        "subtract": 1,
+        "regularRemaining": 2
+      },
+      "rza": {
+        "capturedRemaining": 44,
+        "subtract": 3,
+        "regularRemaining": 41
+      },
+      "rztd": {
+        "capturedRemaining": 17,
+        "subtract": 1,
+        "regularRemaining": 16
+      },
+      "rzfg": {
+        "capturedRemaining": 8,
+        "subtract": 0,
+        "regularRemaining": 8
+      },
+      "rzaa": {
+        "capturedRemaining": 48,
+        "subtract": 4,
+        "regularRemaining": 44
+      },
+      "rztda": {
+        "capturedRemaining": 25,
+        "subtract": 2,
+        "regularRemaining": 23
+      },
+      "rzfga": {
+        "capturedRemaining": 10,
+        "subtract": 1,
+        "regularRemaining": 9
+      },
+      "pen": {
+        "capturedRemaining": 92,
+        "subtract": 4,
+        "regularRemaining": 88
+      },
+      "penyds": {
+        "capturedRemaining": 770,
+        "subtract": 30,
+        "regularRemaining": 740
+      },
+      "give": {
+        "capturedRemaining": 12,
+        "subtract": 2,
+        "regularRemaining": 10
+      },
+      "pint": {
+        "capturedRemaining": 10,
+        "subtract": 2,
+        "regularRemaining": 8
+      },
+      "fumlost": {
+        "capturedRemaining": 2,
+        "subtract": 0,
+        "regularRemaining": 2
+      },
+      "take": {
+        "capturedRemaining": 25,
+        "subtract": 3,
+        "regularRemaining": 22
+      },
+      "dint": {
+        "capturedRemaining": 7,
+        "subtract": 1,
+        "regularRemaining": 6
+      },
+      "fumrec": {
+        "capturedRemaining": 18,
+        "subtract": 2,
+        "regularRemaining": 16
+      }
+    }
+  },
+  {
+    "team": "Washington State",
+    "game": "Fresno State | Washington State",
+    "sourceFrames": [
+      [
+        5614,
+        14
+      ],
+      [
+        5614,
+        16
+      ],
+      [
+        5614,
+        17
+      ],
+      [
+        5614,
+        18
+      ],
+      [
+        5614,
+        19
+      ]
+    ],
+    "changes": {
+      "pts": {
+        "capturedRemaining": 295,
+        "subtract": 27,
+        "regularRemaining": 268
+      },
+      "yds": {
+        "capturedRemaining": 5128,
+        "subtract": 400,
+        "regularRemaining": 4728
+      },
+      "pyds": {
+        "capturedRemaining": 3107,
+        "subtract": 262,
+        "regularRemaining": 2845
+      },
+      "ptd": {
+        "capturedRemaining": 16,
+        "subtract": 1,
+        "regularRemaining": 15
+      },
+      "ryds": {
+        "capturedRemaining": 2021,
+        "subtract": 138,
+        "regularRemaining": 1883
+      },
+      "rtd": {
+        "capturedRemaining": 19,
+        "subtract": 2,
+        "regularRemaining": 17
+      },
+      "fd": {
+        "capturedRemaining": 196,
+        "subtract": 16,
+        "regularRemaining": 180
+      },
+      "ptsa": {
+        "capturedRemaining": 365,
+        "subtract": 24,
+        "regularRemaining": 341
+      },
+      "ydsa": {
+        "capturedRemaining": 5359,
+        "subtract": 378,
+        "regularRemaining": 4981
+      },
+      "pydsa": {
+        "capturedRemaining": 3524,
+        "subtract": 250,
+        "regularRemaining": 3274
+      },
+      "rydsa": {
+        "capturedRemaining": 1835,
+        "subtract": 128,
+        "regularRemaining": 1707
+      },
+      "sacks": {
+        "capturedRemaining": 24,
+        "subtract": 3,
+        "regularRemaining": 21
+      },
+      "d3c": {
+        "capturedRemaining": 72,
+        "subtract": 7,
+        "regularRemaining": 65
+      },
+      "d3a": {
+        "capturedRemaining": 187,
+        "subtract": 15,
+        "regularRemaining": 172
+      },
+      "d4c": {
+        "capturedRemaining": 14,
+        "subtract": 1,
+        "regularRemaining": 13
+      },
+      "d4a": {
+        "capturedRemaining": 23,
+        "subtract": 2,
+        "regularRemaining": 21
+      },
+      "twoMade": {
+        "capturedRemaining": 2,
+        "subtract": 0,
+        "regularRemaining": 2
+      },
+      "twoAtt": {
+        "capturedRemaining": 4,
+        "subtract": 0,
+        "regularRemaining": 4
+      },
+      "rza": {
+        "capturedRemaining": 34,
+        "subtract": 3,
+        "regularRemaining": 31
+      },
+      "rztd": {
+        "capturedRemaining": 11,
+        "subtract": 0,
+        "regularRemaining": 11
+      },
+      "rzfg": {
+        "capturedRemaining": 6,
+        "subtract": 1,
+        "regularRemaining": 5
+      },
+      "rzaa": {
+        "capturedRemaining": 54,
+        "subtract": 4,
+        "regularRemaining": 50
+      },
+      "rztda": {
+        "capturedRemaining": 28,
+        "subtract": 3,
+        "regularRemaining": 25
+      },
+      "rzfga": {
+        "capturedRemaining": 6,
+        "subtract": 1,
+        "regularRemaining": 5
+      },
+      "pen": {
+        "capturedRemaining": 78,
+        "subtract": 7,
+        "regularRemaining": 71
+      },
+      "penyds": {
+        "capturedRemaining": 698,
+        "subtract": 57,
+        "regularRemaining": 641
+      },
+      "give": {
+        "capturedRemaining": 13,
+        "subtract": 0,
+        "regularRemaining": 13
+      },
+      "pint": {
+        "capturedRemaining": 7,
+        "subtract": 0,
+        "regularRemaining": 7
+      },
+      "fumlost": {
+        "capturedRemaining": 6,
+        "subtract": 0,
+        "regularRemaining": 6
+      },
+      "take": {
+        "capturedRemaining": 14,
+        "subtract": 1,
+        "regularRemaining": 13
+      },
+      "dint": {
+        "capturedRemaining": 10,
+        "subtract": 0,
+        "regularRemaining": 10
+      },
+      "fumrec": {
+        "capturedRemaining": 4,
+        "subtract": 1,
+        "regularRemaining": 3
+      }
+    }
+  },
+  {
+    "team": "Fresno State",
+    "game": "Fresno State | Washington State",
+    "sourceFrames": [
+      [
+        5614,
+        14
+      ],
+      [
+        5614,
+        16
+      ],
+      [
+        5614,
+        17
+      ],
+      [
+        5614,
+        18
+      ],
+      [
+        5614,
+        19
+      ]
+    ],
+    "changes": {
+      "pts": {
+        "capturedRemaining": 330,
+        "subtract": 24,
+        "regularRemaining": 306
+      },
+      "yds": {
+        "capturedRemaining": 4769,
+        "subtract": 378,
+        "regularRemaining": 4391
+      },
+      "pyds": {
+        "capturedRemaining": 2839,
+        "subtract": 250,
+        "regularRemaining": 2589
+      },
+      "ptd": {
+        "capturedRemaining": 23,
+        "subtract": 2,
+        "regularRemaining": 21
+      },
+      "ryds": {
+        "capturedRemaining": 1930,
+        "subtract": 128,
+        "regularRemaining": 1802
+      },
+      "rtd": {
+        "capturedRemaining": 20,
+        "subtract": 1,
+        "regularRemaining": 19
+      },
+      "fd": {
+        "capturedRemaining": 211,
+        "subtract": 20,
+        "regularRemaining": 191
+      },
+      "ptsa": {
+        "capturedRemaining": 309,
+        "subtract": 27,
+        "regularRemaining": 282
+      },
+      "ydsa": {
+        "capturedRemaining": 5022,
+        "subtract": 400,
+        "regularRemaining": 4622
+      },
+      "pydsa": {
+        "capturedRemaining": 3067,
+        "subtract": 262,
+        "regularRemaining": 2805
+      },
+      "rydsa": {
+        "capturedRemaining": 1955,
+        "subtract": 138,
+        "regularRemaining": 1817
+      },
+      "sacks": {
+        "capturedRemaining": 28,
+        "subtract": 3,
+        "regularRemaining": 25
+      },
+      "d3c": {
+        "capturedRemaining": 72,
+        "subtract": 9,
+        "regularRemaining": 63
+      },
+      "d3a": {
+        "capturedRemaining": 178,
+        "subtract": 16,
+        "regularRemaining": 162
+      },
+      "d4c": {
+        "capturedRemaining": 9,
+        "subtract": 1,
+        "regularRemaining": 8
+      },
+      "d4a": {
+        "capturedRemaining": 19,
+        "subtract": 1,
+        "regularRemaining": 18
+      },
+      "twoMade": {
+        "capturedRemaining": null,
+        "subtract": 0,
+        "regularRemaining": null
+      },
+      "twoAtt": {
+        "capturedRemaining": 1,
+        "subtract": 0,
+        "regularRemaining": 1
+      },
+      "rza": {
+        "capturedRemaining": 52,
+        "subtract": 4,
+        "regularRemaining": 48
+      },
+      "rztd": {
+        "capturedRemaining": 26,
+        "subtract": 3,
+        "regularRemaining": 23
+      },
+      "rzfg": {
+        "capturedRemaining": 6,
+        "subtract": 1,
+        "regularRemaining": 5
+      },
+      "rzaa": {
+        "capturedRemaining": 36,
+        "subtract": 3,
+        "regularRemaining": 33
+      },
+      "rztda": {
+        "capturedRemaining": 16,
+        "subtract": 0,
+        "regularRemaining": 16
+      },
+      "rzfga": {
+        "capturedRemaining": 8,
+        "subtract": 1,
+        "regularRemaining": 7
+      },
+      "pen": {
+        "capturedRemaining": 81,
+        "subtract": 6,
+        "regularRemaining": 75
+      },
+      "penyds": {
+        "capturedRemaining": 662,
+        "subtract": 50,
+        "regularRemaining": 612
+      },
+      "give": {
+        "capturedRemaining": 7,
+        "subtract": 1,
+        "regularRemaining": 6
+      },
+      "pint": {
+        "capturedRemaining": 5,
+        "subtract": 0,
+        "regularRemaining": 5
+      },
+      "fumlost": {
+        "capturedRemaining": 2,
+        "subtract": 1,
+        "regularRemaining": 1
+      },
+      "take": {
+        "capturedRemaining": 14,
+        "subtract": 0,
+        "regularRemaining": 14
+      },
+      "dint": {
+        "capturedRemaining": 6,
+        "subtract": 0,
+        "regularRemaining": 6
+      },
+      "fumrec": {
+        "capturedRemaining": 8,
+        "subtract": 0,
+        "regularRemaining": 8
+      }
+    }
+  },
+  {
+    "team": "Air Force",
+    "game": "Air Force | North Dakota State",
+    "sourceFrames": [
+      [
+        5614,
+        24
+      ],
+      [
+        5614,
+        25
+      ],
+      [
+        5614,
+        26
+      ],
+      [
+        5614,
+        27
+      ]
+    ],
+    "changes": {
+      "pts": {
+        "capturedRemaining": 268,
+        "subtract": 25,
+        "regularRemaining": 243
+      },
+      "yds": {
+        "capturedRemaining": 3658,
+        "subtract": 290,
+        "regularRemaining": 3368
+      },
+      "pyds": {
+        "capturedRemaining": 1515,
+        "subtract": 137,
+        "regularRemaining": 1378
+      },
+      "ptd": {
+        "capturedRemaining": 12,
+        "subtract": 0,
+        "regularRemaining": 12
+      },
+      "ryds": {
+        "capturedRemaining": 2143,
+        "subtract": 153,
+        "regularRemaining": 1990
+      },
+      "rtd": {
+        "capturedRemaining": 16,
+        "subtract": 2,
+        "regularRemaining": 14
+      },
+      "fd": {
+        "capturedRemaining": 128,
+        "subtract": 12,
+        "regularRemaining": 116
+      },
+      "ptsa": {
+        "capturedRemaining": 335,
+        "subtract": 23,
+        "regularRemaining": 312
+      },
+      "ydsa": {
+        "capturedRemaining": 5164,
+        "subtract": 359,
+        "regularRemaining": 4805
+      },
+      "pydsa": {
+        "capturedRemaining": 3033,
+        "subtract": 221,
+        "regularRemaining": 2812
+      },
+      "rydsa": {
+        "capturedRemaining": 2131,
+        "subtract": 138,
+        "regularRemaining": 1993
+      },
+      "sacks": {
+        "capturedRemaining": 17,
+        "subtract": 1,
+        "regularRemaining": 16
+      },
+      "d3c": {
+        "capturedRemaining": 61,
+        "subtract": 10,
+        "regularRemaining": 51
+      },
+      "d3a": {
+        "capturedRemaining": 198,
+        "subtract": 21,
+        "regularRemaining": 177
+      },
+      "d4c": {
+        "capturedRemaining": 15,
+        "subtract": 0,
+        "regularRemaining": 15
+      },
+      "d4a": {
+        "capturedRemaining": 23,
+        "subtract": 0,
+        "regularRemaining": 23
+      },
+      "twoMade": {
+        "capturedRemaining": 5,
+        "subtract": 1,
+        "regularRemaining": 4
+      },
+      "twoAtt": {
+        "capturedRemaining": 10,
+        "subtract": 1,
+        "regularRemaining": 9
+      },
+      "rza": {
+        "capturedRemaining": 29,
+        "subtract": 4,
+        "regularRemaining": 25
+      },
+      "rztd": {
+        "capturedRemaining": 12,
+        "subtract": 1,
+        "regularRemaining": 11
+      },
+      "rzfg": {
+        "capturedRemaining": 7,
+        "subtract": 3,
+        "regularRemaining": 4
+      },
+      "rzaa": {
+        "capturedRemaining": 50,
+        "subtract": 4,
+        "regularRemaining": 46
+      },
+      "rztda": {
+        "capturedRemaining": 27,
+        "subtract": 1,
+        "regularRemaining": 26
+      },
+      "rzfga": {
+        "capturedRemaining": 8,
+        "subtract": 1,
+        "regularRemaining": 7
+      },
+      "pen": {
+        "capturedRemaining": 59,
+        "subtract": 4,
+        "regularRemaining": 55
+      },
+      "penyds": {
+        "capturedRemaining": 484,
+        "subtract": 25,
+        "regularRemaining": 459
+      },
+      "give": {
+        "capturedRemaining": 10,
+        "subtract": 0,
+        "regularRemaining": 10
+      },
+      "pint": {
+        "capturedRemaining": 4,
+        "subtract": 0,
+        "regularRemaining": 4
+      },
+      "fumlost": {
+        "capturedRemaining": 6,
+        "subtract": 0,
+        "regularRemaining": 6
+      },
+      "take": {
+        "capturedRemaining": 25,
+        "subtract": 1,
+        "regularRemaining": 24
+      },
+      "dint": {
+        "capturedRemaining": 13,
+        "subtract": 1,
+        "regularRemaining": 12
+      },
+      "fumrec": {
+        "capturedRemaining": 12,
+        "subtract": 0,
+        "regularRemaining": 12
+      }
+    }
+  },
+  {
+    "team": "North Dakota State",
+    "game": "Air Force | North Dakota State",
+    "sourceFrames": [
+      [
+        5614,
+        24
+      ],
+      [
+        5614,
+        25
+      ],
+      [
+        5614,
+        26
+      ],
+      [
+        5614,
+        27
+      ]
+    ],
+    "changes": {
+      "pts": {
+        "capturedRemaining": 362,
+        "subtract": 23,
+        "regularRemaining": 339
+      },
+      "yds": {
+        "capturedRemaining": 4984,
+        "subtract": 359,
+        "regularRemaining": 4625
+      },
+      "pyds": {
+        "capturedRemaining": 2554,
+        "subtract": 221,
+        "regularRemaining": 2333
+      },
+      "ptd": {
+        "capturedRemaining": 15,
+        "subtract": 1,
+        "regularRemaining": 14
+      },
+      "ryds": {
+        "capturedRemaining": 2430,
+        "subtract": 138,
+        "regularRemaining": 2292
+      },
+      "rtd": {
+        "capturedRemaining": 24,
+        "subtract": 1,
+        "regularRemaining": 23
+      },
+      "fd": {
+        "capturedRemaining": 217,
+        "subtract": 18,
+        "regularRemaining": 199
+      },
+      "ptsa": {
+        "capturedRemaining": 224,
+        "subtract": 25,
+        "regularRemaining": 199
+      },
+      "ydsa": {
+        "capturedRemaining": 4105,
+        "subtract": 290,
+        "regularRemaining": 3815
+      },
+      "pydsa": {
+        "capturedRemaining": 2504,
+        "subtract": 137,
+        "regularRemaining": 2367
+      },
+      "rydsa": {
+        "capturedRemaining": 1601,
+        "subtract": 153,
+        "regularRemaining": 1448
+      },
+      "sacks": {
+        "capturedRemaining": 25,
+        "subtract": 1,
+        "regularRemaining": 24
+      },
+      "d3c": {
+        "capturedRemaining": 83,
+        "subtract": 4,
+        "regularRemaining": 79
+      },
+      "d3a": {
+        "capturedRemaining": 206,
+        "subtract": 14,
+        "regularRemaining": 192
+      },
+      "d4c": {
+        "capturedRemaining": 11,
+        "subtract": 0,
+        "regularRemaining": 11
+      },
+      "d4a": {
+        "capturedRemaining": 20,
+        "subtract": 0,
+        "regularRemaining": 20
+      },
+      "twoMade": {
+        "capturedRemaining": 3,
+        "subtract": 0,
+        "regularRemaining": 3
+      },
+      "twoAtt": {
+        "capturedRemaining": 4,
+        "subtract": 1,
+        "regularRemaining": 3
+      },
+      "rza": {
+        "capturedRemaining": 52,
+        "subtract": 4,
+        "regularRemaining": 48
+      },
+      "rztd": {
+        "capturedRemaining": 24,
+        "subtract": 1,
+        "regularRemaining": 23
+      },
+      "rzfg": {
+        "capturedRemaining": 11,
+        "subtract": 1,
+        "regularRemaining": 10
+      },
+      "rzaa": {
+        "capturedRemaining": 28,
+        "subtract": 4,
+        "regularRemaining": 24
+      },
+      "rztda": {
+        "capturedRemaining": 9,
+        "subtract": 1,
+        "regularRemaining": 8
+      },
+      "rzfga": {
+        "capturedRemaining": 9,
+        "subtract": 3,
+        "regularRemaining": 6
+      },
+      "pen": {
+        "capturedRemaining": 83,
+        "subtract": 7,
+        "regularRemaining": 76
+      },
+      "penyds": {
+        "capturedRemaining": 669,
+        "subtract": 65,
+        "regularRemaining": 604
+      },
+      "give": {
+        "capturedRemaining": 10,
+        "subtract": 1,
+        "regularRemaining": 9
+      },
+      "pint": {
+        "capturedRemaining": 7,
+        "subtract": 1,
+        "regularRemaining": 6
+      },
+      "fumlost": {
+        "capturedRemaining": 3,
+        "subtract": 0,
+        "regularRemaining": 3
+      },
+      "take": {
+        "capturedRemaining": 18,
+        "subtract": 0,
+        "regularRemaining": 18
+      },
+      "dint": {
+        "capturedRemaining": 14,
+        "subtract": 0,
+        "regularRemaining": 14
+      },
+      "fumrec": {
+        "capturedRemaining": null,
+        "subtract": 0,
+        "regularRemaining": null
+      }
+    }
+  },
+  {
+    "team": "Louisville",
+    "game": "Louisville | Miami",
+    "sourceFrames": [
+      [
+        5614,
+        32
+      ],
+      [
+        5614,
+        33
+      ],
+      [
+        5614,
+        34
+      ],
+      [
+        5614,
+        37
+      ]
+    ],
+    "changes": {
+      "pts": {
+        "capturedRemaining": 382,
+        "subtract": 13,
+        "regularRemaining": 369
+      },
+      "yds": {
+        "capturedRemaining": 5331,
+        "subtract": 304,
+        "regularRemaining": 5027
+      },
+      "pyds": {
+        "capturedRemaining": 3851,
+        "subtract": 241,
+        "regularRemaining": 3610
+      },
+      "ptd": {
+        "capturedRemaining": 33,
+        "subtract": 1,
+        "regularRemaining": 32
+      },
+      "ryds": {
+        "capturedRemaining": 1480,
+        "subtract": 63,
+        "regularRemaining": 1417
+      },
+      "rtd": {
+        "capturedRemaining": 14,
+        "subtract": 0,
+        "regularRemaining": 14
+      },
+      "fd": {
+        "capturedRemaining": 220,
+        "subtract": 14,
+        "regularRemaining": 206
+      },
+      "ptsa": {
+        "capturedRemaining": 286,
+        "subtract": 49,
+        "regularRemaining": 237
+      },
+      "ydsa": {
+        "capturedRemaining": 4884,
+        "subtract": 498,
+        "regularRemaining": 4386
+      },
+      "pydsa": {
+        "capturedRemaining": 3557,
+        "subtract": 332,
+        "regularRemaining": 3225
+      },
+      "rydsa": {
+        "capturedRemaining": 1327,
+        "subtract": 166,
+        "regularRemaining": 1161
+      },
+      "sacks": {
+        "capturedRemaining": 23,
+        "subtract": 0,
+        "regularRemaining": 23
+      },
+      "d3c": {
+        "capturedRemaining": 72,
+        "subtract": 5,
+        "regularRemaining": 67
+      },
+      "d3a": {
+        "capturedRemaining": 188,
+        "subtract": 14,
+        "regularRemaining": 174
+      },
+      "d4c": {
+        "capturedRemaining": 15,
+        "subtract": 0,
+        "regularRemaining": 15
+      },
+      "d4a": {
+        "capturedRemaining": 22,
+        "subtract": 2,
+        "regularRemaining": 20
+      },
+      "twoMade": {
+        "capturedRemaining": 1,
+        "subtract": 0,
+        "regularRemaining": 1
+      },
+      "twoAtt": {
+        "capturedRemaining": 1,
+        "subtract": 0,
+        "regularRemaining": 1
+      },
+      "rza": {
+        "capturedRemaining": 48,
+        "subtract": 2,
+        "regularRemaining": 46
+      },
+      "rztd": {
+        "capturedRemaining": 26,
+        "subtract": 1,
+        "regularRemaining": 25
+      },
+      "rzfg": {
+        "capturedRemaining": 7,
+        "subtract": 0,
+        "regularRemaining": 7
+      },
+      "rzaa": {
+        "capturedRemaining": 43,
+        "subtract": 5,
+        "regularRemaining": 38
+      },
+      "rztda": {
+        "capturedRemaining": 21,
+        "subtract": 5,
+        "regularRemaining": 16
+      },
+      "rzfga": {
+        "capturedRemaining": 9,
+        "subtract": 0,
+        "regularRemaining": 9
+      },
+      "pen": {
+        "capturedRemaining": 84,
+        "subtract": 6,
+        "regularRemaining": 78
+      },
+      "penyds": {
+        "capturedRemaining": 672,
+        "subtract": 71,
+        "regularRemaining": 601
+      },
+      "give": {
+        "capturedRemaining": 8,
+        "subtract": 1,
+        "regularRemaining": 7
+      },
+      "pint": {
+        "capturedRemaining": 7,
+        "subtract": 1,
+        "regularRemaining": 6
+      },
+      "fumlost": {
+        "capturedRemaining": 1,
+        "subtract": 0,
+        "regularRemaining": 1
+      },
+      "take": {
+        "capturedRemaining": 13,
+        "subtract": 1,
+        "regularRemaining": 12
+      },
+      "dint": {
+        "capturedRemaining": 9,
+        "subtract": 1,
+        "regularRemaining": 8
+      },
+      "fumrec": {
+        "capturedRemaining": null,
+        "subtract": 0,
+        "regularRemaining": null
+      }
+    }
+  },
+  {
+    "team": "Miami",
+    "game": "Louisville | Miami",
+    "sourceFrames": [
+      [
+        5614,
+        32
+      ],
+      [
+        5614,
+        33
+      ],
+      [
+        5614,
+        34
+      ],
+      [
+        5614,
+        37
+      ]
+    ],
+    "changes": {
+      "pts": {
+        "capturedRemaining": 514,
+        "subtract": 49,
+        "regularRemaining": 465
+      },
+      "yds": {
+        "capturedRemaining": 5914,
+        "subtract": 498,
+        "regularRemaining": 5416
+      },
+      "pyds": {
+        "capturedRemaining": 3890,
+        "subtract": 332,
+        "regularRemaining": 3558
+      },
+      "ptd": {
+        "capturedRemaining": 44,
+        "subtract": 6,
+        "regularRemaining": 38
+      },
+      "ryds": {
+        "capturedRemaining": 2024,
+        "subtract": 166,
+        "regularRemaining": 1858
+      },
+      "rtd": {
+        "capturedRemaining": 21,
+        "subtract": 1,
+        "regularRemaining": 20
+      },
+      "fd": {
+        "capturedRemaining": 251,
+        "subtract": 25,
+        "regularRemaining": 226
+      },
+      "ptsa": {
+        "capturedRemaining": 182,
+        "subtract": 13,
+        "regularRemaining": 169
+      },
+      "ydsa": {
+        "capturedRemaining": 4080,
+        "subtract": 304,
+        "regularRemaining": 3776
+      },
+      "pydsa": {
+        "capturedRemaining": 2858,
+        "subtract": 241,
+        "regularRemaining": 2617
+      },
+      "rydsa": {
+        "capturedRemaining": 1222,
+        "subtract": 63,
+        "regularRemaining": 1159
+      },
+      "sacks": {
+        "capturedRemaining": 33,
+        "subtract": 3,
+        "regularRemaining": 30
+      },
+      "d3c": {
+        "capturedRemaining": 85,
+        "subtract": 6,
+        "regularRemaining": 79
+      },
+      "d3a": {
+        "capturedRemaining": 173,
+        "subtract": 10,
+        "regularRemaining": 163
+      },
+      "d4c": {
+        "capturedRemaining": 12,
+        "subtract": 2,
+        "regularRemaining": 10
+      },
+      "d4a": {
+        "capturedRemaining": 16,
+        "subtract": 2,
+        "regularRemaining": 14
+      },
+      "twoMade": {
+        "capturedRemaining": 0,
+        "subtract": 0,
+        "regularRemaining": 0
+      },
+      "twoAtt": {
+        "capturedRemaining": 1,
+        "subtract": 0,
+        "regularRemaining": 1
+      },
+      "rza": {
+        "capturedRemaining": 54,
+        "subtract": 5,
+        "regularRemaining": 49
+      },
+      "rztd": {
+        "capturedRemaining": 28,
+        "subtract": 5,
+        "regularRemaining": 23
+      },
+      "rzfg": {
+        "capturedRemaining": 5,
+        "subtract": 0,
+        "regularRemaining": 5
+      },
+      "rzaa": {
+        "capturedRemaining": 26,
+        "subtract": 2,
+        "regularRemaining": 24
+      },
+      "rztda": {
+        "capturedRemaining": 9,
+        "subtract": 1,
+        "regularRemaining": 8
+      },
+      "rzfga": {
+        "capturedRemaining": 7,
+        "subtract": 0,
+        "regularRemaining": 7
+      },
+      "pen": {
+        "capturedRemaining": 60,
+        "subtract": 2,
+        "regularRemaining": 58
+      },
+      "penyds": {
+        "capturedRemaining": 483,
+        "subtract": 16,
+        "regularRemaining": 467
+      },
+      "give": {
+        "capturedRemaining": 5,
+        "subtract": 1,
+        "regularRemaining": 4
+      },
+      "pint": {
+        "capturedRemaining": 4,
+        "subtract": 1,
+        "regularRemaining": 3
+      },
+      "fumlost": {
+        "capturedRemaining": 1,
+        "subtract": 0,
+        "regularRemaining": 1
+      },
+      "take": {
+        "capturedRemaining": 28,
+        "subtract": 1,
+        "regularRemaining": 27
+      },
+      "dint": {
+        "capturedRemaining": 20,
+        "subtract": 1,
+        "regularRemaining": 19
+      },
+      "fumrec": {
+        "capturedRemaining": 8,
+        "subtract": 0,
+        "regularRemaining": 8
+      }
+    }
+  },
+  {
+    "team": "Kansas State",
+    "game": "Kansas State | TCU",
+    "sourceFrames": [
+      [
+        5614,
+        42
+      ],
+      [
+        5614,
+        43
+      ],
+      [
+        5614,
+        44
+      ],
+      [
+        5614,
+        45
+      ],
+      [
+        5614,
+        46
+      ],
+      [
+        5614,
+        47
+      ]
+    ],
+    "changes": {
+      "pts": {
+        "capturedRemaining": 403,
+        "subtract": 23,
+        "regularRemaining": 380
+      },
+      "yds": {
+        "capturedRemaining": 5210,
+        "subtract": 423,
+        "regularRemaining": 4787
+      },
+      "pyds": {
+        "capturedRemaining": 3361,
+        "subtract": 297,
+        "regularRemaining": 3064
+      },
+      "ptd": {
+        "capturedRemaining": 20,
+        "subtract": 0,
+        "regularRemaining": 20
+      },
+      "ryds": {
+        "capturedRemaining": 1849,
+        "subtract": 126,
+        "regularRemaining": 1723
+      },
+      "rtd": {
+        "capturedRemaining": 30,
+        "subtract": 3,
+        "regularRemaining": 27
+      },
+      "fd": {
+        "capturedRemaining": 211,
+        "subtract": 18,
+        "regularRemaining": 193
+      },
+      "ptsa": {
+        "capturedRemaining": 355,
+        "subtract": 25,
+        "regularRemaining": 330
+      },
+      "ydsa": {
+        "capturedRemaining": 5039,
+        "subtract": 480,
+        "regularRemaining": 4559
+      },
+      "pydsa": {
+        "capturedRemaining": 3237,
+        "subtract": 334,
+        "regularRemaining": 2903
+      },
+      "rydsa": {
+        "capturedRemaining": 1802,
+        "subtract": 146,
+        "regularRemaining": 1656
+      },
+      "sacks": {
+        "capturedRemaining": 31,
+        "subtract": 4,
+        "regularRemaining": 27
+      },
+      "d3c": {
+        "capturedRemaining": 78,
+        "subtract": 9,
+        "regularRemaining": 69
+      },
+      "d3a": {
+        "capturedRemaining": 173,
+        "subtract": 16,
+        "regularRemaining": 157
+      },
+      "d4c": {
+        "capturedRemaining": 10,
+        "subtract": 1,
+        "regularRemaining": 9
+      },
+      "d4a": {
+        "capturedRemaining": 20,
+        "subtract": 2,
+        "regularRemaining": 18
+      },
+      "twoMade": {
+        "capturedRemaining": 4,
+        "subtract": 0,
+        "regularRemaining": 4
+      },
+      "twoAtt": {
+        "capturedRemaining": 6,
+        "subtract": 0,
+        "regularRemaining": 6
+      },
+      "rza": {
+        "capturedRemaining": 49,
+        "subtract": 4,
+        "regularRemaining": 45
+      },
+      "rztd": {
+        "capturedRemaining": 29,
+        "subtract": 3,
+        "regularRemaining": 26
+      },
+      "rzfg": {
+        "capturedRemaining": 7,
+        "subtract": 0,
+        "regularRemaining": 7
+      },
+      "rzaa": {
+        "capturedRemaining": 46,
+        "subtract": 4,
+        "regularRemaining": 42
+      },
+      "rztda": {
+        "capturedRemaining": 27,
+        "subtract": 2,
+        "regularRemaining": 25
+      },
+      "rzfga": {
+        "capturedRemaining": 9,
+        "subtract": 0,
+        "regularRemaining": 9
+      },
+      "pen": {
+        "capturedRemaining": 71,
+        "subtract": 9,
+        "regularRemaining": 62
+      },
+      "penyds": {
+        "capturedRemaining": 640,
+        "subtract": 75,
+        "regularRemaining": 565
+      },
+      "give": {
+        "capturedRemaining": 7,
+        "subtract": 0,
+        "regularRemaining": 7
+      },
+      "pint": {
+        "capturedRemaining": 6,
+        "subtract": 0,
+        "regularRemaining": 6
+      },
+      "fumlost": {
+        "capturedRemaining": 1,
+        "subtract": 0,
+        "regularRemaining": 1
+      },
+      "take": {
+        "capturedRemaining": 16,
+        "subtract": 1,
+        "regularRemaining": 15
+      },
+      "dint": {
+        "capturedRemaining": 6,
+        "subtract": 1,
+        "regularRemaining": 5
+      },
+      "fumrec": {
+        "capturedRemaining": 10,
+        "subtract": 0,
+        "regularRemaining": 10
+      }
+    }
+  },
+  {
+    "team": "TCU",
+    "game": "Kansas State | TCU",
+    "sourceFrames": [
+      [
+        5614,
+        42
+      ],
+      [
+        5614,
+        43
+      ],
+      [
+        5614,
+        44
+      ],
+      [
+        5614,
+        45
+      ],
+      [
+        5614,
+        46
+      ],
+      [
+        5614,
+        47
+      ]
+    ],
+    "changes": {
+      "pts": {
+        "capturedRemaining": 523,
+        "subtract": 25,
+        "regularRemaining": 498
+      },
+      "yds": {
+        "capturedRemaining": 6437,
+        "subtract": 480,
+        "regularRemaining": 5957
+      },
+      "pyds": {
+        "capturedRemaining": 3917,
+        "subtract": 334,
+        "regularRemaining": 3583
+      },
+      "ptd": {
+        "capturedRemaining": 32,
+        "subtract": 0,
+        "regularRemaining": 32
+      },
+      "ryds": {
+        "capturedRemaining": 2520,
+        "subtract": 146,
+        "regularRemaining": 2374
+      },
+      "rtd": {
+        "capturedRemaining": 36,
+        "subtract": 3,
+        "regularRemaining": 33
+      },
+      "fd": {
+        "capturedRemaining": 272,
+        "subtract": 26,
+        "regularRemaining": 246
+      },
+      "ptsa": {
+        "capturedRemaining": 342,
+        "subtract": 23,
+        "regularRemaining": 319
+      },
+      "ydsa": {
+        "capturedRemaining": 5348,
+        "subtract": 423,
+        "regularRemaining": 4925
+      },
+      "pydsa": {
+        "capturedRemaining": 3455,
+        "subtract": 297,
+        "regularRemaining": 3158
+      },
+      "rydsa": {
+        "capturedRemaining": 1893,
+        "subtract": 126,
+        "regularRemaining": 1767
+      },
+      "sacks": {
+        "capturedRemaining": 28,
+        "subtract": 2,
+        "regularRemaining": 26
+      },
+      "d3c": {
+        "capturedRemaining": 94,
+        "subtract": 7,
+        "regularRemaining": 87
+      },
+      "d3a": {
+        "capturedRemaining": 184,
+        "subtract": 14,
+        "regularRemaining": 170
+      },
+      "d4c": {
+        "capturedRemaining": 15,
+        "subtract": 1,
+        "regularRemaining": 14
+      },
+      "d4a": {
+        "capturedRemaining": 22,
+        "subtract": 2,
+        "regularRemaining": 20
+      },
+      "twoMade": {
+        "capturedRemaining": 0,
+        "subtract": 0,
+        "regularRemaining": 0
+      },
+      "twoAtt": {
+        "capturedRemaining": 2,
+        "subtract": 2,
+        "regularRemaining": 0
+      },
+      "rza": {
+        "capturedRemaining": 59,
+        "subtract": 4,
+        "regularRemaining": 55
+      },
+      "rztd": {
+        "capturedRemaining": 38,
+        "subtract": 2,
+        "regularRemaining": 36
+      },
+      "rzfg": {
+        "capturedRemaining": 7,
+        "subtract": 0,
+        "regularRemaining": 7
+      },
+      "rzaa": {
+        "capturedRemaining": 44,
+        "subtract": 4,
+        "regularRemaining": 40
+      },
+      "rztda": {
+        "capturedRemaining": 25,
+        "subtract": 3,
+        "regularRemaining": 22
+      },
+      "rzfga": {
+        "capturedRemaining": 8,
+        "subtract": 0,
+        "regularRemaining": 8
+      },
+      "pen": {
+        "capturedRemaining": 68,
+        "subtract": 5,
+        "regularRemaining": 63
+      },
+      "penyds": {
+        "capturedRemaining": 553,
+        "subtract": 27,
+        "regularRemaining": 526
+      },
+      "give": {
+        "capturedRemaining": 4,
+        "subtract": 1,
+        "regularRemaining": 3
+      },
+      "pint": {
+        "capturedRemaining": 4,
+        "subtract": 1,
+        "regularRemaining": 3
+      },
+      "fumlost": {
+        "capturedRemaining": 0,
+        "subtract": 0,
+        "regularRemaining": 0
+      },
+      "take": {
+        "capturedRemaining": 18,
+        "subtract": 0,
+        "regularRemaining": 18
+      },
+      "dint": {
+        "capturedRemaining": 10,
+        "subtract": 0,
+        "regularRemaining": 10
+      },
+      "fumrec": {
+        "capturedRemaining": 8,
+        "subtract": 0,
+        "regularRemaining": 8
+      }
+    }
+  },
+  {
+    "team": "Western Michigan",
+    "game": "Central Michigan | Western Michigan | Championship",
+    "sourceFrames": [
+      [
+        5614,
+        51
+      ],
+      [
+        5614,
+        52
+      ],
+      [
+        5614,
+        53
+      ],
+      [
+        5614,
+        55
+      ]
+    ],
+    "changes": {
+      "pts": {
+        "capturedRemaining": 398,
+        "subtract": 18,
+        "regularRemaining": 380
+      },
+      "yds": {
+        "capturedRemaining": 5374,
+        "subtract": 331,
+        "regularRemaining": 5043
+      },
+      "pyds": {
+        "capturedRemaining": 3062,
+        "subtract": 217,
+        "regularRemaining": 2845
+      },
+      "ptd": {
+        "capturedRemaining": 26,
+        "subtract": 2,
+        "regularRemaining": 24
+      },
+      "ryds": {
+        "capturedRemaining": 2312,
+        "subtract": 114,
+        "regularRemaining": 2198
+      },
+      "rtd": {
+        "capturedRemaining": 26,
+        "subtract": 0,
+        "regularRemaining": 26
+      },
+      "fd": {
+        "capturedRemaining": 324,
+        "subtract": 20,
+        "regularRemaining": 304
+      },
+      "ptsa": {
+        "capturedRemaining": 213,
+        "subtract": 20,
+        "regularRemaining": 193
+      },
+      "ydsa": {
+        "capturedRemaining": 2999,
+        "subtract": 189,
+        "regularRemaining": 2810
+      },
+      "pydsa": {
+        "capturedRemaining": 2090,
+        "subtract": 82,
+        "regularRemaining": 2008
+      },
+      "rydsa": {
+        "capturedRemaining": 909,
+        "subtract": 107,
+        "regularRemaining": 802
+      },
+      "sacks": {
+        "capturedRemaining": 25,
+        "subtract": 3,
+        "regularRemaining": 22
+      },
+      "d3c": {
+        "capturedRemaining": 59,
+        "subtract": 5,
+        "regularRemaining": 54
+      },
+      "d3a": {
+        "capturedRemaining": 123,
+        "subtract": 10,
+        "regularRemaining": 113
+      },
+      "d4c": {
+        "capturedRemaining": 10,
+        "subtract": 0,
+        "regularRemaining": 10
+      },
+      "d4a": {
+        "capturedRemaining": 17,
+        "subtract": 0,
+        "regularRemaining": 17
+      },
+      "twoMade": {
+        "capturedRemaining": 0,
+        "subtract": 0,
+        "regularRemaining": 0
+      },
+      "twoAtt": {
+        "capturedRemaining": 2,
+        "subtract": 2,
+        "regularRemaining": 0
+      },
+      "rza": {
+        "capturedRemaining": 64,
+        "subtract": 4,
+        "regularRemaining": 60
+      },
+      "rztd": {
+        "capturedRemaining": 42,
+        "subtract": 2,
+        "regularRemaining": 40
+      },
+      "rzfg": {
+        "capturedRemaining": 11,
+        "subtract": 2,
+        "regularRemaining": 9
+      },
+      "rzaa": {
+        "capturedRemaining": 28,
+        "subtract": 3,
+        "regularRemaining": 25
+      },
+      "rztda": {
+        "capturedRemaining": 14,
+        "subtract": 1,
+        "regularRemaining": 13
+      },
+      "rzfga": {
+        "capturedRemaining": 2,
+        "subtract": 1,
+        "regularRemaining": 1
+      },
+      "pen": {
+        "capturedRemaining": 12,
+        "subtract": 1,
+        "regularRemaining": 11
+      },
+      "penyds": {
+        "capturedRemaining": 96,
+        "subtract": 4,
+        "regularRemaining": 92
+      },
+      "give": {
+        "capturedRemaining": 13,
+        "subtract": 1,
+        "regularRemaining": 12
+      },
+      "pint": {
+        "capturedRemaining": 11,
+        "subtract": 1,
+        "regularRemaining": 10
+      },
+      "fumlost": {
+        "capturedRemaining": 2,
+        "subtract": 0,
+        "regularRemaining": 2
+      },
+      "take": {
+        "capturedRemaining": 14,
+        "subtract": 0,
+        "regularRemaining": 14
+      },
+      "dint": {
+        "capturedRemaining": 12,
+        "subtract": 0,
+        "regularRemaining": 12
+      },
+      "fumrec": {
+        "capturedRemaining": 2,
+        "subtract": 0,
+        "regularRemaining": 2
+      }
+    }
+  },
+  {
+    "team": "Central Michigan",
+    "game": "Central Michigan | Western Michigan | Championship",
+    "sourceFrames": [
+      [
+        5614,
+        51
+      ],
+      [
+        5614,
+        52
+      ],
+      [
+        5614,
+        53
+      ],
+      [
+        5614,
+        55
+      ]
+    ],
+    "changes": {
+      "pts": {
+        "capturedRemaining": 433,
+        "subtract": 20,
+        "regularRemaining": 413
+      },
+      "yds": {
+        "capturedRemaining": 4624,
+        "subtract": 189,
+        "regularRemaining": 4435
+      },
+      "pyds": {
+        "capturedRemaining": 2186,
+        "subtract": 82,
+        "regularRemaining": 2104
+      },
+      "ptd": {
+        "capturedRemaining": 24,
+        "subtract": 0,
+        "regularRemaining": 24
+      },
+      "ryds": {
+        "capturedRemaining": 2438,
+        "subtract": 107,
+        "regularRemaining": 2331
+      },
+      "rtd": {
+        "capturedRemaining": 25,
+        "subtract": 1,
+        "regularRemaining": 24
+      },
+      "fd": {
+        "capturedRemaining": 275,
+        "subtract": 12,
+        "regularRemaining": 263
+      },
+      "ptsa": {
+        "capturedRemaining": 197,
+        "subtract": 18,
+        "regularRemaining": 179
+      },
+      "ydsa": {
+        "capturedRemaining": 3391,
+        "subtract": 331,
+        "regularRemaining": 3060
+      },
+      "pydsa": {
+        "capturedRemaining": 2440,
+        "subtract": 217,
+        "regularRemaining": 2223
+      },
+      "rydsa": {
+        "capturedRemaining": 951,
+        "subtract": 114,
+        "regularRemaining": 837
+      },
+      "sacks": {
+        "capturedRemaining": 33,
+        "subtract": 2,
+        "regularRemaining": 31
+      },
+      "d3c": {
+        "capturedRemaining": 62,
+        "subtract": 2,
+        "regularRemaining": 60
+      },
+      "d3a": {
+        "capturedRemaining": 123,
+        "subtract": 7,
+        "regularRemaining": 116
+      },
+      "d4c": {
+        "capturedRemaining": 8,
+        "subtract": 0,
+        "regularRemaining": 8
+      },
+      "d4a": {
+        "capturedRemaining": 11,
+        "subtract": 0,
+        "regularRemaining": 11
+      },
+      "twoMade": {
+        "capturedRemaining": 0,
+        "subtract": 0,
+        "regularRemaining": 0
+      },
+      "twoAtt": {
+        "capturedRemaining": 1,
+        "subtract": 0,
+        "regularRemaining": 1
+      },
+      "rza": {
+        "capturedRemaining": 69,
+        "subtract": 3,
+        "regularRemaining": 66
+      },
+      "rztd": {
+        "capturedRemaining": 42,
+        "subtract": 1,
+        "regularRemaining": 41
+      },
+      "rzfg": {
+        "capturedRemaining": 10,
+        "subtract": 1,
+        "regularRemaining": 9
+      },
+      "rzaa": {
+        "capturedRemaining": 31,
+        "subtract": 4,
+        "regularRemaining": 27
+      },
+      "rztda": {
+        "capturedRemaining": 12,
+        "subtract": 2,
+        "regularRemaining": 10
+      },
+      "rzfga": {
+        "capturedRemaining": 8,
+        "subtract": 2,
+        "regularRemaining": 6
+      },
+      "pen": {
+        "capturedRemaining": 14,
+        "subtract": 1,
+        "regularRemaining": 13
+      },
+      "penyds": {
+        "capturedRemaining": 111,
+        "subtract": 5,
+        "regularRemaining": 106
+      },
+      "give": {
+        "capturedRemaining": 11,
+        "subtract": 0,
+        "regularRemaining": 11
+      },
+      "pint": {
+        "capturedRemaining": 7,
+        "subtract": 0,
+        "regularRemaining": 7
+      },
+      "fumlost": {
+        "capturedRemaining": 4,
+        "subtract": 0,
+        "regularRemaining": 4
+      },
+      "take": {
+        "capturedRemaining": 17,
+        "subtract": 1,
+        "regularRemaining": 16
+      },
+      "dint": {
+        "capturedRemaining": 15,
+        "subtract": 1,
+        "regularRemaining": 14
+      },
+      "fumrec": {
+        "capturedRemaining": 2,
+        "subtract": 0,
+        "regularRemaining": 2
+      }
+    }
+  },
+  {
+    "team": "Arkansas State",
+    "game": "Arkansas State | Coastal Carolina",
+    "sourceFrames": [
+      [
+        5624,
+        null
+      ],
+      [
+        5625,
+        null
+      ]
+    ],
+    "changes": {
+      "pts": {
+        "capturedRemaining": 414,
+        "subtract": 44,
+        "regularRemaining": 370
+      },
+      "yds": {
+        "capturedRemaining": 5416,
+        "subtract": 498,
+        "regularRemaining": 4918
+      },
+      "pyds": {
+        "capturedRemaining": 3701,
+        "subtract": 388,
+        "regularRemaining": 3313
+      },
+      "ptd": {
+        "capturedRemaining": 31,
+        "subtract": 2,
+        "regularRemaining": 29
+      },
+      "ryds": {
+        "capturedRemaining": 1715,
+        "subtract": 110,
+        "regularRemaining": 1605
+      },
+      "rtd": {
+        "capturedRemaining": 21,
+        "subtract": 4,
+        "regularRemaining": 17
+      },
+      "fd": {
+        "capturedRemaining": 237,
+        "subtract": 22,
+        "regularRemaining": 215
+      },
+      "ptsa": {
+        "capturedRemaining": 371,
+        "subtract": 38,
+        "regularRemaining": 333
+      },
+      "ydsa": {
+        "capturedRemaining": 5709,
+        "subtract": 390,
+        "regularRemaining": 5319
+      },
+      "pydsa": {
+        "capturedRemaining": 3583,
+        "subtract": 179,
+        "regularRemaining": 3404
+      },
+      "rydsa": {
+        "capturedRemaining": 2126,
+        "subtract": 211,
+        "regularRemaining": 1915
+      },
+      "sacks": {
+        "capturedRemaining": 23,
+        "subtract": 1,
+        "regularRemaining": 22
+      },
+      "d3c": {
+        "capturedRemaining": 68,
+        "subtract": 4,
+        "regularRemaining": 64
+      },
+      "d3a": {
+        "capturedRemaining": 198,
+        "subtract": 13,
+        "regularRemaining": 185
+      },
+      "d4c": {
+        "capturedRemaining": 14,
+        "subtract": 2,
+        "regularRemaining": 12
+      },
+      "d4a": {
+        "capturedRemaining": 24,
+        "subtract": 2,
+        "regularRemaining": 22
+      },
+      "twoMade": {
+        "capturedRemaining": null,
+        "subtract": 0,
+        "regularRemaining": null
+      },
+      "twoAtt": {
+        "capturedRemaining": 2,
+        "subtract": 0,
+        "regularRemaining": 2
+      },
+      "rza": {
+        "capturedRemaining": 50,
+        "subtract": 6,
+        "regularRemaining": 44
+      },
+      "rztd": {
+        "capturedRemaining": 33,
+        "subtract": 4,
+        "regularRemaining": 29
+      },
+      "rzfg": {
+        "capturedRemaining": 4,
+        "subtract": 1,
+        "regularRemaining": 3
+      },
+      "rzaa": {
+        "capturedRemaining": 56,
+        "subtract": 6,
+        "regularRemaining": 50
+      },
+      "rztda": {
+        "capturedRemaining": 27,
+        "subtract": 4,
+        "regularRemaining": 23
+      },
+      "rzfga": {
+        "capturedRemaining": 14,
+        "subtract": 1,
+        "regularRemaining": 13
+      },
+      "pen": {
+        "capturedRemaining": 96,
+        "subtract": 9,
+        "regularRemaining": 87
+      },
+      "penyds": {
+        "capturedRemaining": 838,
+        "subtract": 85,
+        "regularRemaining": 753
+      },
+      "give": {
+        "capturedRemaining": 7,
+        "subtract": 3,
+        "regularRemaining": 4
+      },
+      "pint": {
+        "capturedRemaining": 3,
+        "subtract": 2,
+        "regularRemaining": 1
+      },
+      "fumlost": {
+        "capturedRemaining": 4,
+        "subtract": 1,
+        "regularRemaining": 3
+      },
+      "take": {
+        "capturedRemaining": 24,
+        "subtract": 3,
+        "regularRemaining": 21
+      },
+      "dint": {
+        "capturedRemaining": 16,
+        "subtract": 3,
+        "regularRemaining": 13
+      },
+      "fumrec": {
+        "capturedRemaining": 8,
+        "subtract": 0,
+        "regularRemaining": 8
+      }
+    }
+  },
+  {
+    "team": "Coastal Carolina",
+    "game": "Arkansas State | Coastal Carolina",
+    "sourceFrames": [
+      [
+        5624,
+        null
+      ],
+      [
+        5625,
+        null
+      ]
+    ],
+    "changes": {
+      "pts": {
+        "capturedRemaining": 294,
+        "subtract": 38,
+        "regularRemaining": 256
+      },
+      "yds": {
+        "capturedRemaining": 4778,
+        "subtract": 390,
+        "regularRemaining": 4388
+      },
+      "pyds": {
+        "capturedRemaining": 2393,
+        "subtract": 179,
+        "regularRemaining": 2214
+      },
+      "ptd": {
+        "capturedRemaining": 21,
+        "subtract": 2,
+        "regularRemaining": 19
+      },
+      "ryds": {
+        "capturedRemaining": 2385,
+        "subtract": 211,
+        "regularRemaining": 2174
+      },
+      "rtd": {
+        "capturedRemaining": 16,
+        "subtract": 3,
+        "regularRemaining": 13
+      },
+      "fd": {
+        "capturedRemaining": 181,
+        "subtract": 13,
+        "regularRemaining": 168
+      },
+      "ptsa": {
+        "capturedRemaining": 245,
+        "subtract": 44,
+        "regularRemaining": 201
+      },
+      "ydsa": {
+        "capturedRemaining": 4669,
+        "subtract": 498,
+        "regularRemaining": 4171
+      },
+      "pydsa": {
+        "capturedRemaining": 3149,
+        "subtract": 388,
+        "regularRemaining": 2761
+      },
+      "rydsa": {
+        "capturedRemaining": 1520,
+        "subtract": 110,
+        "regularRemaining": 1410
+      },
+      "sacks": {
+        "capturedRemaining": 25,
+        "subtract": 1,
+        "regularRemaining": 24
+      },
+      "d3c": {
+        "capturedRemaining": 68,
+        "subtract": 6,
+        "regularRemaining": 62
+      },
+      "d3a": {
+        "capturedRemaining": 209,
+        "subtract": 18,
+        "regularRemaining": 191
+      },
+      "d4c": {
+        "capturedRemaining": 16,
+        "subtract": 0,
+        "regularRemaining": 16
+      },
+      "d4a": {
+        "capturedRemaining": 27,
+        "subtract": 0,
+        "regularRemaining": 27
+      },
+      "twoMade": {
+        "capturedRemaining": 0,
+        "subtract": 0,
+        "regularRemaining": 0
+      },
+      "twoAtt": {
+        "capturedRemaining": 1,
+        "subtract": 0,
+        "regularRemaining": 1
+      },
+      "rza": {
+        "capturedRemaining": 38,
+        "subtract": 6,
+        "regularRemaining": 32
+      },
+      "rztd": {
+        "capturedRemaining": 21,
+        "subtract": 4,
+        "regularRemaining": 17
+      },
+      "rzfg": {
+        "capturedRemaining": 6,
+        "subtract": 1,
+        "regularRemaining": 5
+      },
+      "rzaa": {
+        "capturedRemaining": 36,
+        "subtract": 6,
+        "regularRemaining": 30
+      },
+      "rztda": {
+        "capturedRemaining": 22,
+        "subtract": 4,
+        "regularRemaining": 18
+      },
+      "rzfga": {
+        "capturedRemaining": 5,
+        "subtract": 1,
+        "regularRemaining": 4
+      },
+      "pen": {
+        "capturedRemaining": 80,
+        "subtract": 8,
+        "regularRemaining": 72
+      },
+      "penyds": {
+        "capturedRemaining": 656,
+        "subtract": 61,
+        "regularRemaining": 595
+      },
+      "give": {
+        "capturedRemaining": 7,
+        "subtract": 3,
+        "regularRemaining": 4
+      },
+      "pint": {
+        "capturedRemaining": 5,
+        "subtract": 3,
+        "regularRemaining": 2
+      },
+      "fumlost": {
+        "capturedRemaining": 2,
+        "subtract": 0,
+        "regularRemaining": 2
+      },
+      "take": {
+        "capturedRemaining": 13,
+        "subtract": 3,
+        "regularRemaining": 10
+      },
+      "dint": {
+        "capturedRemaining": 9,
+        "subtract": 2,
+        "regularRemaining": 7
+      },
+      "fumrec": {
+        "capturedRemaining": 4,
+        "subtract": 1,
+        "regularRemaining": 3
+      }
+    }
+  },
+  {
+    "team": "Memphis",
+    "game": "Memphis | UAB",
+    "sourceFrames": [
+      [
+        5614,
+        70
+      ],
+      [
+        5614,
+        71
+      ],
+      [
+        5614,
+        73
+      ],
+      [
+        5614,
+        74
+      ],
+      [
+        5614,
+        75
+      ]
+    ],
+    "changes": {
+      "pts": {
+        "capturedRemaining": 439,
+        "subtract": 35,
+        "regularRemaining": 404
+      },
+      "yds": {
+        "capturedRemaining": 5894,
+        "subtract": 401,
+        "regularRemaining": 5493
+      },
+      "pyds": {
+        "capturedRemaining": 2999,
+        "subtract": 214,
+        "regularRemaining": 2785
+      },
+      "ptd": {
+        "capturedRemaining": 27,
+        "subtract": 1,
+        "regularRemaining": 26
+      },
+      "ryds": {
+        "capturedRemaining": 2895,
+        "subtract": 187,
+        "regularRemaining": 2708
+      },
+      "rtd": {
+        "capturedRemaining": 30,
+        "subtract": 4,
+        "regularRemaining": 26
+      },
+      "fd": {
+        "capturedRemaining": 234,
+        "subtract": 16,
+        "regularRemaining": 218
+      },
+      "ptsa": {
+        "capturedRemaining": 320,
+        "subtract": 24,
+        "regularRemaining": 296
+      },
+      "ydsa": {
+        "capturedRemaining": 5492,
+        "subtract": 467,
+        "regularRemaining": 5025
+      },
+      "pydsa": {
+        "capturedRemaining": 3355,
+        "subtract": 287,
+        "regularRemaining": 3068
+      },
+      "rydsa": {
+        "capturedRemaining": 2137,
+        "subtract": 180,
+        "regularRemaining": 1957
+      },
+      "sacks": {
+        "capturedRemaining": 23,
+        "subtract": 1,
+        "regularRemaining": 22
+      },
+      "d3c": {
+        "capturedRemaining": 76,
+        "subtract": 4,
+        "regularRemaining": 72
+      },
+      "d3a": {
+        "capturedRemaining": 198,
+        "subtract": 14,
+        "regularRemaining": 184
+      },
+      "d4c": {
+        "capturedRemaining": 12,
+        "subtract": 1,
+        "regularRemaining": 11
+      },
+      "d4a": {
+        "capturedRemaining": 19,
+        "subtract": 1,
+        "regularRemaining": 18
+      },
+      "twoMade": {
+        "capturedRemaining": 2,
+        "subtract": 0,
+        "regularRemaining": 2
+      },
+      "twoAtt": {
+        "capturedRemaining": 3,
+        "subtract": 0,
+        "regularRemaining": 3
+      },
+      "rza": {
+        "capturedRemaining": 60,
+        "subtract": 3,
+        "regularRemaining": 57
+      },
+      "rztd": {
+        "capturedRemaining": 28,
+        "subtract": 1,
+        "regularRemaining": 27
+      },
+      "rzfg": {
+        "capturedRemaining": 9,
+        "subtract": 0,
+        "regularRemaining": 9
+      },
+      "rzaa": {
+        "capturedRemaining": 37,
+        "subtract": 1,
+        "regularRemaining": 36
+      },
+      "rztda": {
+        "capturedRemaining": 18,
+        "subtract": 1,
+        "regularRemaining": 17
+      },
+      "rzfga": {
+        "capturedRemaining": 8,
+        "subtract": 0,
+        "regularRemaining": 8
+      },
+      "pen": {
+        "capturedRemaining": 79,
+        "subtract": 6,
+        "regularRemaining": 73
+      },
+      "penyds": {
+        "capturedRemaining": 580,
+        "subtract": 39,
+        "regularRemaining": 541
+      },
+      "give": {
+        "capturedRemaining": 7,
+        "subtract": 1,
+        "regularRemaining": 6
+      },
+      "pint": {
+        "capturedRemaining": 4,
+        "subtract": 1,
+        "regularRemaining": 3
+      },
+      "fumlost": {
+        "capturedRemaining": 3,
+        "subtract": 0,
+        "regularRemaining": 3
+      },
+      "take": {
+        "capturedRemaining": 16,
+        "subtract": 2,
+        "regularRemaining": 14
+      },
+      "dint": {
+        "capturedRemaining": 10,
+        "subtract": 2,
+        "regularRemaining": 8
+      },
+      "fumrec": {
+        "capturedRemaining": 6,
+        "subtract": 0,
+        "regularRemaining": 6
+      }
+    }
+  },
+  {
+    "team": "UAB",
+    "game": "Memphis | UAB",
+    "sourceFrames": [
+      [
+        5614,
+        70
+      ],
+      [
+        5614,
+        71
+      ],
+      [
+        5614,
+        73
+      ],
+      [
+        5614,
+        74
+      ],
+      [
+        5614,
+        75
+      ]
+    ],
+    "changes": {
+      "pts": {
+        "capturedRemaining": 343,
+        "subtract": 24,
+        "regularRemaining": 319
+      },
+      "yds": {
+        "capturedRemaining": 5564,
+        "subtract": 467,
+        "regularRemaining": 5097
+      },
+      "pyds": {
+        "capturedRemaining": 3778,
+        "subtract": 287,
+        "regularRemaining": 3491
+      },
+      "ptd": {
+        "capturedRemaining": 24,
+        "subtract": 2,
+        "regularRemaining": 22
+      },
+      "ryds": {
+        "capturedRemaining": 1786,
+        "subtract": 180,
+        "regularRemaining": 1606
+      },
+      "rtd": {
+        "capturedRemaining": 20,
+        "subtract": 1,
+        "regularRemaining": 19
+      },
+      "fd": {
+        "capturedRemaining": 234,
+        "subtract": 17,
+        "regularRemaining": 217
+      },
+      "ptsa": {
+        "capturedRemaining": 294,
+        "subtract": 35,
+        "regularRemaining": 259
+      },
+      "ydsa": {
+        "capturedRemaining": 4663,
+        "subtract": 401,
+        "regularRemaining": 4262
+      },
+      "pydsa": {
+        "capturedRemaining": 2845,
+        "subtract": 214,
+        "regularRemaining": 2631
+      },
+      "rydsa": {
+        "capturedRemaining": 1818,
+        "subtract": 187,
+        "regularRemaining": 1631
+      },
+      "sacks": {
+        "capturedRemaining": 20,
+        "subtract": 2,
+        "regularRemaining": 18
+      },
+      "d3c": {
+        "capturedRemaining": 76,
+        "subtract": 4,
+        "regularRemaining": 72
+      },
+      "d3a": {
+        "capturedRemaining": 196,
+        "subtract": 16,
+        "regularRemaining": 180
+      },
+      "d4c": {
+        "capturedRemaining": 12,
+        "subtract": 2,
+        "regularRemaining": 10
+      },
+      "d4a": {
+        "capturedRemaining": 22,
+        "subtract": 4,
+        "regularRemaining": 18
+      },
+      "twoMade": {
+        "capturedRemaining": 0,
+        "subtract": 0,
+        "regularRemaining": 0
+      },
+      "twoAtt": {
+        "capturedRemaining": 1,
+        "subtract": 0,
+        "regularRemaining": 1
+      },
+      "rza": {
+        "capturedRemaining": 51,
+        "subtract": 1,
+        "regularRemaining": 50
+      },
+      "rztd": {
+        "capturedRemaining": 27,
+        "subtract": 1,
+        "regularRemaining": 26
+      },
+      "rzfg": {
+        "capturedRemaining": 7,
+        "subtract": 0,
+        "regularRemaining": 7
+      },
+      "rzaa": {
+        "capturedRemaining": 36,
+        "subtract": 3,
+        "regularRemaining": 33
+      },
+      "rztda": {
+        "capturedRemaining": 18,
+        "subtract": 1,
+        "regularRemaining": 17
+      },
+      "rzfga": {
+        "capturedRemaining": 4,
+        "subtract": 0,
+        "regularRemaining": 4
+      },
+      "pen": {
+        "capturedRemaining": 75,
+        "subtract": 6,
+        "regularRemaining": 69
+      },
+      "penyds": {
+        "capturedRemaining": 569,
+        "subtract": 65,
+        "regularRemaining": 504
+      },
+      "give": {
+        "capturedRemaining": 20,
+        "subtract": 2,
+        "regularRemaining": 18
+      },
+      "pint": {
+        "capturedRemaining": 14,
+        "subtract": 2,
+        "regularRemaining": 12
+      },
+      "fumlost": {
+        "capturedRemaining": 6,
+        "subtract": 0,
+        "regularRemaining": 6
+      },
+      "take": {
+        "capturedRemaining": 12,
+        "subtract": 1,
+        "regularRemaining": 11
+      },
+      "dint": {
+        "capturedRemaining": 6,
+        "subtract": 1,
+        "regularRemaining": 5
+      },
+      "fumrec": {
+        "capturedRemaining": 6,
+        "subtract": 0,
+        "regularRemaining": 6
+      }
+    }
+  },
+  {
+    "team": "Texas A&M",
+    "game": "LSU | Texas A&M",
+    "sourceFrames": [
+      [
+        5614,
+        80
+      ],
+      [
+        5614,
+        81
+      ],
+      [
+        5614,
+        82
+      ],
+      [
+        5614,
+        83
+      ],
+      [
+        5614,
+        84
+      ]
+    ],
+    "changes": {
+      "pts": {
+        "capturedRemaining": 419,
+        "subtract": 28,
+        "regularRemaining": 391
+      },
+      "yds": {
+        "capturedRemaining": 5617,
+        "subtract": 471,
+        "regularRemaining": 5146
+      },
+      "pyds": {
+        "capturedRemaining": 3604,
+        "subtract": 292,
+        "regularRemaining": 3312
+      },
+      "ptd": {
+        "capturedRemaining": 27,
+        "subtract": 1,
+        "regularRemaining": 26
+      },
+      "ryds": {
+        "capturedRemaining": 2013,
+        "subtract": 179,
+        "regularRemaining": 1834
+      },
+      "rtd": {
+        "capturedRemaining": 25,
+        "subtract": 2,
+        "regularRemaining": 23
+      },
+      "fd": {
+        "capturedRemaining": 235,
+        "subtract": 19,
+        "regularRemaining": 216
+      },
+      "ptsa": {
+        "capturedRemaining": 324,
+        "subtract": 35,
+        "regularRemaining": 289
+      },
+      "ydsa": {
+        "capturedRemaining": 5265,
+        "subtract": 422,
+        "regularRemaining": 4843
+      },
+      "pydsa": {
+        "capturedRemaining": 3321,
+        "subtract": 290,
+        "regularRemaining": 3031
+      },
+      "rydsa": {
+        "capturedRemaining": 1944,
+        "subtract": 132,
+        "regularRemaining": 1812
+      },
+      "sacks": {
+        "capturedRemaining": 31,
+        "subtract": 0,
+        "regularRemaining": 31
+      },
+      "d3c": {
+        "capturedRemaining": 72,
+        "subtract": 4,
+        "regularRemaining": 68
+      },
+      "d3a": {
+        "capturedRemaining": 178,
+        "subtract": 16,
+        "regularRemaining": 162
+      },
+      "d4c": {
+        "capturedRemaining": 6,
+        "subtract": 2,
+        "regularRemaining": 4
+      },
+      "d4a": {
+        "capturedRemaining": 14,
+        "subtract": 4,
+        "regularRemaining": 10
+      },
+      "twoMade": {
+        "capturedRemaining": 2,
+        "subtract": 1,
+        "regularRemaining": 1
+      },
+      "twoAtt": {
+        "capturedRemaining": 4,
+        "subtract": 1,
+        "regularRemaining": 3
+      },
+      "rza": {
+        "capturedRemaining": 49,
+        "subtract": 4,
+        "regularRemaining": 45
+      },
+      "rztd": {
+        "capturedRemaining": 28,
+        "subtract": 2,
+        "regularRemaining": 26
+      },
+      "rzfg": {
+        "capturedRemaining": 10,
+        "subtract": 1,
+        "regularRemaining": 9
+      },
+      "rzaa": {
+        "capturedRemaining": 44,
+        "subtract": 4,
+        "regularRemaining": 40
+      },
+      "rztda": {
+        "capturedRemaining": 23,
+        "subtract": 2,
+        "regularRemaining": 21
+      },
+      "rzfga": {
+        "capturedRemaining": 6,
+        "subtract": 0,
+        "regularRemaining": 6
+      },
+      "pen": {
+        "capturedRemaining": 76,
+        "subtract": 9,
+        "regularRemaining": 67
+      },
+      "penyds": {
+        "capturedRemaining": 633,
+        "subtract": 72,
+        "regularRemaining": 561
+      },
+      "give": {
+        "capturedRemaining": 13,
+        "subtract": 1,
+        "regularRemaining": 12
+      },
+      "pint": {
+        "capturedRemaining": 12,
+        "subtract": 1,
+        "regularRemaining": 11
+      },
+      "fumlost": {
+        "capturedRemaining": 1,
+        "subtract": 0,
+        "regularRemaining": 1
+      },
+      "take": {
+        "capturedRemaining": 24,
+        "subtract": 2,
+        "regularRemaining": 22
+      },
+      "dint": {
+        "capturedRemaining": 14,
+        "subtract": 2,
+        "regularRemaining": 12
+      },
+      "fumrec": {
+        "capturedRemaining": 10,
+        "subtract": 0,
+        "regularRemaining": 10
+      }
+    }
+  },
+  {
+    "team": "LSU",
+    "game": "LSU | Texas A&M",
+    "sourceFrames": [
+      [
+        5614,
+        80
+      ],
+      [
+        5614,
+        81
+      ],
+      [
+        5614,
+        82
+      ],
+      [
+        5614,
+        83
+      ],
+      [
+        5614,
+        84
+      ]
+    ],
+    "changes": {
+      "pts": {
+        "capturedRemaining": 576,
+        "subtract": 35,
+        "regularRemaining": 541
+      },
+      "yds": {
+        "capturedRemaining": 6601,
+        "subtract": 422,
+        "regularRemaining": 6179
+      },
+      "pyds": {
+        "capturedRemaining": 4731,
+        "subtract": 290,
+        "regularRemaining": 4441
+      },
+      "ptd": {
+        "capturedRemaining": 47,
+        "subtract": 3,
+        "regularRemaining": 44
+      },
+      "ryds": {
+        "capturedRemaining": 1870,
+        "subtract": 132,
+        "regularRemaining": 1738
+      },
+      "rtd": {
+        "capturedRemaining": 29,
+        "subtract": 2,
+        "regularRemaining": 27
+      },
+      "fd": {
+        "capturedRemaining": 278,
+        "subtract": 15,
+        "regularRemaining": 263
+      },
+      "ptsa": {
+        "capturedRemaining": 323,
+        "subtract": 28,
+        "regularRemaining": 295
+      },
+      "ydsa": {
+        "capturedRemaining": 5160,
+        "subtract": 471,
+        "regularRemaining": 4689
+      },
+      "pydsa": {
+        "capturedRemaining": 3426,
+        "subtract": 292,
+        "regularRemaining": 3134
+      },
+      "rydsa": {
+        "capturedRemaining": 1734,
+        "subtract": 179,
+        "regularRemaining": 1555
+      },
+      "sacks": {
+        "capturedRemaining": 22,
+        "subtract": 3,
+        "regularRemaining": 19
+      },
+      "d3c": {
+        "capturedRemaining": 94,
+        "subtract": 5,
+        "regularRemaining": 89
+      },
+      "d3a": {
+        "capturedRemaining": 174,
+        "subtract": 13,
+        "regularRemaining": 161
+      },
+      "d4c": {
+        "capturedRemaining": 10,
+        "subtract": 0,
+        "regularRemaining": 10
+      },
+      "d4a": {
+        "capturedRemaining": 13,
+        "subtract": 1,
+        "regularRemaining": 12
+      },
+      "twoMade": {
+        "capturedRemaining": 1,
+        "subtract": 0,
+        "regularRemaining": 1
+      },
+      "twoAtt": {
+        "capturedRemaining": 2,
+        "subtract": 0,
+        "regularRemaining": 2
+      },
+      "rza": {
+        "capturedRemaining": 65,
+        "subtract": 4,
+        "regularRemaining": 61
+      },
+      "rztd": {
+        "capturedRemaining": 43,
+        "subtract": 2,
+        "regularRemaining": 41
+      },
+      "rzfg": {
+        "capturedRemaining": 9,
+        "subtract": 0,
+        "regularRemaining": 9
+      },
+      "rzaa": {
+        "capturedRemaining": 41,
+        "subtract": 4,
+        "regularRemaining": 37
+      },
+      "rztda": {
+        "capturedRemaining": 22,
+        "subtract": 2,
+        "regularRemaining": 20
+      },
+      "rzfga": {
+        "capturedRemaining": 6,
+        "subtract": 1,
+        "regularRemaining": 5
+      },
+      "pen": {
+        "capturedRemaining": 77,
+        "subtract": 6,
+        "regularRemaining": 71
+      },
+      "penyds": {
+        "capturedRemaining": 559,
+        "subtract": 35,
+        "regularRemaining": 524
+      },
+      "give": {
+        "capturedRemaining": 6,
+        "subtract": 2,
+        "regularRemaining": 4
+      },
+      "pint": {
+        "capturedRemaining": 6,
+        "subtract": 2,
+        "regularRemaining": 4
+      },
+      "fumlost": {
+        "capturedRemaining": 0,
+        "subtract": 0,
+        "regularRemaining": 0
+      },
+      "take": {
+        "capturedRemaining": 21,
+        "subtract": 1,
+        "regularRemaining": 20
+      },
+      "dint": {
+        "capturedRemaining": 13,
+        "subtract": 1,
+        "regularRemaining": 12
+      },
+      "fumrec": {
+        "capturedRemaining": 8,
+        "subtract": 0,
+        "regularRemaining": 8
+      }
+    }
+  },
+  {
+    "team": "Michigan",
+    "game": "Michigan | Nebraska",
+    "sourceFrames": [
+      [
+        5614,
+        89
+      ],
+      [
+        5614,
+        90
+      ],
+      [
+        5614,
+        94
+      ]
+    ],
+    "changes": {
+      "pts": {
+        "capturedRemaining": 359,
+        "subtract": 21,
+        "regularRemaining": 338
+      },
+      "yds": {
+        "capturedRemaining": 5193,
+        "subtract": 405,
+        "regularRemaining": 4788
+      },
+      "pyds": {
+        "capturedRemaining": 3229,
+        "subtract": 235,
+        "regularRemaining": 2994
+      },
+      "ptd": {
+        "capturedRemaining": 25,
+        "subtract": 2,
+        "regularRemaining": 23
+      },
+      "ryds": {
+        "capturedRemaining": 1964,
+        "subtract": 170,
+        "regularRemaining": 1794
+      },
+      "rtd": {
+        "capturedRemaining": 20,
+        "subtract": 1,
+        "regularRemaining": 19
+      },
+      "fd": {
+        "capturedRemaining": 212,
+        "subtract": 16,
+        "regularRemaining": 196
+      },
+      "ptsa": {
+        "capturedRemaining": 275,
+        "subtract": 38,
+        "regularRemaining": 237
+      },
+      "ydsa": {
+        "capturedRemaining": 4370,
+        "subtract": 411,
+        "regularRemaining": 3959
+      },
+      "pydsa": {
+        "capturedRemaining": 2641,
+        "subtract": 307,
+        "regularRemaining": 2334
+      },
+      "rydsa": {
+        "capturedRemaining": 1729,
+        "subtract": 104,
+        "regularRemaining": 1625
+      },
+      "sacks": {
+        "capturedRemaining": 25,
+        "subtract": 1,
+        "regularRemaining": 24
+      },
+      "d3c": {
+        "capturedRemaining": 70,
+        "subtract": 6,
+        "regularRemaining": 64
+      },
+      "d3a": {
+        "capturedRemaining": 175,
+        "subtract": 13,
+        "regularRemaining": 162
+      },
+      "d4c": {
+        "capturedRemaining": 7,
+        "subtract": 0,
+        "regularRemaining": 7
+      },
+      "d4a": {
+        "capturedRemaining": 15,
+        "subtract": 1,
+        "regularRemaining": 14
+      },
+      "twoMade": {
+        "capturedRemaining": 0,
+        "subtract": 0,
+        "regularRemaining": 0
+      },
+      "twoAtt": {
+        "capturedRemaining": 1,
+        "subtract": 0,
+        "regularRemaining": 1
+      },
+      "rza": {
+        "capturedRemaining": 47,
+        "subtract": 2,
+        "regularRemaining": 45
+      },
+      "rztd": {
+        "capturedRemaining": 26,
+        "subtract": 1,
+        "regularRemaining": 25
+      },
+      "rzfg": {
+        "capturedRemaining": 5,
+        "subtract": 0,
+        "regularRemaining": 5
+      },
+      "rzaa": {
+        "capturedRemaining": 40,
+        "subtract": 6,
+        "regularRemaining": 34
+      },
+      "rztda": {
+        "capturedRemaining": 23,
+        "subtract": 3,
+        "regularRemaining": 20
+      },
+      "rzfga": {
+        "capturedRemaining": 10,
+        "subtract": 1,
+        "regularRemaining": 9
+      },
+      "pen": {
+        "capturedRemaining": 69,
+        "subtract": 7,
+        "regularRemaining": 62
+      },
+      "penyds": {
+        "capturedRemaining": 561,
+        "subtract": 56,
+        "regularRemaining": 505
+      },
+      "give": {
+        "capturedRemaining": 7,
+        "subtract": 2,
+        "regularRemaining": 5
+      },
+      "pint": {
+        "capturedRemaining": 3,
+        "subtract": 1,
+        "regularRemaining": 2
+      },
+      "fumlost": {
+        "capturedRemaining": 4,
+        "subtract": 1,
+        "regularRemaining": 3
+      },
+      "take": {
+        "capturedRemaining": 12,
+        "subtract": 2,
+        "regularRemaining": 10
+      },
+      "dint": {
+        "capturedRemaining": 12,
+        "subtract": 2,
+        "regularRemaining": 10
+      },
+      "fumrec": {
+        "capturedRemaining": 0,
+        "subtract": 0,
+        "regularRemaining": 0
+      }
+    }
+  },
+  {
+    "team": "Nebraska",
+    "game": "Michigan | Nebraska",
+    "sourceFrames": [
+      [
+        5614,
+        89
+      ],
+      [
+        5614,
+        90
+      ],
+      [
+        5614,
+        94
+      ]
+    ],
+    "changes": {
+      "pts": {
+        "capturedRemaining": 426,
+        "subtract": 38,
+        "regularRemaining": 388
+      },
+      "yds": {
+        "capturedRemaining": 5647,
+        "subtract": 411,
+        "regularRemaining": 5236
+      },
+      "pyds": {
+        "capturedRemaining": 4057,
+        "subtract": 307,
+        "regularRemaining": 3750
+      },
+      "ptd": {
+        "capturedRemaining": 32,
+        "subtract": 5,
+        "regularRemaining": 27
+      },
+      "ryds": {
+        "capturedRemaining": 1590,
+        "subtract": 104,
+        "regularRemaining": 1486
+      },
+      "rtd": {
+        "capturedRemaining": 22,
+        "subtract": 0,
+        "regularRemaining": 22
+      },
+      "fd": {
+        "capturedRemaining": 246,
+        "subtract": 17,
+        "regularRemaining": 229
+      },
+      "ptsa": {
+        "capturedRemaining": 214,
+        "subtract": 21,
+        "regularRemaining": 193
+      },
+      "ydsa": {
+        "capturedRemaining": 4285,
+        "subtract": 405,
+        "regularRemaining": 3880
+      },
+      "pydsa": {
+        "capturedRemaining": 2547,
+        "subtract": 235,
+        "regularRemaining": 2312
+      },
+      "rydsa": {
+        "capturedRemaining": 1738,
+        "subtract": 170,
+        "regularRemaining": 1568
+      },
+      "sacks": {
+        "capturedRemaining": 38,
+        "subtract": 3,
+        "regularRemaining": 35
+      },
+      "d3c": {
+        "capturedRemaining": 90,
+        "subtract": 8,
+        "regularRemaining": 82
+      },
+      "d3a": {
+        "capturedRemaining": 180,
+        "subtract": 15,
+        "regularRemaining": 165
+      },
+      "d4c": {
+        "capturedRemaining": 7,
+        "subtract": 2,
+        "regularRemaining": 5
+      },
+      "d4a": {
+        "capturedRemaining": 16,
+        "subtract": 4,
+        "regularRemaining": 12
+      },
+      "twoMade": {
+        "capturedRemaining": 1,
+        "subtract": 0,
+        "regularRemaining": 1
+      },
+      "twoAtt": {
+        "capturedRemaining": 1,
+        "subtract": 0,
+        "regularRemaining": 1
+      },
+      "rza": {
+        "capturedRemaining": 56,
+        "subtract": 6,
+        "regularRemaining": 50
+      },
+      "rztd": {
+        "capturedRemaining": 23,
+        "subtract": 3,
+        "regularRemaining": 20
+      },
+      "rzfg": {
+        "capturedRemaining": 11,
+        "subtract": 1,
+        "regularRemaining": 10
+      },
+      "rzaa": {
+        "capturedRemaining": 33,
+        "subtract": 2,
+        "regularRemaining": 31
+      },
+      "rztda": {
+        "capturedRemaining": 19,
+        "subtract": 1,
+        "regularRemaining": 18
+      },
+      "rzfga": {
+        "capturedRemaining": 6,
+        "subtract": 0,
+        "regularRemaining": 6
+      },
+      "pen": {
+        "capturedRemaining": 70,
+        "subtract": 3,
+        "regularRemaining": 67
+      },
+      "penyds": {
+        "capturedRemaining": 555,
+        "subtract": 25,
+        "regularRemaining": 530
+      },
+      "give": {
+        "capturedRemaining": 15,
+        "subtract": 2,
+        "regularRemaining": 13
+      },
+      "pint": {
+        "capturedRemaining": 13,
+        "subtract": 2,
+        "regularRemaining": 11
+      },
+      "fumlost": {
+        "capturedRemaining": 2,
+        "subtract": 0,
+        "regularRemaining": 2
+      },
+      "take": {
+        "capturedRemaining": 15,
+        "subtract": 2,
+        "regularRemaining": 13
+      },
+      "dint": {
+        "capturedRemaining": 9,
+        "subtract": 1,
+        "regularRemaining": 8
+      },
+      "fumrec": {
+        "capturedRemaining": 6,
+        "subtract": 1,
+        "regularRemaining": 5
+      }
+    }
+  },
+  {
+    "team": "Central Michigan",
+    "game": "Central Michigan | Tennessee",
+    "sourceFrames": [
+      [
+        5615,
+        0
+      ],
+      [
+        5615,
+        1
+      ],
+      [
+        5615,
+        2
+      ],
+      [
+        5615,
+        3
+      ],
+      [
+        5615,
+        5
+      ]
+    ],
+    "changes": {
+      "pts": {
+        "capturedRemaining": 413,
+        "subtract": 17,
+        "regularRemaining": 396
+      },
+      "yds": {
+        "capturedRemaining": 4435,
+        "subtract": 359,
+        "regularRemaining": 4076
+      },
+      "pyds": {
+        "capturedRemaining": 2104,
+        "subtract": 213,
+        "regularRemaining": 1891
+      },
+      "ptd": {
+        "capturedRemaining": 24,
+        "subtract": 1,
+        "regularRemaining": 23
+      },
+      "ryds": {
+        "capturedRemaining": 2331,
+        "subtract": 146,
+        "regularRemaining": 2185
+      },
+      "rtd": {
+        "capturedRemaining": 24,
+        "subtract": 1,
+        "regularRemaining": 23
+      },
+      "fd": {
+        "capturedRemaining": 263,
+        "subtract": 19,
+        "regularRemaining": 244
+      },
+      "ptsa": {
+        "capturedRemaining": 179,
+        "subtract": 37,
+        "regularRemaining": 142
+      },
+      "ydsa": {
+        "capturedRemaining": 3060,
+        "subtract": 464,
+        "regularRemaining": 2596
+      },
+      "pydsa": {
+        "capturedRemaining": 2223,
+        "subtract": 260,
+        "regularRemaining": 1963
+      },
+      "rydsa": {
+        "capturedRemaining": 837,
+        "subtract": 204,
+        "regularRemaining": 633
+      },
+      "sacks": {
+        "capturedRemaining": 31,
+        "subtract": 0,
+        "regularRemaining": 31
+      },
+      "d3c": {
+        "capturedRemaining": 60,
+        "subtract": 5,
+        "regularRemaining": 55
+      },
+      "d3a": {
+        "capturedRemaining": 116,
+        "subtract": 11,
+        "regularRemaining": 105
+      },
+      "d4c": {
+        "capturedRemaining": 8,
+        "subtract": 2,
+        "regularRemaining": 6
+      },
+      "d4a": {
+        "capturedRemaining": 11,
+        "subtract": 2,
+        "regularRemaining": 9
+      },
+      "twoMade": {
+        "capturedRemaining": 0,
+        "subtract": 0,
+        "regularRemaining": 0
+      },
+      "twoAtt": {
+        "capturedRemaining": 1,
+        "subtract": 0,
+        "regularRemaining": 1
+      },
+      "rza": {
+        "capturedRemaining": 66,
+        "subtract": 4,
+        "regularRemaining": 62
+      },
+      "rztd": {
+        "capturedRemaining": 41,
+        "subtract": 1,
+        "regularRemaining": 40
+      },
+      "rzfg": {
+        "capturedRemaining": 9,
+        "subtract": 1,
+        "regularRemaining": 8
+      },
+      "rzaa": {
+        "capturedRemaining": 27,
+        "subtract": 5,
+        "regularRemaining": 22
+      },
+      "rztda": {
+        "capturedRemaining": 10,
+        "subtract": 2,
+        "regularRemaining": 8
+      },
+      "rzfga": {
+        "capturedRemaining": 6,
+        "subtract": 1,
+        "regularRemaining": 5
+      },
+      "pen": {
+        "capturedRemaining": 13,
+        "subtract": 1,
+        "regularRemaining": 12
+      },
+      "penyds": {
+        "capturedRemaining": 106,
+        "subtract": 5,
+        "regularRemaining": 101
+      },
+      "give": {
+        "capturedRemaining": 11,
+        "subtract": 2,
+        "regularRemaining": 9
+      },
+      "pint": {
+        "capturedRemaining": 7,
+        "subtract": 1,
+        "regularRemaining": 6
+      },
+      "fumlost": {
+        "capturedRemaining": 4,
+        "subtract": 1,
+        "regularRemaining": 3
+      },
+      "take": {
+        "capturedRemaining": 16,
+        "subtract": 0,
+        "regularRemaining": 16
+      },
+      "dint": {
+        "capturedRemaining": 14,
+        "subtract": 0,
+        "regularRemaining": 14
+      },
+      "fumrec": {
+        "capturedRemaining": 2,
+        "subtract": 0,
+        "regularRemaining": 2
+      }
+    }
+  },
+  {
+    "team": "Tennessee",
+    "game": "Central Michigan | Tennessee",
+    "sourceFrames": [
+      [
+        5615,
+        0
+      ],
+      [
+        5615,
+        1
+      ],
+      [
+        5615,
+        2
+      ],
+      [
+        5615,
+        3
+      ],
+      [
+        5615,
+        5
+      ]
+    ],
+    "changes": {
+      "pts": {
+        "capturedRemaining": 530,
+        "subtract": 37,
+        "regularRemaining": 493
+      },
+      "yds": {
+        "capturedRemaining": 6782,
+        "subtract": 464,
+        "regularRemaining": 6318
+      },
+      "pyds": {
+        "capturedRemaining": 4062,
+        "subtract": 260,
+        "regularRemaining": 3802
+      },
+      "ptd": {
+        "capturedRemaining": 31,
+        "subtract": 3,
+        "regularRemaining": 28
+      },
+      "ryds": {
+        "capturedRemaining": 2720,
+        "subtract": 204,
+        "regularRemaining": 2516
+      },
+      "rtd": {
+        "capturedRemaining": 36,
+        "subtract": 1,
+        "regularRemaining": 35
+      },
+      "fd": {
+        "capturedRemaining": 301,
+        "subtract": 20,
+        "regularRemaining": 281
+      },
+      "ptsa": {
+        "capturedRemaining": 276,
+        "subtract": 17,
+        "regularRemaining": 259
+      },
+      "ydsa": {
+        "capturedRemaining": 4805,
+        "subtract": 359,
+        "regularRemaining": 4446
+      },
+      "pydsa": {
+        "capturedRemaining": 3264,
+        "subtract": 213,
+        "regularRemaining": 3051
+      },
+      "rydsa": {
+        "capturedRemaining": 1541,
+        "subtract": 146,
+        "regularRemaining": 1395
+      },
+      "sacks": {
+        "capturedRemaining": 43,
+        "subtract": 5,
+        "regularRemaining": 38
+      },
+      "d3c": {
+        "capturedRemaining": 94,
+        "subtract": 2,
+        "regularRemaining": 92
+      },
+      "d3a": {
+        "capturedRemaining": 179,
+        "subtract": 5,
+        "regularRemaining": 174
+      },
+      "d4c": {
+        "capturedRemaining": 10,
+        "subtract": 0,
+        "regularRemaining": 10
+      },
+      "d4a": {
+        "capturedRemaining": 15,
+        "subtract": 0,
+        "regularRemaining": 15
+      },
+      "twoMade": {
+        "capturedRemaining": 1,
+        "subtract": 0,
+        "regularRemaining": 1
+      },
+      "twoAtt": {
+        "capturedRemaining": 4,
+        "subtract": 0,
+        "regularRemaining": 4
+      },
+      "rza": {
+        "capturedRemaining": 67,
+        "subtract": 5,
+        "regularRemaining": 62
+      },
+      "rztd": {
+        "capturedRemaining": 36,
+        "subtract": 2,
+        "regularRemaining": 34
+      },
+      "rzfg": {
+        "capturedRemaining": 8,
+        "subtract": 1,
+        "regularRemaining": 7
+      },
+      "rzaa": {
+        "capturedRemaining": 38,
+        "subtract": 4,
+        "regularRemaining": 34
+      },
+      "rztda": {
+        "capturedRemaining": 16,
+        "subtract": 1,
+        "regularRemaining": 15
+      },
+      "rzfga": {
+        "capturedRemaining": 8,
+        "subtract": 1,
+        "regularRemaining": 7
+      },
+      "pen": {
+        "capturedRemaining": 59,
+        "subtract": 0,
+        "regularRemaining": 59
+      },
+      "penyds": {
+        "capturedRemaining": 452,
+        "subtract": 0,
+        "regularRemaining": 452
+      },
+      "give": {
+        "capturedRemaining": 11,
+        "subtract": 0,
+        "regularRemaining": 11
+      },
+      "pint": {
+        "capturedRemaining": 8,
+        "subtract": 0,
+        "regularRemaining": 8
+      },
+      "fumlost": {
+        "capturedRemaining": 3,
+        "subtract": 0,
+        "regularRemaining": 3
+      },
+      "take": {
+        "capturedRemaining": 14,
+        "subtract": 2,
+        "regularRemaining": 12
+      },
+      "dint": {
+        "capturedRemaining": 7,
+        "subtract": 1,
+        "regularRemaining": 6
+      },
+      "fumrec": {
+        "capturedRemaining": 7,
+        "subtract": 1,
+        "regularRemaining": 6
+      }
+    }
+  }
+]

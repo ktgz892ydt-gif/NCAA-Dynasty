@@ -1,0 +1,3482 @@
+{
+  "category": "KICK RETURN",
+  "columns": [
+    "GP",
+    "KR",
+    "YARDS",
+    "AVG",
+    "TD",
+    "LONG"
+  ],
+  "sortedBy": "YARDS",
+  "complete": false,
+  "coverage": {
+    "nationalComplete": false
+  },
+  "rows": [
+    {
+      "name": "R.Morris",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 19,
+        "YARDS": 583,
+        "AVG": 30.7,
+        "TD": 0,
+        "LONG": 39
+      }
+    },
+    {
+      "name": "R.Brockel",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 21,
+        "YARDS": 563,
+        "AVG": 26.8,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "R.Brockelge",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 21,
+        "YARDS": 563,
+        "AVG": 26.8,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "A.Ogbor",
+      "pos": "FS",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 19,
+        "YARDS": 561,
+        "AVG": 29.5,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "I.Thacker",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 20,
+        "YARDS": 551,
+        "AVG": 27.6,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "S.Hillhouse",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 19,
+        "YARDS": 546,
+        "AVG": 28.7,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "S.Davis",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 18,
+        "YARDS": 539,
+        "AVG": 29.9,
+        "TD": 0,
+        "LONG": 38
+      }
+    },
+    {
+      "name": "B.MacCormackIII",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 19,
+        "YARDS": 538,
+        "AVG": 28.3,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "D.Latulas",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 17,
+        "YARDS": 534,
+        "AVG": 31.4,
+        "TD": 0,
+        "LONG": 39
+      }
+    },
+    {
+      "name": "C.Grove",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 15,
+        "YARDS": 525,
+        "AVG": 35.0,
+        "TD": 1,
+        "LONG": 99
+      }
+    },
+    {
+      "name": "R.Berryhill",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 19,
+        "YARDS": 509,
+        "AVG": 26.8,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "J.Todia",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 18,
+        "YARDS": 508,
+        "AVG": 28.2,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "P.Matthews",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 17,
+        "YARDS": 504,
+        "AVG": 29.6,
+        "TD": 0,
+        "LONG": null
+      }
+    },
+    {
+      "name": "S.SingletonJr.",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 17,
+        "YARDS": 501,
+        "AVG": 29.5,
+        "TD": 0,
+        "LONG": 39
+      }
+    },
+    {
+      "name": "C.Buggs",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 19,
+        "YARDS": 496,
+        "AVG": 26.1,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "M.Antwine",
+      "pos": "WR",
+      "team": "Eastern Michigan",
+      "values": {
+        "GP": 12,
+        "KR": 22,
+        "YARDS": 493,
+        "AVG": 22.4,
+        "TD": 0,
+        "LONG": 60
+      }
+    },
+    {
+      "name": "D.Meachem",
+      "pos": "HB",
+      "team": "Kansas State",
+      "values": {
+        "GP": 12,
+        "KR": 17,
+        "YARDS": 491,
+        "AVG": 28.9,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "K.Bartley",
+      "pos": "CB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 16,
+        "YARDS": 481,
+        "AVG": 30.1,
+        "TD": 0,
+        "LONG": 38
+      }
+    },
+    {
+      "name": "K.Lyles",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 16,
+        "YARDS": 481,
+        "AVG": 30.1,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "D.Berteeey",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 16,
+        "YARDS": 474,
+        "AVG": 29.6,
+        "TD": 0,
+        "LONG": 38
+      }
+    },
+    {
+      "name": "D.Perteet",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 16,
+        "YARDS": 474,
+        "AVG": 29.6,
+        "TD": 0,
+        "LONG": 39
+      }
+    },
+    {
+      "name": "H.Turner",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 17,
+        "YARDS": 474,
+        "AVG": 27.9,
+        "TD": 0,
+        "LONG": 43
+      }
+    },
+    {
+      "name": "L.Watkins",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 17,
+        "YARDS": 473,
+        "AVG": 27.8,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "B.Burgess",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 16,
+        "YARDS": 472,
+        "AVG": 29.5,
+        "TD": 0,
+        "LONG": 40
+      }
+    },
+    {
+      "name": "S.Ashley",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 18,
+        "YARDS": 472,
+        "AVG": 26.2,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "C.Mullaly",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 14,
+        "YARDS": 464,
+        "AVG": 33.1,
+        "TD": 0,
+        "LONG": 39
+      }
+    },
+    {
+      "name": "C.Turner",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 15,
+        "YARDS": 461,
+        "AVG": 30.7,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "J.Cobb",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 16,
+        "YARDS": 460,
+        "AVG": 28.8,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "J.Mines",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 15,
+        "YARDS": 460,
+        "AVG": 30.7,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "D.Hannah",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 14,
+        "YARDS": 459,
+        "AVG": 32.8,
+        "TD": 1,
+        "LONG": 101
+      }
+    },
+    {
+      "name": "J.Newton",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 18,
+        "YARDS": 458,
+        "AVG": 25.4,
+        "TD": 0,
+        "LONG": 35
+      }
+    },
+    {
+      "name": "F.Smith",
+      "pos": "WR",
+      "team": "Western Kentucky",
+      "values": {
+        "GP": 12,
+        "KR": 15,
+        "YARDS": 456,
+        "AVG": 30.4,
+        "TD": 0,
+        "LONG": 38
+      }
+    },
+    {
+      "name": "D.Slaughter",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 15,
+        "YARDS": 455,
+        "AVG": 30.3,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "J.Stone",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 15,
+        "YARDS": 450,
+        "AVG": 30.0,
+        "TD": 0,
+        "LONG": 38
+      }
+    },
+    {
+      "name": "B.Bliss",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 18,
+        "YARDS": 446,
+        "AVG": 24.8,
+        "TD": 0,
+        "LONG": 33
+      }
+    },
+    {
+      "name": "G.Warrior",
+      "pos": "HB",
+      "team": "Air Force",
+      "values": {
+        "GP": 12,
+        "KR": 16,
+        "YARDS": 446,
+        "AVG": 27.9,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "J.RuffinJr.",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 16,
+        "YARDS": 446,
+        "AVG": 27.9,
+        "TD": 0,
+        "LONG": 38
+      }
+    },
+    {
+      "name": "J.CookII",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 16,
+        "YARDS": 445,
+        "AVG": 27.8,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "D.Delancey",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 15,
+        "YARDS": 444,
+        "AVG": 29.6,
+        "TD": 0,
+        "LONG": 38
+      }
+    },
+    {
+      "name": "M.Kimble",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 16,
+        "YARDS": 444,
+        "AVG": 27.8,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "C.Crutchfield",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 15,
+        "YARDS": 441,
+        "AVG": 29.4,
+        "TD": 0,
+        "LONG": 38
+      }
+    },
+    {
+      "name": "D.Carey",
+      "pos": "CB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 16,
+        "YARDS": 440,
+        "AVG": 27.5,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "T.Robinson",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 15,
+        "YARDS": 439,
+        "AVG": 29.3,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "K.Bowie",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 16,
+        "YARDS": 436,
+        "AVG": 27.2,
+        "TD": null,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "G.Carrillo",
+      "pos": "CB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 15,
+        "YARDS": 435,
+        "AVG": 29.0,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "M.Cooke",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 15,
+        "YARDS": 435,
+        "AVG": 29.0,
+        "TD": 0,
+        "LONG": 38
+      }
+    },
+    {
+      "name": "E.Miller",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 14,
+        "YARDS": 433,
+        "AVG": 30.9,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "U.Yorkegie",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 16,
+        "YARDS": 433,
+        "AVG": 27.1,
+        "TD": 0,
+        "LONG": 35
+      }
+    },
+    {
+      "name": "J.Killings",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 15,
+        "YARDS": 432,
+        "AVG": 28.8,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "M.Durant",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 12,
+        "YARDS": 432,
+        "AVG": 36.0,
+        "TD": 1,
+        "LONG": 101
+      }
+    },
+    {
+      "name": "D.Majette",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 16,
+        "YARDS": 431,
+        "AVG": 26.9,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "T.Simmons,Jr.",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 15,
+        "YARDS": 431,
+        "AVG": 28.7,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "K.Barr",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 16,
+        "YARDS": 430,
+        "AVG": 26.9,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "K.Wilkins",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 15,
+        "YARDS": 430,
+        "AVG": 28.7,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "K.Kalu",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 17,
+        "YARDS": 428,
+        "AVG": 25.2,
+        "TD": 0,
+        "LONG": 34
+      }
+    },
+    {
+      "name": "A.Little",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 10,
+        "KR": 13,
+        "YARDS": 426,
+        "AVG": 32.8,
+        "TD": 0,
+        "LONG": 38
+      }
+    },
+    {
+      "name": "S.Leaks",
+      "pos": "FS",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 15,
+        "YARDS": 426,
+        "AVG": 28.4,
+        "TD": 0,
+        "LONG": 35
+      }
+    },
+    {
+      "name": "J.Thurman",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 15,
+        "YARDS": 424,
+        "AVG": 28.3,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "J.Beasley",
+      "pos": "WR",
+      "team": "Eastern Michigan",
+      "values": {
+        "GP": 12,
+        "KR": 19,
+        "YARDS": 423,
+        "AVG": 22.3,
+        "TD": 0,
+        "LONG": 78
+      }
+    },
+    {
+      "name": "N.Jefferson",
+      "pos": "FS",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 14,
+        "YARDS": 422,
+        "AVG": 30.1,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "A.Sturm",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 13,
+        "YARDS": 419,
+        "AVG": 32.2,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "P.Heath",
+      "pos": "CB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 15,
+        "YARDS": 419,
+        "AVG": 27.9,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "V.Holmes",
+      "pos": "FS",
+      "team": "Texas A&M",
+      "values": {
+        "GP": 12,
+        "KR": 15,
+        "YARDS": 419,
+        "AVG": 27.9,
+        "TD": null,
+        "LONG": null
+      }
+    },
+    {
+      "name": "E.Apple",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 15,
+        "YARDS": 417,
+        "AVG": 27.8,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "G.Patterson",
+      "pos": "?",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 14,
+        "YARDS": 416,
+        "AVG": 29.7,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "D.Karic",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 13,
+        "YARDS": 415,
+        "AVG": 31.9,
+        "TD": 1,
+        "LONG": 101
+      }
+    },
+    {
+      "name": "L.Alli",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 11,
+        "YARDS": 414,
+        "AVG": 37.6,
+        "TD": 1,
+        "LONG": 100
+      }
+    },
+    {
+      "name": "R.Stevens",
+      "pos": "WR",
+      "team": "Arkansas State",
+      "values": {
+        "GP": 12,
+        "KR": 15,
+        "YARDS": 413,
+        "AVG": 27.5,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "E.Newsome",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 15,
+        "YARDS": 412,
+        "AVG": 27.5,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "R.Johnson",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 14,
+        "YARDS": 410,
+        "AVG": 29.3,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "R.Small",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 16,
+        "YARDS": 409,
+        "AVG": 25.6,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "C.Flood",
+      "pos": "CB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 14,
+        "YARDS": 408,
+        "AVG": 29.1,
+        "TD": 0,
+        "LONG": 33
+      }
+    },
+    {
+      "name": "J.Goff",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 14,
+        "YARDS": 406,
+        "AVG": 29.0,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "J.GoffkinsJr.",
+      "pos": "?",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 14,
+        "YARDS": 406,
+        "AVG": 29.0,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "A.Brundidge",
+      "pos": "HB",
+      "team": "UAB",
+      "values": {
+        "GP": 12,
+        "KR": 15,
+        "YARDS": 405,
+        "AVG": 27.0,
+        "TD": 0,
+        "LONG": 35
+      }
+    },
+    {
+      "name": "T.Rubin",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 14,
+        "YARDS": 403,
+        "AVG": 28.8,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "E.Hampton",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 13,
+        "YARDS": 402,
+        "AVG": 30.9,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "Z.Tucker",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 14,
+        "YARDS": 397,
+        "AVG": 28.4,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "T.Chaney",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 14,
+        "YARDS": 396,
+        "AVG": 28.3,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "O.Brown",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 14,
+        "YARDS": 395,
+        "AVG": 28.2,
+        "TD": 0,
+        "LONG": 38
+      }
+    },
+    {
+      "name": "D.Miller",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 12,
+        "YARDS": 393,
+        "AVG": 32.8,
+        "TD": 0,
+        "LONG": 38
+      }
+    },
+    {
+      "name": "L.Martin",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 14,
+        "YARDS": 393,
+        "AVG": 28.1,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "S.King",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 14,
+        "YARDS": 393,
+        "AVG": 28.1,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "C.Zelenka",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 15,
+        "YARDS": 390,
+        "AVG": 26.0,
+        "TD": 0,
+        "LONG": 34
+      }
+    },
+    {
+      "name": "E.Coleman",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 13,
+        "YARDS": 382,
+        "AVG": 29.4,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "J.Dobbins",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 14,
+        "YARDS": 381,
+        "AVG": 27.2,
+        "TD": 0,
+        "LONG": 35
+      }
+    },
+    {
+      "name": "M.James",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 14,
+        "YARDS": 379,
+        "AVG": 27.1,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "M.SJames",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 14,
+        "YARDS": 379,
+        "AVG": 27.1,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "D.Fowlkes",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 13,
+        "YARDS": 378,
+        "AVG": 29.1,
+        "TD": 0,
+        "LONG": 38
+      }
+    },
+    {
+      "name": "E.Jackson",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 14,
+        "YARDS": 378,
+        "AVG": 27.0,
+        "TD": 0,
+        "LONG": 38
+      }
+    },
+    {
+      "name": "D.Hayes",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 13,
+        "YARDS": 376,
+        "AVG": 28.9,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "E.ShakirJr.",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 13,
+        "YARDS": 375,
+        "AVG": 28.8,
+        "TD": 0,
+        "LONG": 39
+      }
+    },
+    {
+      "name": "J.Hamilton",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 12,
+        "YARDS": 375,
+        "AVG": 31.2,
+        "TD": 0,
+        "LONG": 39
+      }
+    },
+    {
+      "name": "O.MabsonII",
+      "pos": "HB",
+      "team": "Memphis",
+      "values": {
+        "GP": 12,
+        "KR": 13,
+        "YARDS": 372,
+        "AVG": 28.6,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "J.Malau'ulu",
+      "pos": "WR",
+      "team": "Fresno State",
+      "values": {
+        "GP": 12,
+        "KR": 13,
+        "YARDS": 371,
+        "AVG": 28.5,
+        "TD": 0,
+        "LONG": 39
+      }
+    },
+    {
+      "name": "D.Blanton",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 13,
+        "YARDS": 370,
+        "AVG": 28.5,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "S.Trueblood",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 15,
+        "YARDS": 369,
+        "AVG": 24.6,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "C.Simon",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 13,
+        "YARDS": 368,
+        "AVG": 28.3,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "J.Savage",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 13,
+        "YARDS": 367,
+        "AVG": 28.2,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "L.Chambers",
+      "pos": "WR",
+      "team": "Michigan",
+      "values": {
+        "GP": 12,
+        "KR": 13,
+        "YARDS": 364,
+        "AVG": 28.0,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "K.Nailor",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 13,
+        "YARDS": 363,
+        "AVG": 27.9,
+        "TD": 0,
+        "LONG": 34
+      }
+    },
+    {
+      "name": "E.Burress",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 13,
+        "YARDS": 362,
+        "AVG": 27.8,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "S.Smith",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 12,
+        "YARDS": 362,
+        "AVG": 30.2,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "A.Hardman",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 13,
+        "YARDS": 361,
+        "AVG": 27.8,
+        "TD": 0,
+        "LONG": 35
+      }
+    },
+    {
+      "name": "L.Hoke",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 14,
+        "YARDS": 361,
+        "AVG": 25.8,
+        "TD": 0,
+        "LONG": 33
+      }
+    },
+    {
+      "name": "A.Jean",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 12,
+        "YARDS": 360,
+        "AVG": 30.0,
+        "TD": 0,
+        "LONG": 35
+      }
+    },
+    {
+      "name": "S.Wingo",
+      "pos": "WR",
+      "team": "Miami",
+      "values": {
+        "GP": 12,
+        "KR": 12,
+        "YARDS": 357,
+        "AVG": 29.8,
+        "TD": 0,
+        "LONG": 53
+      }
+    },
+    {
+      "name": "A.Brown",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 13,
+        "YARDS": 355,
+        "AVG": 27.3,
+        "TD": null,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "C.Hixds",
+      "pos": "CB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 13,
+        "YARDS": 355,
+        "AVG": 27.3,
+        "TD": 0,
+        "LONG": 35
+      }
+    },
+    {
+      "name": "C.Hixwn",
+      "pos": "CB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 13,
+        "YARDS": 355,
+        "AVG": 27.3,
+        "TD": 0,
+        "LONG": 35
+      }
+    },
+    {
+      "name": "T.Stockton",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 12,
+        "YARDS": 352,
+        "AVG": 29.3,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "K.Carnegie",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 8,
+        "KR": 13,
+        "YARDS": 351,
+        "AVG": 27.0,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "K.Catnegie",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 8,
+        "KR": 13,
+        "YARDS": 351,
+        "AVG": 27.0,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "J.Morrow",
+      "pos": "HB",
+      "team": "Texas A&M",
+      "values": {
+        "GP": 12,
+        "KR": 12,
+        "YARDS": 347,
+        "AVG": 28.9,
+        "TD": 0,
+        "LONG": 42
+      }
+    },
+    {
+      "name": "B.Beasley",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 14,
+        "YARDS": 345,
+        "AVG": 24.6,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "M.Jennings",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 13,
+        "YARDS": 345,
+        "AVG": 26.5,
+        "TD": 0,
+        "LONG": 35
+      }
+    },
+    {
+      "name": "B.Brown",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 12,
+        "YARDS": 343,
+        "AVG": 28.6,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "B.Jennings",
+      "pos": "HB",
+      "team": "Western Kentucky",
+      "values": {
+        "GP": 12,
+        "KR": 12,
+        "YARDS": 343,
+        "AVG": 28.6,
+        "TD": 0,
+        "LONG": 35
+      }
+    },
+    {
+      "name": "K.Glass",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 13,
+        "YARDS": 342,
+        "AVG": 26.3,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "C.Sadler",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 13,
+        "YARDS": 339,
+        "AVG": 26.1,
+        "TD": 0,
+        "LONG": 33
+      }
+    },
+    {
+      "name": "M.Lewis",
+      "pos": "FS",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 13,
+        "YARDS": 339,
+        "AVG": 26.1,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "J.Dye",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 12,
+        "YARDS": 337,
+        "AVG": 28.1,
+        "TD": null,
+        "LONG": 35
+      }
+    },
+    {
+      "name": "S.Burnside",
+      "pos": "WR",
+      "team": "Memphis",
+      "values": {
+        "GP": 12,
+        "KR": 12,
+        "YARDS": 337,
+        "AVG": 28.1,
+        "TD": 0,
+        "LONG": 38
+      }
+    },
+    {
+      "name": "D.Sumner",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 11,
+        "YARDS": 335,
+        "AVG": 30.5,
+        "TD": 0,
+        "LONG": 35
+      }
+    },
+    {
+      "name": "P.Okeafor",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 13,
+        "YARDS": 334,
+        "AVG": 25.7,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "N.HankinsJr.",
+      "pos": "CB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 11,
+        "YARDS": 333,
+        "AVG": 30.3,
+        "TD": 0,
+        "LONG": 34
+      }
+    },
+    {
+      "name": "G.Strong",
+      "pos": "CB",
+      "team": "Washington State",
+      "values": {
+        "GP": 12,
+        "KR": 12,
+        "YARDS": 331,
+        "AVG": 27.6,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "G.Officeon",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 12,
+        "YARDS": 330,
+        "AVG": 27.5,
+        "TD": 0,
+        "LONG": 34
+      }
+    },
+    {
+      "name": "A.Way",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 11,
+        "YARDS": 329,
+        "AVG": 29.9,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "A.Cabrera",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 11,
+        "YARDS": 327,
+        "AVG": 29.7,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "A.Dendy",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 11,
+        "YARDS": 326,
+        "AVG": 29.6,
+        "TD": 0,
+        "LONG": 34
+      }
+    },
+    {
+      "name": "C.Mackon",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 12,
+        "YARDS": 324,
+        "AVG": 27.0,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "P.Kettering",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 11,
+        "YARDS": 324,
+        "AVG": 29.5,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "V.Smoot",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 11,
+        "YARDS": 323,
+        "AVG": 29.4,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "Q.Timmons",
+      "pos": "HB",
+      "team": "Washington State",
+      "values": {
+        "GP": 12,
+        "KR": 11,
+        "YARDS": 322,
+        "AVG": 29.3,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "K.Boruiricks",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 12,
+        "YARDS": 321,
+        "AVG": 26.8,
+        "TD": 0,
+        "LONG": 35
+      }
+    },
+    {
+      "name": "K.Borum",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 12,
+        "YARDS": 321,
+        "AVG": 26.8,
+        "TD": 0,
+        "LONG": 35
+      }
+    },
+    {
+      "name": "O.Coward",
+      "pos": "HB",
+      "team": "Kansas State",
+      "values": {
+        "GP": 12,
+        "KR": 11,
+        "YARDS": 319,
+        "AVG": 29.0,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "G.Packer",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 12,
+        "YARDS": 314,
+        "AVG": 26.2,
+        "TD": 0,
+        "LONG": 38
+      }
+    },
+    {
+      "name": "M.Burch",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 12,
+        "YARDS": 312,
+        "AVG": 26.0,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "D.Erwin",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 11,
+        "YARDS": 311,
+        "AVG": 28.3,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "E.Silvestro",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 11,
+        "YARDS": 311,
+        "AVG": 28.3,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "T.EnglemanJr.",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 10,
+        "YARDS": 311,
+        "AVG": 31.1,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "T.Malik",
+      "pos": "WR",
+      "team": "Western Michigan",
+      "values": {
+        "GP": 12,
+        "KR": null,
+        "YARDS": 311,
+        "AVG": null,
+        "TD": 0,
+        "LONG": 34
+      }
+    },
+    {
+      "name": "S.Lee",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 11,
+        "YARDS": 309,
+        "AVG": 28.1,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "A.Devito",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 12,
+        "YARDS": 308,
+        "AVG": 25.7,
+        "TD": 0,
+        "LONG": 38
+      }
+    },
+    {
+      "name": "M.Bequette",
+      "pos": "HB",
+      "team": "Liberty",
+      "values": {
+        "GP": 12,
+        "KR": 11,
+        "YARDS": 308,
+        "AVG": 28.0,
+        "TD": null,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "C.Dial",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 11,
+        "YARDS": 305,
+        "AVG": 27.7,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "J.Kelley",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 11,
+        "YARDS": 304,
+        "AVG": 27.6,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "C.Hicks",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 10,
+        "YARDS": 303,
+        "AVG": 30.3,
+        "TD": 0,
+        "LONG": 38
+      }
+    },
+    {
+      "name": "C.White",
+      "pos": "CB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 12,
+        "YARDS": 303,
+        "AVG": 25.2,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "C.Lake",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 12,
+        "YARDS": 302,
+        "AVG": 25.2,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "M.Traylor",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 11,
+        "YARDS": 302,
+        "AVG": 27.5,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "R.Aviles",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 9,
+        "YARDS": 302,
+        "AVG": 33.6,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "J.Ferreira",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 10,
+        "YARDS": 301,
+        "AVG": 30.1,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "L.Keke",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 11,
+        "YARDS": 301,
+        "AVG": 27.4,
+        "TD": 0,
+        "LONG": null
+      }
+    },
+    {
+      "name": "N.Judina",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 11,
+        "YARDS": 298,
+        "AVG": 27.1,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "N.Judino",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 11,
+        "YARDS": 298,
+        "AVG": 27.1,
+        "TD": null,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "N.Oudino",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 11,
+        "YARDS": 298,
+        "AVG": 27.1,
+        "TD": null,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "S.TerryII",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 12,
+        "YARDS": 298,
+        "AVG": 24.8,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "S.Riggins",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 11,
+        "YARDS": 297,
+        "AVG": 27.0,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "N.Carr",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 10,
+        "YARDS": 295,
+        "AVG": 29.5,
+        "TD": 0,
+        "LONG": 38
+      }
+    },
+    {
+      "name": "T.Abiamiri",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 11,
+        "YARDS": 295,
+        "AVG": 26.8,
+        "TD": 0,
+        "LONG": 34
+      }
+    },
+    {
+      "name": "J.Shepley",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 10,
+        "YARDS": 294,
+        "AVG": 29.4,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "K.Barrington",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 10,
+        "YARDS": 294,
+        "AVG": 29.4,
+        "TD": 0,
+        "LONG": 35
+      }
+    },
+    {
+      "name": "A.Melvin",
+      "pos": "CB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 12,
+        "YARDS": 292,
+        "AVG": 24.3,
+        "TD": 0,
+        "LONG": 34
+      }
+    },
+    {
+      "name": "S.Beebe",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 11,
+        "YARDS": 284,
+        "AVG": 25.8,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "D.Harris",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 11,
+        "YARDS": 283,
+        "AVG": 25.7,
+        "TD": 0,
+        "LONG": 34
+      }
+    },
+    {
+      "name": "S.Thompson",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 10,
+        "YARDS": 283,
+        "AVG": 28.3,
+        "TD": 0,
+        "LONG": 35
+      }
+    },
+    {
+      "name": "T.Abrams",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 10,
+        "YARDS": 283,
+        "AVG": 28.3,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "E.Faulkner",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 9,
+        "YARDS": 281,
+        "AVG": 31.2,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "R.Farmer",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 9,
+        "YARDS": 281,
+        "AVG": 31.2,
+        "TD": 0,
+        "LONG": 38
+      }
+    },
+    {
+      "name": "D.Calimon",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 9,
+        "YARDS": 280,
+        "AVG": 31.1,
+        "TD": 0,
+        "LONG": 38
+      }
+    },
+    {
+      "name": "S.McCants",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 10,
+        "YARDS": 280,
+        "AVG": 28.0,
+        "TD": 0,
+        "LONG": 34
+      }
+    },
+    {
+      "name": "T.BellIII",
+      "pos": "CB",
+      "team": "Fresno State",
+      "values": {
+        "GP": 12,
+        "KR": 10,
+        "YARDS": 279,
+        "AVG": 27.9,
+        "TD": 0,
+        "LONG": null
+      }
+    },
+    {
+      "name": "C.Humphreys",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 10,
+        "YARDS": 277,
+        "AVG": 27.7,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "L.Eason",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 11,
+        "YARDS": 277,
+        "AVG": 25.2,
+        "TD": 0,
+        "LONG": 35
+      }
+    },
+    {
+      "name": "C.Kruisenga",
+      "pos": "WR",
+      "team": "Central Michigan",
+      "values": {
+        "GP": 12,
+        "KR": null,
+        "YARDS": 275,
+        "AVG": null,
+        "TD": 0,
+        "LONG": 48
+      }
+    },
+    {
+      "name": "C.Kiel",
+      "pos": "WR",
+      "team": "North Dakota State",
+      "values": {
+        "GP": 12,
+        "KR": 10,
+        "YARDS": 274,
+        "AVG": 27.4,
+        "TD": 0,
+        "LONG": 34
+      }
+    },
+    {
+      "name": "C.Fieldst",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 10,
+        "YARDS": 273,
+        "AVG": 27.3,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "I.Payneers",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 10,
+        "YARDS": 273,
+        "AVG": 27.3,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "E.Moncrief",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 9,
+        "KR": 10,
+        "YARDS": 272,
+        "AVG": 27.2,
+        "TD": 0,
+        "LONG": 35
+      }
+    },
+    {
+      "name": "T.Harris",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 11,
+        "YARDS": 272,
+        "AVG": 24.7,
+        "TD": 0,
+        "LONG": 32
+      }
+    },
+    {
+      "name": "Q.Clark",
+      "pos": "WR",
+      "team": "Nebraska",
+      "values": {
+        "GP": 12,
+        "KR": 10,
+        "YARDS": 271,
+        "AVG": 27.1,
+        "TD": 0,
+        "LONG": null
+      }
+    },
+    {
+      "name": "K.Craftibers",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 11,
+        "KR": 10,
+        "YARDS": 270,
+        "AVG": 27.0,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "L.Smith",
+      "pos": "WR",
+      "team": "Louisville",
+      "values": {
+        "GP": 12,
+        "KR": 10,
+        "YARDS": 270,
+        "AVG": 27.0,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "C.Robinson",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 9,
+        "YARDS": 268,
+        "AVG": 29.8,
+        "TD": 0,
+        "LONG": 38
+      }
+    },
+    {
+      "name": "B.Hills",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 9,
+        "YARDS": 261,
+        "AVG": 29.0,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "M.Dodd",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 10,
+        "YARDS": 260,
+        "AVG": 26.0,
+        "TD": 0,
+        "LONG": 31
+      }
+    },
+    {
+      "name": "C.Steinbach",
+      "pos": "WR",
+      "team": "Air Force",
+      "values": {
+        "GP": 12,
+        "KR": 10,
+        "YARDS": 259,
+        "AVG": 25.9,
+        "TD": 0,
+        "LONG": 31
+      }
+    },
+    {
+      "name": "N.Palmer",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 7,
+        "KR": 9,
+        "YARDS": 258,
+        "AVG": 28.7,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "B.Trask",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 9,
+        "YARDS": 256,
+        "AVG": 28.4,
+        "TD": 0,
+        "LONG": 35
+      }
+    },
+    {
+      "name": "T.Yoon",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 10,
+        "YARDS": 256,
+        "AVG": 25.6,
+        "TD": 0,
+        "LONG": 34
+      }
+    },
+    {
+      "name": "J.Soriano",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 9,
+        "YARDS": 254,
+        "AVG": 28.2,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "L.Roldan",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 9,
+        "YARDS": 253,
+        "AVG": 28.1,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "M.Alleyne",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 8,
+        "YARDS": 252,
+        "AVG": 31.5,
+        "TD": 0,
+        "LONG": 38
+      }
+    },
+    {
+      "name": "N.Smith",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 11,
+        "YARDS": 252,
+        "AVG": 22.9,
+        "TD": 0,
+        "LONG": 32
+      }
+    },
+    {
+      "name": "J.Urban",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 10,
+        "YARDS": 249,
+        "AVG": 24.9,
+        "TD": 0,
+        "LONG": 35
+      }
+    },
+    {
+      "name": "R.Niblett",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 8,
+        "YARDS": 249,
+        "AVG": 31.1,
+        "TD": 0,
+        "LONG": 38
+      }
+    },
+    {
+      "name": "C.Crosby",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 10,
+        "YARDS": 248,
+        "AVG": 24.8,
+        "TD": 0,
+        "LONG": 31
+      }
+    },
+    {
+      "name": "E.Anelli",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 10,
+        "YARDS": 246,
+        "AVG": 24.6,
+        "TD": 0,
+        "LONG": 35
+      }
+    },
+    {
+      "name": "T.Acho",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 9,
+        "YARDS": 242,
+        "AVG": 26.9,
+        "TD": 0,
+        "LONG": null
+      }
+    },
+    {
+      "name": "T.Achotte",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 93,
+        "YARDS": 242,
+        "AVG": 2.6,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "R.Young",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 5,
+        "KR": 9,
+        "YARDS": 239,
+        "AVG": 26.6,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "A.Wroten",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 8,
+        "YARDS": 238,
+        "AVG": 29.8,
+        "TD": 0,
+        "LONG": 35
+      }
+    },
+    {
+      "name": "M.Brake",
+      "pos": "CB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 8,
+        "YARDS": 234,
+        "AVG": 29.2,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "D.Cross",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 10,
+        "KR": 8,
+        "YARDS": 233,
+        "AVG": 29.1,
+        "TD": 0,
+        "LONG": 39
+      }
+    },
+    {
+      "name": "E.Durham",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 9,
+        "YARDS": 232,
+        "AVG": 25.8,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "A.Session",
+      "pos": "CB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 9,
+        "YARDS": 231,
+        "AVG": 25.7,
+        "TD": 0,
+        "LONG": 35
+      }
+    },
+    {
+      "name": "A.Whetsell",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 9,
+        "YARDS": 231,
+        "AVG": 25.7,
+        "TD": 0,
+        "LONG": 34
+      }
+    },
+    {
+      "name": "L.Horner",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 9,
+        "YARDS": 231,
+        "AVG": 25.7,
+        "TD": 0,
+        "LONG": 34
+      }
+    },
+    {
+      "name": "J.Utecht",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 9,
+        "YARDS": 230,
+        "AVG": 25.6,
+        "TD": 0,
+        "LONG": 30
+      }
+    },
+    {
+      "name": "K.Gibson",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 8,
+        "YARDS": 228,
+        "AVG": 28.5,
+        "TD": 0,
+        "LONG": 35
+      }
+    },
+    {
+      "name": "J.Payne",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 8,
+        "YARDS": 223,
+        "AVG": 27.9,
+        "TD": 0,
+        "LONG": 35
+      }
+    },
+    {
+      "name": "R.Zellington",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 8,
+        "YARDS": 222,
+        "AVG": 27.8,
+        "TD": 0,
+        "LONG": 35
+      }
+    },
+    {
+      "name": "S.lloka",
+      "pos": "HB",
+      "team": "North Dakota State",
+      "values": {
+        "GP": 12,
+        "KR": 7,
+        "YARDS": 220,
+        "AVG": 31.4,
+        "TD": 0,
+        "LONG": null
+      }
+    },
+    {
+      "name": "J.Lopez",
+      "pos": "CB",
+      "team": null,
+      "values": {
+        "GP": 5,
+        "KR": 8,
+        "YARDS": 218,
+        "AVG": 27.2,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "D.Johnson",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 8,
+        "YARDS": 217,
+        "AVG": 27.1,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "K.Daniels",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 8,
+        "KR": 7,
+        "YARDS": 217,
+        "AVG": 31.0,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "S.Chism",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 8,
+        "YARDS": 217,
+        "AVG": 27.1,
+        "TD": 0,
+        "LONG": 34
+      }
+    },
+    {
+      "name": "B.Doll",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 8,
+        "YARDS": 216,
+        "AVG": 27.0,
+        "TD": 0,
+        "LONG": 35
+      }
+    },
+    {
+      "name": "M.Ferguson",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 7,
+        "YARDS": 215,
+        "AVG": 30.7,
+        "TD": 0,
+        "LONG": 35
+      }
+    },
+    {
+      "name": "I.Young",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 7,
+        "YARDS": 211,
+        "AVG": 30.1,
+        "TD": 0,
+        "LONG": 34
+      }
+    },
+    {
+      "name": "Z.Lang",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 8,
+        "YARDS": 210,
+        "AVG": 26.2,
+        "TD": 0,
+        "LONG": 33
+      }
+    },
+    {
+      "name": "F.ArthurJr.",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 9,
+        "YARDS": 209,
+        "AVG": 23.2,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "C.Perry",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 8,
+        "YARDS": 208,
+        "AVG": 26.0,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "J.Balterson",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 71,
+        "YARDS": 208,
+        "AVG": 2.9,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "S.Vickerson",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 8,
+        "YARDS": 208,
+        "AVG": 26.0,
+        "TD": 0,
+        "LONG": 34
+      }
+    },
+    {
+      "name": "T.Rials",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 8,
+        "KR": 8,
+        "YARDS": 207,
+        "AVG": 25.9,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "O.Joyner",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 7,
+        "YARDS": 206,
+        "AVG": 29.4,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "Q.Joyner",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 7,
+        "YARDS": 206,
+        "AVG": 29.4,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "K.Shurmur",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 6,
+        "KR": 7,
+        "YARDS": 198,
+        "AVG": 28.3,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "G.Barr",
+      "pos": "WR",
+      "team": "Central Michigan",
+      "values": {
+        "GP": 12,
+        "KR": null,
+        "YARDS": 194,
+        "AVG": null,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "J.Edwards",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 6,
+        "YARDS": 193,
+        "AVG": 32.2,
+        "TD": 0,
+        "LONG": 38
+      }
+    },
+    {
+      "name": "R.Scott",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 11,
+        "KR": 6,
+        "YARDS": 178,
+        "AVG": 29.7,
+        "TD": 0,
+        "LONG": 33
+      }
+    },
+    {
+      "name": "J.Holmes",
+      "pos": "WR",
+      "team": "UAB",
+      "values": {
+        "GP": 12,
+        "KR": 6,
+        "YARDS": 176,
+        "AVG": 29.3,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "I.Brownon",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 6,
+        "YARDS": 174,
+        "AVG": 29.0,
+        "TD": 0,
+        "LONG": 37
+      }
+    },
+    {
+      "name": "J.Bishop",
+      "pos": "WR",
+      "team": "TCU",
+      "values": {
+        "GP": 12,
+        "KR": 6,
+        "YARDS": 174,
+        "AVG": 29.0,
+        "TD": 0,
+        "LONG": null
+      }
+    },
+    {
+      "name": "E.McClellan",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 8,
+        "YARDS": 172,
+        "AVG": 21.5,
+        "TD": 0,
+        "LONG": 32
+      }
+    },
+    {
+      "name": "C.Barnett",
+      "pos": "WR",
+      "team": "Western Michigan",
+      "values": {
+        "GP": 12,
+        "KR": null,
+        "YARDS": 170,
+        "AVG": null,
+        "TD": 0,
+        "LONG": 35
+      }
+    },
+    {
+      "name": "C.Foster",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 5,
+        "KR": 6,
+        "YARDS": 169,
+        "AVG": 28.2,
+        "TD": 0,
+        "LONG": 33
+      }
+    },
+    {
+      "name": "K.Shockey",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 6,
+        "YARDS": 163,
+        "AVG": 27.2,
+        "TD": 0,
+        "LONG": 35
+      }
+    },
+    {
+      "name": "C.Rhaney",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 6,
+        "YARDS": 154,
+        "AVG": 25.7,
+        "TD": 0,
+        "LONG": 39
+      }
+    },
+    {
+      "name": "E.Abiamiri",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 5,
+        "KR": 5,
+        "YARDS": 142,
+        "AVG": 28.4,
+        "TD": 0,
+        "LONG": 34
+      }
+    },
+    {
+      "name": "M.Hopkins",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 5,
+        "YARDS": 135,
+        "AVG": 27.0,
+        "TD": null,
+        "LONG": 35
+      }
+    },
+    {
+      "name": "R.Ahumaraeze",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 5,
+        "YARDS": 132,
+        "AVG": 26.4,
+        "TD": 0,
+        "LONG": 33
+      }
+    },
+    {
+      "name": "J.StokesJr.",
+      "pos": "CB",
+      "team": null,
+      "values": {
+        "GP": 4,
+        "KR": 4,
+        "YARDS": 119,
+        "AVG": 29.8,
+        "TD": 0,
+        "LONG": 35
+      }
+    },
+    {
+      "name": "C.Pounds",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 2,
+        "KR": 4,
+        "YARDS": 117,
+        "AVG": 29.2,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "E.Weaver",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 5,
+        "KR": 4,
+        "YARDS": 113,
+        "AVG": 28.2,
+        "TD": 0,
+        "LONG": 32
+      }
+    },
+    {
+      "name": "K.Mason",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 10,
+        "KR": 4,
+        "YARDS": 107,
+        "AVG": 26.8,
+        "TD": 0,
+        "LONG": 30
+      }
+    },
+    {
+      "name": "D.Armentrout",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 7,
+        "KR": 4,
+        "YARDS": 105,
+        "AVG": 26.2,
+        "TD": 0,
+        "LONG": 33
+      }
+    },
+    {
+      "name": "J.Square",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 8,
+        "KR": 3,
+        "YARDS": 101,
+        "AVG": 33.7,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "J.Momah",
+      "pos": "CB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 4,
+        "YARDS": 99,
+        "AVG": 24.8,
+        "TD": 0,
+        "LONG": 32
+      }
+    },
+    {
+      "name": "T.Parker",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 4,
+        "YARDS": 99,
+        "AVG": 24.8,
+        "TD": 0,
+        "LONG": 34
+      }
+    },
+    {
+      "name": "S.Hart",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 9,
+        "KR": 3,
+        "YARDS": 80,
+        "AVG": 26.7,
+        "TD": 0,
+        "LONG": 30
+      }
+    },
+    {
+      "name": "S.Savoie",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 3,
+        "YARDS": 65,
+        "AVG": 21.7,
+        "TD": 0,
+        "LONG": 28
+      }
+    },
+    {
+      "name": "F.Clutts",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 4,
+        "KR": 2,
+        "YARDS": 53,
+        "AVG": 26.5,
+        "TD": 0,
+        "LONG": 31
+      }
+    },
+    {
+      "name": "B.Wall",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 2,
+        "YARDS": 52,
+        "AVG": 26.0,
+        "TD": 0,
+        "LONG": 32
+      }
+    },
+    {
+      "name": "M.Tounkara",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 2,
+        "YARDS": 52,
+        "AVG": 26.0,
+        "TD": 0,
+        "LONG": 27
+      }
+    },
+    {
+      "name": "G.Kahn",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 1,
+        "KR": 1,
+        "YARDS": 35,
+        "AVG": 35.0,
+        "TD": 0,
+        "LONG": 35
+      }
+    },
+    {
+      "name": "N.Wilbur",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 1,
+        "KR": 1,
+        "YARDS": 35,
+        "AVG": 35.0,
+        "TD": 0,
+        "LONG": 35
+      }
+    },
+    {
+      "name": "J.Willoughby",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 1,
+        "YARDS": 32,
+        "AVG": 32.0,
+        "TD": 0,
+        "LONG": 32
+      }
+    },
+    {
+      "name": "D.Reynolds",
+      "pos": "CB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "KR": 1,
+        "YARDS": 30,
+        "AVG": 30.0,
+        "TD": 0,
+        "LONG": 30
+      }
+    },
+    {
+      "name": "J.Brink",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 5,
+        "KR": 2,
+        "YARDS": 28,
+        "AVG": 14.0,
+        "TD": 0,
+        "LONG": 23
+      }
+    },
+    {
+      "name": "G.Spillers",
+      "pos": "TE",
+      "team": "Central Michigan",
+      "values": {
+        "GP": 12,
+        "KR": 1,
+        "YARDS": 9,
+        "AVG": 9.0,
+        "TD": 0,
+        "LONG": 9
+      }
+    }
+  ],
+  "screen": "12-game regular-season window; captured player subset. National rows are screened against recorded postseason rosters. Identified 13/14-game cohorts have individual postseason counts removed; ambiguous matches are withheld. Rates are recomputed. Dashes mark unreadable deductions or unrecoverable season maxima.",
+  "sources": [
+    "2027/IMG_5598.MOV",
+    "2027/IMG_5599.MOV",
+    "2027/IMG_5600.MOV",
+    "2027/IMG_5604.MOV",
+    "2027/IMG_5605.MOV",
+    "2027/IMG_5606.MOV",
+    "2027/IMG_5607.MOV",
+    "2027/IMG_5608.MOV",
+    "2027/IMG_5609.MOV",
+    "2027/IMG_5610.MOV",
+    "2027/IMG_5611.MOV",
+    "2027/IMG_5612.MOV",
+    "2027/Additional Items/IMG_5620.MOV",
+    "2027/Additional Items/IMG_5621.MOV",
+    "2027/Additional Items/IMG_5622.MOV",
+    "2027/Additional Items/IMG_5623.MOV"
+  ]
+}

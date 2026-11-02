@@ -16,7 +16,10 @@ class MultiSeasonTests(unittest.TestCase):
     def setUp(self):
         self.temp=tempfile.TemporaryDirectory();self.addCleanup(self.temp.cleanup);self.root=Path(self.temp.name)
         shutil.copytree(ROOT/'config',self.root/'config')
-        (self.root/'data').mkdir();shutil.copyfile(ROOT/'data/seasons.json',self.root/'data/seasons.json')
+        (self.root/'data').mkdir()
+        manifest=read(ROOT/'data/seasons.json')
+        manifest['seasons']=[s for s in manifest['seasons'] if s['id']=='2026'];manifest['defaultSeason']='2026'
+        atomic_write(self.root/'data/seasons.json',manifest)
 
     def draft(self,year='2027'):
         folder=initialize(year,self.root)

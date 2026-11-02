@@ -6,6 +6,8 @@ const browser=await chromium.launch({headless:true,...(process.env.CHROME_PATH?{
 const errors=[];
 try{
  const page=await browser.newPage();page.on('pageerror',e=>errors.push(e.message));
+ // Isolate the one-season archive scenarios from later local publications.
+ await page.route('**/data/seasons.json',r=>r.fulfill({json:{schemaVersion:1,defaultSeason:'2026',seasons:[{id:'2026',label:'2026',published:true,dataPath:'data/seasons/2026/season.json'}]}}));
  await page.goto(base);await page.locator('#cards .card').first().waitFor();
  assert.equal(await page.getByRole('tab').count(),1);
  assert.equal(await page.title(),'Dynasty HQ — 2026');

@@ -1,0 +1,202 @@
+{
+  "oeff": {
+    "teams": 138,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "deff": {
+    "teams": 138,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "p2r": {
+    "teams": 138,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "todiff": {
+    "teams": 134,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "d3rate": {
+    "teams": 138,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "d4rate": {
+    "teams": 137,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "rzrate": {
+    "teams": 135,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "pts2": {
+    "teams": 138,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "ttd": {
+    "teams": 138,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "pctpass": {
+    "teams": 138,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "pctrush": {
+    "teams": 138,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "fd": {
+    "teams": 138,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "pyds": {
+    "teams": 138,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "ptd": {
+    "teams": 138,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "ryds": {
+    "teams": 138,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "rtd": {
+    "teams": 138,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "fd_so": {
+    "teams": 138,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "d3a": {
+    "teams": 138,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "d3c": {
+    "teams": 138,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "d3pct": {
+    "teams": 138,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "d4a": {
+    "teams": 138,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "d4c": {
+    "teams": 137,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "d4pct": {
+    "teams": 137,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "rza": {
+    "teams": 138,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "rzs": {
+    "teams": 135,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "rzpct": {
+    "teams": 135,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "ptsa2": {
+    "teams": 138,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "ydsa": {
+    "teams": 138,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "pydsa": {
+    "teams": 138,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "dint": {
+    "teams": 136,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "sacks": {
+    "teams": 138,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "rydsa": {
+    "teams": 138,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "sacks_d": {
+    "teams": 138,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "dint2": {
+    "teams": 136,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "rzaa": {
+    "teams": 138,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "rzsa": {
+    "teams": 135,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "rzpcta": {
+    "teams": 135,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "pen": {
+    "teams": 136,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "penyds": {
+    "teams": 136,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  },
+  "penypg": {
+    "teams": 136,
+    "field": 138,
+    "scope": "12-game regular season; teams without exact postseason deductions excluded."
+  }
+}

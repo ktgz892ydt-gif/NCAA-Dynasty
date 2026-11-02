@@ -1,0 +1,3172 @@
+{
+  "Western Michigan": {
+    "BLOCKING": [
+      {
+        "name": "G.Dabo",
+        "pos": "RG",
+        "team": "Western Michigan",
+        "values": {
+          "SACK": 7,
+          "GP": 12,
+          "SNAPS": 785
+        }
+      },
+      {
+        "name": "J.Krause",
+        "pos": "LG",
+        "team": "Western Michigan",
+        "values": {
+          "SACK": 11,
+          "GP": 12,
+          "SNAPS": 784
+        }
+      },
+      {
+        "name": "J.Schleicher",
+        "pos": "C",
+        "team": "Western Michigan",
+        "values": {
+          "SACK": 2,
+          "GP": 1,
+          "SNAPS": 56
+        }
+      },
+      {
+        "name": "K.Manu",
+        "pos": "C",
+        "team": "Western Michigan",
+        "values": {
+          "SACK": 2,
+          "GP": 12,
+          "SNAPS": 668
+        }
+      },
+      {
+        "name": "R.Moffett",
+        "pos": "RT",
+        "team": "Western Michigan",
+        "values": {
+          "SACK": 1,
+          "GP": 12,
+          "SNAPS": 734
+        }
+      },
+      {
+        "name": "S.Hale",
+        "pos": "RT",
+        "team": "Western Michigan",
+        "values": {
+          "SACK": 6,
+          "GP": 12,
+          "SNAPS": 718
+        }
+      }
+    ],
+    "DEFENSE": [
+      {
+        "name": "A.Baker",
+        "pos": "WILL",
+        "team": "Western Michigan",
+        "values": {
+          "SOLO": 7,
+          "ASSISTS": 0,
+          "TAK": 7,
+          "TFL": 0,
+          "SACK": 0.0,
+          "INT": 0,
+          "INT YDS": null,
+          "TD": 0,
+          "DEFL": 0,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": null,
+          "BLOCK": 0,
+          "SFTY": 0,
+          "GP": 12,
+          "SNAPS": 198,
+          "INT LG": 0,
+          "INT AVG": null
+        }
+      },
+      {
+        "name": "A.Louis",
+        "pos": "FS",
+        "team": "Western Michigan",
+        "values": {
+          "SOLO": 46,
+          "ASSISTS": 11,
+          "TAK": 57,
+          "TFL": 2,
+          "SACK": 1.0,
+          "INT": 0,
+          "INT YDS": 0,
+          "TD": 0,
+          "DEFL": 1,
+          "FFUMB": null,
+          "FUMB": 2,
+          "FMBYDS": 6,
+          "BLOCK": 0,
+          "SFTY": 0,
+          "GP": 12,
+          "SNAPS": 638,
+          "INT LG": 0,
+          "INT AVG": 0
+        }
+      },
+      {
+        "name": "B.Anes",
+        "pos": "SAM",
+        "team": "Western Michigan",
+        "values": {
+          "SOLO": 6,
+          "ASSISTS": 2,
+          "TAK": 8,
+          "TFL": 3,
+          "SACK": 2.0,
+          "INT": 0,
+          "INT YDS": 0,
+          "TD": 0,
+          "DEFL": 0,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": 0,
+          "BLOCK": 0,
+          "SFTY": 0,
+          "GP": 12,
+          "SNAPS": 123,
+          "INT LG": 0,
+          "INT AVG": 0
+        }
+      },
+      {
+        "name": "C.MilesJr.",
+        "pos": "SS",
+        "team": "Western Michigan",
+        "values": {
+          "SOLO": 30,
+          "ASSISTS": 10,
+          "TAK": 40,
+          "TFL": 1,
+          "SACK": 0.0,
+          "INT": 0,
+          "INT YDS": 0,
+          "TD": 0,
+          "DEFL": 6,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": null,
+          "BLOCK": null,
+          "SFTY": 0,
+          "GP": 12,
+          "SNAPS": 622,
+          "INT LG": 0,
+          "INT AVG": 0
+        }
+      },
+      {
+        "name": "C.Slate",
+        "pos": "CB",
+        "team": "Western Michigan",
+        "values": {
+          "SOLO": 8,
+          "ASSISTS": 5,
+          "TAK": 13,
+          "TFL": 0,
+          "SACK": 0.0,
+          "INT": 0,
+          "INT YDS": null,
+          "TD": 0,
+          "DEFL": 0,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": null,
+          "BLOCK": 0,
+          "SFTY": 0,
+          "GP": 12,
+          "SNAPS": 156,
+          "INT LG": 0,
+          "INT AVG": null
+        }
+      },
+      {
+        "name": "C.Springs",
+        "pos": "DT",
+        "team": "Western Michigan",
+        "values": {
+          "SOLO": 16,
+          "ASSISTS": 6,
+          "TAK": 22,
+          "TFL": 11,
+          "SACK": 3.5,
+          "INT": 0,
+          "INT YDS": 0,
+          "TD": 0,
+          "DEFL": 3,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": null,
+          "BLOCK": 0,
+          "SFTY": 0,
+          "GP": 12,
+          "SNAPS": 584,
+          "INT LG": 0,
+          "INT AVG": 0
+        }
+      },
+      {
+        "name": "D.Crayton",
+        "pos": "SS",
+        "team": "Western Michigan",
+        "values": {
+          "SOLO": 0,
+          "ASSISTS": 0,
+          "TAK": 0,
+          "TFL": 0,
+          "SACK": 0.0,
+          "INT": 0,
+          "INT YDS": 0,
+          "TD": 0,
+          "DEFL": 0,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": null,
+          "BLOCK": 0,
+          "SFTY": 0,
+          "GP": 11,
+          "SNAPS": 22,
+          "INT LG": 0,
+          "INT AVG": 0
+        }
+      },
+      {
+        "name": "D.Esper",
+        "pos": "SAM",
+        "team": "Western Michigan",
+        "values": {
+          "SOLO": 20,
+          "ASSISTS": 3,
+          "TAK": 23,
+          "TFL": 1,
+          "SACK": 0.5,
+          "INT": 0,
+          "INT YDS": 0,
+          "TD": 0,
+          "DEFL": 1,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": null,
+          "BLOCK": 0,
+          "SFTY": 0,
+          "GP": 12,
+          "SNAPS": 196,
+          "INT LG": 0,
+          "INT AVG": 0
+        }
+      },
+      {
+        "name": "D.McCullough",
+        "pos": "CB",
+        "team": "Western Michigan",
+        "values": {
+          "SOLO": 28,
+          "ASSISTS": 21,
+          "TAK": 49,
+          "TFL": 1,
+          "SACK": 0.5,
+          "INT": 1,
+          "INT YDS": 0,
+          "TD": 0,
+          "DEFL": 2,
+          "FFUMB": null,
+          "FUMB": null,
+          "FMBYDS": null,
+          "BLOCK": null,
+          "SFTY": 0,
+          "GP": 12,
+          "SNAPS": 615,
+          "INT LG": 0,
+          "INT AVG": 0.0
+        }
+      },
+      {
+        "name": "D.Moss",
+        "pos": "LEDG",
+        "team": "Western Michigan",
+        "values": {
+          "SOLO": 11,
+          "ASSISTS": 7,
+          "TAK": 18,
+          "TFL": 4,
+          "SACK": 0.5,
+          "INT": 0,
+          "INT YDS": null,
+          "TD": 0,
+          "DEFL": 0,
+          "FFUMB": null,
+          "FUMB": 0,
+          "FMBYDS": null,
+          "BLOCK": null,
+          "SFTY": 0,
+          "GP": 12,
+          "SNAPS": 495,
+          "INT LG": 0,
+          "INT AVG": null
+        }
+      },
+      {
+        "name": "F.Brown",
+        "pos": "MIKE",
+        "team": "Western Michigan",
+        "values": {
+          "SOLO": 25,
+          "ASSISTS": 20,
+          "TAK": 45,
+          "TFL": 2,
+          "SACK": 0.0,
+          "INT": 2,
+          "INT YDS": 13,
+          "TD": 0,
+          "DEFL": 2,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": null,
+          "BLOCK": 0,
+          "SFTY": 0,
+          "GP": 10,
+          "SNAPS": null,
+          "INT LG": 10,
+          "INT AVG": 6.5
+        }
+      },
+      {
+        "name": "G.Welch",
+        "pos": "WILL",
+        "team": "Western Michigan",
+        "values": {
+          "SOLO": 1,
+          "ASSISTS": 3,
+          "TAK": 4,
+          "TFL": 0,
+          "SACK": 0.0,
+          "INT": 0,
+          "INT YDS": 0,
+          "TD": 0,
+          "DEFL": 0,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": 0,
+          "BLOCK": null,
+          "SFTY": 0,
+          "GP": 12,
+          "SNAPS": 304,
+          "INT LG": 0,
+          "INT AVG": 0
+        }
+      },
+      {
+        "name": "J.Peters",
+        "pos": "CB",
+        "team": "Western Michigan",
+        "values": {
+          "SOLO": 5,
+          "ASSISTS": 4,
+          "TAK": 9,
+          "TFL": 0,
+          "SACK": 0.0,
+          "INT": null,
+          "INT YDS": null,
+          "TD": 0,
+          "DEFL": null,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": null,
+          "BLOCK": 0,
+          "SFTY": 0,
+          "GP": 12,
+          "SNAPS": null,
+          "INT LG": null,
+          "INT AVG": null
+        }
+      },
+      {
+        "name": "J.Pope",
+        "pos": "SS",
+        "team": "Western Michigan",
+        "values": {
+          "SOLO": 41,
+          "ASSISTS": 15,
+          "TAK": 56,
+          "TFL": 2,
+          "SACK": 1.0,
+          "INT": 1,
+          "INT YDS": 15,
+          "TD": 0,
+          "DEFL": 2,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": 0,
+          "BLOCK": 0,
+          "SFTY": 0,
+          "GP": 12,
+          "SNAPS": 626,
+          "INT LG": 15,
+          "INT AVG": 15.0
+        }
+      },
+      {
+        "name": "J.Watson",
+        "pos": "FS",
+        "team": "Western Michigan",
+        "values": {
+          "SOLO": 16,
+          "ASSISTS": 4,
+          "TAK": 20,
+          "TFL": 1,
+          "SACK": 0.5,
+          "INT": 0,
+          "INT YDS": 0,
+          "TD": 0,
+          "DEFL": 1,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": 0,
+          "BLOCK": 0,
+          "SFTY": 0,
+          "GP": 6,
+          "SNAPS": 263,
+          "INT LG": 0,
+          "INT AVG": 0
+        }
+      },
+      {
+        "name": "K.Burley",
+        "pos": "REDG",
+        "team": "Western Michigan",
+        "values": {
+          "SOLO": 12,
+          "ASSISTS": 5,
+          "TAK": 17,
+          "TFL": 9,
+          "SACK": 4.0,
+          "INT": 0,
+          "INT YDS": 0,
+          "TD": 0,
+          "DEFL": 1,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": null,
+          "BLOCK": 0,
+          "SFTY": 0,
+          "GP": 12,
+          "SNAPS": 492,
+          "INT LG": 0,
+          "INT AVG": 0
+        }
+      },
+      {
+        "name": "M.Davis",
+        "pos": "CB",
+        "team": "Western Michigan",
+        "values": {
+          "SOLO": 33,
+          "ASSISTS": 13,
+          "TAK": 46,
+          "TFL": 3,
+          "SACK": 0.0,
+          "INT": 7,
+          "INT YDS": 104,
+          "TD": 0,
+          "DEFL": 4,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": 0,
+          "BLOCK": 0,
+          "SFTY": 0,
+          "GP": 12,
+          "SNAPS": 571,
+          "INT LG": 18,
+          "INT AVG": 14.9
+        }
+      },
+      {
+        "name": "S.Spencer",
+        "pos": "MIKE",
+        "team": "Western Michigan",
+        "values": {
+          "SOLO": 3,
+          "ASSISTS": 3,
+          "TAK": 6,
+          "TFL": 0,
+          "SACK": 0.0,
+          "INT": 0,
+          "INT YDS": null,
+          "TD": 0,
+          "DEFL": 0,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": null,
+          "BLOCK": 0,
+          "SFTY": 0,
+          "GP": 12,
+          "SNAPS": 172,
+          "INT LG": 0,
+          "INT AVG": null
+        }
+      },
+      {
+        "name": "V.Crisp",
+        "pos": "FS",
+        "team": "Western Michigan",
+        "values": {
+          "SOLO": 16,
+          "ASSISTS": 7,
+          "TAK": 23,
+          "TFL": 0,
+          "SACK": 0.0,
+          "INT": 0,
+          "INT YDS": 0,
+          "TD": 0,
+          "DEFL": 1,
+          "FFUMB": 0,
+          "FUMB": null,
+          "FMBYDS": 0,
+          "BLOCK": 0,
+          "SFTY": 0,
+          "GP": 11,
+          "SNAPS": 405,
+          "INT LG": 0,
+          "INT AVG": 0
+        }
+      },
+      {
+        "name": "W.Gerig",
+        "pos": "DT",
+        "team": "Western Michigan",
+        "values": {
+          "SOLO": 26,
+          "ASSISTS": 12,
+          "TAK": 38,
+          "TFL": 14,
+          "SACK": 8.5,
+          "INT": 0,
+          "INT YDS": 0,
+          "TD": 0,
+          "DEFL": 0,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": null,
+          "BLOCK": 0,
+          "SFTY": null,
+          "GP": 12,
+          "SNAPS": 566,
+          "INT LG": 0,
+          "INT AVG": 0
+        }
+      }
+    ],
+    "KICK RETURN": [
+      {
+        "name": "C.Barnett",
+        "pos": "WR",
+        "team": "Western Michigan",
+        "values": {
+          "KR": null,
+          "YARDS": 170,
+          "TD": 0,
+          "GP": 12,
+          "SNAPS": 726,
+          "LONG": 35,
+          "AVG": null
+        }
+      },
+      {
+        "name": "T.Malik",
+        "pos": "WR",
+        "team": "Western Michigan",
+        "values": {
+          "KR": null,
+          "YARDS": 311,
+          "TD": 0,
+          "GP": 12,
+          "SNAPS": 43,
+          "LONG": 34,
+          "AVG": null
+        }
+      }
+    ],
+    "KICKING": [
+      {
+        "name": "N.Hancock",
+        "pos": "K",
+        "team": "Western Michigan",
+        "values": {
+          "FGM": 10,
+          "FGA": 15,
+          "XPM": 49,
+          "XPA": 49,
+          "FG BLK": 0,
+          "XPB": 0,
+          "KO": 0,
+          "TB": 0,
+          "FGM29": 8,
+          "FGM39": 1,
+          "FGM49": 1,
+          "FGM50": 0,
+          "FGA29": 8,
+          "FGA39": 3,
+          "FGA49": 3,
+          "FGA50": 1,
+          "GP": 11,
+          "SNAPS": 61,
+          "FG LNG": 46,
+          "FG%": 66.7,
+          "XP%": 100.0
+        }
+      },
+      {
+        "name": "R.Millmore",
+        "pos": "P",
+        "team": "Western Michigan",
+        "values": {
+          "FGM": 0,
+          "FGA": 0,
+          "XPM": 0,
+          "XPA": 0,
+          "FG BLK": 0,
+          "XPB": null,
+          "KO": 72,
+          "TB": 42,
+          "FGM29": 0,
+          "FGM39": 0,
+          "FGM49": 0,
+          "FGM50": 0,
+          "FGA29": 0,
+          "FGA39": 0,
+          "FGA49": 0,
+          "FGA50": 0,
+          "GP": 12,
+          "FG LNG": 0,
+          "FG%": 0,
+          "XP%": 0
+        }
+      }
+    ],
+    "PASSING": [
+      {
+        "name": "R.Montgomery",
+        "pos": "QB",
+        "team": "Western Michigan",
+        "values": {
+          "COMP": 224,
+          "ATT": 331,
+          "YARDS": 2845,
+          "TD": 24,
+          "INT": 10,
+          "SACKS": 44,
+          "GP": 12,
+          "SNAPS": 724,
+          "LONG": 58,
+          "COMP%": 67.7,
+          "YPA": 8.6,
+          "YPG": 237.1,
+          "RATING": 157.8
+        }
+      }
+    ],
+    "PUNT RETURN": [
+      {
+        "name": "C.Barnett",
+        "pos": "WR",
+        "team": "Western Michigan",
+        "values": {
+          "PR": 8,
+          "YARDS": 63,
+          "TD": 0,
+          "GP": 12,
+          "SNAPS": 726,
+          "LONG": 14,
+          "AVG": 7.9
+        }
+      },
+      {
+        "name": "C.Cabana",
+        "pos": "HB",
+        "team": "Western Michigan",
+        "values": {
+          "PR": 24,
+          "YARDS": 231,
+          "TD": 0,
+          "GP": 12,
+          "SNAPS": 432,
+          "LONG": 23,
+          "AVG": 9.6
+        }
+      }
+    ],
+    "PUNTING": [
+      {
+        "name": "R.Millmore",
+        "pos": "P",
+        "team": "Western Michigan",
+        "values": {
+          "PUNTS": 22,
+          "YARDS": 982,
+          "NET YDS": 744,
+          "IN20": 3,
+          "TB": 8,
+          "BLOCK": 0,
+          "GP": 12,
+          "SNAPS": 155,
+          "LONG": 59,
+          "AVG": 44.6,
+          "NET AVG": 33.8
+        }
+      }
+    ],
+    "RECEIVING": [
+      {
+        "name": "A.Chenault",
+        "pos": "WR",
+        "team": "Western Michigan",
+        "values": {
+          "REC": 39,
+          "YARDS": 557,
+          "TD": 5,
+          "RAC": 226,
+          "DROP": 1,
+          "GP": 12,
+          "SNAPS": 704,
+          "LONG": 32,
+          "AVG": 14.3,
+          "AVG G": 46.4,
+          "RAC AVG": 5.8
+        }
+      },
+      {
+        "name": "A.Parks",
+        "pos": "TE",
+        "team": "Western Michigan",
+        "values": {
+          "REC": 23,
+          "YARDS": 315,
+          "TD": 2,
+          "RAC": 110,
+          "DROP": 0,
+          "GP": 12,
+          "SNAPS": 416,
+          "LONG": 25,
+          "AVG": 13.7,
+          "AVG G": 26.2,
+          "RAC AVG": 4.8
+        }
+      },
+      {
+        "name": "B.Brooks",
+        "pos": "WR",
+        "team": "Western Michigan",
+        "values": {
+          "REC": 71,
+          "YARDS": 840,
+          "TD": 5,
+          "RAC": 382,
+          "DROP": 2,
+          "GP": 12,
+          "SNAPS": 699,
+          "LONG": 31,
+          "AVG": 11.8,
+          "AVG G": 70.0,
+          "RAC AVG": 5.4
+        }
+      },
+      {
+        "name": "C.Barnett",
+        "pos": "WR",
+        "team": "Western Michigan",
+        "values": {
+          "REC": 18,
+          "YARDS": 244,
+          "TD": 2,
+          "RAC": 106,
+          "DROP": 0,
+          "GP": 12,
+          "SNAPS": 726,
+          "LONG": 26,
+          "AVG": 13.6,
+          "AVG G": 20.3,
+          "RAC AVG": 5.9
+        }
+      },
+      {
+        "name": "C.Cabana",
+        "pos": "HB",
+        "team": "Western Michigan",
+        "values": {
+          "REC": 16,
+          "YARDS": 152,
+          "TD": 1,
+          "RAC": 109,
+          "DROP": 1,
+          "GP": 12,
+          "SNAPS": 432,
+          "LONG": 24,
+          "AVG": 9.5,
+          "AVG G": 12.7,
+          "RAC AVG": 6.8
+        }
+      },
+      {
+        "name": "D.Triplett",
+        "pos": "HB",
+        "team": "Western Michigan",
+        "values": {
+          "REC": 16,
+          "YARDS": 106,
+          "TD": 1,
+          "RAC": 106,
+          "DROP": 1,
+          "GP": 12,
+          "SNAPS": 320,
+          "LONG": 19,
+          "AVG": 6.6,
+          "AVG G": 8.8,
+          "RAC AVG": 6.6
+        }
+      },
+      {
+        "name": "H.Hughes",
+        "pos": "WR",
+        "team": "Western Michigan",
+        "values": {
+          "REC": 2,
+          "YARDS": 13,
+          "TD": 0,
+          "RAC": 4,
+          "DROP": 0,
+          "GP": 12,
+          "SNAPS": 94,
+          "LONG": 9,
+          "AVG": 6.5,
+          "AVG G": 1.1,
+          "RAC AVG": 2.0
+        }
+      },
+      {
+        "name": "J.Lamp",
+        "pos": "WR",
+        "team": "Western Michigan",
+        "values": {
+          "REC": 34,
+          "YARDS": 558,
+          "TD": 5,
+          "RAC": 242,
+          "DROP": 2,
+          "GP": 12,
+          "SNAPS": 484,
+          "LONG": 58,
+          "AVG": 16.4,
+          "AVG G": 46.5,
+          "RAC AVG": 7.1
+        }
+      },
+      {
+        "name": "R.Rocheleau",
+        "pos": "TE",
+        "team": "Western Michigan",
+        "values": {
+          "REC": 3,
+          "YARDS": 40,
+          "TD": 3,
+          "RAC": 31,
+          "DROP": 0,
+          "GP": 12,
+          "SNAPS": 153,
+          "LONG": 18,
+          "AVG": 13.3,
+          "AVG G": 3.3,
+          "RAC AVG": 10.3
+        }
+      },
+      {
+        "name": "S.Orr",
+        "pos": "HB",
+        "team": "Western Michigan",
+        "values": {
+          "REC": 2,
+          "YARDS": 20,
+          "TD": 0,
+          "RAC": 28,
+          "DROP": 0,
+          "GP": 10,
+          "LONG": 15,
+          "AVG": 10.0,
+          "AVG G": 2.0,
+          "RAC AVG": 14.0
+        }
+      }
+    ],
+    "RUSHING": [
+      {
+        "name": "A.Chenault",
+        "pos": "WR",
+        "team": "Western Michigan",
+        "values": {
+          "CAR": 0,
+          "YARDS": 0,
+          "TD": 0,
+          "20+": 0,
+          "BTK": 2,
+          "YAC": 0,
+          "FUMB": 0,
+          "GP": 12,
+          "SNAPS": 704,
+          "LONG": 0,
+          "AVG": 0,
+          "AVG G": 0.0
+        }
+      },
+      {
+        "name": "A.Parks",
+        "pos": "TE",
+        "team": "Western Michigan",
+        "values": {
+          "CAR": 0,
+          "YARDS": 0,
+          "TD": 0,
+          "20+": 0,
+          "BTK": null,
+          "YAC": 0,
+          "FUMB": 0,
+          "GP": null,
+          "SNAPS": 416,
+          "LONG": 0,
+          "AVG": 0,
+          "AVG G": null
+        }
+      },
+      {
+        "name": "B.Brooks",
+        "pos": "WR",
+        "team": "Western Michigan",
+        "values": {
+          "CAR": 0,
+          "YARDS": 0,
+          "TD": 0,
+          "20+": 0,
+          "BTK": null,
+          "YAC": 0,
+          "FUMB": 0,
+          "GP": 12,
+          "SNAPS": 699,
+          "LONG": 0,
+          "AVG": 0,
+          "AVG G": 0.0
+        }
+      },
+      {
+        "name": "C.Barnett",
+        "pos": "WR",
+        "team": "Western Michigan",
+        "values": {
+          "CAR": 0,
+          "YARDS": 0,
+          "TD": 0,
+          "20+": 0,
+          "BTK": 2,
+          "YAC": 0,
+          "FUMB": 0,
+          "GP": 12,
+          "SNAPS": 726,
+          "LONG": 0,
+          "AVG": 0,
+          "AVG G": 0.0
+        }
+      },
+      {
+        "name": "C.Cabana",
+        "pos": "HB",
+        "team": "Western Michigan",
+        "values": {
+          "CAR": 144,
+          "YARDS": 985,
+          "TD": 4,
+          "20+": 7,
+          "BTK": 6,
+          "YAC": 223,
+          "FUMB": 0,
+          "GP": 12,
+          "SNAPS": 432,
+          "LONG": 44,
+          "AVG": 6.8,
+          "AVG G": 82.1
+        }
+      },
+      {
+        "name": "D.Triplett",
+        "pos": "HB",
+        "team": "Western Michigan",
+        "values": {
+          "CAR": 112,
+          "YARDS": 747,
+          "TD": 8,
+          "20+": 5,
+          "BTK": 4,
+          "YAC": 180,
+          "FUMB": 0,
+          "GP": 12,
+          "SNAPS": 320,
+          "LONG": 29,
+          "AVG": 6.7,
+          "AVG G": 62.2
+        }
+      },
+      {
+        "name": "J.Lamp",
+        "pos": "WR",
+        "team": "Western Michigan",
+        "values": {
+          "CAR": 0,
+          "YARDS": 0,
+          "TD": 0,
+          "20+": 0,
+          "BTK": 1,
+          "YAC": 0,
+          "FUMB": 0,
+          "GP": 12,
+          "SNAPS": 484,
+          "LONG": 0,
+          "AVG": 0,
+          "AVG G": 0.0
+        }
+      },
+      {
+        "name": "J.Lay",
+        "pos": "HB",
+        "team": "Western Michigan",
+        "values": {
+          "CAR": 2,
+          "YARDS": 6,
+          "TD": 0,
+          "20+": 0,
+          "BTK": 0,
+          "YAC": 5,
+          "FUMB": null,
+          "GP": null,
+          "LONG": 4,
+          "AVG": 3.0,
+          "AVG G": null
+        }
+      },
+      {
+        "name": "R.Montgomery",
+        "pos": "QB",
+        "team": "Western Michigan",
+        "values": {
+          "CAR": 79,
+          "YARDS": -18,
+          "TD": 4,
+          "20+": 1,
+          "BTK": 1,
+          "YAC": 29,
+          "FUMB": 2,
+          "GP": 12,
+          "SNAPS": 724,
+          "LONG": 31,
+          "AVG": -0.2,
+          "AVG G": -1.5
+        }
+      },
+      {
+        "name": "R.Rocheleau",
+        "pos": "TE",
+        "team": "Western Michigan",
+        "values": {
+          "CAR": 0,
+          "YARDS": 0,
+          "TD": 0,
+          "20+": 0,
+          "BTK": null,
+          "YAC": 0,
+          "FUMB": 0,
+          "GP": null,
+          "SNAPS": 153,
+          "LONG": 0,
+          "AVG": 0,
+          "AVG G": null
+        }
+      },
+      {
+        "name": "S.Orr",
+        "pos": "HB",
+        "team": "Western Michigan",
+        "values": {
+          "CAR": 56,
+          "YARDS": 478,
+          "TD": 10,
+          "20+": 5,
+          "BTK": 4,
+          "YAC": 119,
+          "FUMB": 0,
+          "GP": 10,
+          "SNAPS": 78,
+          "LONG": 86,
+          "AVG": 8.5,
+          "AVG G": 47.8
+        }
+      }
+    ]
+  },
+  "Central Michigan": {
+    "BLOCKING": [
+      {
+        "name": "D.Smith",
+        "pos": "C",
+        "team": "Central Michigan",
+        "values": {
+          "SACK": 2,
+          "GP": 12,
+          "SNAPS": 575
+        }
+      },
+      {
+        "name": "J.Booth",
+        "pos": "LT",
+        "team": "Central Michigan",
+        "values": {
+          "SACK": 1,
+          "GP": 12,
+          "SNAPS": null
+        }
+      },
+      {
+        "name": "J.Russell",
+        "pos": "LG",
+        "team": "Central Michigan",
+        "values": {
+          "SACK": 9,
+          "GP": 12,
+          "SNAPS": 616
+        }
+      },
+      {
+        "name": "J.Williams",
+        "pos": "RT",
+        "team": "Central Michigan",
+        "values": {
+          "SACK": 6,
+          "GP": 12,
+          "SNAPS": 641
+        }
+      },
+      {
+        "name": "M.Nehf",
+        "pos": "RG",
+        "team": "Central Michigan",
+        "values": {
+          "SACK": 4,
+          "GP": 12,
+          "SNAPS": 639
+        }
+      },
+      {
+        "name": "R.Tripp",
+        "pos": "LT",
+        "team": "Central Michigan",
+        "values": {
+          "SACK": 2,
+          "GP": 12,
+          "SNAPS": null
+        }
+      },
+      {
+        "name": "S.Lindo",
+        "pos": "C",
+        "team": "Central Michigan",
+        "values": {
+          "SACK": 1,
+          "GP": null,
+          "SNAPS": null
+        }
+      }
+    ],
+    "DEFENSE": [
+      {
+        "name": "B.Barton",
+        "pos": "MIKE",
+        "team": "Central Michigan",
+        "values": {
+          "SOLO": 1,
+          "ASSISTS": 1,
+          "TAK": 2,
+          "TFL": 0,
+          "SACK": 0.0,
+          "INT": 0,
+          "INT YDS": null,
+          "TD": 0,
+          "DEFL": 0,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": null,
+          "BLOCK": null,
+          "SFTY": null,
+          "GP": 12,
+          "SNAPS": 26,
+          "INT LG": 0,
+          "INT AVG": null
+        }
+      },
+      {
+        "name": "C.Ali",
+        "pos": "SS",
+        "team": "Central Michigan",
+        "values": {
+          "SOLO": 0,
+          "ASSISTS": 0,
+          "TAK": 0,
+          "TFL": 0,
+          "SACK": 0.0,
+          "INT": 0,
+          "INT YDS": null,
+          "TD": 0,
+          "DEFL": 0,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": null,
+          "BLOCK": null,
+          "SFTY": 0,
+          "GP": 12,
+          "SNAPS": 23,
+          "INT LG": 0,
+          "INT AVG": null
+        }
+      },
+      {
+        "name": "C.Stare",
+        "pos": "DT",
+        "team": "Central Michigan",
+        "values": {
+          "SOLO": 9,
+          "ASSISTS": 12,
+          "TAK": 21,
+          "TFL": 8,
+          "SACK": 5.0,
+          "INT": 0.0,
+          "INT YDS": null,
+          "TD": 0,
+          "DEFL": 0,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": null,
+          "BLOCK": 0,
+          "SFTY": null,
+          "GP": 12,
+          "SNAPS": 518,
+          "INT LG": 0,
+          "INT AVG": null
+        }
+      },
+      {
+        "name": "D.Philord",
+        "pos": "CB",
+        "team": "Central Michigan",
+        "values": {
+          "SOLO": 13,
+          "ASSISTS": 17,
+          "TAK": 30,
+          "TFL": 0,
+          "SACK": 0.0,
+          "INT": 0,
+          "INT YDS": null,
+          "TD": 0,
+          "DEFL": null,
+          "FFUMB": 0,
+          "FUMB": null,
+          "FMBYDS": null,
+          "BLOCK": null,
+          "SFTY": null,
+          "GP": 12,
+          "SNAPS": 362,
+          "INT LG": 0,
+          "INT AVG": null
+        }
+      },
+      {
+        "name": "H.Zirkle",
+        "pos": "LEDG",
+        "team": "Central Michigan",
+        "values": {
+          "SOLO": 0,
+          "ASSISTS": 1,
+          "TAK": 1,
+          "TFL": 0,
+          "SACK": 0.0,
+          "INT": 0,
+          "INT YDS": null,
+          "TD": 0,
+          "DEFL": null,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": null,
+          "BLOCK": 0,
+          "SFTY": null,
+          "GP": null,
+          "SNAPS": null,
+          "INT LG": 0,
+          "INT AVG": null
+        }
+      },
+      {
+        "name": "J.Alston",
+        "pos": "SAM",
+        "team": "Central Michigan",
+        "values": {
+          "SOLO": 4,
+          "ASSISTS": 2,
+          "TAK": 6,
+          "TFL": 0,
+          "SACK": 0.0,
+          "INT": 0,
+          "INT YDS": null,
+          "TD": 0,
+          "DEFL": 0,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": null,
+          "BLOCK": null,
+          "SFTY": 0,
+          "GP": 12,
+          "SNAPS": 193,
+          "INT LG": 0,
+          "INT AVG": null
+        }
+      },
+      {
+        "name": "J.Jackson",
+        "pos": "CB",
+        "team": "Central Michigan",
+        "values": {
+          "SOLO": 24,
+          "ASSISTS": 21,
+          "TAK": 45,
+          "TFL": 2,
+          "SACK": 0.0,
+          "INT": 0,
+          "INT YDS": null,
+          "TD": 0,
+          "DEFL": null,
+          "FFUMB": null,
+          "FUMB": null,
+          "FMBYDS": null,
+          "BLOCK": null,
+          "SFTY": null,
+          "GP": 12,
+          "SNAPS": 543,
+          "INT LG": 0,
+          "INT AVG": null
+        }
+      },
+      {
+        "name": "J.MacKinnon",
+        "pos": "MIKE",
+        "team": "Central Michigan",
+        "values": {
+          "SOLO": 9,
+          "ASSISTS": 13,
+          "TAK": 22,
+          "TFL": 2,
+          "SACK": 0.5,
+          "INT": 1,
+          "INT YDS": 8,
+          "TD": 0,
+          "DEFL": 2,
+          "FFUMB": null,
+          "FUMB": null,
+          "FMBYDS": null,
+          "BLOCK": null,
+          "SFTY": null,
+          "GP": 12,
+          "SNAPS": 315,
+          "INT LG": 8,
+          "INT AVG": 8.0
+        }
+      },
+      {
+        "name": "J.Taylor",
+        "pos": "WILL",
+        "team": "Central Michigan",
+        "values": {
+          "SOLO": 37.0,
+          "ASSISTS": 25.0,
+          "TAK": 62.0,
+          "TFL": 14.5,
+          "SACK": 5.0,
+          "INT": 0,
+          "INT YDS": 0,
+          "TD": 0,
+          "DEFL": 4,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": 0,
+          "BLOCK": 0,
+          "SFTY": null,
+          "GP": 12,
+          "SNAPS": 547,
+          "INT LG": 0,
+          "INT AVG": 0
+        },
+        "estimate": true,
+        "estimatedFields": [
+          "ASSISTS",
+          "SOLO",
+          "TAK",
+          "TFL"
+        ],
+        "note": "Estimated individual split, requested by the user: each J. Taylor receives half of both postseason game lines. Combined team totals remain exact."
+      },
+      {
+        "name": "J.Taylor",
+        "pos": "FS",
+        "team": "Central Michigan",
+        "values": {
+          "SOLO": 20.0,
+          "ASSISTS": 31.0,
+          "TAK": 51.0,
+          "TFL": 3.5,
+          "SACK": 0.0,
+          "INT": 2,
+          "INT YDS": 27,
+          "TD": 0,
+          "DEFL": 3,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": null,
+          "BLOCK": null,
+          "SFTY": null,
+          "GP": 12,
+          "SNAPS": 567,
+          "INT LG": 24,
+          "INT AVG": 13.5
+        },
+        "estimate": true,
+        "estimatedFields": [
+          "ASSISTS",
+          "SOLO",
+          "TAK",
+          "TFL"
+        ],
+        "note": "Estimated individual split, requested by the user: each J. Taylor receives half of both postseason game lines. Combined team totals remain exact."
+      },
+      {
+        "name": "J.VanWetzinga",
+        "pos": "DT",
+        "team": "Central Michigan",
+        "values": {
+          "SOLO": 16,
+          "ASSISTS": 5,
+          "TAK": 21,
+          "TFL": 14,
+          "SACK": 2.5,
+          "INT": 0,
+          "INT YDS": 0,
+          "TD": 0,
+          "DEFL": 0,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": null,
+          "BLOCK": 0,
+          "SFTY": null,
+          "GP": 12,
+          "SNAPS": 321,
+          "INT LG": 0,
+          "INT AVG": 0
+        }
+      },
+      {
+        "name": "J.Warren",
+        "pos": "REDG",
+        "team": "Central Michigan",
+        "values": {
+          "SOLO": 15,
+          "ASSISTS": 12,
+          "TAK": 27,
+          "TFL": 9,
+          "SACK": 4.5,
+          "INT": 0,
+          "INT YDS": 0,
+          "TD": 0,
+          "DEFL": 2,
+          "FFUMB": null,
+          "FUMB": 0,
+          "FMBYDS": null,
+          "BLOCK": null,
+          "SFTY": 0,
+          "GP": 12,
+          "SNAPS": 381,
+          "INT LG": 0,
+          "INT AVG": 0
+        }
+      },
+      {
+        "name": "K.Demma",
+        "pos": "LEDG",
+        "team": "Central Michigan",
+        "values": {
+          "SOLO": 9,
+          "ASSISTS": 13,
+          "TAK": 22,
+          "TFL": 8,
+          "SACK": 1.5,
+          "INT": 0,
+          "INT YDS": null,
+          "TD": 0,
+          "DEFL": null,
+          "FFUMB": null,
+          "FUMB": 0,
+          "FMBYDS": null,
+          "BLOCK": null,
+          "SFTY": 0,
+          "GP": 12,
+          "SNAPS": 387,
+          "INT LG": 0,
+          "INT AVG": null
+        }
+      },
+      {
+        "name": "M.Harris",
+        "pos": "MIKE",
+        "team": "Central Michigan",
+        "values": {
+          "SOLO": 42,
+          "ASSISTS": 33,
+          "TAK": 75,
+          "TFL": 2,
+          "SACK": 0.0,
+          "INT": 3,
+          "INT YDS": 150,
+          "TD": 2,
+          "DEFL": 11,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": 0,
+          "BLOCK": 0,
+          "SFTY": 0,
+          "GP": 12,
+          "SNAPS": 560,
+          "INT LG": 93,
+          "INT AVG": 50.0
+        }
+      },
+      {
+        "name": "M.Upton",
+        "pos": "SS",
+        "team": "Central Michigan",
+        "values": {
+          "SOLO": 29,
+          "ASSISTS": 18,
+          "TAK": 47,
+          "TFL": 4,
+          "SACK": 1.0,
+          "INT": 3,
+          "INT YDS": 45,
+          "TD": 1,
+          "DEFL": 12,
+          "FFUMB": 2,
+          "FUMB": 0,
+          "FMBYDS": 0,
+          "BLOCK": 0,
+          "SFTY": 0,
+          "GP": 12,
+          "SNAPS": 598,
+          "INT LG": 44,
+          "INT AVG": 15.0
+        }
+      },
+      {
+        "name": "N.Anderson",
+        "pos": "SS",
+        "team": "Central Michigan",
+        "values": {
+          "SOLO": 5,
+          "ASSISTS": 7,
+          "TAK": 12,
+          "TFL": 0,
+          "SACK": 0.0,
+          "INT": 0,
+          "INT YDS": 0,
+          "TD": 0,
+          "DEFL": 0,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": null,
+          "BLOCK": 0,
+          "SFTY": 0,
+          "GP": 12,
+          "SNAPS": 251,
+          "INT LG": 0,
+          "INT AVG": 0
+        }
+      },
+      {
+        "name": "Q.Bird",
+        "pos": "DT",
+        "team": "Central Michigan",
+        "values": {
+          "SOLO": 15,
+          "ASSISTS": 10,
+          "TAK": 25,
+          "TFL": 13,
+          "SACK": 9.5,
+          "INT": 0,
+          "INT YDS": 0,
+          "TD": 0,
+          "DEFL": 0,
+          "FFUMB": 0,
+          "FUMB": 1,
+          "FMBYDS": null,
+          "BLOCK": null,
+          "SFTY": null,
+          "GP": 12,
+          "SNAPS": 560,
+          "INT LG": 0,
+          "INT AVG": 0
+        }
+      },
+      {
+        "name": "S.Torrence",
+        "pos": "CB",
+        "team": "Central Michigan",
+        "values": {
+          "SOLO": 23,
+          "ASSISTS": 18,
+          "TAK": 41,
+          "TFL": 6,
+          "SACK": 0.0,
+          "INT": 4,
+          "INT YDS": 71,
+          "TD": 1,
+          "DEFL": 4,
+          "FFUMB": 0,
+          "FUMB": 1,
+          "FMBYDS": 0,
+          "BLOCK": null,
+          "SFTY": 0,
+          "GP": 12,
+          "SNAPS": 582,
+          "INT LG": 33,
+          "INT AVG": 17.8
+        }
+      },
+      {
+        "name": "T.Liebhardt",
+        "pos": "CB",
+        "team": "Central Michigan",
+        "values": {
+          "SOLO": 3,
+          "ASSISTS": 3,
+          "TAK": 6,
+          "TFL": 0,
+          "SACK": 0.0,
+          "INT": 1,
+          "INT YDS": 11,
+          "TD": 0,
+          "DEFL": 1,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": null,
+          "BLOCK": 0,
+          "SFTY": 0,
+          "GP": 12,
+          "SNAPS": 174,
+          "INT LG": 11,
+          "INT AVG": 11.0
+        }
+      },
+      {
+        "name": "X.White",
+        "pos": "SAM",
+        "team": "Central Michigan",
+        "values": {
+          "SOLO": 2,
+          "ASSISTS": 5,
+          "TAK": 7,
+          "TFL": 3,
+          "SACK": 2.0,
+          "INT": 0,
+          "INT YDS": null,
+          "TD": 0,
+          "DEFL": 0,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": null,
+          "BLOCK": null,
+          "SFTY": null,
+          "GP": 11,
+          "SNAPS": 184,
+          "INT LG": 0,
+          "INT AVG": null
+        }
+      }
+    ],
+    "KICK RETURN": [
+      {
+        "name": "C.Kruisenga",
+        "pos": "WR",
+        "team": "Central Michigan",
+        "values": {
+          "KR": null,
+          "YARDS": 275,
+          "TD": 0,
+          "GP": 12,
+          "SNAPS": 167,
+          "LONG": 48,
+          "AVG": null
+        }
+      },
+      {
+        "name": "F.Hammer",
+        "pos": "WR",
+        "team": "Central Michigan",
+        "values": {
+          "KR": null,
+          "YARDS": null,
+          "TD": 0,
+          "GP": null,
+          "SNAPS": null,
+          "LONG": 0,
+          "AVG": null
+        }
+      },
+      {
+        "name": "G.Barr",
+        "pos": "WR",
+        "team": "Central Michigan",
+        "values": {
+          "KR": null,
+          "YARDS": 194,
+          "TD": 0,
+          "GP": 12,
+          "SNAPS": 513,
+          "LONG": 36,
+          "AVG": null
+        }
+      },
+      {
+        "name": "G.Spillers",
+        "pos": "TE",
+        "team": "Central Michigan",
+        "values": {
+          "KR": 1,
+          "YARDS": 9,
+          "TD": 0,
+          "GP": 12,
+          "SNAPS": 42,
+          "LONG": 9,
+          "AVG": 9.0
+        }
+      }
+    ],
+    "KICKING": [
+      {
+        "name": "C.VanHuis",
+        "pos": "K",
+        "team": "Central Michigan",
+        "values": {
+          "FGM": 15,
+          "FGA": 18,
+          "XPM": 47,
+          "XPA": 47,
+          "FG BLK": 0,
+          "XPB": 0,
+          "KO": 0,
+          "TB": 0,
+          "FGM29": 6,
+          "FGM39": 2,
+          "FGM49": 5,
+          "FGM50": 2,
+          "FGA29": 6,
+          "FGA39": 2,
+          "FGA49": 7,
+          "FGA50": 3,
+          "GP": 12,
+          "SNAPS": 26,
+          "FG LNG": 55,
+          "FG%": 83.3,
+          "XP%": 100.0
+        }
+      },
+      {
+        "name": "D.Duley",
+        "pos": "P",
+        "team": "Central Michigan",
+        "values": {
+          "FGM": 0,
+          "FGA": 0,
+          "XPM": 0,
+          "XPA": 0,
+          "FG BLK": 0,
+          "XPB": 0,
+          "KO": 75,
+          "TB": 50,
+          "FGM29": 0,
+          "FGM39": 0,
+          "FGM49": 0,
+          "FGM50": 0,
+          "FGA29": 0,
+          "FGA39": 0,
+          "FGA49": 0,
+          "FGA50": 0,
+          "GP": 12,
+          "FG LNG": 0,
+          "FG%": 0,
+          "XP%": 0
+        }
+      }
+    ],
+    "PASSING": [
+      {
+        "name": "A.Sheppard",
+        "pos": "QB",
+        "team": "Central Michigan",
+        "values": {
+          "COMP": 181,
+          "ATT": 247,
+          "YARDS": 1891,
+          "TD": 23,
+          "INT": 6,
+          "SACKS": 39,
+          "GP": 12,
+          "SNAPS": null,
+          "LONG": 75,
+          "COMP%": 73.3,
+          "YPA": 7.7,
+          "YPG": 157.6,
+          "RATING": 163.5
+        }
+      }
+    ],
+    "PUNT RETURN": [
+      {
+        "name": "C.Kruisenga",
+        "pos": "WR",
+        "team": "Central Michigan",
+        "values": {
+          "PR": null,
+          "YARDS": 396,
+          "TD": 0,
+          "GP": 12,
+          "SNAPS": 167,
+          "LONG": null,
+          "AVG": null
+        }
+      }
+    ],
+    "PUNTING": [
+      {
+        "name": "D.Duley",
+        "pos": "P",
+        "team": "Central Michigan",
+        "values": {
+          "PUNTS": 23,
+          "YARDS": 1050,
+          "NET YDS": 887,
+          "IN20": 9,
+          "TB": 3,
+          "BLOCK": 0,
+          "GP": 12,
+          "SNAPS": null,
+          "LONG": 67,
+          "AVG": 45.7,
+          "NET AVG": 38.6
+        }
+      }
+    ],
+    "RECEIVING": [
+      {
+        "name": "B.Naves",
+        "pos": "WR",
+        "team": "Central Michigan",
+        "values": {
+          "REC": 34,
+          "YARDS": 386,
+          "TD": 4,
+          "RAC": 298,
+          "DROP": 3,
+          "GP": 12,
+          "SNAPS": 606,
+          "LONG": 40,
+          "AVG": 11.4,
+          "AVG G": 32.2,
+          "RAC AVG": 8.8
+        }
+      },
+      {
+        "name": "B.Townsend",
+        "pos": "HB",
+        "team": "Central Michigan",
+        "values": {
+          "REC": 10,
+          "YARDS": 145,
+          "TD": 2,
+          "RAC": 131,
+          "DROP": 0,
+          "GP": 12,
+          "SNAPS": 363,
+          "LONG": 48,
+          "AVG": 14.5,
+          "AVG G": 12.1,
+          "RAC AVG": 13.1
+        }
+      },
+      {
+        "name": "C.Kruisenga",
+        "pos": "WR",
+        "team": "Central Michigan",
+        "values": {
+          "REC": 1,
+          "YARDS": 13,
+          "TD": 0,
+          "RAC": 9,
+          "DROP": 0,
+          "GP": 12,
+          "SNAPS": 167,
+          "LONG": null,
+          "AVG": 13.0,
+          "AVG G": 1.1,
+          "RAC AVG": 9.0
+        }
+      },
+      {
+        "name": "G.Barr",
+        "pos": "WR",
+        "team": "Central Michigan",
+        "values": {
+          "REC": 24,
+          "YARDS": 400,
+          "TD": 5,
+          "RAC": 171,
+          "DROP": 1,
+          "GP": 12,
+          "SNAPS": 513,
+          "LONG": 75,
+          "AVG": 16.7,
+          "AVG G": 33.3,
+          "RAC AVG": 7.1
+        }
+      },
+      {
+        "name": "G.Spillers",
+        "pos": "TE",
+        "team": "Central Michigan",
+        "values": {
+          "REC": 1,
+          "YARDS": 7,
+          "TD": 0,
+          "RAC": 0,
+          "DROP": 0,
+          "GP": 12,
+          "SNAPS": 42,
+          "LONG": 7,
+          "AVG": 7.0,
+          "AVG G": 0.6,
+          "RAC AVG": 0.0
+        }
+      },
+      {
+        "name": "L.Swanson",
+        "pos": "TE",
+        "team": "Central Michigan",
+        "values": {
+          "REC": 5,
+          "YARDS": 43,
+          "TD": 0,
+          "RAC": 25,
+          "DROP": 1,
+          "GP": 12,
+          "SNAPS": 152,
+          "LONG": 18,
+          "AVG": 8.6,
+          "AVG G": 3.6,
+          "RAC AVG": 5.0
+        }
+      },
+      {
+        "name": "M.Peters",
+        "pos": "TE",
+        "team": "Central Michigan",
+        "values": {
+          "REC": 19,
+          "YARDS": 167,
+          "TD": 1,
+          "RAC": 68,
+          "DROP": 2,
+          "GP": 12,
+          "SNAPS": 640,
+          "LONG": null,
+          "AVG": 8.8,
+          "AVG G": 13.9,
+          "RAC AVG": 3.6
+        }
+      },
+      {
+        "name": "N.Williams",
+        "pos": "WR",
+        "team": "Central Michigan",
+        "values": {
+          "REC": 61,
+          "YARDS": 515,
+          "TD": 9,
+          "RAC": 465,
+          "DROP": null,
+          "GP": 12,
+          "SNAPS": 599,
+          "LONG": 38,
+          "AVG": 8.4,
+          "AVG G": 42.9,
+          "RAC AVG": 7.6
+        }
+      },
+      {
+        "name": "R.VanWetzinga",
+        "pos": "FB",
+        "team": "Central Michigan",
+        "values": {
+          "REC": 1,
+          "YARDS": 10,
+          "TD": 0,
+          "RAC": 7,
+          "DROP": 1,
+          "GP": 12,
+          "SNAPS": 94,
+          "LONG": 10,
+          "AVG": 10.0,
+          "AVG G": 0.8,
+          "RAC AVG": 7.0
+        }
+      },
+      {
+        "name": "V.Blue",
+        "pos": "HB",
+        "team": "Central Michigan",
+        "values": {
+          "REC": 25,
+          "YARDS": 205,
+          "TD": 2,
+          "RAC": 280,
+          "DROP": 0,
+          "GP": 12,
+          "SNAPS": 371,
+          "LONG": 44,
+          "AVG": 8.2,
+          "AVG G": 17.1,
+          "RAC AVG": 11.2
+        }
+      }
+    ],
+    "RUSHING": [
+      {
+        "name": "A.Sheppard",
+        "pos": "QB",
+        "team": "Central Michigan",
+        "values": {
+          "CAR": 126,
+          "YARDS": 659,
+          "TD": 7,
+          "20+": 12,
+          "BTK": 3,
+          "YAC": 117,
+          "FUMB": 2,
+          "GP": 12,
+          "SNAPS": null,
+          "LONG": 44,
+          "AVG": 5.2,
+          "AVG G": 54.9
+        }
+      },
+      {
+        "name": "B.Naves",
+        "pos": "WR",
+        "team": "Central Michigan",
+        "values": {
+          "CAR": 0,
+          "YARDS": 0,
+          "TD": 0,
+          "20+": 0,
+          "BTK": 3,
+          "YAC": 0,
+          "FUMB": null,
+          "GP": 12,
+          "SNAPS": 606,
+          "LONG": 0,
+          "AVG": 0,
+          "AVG G": 0.0
+        }
+      },
+      {
+        "name": "B.Townsend",
+        "pos": "HB",
+        "team": "Central Michigan",
+        "values": {
+          "CAR": 74,
+          "YARDS": 505,
+          "TD": 7,
+          "20+": null,
+          "BTK": null,
+          "YAC": 126,
+          "FUMB": null,
+          "GP": 12,
+          "SNAPS": 363,
+          "LONG": 47,
+          "AVG": 6.8,
+          "AVG G": 42.1
+        }
+      },
+      {
+        "name": "M.Peters",
+        "pos": "TE",
+        "team": "Central Michigan",
+        "values": {
+          "CAR": 0,
+          "YARDS": 0,
+          "TD": 0,
+          "20+": 0,
+          "BTK": null,
+          "YAC": null,
+          "FUMB": null,
+          "GP": 12,
+          "LONG": 0,
+          "AVG": 0,
+          "AVG G": 0.0
+        }
+      },
+      {
+        "name": "N.Williams",
+        "pos": "WR",
+        "team": "Central Michigan",
+        "values": {
+          "CAR": 0,
+          "YARDS": 0,
+          "TD": 0,
+          "20+": 0,
+          "BTK": 4,
+          "YAC": 0,
+          "FUMB": 0,
+          "GP": 12,
+          "SNAPS": 599,
+          "LONG": 0,
+          "AVG": 0,
+          "AVG G": 0.0
+        }
+      },
+      {
+        "name": "T.Moore",
+        "pos": "HB",
+        "team": "Central Michigan",
+        "values": {
+          "CAR": 2,
+          "YARDS": 4,
+          "TD": 0,
+          "20+": 0,
+          "BTK": 0,
+          "YAC": 1,
+          "FUMB": 0,
+          "GP": null,
+          "SNAPS": null,
+          "LONG": 2,
+          "AVG": 2.0,
+          "AVG G": null
+        }
+      },
+      {
+        "name": "V.Blue",
+        "pos": "HB",
+        "team": "Central Michigan",
+        "values": {
+          "CAR": 166,
+          "YARDS": 1017,
+          "TD": 9,
+          "20+": 8,
+          "BTK": 14,
+          "YAC": 274,
+          "FUMB": null,
+          "GP": 12,
+          "SNAPS": 371,
+          "LONG": 41,
+          "AVG": 6.1,
+          "AVG G": 84.8
+        }
+      }
+    ]
+  },
+  "Eastern Michigan": {
+    "BLOCKING": [
+      {
+        "name": "G.Kayed",
+        "pos": "LG",
+        "team": "Eastern Michigan",
+        "values": {
+          "SACK": 1,
+          "GP": 12,
+          "SNAPS": 515
+        }
+      },
+      {
+        "name": "J.Hylkema",
+        "pos": "RT",
+        "team": "Eastern Michigan",
+        "values": {
+          "SACK": 4,
+          "GP": 12,
+          "SNAPS": 533
+        }
+      },
+      {
+        "name": "W.King",
+        "pos": "C",
+        "team": "Eastern Michigan",
+        "values": {
+          "SACK": 1,
+          "GP": 12,
+          "SNAPS": 517
+        }
+      }
+    ],
+    "DEFENSE": [
+      {
+        "name": "A.Dora",
+        "pos": "MIKE",
+        "team": "Eastern Michigan",
+        "values": {
+          "SOLO": 1,
+          "ASSISTS": 3,
+          "TAK": 4,
+          "TFL": 0,
+          "SACK": 0.0,
+          "INT": 1,
+          "INT YDS": 8,
+          "TD": 0,
+          "DEFL": 0,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": 0,
+          "BLOCK": 0,
+          "SFTY": 0,
+          "GP": 12,
+          "INT LG": 8,
+          "INT AVG": 8.0
+        }
+      },
+      {
+        "name": "A.Walker",
+        "pos": "SS",
+        "team": "Eastern Michigan",
+        "values": {
+          "SOLO": 26,
+          "ASSISTS": 28,
+          "TAK": 54,
+          "TFL": 13,
+          "SACK": 2.0,
+          "INT": 1,
+          "INT YDS": 6,
+          "TD": 0,
+          "DEFL": 2,
+          "FFUMB": null,
+          "FUMB": 0,
+          "FMBYDS": null,
+          "BLOCK": null,
+          "SFTY": 0,
+          "GP": 12,
+          "SNAPS": 457,
+          "INT LG": 6,
+          "INT AVG": 6.0
+        }
+      },
+      {
+        "name": "C.Dobbs",
+        "pos": "CB",
+        "team": "Eastern Michigan",
+        "values": {
+          "SOLO": 27,
+          "ASSISTS": 20,
+          "TAK": 47,
+          "TFL": 2,
+          "SACK": 0.0,
+          "INT": 0,
+          "INT YDS": 0,
+          "TD": 0,
+          "DEFL": 3,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": 0,
+          "BLOCK": null,
+          "SFTY": 0,
+          "GP": 12,
+          "SNAPS": 515,
+          "INT LG": 0,
+          "INT AVG": 0
+        }
+      },
+      {
+        "name": "C.Main",
+        "pos": "WILL",
+        "team": "Eastern Michigan",
+        "values": {
+          "SOLO": 3,
+          "ASSISTS": 8,
+          "TAK": 11,
+          "TFL": 5,
+          "SACK": 0.0,
+          "INT": 0,
+          "INT YDS": 0,
+          "TD": 0,
+          "DEFL": 0,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": 0,
+          "BLOCK": 0,
+          "SFTY": null,
+          "GP": 12,
+          "INT LG": 0,
+          "INT AVG": 0
+        }
+      },
+      {
+        "name": "D.Rogers",
+        "pos": "CB",
+        "team": "Eastern Michigan",
+        "values": {
+          "SOLO": 10,
+          "ASSISTS": 18,
+          "TAK": 28,
+          "TFL": 1,
+          "SACK": 0.0,
+          "INT": 0,
+          "INT YDS": 0,
+          "TD": 0,
+          "DEFL": 2,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": 0,
+          "BLOCK": 0,
+          "SFTY": 0,
+          "GP": 12,
+          "SNAPS": 283,
+          "INT LG": 0,
+          "INT AVG": 0
+        }
+      },
+      {
+        "name": "D.StJohn",
+        "pos": "LEDG",
+        "team": "Eastern Michigan",
+        "values": {
+          "SOLO": 11,
+          "ASSISTS": 20,
+          "TAK": 31,
+          "TFL": 11,
+          "SACK": 4.0,
+          "INT": 0,
+          "INT YDS": 0,
+          "TD": 1,
+          "DEFL": 2,
+          "FFUMB": 0,
+          "FUMB": 1,
+          "FMBYDS": 25,
+          "BLOCK": null,
+          "SFTY": 0,
+          "GP": 12,
+          "SNAPS": 396,
+          "INT LG": 0,
+          "INT AVG": 0
+        }
+      },
+      {
+        "name": "E.Lemon",
+        "pos": "SS",
+        "team": "Eastern Michigan",
+        "values": {
+          "SOLO": 1,
+          "ASSISTS": 1,
+          "TAK": 2,
+          "TFL": 0,
+          "SACK": 0.0,
+          "INT": 0,
+          "INT YDS": 0,
+          "TD": 0,
+          "DEFL": 0,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": null,
+          "BLOCK": 0,
+          "SFTY": 0,
+          "GP": 11,
+          "INT LG": 0,
+          "INT AVG": 0
+        }
+      },
+      {
+        "name": "F.Anderson",
+        "pos": "FS",
+        "team": "Eastern Michigan",
+        "values": {
+          "SOLO": 30,
+          "ASSISTS": 31,
+          "TAK": 61,
+          "TFL": 9,
+          "SACK": 1.0,
+          "INT": 1,
+          "INT YDS": 2,
+          "TD": 0,
+          "DEFL": 2,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": 0,
+          "BLOCK": 0,
+          "SFTY": 0,
+          "GP": 12,
+          "SNAPS": 451,
+          "INT LG": 2,
+          "INT AVG": 2.0
+        }
+      },
+      {
+        "name": "J.Benson",
+        "pos": "FS",
+        "team": "Eastern Michigan",
+        "values": {
+          "SOLO": 26,
+          "ASSISTS": 29,
+          "TAK": 55,
+          "TFL": 3,
+          "SACK": 0.0,
+          "INT": 1,
+          "INT YDS": 0,
+          "TD": 0,
+          "DEFL": 4,
+          "FFUMB": 1,
+          "FUMB": 1,
+          "FMBYDS": null,
+          "BLOCK": 0,
+          "SFTY": 0,
+          "GP": 12,
+          "SNAPS": 521,
+          "INT LG": 0,
+          "INT AVG": 0.0
+        }
+      },
+      {
+        "name": "J.Mooney",
+        "pos": "WILL",
+        "team": "Eastern Michigan",
+        "values": {
+          "SOLO": 4,
+          "ASSISTS": 2,
+          "TAK": 6,
+          "TFL": 0,
+          "SACK": 0.0,
+          "INT": 0,
+          "INT YDS": 0,
+          "TD": 0,
+          "DEFL": 0,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": null,
+          "BLOCK": 0,
+          "SFTY": 0,
+          "GP": 12,
+          "INT LG": 0,
+          "INT AVG": 0
+        }
+      },
+      {
+        "name": "J.Oluwayemi",
+        "pos": "DT",
+        "team": "Eastern Michigan",
+        "values": {
+          "SOLO": 5,
+          "ASSISTS": 10,
+          "TAK": 15,
+          "TFL": 6,
+          "SACK": 1.0,
+          "INT": 0,
+          "INT YDS": 0,
+          "TD": 0,
+          "DEFL": 0,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": 0,
+          "BLOCK": 0,
+          "SFTY": 0,
+          "GP": 12,
+          "SNAPS": 420,
+          "INT LG": 0,
+          "INT AVG": 0
+        }
+      },
+      {
+        "name": "L.Akirtava",
+        "pos": "LEDG",
+        "team": "Eastern Michigan",
+        "values": {
+          "SOLO": 1,
+          "ASSISTS": 1,
+          "TAK": 2,
+          "TFL": 1,
+          "SACK": 0.0,
+          "INT": 0,
+          "INT YDS": 0,
+          "TD": 0,
+          "DEFL": 0,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": null,
+          "BLOCK": 0,
+          "SFTY": 0,
+          "GP": 9,
+          "INT LG": 0,
+          "INT AVG": 0
+        }
+      },
+      {
+        "name": "M.Boggs",
+        "pos": "SAM",
+        "team": "Eastern Michigan",
+        "values": {
+          "SOLO": 0,
+          "ASSISTS": 3,
+          "TAK": 3,
+          "TFL": 0,
+          "SACK": 0.0,
+          "INT": 0,
+          "INT YDS": 0,
+          "TD": 0,
+          "DEFL": 0,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": 0,
+          "BLOCK": 0,
+          "SFTY": 0,
+          "GP": 12,
+          "INT LG": 0,
+          "INT AVG": 0
+        }
+      },
+      {
+        "name": "M.Eggleston",
+        "pos": "MIKE",
+        "team": "Eastern Michigan",
+        "values": {
+          "SOLO": 34,
+          "ASSISTS": 42,
+          "TAK": 76,
+          "TFL": 10,
+          "SACK": 1.5,
+          "INT": 1,
+          "INT YDS": -3,
+          "TD": 0,
+          "DEFL": 8,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": null,
+          "BLOCK": 0,
+          "SFTY": 0,
+          "GP": 12,
+          "SNAPS": 481,
+          "INT LG": 0,
+          "INT AVG": -3.0
+        }
+      },
+      {
+        "name": "M.Ware",
+        "pos": "SS",
+        "team": "Eastern Michigan",
+        "values": {
+          "SOLO": 24,
+          "ASSISTS": 27,
+          "TAK": 51,
+          "TFL": 3,
+          "SACK": 0.0,
+          "INT": 0,
+          "INT YDS": 0,
+          "TD": 0,
+          "DEFL": 6,
+          "FFUMB": 1,
+          "FUMB": 0,
+          "FMBYDS": 0,
+          "BLOCK": 0,
+          "SFTY": null,
+          "GP": 12,
+          "SNAPS": 556,
+          "INT LG": 0,
+          "INT AVG": 0
+        }
+      },
+      {
+        "name": "N.Patterson",
+        "pos": "DT",
+        "team": "Eastern Michigan",
+        "values": {
+          "SOLO": 10,
+          "ASSISTS": 9,
+          "TAK": 19,
+          "TFL": 10,
+          "SACK": 6.5,
+          "INT": 0,
+          "INT YDS": 0,
+          "TD": 0,
+          "DEFL": 2,
+          "FFUMB": 0,
+          "FUMB": 1,
+          "FMBYDS": 0,
+          "BLOCK": 0,
+          "SFTY": 0,
+          "GP": 12,
+          "SNAPS": 486,
+          "INT LG": 0,
+          "INT AVG": 0
+        }
+      },
+      {
+        "name": "R.Gardner",
+        "pos": "DT",
+        "team": "Eastern Michigan",
+        "values": {
+          "SOLO": 3,
+          "ASSISTS": 5,
+          "TAK": 8,
+          "TFL": 2,
+          "SACK": 1.5,
+          "INT": 0,
+          "INT YDS": 0,
+          "TD": 0,
+          "DEFL": 0,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": 0,
+          "BLOCK": 0,
+          "SFTY": 0,
+          "GP": 12,
+          "INT LG": 0,
+          "INT AVG": 0
+        }
+      },
+      {
+        "name": "R.Peden",
+        "pos": "REDG",
+        "team": "Eastern Michigan",
+        "values": {
+          "SOLO": 0,
+          "ASSISTS": 10,
+          "TAK": 10,
+          "TFL": 1,
+          "SACK": 0.0,
+          "INT": 0,
+          "INT YDS": 0,
+          "TD": 0,
+          "DEFL": 1,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": 0,
+          "BLOCK": 0,
+          "SFTY": 0,
+          "GP": 12,
+          "INT LG": 0,
+          "INT AVG": 0
+        }
+      },
+      {
+        "name": "T.Boykin",
+        "pos": "CB",
+        "team": "Eastern Michigan",
+        "values": {
+          "SOLO": 30,
+          "ASSISTS": 23,
+          "TAK": 53,
+          "TFL": 4,
+          "SACK": 0.0,
+          "INT": 0,
+          "INT YDS": 0,
+          "TD": 0,
+          "DEFL": 3,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": 0,
+          "BLOCK": 0,
+          "SFTY": 0,
+          "GP": 12,
+          "SNAPS": 528,
+          "INT LG": 0,
+          "INT AVG": 0
+        }
+      },
+      {
+        "name": "T.Brownwell",
+        "pos": "WILL",
+        "team": "Eastern Michigan",
+        "values": {
+          "SOLO": 5,
+          "ASSISTS": 20,
+          "TAK": 25,
+          "TFL": 5,
+          "SACK": 0.5,
+          "INT": 0,
+          "INT YDS": 0,
+          "TD": 0,
+          "DEFL": 0,
+          "FFUMB": 0,
+          "FUMB": null,
+          "FMBYDS": 0,
+          "BLOCK": null,
+          "SFTY": null,
+          "GP": 12,
+          "SNAPS": 235,
+          "INT LG": 0,
+          "INT AVG": 0
+        }
+      },
+      {
+        "name": "T.Shembo",
+        "pos": "CB",
+        "team": "Eastern Michigan",
+        "values": {
+          "SOLO": 2,
+          "ASSISTS": 3,
+          "TAK": 5,
+          "TFL": 0,
+          "SACK": 0.0,
+          "INT": 0,
+          "INT YDS": 0,
+          "TD": 0,
+          "DEFL": 0,
+          "FFUMB": 0,
+          "FUMB": 0,
+          "FMBYDS": 0,
+          "BLOCK": 0,
+          "SFTY": 0,
+          "GP": 12,
+          "INT LG": 0,
+          "INT AVG": 0
+        }
+      }
+    ],
+    "KICK RETURN": [
+      {
+        "name": "J.Beasley",
+        "pos": "WR",
+        "team": "Eastern Michigan",
+        "values": {
+          "KR": 19,
+          "YARDS": 423,
+          "TD": 0,
+          "GP": 12,
+          "SNAPS": 143,
+          "LONG": 78,
+          "AVG": 22.3
+        }
+      },
+      {
+        "name": "M.Antwine",
+        "pos": "WR",
+        "team": "Eastern Michigan",
+        "values": {
+          "KR": 22,
+          "YARDS": 493,
+          "TD": 0,
+          "GP": 12,
+          "SNAPS": 134,
+          "LONG": 60,
+          "AVG": 22.4
+        }
+      }
+    ],
+    "KICKING": [
+      {
+        "name": "R.Kessinger",
+        "pos": "K",
+        "team": "Eastern Michigan",
+        "values": {
+          "FGM": 13,
+          "FGA": 16,
+          "XPM": 21,
+          "XPA": 21,
+          "FG BLK": 0,
+          "XPB": 0,
+          "KO": 47,
+          "TB": 33,
+          "FGM29": 3,
+          "FGM39": 4,
+          "FGM49": 6,
+          "FGM50": 0,
+          "FGA29": 3,
+          "FGA39": 4,
+          "FGA49": 6,
+          "FGA50": 3,
+          "GP": 12,
+          "SNAPS": 63,
+          "FG LNG": 46,
+          "FG%": 81.2,
+          "XP%": 100.0
+        }
+      }
+    ],
+    "PASSING": [
+      {
+        "name": "B.Barnett",
+        "pos": "QB",
+        "team": "Eastern Michigan",
+        "values": {
+          "COMP": 149,
+          "ATT": 255,
+          "YARDS": 1341,
+          "TD": 7,
+          "INT": 10,
+          "SACKS": 16,
+          "GP": 12,
+          "SNAPS": 517,
+          "LONG": 50,
+          "COMP%": 58.4,
+          "YPA": 5.3,
+          "YPG": 111.8,
+          "RATING": 103.8
+        }
+      }
+    ],
+    "PUNT RETURN": [
+      {
+        "name": "M.Antwine",
+        "pos": "WR",
+        "team": "Eastern Michigan",
+        "values": {
+          "PR": 18,
+          "YARDS": 266,
+          "TD": 0,
+          "GP": 12,
+          "SNAPS": 134,
+          "LONG": 36,
+          "AVG": 14.8
+        }
+      }
+    ],
+    "PUNTING": [
+      {
+        "name": "D.Hull",
+        "pos": "P",
+        "team": "Eastern Michigan",
+        "values": {
+          "PUNTS": 25,
+          "YARDS": 1142,
+          "NET YDS": 960,
+          "IN20": 8,
+          "TB": 1,
+          "BLOCK": 0,
+          "GP": 12,
+          "SNAPS": 43,
+          "LONG": 62,
+          "AVG": 45.7,
+          "NET AVG": 38.4
+        }
+      }
+    ],
+    "RECEIVING": [
+      {
+        "name": "A.Blue",
+        "pos": "HB",
+        "team": "Eastern Michigan",
+        "values": {
+          "REC": 1,
+          "YARDS": 2,
+          "TD": 0,
+          "RAC": 4,
+          "DROP": 0,
+          "GP": 12,
+          "LONG": 2,
+          "AVG": 2.0,
+          "AVG G": 0.2,
+          "RAC AVG": 4.0
+        }
+      },
+      {
+        "name": "A.Carver",
+        "pos": "TE",
+        "team": "Eastern Michigan",
+        "values": {
+          "REC": 15,
+          "YARDS": 163,
+          "TD": 2,
+          "RAC": 103,
+          "DROP": 0,
+          "GP": 12,
+          "LONG": 38,
+          "AVG": 10.9,
+          "AVG G": 13.6,
+          "RAC AVG": 6.9
+        }
+      },
+      {
+        "name": "C.Thomas",
+        "pos": "HB",
+        "team": "Eastern Michigan",
+        "values": {
+          "REC": 8,
+          "YARDS": 78,
+          "TD": 0,
+          "RAC": 37,
+          "DROP": 0,
+          "GP": 12,
+          "LONG": 16,
+          "AVG": 9.8,
+          "AVG G": 6.5,
+          "RAC AVG": 4.6
+        }
+      },
+      {
+        "name": "D.HardemanJr.",
+        "pos": "WR",
+        "team": "Eastern Michigan",
+        "values": {
+          "REC": 12,
+          "YARDS": 125,
+          "TD": 0,
+          "RAC": 47,
+          "DROP": 1,
+          "GP": 12,
+          "LONG": 14,
+          "AVG": 10.4,
+          "AVG G": 10.4,
+          "RAC AVG": 3.9
+        }
+      },
+      {
+        "name": "D.Wilkins",
+        "pos": "WR",
+        "team": "Eastern Michigan",
+        "values": {
+          "REC": 48,
+          "YARDS": 347,
+          "TD": 1,
+          "RAC": 245,
+          "DROP": 2,
+          "GP": 12,
+          "LONG": 38,
+          "AVG": 7.2,
+          "AVG G": 28.9,
+          "RAC AVG": 5.1
+        }
+      },
+      {
+        "name": "H.Mack",
+        "pos": "HB",
+        "team": "Eastern Michigan",
+        "values": {
+          "REC": 31,
+          "YARDS": 323,
+          "TD": 4,
+          "RAC": 284,
+          "DROP": 0,
+          "GP": 12,
+          "LONG": 50,
+          "AVG": 10.4,
+          "AVG G": 26.9,
+          "RAC AVG": 9.2
+        }
+      },
+      {
+        "name": "J.Beasley",
+        "pos": "WR",
+        "team": "Eastern Michigan",
+        "values": {
+          "REC": 6,
+          "YARDS": 94,
+          "TD": 0,
+          "RAC": 31,
+          "DROP": 1,
+          "GP": 12,
+          "LONG": 27,
+          "AVG": 15.7,
+          "AVG G": 7.8,
+          "RAC AVG": 5.2
+        }
+      },
+      {
+        "name": "L.Grant",
+        "pos": "TE",
+        "team": "Eastern Michigan",
+        "values": {
+          "REC": 22,
+          "YARDS": 178,
+          "TD": 0,
+          "RAC": 112,
+          "DROP": 1,
+          "GP": 12,
+          "LONG": 17,
+          "AVG": 8.1,
+          "AVG G": 14.8,
+          "RAC AVG": 5.1
+        }
+      },
+      {
+        "name": "N.Lyman",
+        "pos": "WR",
+        "team": "Eastern Michigan",
+        "values": {
+          "REC": 7,
+          "YARDS": 31,
+          "TD": 0,
+          "RAC": 23,
+          "DROP": 1,
+          "GP": 12,
+          "LONG": 14,
+          "AVG": 4.4,
+          "AVG G": 2.6,
+          "RAC AVG": 3.3
+        }
+      }
+    ],
+    "RUSHING": [
+      {
+        "name": "A.Blue",
+        "pos": "HB",
+        "team": "Eastern Michigan",
+        "values": {
+          "CAR": 13,
+          "YARDS": 81,
+          "TD": 0,
+          "20+": 0,
+          "BTK": 0,
+          "YAC": 14,
+          "FUMB": 0,
+          "GP": 12,
+          "LONG": 18,
+          "AVG": 6.2,
+          "AVG G": 6.8
+        }
+      },
+      {
+        "name": "A.Flavors",
+        "pos": "HB",
+        "team": "Eastern Michigan",
+        "values": {
+          "CAR": 2,
+          "YARDS": -1,
+          "TD": 0,
+          "20+": 0,
+          "BTK": 0,
+          "YAC": 1,
+          "FUMB": 0,
+          "GP": 3,
+          "LONG": 1,
+          "AVG": -0.5,
+          "AVG G": -0.3
+        }
+      },
+      {
+        "name": "B.Barnett",
+        "pos": "QB",
+        "team": "Eastern Michigan",
+        "values": {
+          "CAR": 55,
+          "YARDS": 56,
+          "TD": 0,
+          "20+": 1,
+          "BTK": 3,
+          "YAC": 39,
+          "FUMB": 3,
+          "GP": 12,
+          "LONG": 23,
+          "AVG": 1.0,
+          "AVG G": 4.7
+        }
+      },
+      {
+        "name": "C.Thomas",
+        "pos": "HB",
+        "team": "Eastern Michigan",
+        "values": {
+          "CAR": 43,
+          "YARDS": 317,
+          "TD": 7,
+          "20+": 4,
+          "BTK": 5,
+          "YAC": 45,
+          "FUMB": 0,
+          "GP": 12,
+          "SNAPS": 310,
+          "LONG": 73,
+          "AVG": 7.4,
+          "AVG G": 26.4
+        }
+      },
+      {
+        "name": "D.Wilkins",
+        "pos": "WR",
+        "team": "Eastern Michigan",
+        "values": {
+          "CAR": 0,
+          "YARDS": 0,
+          "TD": 0,
+          "20+": 0,
+          "BTK": 1,
+          "YAC": 0,
+          "FUMB": 0,
+          "GP": 12,
+          "LONG": 0,
+          "AVG": 0,
+          "AVG G": 0.0
+        }
+      },
+      {
+        "name": "H.Mack",
+        "pos": "HB",
+        "team": "Eastern Michigan",
+        "values": {
+          "CAR": 150,
+          "YARDS": 818,
+          "TD": 8,
+          "20+": 5,
+          "BTK": 9,
+          "YAC": 171,
+          "FUMB": 0,
+          "GP": 12,
+          "SNAPS": 473,
+          "LONG": 36,
+          "AVG": 5.5,
+          "AVG G": 68.2
+        }
+      },
+      {
+        "name": "J.Beasley",
+        "pos": "WR",
+        "team": "Eastern Michigan",
+        "values": {
+          "CAR": 0,
+          "YARDS": 0,
+          "TD": 0,
+          "20+": 0,
+          "BTK": 2,
+          "YAC": 0,
+          "FUMB": 0,
+          "GP": 12,
+          "LONG": 0,
+          "AVG": 0,
+          "AVG G": 0.0
+        }
+      },
+      {
+        "name": "L.Grant",
+        "pos": "TE",
+        "team": "Eastern Michigan",
+        "values": {
+          "CAR": 0,
+          "YARDS": 0,
+          "TD": 0,
+          "20+": null,
+          "BTK": 1,
+          "YAC": 0,
+          "FUMB": null,
+          "GP": 12,
+          "LONG": 0,
+          "AVG": 0,
+          "AVG G": 0.0
+        }
+      }
+    ]
+  }
+}

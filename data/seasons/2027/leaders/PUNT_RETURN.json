@@ -1,0 +1,245 @@
+{
+  "category": "PUNT RETURN",
+  "columns": [
+    "GP",
+    "PR",
+    "YARDS",
+    "AVG",
+    "TD",
+    "LONG"
+  ],
+  "sortedBy": "YARDS",
+  "complete": false,
+  "coverage": {
+    "nationalComplete": false
+  },
+  "rows": [
+    {
+      "name": "C.Kruisenga",
+      "pos": "WR",
+      "team": "Central Michigan",
+      "values": {
+        "GP": 12,
+        "PR": null,
+        "YARDS": 396,
+        "AVG": null,
+        "TD": 0,
+        "LONG": null
+      }
+    },
+    {
+      "name": "M.Antwine",
+      "pos": "WR",
+      "team": "Eastern Michigan",
+      "values": {
+        "GP": 12,
+        "PR": 18,
+        "YARDS": 266,
+        "AVG": 14.8,
+        "TD": 0,
+        "LONG": 36
+      }
+    },
+    {
+      "name": "C.Cabana",
+      "pos": "HB",
+      "team": "Western Michigan",
+      "values": {
+        "GP": 12,
+        "PR": 24,
+        "YARDS": 231,
+        "AVG": 9.6,
+        "TD": 0,
+        "LONG": 23
+      }
+    },
+    {
+      "name": "J.Kelley",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "PR": 6,
+        "YARDS": 76,
+        "AVG": 12.7,
+        "TD": 0,
+        "LONG": 16
+      }
+    },
+    {
+      "name": "C.Barnett",
+      "pos": "WR",
+      "team": "Western Michigan",
+      "values": {
+        "GP": 12,
+        "PR": 8,
+        "YARDS": 63,
+        "AVG": 7.9,
+        "TD": 0,
+        "LONG": 14
+      }
+    },
+    {
+      "name": "M.Addison",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "PR": 3,
+        "YARDS": 39,
+        "AVG": 13.0,
+        "TD": 0,
+        "LONG": 16
+      }
+    },
+    {
+      "name": "M.Crawford",
+      "pos": "CB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "PR": 4,
+        "YARDS": 38,
+        "AVG": 9.5,
+        "TD": 0,
+        "LONG": 11
+      }
+    },
+    {
+      "name": "J.Mbakwe",
+      "pos": "CB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "PR": 2,
+        "YARDS": 19,
+        "AVG": 9.5,
+        "TD": 0,
+        "LONG": 16
+      }
+    },
+    {
+      "name": "B.Stockton",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "PR": 2,
+        "YARDS": 17,
+        "AVG": 8.5,
+        "TD": 0,
+        "LONG": 10
+      }
+    },
+    {
+      "name": "E.Faulkner",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "PR": 3,
+        "YARDS": 14,
+        "AVG": 4.7,
+        "TD": 0,
+        "LONG": 10
+      }
+    },
+    {
+      "name": "R.Ojabo",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 1,
+        "PR": 1,
+        "YARDS": 14,
+        "AVG": 14.0,
+        "TD": 0,
+        "LONG": 14
+      }
+    },
+    {
+      "name": "K.Lyles",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "PR": 3,
+        "YARDS": 9,
+        "AVG": 3.0,
+        "TD": 0,
+        "LONG": 7
+      }
+    },
+    {
+      "name": "P.Threatt",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "PR": 1,
+        "YARDS": 9,
+        "AVG": 9.0,
+        "TD": 0,
+        "LONG": 9
+      }
+    },
+    {
+      "name": "I.Brown",
+      "pos": "HB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "PR": 1,
+        "YARDS": 8,
+        "AVG": 8.0,
+        "TD": 0,
+        "LONG": 8
+      }
+    },
+    {
+      "name": "C.White",
+      "pos": "CB",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "PR": 3,
+        "YARDS": 1,
+        "AVG": 0.3,
+        "TD": 0,
+        "LONG": 1
+      }
+    },
+    {
+      "name": "D.Latulas",
+      "pos": "WR",
+      "team": null,
+      "values": {
+        "GP": 12,
+        "PR": 1,
+        "YARDS": 1,
+        "AVG": 1.0,
+        "TD": 0,
+        "LONG": 1
+      }
+    }
+  ],
+  "screen": "12-game regular-season window; captured player subset. National rows are screened against recorded postseason rosters. Identified 13/14-game cohorts have individual postseason counts removed; ambiguous matches are withheld. Rates are recomputed. Dashes mark unreadable deductions or unrecoverable season maxima.",
+  "sources": [
+    "2027/IMG_5598.MOV",
+    "2027/IMG_5599.MOV",
+    "2027/IMG_5600.MOV",
+    "2027/IMG_5604.MOV",
+    "2027/IMG_5605.MOV",
+    "2027/IMG_5606.MOV",
+    "2027/IMG_5607.MOV",
+    "2027/IMG_5608.MOV",
+    "2027/IMG_5609.MOV",
+    "2027/IMG_5610.MOV",
+    "2027/IMG_5611.MOV",
+    "2027/IMG_5612.MOV",
+    "2027/Additional Items/IMG_5620.MOV",
+    "2027/Additional Items/IMG_5621.MOV",
+    "2027/Additional Items/IMG_5622.MOV",
+    "2027/Additional Items/IMG_5623.MOV"
+  ]
+}

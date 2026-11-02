@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "2027",
+  "label": "2027",
+  "status": "finalized",
+  "lastVerified": "2026-11-02",
+  "methodVersion": "v1",
+  "inputMode": "standard",
+  "teamIds": [
+    "wmu",
+    "emu",
+    "cmu"
+  ],
+  "regulationGameSeconds": 2160,
+  "coverage": {
+    "statistics": "12-game regular season only. Recorded postseason team and player contributions are subtracted before rates are recomputed. Unrecoverable fields remain blank. National statistics and player comparisons identify their available populations; AV baselines use the documented regular-season subset.",
+    "results": "842 regular-season games, weeks 0\u201314, across 138 real teams plus five synthetic FCS buckets. All 138 real teams have exactly 12 games. Conference championships and Central Michigan\u2013Tennessee are excluded from ratings and season totals.",
+    "photos": 2,
+    "videos": 26
+  },
+  "syntheticTeams": [
+    "FCS East",
+    "FCS Midwest",
+    "FCS Northwest",
+    "FCS Southeast",
+    "FCS West"
+  ],
+  "syntheticRecordPolicy": "legacy-0-12",
+  "sourceNotes": "source-notes.md"
+}

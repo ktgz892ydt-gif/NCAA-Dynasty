@@ -3,7 +3,7 @@ import copy
 import json
 import unittest
 from season_io import ROOT
-from update_leaders import check_identities, load_sources, apply
+from update_leaders import check_identities, load_sources, apply, derive
 
 
 class LeaderTests(unittest.TestCase):
@@ -133,6 +133,12 @@ class LeaderTests(unittest.TestCase):
                 self.assertNotIn('derived', block, category)
                 if category in self.sources:
                     self.assertEqual(block['columns'], self.sources[category]['columns'])
+
+    def test_reception_behind_the_line_can_have_negative_air_yards(self):
+        rows = [{'name': 'A.Blue', 'values': {'YARDS': 2, 'RAC': 4, 'REC': 1}}]
+        derive('RECEIVING', rows)
+        self.assertEqual(rows[0]['values']['AIR YDS'], -2)
+        self.assertEqual(rows[0]['values']['AIR/REC'], -2)
 
     def test_repeat_apply_is_stable(self):
         once = apply(copy.deepcopy(self.data), list(self.sources.values()))

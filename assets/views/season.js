@@ -168,14 +168,15 @@ function alignSummaries(){
 function renderCards(){
   alignSummaries();
   const host=$('#cards'); host.innerHTML='';
-  const order=[...P].sort((a,b)=>(val(b,'winpct').v??0)-(val(a,'winpct').v??0));
   P.forEach(p=>{
-    const place=order.indexOf(p)+1;
+    const winpct=val(p,'winpct').v;
+    const place=1+P.filter(t=>(val(t,'winpct').v??-1)>(winpct??-1)).length;
+    const tied=P.filter(t=>val(t,'winpct').v===winpct).length>1;
     const c=el('div',{class:'card'});
     c.append(el('div',{class:'accent',style:`background:${col(p)}`}));
     c.append(el('div',{class:'who'},[
       el('span',{class:'nm'},FULL[p]),
-      el('span',{class:'pill'},ord(place)+' of '+P.length)
+      el('span',{class:'pill'},winpct==null?'Unranked':(tied?'Tied ':'')+ord(place)+' of '+P.length)
     ]));
     c.append(el('div',{class:'rec'},fmt(val(p,'record').v,'record')));
     c.append(el('div',{class:'wr'},fmt(val(p,'winpct').v,'pct')+' win rate'));
@@ -222,7 +223,7 @@ function renderLead(){
       tr.append(el('td',{role:'cell',class:isB?'best':null,'data-team':FULL[p].replace(' Michigan','')},[
         isB?el('span',{class:'dot',style:`background:${col(p)}`}):null,
         isB?el('span',{class:'best-value',style:`color:${textCol(p)}`},fmt(s.v,m.fmt)):fmt(s.v,m.fmt),
-        s.rank&&m.key!=='sor'?el('span',{class:'rk'},`${ord(s.rank)}`):null,
+        s.rank&&m.key!=='sor'?el('span',{class:'rk'},`${ord(s.rank)}${s.of?' / '+s.of:''}`):null,
         coverageNote(m,p,s)
       ]));
     });
@@ -431,6 +432,10 @@ function renderNational(){
 let natStat=initial.natStat||'srs';
 function renderNatTop(){
   const m=byKey[natStat], list=DATA.nationalLeaders[natStat]||[];
+  const coverage=DATA.nationalStatCoverage?.[natStat];
+  $('#nattop-note').textContent=coverage
+    ? `Top ten among ${coverage.teams} of ${coverage.field} teams with verified coverage for this measure. ${coverage.scope}`
+    : 'Best ten eligible teams on this measure, using the selected season’s data.';
   const t=$('#nattop'); t.innerHTML='';
   t.append(el('thead',{},el('tr',{},[el('th',{},'#'),el('th',{class:'lft'},'Team'),
     el('th',{},`${m.group} — ${m.name}`)])));
@@ -439,7 +444,7 @@ function renderNatTop(){
     const who=P.find(p=>DATA.canon[p]===r.t);
     body.append(el('tr',{class:mine.has(r.t)?'me':null},[
       el('td',{},String(i+1)),
-      el('td',{class:'lft',style:who?`color:${textCol(who)}`:null},[
+      el('td',{class:'lft',style:who?`color:${textCol(who)}`:null,title:r.note||null},[
         who?el('span',{class:'dot',style:`background:${col(who)}`}):null,r.t]),
       el('td',{},fmt(r.v,m.fmt))]));
   });
@@ -473,14 +478,15 @@ function renderLeaders(){
   const depth=(DATA.leaderDepth||{})[leadCat]||d.rows.length;
   const whole=(DATA.leaderComplete||{})[leadCat];
   const isTfl=leadCat===tflCategory;
-  note.textContent=isTfl
+  const scope=DATA.leaderCoverage?.[isTfl?'DEFENSE':leadCat]?.scope||'';
+  note.textContent=(scope?scope+' ':'')+(isTfl
     ? `Tackles for loss among ${d.rows.length} captured defensive players, sorted by TFL. Captured rank compares only these players, with ties sharing a rank. The video was sorted by total tackles, so players outside that list may have more TFL. This is not a complete national TFL ranking or a team total. Schools are shown only where verified.`
     : leadCat==='DEFENSE'
     ? `All ${depth} players from the recorded defense list, sorted by total tackles. TFL means tackles for loss. This list does not include every defender nationally, so it cannot establish complete national TFL rankings or team totals. Schools are shown only where verified.`
     : `${depth} captured players in ${leadCat}, sorted by ${DATA.leaderCoverage?.[leadCat]?.sortedBy||d.sortedBy||'the recorded measure'}. `+
       (whole?'The capture reaches the end of the recorded list. ':'The capture covers only part of the recorded list. ')+
       (DATA.leaderCoverage?.[leadCat]?.nationalComplete?'National coverage is verified. ':'This is not verified as a complete list of every eligible player nationally. ')+
-      'Schools are shown only where verified.';
+      'Schools are shown only where verified.');
   // a derived column is worked out from the printed ones rather than read off the
   // screen, so it is marked instead of being passed off as a transcription
   const derivedCols=new Set(d.derived||[]);
@@ -507,7 +513,8 @@ function renderLeaders(){
       el('td',{},String(isTfl?capturedRank:i+1)),
       el('td',{class:'lft',style:who?`color:${textCol(who)}`:null},[
         who?el('span',{class:'dot',style:`background:${col(who)}`}):null,
-        r.name, r.team?el('span',{class:'rk'},r.team):null]),
+        r.name, r.estimate?el('span',{class:'rk',title:r.note},'estimated split'):null,
+        r.team?el('span',{class:'rk'},r.team):null]),
       el('td',{class:'lft'},r.pos||'—'),
       ...d.columns.map(c=>el('td',{},num(r.values[c],c)))]));
   });

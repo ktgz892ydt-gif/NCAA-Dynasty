@@ -1,0 +1,202 @@
+[
+  {
+    "before": {
+      "wk": 1,
+      "a": "Northern Illinois",
+      "h": "Nebraska",
+      "as": 13,
+      "hs": 41,
+      "n": false,
+      "ot": false
+    },
+    "after": {
+      "wk": 1,
+      "a": "Northern Illinois",
+      "h": "Nebraska",
+      "as": 10,
+      "hs": 41,
+      "n": false,
+      "ot": false
+    },
+    "source": "2027/IMG_5613.MOV at 7.5s",
+    "reason": "Reviewed readable video frame; scrolling caused OCR overlaps or obscured a team label."
+  },
+  {
+    "before": {
+      "wk": 1,
+      "a": "Western Kentucky",
+      "h": "Florida International",
+      "as": 28,
+      "hs": 29,
+      "n": false,
+      "ot": false
+    },
+    "after": {
+      "wk": 1,
+      "a": "Western Kentucky",
+      "h": "Florida International",
+      "as": 17,
+      "hs": 29,
+      "n": false,
+      "ot": false
+    },
+    "source": "2027/IMG_5613.MOV at 11s",
+    "reason": "Reviewed readable video frame; scrolling caused OCR overlaps or obscured a team label."
+  },
+  {
+    "before": {
+      "wk": 12,
+      "a": "Florida International",
+      "h": "Liberty",
+      "as": 28,
+      "hs": 23,
+      "n": false,
+      "ot": true
+    },
+    "after": {
+      "wk": 12,
+      "a": "Florida International",
+      "h": "Liberty",
+      "as": 20,
+      "hs": 23,
+      "n": false,
+      "ot": false
+    },
+    "source": "2027/IMG_5613.MOV at 159s",
+    "reason": "Reviewed readable video frame; scrolling caused OCR overlaps or obscured a team label."
+  },
+  {
+    "before": {
+      "wk": 12,
+      "a": "Boston College",
+      "h": "Louisville",
+      "as": 27,
+      "hs": 37,
+      "n": false,
+      "ot": false
+    },
+    "after": {
+      "wk": 12,
+      "a": "Boston College",
+      "h": "Louisville",
+      "as": 27,
+      "hs": 37,
+      "n": false,
+      "ot": false
+    },
+    "source": "2027/IMG_5613.MOV at 156s",
+    "reason": "Reviewed readable video frame; scrolling caused OCR overlaps or obscured a team label."
+  },
+  {
+    "before": null,
+    "after": {
+      "wk": 7,
+      "a": "Ohio",
+      "h": "Akron",
+      "as": 17,
+      "hs": 23,
+      "n": false,
+      "ot": false
+    },
+    "source": "2027/IMG_5613.MOV at 85s",
+    "reason": "Reviewed readable video frame; scrolling caused OCR overlaps or obscured a team label."
+  },
+  {
+    "before": null,
+    "after": {
+      "wk": 9,
+      "a": "UNLV",
+      "h": "New Mexico",
+      "as": 0,
+      "hs": 48,
+      "n": false,
+      "ot": false
+    },
+    "source": "2027/IMG_5613.MOV at 119s",
+    "reason": "Reviewed readable video frame; scrolling caused OCR overlaps or obscured a team label."
+  },
+  {
+    "before": null,
+    "after": {
+      "wk": 11,
+      "a": "Hawai'i",
+      "h": "New Mexico",
+      "as": 14,
+      "hs": 57,
+      "n": false,
+      "ot": false
+    },
+    "source": "2027/IMG_5613.MOV at 138s",
+    "reason": "Reviewed readable video frame; scrolling caused OCR overlaps or obscured a team label."
+  },
+  {
+    "before": null,
+    "after": {
+      "wk": 11,
+      "a": "Ball State",
+      "h": "Ohio",
+      "as": 27,
+      "hs": 24,
+      "n": false,
+      "ot": false
+    },
+    "source": "2027/IMG_5613.MOV at 138s",
+    "reason": "Reviewed readable video frame; scrolling caused OCR overlaps or obscured a team label."
+  },
+  {
+    "before": null,
+    "after": {
+      "wk": 12,
+      "a": "UNLV",
+      "h": "UTEP",
+      "as": 9,
+      "hs": 10,
+      "n": false,
+      "ot": false
+    },
+    "source": "2027/IMG_5613.MOV at 156s",
+    "reason": "Reviewed readable video frame; scrolling caused OCR overlaps or obscured a team label."
+  },
+  {
+    "before": null,
+    "after": {
+      "wk": 12,
+      "a": "TCU",
+      "h": "Colorado",
+      "as": 35,
+      "hs": 14,
+      "n": false,
+      "ot": false
+    },
+    "source": "2027/IMG_5613.MOV at 157s",
+    "reason": "Reviewed readable video frame; scrolling caused OCR overlaps or obscured a team label."
+  },
+  {
+    "before": null,
+    "after": {
+      "wk": 12,
+      "a": "Missouri",
+      "h": "Texas",
+      "as": 28,
+      "hs": 49,
+      "n": false,
+      "ot": false
+    },
+    "source": "2027/IMG_5613.MOV at 158s",
+    "reason": "Reviewed readable video frame; scrolling caused OCR overlaps or obscured a team label."
+  },
+  {
+    "before": null,
+    "after": {
+      "wk": 10,
+      "a": "Wisconsin",
+      "h": "UCLA",
+      "as": 24,
+      "hs": 17,
+      "n": false,
+      "ot": true
+    },
+    "source": "2027/IMG_5613.MOV at 128s",
+    "reason": "Reviewed readable video frame; scrolling caused OCR overlaps or obscured a team label."
+  }
+]

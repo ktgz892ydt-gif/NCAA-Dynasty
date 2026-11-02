@@ -1,0 +1,3621 @@
+[
+  {
+    "team": "Central Michigan",
+    "category": "KICK RETURN",
+    "name": "F.Hammer",
+    "pos": "WR",
+    "reason": "Primary total cannot be attributed/subtracted exactly."
+  },
+  {
+    "category": "PASSING",
+    "name": "C.Reid",
+    "pos": "QB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "PASSING",
+    "name": "A.Manning",
+    "pos": "QB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "PASSING",
+    "name": "T.JonesJr.",
+    "pos": "QB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "PASSING",
+    "name": "B.Jackson",
+    "pos": "QB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "PASSING",
+    "name": "D.WilliamsJr.",
+    "pos": "QB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "PASSING",
+    "name": "J.Roberts",
+    "pos": "QB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "PASSING",
+    "name": "N.Rogers",
+    "pos": "QB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "PASSING",
+    "name": "K.Jackson",
+    "pos": "QB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "PASSING",
+    "name": "D.Lindsey",
+    "pos": "QB",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "PASSING",
+    "name": "W.WatsonIll",
+    "pos": "QB",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "PASSING",
+    "name": "S.Chow",
+    "pos": "QB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "PASSING",
+    "name": "Z.Smith",
+    "pos": "QB",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "PASSING",
+    "name": "J.Williams",
+    "pos": "QB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "PASSING",
+    "name": "B.Chubaon",
+    "pos": "QB",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "PASSING",
+    "name": "C.Dawisomite",
+    "pos": "QB",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "PASSING",
+    "name": "J.Mogk",
+    "pos": "QB",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "PASSING",
+    "name": "H.long/n",
+    "pos": "QB",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "PASSING",
+    "name": "J.Kohl",
+    "pos": "QB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "PASSING",
+    "name": "D.Duff",
+    "pos": "QB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "PASSING",
+    "name": "D.Overtonnele",
+    "pos": "QB",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "PASSING",
+    "name": "T.Carr",
+    "pos": "QB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "PASSING",
+    "name": "D.Beierly",
+    "pos": "QB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "PASSING",
+    "name": "A.Salcedo",
+    "pos": "QB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "PASSING",
+    "name": "J.Dugger",
+    "pos": "QB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "PASSING",
+    "name": "C.Dailey",
+    "pos": "QB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "PASSING",
+    "name": "A.Posse",
+    "pos": "QB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "PASSING",
+    "name": "T.Caste",
+    "pos": "QB",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "PASSING",
+    "name": "K.LustergiBf",
+    "pos": "QB",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "PASSING",
+    "name": "D.Lewis",
+    "pos": "QB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "PASSING",
+    "name": "C.Jones",
+    "pos": "QB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "J.Roberts",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "K.Brown",
+    "pos": "HB",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "J.McClure",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "C.Hawkins",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "J.Davison",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "A.Williams",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "J.Scott",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "K.Cox",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "K.Davis",
+    "pos": "HB",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "L.Chambers",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "J.Merriweather",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "C.Pryor",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "D.Jones",
+    "pos": "HB",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "M.Ford",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "J.Lewis",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "K.Martin",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "C.Jackson",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "K.Ives",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "R.FieldsJr.",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "D.Williams",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "A.Manning",
+    "pos": "QB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "Z.Smith",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "J.Williams",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "G.Spiller",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "D.Alexander",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "G.Rigdggs",
+    "pos": "HB",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "D.Légdon",
+    "pos": "HB",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "D.Robinson",
+    "pos": "HB",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "D.Lagway",
+    "pos": "QB",
+    "reason": "Individual postseason category line missing or ambiguous",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "D.Baldhoer",
+    "pos": "?",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "J.BrownJr.",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "D.Berdmredr.",
+    "pos": "?",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "C.Bulluck",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "O.Battecson",
+    "pos": "HB",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "E.Brown",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "G.PringleJr.",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "S.Alston",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "M.Turner",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "C.Alexander",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "D.Smith",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "T.Mobley",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "D.Beierly",
+    "pos": "QB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "O.MabsonIl",
+    "pos": "HB",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "C.Smith",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "D.Duff",
+    "pos": "QB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "J.Williams",
+    "pos": "QB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "B.Harris",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "L.Brown",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "J.Lassiter",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "C.Brown",
+    "pos": "HB",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "D.Murray",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "K.Alexander",
+    "pos": "HB",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "D.Lacy",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "B.Jackson",
+    "pos": "QB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "D.Lindsey",
+    "pos": "QB",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "I.Browning",
+    "pos": "HB",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "B.Kenney",
+    "pos": "HB",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "B.ArchieldJr.",
+    "pos": "QB",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "J.Johnson",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "K.Jackson",
+    "pos": "QB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "M.Davis",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "T.Walker",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "J.Walker",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "D.MurrayJr.",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "T.Shelton,Jr.",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "T.Hatchett",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "D.Lindsey",
+    "pos": "HB",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "B.Sparlisrd",
+    "pos": "HB",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "C.Sparks",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "D.Einaisey",
+    "pos": "HB",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "E.Giabiford",
+    "pos": "QB",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "O.Hieldsll",
+    "pos": "HB",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "B.Russell",
+    "pos": "HB",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "O.Howvell",
+    "pos": "HB",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "N.Ralmelt",
+    "pos": "HB",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "N.Ralmet",
+    "pos": "HB",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "D.BuglernanJr.",
+    "pos": "HB",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "D.ButlernanJr.",
+    "pos": "HB",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "O.Ezeike",
+    "pos": "HB",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "J.Washington",
+    "pos": "HB",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "D.WilliamsJr.",
+    "pos": "QB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "C.Miles",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "J.Jackson",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "C.Garnett",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "T.JohnsonJr.",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "T.JonesJr.",
+    "pos": "QB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "T.White",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "T.Jones",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "S.Gage",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RUSHING",
+    "name": "A.Salcedo",
+    "pos": "QB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "N.Rogers",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "J.Allen",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "E.Smallondh",
+    "pos": "WR",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "J.Hall",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "U.Pörter",
+    "pos": "WR",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "Z.Smith",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "B.McQyeeme",
+    "pos": "WR",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "J.Dodsonheon",
+    "pos": "WR",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "K.Howard",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "K.Howvardson",
+    "pos": "WR",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "G.Hixon",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "T.Moore",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "J.Moore",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "C.Clark",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "D.Mlitchelgbam",
+    "pos": "WR",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "E.Mölsleys/Jr.",
+    "pos": "WR",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "R.ParsheyV",
+    "pos": "WR",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "D.BlelssoeIII",
+    "pos": "WR",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "D.BledsoeIII",
+    "pos": "WR",
+    "reason": "Captured games played unavailable",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "D.alatisosIII",
+    "pos": "WR",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "D.RlatlsinsIIl",
+    "pos": "WR",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "D.Murph",
+    "pos": "WR",
+    "reason": "Captured games played unavailable",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "D.Watsins",
+    "pos": "WR",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "M.Catvatho",
+    "pos": "WR",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "M.Oattalho",
+    "pos": "WR",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "M.Oatvalho",
+    "pos": "WR",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "M.Outten",
+    "pos": "WR",
+    "reason": "Captured games played unavailable",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "O.Dhulusltah",
+    "pos": "WR",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "B.Rebimlann",
+    "pos": "WR",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "B.Rehmann",
+    "pos": "WR",
+    "reason": "Captured games played unavailable",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "J.Abdullah",
+    "pos": "WR",
+    "reason": "Captured games played unavailable",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "C.Dickson",
+    "pos": "WR",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "O.DicksagueJr.",
+    "pos": "WR",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "C.BicksagueJr.",
+    "pos": "WR",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "O.Obulusliah",
+    "pos": "WR",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "B.Bridgewater",
+    "pos": "WR",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "J.Hairpgerwater",
+    "pos": "WR",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "S.Boyos",
+    "pos": "WR",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "S.Lewis",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "B.Bayrett",
+    "pos": "WR",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "J.Ross",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "K.Davis",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "K.Smith",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "E.Thomas",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "T.Johnson",
+    "pos": "WR",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "D.Watkins",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "W.DavisJr.",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "F.Moore",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "D.Gneenes",
+    "pos": "WR",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "T.Diaz-RahiinGladding",
+    "pos": "WR",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "J.MickensJean",
+    "pos": "WR",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "D.Cittitello",
+    "pos": "?",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "u.Teasleyillo",
+    "pos": "WR",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "K.Mikelleyea",
+    "pos": "WR",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "A.Acker",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "A.Clay.nit",
+    "pos": "WR",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "T.Brown",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "B.Barktr",
+    "pos": "WR",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "J.Washington",
+    "pos": "TE",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "P.ClacksIton",
+    "pos": "WR",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "K.Dia-Johnson",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "D.AmadorII",
+    "pos": "WR",
+    "reason": "Captured games played unavailable",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "M.Williams",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "J.Jackson",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "G.Bairston",
+    "pos": "WR",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "U.Hairston",
+    "pos": "TE",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "A.Parks",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "C.Hjolferd",
+    "pos": "WR",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "M.Vittierson",
+    "pos": "WR",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "D.Sjogteton",
+    "pos": "WR",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "C.Maokard",
+    "pos": "WR",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "B.Smith",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "K.Simmonsanson",
+    "pos": "WR",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "K.Simmonsinson",
+    "pos": "WR",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "J.Rodriguezcort",
+    "pos": "WR",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "J.Rodrigueznort",
+    "pos": "WR",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "J.Watkins",
+    "pos": "WR",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "M.Quisenberry",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "J.Ware",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "J.Smith",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "J.Williams",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "P.Jeannan",
+    "pos": "WR",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "B.Payne",
+    "pos": "WR",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "E.Besbancur",
+    "pos": "TE",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "K.BrownJohnson",
+    "pos": "WR",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "L.Brown",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "U.Williams",
+    "pos": "WR",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "D.Ciemensyatt",
+    "pos": "?",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "D.Wilson",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "H.Dixon-Wyatt",
+    "pos": "WR",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "C.Medtilpisons.Jir.",
+    "pos": "WR",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "r.CiawilliamsJr.",
+    "pos": "?",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "B.BusmpsonJr.",
+    "pos": "?",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "K.Johnson",
+    "pos": "WR",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "N.Fox-Flores",
+    "pos": "TE",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "T.Meyer",
+    "pos": "TE",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "R.Jones",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "C.Brown",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "C.Neptune",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "D.Alexander",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "M.Libman",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "E.Shugteion",
+    "pos": "WR",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "N.Bosters",
+    "pos": "WR",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "E.Sisgiaton",
+    "pos": "WR",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "T.Shettron",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "K.Uioatla",
+    "pos": "WR",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "M.ThomasIIl",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "N.SimsnasIII",
+    "pos": "WR",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "V.BrownIll",
+    "pos": "WR",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "P.Wajshood",
+    "pos": "?",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "RECEIVING",
+    "name": "C.ryleporselaer",
+    "pos": "WR",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "J.Nestawyn",
+    "pos": "MIKE",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "L.Fuller",
+    "pos": "MIKE",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "B.Hajderia:",
+    "pos": "MIKE",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "B.Miejvoda",
+    "pos": "MIKE",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "B.Deas",
+    "pos": "MIKE",
+    "reason": "Captured games played unavailable",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "B.DeashensIl",
+    "pos": "MIKE",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "D.StephensIl",
+    "pos": "MIKE",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "D.Curtiserbird",
+    "pos": "MIKE",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "P.StartzsIII",
+    "pos": "MIKE",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "B.Shàwva",
+    "pos": "MIKE",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "B.SimmsII!!",
+    "pos": "MIKE",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "B.SimmsIII",
+    "pos": "MIKE",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "J.Williams",
+    "pos": "MIKE",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "D.Leete",
+    "pos": "MIKE",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "D.Whiteoh",
+    "pos": "MIKE",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "K.Williams",
+    "pos": "CB",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "M.Johnsonnay",
+    "pos": "MIKE",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "Z.Ruffinau",
+    "pos": "?",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "J.Johnson",
+    "pos": "MIKE",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "T.WilliamsJr.",
+    "pos": "SS",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "C.Jones",
+    "pos": "MIKE",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "J.Johnson",
+    "pos": "WILL",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "T.Powell",
+    "pos": "MIKE",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "W.Simmons",
+    "pos": "WILL",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "J.Bauer",
+    "pos": "WILL",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "K.Johnson",
+    "pos": "SS",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "D.Walker",
+    "pos": "SS",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "J.McAllister",
+    "pos": "SAM",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "K.Beasley",
+    "pos": "SS",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "S.VaughnIl",
+    "pos": "WILL",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "K.Jackson",
+    "pos": "SS",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "M.WilliamsJr.",
+    "pos": "WILL",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "D.Smith",
+    "pos": "SS",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "C.Myrickll",
+    "pos": "SS",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "J.Ofor",
+    "pos": "MIKE",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "T.Dentish",
+    "pos": "MIKE",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "T.DentthJr.",
+    "pos": "MIKE",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "E.Osondino",
+    "pos": "MIKE",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "E.Osondu",
+    "pos": "MIKE",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "K.Moss:-Tuiolemotu",
+    "pos": "MIKE",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "T.Nichols",
+    "pos": "CB",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "T.Nicholsmiclemotu",
+    "pos": "?",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "J.Davis",
+    "pos": "SS",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "T.Brown",
+    "pos": "SS",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "C.Young",
+    "pos": "WILL",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "J.Smith",
+    "pos": "SS",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "D.Adams",
+    "pos": "CB",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "C.Peterson",
+    "pos": "FS",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "F.GaskinIII",
+    "pos": "SS",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "F.GaskinIll",
+    "pos": "SS",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "D.Moss",
+    "pos": "CB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "D.Wilson",
+    "pos": "WILL",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "T.lli",
+    "pos": "MIKE",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "J.Smith",
+    "pos": "WILL",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "J.Stevens",
+    "pos": "FS",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "J.WalleyJr.",
+    "pos": "SAM",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "K.Martin",
+    "pos": "CB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "K.Smith",
+    "pos": "MIKE",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "M.Brown",
+    "pos": "MIKE",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "J.Jackson",
+    "pos": "FS",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "N.Mikhail",
+    "pos": "MIKE",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "S.Wilson",
+    "pos": "CB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "A.Kattfuson",
+    "pos": "?",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "B.Davisby",
+    "pos": "?",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "B.Lavvfusi",
+    "pos": "?",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "C.Chapans",
+    "pos": "?",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "C.Law",
+    "pos": "MIKE",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "D.McGrew",
+    "pos": "?",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "J.Reese",
+    "pos": "REDG",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "J.Williams",
+    "pos": "SS",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "O.Batterson",
+    "pos": "?",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "u.Réeseton",
+    "pos": "REDG",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "u.Williarhsad",
+    "pos": "?",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "J.Thomas",
+    "pos": "FS",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "L.Howard",
+    "pos": "WILL",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "B.Wardtt",
+    "pos": "REDG",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "D.Newsome",
+    "pos": "?",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "D.Stevensie",
+    "pos": "WILL",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "D.Steyens",
+    "pos": "WILL",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "D.Mixonord",
+    "pos": "?",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "J.Thompson",
+    "pos": "CB",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "K.Blacksty",
+    "pos": "?",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "K.Harris",
+    "pos": "SS",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "N.Bellady",
+    "pos": "?",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "U.Thompson",
+    "pos": "CB",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "D.Carter",
+    "pos": "FS",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "M.SmithJr.",
+    "pos": "WILL",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "V.WoodwardIII",
+    "pos": "CB",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "W.WoodwardIII",
+    "pos": "CB",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "B.Banks",
+    "pos": "MIKE",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "C.JonesJr.",
+    "pos": "REDG",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "J.Thomas",
+    "pos": "CB",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "J.Hughes",
+    "pos": "CB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "DEFENSE",
+    "name": "D.AckersonJr.",
+    "pos": "MIKE",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "J.Smith",
+    "pos": "LT",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "J.Griffin",
+    "pos": "LT",
+    "reason": "Individual postseason category line missing or ambiguous",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "J.LewisJr.",
+    "pos": "RT",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "C.Jones",
+    "pos": "RT",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "R.Jackson",
+    "pos": "RT",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "B.Wharton",
+    "pos": "RG",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "J.Taylor",
+    "pos": "LT",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "J.Williams",
+    "pos": "LT",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "P.Kirkland",
+    "pos": "LT",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "A.Payne",
+    "pos": "RT",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "E.Boyle",
+    "pos": "RT",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "J.Gaston",
+    "pos": "RT",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "Z.Taylor",
+    "pos": "RG",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "B.Congdon",
+    "pos": "RT",
+    "reason": "Individual postseason category line missing or ambiguous",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "B.Nelson",
+    "pos": "LT",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "J.Ward",
+    "pos": "RG",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "K.Terry",
+    "pos": "LT",
+    "reason": "Individual postseason category line missing or ambiguous",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "M.Ogunleye",
+    "pos": "?",
+    "reason": "Individual postseason category line missing or ambiguous",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "T.Whitset",
+    "pos": "RT",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "A.Babis",
+    "pos": "?",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "A.Clatlonald",
+    "pos": "?",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "B.Hales",
+    "pos": "C",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "C.Brown",
+    "pos": "RG",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "C.Clements",
+    "pos": "LG",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "C.Duhrison",
+    "pos": "LT",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "D.Jones",
+    "pos": "LT",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "D.Steward",
+    "pos": "LT",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "H.SteDenald",
+    "pos": "?",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "J.Perry",
+    "pos": "LG",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "K.Johnson",
+    "pos": "LT",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "M.NixononJr.",
+    "pos": "LG",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "R.Montgomery",
+    "pos": "?",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "S.Hunt",
+    "pos": "RT",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "T.Chenett",
+    "pos": "RG",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "T.ighalson",
+    "pos": "?",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "U.UohnsogJr.",
+    "pos": "LT",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "A.Thomas",
+    "pos": "LT",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "A.Thomasy",
+    "pos": "LT",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "A.Williams",
+    "pos": "C",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "D.Silvia",
+    "pos": "LG",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "D.WilliamsJr.",
+    "pos": "LG",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "D.Woods",
+    "pos": "RG",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "J.WilliamsIV",
+    "pos": "LT",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "K.Branham",
+    "pos": "RG",
+    "reason": "Individual postseason category line missing or ambiguous",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "K.Johnson",
+    "pos": "LG",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "M.Carroll",
+    "pos": "RT",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "M.Wood",
+    "pos": "RT",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "B.Jarrett",
+    "pos": "?",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "B.Stalken",
+    "pos": "RG",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "B.Uarrett",
+    "pos": "?",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "D.Moore",
+    "pos": "LG",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "D.Morris",
+    "pos": "C",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "D.Villarouel",
+    "pos": "RG",
+    "reason": "Individual postseason category line missing or ambiguous",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "E.Settranghlin",
+    "pos": "?",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "G.Hawkins",
+    "pos": "RT",
+    "reason": "Individual postseason category line missing or ambiguous",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "G.Hävvkins",
+    "pos": "RT",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "G.Jones",
+    "pos": "LG",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "G.Sanders:Jr.",
+    "pos": "?",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "J.Brown",
+    "pos": "RG",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "J.Leaupepetele",
+    "pos": "RG",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "J.Lewis",
+    "pos": "LT",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "J.Steele",
+    "pos": "C",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "O.Milliargsvu",
+    "pos": "RT",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "R.Jackson",
+    "pos": "C",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "T.Adams",
+    "pos": "LT",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "T.Wilson",
+    "pos": "RG",
+    "reason": "Individual postseason category line missing or ambiguous",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "D.Boykins",
+    "pos": "LG",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "F.Tinilau",
+    "pos": "LT",
+    "reason": "Individual postseason category line missing or ambiguous",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "G.Scatinidt",
+    "pos": "?",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "G.Smith",
+    "pos": "C",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "J.Peters",
+    "pos": "C",
+    "reason": "Individual postseason category line missing or ambiguous",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "M.Goodman",
+    "pos": "LT",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "R.Jones",
+    "pos": "C",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "R.SmithIV",
+    "pos": "RG",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "T.Johnson",
+    "pos": "LT",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "T.Morman",
+    "pos": "C",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "B.Baker",
+    "pos": "RG",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "C.Richard",
+    "pos": "LG",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "D.Harper",
+    "pos": "LG",
+    "reason": "Individual postseason category line missing or ambiguous",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "D.LewisJr.",
+    "pos": "LG",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "D.Williams",
+    "pos": "C",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "E.Scott",
+    "pos": "LT",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "J.Mann",
+    "pos": "RT",
+    "reason": "Individual postseason category line missing or ambiguous",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "K.Martin",
+    "pos": "C",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "R.McGehee",
+    "pos": "LT",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "R.Mills",
+    "pos": "C",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "BLOCKING",
+    "name": "T.Walker",
+    "pos": "LG",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICKING",
+    "name": "C.Hawkins",
+    "pos": "K",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICKING",
+    "name": "S.Snider",
+    "pos": "K",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICKING",
+    "name": "D.Morris",
+    "pos": "K",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICKING",
+    "name": "E.Scott",
+    "pos": "K",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICKING",
+    "name": "J.Walters",
+    "pos": "K",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICKING",
+    "name": "T.Smack",
+    "pos": "K",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICKING",
+    "name": "D.Curtis",
+    "pos": "K",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICKING",
+    "name": "E.Springs",
+    "pos": "K",
+    "reason": "Exact primary postseason deduction unavailable",
+    "scope": "national"
+  },
+  {
+    "category": "KICKING",
+    "name": "M.Mitchell",
+    "pos": "K",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICKING",
+    "name": "C.Moore",
+    "pos": "K",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "PUNTING",
+    "name": "A.Rugglesl",
+    "pos": "P",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "PUNTING",
+    "name": "B.Brooks",
+    "pos": "P",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "PUNTING",
+    "name": "B.Sykes",
+    "pos": "P",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "PUNTING",
+    "name": "J.Stoeckel",
+    "pos": "P",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "PUNTING",
+    "name": "O.StrigEkeetl",
+    "pos": "P",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "PUNTING",
+    "name": "A.Ruggles",
+    "pos": "P",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "PUNTING",
+    "name": "B.Sicaifterman",
+    "pos": "P",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "PUNTING",
+    "name": "B.Zimmerman",
+    "pos": "P",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "PUNTING",
+    "name": "E.Zimmerman",
+    "pos": "P",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "PUNTING",
+    "name": "J.Scaife",
+    "pos": "P",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "PUNTING",
+    "name": "O.Bird",
+    "pos": "P",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "PUNTING",
+    "name": "O.Birggles",
+    "pos": "P",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "PUNTING",
+    "name": "O.Straife",
+    "pos": "P",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "PUNTING",
+    "name": "R.Clifton",
+    "pos": "P",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "PUNTING",
+    "name": "R.Dakin",
+    "pos": "P",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "PUNTING",
+    "name": "D.Stuswballgh",
+    "pos": "P",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "PUNTING",
+    "name": "E.Athold",
+    "pos": "P",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "PUNTING",
+    "name": "O.Strwathugh",
+    "pos": "P",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "PUNTING",
+    "name": "T.Petty",
+    "pos": "P",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "PUNTING",
+    "name": "T.Rettyd",
+    "pos": "P",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "PUNTING",
+    "name": "R.Podesta",
+    "pos": "P",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "PUNTING",
+    "name": "J.Baker",
+    "pos": "P",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "PUNTING",
+    "name": "S.West",
+    "pos": "P",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "PUNTING",
+    "name": "M.Love",
+    "pos": "P",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "PUNTING",
+    "name": "S.Burns",
+    "pos": "P",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "A.Sabresalr.",
+    "pos": "?",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "A.StakesJr.",
+    "pos": "?",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "G.Déficame",
+    "pos": "?",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "D.Dilajucey",
+    "pos": "?",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "A.Dentdyt",
+    "pos": "HB",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "E.Thomas",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "R.Scottews",
+    "pos": "WR",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "s.ujhgo",
+    "pos": "?",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "R.Mattthews",
+    "pos": "?",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "T.Browns",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "G.Caffillo",
+    "pos": "CB",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "Z.Williams",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "J.Ware",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "C.Uarwin",
+    "pos": "CB",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "J.York",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "J.Ross",
+    "pos": "WR",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "D.Boykins",
+    "pos": "WR",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "G.Scatt",
+    "pos": "WR",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "J.Gibson",
+    "pos": "HB",
+    "reason": "Individual postseason category line missing or ambiguous",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "T.JohnsonJr.",
+    "pos": "CB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "G.Hixon",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "A.Williams",
+    "pos": "CB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "J.Walker",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "K.Johnson",
+    "pos": "WR",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "Q.Drake",
+    "pos": "WR",
+    "reason": "Captured games played unavailable",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "J.Lassiter",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "R.Henderson",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "C.Brown",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "T.SmithJr.",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "D.Ezukanma",
+    "pos": "WR",
+    "reason": "Individual postseason category line missing or ambiguous",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "T.Jones",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "C.Clark",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "J.Tavares",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "D.Jones",
+    "pos": "CB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "N.Sanders",
+    "pos": "?",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "T.Malik",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "J.Nortman",
+    "pos": "HB",
+    "reason": "Individual postseason category line missing or ambiguous",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "C.Smith",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "D.Forrest",
+    "pos": "HB",
+    "reason": "Captured games played unavailable",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "B.Hillske",
+    "pos": "WR",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "M.Brown",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "J.Vincent",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "K.Hendricks",
+    "pos": "HB",
+    "reason": "Individual postseason category line missing or ambiguous",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "D.Lewis",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "T.White",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "T.Shelton,Jr.",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "J.Lopezns",
+    "pos": "CB",
+    "reason": "Captured games played unavailable",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "S.Sanders",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "T.Maguire",
+    "pos": "HB",
+    "reason": "Individual postseason category line missing or ambiguous",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "M.Ka'apana",
+    "pos": "HB",
+    "reason": "Individual postseason category line missing or ambiguous",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "L.Brown",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "J.Moore",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "T.Brown",
+    "pos": "WR",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "T.Mobley",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "L.Battles",
+    "pos": "CB",
+    "reason": "Captured games played unavailable",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "W.WatkinsJr.",
+    "pos": "WR",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "D.Compton",
+    "pos": "HB",
+    "reason": "Individual postseason category line missing or ambiguous",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "T.Shettron",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "C.Brown",
+    "pos": "HB",
+    "reason": "Postseason team/name cannot be resolved uniquely",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "N.Grevious",
+    "pos": "WR",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "J.Harrison",
+    "pos": "WR",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "R.Ankrah",
+    "pos": "WR",
+    "reason": "Source arithmetic or name collision needs review",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "S.Cho",
+    "pos": "HB",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "KICK RETURN",
+    "name": "C.Donnerson",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  },
+  {
+    "category": "PUNT RETURN",
+    "name": "T.Tatum",
+    "pos": "SS",
+    "reason": "Individual postseason category line missing or ambiguous",
+    "scope": "national"
+  },
+  {
+    "category": "PUNT RETURN",
+    "name": "B.Sloakton",
+    "pos": "?",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "PUNT RETURN",
+    "name": "D.Batualekon",
+    "pos": "WR",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "PUNT RETURN",
+    "name": "D.Djallas",
+    "pos": "WR",
+    "reason": "Too few stable observations",
+    "scope": "national"
+  },
+  {
+    "category": "PUNT RETURN",
+    "name": "T.Jones",
+    "pos": "WR",
+    "reason": "Possible postseason roster match with fewer than thirteen appearances",
+    "scope": "national"
+  }
+]

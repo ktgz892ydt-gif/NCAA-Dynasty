@@ -1,0 +1,157 @@
+[
+  {
+    "game": "Central Michigan | Michigan State",
+    "team": "Central Michigan",
+    "field": "Punts - Avg",
+    "before": [
+      8,
+      422
+    ],
+    "after": [
+      3,
+      158
+    ],
+    "source": "IMG_5617.MOV 15s: 3 punts, 52.7 average."
+  },
+  {
+    "game": "Central Michigan | UCF",
+    "team": "Central Michigan",
+    "field": "Punts - Avg",
+    "before": null,
+    "after": [
+      2,
+      77
+    ],
+    "source": "IMG_5617.MOV 39s: 2 punts, 38.5 average."
+  },
+  {
+    "game": "Central Michigan | UCF",
+    "team": "Central Michigan",
+    "field": "PR Yards",
+    "before": 40,
+    "after": 46,
+    "source": "IMG_5617.MOV 39s."
+  },
+  {
+    "game": "Central Michigan | UCF",
+    "team": "Central Michigan",
+    "field": "KR Yards",
+    "before": 64,
+    "after": 64,
+    "source": "IMG_5617.MOV 39s."
+  },
+  {
+    "game": "Central Michigan | UCF",
+    "team": "Central Michigan",
+    "field": "Red Zone TD-FG-%",
+    "before": [
+      3,
+      1,
+      5
+    ],
+    "after": [
+      3,
+      1,
+      5
+    ],
+    "source": "IMG_5617.MOV 39s: 3 TD, 1 FG, 80%."
+  },
+  {
+    "game": "Central Michigan | UMass",
+    "team": "Central Michigan",
+    "field": "Punts - Avg",
+    "before": [
+      2,
+      96
+    ],
+    "after": [
+      2,
+      86
+    ],
+    "source": "IMG_5617.MOV 48s: 2 punts, 43.0 average."
+  },
+  {
+    "game": "Buffalo | Eastern Michigan",
+    "team": "Eastern Michigan",
+    "field": "Punts - Avg",
+    "before": [
+      5,
+      214
+    ],
+    "after": [
+      5,
+      213
+    ],
+    "source": "IMG_5618.MOV 90s: 5 punts, 42.6 average."
+  },
+  {
+    "game": "Buffalo | Eastern Michigan",
+    "team": "Buffalo",
+    "field": "Score",
+    "before": null,
+    "after": 3,
+    "source": "IMG_5618.MOV 90s scoreboard."
+  },
+  {
+    "game": "Ball State | Central Michigan",
+    "team": "Ball State",
+    "field": "Score",
+    "before": null,
+    "after": 0,
+    "source": "IMG_5613.MOV regular-season scoreboard."
+  },
+  {
+    "game": "Toledo | Western Michigan",
+    "team": "Toledo",
+    "field": "First Downs",
+    "before": null,
+    "after": 9,
+    "source": "IMG_5616.MOV 112s: highlighted first-down row shows Toledo 9, Western Michigan 24."
+  },
+  {
+    "game": "Buffalo | Central Michigan",
+    "team": "Buffalo",
+    "field": "Rushes - Yards - TDs",
+    "before": [
+      23,
+      5,
+      0
+    ],
+    "after": [
+      23,
+      -5,
+      0
+    ],
+    "source": "IMG_5617.MOV: 195 total offense, 200 passing yards, -0.2 yards/rush; rushing yards -5."
+  },
+  {
+    "game": "Memphis | UAB",
+    "team": "UAB",
+    "field": "Punts - Avg",
+    "before": [
+      5,
+      210
+    ],
+    "after": [
+      5,
+      214
+    ],
+    "source": "IMG_5614.MOV 74s, cross-checked against IMG_5622 player lines."
+  },
+  {
+    "game": "Memphis | UAB",
+    "team": "Memphis",
+    "field": "KR Yards",
+    "before": 50,
+    "after": 59,
+    "source": "IMG_5614.MOV 74s, cross-checked against IMG_5622 player lines."
+  },
+  {
+    "game": "Memphis | UAB",
+    "team": "Memphis",
+    "field": "Total Yards",
+    "before": 400,
+    "after": 460,
+    "source": "IMG_5614.MOV 74s, cross-checked against IMG_5622 player lines."
+  }
+]

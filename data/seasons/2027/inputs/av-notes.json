@@ -1,0 +1,94 @@
+{
+  "status": "computed_with_estimates",
+  "league": {
+    "aya": 7.303470484663145,
+    "xp": 0.9890737521728333,
+    "fg": {
+      "29": 0.9544303797468354,
+      "39": 0.9468864468864469,
+      "49": 0.9321428571428572,
+      "50": 0.28426395939086296
+    },
+    "punt_adj": 43.501799677299246,
+    "population": {
+      "qualifiedPassers": 119,
+      "kickers": 112,
+      "punters": 126
+    },
+    "off_ppd": 2.553787405006917,
+    "def_ppd": 1.5675744309890651
+  },
+  "inputs": {
+    "Western Michigan": {
+      "pts_allowed": 193,
+      "ptd": 24,
+      "rtd": 26,
+      "fga": 15,
+      "fgm": 10,
+      "punts": 22,
+      "turnovers": 12,
+      "games": 12
+    },
+    "Central Michigan": {
+      "pts_allowed": 142,
+      "ptd": 23,
+      "rtd": 23,
+      "fga": 18,
+      "fgm": 15,
+      "punts": 23,
+      "turnovers": 9,
+      "games": 12
+    },
+    "Eastern Michigan": {
+      "pts_allowed": 227,
+      "ptd": 7,
+      "rtd": 15,
+      "fga": 16,
+      "fgm": 13,
+      "punts": 25,
+      "turnovers": 13,
+      "games": 12
+    }
+  },
+  "dropped_player_rows": [],
+  "source_review": "AV uses the established three-team drive baselines. Passing/kicking/punting baselines use the available regular-season captured player subset, not a complete national population. See av-baseline-players.json.",
+  "Western Michigan": {
+    "drives": 130,
+    "def_drives": 130,
+    "off_pts_per_drive": 2.923076923076923,
+    "qb1": {
+      "name": "R.Montgomery",
+      "yards": 2845,
+      "att": 331,
+      "aya": 8.685800604229607
+    },
+    "kicker_paa": -10.134998584829205,
+    "punter_adj_ypa": 44.63636363636363
+  },
+  "Central Michigan": {
+    "drives": 123,
+    "def_drives": 123,
+    "off_pts_per_drive": 2.983739837398374,
+    "qb1": {
+      "name": "A.Sheppard",
+      "yards": 1891,
+      "att": 247,
+      "aya": 8.425101214574898
+    },
+    "kicker_paa": 0.5190924965973458,
+    "punter_adj_ypa": 45.65217391304348
+  },
+  "Eastern Michigan": {
+    "drives": 110,
+    "def_drives": 110,
+    "off_pts_per_drive": 1.7545454545454546,
+    "qb1": {
+      "name": "B.Barnett",
+      "yards": 1341,
+      "att": 255,
+      "aya": 4.043137254901961
+    },
+    "kicker_paa": -0.060006639077580415,
+    "punter_adj_ypa": 45.68
+  }
+}

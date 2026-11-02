@@ -1,0 +1,5983 @@
+{
+  "Liberty | Western Kentucky": {
+    "teams": [
+      "Liberty",
+      "Western Kentucky"
+    ],
+    "sources": [
+      [
+        5614,
+        4
+      ],
+      [
+        5614,
+        5
+      ],
+      [
+        5614,
+        6
+      ],
+      [
+        5614,
+        7
+      ],
+      [
+        5614,
+        8
+      ],
+      [
+        5614,
+        9
+      ],
+      [
+        5614,
+        61
+      ],
+      [
+        5614,
+        62
+      ],
+      [
+        5614,
+        63
+      ],
+      [
+        5614,
+        64
+      ],
+      [
+        5614,
+        65
+      ]
+    ],
+    "values": {
+      "Liberty": {
+        "Score": 31,
+        "First Downs": 16,
+        "Total Offense": 454,
+        "Total Plays": 58,
+        "Rushes - Yards - TDs": [
+          36,
+          294,
+          4
+        ],
+        "Comp - Att - TDs": [
+          14,
+          22,
+          0
+        ],
+        "Passing Yards": 160,
+        "3rd Down Conv.": [
+          7,
+          13
+        ],
+        "4th Down Conv.": [
+          0,
+          0
+        ],
+        "2-Point Conv.": [
+          1,
+          1
+        ],
+        "Red Zone TD-FG-%": [
+          2,
+          1,
+          4
+        ],
+        "Turnovers": 3,
+        "Fumble Lost": 2,
+        "Interceptions": 1,
+        "KR Yards": 30,
+        "Total Yards": 484,
+        "PR Yards": 0,
+        "Punts - Avg": [
+          4,
+          187
+        ],
+        "Penalties - Yards": [
+          7,
+          65
+        ],
+        "T.O.P": 1777
+      },
+      "Western Kentucky": {
+        "Score": 25,
+        "First Downs": 22,
+        "Total Offense": 426,
+        "Total Plays": 72,
+        "Rushes - Yards - TDs": [
+          29,
+          85,
+          1
+        ],
+        "Comp - Att - TDs": [
+          26,
+          43,
+          2
+        ],
+        "Passing Yards": 341,
+        "3rd Down Conv.": [
+          5,
+          13
+        ],
+        "4th Down Conv.": [
+          1,
+          3
+        ],
+        "2-Point Conv.": [
+          1,
+          1
+        ],
+        "Red Zone TD-FG-%": [
+          1,
+          0,
+          3
+        ],
+        "Turnovers": 2,
+        "Interceptions": 2,
+        "KR Yards": 112,
+        "Total Yards": 538,
+        "PR Yards": 0,
+        "Punts - Avg": [
+          4,
+          160
+        ],
+        "Penalties - Yards": [
+          4,
+          30
+        ],
+        "T.O.P": 1823,
+        "Fumble Lost": 0
+      }
+    },
+    "notes": []
+  },
+  "Fresno State | Washington State": {
+    "teams": [
+      "Fresno State",
+      "Washington State"
+    ],
+    "sources": [
+      [
+        5614,
+        14
+      ],
+      [
+        5614,
+        16
+      ],
+      [
+        5614,
+        17
+      ],
+      [
+        5614,
+        18
+      ],
+      [
+        5614,
+        19
+      ]
+    ],
+    "values": {
+      "Washington State": {
+        "Score": 27,
+        "First Downs": 16,
+        "Total Offense": 400,
+        "Total Plays": 62,
+        "Rushes - Yards - TDs": [
+          33,
+          138,
+          2
+        ],
+        "Comp - Att - TDs": [
+          17,
+          29,
+          1
+        ],
+        "Passing Yards": 262,
+        "3rd Down Conv.": [
+          7,
+          15
+        ],
+        "4th Down Conv.": [
+          1,
+          2
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          0,
+          1,
+          3
+        ],
+        "Turnovers": 0,
+        "Interceptions": 0,
+        "PR Yards": 0,
+        "KR Yards": 95,
+        "Total Yards": 495,
+        "Punts - Avg": [
+          4,
+          103
+        ],
+        "Penalties - Yards": [
+          7,
+          57
+        ],
+        "T.O.P": 1671,
+        "Fumble Lost": 0
+      },
+      "Fresno State": {
+        "Score": 24,
+        "First Downs": 20,
+        "Total Offense": 378,
+        "Total Plays": 74,
+        "Rushes - Yards - TDs": [
+          36,
+          128,
+          1
+        ],
+        "Comp - Att - TDs": [
+          21,
+          38,
+          2
+        ],
+        "Passing Yards": 250,
+        "3rd Down Conv.": [
+          9,
+          16
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          3,
+          1,
+          4
+        ],
+        "4th Down Conv.": [
+          1,
+          1
+        ],
+        "Turnovers": 1,
+        "Interceptions": 0,
+        "PR Yards": 0,
+        "KR Yards": 100,
+        "Total Yards": 478,
+        "Punts - Avg": [
+          4,
+          144
+        ],
+        "Penalties - Yards": [
+          6,
+          50
+        ],
+        "T.O.P": 1929,
+        "Fumble Lost": 1
+      }
+    },
+    "notes": []
+  },
+  "Air Force | North Dakota State": {
+    "teams": [
+      "Air Force",
+      "North Dakota State"
+    ],
+    "sources": [
+      [
+        5614,
+        24
+      ],
+      [
+        5614,
+        25
+      ],
+      [
+        5614,
+        26
+      ],
+      [
+        5614,
+        27
+      ]
+    ],
+    "values": {
+      "Air Force": {
+        "Score": 25,
+        "First Downs": 12,
+        "Total Offense": 290,
+        "Total Plays": 74,
+        "Rushes - Yards - TDs": [
+          58,
+          153,
+          2
+        ],
+        "Comp - Att - TDs": [
+          13,
+          16,
+          0
+        ],
+        "Passing Yards": 137,
+        "3rd Down Conv.": [
+          10,
+          21
+        ],
+        "4th Down Conv.": [
+          0,
+          0
+        ],
+        "2-Point Conv.": [
+          1,
+          1
+        ],
+        "Red Zone TD-FG-%": [
+          1,
+          3,
+          4
+        ],
+        "PR Yards": 0,
+        "KR Yards": 56,
+        "Turnovers": 0,
+        "Fumble Lost": 0,
+        "Interceptions": 0,
+        "Total Yards": 346,
+        "Punts - Avg": [
+          7,
+          335
+        ],
+        "Penalties - Yards": [
+          4,
+          25
+        ],
+        "T.O.P": 2938
+      },
+      "North Dakota State": {
+        "Score": 23,
+        "First Downs": 18,
+        "Total Offense": 359,
+        "Total Plays": 61,
+        "Rushes - Yards - TDs": [
+          33,
+          138,
+          1
+        ],
+        "Comp - Att - TDs": [
+          18,
+          28,
+          1
+        ],
+        "Passing Yards": 221,
+        "3rd Down Conv.": [
+          4,
+          14
+        ],
+        "4th Down Conv.": [
+          0,
+          0
+        ],
+        "2-Point Conv.": [
+          0,
+          1
+        ],
+        "Red Zone TD-FG-%": [
+          1,
+          1,
+          4
+        ],
+        "KR Yards": 83,
+        "Interceptions": 1,
+        "Turnovers": 1,
+        "Fumble Lost": 0,
+        "PR Yards": 0,
+        "Total Yards": 442,
+        "Punts - Avg": [
+          6,
+          233
+        ],
+        "Penalties - Yards": [
+          7,
+          65
+        ],
+        "T.O.P": 1562
+      }
+    },
+    "notes": []
+  },
+  "Louisville | Miami": {
+    "teams": [
+      "Louisville",
+      "Miami"
+    ],
+    "sources": [
+      [
+        5614,
+        32
+      ],
+      [
+        5614,
+        33
+      ],
+      [
+        5614,
+        34
+      ],
+      [
+        5614,
+        37
+      ]
+    ],
+    "values": {
+      "Louisville": {
+        "Score": 13,
+        "First Downs": 14,
+        "Total Offense": 304,
+        "Total Plays": 63,
+        "Rushes - Yards - TDs": [
+          28,
+          63,
+          0
+        ],
+        "Comp - Att - TDs": [
+          19,
+          35,
+          1
+        ],
+        "Passing Yards": 241,
+        "3rd Down Conv.": [
+          5,
+          14
+        ],
+        "4th Down Conv.": [
+          0,
+          2
+        ],
+        "Red Zone TD-FG-%": [
+          1,
+          0,
+          2
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Turnovers": 1,
+        "Fumble Lost": 0,
+        "Interceptions": 1,
+        "PR Yards": 0,
+        "KR Yards": 110,
+        "Total Yards": 414,
+        "Punts - Avg": [
+          4,
+          151
+        ],
+        "Penalties - Yards": [
+          6,
+          71
+        ],
+        "T.O.P": 1704
+      },
+      "Miami": {
+        "Score": 49,
+        "First Downs": 25,
+        "Total Offense": 498,
+        "Total Plays": 67,
+        "Rushes - Yards - TDs": [
+          30,
+          166,
+          1
+        ],
+        "Comp - Att - TDs": [
+          28,
+          37,
+          6
+        ],
+        "Passing Yards": 332,
+        "3rd Down Conv.": [
+          6,
+          10
+        ],
+        "4th Down Conv.": [
+          2,
+          2
+        ],
+        "Red Zone TD-FG-%": [
+          5,
+          0,
+          5
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Turnovers": 1,
+        "Interceptions": 1,
+        "KR Yards": 27,
+        "Total Yards": 525,
+        "Punts - Avg": [
+          2,
+          78
+        ],
+        "Penalties - Yards": [
+          2,
+          16
+        ],
+        "T.O.P": 1896,
+        "Fumble Lost": 0
+      }
+    },
+    "notes": []
+  },
+  "Kansas State | TCU": {
+    "teams": [
+      "Kansas State",
+      "TCU"
+    ],
+    "sources": [
+      [
+        5614,
+        42
+      ],
+      [
+        5614,
+        43
+      ],
+      [
+        5614,
+        44
+      ],
+      [
+        5614,
+        45
+      ],
+      [
+        5614,
+        46
+      ],
+      [
+        5614,
+        47
+      ]
+    ],
+    "values": {
+      "Kansas State": {
+        "Score": 23,
+        "First Downs": 18,
+        "Total Offense": 423,
+        "Total Plays": 66,
+        "Rushes - Yards - TDs": [
+          34,
+          126,
+          3
+        ],
+        "Comp - Att - TDs": [
+          23,
+          32,
+          0
+        ],
+        "Passing Yards": 297,
+        "3rd Down Conv.": [
+          9,
+          16
+        ],
+        "4th Down Conv.": [
+          1,
+          2
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          3,
+          0,
+          4
+        ],
+        "Turnovers": 0,
+        "Fumble Lost": 0,
+        "Interceptions": 0,
+        "KR Yards": 94,
+        "Total Yards": 517,
+        "Punts - Avg": [
+          5,
+          264
+        ],
+        "Penalties - Yards": [
+          9,
+          75
+        ],
+        "T.O.P": 1993,
+        "PR Yards": 0
+      },
+      "TCU": {
+        "Score": 25,
+        "First Downs": 26,
+        "Total Offense": 480,
+        "Total Plays": 74,
+        "Rushes - Yards - TDs": [
+          32,
+          146,
+          3
+        ],
+        "Comp - Att - TDs": [
+          29,
+          42,
+          0
+        ],
+        "Passing Yards": 334,
+        "3rd Down Conv.": [
+          7,
+          14
+        ],
+        "4th Down Conv.": [
+          1,
+          2
+        ],
+        "2-Point Conv.": [
+          0,
+          2
+        ],
+        "Red Zone TD-FG-%": [
+          2,
+          0,
+          4
+        ],
+        "Fumble Lost": 0,
+        "Turnovers": 1,
+        "Interceptions": 1,
+        "KR Yards": 51,
+        "Total Yards": 531,
+        "Punts - Avg": [
+          2,
+          77
+        ],
+        "Penalties - Yards": [
+          5,
+          27
+        ],
+        "T.O.P": 1607,
+        "PR Yards": 0
+      }
+    },
+    "notes": []
+  },
+  "Central Michigan | Western Michigan | Championship": {
+    "teams": [
+      "Central Michigan",
+      "Western Michigan"
+    ],
+    "sources": [
+      [
+        5614,
+        51
+      ],
+      [
+        5614,
+        52
+      ],
+      [
+        5614,
+        53
+      ],
+      [
+        5614,
+        55
+      ]
+    ],
+    "values": {
+      "Western Michigan": {
+        "Score": 18,
+        "First Downs": 20,
+        "Total Offense": 331,
+        "Total Plays": 50,
+        "Rushes - Yards - TDs": [
+          19,
+          114,
+          0
+        ],
+        "Comp - Att - TDs": [
+          21,
+          31,
+          2
+        ],
+        "Passing Yards": 217,
+        "3rd Down Conv.": [
+          5,
+          10
+        ],
+        "4th Down Conv.": [
+          0,
+          0
+        ],
+        "2-Point Conv.": [
+          0,
+          2
+        ],
+        "Red Zone TD-FG-%": [
+          2,
+          2,
+          4
+        ],
+        "Turnovers": 1,
+        "Fumble Lost": 0,
+        "Interceptions": 1,
+        "PR Yards": 30,
+        "KR Yards": 0,
+        "Total Yards": 361,
+        "Punts - Avg": [
+          2,
+          98
+        ],
+        "Penalties - Yards": [
+          1,
+          4
+        ],
+        "T.O.P": 1002
+      },
+      "Central Michigan": {
+        "Score": 20,
+        "First Downs": 12,
+        "Total Offense": 189,
+        "Total Plays": 41,
+        "Rushes - Yards - TDs": [
+          26,
+          107,
+          1
+        ],
+        "Comp - Att - TDs": [
+          14,
+          15,
+          0
+        ],
+        "Passing Yards": 82,
+        "3rd Down Conv.": [
+          2,
+          7
+        ],
+        "4th Down Conv.": [
+          0,
+          0
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          1,
+          1,
+          3
+        ],
+        "Turnovers": 0,
+        "Interceptions": 0,
+        "PR Yards": 42,
+        "KR Yards": 0,
+        "Total Yards": 231,
+        "Punts - Avg": [
+          3,
+          144
+        ],
+        "Penalties - Yards": [
+          1,
+          5
+        ],
+        "T.O.P": 1158,
+        "Fumble Lost": 0
+      }
+    },
+    "notes": []
+  },
+  "Memphis | UAB": {
+    "teams": [
+      "Memphis",
+      "UAB"
+    ],
+    "sources": [
+      [
+        5614,
+        70
+      ],
+      [
+        5614,
+        71
+      ],
+      [
+        5614,
+        73
+      ],
+      [
+        5614,
+        74
+      ],
+      [
+        5614,
+        75
+      ]
+    ],
+    "values": {
+      "Memphis": {
+        "Score": 35,
+        "First Downs": 16,
+        "Total Offense": 401,
+        "Total Plays": 69,
+        "Rushes - Yards - TDs": [
+          42,
+          187,
+          4
+        ],
+        "Comp - Att - TDs": [
+          17,
+          27,
+          1
+        ],
+        "Passing Yards": 214,
+        "3rd Down Conv.": [
+          4,
+          14
+        ],
+        "4th Down Conv.": [
+          1,
+          1
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          1,
+          0,
+          3
+        ],
+        "KR Yards": 59,
+        "Total Yards": 460,
+        "Punts - Avg": [
+          7,
+          268
+        ],
+        "Turnovers": 1,
+        "Fumble Lost": 0,
+        "Interceptions": 1,
+        "PR Yards": 0,
+        "Penalties - Yards": [
+          6,
+          39
+        ],
+        "T.O.P": 1756
+      },
+      "UAB": {
+        "Score": 24,
+        "First Downs": 17,
+        "Total Offense": 467,
+        "Total Plays": 71,
+        "Rushes - Yards - TDs": [
+          25,
+          180,
+          1
+        ],
+        "Comp - Att - TDs": [
+          20,
+          46,
+          2
+        ],
+        "Passing Yards": 287,
+        "3rd Down Conv.": [
+          4,
+          16
+        ],
+        "4th Down Conv.": [
+          2,
+          4
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          1,
+          0,
+          1
+        ],
+        "KR Yards": 54,
+        "Total Yards": 521,
+        "Punts - Avg": [
+          5,
+          214
+        ],
+        "Turnovers": 2,
+        "Fumble Lost": 0,
+        "Interceptions": 2,
+        "Penalties - Yards": [
+          6,
+          65
+        ],
+        "T.O.P": 1844
+      }
+    },
+    "notes": []
+  },
+  "LSU | Texas A&M": {
+    "teams": [
+      "LSU",
+      "Texas A&M"
+    ],
+    "sources": [
+      [
+        5614,
+        80
+      ],
+      [
+        5614,
+        81
+      ],
+      [
+        5614,
+        82
+      ],
+      [
+        5614,
+        83
+      ],
+      [
+        5614,
+        84
+      ]
+    ],
+    "values": {
+      "Texas A&M": {
+        "Score": 28,
+        "First Downs": 19,
+        "Total Offense": 471,
+        "Total Plays": 78,
+        "Rushes - Yards - TDs": [
+          36,
+          179,
+          2
+        ],
+        "Comp - Att - TDs": [
+          22,
+          42,
+          1
+        ],
+        "Passing Yards": 292,
+        "3rd Down Conv.": [
+          4,
+          16
+        ],
+        "4th Down Conv.": [
+          2,
+          4
+        ],
+        "2-Point Conv.": [
+          1,
+          1
+        ],
+        "Red Zone TD-FG-%": [
+          2,
+          1,
+          4
+        ],
+        "Turnovers": 1,
+        "Interceptions": 1,
+        "Total Yards": 557,
+        "Punts - Avg": [
+          5,
+          240
+        ],
+        "PR Yards": 0,
+        "KR Yards": 86,
+        "Penalties - Yards": [
+          9,
+          72
+        ],
+        "T.O.P": 2213,
+        "Fumble Lost": 0
+      },
+      "LSU": {
+        "Score": 35,
+        "First Downs": 15,
+        "Total Offense": 422,
+        "Total Plays": 64,
+        "Rushes - Yards - TDs": [
+          21,
+          132,
+          2
+        ],
+        "Comp - Att - TDs": [
+          26,
+          43,
+          3
+        ],
+        "Passing Yards": 290,
+        "3rd Down Conv.": [
+          5,
+          13
+        ],
+        "4th Down Conv.": [
+          0,
+          1
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          2,
+          0,
+          4
+        ],
+        "Turnovers": 2,
+        "Interceptions": 2,
+        "Total Yards": 595,
+        "Punts - Avg": [
+          6,
+          274
+        ],
+        "PR Yards": 0,
+        "KR Yards": 83,
+        "Penalties - Yards": [
+          6,
+          35
+        ],
+        "T.O.P": 1387,
+        "Fumble Lost": 0
+      }
+    },
+    "notes": []
+  },
+  "Michigan | Nebraska": {
+    "teams": [
+      "Michigan",
+      "Nebraska"
+    ],
+    "sources": [
+      [
+        5614,
+        89
+      ],
+      [
+        5614,
+        90
+      ],
+      [
+        5614,
+        94
+      ]
+    ],
+    "values": {
+      "Michigan": {
+        "Score": 21,
+        "First Downs": 16,
+        "Total Offense": 405,
+        "Total Plays": 61,
+        "Rushes - Yards - TDs": [
+          32,
+          170,
+          1
+        ],
+        "Comp - Att - TDs": [
+          19,
+          29,
+          2
+        ],
+        "Passing Yards": 235,
+        "3rd Down Conv.": [
+          6,
+          13
+        ],
+        "4th Down Conv.": [
+          0,
+          1
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          1,
+          0,
+          2
+        ],
+        "Turnovers": 2,
+        "Interceptions": 1,
+        "PR Yards": 0,
+        "KR Yards": 68,
+        "Total Yards": 473,
+        "Punts - Avg": [
+          4,
+          157
+        ],
+        "Penalties - Yards": [
+          7,
+          56
+        ],
+        "T.O.P": 1659,
+        "Fumble Lost": 1
+      },
+      "Nebraska": {
+        "Score": 38,
+        "First Downs": 17,
+        "Total Offense": 411,
+        "Total Plays": 71,
+        "Rushes - Yards - TDs": [
+          34,
+          104,
+          0
+        ],
+        "Comp - Att - TDs": [
+          24,
+          37,
+          5
+        ],
+        "Passing Yards": 307,
+        "3rd Down Conv.": [
+          8,
+          15
+        ],
+        "4th Down Conv.": [
+          2,
+          4
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          3,
+          1,
+          6
+        ],
+        "Turnovers": 2,
+        "Interceptions": 2,
+        "KR Yards": 37,
+        "Total Yards": 448,
+        "Punts - Avg": [
+          2,
+          82
+        ],
+        "Penalties - Yards": [
+          3,
+          25
+        ],
+        "T.O.P": 1941,
+        "Fumble Lost": 0
+      }
+    },
+    "notes": []
+  },
+  "Central Michigan | Tennessee": {
+    "teams": [
+      "Central Michigan",
+      "Tennessee"
+    ],
+    "sources": [
+      [
+        5615,
+        0
+      ],
+      [
+        5615,
+        1
+      ],
+      [
+        5615,
+        2
+      ],
+      [
+        5615,
+        3
+      ],
+      [
+        5615,
+        5
+      ]
+    ],
+    "values": {
+      "Central Michigan": {
+        "Score": 17,
+        "First Downs": 19,
+        "Total Offense": 359,
+        "Total Plays": 57,
+        "Rushes - Yards - TDs": [
+          31,
+          146,
+          1
+        ],
+        "Comp - Att - TDs": [
+          20,
+          26,
+          1
+        ],
+        "Passing Yards": 213,
+        "3rd Down Conv.": [
+          5,
+          11
+        ],
+        "4th Down Conv.": [
+          2,
+          2
+        ],
+        "Red Zone TD-FG-%": [
+          1,
+          1,
+          4
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Turnovers": 2,
+        "Fumble Lost": 1,
+        "Interceptions": 1,
+        "PR Yards": 0,
+        "KR Yards": 89,
+        "Total Yards": 448,
+        "Punts - Avg": [
+          3,
+          118
+        ],
+        "Penalties - Yards": [
+          1,
+          5
+        ],
+        "T.O.P": 1308
+      },
+      "Tennessee": {
+        "Score": 37,
+        "First Downs": 20,
+        "Total Offense": 464,
+        "Total Plays": 43,
+        "Rushes - Yards - TDs": [
+          26,
+          204,
+          1
+        ],
+        "Comp - Att - TDs": [
+          13,
+          17,
+          3
+        ],
+        "Passing Yards": 260,
+        "3rd Down Conv.": [
+          2,
+          5
+        ],
+        "4th Down Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          2,
+          1,
+          5
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Turnovers": 0,
+        "Fumble Lost": 0,
+        "Interceptions": 0,
+        "PR Yards": 6,
+        "KR Yards": 0,
+        "Total Yards": 470,
+        "Punts - Avg": [
+          0,
+          0
+        ],
+        "Penalties - Yards": [
+          0,
+          0
+        ],
+        "T.O.P": 852
+      }
+    },
+    "notes": []
+  },
+  "Hawaii | Western Michigan": {
+    "teams": [
+      "Hawai'i",
+      "Western Michigan"
+    ],
+    "sources": [
+      [
+        5616,
+        3
+      ],
+      [
+        5616,
+        4
+      ],
+      [
+        5616,
+        5
+      ],
+      [
+        5616,
+        6
+      ],
+      [
+        5616,
+        7
+      ],
+      [
+        5616,
+        8
+      ],
+      [
+        5616,
+        26
+      ],
+      [
+        5616,
+        27
+      ],
+      [
+        5616,
+        28
+      ],
+      [
+        5616,
+        29
+      ]
+    ],
+    "values": {
+      "Western Michigan": {
+        "Score": 38,
+        "First Downs": 24,
+        "Total Offense": 453,
+        "Total Plays": 64,
+        "Rushes - Yards - TDs": [
+          30,
+          157,
+          1
+        ],
+        "Comp - Att - TDs": [
+          24,
+          34,
+          4
+        ],
+        "Passing Yards": 296,
+        "3rd Down Conv.": [
+          6,
+          12
+        ],
+        "4th Down Conv.": [
+          1,
+          2
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          4,
+          1,
+          6
+        ],
+        "Turnovers": 0,
+        "Fumble Lost": 0,
+        "Interceptions": 0,
+        "PR Yards": 17,
+        "KR Yards": 80,
+        "Total Yards": 550,
+        "Punts - Avg": [
+          3,
+          102
+        ],
+        "Penalties - Yards": [
+          1,
+          5
+        ],
+        "T.O.P": 1475
+      },
+      "Hawai'i": {
+        "Score": 17,
+        "First Downs": 11,
+        "Total Offense": 235,
+        "Total Plays": 50,
+        "Rushes - Yards - TDs": [
+          15,
+          28,
+          0
+        ],
+        "Comp - Att - TDs": [
+          17,
+          35,
+          2
+        ],
+        "Passing Yards": 207,
+        "3rd Down Conv.": [
+          2,
+          11
+        ],
+        "4th Down Conv.": [
+          2,
+          3
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          1,
+          0,
+          3
+        ],
+        "Turnovers": 0,
+        "Fumble Lost": 0,
+        "PR Yards": 1,
+        "KR Yards": 114,
+        "Total Yards": 350,
+        "Punts - Avg": [
+          5,
+          201
+        ],
+        "Penalties - Yards": [
+          0,
+          0
+        ],
+        "T.O.P": 685,
+        "Interceptions": 0
+      }
+    },
+    "notes": []
+  },
+  "UMass | Western Michigan": {
+    "teams": [
+      "UMass",
+      "Western Michigan"
+    ],
+    "sources": [
+      [
+        5616,
+        12
+      ],
+      [
+        5616,
+        13
+      ],
+      [
+        5616,
+        14
+      ],
+      [
+        5616,
+        15
+      ],
+      [
+        5616,
+        16
+      ],
+      [
+        5616,
+        17
+      ],
+      [
+        5616,
+        18
+      ],
+      [
+        5616,
+        19
+      ],
+      [
+        5616,
+        20
+      ],
+      [
+        5616,
+        21
+      ]
+    ],
+    "values": {
+      "Western Michigan": {
+        "Score": 21,
+        "First Downs": 24,
+        "Total Offense": 355,
+        "Total Plays": 65,
+        "Rushes - Yards - TDs": [
+          29,
+          42,
+          1
+        ],
+        "Comp - Att - TDs": [
+          25,
+          36,
+          2
+        ],
+        "Passing Yards": 313,
+        "3rd Down Conv.": [
+          5,
+          11
+        ],
+        "4th Down Conv.": [
+          0,
+          1
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          3,
+          0,
+          6
+        ],
+        "Turnovers": 1,
+        "Fumble Lost": 0,
+        "Interceptions": 1,
+        "PR Yards": 47,
+        "KR Yards": 35,
+        "Total Yards": 437,
+        "Punts - Avg": [
+          4,
+          196
+        ],
+        "Penalties - Yards": [
+          1,
+          15
+        ],
+        "T.O.P": 1476
+      },
+      "UMass": {
+        "Score": 7,
+        "First Downs": 9,
+        "Total Offense": 172,
+        "Total Plays": 54,
+        "Rushes - Yards - TDs": [
+          18,
+          6,
+          0
+        ],
+        "Comp - Att - TDs": [
+          21,
+          36,
+          0
+        ],
+        "Passing Yards": 166,
+        "3rd Down Conv.": [
+          5,
+          14
+        ],
+        "4th Down Conv.": [
+          0,
+          3
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          0,
+          0,
+          null
+        ],
+        "Turnovers": 1,
+        "Fumble Lost": 0,
+        "Interceptions": 1,
+        "PR Yards": 4,
+        "KR Yards": 154,
+        "Total Yards": 330,
+        "Punts - Avg": [
+          6,
+          245
+        ],
+        "Penalties - Yards": [
+          3,
+          35
+        ],
+        "T.O.P": 684
+      }
+    },
+    "notes": [
+      "UMass: TOP reconstructed from other team; game total 36 minutes."
+    ]
+  },
+  "Pittsburgh | Western Michigan": {
+    "teams": [
+      "Pittsburgh",
+      "Western Michigan"
+    ],
+    "sources": [
+      [
+        5616,
+        34
+      ],
+      [
+        5616,
+        35
+      ],
+      [
+        5616,
+        36
+      ],
+      [
+        5616,
+        37
+      ],
+      [
+        5616,
+        38
+      ]
+    ],
+    "values": {
+      "Western Michigan": {
+        "Score": 17,
+        "First Downs": 24,
+        "Total Offense": 445,
+        "Total Plays": 67,
+        "Rushes - Yards - TDs": [
+          36,
+          170,
+          1
+        ],
+        "Comp - Att - TDs": [
+          23,
+          31,
+          1
+        ],
+        "Passing Yards": 275,
+        "3rd Down Conv.": [
+          5,
+          10
+        ],
+        "4th Down Conv.": [
+          0,
+          1
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          1,
+          1,
+          4
+        ],
+        "Turnovers": 2,
+        "Interceptions": 2,
+        "Total Yards": 548,
+        "Punts - Avg": [
+          1,
+          59
+        ],
+        "PR Yards": 32,
+        "KR Yards": 66,
+        "Penalties - Yards": [
+          1,
+          10
+        ],
+        "T.O.P": 1637,
+        "Fumble Lost": 0
+      },
+      "Pittsburgh": {
+        "Score": 10,
+        "First Downs": 6,
+        "Total Offense": 135,
+        "Total Plays": 39,
+        "Rushes - Yards - TDs": [
+          16,
+          33,
+          0
+        ],
+        "Comp - Att - TDs": [
+          12,
+          23,
+          1
+        ],
+        "Passing Yards": 102,
+        "3rd Down Conv.": [
+          2,
+          9
+        ],
+        "4th Down Conv.": [
+          0,
+          1
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          1,
+          0,
+          1
+        ],
+        "Turnovers": 1,
+        "Total Yards": 163,
+        "Punts - Avg": [
+          5,
+          257
+        ],
+        "KR Yards": 28,
+        "Interceptions": 1,
+        "PR Yards": 0,
+        "Penalties - Yards": [
+          0,
+          0
+        ],
+        "T.O.P": 523,
+        "Fumble Lost": 0
+      }
+    },
+    "notes": []
+  },
+  "Northwestern | Western Michigan": {
+    "teams": [
+      "Northwestern",
+      "Western Michigan"
+    ],
+    "sources": [
+      [
+        5616,
+        43
+      ],
+      [
+        5616,
+        44
+      ],
+      [
+        5616,
+        45
+      ],
+      [
+        5616,
+        46
+      ],
+      [
+        5616,
+        47
+      ]
+    ],
+    "values": {
+      "Western Michigan": {
+        "Score": 49,
+        "First Downs": 37,
+        "Total Offense": 522,
+        "Total Plays": 68,
+        "Rushes - Yards - TDs": [
+          36,
+          253,
+          4
+        ],
+        "Comp - Att - TDs": [
+          21,
+          32,
+          3
+        ],
+        "Passing Yards": 269,
+        "3rd Down Conv.": [
+          7,
+          8
+        ],
+        "4th Down Conv.": [
+          0,
+          0
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          7,
+          0,
+          8
+        ],
+        "Fumble Lost": 1,
+        "PR Yards": 17,
+        "Turnovers": 1,
+        "KR Yards": 24,
+        "Total Yards": 563,
+        "Punts - Avg": [
+          1,
+          39
+        ],
+        "Penalties - Yards": [
+          1,
+          15
+        ],
+        "T.O.P": 1379,
+        "Interceptions": 0
+      },
+      "Northwestern": {
+        "Score": 14,
+        "First Downs": 14,
+        "Total Offense": 317,
+        "Total Plays": 49,
+        "Rushes - Yards - TDs": [
+          18,
+          103,
+          1
+        ],
+        "Comp - Att - TDs": [
+          16,
+          31,
+          1
+        ],
+        "Passing Yards": 214,
+        "3rd Down Conv.": [
+          2,
+          9
+        ],
+        "4th Down Conv.": [
+          0,
+          2
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          0,
+          0,
+          null
+        ],
+        "Fumble Lost": 0,
+        "PR Yards": 0,
+        "Turnovers": 2,
+        "KR Yards": 61,
+        "Total Yards": 378,
+        "Punts - Avg": [
+          3,
+          85
+        ],
+        "Penalties - Yards": [
+          0,
+          0
+        ],
+        "T.O.P": 781,
+        "Interceptions": 2
+      }
+    },
+    "notes": []
+  },
+  "Rice | Western Michigan": {
+    "teams": [
+      "Rice",
+      "Western Michigan"
+    ],
+    "sources": [
+      [
+        5616,
+        51
+      ],
+      [
+        5616,
+        52
+      ],
+      [
+        5616,
+        53
+      ],
+      [
+        5616,
+        54
+      ],
+      [
+        5616,
+        55
+      ],
+      [
+        5616,
+        56
+      ],
+      [
+        5616,
+        57
+      ]
+    ],
+    "values": {
+      "Rice": {
+        "Score": 25,
+        "First Downs": 14,
+        "Total Offense": 290,
+        "Total Plays": 56,
+        "Rushes - Yards - TDs": [
+          28,
+          20,
+          3
+        ],
+        "Comp - Att - TDs": [
+          22,
+          28,
+          0
+        ],
+        "Passing Yards": 270,
+        "3rd Down Conv.": [
+          7,
+          13
+        ],
+        "4th Down Conv.": [
+          1,
+          2
+        ],
+        "2-Point Conv.": [
+          1,
+          1
+        ],
+        "Red Zone TD-FG-%": [
+          3,
+          0,
+          3
+        ],
+        "Fumble Lost": 0,
+        "PR Yards": 19,
+        "Turnovers": 0,
+        "Interceptions": 0,
+        "KR Yards": 123,
+        "Total Yards": 432,
+        "Punts - Avg": [
+          3,
+          140
+        ],
+        "Penalties - Yards": [
+          0,
+          0
+        ],
+        "T.O.P": 986
+      },
+      "Western Michigan": {
+        "Score": 35,
+        "First Downs": 24,
+        "Total Offense": 427,
+        "Total Plays": 53,
+        "Rushes - Yards - TDs": [
+          30,
+          194,
+          2
+        ],
+        "Comp - Att - TDs": [
+          15,
+          23,
+          3
+        ],
+        "Passing Yards": 233,
+        "3rd Down Conv.": [
+          3,
+          8
+        ],
+        "4th Down Conv.": [
+          2,
+          2
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          4,
+          0,
+          5
+        ],
+        "PR Yards": 33,
+        "Turnovers": 1,
+        "Interceptions": 0,
+        "KR Yards": 64,
+        "Total Yards": 524,
+        "Punts - Avg": [
+          2,
+          83
+        ],
+        "Penalties - Yards": [
+          1,
+          5
+        ],
+        "Fumble Lost": 1,
+        "T.O.P": 1174
+      }
+    },
+    "notes": []
+  },
+  "Buffalo | Western Michigan": {
+    "teams": [
+      "Buffalo",
+      "Western Michigan"
+    ],
+    "sources": [
+      [
+        5616,
+        62
+      ],
+      [
+        5616,
+        63
+      ],
+      [
+        5616,
+        64
+      ],
+      [
+        5616,
+        65
+      ],
+      [
+        5616,
+        66
+      ]
+    ],
+    "values": {
+      "Western Michigan": {
+        "Score": 38,
+        "First Downs": 26,
+        "Total Offense": 395,
+        "Total Plays": 56,
+        "Rushes - Yards - TDs": [
+          38,
+          174,
+          3
+        ],
+        "Comp - Att - TDs": [
+          14,
+          18,
+          2
+        ],
+        "Passing Yards": 221,
+        "3rd Down Conv.": [
+          6,
+          8
+        ],
+        "4th Down Conv.": [
+          0,
+          0
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          5,
+          1,
+          6
+        ],
+        "Turnovers": 0,
+        "Fumble Lost": 0,
+        "Interceptions": 0,
+        "PR Yards": 15,
+        "KR Yards": 49,
+        "Total Yards": 459,
+        "Punts - Avg": [
+          1,
+          49
+        ],
+        "Penalties - Yards": [
+          2,
+          17
+        ],
+        "T.O.P": 1420
+      },
+      "Buffalo": {
+        "Score": 21,
+        "First Downs": 12,
+        "Total Offense": 280,
+        "Total Plays": 48,
+        "Rushes - Yards - TDs": [
+          25,
+          167,
+          3
+        ],
+        "Comp - Att - TDs": [
+          13,
+          23,
+          0
+        ],
+        "Passing Yards": 113,
+        "3rd Down Conv.": [
+          4,
+          11
+        ],
+        "4th Down Conv.": [
+          2,
+          2
+        ],
+        "2-Point Conv.": [
+          1,
+          2
+        ],
+        "Red Zone TD-FG-%": [
+          2,
+          0,
+          3
+        ],
+        "Turnovers": 1,
+        "Interceptions": 1,
+        "PR Yards": 11,
+        "KR Yards": 23,
+        "Total Yards": 314,
+        "Punts - Avg": [
+          4,
+          128
+        ],
+        "Penalties - Yards": [
+          1,
+          5
+        ],
+        "T.O.P": 740,
+        "Fumble Lost": 0
+      }
+    },
+    "notes": []
+  },
+  "Akron | Western Michigan": {
+    "teams": [
+      "Akron",
+      "Western Michigan"
+    ],
+    "sources": [
+      [
+        5616,
+        72
+      ],
+      [
+        5616,
+        73
+      ],
+      [
+        5616,
+        74
+      ],
+      [
+        5616,
+        75
+      ],
+      [
+        5616,
+        76
+      ]
+    ],
+    "values": {
+      "Western Michigan": {
+        "Score": 41,
+        "First Downs": 30,
+        "Total Offense": 566,
+        "Total Plays": 62,
+        "Rushes - Yards - TDs": [
+          19,
+          55,
+          1
+        ],
+        "Comp - Att - TDs": [
+          29,
+          43,
+          4
+        ],
+        "Passing Yards": 511,
+        "3rd Down Conv.": [
+          2,
+          8
+        ],
+        "4th Down Conv.": [
+          0,
+          0
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          3,
+          2,
+          5
+        ],
+        "PR Yards": 56,
+        "Turnovers": 0,
+        "Fumble Lost": 0,
+        "Interceptions": 0,
+        "KR Yards": 17,
+        "Total Yards": 639,
+        "Punts - Avg": [
+          3,
+          130
+        ],
+        "Penalties - Yards": [
+          2,
+          15
+        ],
+        "T.O.P": 1047
+      },
+      "Akron": {
+        "Score": 10,
+        "First Downs": 14,
+        "Total Offense": 320,
+        "Total Plays": 66,
+        "Rushes - Yards - TDs": [
+          32,
+          91,
+          0
+        ],
+        "Comp - Att - TDs": [
+          19,
+          34,
+          1
+        ],
+        "Passing Yards": 229,
+        "3rd Down Conv.": [
+          5,
+          18
+        ],
+        "4th Down Conv.": [
+          2,
+          2
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          0,
+          1,
+          1
+        ],
+        "Fumble Lost": 0,
+        "Interceptions": 1,
+        "PR Yards": 1,
+        "KR Yards": 41,
+        "Total Yards": 362,
+        "Punts - Avg": [
+          7,
+          312
+        ],
+        "Penalties - Yards": [
+          1,
+          10
+        ],
+        "T.O.P": 1113,
+        "Turnovers": 1
+      }
+    },
+    "notes": []
+  },
+  "Central Michigan | Western Michigan": {
+    "teams": [
+      "Central Michigan",
+      "Western Michigan"
+    ],
+    "sources": [
+      [
+        5616,
+        81
+      ],
+      [
+        5616,
+        82
+      ],
+      [
+        5616,
+        83
+      ],
+      [
+        5616,
+        84
+      ],
+      [
+        5616,
+        85
+      ],
+      [
+        5616,
+        86
+      ],
+      [
+        5617,
+        64
+      ],
+      [
+        5617,
+        65
+      ],
+      [
+        5617,
+        66
+      ],
+      [
+        5617,
+        67
+      ],
+      [
+        5617,
+        68
+      ]
+    ],
+    "values": {
+      "Central Michigan": {
+        "Score": 52,
+        "First Downs": 20,
+        "Total Offense": 313,
+        "Total Plays": 45,
+        "Rushes - Yards - TDs": [
+          30,
+          165,
+          3
+        ],
+        "Comp - Att - TDs": [
+          12,
+          15,
+          1
+        ],
+        "Passing Yards": 148,
+        "3rd Down Conv.": [
+          2,
+          5
+        ],
+        "4th Down Conv.": [
+          0,
+          0
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          4,
+          0,
+          7
+        ],
+        "Turnovers": 1,
+        "Fumble Lost": 0,
+        "PR Yards": 32,
+        "Interceptions": 1,
+        "KR Yards": 9,
+        "Total Yards": 354,
+        "Punts - Avg": [
+          1,
+          38
+        ],
+        "Penalties - Yards": [
+          1,
+          15
+        ],
+        "T.O.P": 1402
+      },
+      "Western Michigan": {
+        "Score": 7,
+        "First Downs": 19,
+        "Total Offense": 278,
+        "Total Plays": 59,
+        "Rushes - Yards - TDs": [
+          13,
+          20,
+          0
+        ],
+        "Comp - Att - TDs": [
+          29,
+          46,
+          1
+        ],
+        "Passing Yards": 258,
+        "3rd Down Conv.": [
+          4,
+          10
+        ],
+        "4th Down Conv.": [
+          0,
+          3
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          1,
+          0,
+          2
+        ],
+        "Turnovers": 5,
+        "Fumble Lost": 0,
+        "KR Yards": 20,
+        "Total Yards": 298,
+        "Punts - Avg": [
+          2,
+          97
+        ],
+        "Penalties - Yards": [
+          2,
+          10
+        ],
+        "T.O.P": 758,
+        "Interceptions": 5,
+        "PR Yards": 0
+      }
+    },
+    "notes": []
+  },
+  "Ball State | Western Michigan": {
+    "teams": [
+      "Ball State",
+      "Western Michigan"
+    ],
+    "sources": [
+      [
+        5616,
+        91
+      ],
+      [
+        5616,
+        92
+      ],
+      [
+        5616,
+        93
+      ],
+      [
+        5616,
+        94
+      ],
+      [
+        5616,
+        95
+      ]
+    ],
+    "values": {
+      "Ball State": {
+        "Score": 3,
+        "First Downs": 8,
+        "Total Offense": 197,
+        "Total Plays": 42,
+        "Rushes - Yards - TDs": [
+          15,
+          53,
+          0
+        ],
+        "Comp - Att - TDs": [
+          13,
+          27,
+          0
+        ],
+        "Passing Yards": 144,
+        "3rd Down Conv.": [
+          1,
+          8
+        ],
+        "4th Down Conv.": [
+          0,
+          2
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          0,
+          0,
+          null
+        ],
+        "Turnovers": 2,
+        "Interceptions": 1,
+        "PR Yards": 0,
+        "KR Yards": 44,
+        "Total Yards": 241,
+        "Punts - Avg": [
+          3,
+          147
+        ],
+        "Fumble Lost": 1,
+        "Penalties - Yards": [
+          1,
+          6
+        ],
+        "T.O.P": 599
+      },
+      "Western Michigan": {
+        "Score": 34,
+        "First Downs": 21,
+        "Total Offense": 351,
+        "Total Plays": 60,
+        "Rushes - Yards - TDs": [
+          33,
+          154,
+          2
+        ],
+        "Comp - Att - TDs": [
+          17,
+          27,
+          2
+        ],
+        "Passing Yards": 197,
+        "3rd Down Conv.": [
+          8,
+          14
+        ],
+        "4th Down Conv.": [
+          1,
+          2
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          2,
+          1,
+          4
+        ],
+        "PR Yards": 8,
+        "Total Yards": 359,
+        "Punts - Avg": [
+          2,
+          92
+        ],
+        "Fumble Lost": 0,
+        "Turnovers": 0,
+        "Interceptions": 0,
+        "KR Yards": 0,
+        "Penalties - Yards": [
+          0,
+          0
+        ],
+        "T.O.P": 1561
+      }
+    },
+    "notes": []
+  },
+  "Ohio | Western Michigan": {
+    "teams": [
+      "Ohio",
+      "Western Michigan"
+    ],
+    "sources": [
+      [
+        5616,
+        101
+      ],
+      [
+        5616,
+        102
+      ],
+      [
+        5616,
+        103
+      ],
+      [
+        5616,
+        104
+      ],
+      [
+        5616,
+        105
+      ],
+      [
+        5616,
+        106
+      ]
+    ],
+    "values": {
+      "Ohio": {
+        "Score": 13,
+        "First Downs": 3,
+        "Total Offense": 130,
+        "Total Plays": 34,
+        "Rushes - Yards - TDs": [
+          15,
+          52,
+          2
+        ],
+        "Comp - Att - TDs": [
+          6,
+          19,
+          0
+        ],
+        "Passing Yards": 78,
+        "3rd Down Conv.": [
+          1,
+          9
+        ],
+        "4th Down Conv.": [
+          0,
+          1
+        ],
+        "2-Point Conv.": [
+          0,
+          1
+        ],
+        "Red Zone TD-FG-%": [
+          0,
+          0,
+          null
+        ],
+        "Fumble Lost": 0,
+        "Turnovers": 1,
+        "Interceptions": 1,
+        "PR Yards": 8,
+        "KR Yards": 133,
+        "Total Yards": 271,
+        "Punts - Avg": [
+          5,
+          262
+        ],
+        "Penalties - Yards": [
+          1,
+          5
+        ],
+        "T.O.P": 518
+      },
+      "Western Michigan": {
+        "Score": 45,
+        "First Downs": 30,
+        "Total Offense": 467,
+        "Total Plays": 57,
+        "Rushes - Yards - TDs": [
+          45,
+          380,
+          4
+        ],
+        "Comp - Att - TDs": [
+          9,
+          12,
+          2
+        ],
+        "Passing Yards": 87,
+        "3rd Down Conv.": [
+          2,
+          4
+        ],
+        "4th Down Conv.": [
+          0,
+          0
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          5,
+          1,
+          6
+        ],
+        "Turnovers": 1,
+        "Interceptions": 1,
+        "PR Yards": 16,
+        "KR Yards": 53,
+        "Total Yards": 536,
+        "Punts - Avg": [
+          1,
+          49
+        ],
+        "Penalties - Yards": [
+          0,
+          0
+        ],
+        "T.O.P": 1642,
+        "Fumble Lost": 0
+      }
+    },
+    "notes": []
+  },
+  "Toledo | Western Michigan": {
+    "teams": [
+      "Toledo",
+      "Western Michigan"
+    ],
+    "sources": [
+      [
+        5616,
+        112
+      ],
+      [
+        5616,
+        113
+      ],
+      [
+        5616,
+        114
+      ],
+      [
+        5616,
+        115
+      ],
+      [
+        5616,
+        116
+      ]
+    ],
+    "values": {
+      "Western Michigan": {
+        "Score": 28,
+        "First Downs": 24,
+        "Total Offense": 423,
+        "Total Plays": 55,
+        "Rushes - Yards - TDs": [
+          39,
+          325,
+          4
+        ],
+        "Comp - Att - TDs": [
+          10,
+          16,
+          0
+        ],
+        "Passing Yards": 98,
+        "3rd Down Conv.": [
+          2,
+          8
+        ],
+        "4th Down Conv.": [
+          2,
+          2
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          3,
+          0,
+          3
+        ],
+        "Turnovers": 1,
+        "Fumble Lost": 0,
+        "Interceptions": 1,
+        "PR Yards": 45,
+        "KR Yards": 73,
+        "Total Yards": 541,
+        "Punts - Avg": [
+          2,
+          86
+        ],
+        "Penalties - Yards": [
+          0,
+          0
+        ],
+        "T.O.P": 1404
+      },
+      "Toledo": {
+        "Score": 21,
+        "Total Offense": 273,
+        "Total Plays": 47,
+        "Rushes - Yards - TDs": [
+          22,
+          63,
+          0
+        ],
+        "Comp - Att - TDs": [
+          14,
+          25,
+          3
+        ],
+        "Passing Yards": 210,
+        "3rd Down Conv.": [
+          7,
+          13
+        ],
+        "4th Down Conv.": [
+          1,
+          1
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          2,
+          0,
+          2
+        ],
+        "Fumble Lost": 0,
+        "Interceptions": 1,
+        "PR Yards": 0,
+        "KR Yards": 23,
+        "Total Yards": 296,
+        "Punts - Avg": [
+          4,
+          211
+        ],
+        "Penalties - Yards": [
+          1,
+          5
+        ],
+        "Turnovers": 1,
+        "T.O.P": 756,
+        "First Downs": 9
+      }
+    },
+    "notes": []
+  },
+  "Kent State | Western Michigan": {
+    "teams": [
+      "Kent State",
+      "Western Michigan"
+    ],
+    "sources": [
+      [
+        5616,
+        123
+      ],
+      [
+        5616,
+        124
+      ],
+      [
+        5616,
+        125
+      ],
+      [
+        5616,
+        126
+      ],
+      [
+        5616,
+        127
+      ]
+    ],
+    "values": {
+      "Kent State": {
+        "Score": 0,
+        "First Downs": 8,
+        "Total Offense": 148,
+        "Total Plays": 33,
+        "Rushes - Yards - TDs": [
+          10,
+          21,
+          0
+        ],
+        "Comp - Att - TDs": [
+          13,
+          23,
+          0
+        ],
+        "Passing Yards": 127,
+        "3rd Down Conv.": [
+          2,
+          7
+        ],
+        "4th Down Conv.": [
+          0,
+          1
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          0,
+          0,
+          null
+        ],
+        "Turnovers": 2,
+        "Fumble Lost": 0,
+        "Interceptions": 2,
+        "KR Yards": 60,
+        "Total Yards": 208,
+        "Punts - Avg": [
+          3,
+          134
+        ],
+        "PR Yards": 0,
+        "Penalties - Yards": [
+          0,
+          0
+        ],
+        "T.O.P": 581
+      },
+      "Western Michigan": {
+        "Score": 27,
+        "First Downs": 21,
+        "Total Offense": 361,
+        "Total Plays": 58,
+        "Rushes - Yards - TDs": [
+          45,
+          274,
+          3
+        ],
+        "Comp - Att - TDs": [
+          8,
+          13,
+          0
+        ],
+        "Passing Yards": 87,
+        "3rd Down Conv.": [
+          4,
+          12
+        ],
+        "4th Down Conv.": [
+          4,
+          4
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          2,
+          2,
+          5
+        ],
+        "Turnovers": 0,
+        "Fumble Lost": 0,
+        "Interceptions": 0,
+        "Total Yards": 369,
+        "Punts - Avg": [
+          0,
+          0
+        ],
+        "PR Yards": 8,
+        "KR Yards": 0,
+        "Penalties - Yards": [
+          0,
+          0
+        ],
+        "T.O.P": 1579
+      }
+    },
+    "notes": []
+  },
+  "Central Michigan | Wyoming": {
+    "teams": [
+      "Central Michigan",
+      "Wyoming"
+    ],
+    "sources": [
+      [
+        5617,
+        3
+      ],
+      [
+        5617,
+        4
+      ],
+      [
+        5617,
+        5
+      ],
+      [
+        5617,
+        7
+      ]
+    ],
+    "values": {
+      "Central Michigan": {
+        "Score": 38,
+        "First Downs": 23,
+        "Total Offense": 413,
+        "Total Plays": 54,
+        "Rushes - Yards - TDs": [
+          30,
+          207,
+          1
+        ],
+        "Comp - Att - TDs": [
+          25,
+          24,
+          4
+        ],
+        "Passing Yards": 206,
+        "3rd Down Conv.": [
+          6,
+          10
+        ],
+        "4th Down Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          4,
+          1,
+          6
+        ],
+        "2-Point Conv.": [
+          0,
+          1
+        ],
+        "Turnovers": 1,
+        "Fumble Lost": 0,
+        "Interceptions": 1,
+        "PR Yards": 90,
+        "KR Yards": 14,
+        "Total Yards": 517,
+        "Punts - Avg": [
+          2,
+          74
+        ],
+        "Penalties - Yards": [
+          0,
+          0
+        ],
+        "T.O.P": 1314
+      },
+      "Wyoming": {
+        "Total Offense": 102,
+        "Total Plays": 39,
+        "Rushes - Yards - TDs": [
+          18,
+          29,
+          1
+        ],
+        "Comp - Att - TDs": [
+          10,
+          21,
+          0
+        ],
+        "Passing Yards": 73,
+        "3rd Down Conv.": [
+          4,
+          10
+        ],
+        "4th Down Conv.": [
+          0,
+          1
+        ],
+        "Score": 7,
+        "First Downs": 6,
+        "Red Zone TD-FG-%": [
+          1,
+          0,
+          1
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Turnovers": 1,
+        "Fumble Lost": 1,
+        "Interceptions": 0,
+        "PR Yards": 0,
+        "KR Yards": 0,
+        "Total Yards": 102,
+        "Punts - Avg": [
+          5,
+          249
+        ],
+        "Penalties - Yards": [
+          2,
+          10
+        ],
+        "T.O.P": 846
+      }
+    },
+    "notes": []
+  },
+  "Central Michigan | Michigan State": {
+    "teams": [
+      "Central Michigan",
+      "Michigan State"
+    ],
+    "sources": [
+      [
+        5617,
+        12
+      ],
+      [
+        5617,
+        13
+      ],
+      [
+        5617,
+        14
+      ],
+      [
+        5617,
+        15
+      ]
+    ],
+    "values": {
+      "Michigan State": {
+        "Score": 34,
+        "First Downs": 15,
+        "Total Offense": 352,
+        "Total Plays": 49,
+        "Rushes - Yards - TDs": [
+          18,
+          139,
+          0
+        ],
+        "Comp - Att - TDs": [
+          24,
+          31,
+          3
+        ],
+        "Passing Yards": 213,
+        "3rd Down Conv.": [
+          6,
+          11
+        ],
+        "4th Down Conv.": [
+          1,
+          1
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          1,
+          1,
+          5
+        ],
+        "Turnovers": 1,
+        "Fumble Lost": 0,
+        "Interceptions": 1,
+        "PR Yards": 14,
+        "KR Yards": 4,
+        "Total Yards": 370,
+        "Punts - Avg": [
+          1,
+          40
+        ],
+        "Penalties - Yards": [
+          2,
+          18
+        ],
+        "T.O.P": 1157
+      },
+      "Central Michigan": {
+        "Score": 7,
+        "First Downs": 16,
+        "Total Offense": 252,
+        "Total Plays": 60,
+        "Rushes - Yards - TDs": [
+          27,
+          113,
+          1
+        ],
+        "Comp - Att - TDs": [
+          20,
+          33,
+          0
+        ],
+        "Passing Yards": 139,
+        "3rd Down Conv.": [
+          5,
+          12
+        ],
+        "4th Down Conv.": [
+          2,
+          4
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          1,
+          0,
+          2
+        ],
+        "Turnovers": 3,
+        "Fumble Lost": 1,
+        "PR Yards": 0,
+        "KR Yards": 50,
+        "Total Yards": 302,
+        "Punts - Avg": [
+          3,
+          158
+        ],
+        "Interceptions": 2,
+        "Penalties - Yards": [
+          0,
+          0
+        ],
+        "T.O.P": 1003
+      }
+    },
+    "notes": []
+  },
+  "Central Michigan | Kansas State": {
+    "teams": [
+      "Central Michigan",
+      "Kansas State"
+    ],
+    "sources": [
+      [
+        5617,
+        21
+      ],
+      [
+        5617,
+        22
+      ],
+      [
+        5617,
+        24
+      ],
+      [
+        5617,
+        25
+      ],
+      [
+        5617,
+        26
+      ],
+      [
+        5617,
+        27
+      ],
+      [
+        5617,
+        28
+      ],
+      [
+        5617,
+        29
+      ],
+      [
+        5617,
+        30
+      ]
+    ],
+    "values": {
+      "Central Michigan": {
+        "Score": 34,
+        "First Downs": 23,
+        "Total Offense": 358,
+        "Total Plays": 57,
+        "Rushes - Yards - TDs": [
+          31,
+          169,
+          2
+        ],
+        "Comp - Att - TDs": [
+          28,
+          26,
+          2
+        ],
+        "Passing Yards": 189,
+        "3rd Down Conv.": [
+          6,
+          11
+        ],
+        "4th Down Conv.": [
+          2,
+          2
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          4,
+          1,
+          5
+        ],
+        "Turnovers": 0,
+        "Fumble Lost": 0,
+        "Interceptions": 0,
+        "KR Yards": 34,
+        "Total Yards": 392,
+        "Punts - Avg": [
+          1,
+          18
+        ],
+        "Penalties - Yards": [
+          0,
+          0
+        ],
+        "T.O.P": 1579,
+        "PR Yards": 0
+      },
+      "Kansas State": {
+        "Score": 6,
+        "First Downs": 8,
+        "Total Offense": 160,
+        "Total Plays": 38,
+        "Rushes - Yards - TDs": [
+          16,
+          55,
+          0
+        ],
+        "Comp - Att - TDs": [
+          10,
+          22,
+          0
+        ],
+        "Passing Yards": 105,
+        "3rd Down Conv.": [
+          2,
+          9
+        ],
+        "4th Down Conv.": [
+          1,
+          3
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          0,
+          0,
+          null
+        ],
+        "Turnovers": 0,
+        "Fumble Lost": 0,
+        "KR Yards": 84,
+        "Total Yards": 244,
+        "Punts - Avg": [
+          2,
+          67
+        ],
+        "Penalties - Yards": [
+          1,
+          10
+        ],
+        "PR Yards": 0,
+        "Interceptions": 0,
+        "T.O.P": 581
+      }
+    },
+    "notes": []
+  },
+  "Central Michigan | UCF": {
+    "teams": [
+      "Central Michigan",
+      "UCF"
+    ],
+    "sources": [
+      [
+        5617,
+        34
+      ],
+      [
+        5617,
+        35
+      ],
+      [
+        5617,
+        36
+      ],
+      [
+        5617,
+        37
+      ],
+      [
+        5617,
+        38
+      ],
+      [
+        5617,
+        39
+      ]
+    ],
+    "values": {
+      "UCF": {
+        "Score": 7,
+        "Total Offense": 159,
+        "Total Plays": 37,
+        "Rushes - Yards - TDs": [
+          15,
+          22,
+          1
+        ],
+        "Comp - Att - TDs": [
+          17,
+          22,
+          0
+        ],
+        "Passing Yards": 137,
+        "3rd Down Conv.": [
+          1,
+          7
+        ],
+        "4th Down Conv.": [
+          1,
+          2
+        ],
+        "First Downs": 9,
+        "Red Zone TD-FG-%": [
+          1,
+          0,
+          1
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "KR Yards": 0,
+        "Turnovers": 0,
+        "Interceptions": 0,
+        "PR Yards": 0,
+        "Total Yards": 159,
+        "Punts - Avg": [
+          4,
+          184
+        ],
+        "Penalties - Yards": [
+          0,
+          0
+        ],
+        "T.O.P": 878,
+        "Fumble Lost": 0
+      },
+      "Central Michigan": {
+        "Score": 31,
+        "Total Offense": 310,
+        "Total Plays": 46,
+        "Rushes - Yards - TDs": [
+          28,
+          183,
+          3
+        ],
+        "Comp - Att - TDs": [
+          16,
+          18,
+          1
+        ],
+        "Passing Yards": 127,
+        "3rd Down Conv.": [
+          2,
+          6
+        ],
+        "4th Down Conv.": [
+          1,
+          1
+        ],
+        "First Downs": 22,
+        "Red Zone TD-FG-%": [
+          3,
+          1,
+          5
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "KR Yards": 64,
+        "PR Yards": 46,
+        "Turnovers": 0,
+        "Interceptions": 0,
+        "Total Yards": 420,
+        "Penalties - Yards": [
+          0,
+          0
+        ],
+        "T.O.P": 1282,
+        "Fumble Lost": 0,
+        "Punts - Avg": [
+          2,
+          77
+        ]
+      }
+    },
+    "notes": []
+  },
+  "Central Michigan | UMass": {
+    "teams": [
+      "Central Michigan",
+      "UMass"
+    ],
+    "sources": [
+      [
+        5617,
+        44
+      ],
+      [
+        5617,
+        45
+      ],
+      [
+        5617,
+        46
+      ],
+      [
+        5617,
+        47
+      ],
+      [
+        5617,
+        48
+      ]
+    ],
+    "values": {
+      "UMass": {
+        "Score": 13,
+        "First Downs": 11,
+        "Total Offense": 236,
+        "Total Plays": 47,
+        "Rushes - Yards - TDs": [
+          17,
+          45,
+          0
+        ],
+        "Comp - Att - TDs": [
+          17,
+          30,
+          1
+        ],
+        "Passing Yards": 191,
+        "3rd Down Conv.": [
+          4,
+          11
+        ],
+        "4th Down Conv.": [
+          0,
+          0
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          1,
+          1,
+          2
+        ],
+        "Turnovers": 0,
+        "Fumble Lost": 0,
+        "Interceptions": 0,
+        "KR Yards": 0,
+        "Total Yards": 246,
+        "Punts - Avg": [
+          4,
+          149
+        ],
+        "Penalties - Yards": [
+          3,
+          21
+        ],
+        "PR Yards": 10,
+        "T.O.P": 750
+      },
+      "Central Michigan": {
+        "Score": 24,
+        "First Downs": 20,
+        "Total Offense": 346,
+        "Total Plays": 56,
+        "Rushes - Yards - TDs": [
+          36,
+          220,
+          1
+        ],
+        "Comp - Att - TDs": [
+          22,
+          20,
+          2
+        ],
+        "Passing Yards": 126,
+        "3rd Down Conv.": [
+          7,
+          11
+        ],
+        "4th Down Conv.": [
+          0,
+          1
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          3,
+          1,
+          5
+        ],
+        "KR Yards": 67,
+        "Total Yards": 456,
+        "Punts - Avg": [
+          2,
+          86
+        ],
+        "Penalties - Yards": [
+          1,
+          15
+        ],
+        "Interceptions": 1,
+        "PR Yards": 43,
+        "Turnovers": 1,
+        "T.O.P": 1410,
+        "Fumble Lost": 0
+      }
+    },
+    "notes": []
+  },
+  "Central Michigan | Kent State": {
+    "teams": [
+      "Central Michigan",
+      "Kent State"
+    ],
+    "sources": [
+      [
+        5617,
+        54
+      ],
+      [
+        5617,
+        55
+      ],
+      [
+        5617,
+        56
+      ],
+      [
+        5617,
+        57
+      ],
+      [
+        5617,
+        58
+      ],
+      [
+        5617,
+        59
+      ]
+    ],
+    "values": {
+      "Kent State": {
+        "Score": 20,
+        "First Downs": 16,
+        "Total Offense": 349,
+        "Total Plays": 61,
+        "Rushes - Yards - TDs": [
+          21,
+          109,
+          1
+        ],
+        "Comp - Att - TDs": [
+          21,
+          40,
+          1
+        ],
+        "Passing Yards": 240,
+        "3rd Down Conv.": [
+          6,
+          14
+        ],
+        "4th Down Conv.": [
+          1,
+          3
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          0,
+          1,
+          3
+        ],
+        "Turnovers": 0,
+        "Interceptions": 0,
+        "Fumble Lost": 0,
+        "PR Yards": 20,
+        "KR Yards": 64,
+        "Total Yards": 433,
+        "Punts - Avg": [
+          3,
+          110
+        ],
+        "Penalties - Yards": [
+          2,
+          10
+        ],
+        "T.O.P": 1016
+      },
+      "Central Michigan": {
+        "Score": 38,
+        "First Downs": 17,
+        "Total Offense": 341,
+        "Total Plays": 42,
+        "Rushes - Yards - TDs": [
+          30,
+          236,
+          2
+        ],
+        "Comp - Att - TDs": [
+          13,
+          12,
+          3
+        ],
+        "Passing Yards": 105,
+        "3rd Down Conv.": [
+          3,
+          7
+        ],
+        "4th Down Conv.": [
+          0,
+          0
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          4,
+          1,
+          6
+        ],
+        "Turnovers": 0,
+        "Interceptions": 0,
+        "Total Yards": 412,
+        "Fumble Lost": 0,
+        "PR Yards": 21,
+        "KR Yards": 50,
+        "Punts - Avg": [
+          3,
+          141
+        ],
+        "Penalties - Yards": [
+          2,
+          20
+        ],
+        "T.O.P": 1144
+      }
+    },
+    "notes": []
+  },
+  "Central Michigan | Sacramento State": {
+    "teams": [
+      "Central Michigan",
+      "Sacramento State"
+    ],
+    "sources": [
+      [
+        5617,
+        74
+      ],
+      [
+        5617,
+        75
+      ],
+      [
+        5617,
+        76
+      ],
+      [
+        5617,
+        77
+      ],
+      [
+        5617,
+        78
+      ],
+      [
+        5617,
+        79
+      ]
+    ],
+    "values": {
+      "Central Michigan": {
+        "Score": 28,
+        "First Downs": 28,
+        "Total Offense": 440,
+        "Total Plays": 56,
+        "Rushes - Yards - TDs": [
+          32,
+          195,
+          1
+        ],
+        "Comp - Att - TDs": [
+          25,
+          24,
+          3
+        ],
+        "Passing Yards": 245,
+        "3rd Down Conv.": [
+          4,
+          6
+        ],
+        "4th Down Conv.": [
+          0,
+          0
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          4,
+          0,
+          5
+        ],
+        "Fumble Lost": 0,
+        "Interceptions": 1,
+        "Total Yards": 522,
+        "Turnovers": 1,
+        "PR Yards": 66,
+        "KR Yards": 16,
+        "Punts - Avg": [
+          1,
+          48
+        ],
+        "Penalties - Yards": [
+          1,
+          10
+        ],
+        "T.O.P": 1451
+      },
+      "Sacramento State": {
+        "Score": 0,
+        "First Downs": 3,
+        "Total Offense": 85,
+        "Total Plays": 28,
+        "Rushes - Yards - TDs": [
+          12,
+          23,
+          0
+        ],
+        "Comp - Att - TDs": [
+          10,
+          16,
+          0
+        ],
+        "Passing Yards": 62,
+        "3rd Down Conv.": [
+          0,
+          7
+        ],
+        "4th Down Conv.": [
+          1,
+          1
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          0,
+          0,
+          null
+        ],
+        "Total Yards": 101,
+        "Turnovers": 1,
+        "Fumble Lost": 0,
+        "Interceptions": 1,
+        "PR Yards": 16,
+        "KR Yards": 0,
+        "Punts - Avg": [
+          6,
+          287
+        ],
+        "Penalties - Yards": [
+          0,
+          0
+        ],
+        "T.O.P": 709
+      }
+    },
+    "notes": []
+  },
+  "Bowling Green | Central Michigan": {
+    "teams": [
+      "Bowling Green",
+      "Central Michigan"
+    ],
+    "sources": [
+      [
+        5617,
+        85
+      ],
+      [
+        5617,
+        86
+      ],
+      [
+        5617,
+        87
+      ],
+      [
+        5617,
+        88
+      ],
+      [
+        5617,
+        89
+      ],
+      [
+        5617,
+        90
+      ]
+    ],
+    "values": {
+      "Central Michigan": {
+        "Score": 24,
+        "First Downs": 14,
+        "Total Offense": 310,
+        "Total Plays": 38,
+        "Rushes - Yards - TDs": [
+          27,
+          152,
+          1
+        ],
+        "Comp - Att - TDs": [
+          9,
+          11,
+          2
+        ],
+        "Passing Yards": 158,
+        "3rd Down Conv.": [
+          3,
+          6
+        ],
+        "4th Down Conv.": [
+          0,
+          0
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          2,
+          0,
+          3
+        ],
+        "Turnovers": 1,
+        "Fumble Lost": 1,
+        "Interceptions": 0,
+        "PR Yards": 18,
+        "KR Yards": 82,
+        "Total Yards": 410,
+        "Punts - Avg": [
+          2,
+          94
+        ],
+        "Penalties - Yards": [
+          6,
+          36
+        ],
+        "T.O.P": 812
+      },
+      "Bowling Green": {
+        "Score": 13,
+        "First Downs": 17,
+        "Total Offense": 249,
+        "Total Plays": 51,
+        "Rushes - Yards - TDs": [
+          24,
+          84,
+          0
+        ],
+        "Comp - Att - TDs": [
+          22,
+          27,
+          1
+        ],
+        "Passing Yards": 165,
+        "3rd Down Conv.": [
+          2,
+          9
+        ],
+        "4th Down Conv.": [
+          1,
+          2
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          1,
+          2,
+          3
+        ],
+        "Fumble Lost": 0,
+        "PR Yards": 2,
+        "Turnovers": 1,
+        "Interceptions": 1,
+        "KR Yards": 13,
+        "Total Yards": 264,
+        "Punts - Avg": [
+          3,
+          135
+        ],
+        "Penalties - Yards": [
+          1,
+          15
+        ],
+        "T.O.P": 1348
+      }
+    },
+    "notes": []
+  },
+  "Buffalo | Central Michigan": {
+    "teams": [
+      "Buffalo",
+      "Central Michigan"
+    ],
+    "sources": [
+      [
+        5617,
+        96
+      ],
+      [
+        5617,
+        97
+      ],
+      [
+        5617,
+        98
+      ],
+      [
+        5617,
+        99
+      ],
+      [
+        5617,
+        100
+      ]
+    ],
+    "values": {
+      "Buffalo": {
+        "Score": 21,
+        "First Downs": 13,
+        "Total Offense": 195,
+        "Total Plays": 43,
+        "Rushes - Yards - TDs": [
+          23,
+          -5,
+          0
+        ],
+        "Comp - Att - TDs": [
+          13,
+          20,
+          2
+        ],
+        "Passing Yards": 200,
+        "3rd Down Conv.": [
+          3,
+          8
+        ],
+        "4th Down Conv.": [
+          0,
+          2
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          1,
+          0,
+          3
+        ],
+        "Turnovers": 2,
+        "Fumble Lost": 0,
+        "Interceptions": 2,
+        "PR Yards": 8,
+        "KR Yards": 0,
+        "Total Yards": 203,
+        "Punts - Avg": [
+          1,
+          51
+        ],
+        "Penalties - Yards": [
+          1,
+          5
+        ],
+        "T.O.P": 1019
+      },
+      "Central Michigan": {
+        "Score": 45,
+        "First Downs": 19,
+        "Total Offense": 288,
+        "Total Plays": 53,
+        "Rushes - Yards - TDs": [
+          35,
+          195,
+          3
+        ],
+        "Comp - Att - TDs": [
+          18,
+          18,
+          1
+        ],
+        "Passing Yards": 93,
+        "3rd Down Conv.": [
+          7,
+          11
+        ],
+        "4th Down Conv.": [
+          0,
+          0
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          3,
+          1,
+          6
+        ],
+        "Turnovers": 0,
+        "Fumble Lost": 0,
+        "Interceptions": 0,
+        "PR Yards": 15,
+        "KR Yards": 67,
+        "Total Yards": 370,
+        "Punts - Avg": [
+          1,
+          67
+        ],
+        "Penalties - Yards": [
+          0,
+          0
+        ],
+        "T.O.P": 1141
+      }
+    },
+    "notes": [
+      "Buffalo: rushing + passing yards does not equal total offense"
+    ]
+  },
+  "Ball State | Central Michigan": {
+    "teams": [
+      "Ball State",
+      "Central Michigan"
+    ],
+    "sources": [
+      [
+        5617,
+        107
+      ],
+      [
+        5617,
+        108
+      ],
+      [
+        5617,
+        109
+      ],
+      [
+        5617,
+        110
+      ],
+      [
+        5617,
+        111
+      ]
+    ],
+    "values": {
+      "Ball State": {
+        "First Downs": 6,
+        "Total Offense": 139,
+        "Total Plays": 37,
+        "Rushes - Yards - TDs": [
+          11,
+          0,
+          0
+        ],
+        "Comp - Att - TDs": [
+          13,
+          26,
+          0
+        ],
+        "Passing Yards": 139,
+        "3rd Down Conv.": [
+          2,
+          10
+        ],
+        "4th Down Conv.": [
+          0,
+          1
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          0,
+          0,
+          null
+        ],
+        "Turnovers": 1,
+        "Interceptions": 1,
+        "PR Yards": 0,
+        "KR Yards": 30,
+        "Total Yards": 169,
+        "Punts - Avg": [
+          7,
+          346
+        ],
+        "Penalties - Yards": [
+          0,
+          0
+        ],
+        "T.O.P": 926,
+        "Fumble Lost": 0,
+        "Score": 0
+      },
+      "Central Michigan": {
+        "First Downs": 21,
+        "Total Offense": 318,
+        "Total Plays": 54,
+        "Rushes - Yards - TDs": [
+          31,
+          122,
+          3
+        ],
+        "Comp - Att - TDs": [
+          16,
+          23,
+          0
+        ],
+        "Passing Yards": 196,
+        "3rd Down Conv.": [
+          4,
+          10
+        ],
+        "4th Down Conv.": [
+          1,
+          1
+        ],
+        "Score": 24,
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          3,
+          1,
+          5
+        ],
+        "Interceptions": 0,
+        "PR Yards": 65,
+        "Turnovers": 1,
+        "KR Yards": 25,
+        "Total Yards": 408,
+        "Punts - Avg": [
+          3,
+          154
+        ],
+        "Penalties - Yards": [
+          1,
+          5
+        ],
+        "T.O.P": 1234,
+        "Fumble Lost": 1
+      }
+    },
+    "notes": []
+  },
+  "Central Michigan | Eastern Michigan": {
+    "teams": [
+      "Central Michigan",
+      "Eastern Michigan"
+    ],
+    "sources": [
+      [
+        5617,
+        117
+      ],
+      [
+        5617,
+        118
+      ],
+      [
+        5617,
+        119
+      ],
+      [
+        5617,
+        120
+      ],
+      [
+        5617,
+        121
+      ],
+      [
+        5617,
+        122
+      ],
+      [
+        5617,
+        123
+      ],
+      [
+        5618,
+        118
+      ],
+      [
+        5618,
+        119
+      ],
+      [
+        5618,
+        120
+      ],
+      [
+        5618,
+        121
+      ],
+      [
+        5618,
+        122
+      ],
+      [
+        5618,
+        123
+      ]
+    ],
+    "values": {
+      "Central Michigan": {
+        "Score": 51,
+        "First Downs": 21,
+        "Total Offense": 387,
+        "Total Plays": 54,
+        "Rushes - Yards - TDs": [
+          31,
+          228,
+          2
+        ],
+        "Comp - Att - TDs": [
+          20,
+          23,
+          4
+        ],
+        "Passing Yards": 159,
+        "3rd Down Conv.": [
+          6,
+          10
+        ],
+        "4th Down Conv.": [
+          0,
+          0
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          5,
+          1,
+          7
+        ],
+        "Interceptions": 0,
+        "PR Yards": 0,
+        "KR Yards": 0,
+        "Total Yards": 387,
+        "Turnovers": 0,
+        "Fumble Lost": 0,
+        "Punts - Avg": [
+          2,
+          99
+        ],
+        "Penalties - Yards": [
+          0,
+          0
+        ],
+        "T.O.P": 1174
+      },
+      "Eastern Michigan": {
+        "Score": 14,
+        "First Downs": 12,
+        "Total Offense": 292,
+        "Total Plays": 54,
+        "Rushes - Yards - TDs": [
+          16,
+          112,
+          0
+        ],
+        "Comp - Att - TDs": [
+          15,
+          38,
+          2
+        ],
+        "Passing Yards": 180,
+        "3rd Down Conv.": [
+          2,
+          11
+        ],
+        "4th Down Conv.": [
+          1,
+          5
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          1,
+          0,
+          2
+        ],
+        "Interceptions": 3,
+        "PR Yards": 36,
+        "KR Yards": 66,
+        "Total Yards": 394,
+        "Turnovers": 4,
+        "Fumble Lost": 1,
+        "Punts - Avg": [
+          1,
+          30
+        ],
+        "Penalties - Yards": [
+          2,
+          20
+        ],
+        "T.O.P": 986
+      }
+    },
+    "notes": []
+  },
+  "Eastern Michigan | San Diego State": {
+    "teams": [
+      "Eastern Michigan",
+      "San Diego State"
+    ],
+    "sources": [
+      [
+        5618,
+        3
+      ],
+      [
+        5618,
+        4
+      ],
+      [
+        5618,
+        5
+      ],
+      [
+        5618,
+        6
+      ],
+      [
+        5618,
+        7
+      ],
+      [
+        5618,
+        8
+      ]
+    ],
+    "values": {
+      "Eastern Michigan": {
+        "Score": 29,
+        "First Downs": 23,
+        "Total Offense": 361,
+        "Total Plays": 52,
+        "Rushes - Yards - TDs": [
+          35,
+          229,
+          3
+        ],
+        "Comp - Att - TDs": [
+          17,
+          17,
+          1
+        ],
+        "Passing Yards": 132,
+        "3rd Down Conv.": [
+          6,
+          8
+        ],
+        "4th Down Conv.": [
+          0,
+          1
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          4,
+          0,
+          5
+        ],
+        "Fumble Lost": 1,
+        "Interceptions": 0,
+        "PR Yards": 23,
+        "KR Yards": 86,
+        "Turnovers": 1,
+        "Total Yards": 470,
+        "Punts - Avg": [
+          1,
+          50
+        ],
+        "Penalties - Yards": [
+          1,
+          10
+        ],
+        "T.O.P": 1362
+      },
+      "San Diego State": {
+        "Score": 28,
+        "First Downs": 12,
+        "Total Offense": 300,
+        "Total Plays": 36,
+        "Rushes - Yards - TDs": [
+          18,
+          96,
+          1
+        ],
+        "Comp - Att - TDs": [
+          13,
+          18,
+          2
+        ],
+        "Passing Yards": 204,
+        "3rd Down Conv.": [
+          3,
+          7
+        ],
+        "4th Down Conv.": [
+          0,
+          0
+        ],
+        "2-Point Conv.": [
+          1,
+          1
+        ],
+        "Red Zone TD-FG-%": [
+          1,
+          2,
+          5
+        ],
+        "Fumble Lost": 0,
+        "Interceptions": 0,
+        "Turnovers": 0,
+        "PR Yards": 9,
+        "KR Yards": 15,
+        "Total Yards": 324,
+        "Punts - Avg": [
+          1,
+          52
+        ],
+        "Penalties - Yards": [
+          0,
+          0
+        ],
+        "T.O.P": 798
+      }
+    },
+    "notes": []
+  },
+  "Air Force | Eastern Michigan": {
+    "teams": [
+      "Air Force",
+      "Eastern Michigan"
+    ],
+    "sources": [
+      [
+        5618,
+        12
+      ],
+      [
+        5618,
+        13
+      ],
+      [
+        5618,
+        14
+      ],
+      [
+        5618,
+        15
+      ],
+      [
+        5618,
+        16
+      ],
+      [
+        5618,
+        17
+      ]
+    ],
+    "values": {
+      "Air Force": {
+        "Score": 14,
+        "First Downs": 12,
+        "Total Offense": 241,
+        "Total Plays": 42,
+        "Rushes - Yards - TDs": [
+          25,
+          135,
+          1
+        ],
+        "Comp - Att - TDs": [
+          9,
+          17,
+          1
+        ],
+        "Passing Yards": 106,
+        "3rd Down Conv.": [
+          4,
+          9
+        ],
+        "4th Down Conv.": [
+          1,
+          2
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          0,
+          0,
+          null
+        ],
+        "Turnovers": 1,
+        "Fumble Lost": 1,
+        "Interceptions": 0,
+        "PR Yards": 0,
+        "KR Yards": 55,
+        "Total Yards": 296,
+        "Punts - Avg": [
+          2,
+          93
+        ],
+        "Penalties - Yards": [
+          0,
+          0
+        ],
+        "T.O.P": 887
+      },
+      "Eastern Michigan": {
+        "Score": 31,
+        "First Downs": 17,
+        "Total Offense": 248,
+        "Total Plays": 42,
+        "Rushes - Yards - TDs": [
+          30,
+          173,
+          3
+        ],
+        "Comp - Att - TDs": [
+          11,
+          12,
+          0
+        ],
+        "Passing Yards": 75,
+        "3rd Down Conv.": [
+          3,
+          6
+        ],
+        "4th Down Conv.": [
+          2,
+          2
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          2,
+          0,
+          4
+        ],
+        "Fumble Lost": 0,
+        "Interceptions": 1,
+        "Turnovers": 1,
+        "PR Yards": 21,
+        "KR Yards": 63,
+        "Total Yards": 332,
+        "Punts - Avg": [
+          0,
+          0
+        ],
+        "Penalties - Yards": [
+          1,
+          10
+        ],
+        "T.O.P": 1273
+      }
+    },
+    "notes": []
+  },
+  "Eastern Michigan | Michigan": {
+    "teams": [
+      "Eastern Michigan",
+      "Michigan"
+    ],
+    "sources": [
+      [
+        5618,
+        21
+      ],
+      [
+        5618,
+        22
+      ],
+      [
+        5618,
+        23
+      ],
+      [
+        5618,
+        24
+      ],
+      [
+        5618,
+        25
+      ]
+    ],
+    "values": {
+      "Michigan": {
+        "Score": 17,
+        "First Downs": 11,
+        "Total Offense": 295,
+        "Total Plays": 34,
+        "Rushes - Yards - TDs": [
+          21,
+          157,
+          1
+        ],
+        "Comp - Att - TDs": [
+          10,
+          13,
+          1
+        ],
+        "Passing Yards": 138,
+        "3rd Down Conv.": [
+          2,
+          6
+        ],
+        "4th Down Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          1,
+          0,
+          3
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Turnovers": 0,
+        "Fumble Lost": 0,
+        "PR Yards": 25,
+        "KR Yards": 0,
+        "Total Yards": 320,
+        "Punts - Avg": [
+          3,
+          114
+        ],
+        "Penalties - Yards": [
+          0,
+          0
+        ],
+        "T.O.P": 792,
+        "Interceptions": 0
+      },
+      "Eastern Michigan": {
+        "First Downs": 10,
+        "Total Offense": 176,
+        "Total Plays": 45,
+        "Rushes - Yards - TDs": [
+          22,
+          81,
+          0
+        ],
+        "Comp - Att - TDs": [
+          15,
+          23,
+          0
+        ],
+        "Passing Yards": 95,
+        "3rd Down Conv.": [
+          3,
+          12
+        ],
+        "4th Down Conv.": [
+          2,
+          3
+        ],
+        "Score": 9,
+        "Red Zone TD-FG-%": [
+          0,
+          0,
+          null
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "PR Yards": 15,
+        "KR Yards": 117,
+        "Interceptions": 1,
+        "Total Yards": 308,
+        "Turnovers": 1,
+        "Punts - Avg": [
+          2,
+          100
+        ],
+        "Penalties - Yards": [
+          0,
+          0
+        ],
+        "T.O.P": 1368,
+        "Fumble Lost": 0
+      }
+    },
+    "notes": []
+  },
+  "Charlotte | Eastern Michigan": {
+    "teams": [
+      "Charlotte",
+      "Eastern Michigan"
+    ],
+    "sources": [
+      [
+        5618,
+        30
+      ],
+      [
+        5618,
+        31
+      ],
+      [
+        5618,
+        32
+      ],
+      [
+        5618,
+        33
+      ],
+      [
+        5618,
+        34
+      ],
+      [
+        5618,
+        35
+      ],
+      [
+        5618,
+        36
+      ]
+    ],
+    "values": {
+      "Eastern Michigan": {
+        "Score": 13,
+        "First Downs": 11,
+        "Total Offense": 155,
+        "Total Plays": 46,
+        "Rushes - Yards - TDs": [
+          23,
+          86,
+          1
+        ],
+        "Comp - Att - TDs": [
+          11,
+          23,
+          0
+        ],
+        "Passing Yards": 69,
+        "3rd Down Conv.": [
+          1,
+          9
+        ],
+        "4th Down Conv.": [
+          2,
+          2
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          0,
+          1,
+          2
+        ],
+        "Turnovers": 2,
+        "Fumble Lost": 0,
+        "Interceptions": 2,
+        "PR Yards": 34,
+        "KR Yards": 115,
+        "Total Yards": 304,
+        "Punts - Avg": [
+          3,
+          125
+        ],
+        "Penalties - Yards": [
+          2,
+          10
+        ],
+        "T.O.P": 1092
+      },
+      "Charlotte": {
+        "Score": 21,
+        "First Downs": 12,
+        "Total Offense": 298,
+        "Total Plays": 39,
+        "Rushes - Yards - TDs": [
+          18,
+          150,
+          1
+        ],
+        "Comp - Att - TDs": [
+          15,
+          21,
+          2
+        ],
+        "Passing Yards": 148,
+        "3rd Down Conv.": [
+          1,
+          5
+        ],
+        "4th Down Conv.": [
+          1,
+          2
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          2,
+          0,
+          4
+        ],
+        "Turnovers": 2,
+        "Fumble Lost": 0,
+        "Interceptions": 2,
+        "PR Yards": 17,
+        "KR Yards": 0,
+        "Total Yards": 315,
+        "Punts - Avg": [
+          2,
+          94
+        ],
+        "Penalties - Yards": [
+          2,
+          15
+        ],
+        "T.O.P": 1068
+      }
+    },
+    "notes": []
+  },
+  "Eastern Michigan | Sacramento State": {
+    "teams": [
+      "Eastern Michigan",
+      "Sacramento State"
+    ],
+    "sources": [
+      [
+        5618,
+        41
+      ],
+      [
+        5618,
+        42
+      ],
+      [
+        5618,
+        43
+      ],
+      [
+        5618,
+        44
+      ]
+    ],
+    "values": {
+      "Sacramento State": {
+        "Score": 20,
+        "First Downs": 17,
+        "Total Offense": 292,
+        "Total Plays": 49,
+        "Rushes - Yards - TDs": [
+          18,
+          95,
+          1
+        ],
+        "Comp - Att - TDs": [
+          21,
+          31,
+          1
+        ],
+        "Passing Yards": 197,
+        "3rd Down Conv.": [
+          4,
+          10
+        ],
+        "4th Down Conv.": [
+          2,
+          3
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          1,
+          2,
+          4
+        ],
+        "PR Yards": 23,
+        "KR Yards": 22,
+        "Turnovers": 0,
+        "Fumble Lost": 0,
+        "Interceptions": 0,
+        "Total Yards": 337,
+        "Punts - Avg": [
+          2,
+          101
+        ],
+        "Penalties - Yards": [
+          0,
+          0
+        ],
+        "T.O.P": 1166
+      },
+      "Eastern Michigan": {
+        "Score": 17,
+        "First Downs": 12,
+        "Total Offense": 228,
+        "Total Plays": 35,
+        "Rushes - Yards - TDs": [
+          20,
+          158,
+          2
+        ],
+        "Comp - Att - TDs": [
+          11,
+          15,
+          0
+        ],
+        "Passing Yards": 70,
+        "3rd Down Conv.": [
+          4,
+          7
+        ],
+        "4th Down Conv.": [
+          0,
+          0
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          1,
+          1,
+          3
+        ],
+        "PR Yards": 13,
+        "KR Yards": 98,
+        "Interceptions": 1,
+        "Total Yards": 330,
+        "Turnovers": 1,
+        "Fumble Lost": 0,
+        "Punts - Avg": [
+          2,
+          100
+        ],
+        "Penalties - Yards": [
+          0,
+          0
+        ],
+        "T.O.P": 994
+      }
+    },
+    "notes": []
+  },
+  "Eastern Michigan | Toledo": {
+    "teams": [
+      "Eastern Michigan",
+      "Toledo"
+    ],
+    "sources": [
+      [
+        5618,
+        49
+      ],
+      [
+        5618,
+        50
+      ],
+      [
+        5618,
+        51
+      ],
+      [
+        5618,
+        52
+      ],
+      [
+        5618,
+        53
+      ],
+      [
+        5618,
+        54
+      ]
+    ],
+    "values": {
+      "Eastern Michigan": {
+        "Score": 14,
+        "First Downs": 14,
+        "Total Offense": 214,
+        "Total Plays": 44,
+        "Rushes - Yards - TDs": [
+          17,
+          18,
+          1
+        ],
+        "Comp - Att - TDs": [
+          19,
+          27,
+          1
+        ],
+        "Passing Yards": 196,
+        "3rd Down Conv.": [
+          1,
+          7
+        ],
+        "4th Down Conv.": [
+          2,
+          4
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          1,
+          0,
+          2
+        ],
+        "Turnovers": 0,
+        "Fumble Lost": 0,
+        "Interceptions": 0,
+        "PR Yards": 45,
+        "KR Yards": 57,
+        "Total Yards": 318,
+        "Punts - Avg": [
+          1,
+          46
+        ],
+        "Penalties - Yards": [
+          3,
+          21
+        ],
+        "T.O.P": 1178
+      },
+      "Toledo": {
+        "Score": 17,
+        "First Downs": 9,
+        "Total Offense": 223,
+        "Total Plays": 37,
+        "Rushes - Yards - TDs": [
+          26,
+          88,
+          1
+        ],
+        "Comp - Att - TDs": [
+          7,
+          11,
+          1
+        ],
+        "Passing Yards": 135,
+        "3rd Down Conv.": [
+          5,
+          10
+        ],
+        "4th Down Conv.": [
+          0,
+          1
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          1,
+          1,
+          4
+        ],
+        "Fumble Lost": 0,
+        "Interceptions": 0,
+        "KR Yards": 0,
+        "Total Yards": 224,
+        "Punts - Avg": [
+          2,
+          101
+        ],
+        "Turnovers": 0,
+        "PR Yards": 1,
+        "Penalties - Yards": [
+          0,
+          0
+        ],
+        "T.O.P": 982
+      }
+    },
+    "notes": []
+  },
+  "Eastern Michigan | Ohio": {
+    "teams": [
+      "Eastern Michigan",
+      "Ohio"
+    ],
+    "sources": [
+      [
+        5618,
+        60
+      ],
+      [
+        5618,
+        61
+      ],
+      [
+        5618,
+        62
+      ],
+      [
+        5618,
+        63
+      ],
+      [
+        5618,
+        64
+      ],
+      [
+        5618,
+        65
+      ]
+    ],
+    "values": {
+      "Eastern Michigan": {
+        "Score": 17,
+        "First Downs": 12,
+        "Total Offense": 213,
+        "Total Plays": 45,
+        "Rushes - Yards - TDs": [
+          22,
+          115,
+          2
+        ],
+        "Comp - Att - TDs": [
+          20,
+          23,
+          0
+        ],
+        "Passing Yards": 98,
+        "3rd Down Conv.": [
+          6,
+          11
+        ],
+        "4th Down Conv.": [
+          1,
+          2
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          2,
+          1,
+          3
+        ],
+        "Turnovers": 1,
+        "Fumble Lost": 0,
+        "Interceptions": 1,
+        "PR Yards": 0,
+        "KR Yards": 53,
+        "Total Yards": 266,
+        "Punts - Avg": [
+          1,
+          37
+        ],
+        "Penalties - Yards": [
+          1,
+          10
+        ],
+        "T.O.P": 1304
+      },
+      "Ohio": {
+        "Score": 23,
+        "First Downs": 16,
+        "Total Offense": 257,
+        "Total Plays": 49,
+        "Rushes - Yards - TDs": [
+          20,
+          74,
+          0
+        ],
+        "Comp - Att - TDs": [
+          23,
+          29,
+          3
+        ],
+        "Passing Yards": 183,
+        "3rd Down Conv.": [
+          8,
+          11
+        ],
+        "4th Down Conv.": [
+          0,
+          0
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          2,
+          0,
+          3
+        ],
+        "Turnovers": 2,
+        "Fumble Lost": 1,
+        "PR Yards": 0,
+        "KR Yards": 11,
+        "Total Yards": 268,
+        "Punts - Avg": [
+          1,
+          51
+        ],
+        "Interceptions": 1,
+        "Penalties - Yards": [
+          0,
+          0
+        ],
+        "T.O.P": 856
+      }
+    },
+    "notes": []
+  },
+  "Eastern Michigan | Kent State": {
+    "teams": [
+      "Eastern Michigan",
+      "Kent State"
+    ],
+    "sources": [
+      [
+        5618,
+        72
+      ],
+      [
+        5618,
+        73
+      ],
+      [
+        5618,
+        74
+      ],
+      [
+        5618,
+        75
+      ],
+      [
+        5618,
+        76
+      ],
+      [
+        5618,
+        77
+      ],
+      [
+        5618,
+        78
+      ],
+      [
+        5618,
+        79
+      ]
+    ],
+    "values": {
+      "Eastern Michigan": {
+        "Score": 10,
+        "First Downs": 10,
+        "Total Offense": 177,
+        "Total Plays": 37,
+        "Rushes - Yards - TDs": [
+          15,
+          94,
+          0
+        ],
+        "Comp - Att - TDs": [
+          12,
+          22,
+          1
+        ],
+        "Passing Yards": 83,
+        "3rd Down Conv.": [
+          3,
+          9
+        ],
+        "4th Down Conv.": [
+          0,
+          1
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          1,
+          1,
+          5
+        ],
+        "PR Yards": 31,
+        "Turnovers": 1,
+        "Fumble Lost": 0,
+        "Interceptions": 1,
+        "KR Yards": 126,
+        "Total Yards": 334,
+        "Punts - Avg": [
+          4,
+          215
+        ],
+        "Penalties - Yards": [
+          1,
+          5
+        ],
+        "T.O.P": 922
+      },
+      "Kent State": {
+        "Score": 16,
+        "First Downs": 12,
+        "Total Offense": 252,
+        "Total Plays": 47,
+        "Rushes - Yards - TDs": [
+          26,
+          82,
+          1
+        ],
+        "Comp - Att - TDs": [
+          18,
+          21,
+          0
+        ],
+        "Passing Yards": 170,
+        "3rd Down Conv.": [
+          5,
+          13
+        ],
+        "4th Down Conv.": [
+          2,
+          2
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          1,
+          2,
+          3
+        ],
+        "Turnovers": 0,
+        "Fumble Lost": 0,
+        "Interceptions": 0,
+        "PR Yards": 56,
+        "KR Yards": 32,
+        "Total Yards": 340,
+        "Punts - Avg": [
+          4,
+          182
+        ],
+        "Penalties - Yards": [
+          2,
+          20
+        ],
+        "T.O.P": 1238
+      }
+    },
+    "notes": []
+  },
+  "Buffalo | Eastern Michigan": {
+    "teams": [
+      "Buffalo",
+      "Eastern Michigan"
+    ],
+    "sources": [
+      [
+        5618,
+        85
+      ],
+      [
+        5618,
+        86
+      ],
+      [
+        5618,
+        87
+      ],
+      [
+        5618,
+        88
+      ],
+      [
+        5618,
+        89
+      ],
+      [
+        5618,
+        90
+      ]
+    ],
+    "values": {
+      "Buffalo": {
+        "First Downs": 8,
+        "Total Offense": 157,
+        "Total Plays": 36,
+        "Rushes - Yards - TDs": [
+          16,
+          57,
+          0
+        ],
+        "Comp - Att - TDs": [
+          17,
+          20,
+          0
+        ],
+        "Passing Yards": 100,
+        "3rd Down Conv.": [
+          4,
+          10
+        ],
+        "4th Down Conv.": [
+          0,
+          0
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          0,
+          0,
+          null
+        ],
+        "Turnovers": 3,
+        "Fumble Lost": 3,
+        "Interceptions": 0,
+        "PR Yards": 19,
+        "KR Yards": 0,
+        "Total Yards": 176,
+        "Punts - Avg": [
+          4,
+          158
+        ],
+        "Penalties - Yards": [
+          0,
+          0
+        ],
+        "T.O.P": 997,
+        "Score": 3
+      },
+      "Eastern Michigan": {
+        "Total Offense": 140,
+        "Total Plays": 40,
+        "Rushes - Yards - TDs": [
+          27,
+          77,
+          0
+        ],
+        "Comp - Att - TDs": [
+          8,
+          13,
+          1
+        ],
+        "Passing Yards": 63,
+        "3rd Down Conv.": [
+          2,
+          9
+        ],
+        "4th Down Conv.": [
+          0,
+          0
+        ],
+        "Score": 10,
+        "First Downs": 9,
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          1,
+          1,
+          4
+        ],
+        "Turnovers": 0,
+        "Fumble Lost": 0,
+        "Interceptions": 0,
+        "PR Yards": 17,
+        "KR Yards": 42,
+        "Total Yards": 190,
+        "Punts - Avg": [
+          5,
+          213
+        ],
+        "Penalties - Yards": [
+          2,
+          15
+        ],
+        "T.O.P": 1163
+      }
+    },
+    "notes": []
+  },
+  "Bowling Green | Eastern Michigan": {
+    "teams": [
+      "Bowling Green",
+      "Eastern Michigan"
+    ],
+    "sources": [
+      [
+        5618,
+        96
+      ],
+      [
+        5618,
+        97
+      ],
+      [
+        5618,
+        98
+      ],
+      [
+        5618,
+        99
+      ],
+      [
+        5618,
+        100
+      ]
+    ],
+    "values": {
+      "Eastern Michigan": {
+        "Score": 10,
+        "First Downs": 10,
+        "Total Offense": 159,
+        "Total Plays": 37,
+        "Rushes - Yards - TDs": [
+          16,
+          26,
+          0
+        ],
+        "Comp - Att - TDs": [
+          11,
+          21,
+          1
+        ],
+        "Passing Yards": 133,
+        "3rd Down Conv.": [
+          4,
+          9
+        ],
+        "4th Down Conv.": [
+          0,
+          0
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          1,
+          1,
+          2
+        ],
+        "Fumble Lost": 0,
+        "Turnovers": 1,
+        "Interceptions": 1,
+        "PR Yards": 15,
+        "KR Yards": 72,
+        "Total Yards": 248,
+        "Punts - Avg": [
+          3,
+          134
+        ],
+        "Penalties - Yards": [
+          2,
+          10
+        ],
+        "T.O.P": 884
+      },
+      "Bowling Green": {
+        "Score": 17,
+        "First Downs": 15,
+        "Total Offense": 253,
+        "Total Plays": 41,
+        "Rushes - Yards - TDs": [
+          23,
+          102,
+          0
+        ],
+        "Comp - Att - TDs": [
+          17,
+          18,
+          2
+        ],
+        "Passing Yards": 151,
+        "3rd Down Conv.": [
+          4,
+          8
+        ],
+        "4th Down Conv.": [
+          0,
+          0
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          1,
+          1,
+          3
+        ],
+        "Fumble Lost": 0,
+        "Interceptions": 0,
+        "PR Yards": 7,
+        "KR Yards": 33,
+        "Total Yards": 293,
+        "Punts - Avg": [
+          3,
+          120
+        ],
+        "Penalties - Yards": [
+          0,
+          0
+        ],
+        "Turnovers": 0,
+        "T.O.P": 1276
+      }
+    },
+    "notes": []
+  },
+  "Akron | Eastern Michigan": {
+    "teams": [
+      "Akron",
+      "Eastern Michigan"
+    ],
+    "sources": [
+      [
+        5618,
+        107
+      ],
+      [
+        5618,
+        108
+      ],
+      [
+        5618,
+        109
+      ],
+      [
+        5618,
+        110
+      ],
+      [
+        5618,
+        111
+      ],
+      [
+        5618,
+        112
+      ]
+    ],
+    "values": {
+      "Akron": {
+        "First Downs": 11,
+        "Total Offense": 187,
+        "Total Plays": 45,
+        "Rushes - Yards - TDs": [
+          17,
+          90,
+          0
+        ],
+        "Comp - Att - TDs": [
+          15,
+          28,
+          0
+        ],
+        "Passing Yards": 97,
+        "3rd Down Conv.": [
+          2,
+          9
+        ],
+        "4th Down Conv.": [
+          1,
+          5
+        ],
+        "Score": 0,
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          0,
+          0,
+          null
+        ],
+        "Turnovers": 2,
+        "Fumble Lost": 0,
+        "Interceptions": 2,
+        "KR Yards": 20,
+        "Total Yards": 207,
+        "Punts - Avg": [
+          2,
+          104
+        ],
+        "PR Yards": 0,
+        "Penalties - Yards": [
+          0,
+          0
+        ],
+        "T.O.P": 1009
+      },
+      "Eastern Michigan": {
+        "First Downs": 15,
+        "Total Offense": 249,
+        "Total Plays": 43,
+        "Rushes - Yards - TDs": [
+          20,
+          102,
+          3
+        ],
+        "Comp - Att - TDs": [
+          15,
+          23,
+          0
+        ],
+        "Passing Yards": 147,
+        "3rd Down Conv.": [
+          2,
+          8
+        ],
+        "4th Down Conv.": [
+          1,
+          1
+        ],
+        "Score": 28,
+        "2-Point Conv.": [
+          1,
+          1
+        ],
+        "Red Zone TD-FG-%": [
+          2,
+          1,
+          4
+        ],
+        "Turnovers": 0,
+        "Fumble Lost": 0,
+        "KR Yards": 21,
+        "Total Yards": 286,
+        "Punts - Avg": [
+          2,
+          92
+        ],
+        "PR Yards": 16,
+        "Interceptions": 0,
+        "Penalties - Yards": [
+          0,
+          0
+        ],
+        "T.O.P": 1151
+      }
+    },
+    "notes": []
+  },
+  "Arkansas State | Coastal Carolina": {
+    "teams": [
+      "Arkansas State",
+      "Coastal Carolina"
+    ],
+    "sources": [
+      [
+        5624,
+        null
+      ],
+      [
+        5625,
+        null
+      ]
+    ],
+    "sourceFiles": [
+      "2027/Additional Items/IMG_5624.HEIC",
+      "2027/Additional Items/IMG_5625.HEIC"
+    ],
+    "values": {
+      "Arkansas State": {
+        "Score": 44,
+        "First Downs": 22,
+        "Total Offense": 498,
+        "Total Plays": 81,
+        "Rushes - Yards - TDs": [
+          30,
+          110,
+          4
+        ],
+        "Comp - Att - TDs": [
+          30,
+          51,
+          2
+        ],
+        "Passing Yards": 388,
+        "3rd Down Conv.": [
+          4,
+          13
+        ],
+        "4th Down Conv.": [
+          2,
+          2
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          4,
+          1,
+          6
+        ],
+        "Turnovers": 3,
+        "Fumble Lost": 1,
+        "Interceptions": 2,
+        "PR Yards": 0,
+        "KR Yards": 110,
+        "Total Yards": 608,
+        "Punts - Avg": [
+          6,
+          215
+        ],
+        "Penalties - Yards": [
+          9,
+          85
+        ],
+        "T.O.P": 2431
+      },
+      "Coastal Carolina": {
+        "Score": 38,
+        "First Downs": 13,
+        "Total Offense": 390,
+        "Total Plays": 78,
+        "Rushes - Yards - TDs": [
+          51,
+          211,
+          3
+        ],
+        "Comp - Att - TDs": [
+          13,
+          27,
+          2
+        ],
+        "Passing Yards": 179,
+        "3rd Down Conv.": [
+          6,
+          18
+        ],
+        "4th Down Conv.": [
+          0,
+          0
+        ],
+        "2-Point Conv.": [
+          0,
+          0
+        ],
+        "Red Zone TD-FG-%": [
+          4,
+          1,
+          6
+        ],
+        "Turnovers": 3,
+        "Fumble Lost": 0,
+        "Interceptions": 3,
+        "PR Yards": 0,
+        "KR Yards": 0,
+        "Total Yards": 390,
+        "Punts - Avg": [
+          6,
+          273
+        ],
+        "Penalties - Yards": [
+          8,
+          61
+        ],
+        "T.O.P": 2069
+      }
+    },
+    "notes": [
+      "Upper and lower team box read from IMG_5624/5625. Both red-zone lines show 4 TD, 1 FG, 83%, identifying six attempts. Punt yardage is confirmed by the individual lines in IMG_5622.",
+      "Arkansas State team rushing line is 30 carries, 110 yards, 4 TD; the captured individual rushing rows total 29 carries, 110 yards, 3 TD. The missing one-carry zero-yard TD is not assigned to an individual."
+    ]
+  }
+}

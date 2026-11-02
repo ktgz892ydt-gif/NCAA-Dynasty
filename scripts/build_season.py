@@ -118,6 +118,14 @@ def build(season, root=ROOT):
                 d['sorMethod']={'ranked_teams':len(eligible),'benchmark_srs':None,'unavailable':'Insufficient results for a stable probability fit.'}
         update_efficiency(d)
         d['teams']=allshort
+    if not legacy and (inp/'national-leaders.json').exists():
+        national=read(inp/'national-leaders.json')
+        allowed={m['key'] for m in metrics}
+        for key, rows in national.items():
+            if key not in allowed or any(set(r)!={'t','v'} or not isinstance(r['v'],(int,float)) for r in rows):
+                raise ValueError('Invalid national statistical leaders input.')
+        d['nationalLeaders'].update(national)
+        d['nationalStatCoverage']=read(inp/'national-stat-coverage.json')
     sources=[read(p) for p in sorted((folder/'leaders').glob('*.json'))]
     for s in sources:
         d['playerLeaders'].setdefault(s['category'],{'columns':s['columns'],'sortedBy':s['sortedBy'],'rows':[]})
@@ -129,6 +137,7 @@ def build(season, root=ROOT):
         'sortedBy':source_by_category.get(k,{}).get('sortedBy',v.get('sortedBy')),
         'scope':source_by_category.get(k,{}).get('screen','Recorded player list'),
         'teams':'Only verified schools are attributed.'} for k,v in d['playerLeaders'].items()}
+    if not legacy and (inp/'av-notes.json').exists():d['avNotes']=read(inp/'av-notes.json')
     if legacy:reconcile(d,read(inp/'verified-corrections.json'))
     else:
         for m in d['statMeta']:m['hide']=m['key'] in ['srs','sos','sor','mov']

@@ -1,0 +1,16 @@
+{
+  "equalShare": [
+    {
+      "team": "Central Michigan",
+      "name": "J.Taylor",
+      "category": "DEFENSE",
+      "games": [
+        "Central Michigan | Western Michigan | Championship",
+        "Central Michigan | Tennessee"
+      ],
+      "authorization": "User instruction: Just average it out",
+      "date": "2026-11-02",
+      "method": "For each game and field, split the combined two same-name lines equally. Team totals remain exact; individual results are estimates."
+    }
+  ]
+}
